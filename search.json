@@ -41,6 +41,28 @@
     }
   },
   {
+    "id": "hebiiro.al2_wav_saver",
+    "latest-version": "r3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_wav_saver",
+      "regex": "^al2_wav_saver_r.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "al2_wav_saver_s16.auo2",
+            "al2_wav_saver_f32.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2_wav_saver_s16.auo2",
+            "{pluginsDir}/al2_wav_saver_f32.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "rigaya.x264guiEx",
     "latest-version": "4.03",
     "checkType": {

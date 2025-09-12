@@ -360,6 +360,104 @@
     ]
   },
   {
+    "id": "hebiiro.al2_wav_saver",
+    "name": "WAVファイル出力",
+    "type": "出力プラグイン",
+    "summary": "WAVファイルを出力するプラグインです。",
+    "description": "aviutl2用の出力プラグインです。音声のみを32bit floatまたは16bit shortのWAV形式で出力します。",
+    "author": "hebiiro",
+    "repoURL": "https://github.com/hebiiro/al2_wav_saver/",
+    "latest-version": "r3",
+    "license": "MIT",
+    "tags": [
+      "音声"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "hebiiro",
+          "repo": "al2_wav_saver",
+          "pattern": "^al2_wav_saver_r.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract",
+          "to": "{tmp}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/al2_wav_saver_s16.auo2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/al2_wav_saver_f32.auo2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2_wav_saver_s16.auo2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2_wav_saver_f32.auo2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/raw_wav_saver.auo2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r1",
+        "release_date": "2025-07-14",
+        "file": [
+          {
+            "path": "{pluginsDir}/raw_wav_saver.auo2",
+            "XXH3_128": "fb6342095321c06af8d2b1aab4b60a94"
+          }
+        ]
+      },
+      {
+        "version": "r2",
+        "release_date": "2025-07-14",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_wav_saver_s16.auo2",
+            "XXH3_128": "87656b66dbf171c4f097e1c0486e5c72"
+          },
+          {
+            "path": "{pluginsDir}/al2_wav_saver_f32.auo2",
+            "XXH3_128": "0e5164304ec901da4671df365deb49a6"
+          }
+        ]
+      },
+      {
+        "version": "r3",
+        "release_date": "2025-07-14",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_wav_saver_s16.auo2",
+            "XXH3_128": "5b2e57836c99028cf7338f89ff511fc5"
+          },
+          {
+            "path": "{pluginsDir}/al2_wav_saver_f32.auo2",
+            "XXH3_128": "10359b527a54e414b4b5eafb5111794e"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "rigaya.x264guiEx",
     "name": "x264guiEx",
     "type": "出力プラグイン",
