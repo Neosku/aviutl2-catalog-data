@@ -1034,6 +1034,108 @@
     ]
   },
   {
+    "id": "rigaya.svtAV1guiEx",
+    "name": "svtAV1guiEx",
+    "type": "出力プラグイン",
+    "summary": "拡張 SVT-AV1 出力(GUI) Ex",
+    "description": "拡張 SVT-AV1 出力(GUI) Ex (svtAV1guiEx) は、SVT-AV1を使用してエンコードを行うAviutlの出力プラグインです。",
+    "author": "rigaya",
+    "repoURL": "https://github.com/rigaya/svtAV1guiEx",
+    "latest-version": "2.01",
+    "license": "MIT",
+    "tags": [
+      "エンコード"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "rigaya",
+          "repo": "svtAV1guiEx",
+          "pattern": "^AviUtl2_svtAV1guiEx.*install\\.exe$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "run",
+          "path": "{download}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/svtAV1guiEx.auo2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/svtAV1guiEx.conf"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/svtAV1guiEx.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/svtAV1guiEx.en.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/svtAV1guiEx.zh.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/svtAV1guiEx_stg/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "1.28",
+        "release_date": "2025-07-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/svtAV1guiEx.auo",
+            "XXH3_128": "c162d3efab802ef5b7f9425e0dbf60af"
+          }
+        ]
+      },
+      {
+        "version": "1.29",
+        "release_date": "2025-07-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/svtAV1guiEx.auo",
+            "XXH3_128": "fc510b623147662d618b1c66f06802ab"
+          }
+        ]
+      },
+      {
+        "version": "2.00",
+        "release_date": "2025-08-19",
+        "file": [
+          {
+            "path": "{pluginsDir}/svtAV1guiEx.auo2",
+            "XXH3_128": "ca4ae4a8212f5c8780af0fa6cd1b30e8"
+          }
+        ]
+      },
+      {
+        "version": "2.01",
+        "release_date": "2025-09-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/svtAV1guiEx.auo2",
+            "XXH3_128": "168e2856893e46097d2ca291b4761518"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "Mr-Ojii.L-SMASH-Works",
     "name": "L-SMASH-Works",
     "type": "入力プラグイン",
@@ -1041,7 +1143,7 @@
     "description": "VFR-maniac氏によるL-SMASH Worksの派生版であり、Mr-Ojii氏が提供する自動ビルド版。AviUtlおよびAviUtl ExEdit2向けに最適化されており、多種多様なメディア形式の入力に対応した入力プラグインです。",
     "author": "Mr-Ojii",
     "repoURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds",
-    "latest-version": "r1244",
+    "latest-version": "r1245",
     "license": "MIT",
     "tags": [
       "必須"

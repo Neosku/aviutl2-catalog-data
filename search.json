@@ -159,5 +159,25 @@
         }
       ]
     }
+  },
+  {
+    "id": "rigaya.svtAV1guiEx",
+    "latest-version": "2.01",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rigaya/svtAV1guiEx",
+      "regex": "AviUtl2_svtAV1guiEx.*install\\.exe",
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugins\\svtAV1guiEx.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/svtAV1guiEx.auo2"
+          ]
+        }
+      ]
+    }
   }
 ]
