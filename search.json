@@ -120,7 +120,7 @@
       ]
     }
   },
-    {
+  {
     "id": "rigaya.ffmpegOut",
     "latest-version": "2.02",
     "checkType": {
@@ -135,6 +135,26 @@
           ],
           "recordPaths": [
             "{pluginsDir}/ffmpegOut.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "rigaya.VCEEnc",
+    "latest-version": "9.00",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rigaya/VCEEnc",
+      "regex": "AviUtl2_VCEEnc.*install\\.exe",
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugins\\VCEEnc.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/VCEEnc.auo2"
           ]
         }
       ]

@@ -942,6 +942,98 @@
     ]
   },
   {
+    "id": "rigaya.VCEEnc",
+    "name": "VCEEnc",
+    "type": "出力プラグイン",
+    "summary": "VCEによる高速エンコードの性能実験",
+    "description": "このソフトウェアは、AMDのGPU/APUに搭載されているHWエンコーダ(VCE/VCN)の画質や速度といった性能の実験を目的としています。",
+    "author": "rigaya",
+    "repoURL": "https://github.com/rigaya/VCEEnc",
+    "latest-version": "9.00",
+    "license": "MIT",
+    "tags": [
+      "エンコード"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "rigaya",
+          "repo": "VCEEnc",
+          "pattern": "^AviUtl2_VCEEnc.*install\\.exe$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "run",
+          "path": "{download}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VCEEnc.auo2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VCEEnc.conf"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VCEEnc.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VCEEnc.en.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VCEEnc.zh.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VCEEnc_stg/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "8.37",
+        "release_date": "2025-06-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/VCEEnc.auo",
+            "XXH3_128": "87531c85d781ef75cb890393d0b70915"
+          }
+        ]
+      },
+      {
+        "version": "8.38",
+        "release_date": "2025-07-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/VCEEnc.auo",
+            "XXH3_128": "8e31a5b77ee0238dd3818492f7e94a0f"
+          }
+        ]
+      },
+      {
+        "version": "9.00",
+        "release_date": "2025-09-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/VCEEnc.auo2",
+            "XXH3_128": "5d8a5350f0771b4185d53f19c0a1671f"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "Mr-Ojii.L-SMASH-Works",
     "name": "L-SMASH-Works",
     "type": "入力プラグイン",
