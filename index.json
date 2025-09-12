@@ -10,7 +10,7 @@
         "latest-version": "beta10",
         "license": "MIT",
         "tags": [
-            "UI"
+            "必須"
         ],
         "dependencies": [],
         "images": [],
@@ -360,6 +360,374 @@
         ]
     },
     {
+        "id": "rigaya.x264guiEx",
+        "name": "x264guiEx",
+        "type": "出力プラグイン",
+        "summary": "x264を使用してエンコードを行うAviutlの出力プラグインです。",
+        "description": "拡張 x264 出力(GUI) Ex (x264guiEx) は、x264を使用してエンコードを行うAviutlの出力プラグインです。\nseraphy氏 拡張 x264 出力(GUI) を改造し、x264を分離し、別プロセスとして実行できるようにしたものです。",
+        "author": "rigaya",
+        "repoURL": "https://github.com/rigaya/x264guiEx",
+        "latest-version": "4.03",
+        "license": "MIT",
+        "tags": [
+            "必須",
+            "エンコード"
+        ],
+        "dependencies": [],
+        "images": [],
+        "installer": {
+            "source": {
+                "github": {
+                    "owner": "rigaya",
+                    "repo": "x264guiEx",
+                    "pattern": "^AviUtl2_x264guiEx.*install\\.exe$"
+                }
+            },
+            "install": [
+                {
+                    "action": "download"
+                },
+                {
+                    "action": "run",
+                    "path": "{download}"
+                }
+            ],
+            "uninstall": [
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/x264guiEx.auo2"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/x264guiEx.conf"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/x264guiEx.ini"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/x264guiEx.en.ini"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/x264guiEx.zh.ini"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/x264guiEx_stg/"
+                }
+            ]
+        },
+        "version": [
+            {
+                "version": "3.32",
+                "release_date": "2025-07-08",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/x264guiEx.auo",
+                        "XXH3_128": "d0222e062a092b5527745a886c74d948"
+                    }
+                ]
+            },
+            {
+                "version": "3.33",
+                "release_date": "2025-07-12",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/x264guiEx.auo",
+                        "XXH3_128": "5c241397b2c3800b4968874ca2206787"
+                    }
+                ]
+            },
+            {
+                "version": "4.00",
+                "release_date": "2025-08-14",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/x264guiEx.auo2",
+                        "XXH3_128": "57cf3939fe7e1c16cb536444b9851077"
+                    }
+                ]
+            },
+            {
+                "version": "4.01",
+                "release_date": "2025-08-17",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/x264guiEx.auo2",
+                        "XXH3_128": "c72850f3d1400b67b53ce505ccdceca2"
+                    }
+                ]
+            },
+            {
+                "version": "4.02",
+                "release_date": "2025-08-25",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/x264guiEx.auo2",
+                        "XXH3_128": "75162f5968b580075c71222217c53bbb"
+                    }
+                ]
+            },
+            {
+                "version": "4.03",
+                "release_date": "2025-09-05",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/x264guiEx.auo2",
+                        "XXH3_128": "80f78c39ee2204f96441301d93544fc2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "rigaya.x265guiEx",
+        "name": "x265guiEx",
+        "type": "出力プラグイン",
+        "summary": "x265を使用してエンコードを行うAviutlの出力プラグインです。",
+        "description": "x265を使用してエンコードを行うAviutlの出力プラグインです。",
+        "author": "rigaya",
+        "repoURL": "https://github.com/rigaya/x265guiEx",
+        "latest-version": "5.02",
+        "license": "MIT",
+        "tags": [
+            "必須",
+            "エンコード"
+        ],
+        "dependencies": [],
+        "images": [],
+        "installer": {
+            "source": {
+                "github": {
+                    "owner": "rigaya",
+                    "repo": "x265guiEx",
+                    "pattern": "^AviUtl2_x265guiEx.*install\\.exe$"
+                }
+            },
+            "install": [
+                {
+                    "action": "download"
+                },
+                {
+                    "action": "run",
+                    "path": "{download}"
+                }
+            ],
+            "uninstall": [
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/x265guiEx.auo2"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/x265guiEx.conf"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/x265guiEx.ini"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/x265guiEx.en.ini"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/x265guiEx.zh.ini"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/x265guiEx_stg/"
+                }
+            ]
+        },
+        "version": [
+            {
+                "version": "4.22",
+                "release_date": "2025-07-08",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/x265guiEx.auo",
+                        "XXH3_128": "7f1fd4e90afb5d5111a8f71f2309aa29"
+                    }
+                ]
+            },
+            {
+                "version": "4.23",
+                "release_date": "2025-07-13",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/x265guiEx.auo",
+                        "XXH3_128": "3f8e7d2be58bf1c14a8b31a550876930"
+                    }
+                ]
+            },
+            {
+                "version": "5.00",
+                "release_date": "2025-08-19",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/x265guiEx.auo2",
+                        "XXH3_128": "dfa9440a753ffa6be44443fd902a9f83"
+                    }
+                ]
+            },
+            {
+                "version": "5.01",
+                "release_date": "2025-08-25",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/x265guiEx.auo2",
+                        "XXH3_128": "75641a331cf279d91b90bf54defb1dd7"
+                    }
+                ]
+            },
+            {
+                "version": "5.02",
+                "release_date": "2025-09-05",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/x265guiEx.auo2",
+                        "XXH3_128": "94d4a52b1bf314ea4350f09c1006dd17"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "rigaya.NVEnc",
+        "name": "NVEnc",
+        "type": "出力プラグイン",
+        "summary": "NVENCによる高速エンコードの性能実験",
+        "description": "このソフトウェアは、NVIDIAのGPU/APUに搭載されているHWエンコーダ(NVENC)の画質や速度といった性能の実験を目的としています。",
+        "author": "rigaya",
+        "repoURL": "https://github.com/rigaya/NVEnc",
+        "latest-version": "9.01",
+        "license": "MIT",
+        "tags": [
+            "エンコード"
+        ],
+        "dependencies": [],
+        "images": [],
+        "installer": {
+            "source": {
+                "github": {
+                    "owner": "rigaya",
+                    "repo": "NVEnc",
+                    "pattern": "^AviUtl2_NVEnc.*install\\.exe$"
+                }
+            },
+            "install": [
+                {
+                    "action": "download"
+                },
+                {
+                    "action": "run",
+                    "path": "{download}"
+                }
+            ],
+            "uninstall": [
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/NVEnc.auo2"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/NVEnc.conf"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/NVEnc.ini"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/NVEnc.en.ini"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/NVEnc.zh.ini"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/NVEnc_stg/"
+                }
+            ]
+        },
+        "version": [
+            {
+                "version": "8.07",
+                "release_date": "2025-06-23",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/NVEnc.auo",
+                        "XXH3_128": "696be816e76e6374faefb8df1f32ede6"
+                    }
+                ]
+            },
+            {
+                "version": "8.08",
+                "release_date": "2025-07-16",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/NVEnc.auo",
+                        "XXH3_128": "0eaf63dbf46a3f66d142f3b3bcec8425"
+                    }
+                ]
+            },
+            {
+                "version": "8.09",
+                "release_date": "2025-07-16",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/NVEnc.auo",
+                        "XXH3_128": "56bea3f4a0a13b513c9315d07479964b"
+                    }
+                ]
+            },
+            {
+                "version": "8.10",
+                "release_date": "2025-07-31",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/NVEnc.auo",
+                        "XXH3_128": "a36d3232a7c826aa6ee4731f1a8abf4a"
+                    }
+                ]
+            },
+            {
+                "version": "8.11",
+                "release_date": "2025-08-13",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/NVEnc.auo",
+                        "XXH3_128": "b16095e08a3b6ad9fd4b4e9242c99692"
+                    }
+                ]
+            },
+            {
+                "version": "9.00",
+                "release_date": "2025-08-30",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/NVEnc.auo2",
+                        "XXH3_128": "11ab67ec93fdde245141d74317a33101"
+                    }
+                ]
+            },
+            {
+                "version": "9.01",
+                "release_date": "2025-09-05",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/NVEnc.auo2",
+                        "XXH3_128": "c4cbea78c94d7b24e298444c935cd07f"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "Mr-Ojii.L-SMASH-Works",
         "name": "L-SMASH-Works",
         "type": "入力プラグイン",
@@ -621,242 +989,6 @@
                     {
                         "path": "{pluginsDir}/lwinput.aui2",
                         "XXH3_128": "7ca75be845bae00887e65f171b09a40c"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "rigaya.x264guiEx",
-        "name": "x264guiEx",
-        "type": "出力プラグイン",
-        "summary": "x264を使用してエンコードを行うAviutlの出力プラグインです。",
-        "description": "拡張 x264 出力(GUI) Ex (x264guiEx) は、x264を使用してエンコードを行うAviutlの出力プラグインです。\nseraphy氏 拡張 x264 出力(GUI) を改造し、x264を分離し、別プロセスとして実行できるようにしたものです。",
-        "author": "x264guiEx",
-        "repoURL": "https://github.com/rigaya/x264guiEx",
-        "latest-version": "4.03",
-        "license": "MIT",
-        "tags": [
-            "必須",
-            "エンコード"
-        ],
-        "dependencies": [],
-        "images": [],
-        "installer": {
-            "source": {
-                "github": {
-                    "owner": "rigaya",
-                    "repo": "x264guiEx",
-                    "pattern": "^AviUtl2_x264guiEx.*install\\.exe$"
-                }
-            },
-            "install": [
-                {
-                    "action": "download"
-                },
-                {
-                    "action": "run",
-                    "path": "{download}"
-                }
-            ],
-            "uninstall": [
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x264guiEx.auo2"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x264guiEx.conf"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x264guiEx.ini"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x264guiEx.en.ini"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x264guiEx.zh.ini"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x264guiEx_stg/"
-                }
-            ]
-        },
-        "version": [
-            {
-                "version": "3.32",
-                "release_date": "2025-07-08",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x264guiEx.auo",
-                        "XXH3_128": "d0222e062a092b5527745a886c74d948"
-                    }
-                ]
-            },
-            {
-                "version": "3.33",
-                "release_date": "2025-07-12",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x264guiEx.auo",
-                        "XXH3_128": "5c241397b2c3800b4968874ca2206787"
-                    }
-                ]
-            },
-            {
-                "version": "4.00",
-                "release_date": "2025-08-14",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x264guiEx.auo2",
-                        "XXH3_128": "57cf3939fe7e1c16cb536444b9851077"
-                    }
-                ]
-            },
-            {
-                "version": "4.01",
-                "release_date": "2025-08-17",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x264guiEx.auo2",
-                        "XXH3_128": "c72850f3d1400b67b53ce505ccdceca2"
-                    }
-                ]
-            },
-            {
-                "version": "4.02",
-                "release_date": "2025-08-25",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x264guiEx.auo2",
-                        "XXH3_128": "75162f5968b580075c71222217c53bbb"
-                    }
-                ]
-            },
-            {
-                "version": "4.03",
-                "release_date": "2025-09-05",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x264guiEx.auo2",
-                        "XXH3_128": "80f78c39ee2204f96441301d93544fc2"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "rigaya.x265guiEx",
-        "name": "x265guiEx",
-        "type": "出力プラグイン",
-        "summary": "x265を使用してエンコードを行うAviutlの出力プラグインです。",
-        "description": "x265を使用してエンコードを行うAviutlの出力プラグインです。",
-        "author": "x265guiEx",
-        "repoURL": "https://github.com/rigaya/x265guiEx",
-        "latest-version": "5.02",
-        "license": "MIT",
-        "tags": [
-            "必須",
-            "エンコード"
-        ],
-        "dependencies": [],
-        "images": [],
-        "installer": {
-            "source": {
-                "github": {
-                    "owner": "rigaya",
-                    "repo": "x265guiEx",
-                    "pattern": "^AviUtl2_x265guiEx.*install\\.exe$"
-                }
-            },
-            "install": [
-                {
-                    "action": "download"
-                },
-                {
-                    "action": "run",
-                    "path": "{download}"
-                }
-            ],
-            "uninstall": [
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x265guiEx.auo2"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x265guiEx.conf"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x265guiEx.ini"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x265guiEx.en.ini"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x265guiEx.zh.ini"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x265guiEx_stg/"
-                }
-            ]
-        },
-        "version": [
-            {
-                "version": "4.22",
-                "release_date": "2025-07-08",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x265guiEx.auo",
-                        "XXH3_128": "7f1fd4e90afb5d5111a8f71f2309aa29"
-                    }
-                ]
-            },
-            {
-                "version": "4.23",
-                "release_date": "2025-07-13",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x265guiEx.auo",
-                        "XXH3_128": "3f8e7d2be58bf1c14a8b31a550876930"
-                    }
-                ]
-            },
-            {
-                "version": "5.00",
-                "release_date": "2025-08-19",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x265guiEx.auo2",
-                        "XXH3_128": "dfa9440a753ffa6be44443fd902a9f83"
-                    }
-                ]
-            },
-            {
-                "version": "5.01",
-                "release_date": "2025-08-25",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x265guiEx.auo2",
-                        "XXH3_128": "75641a331cf279d91b90bf54defb1dd7"
-                    }
-                ]
-            },
-            {
-                "version": "5.02",
-                "release_date": "2025-09-05",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x265guiEx.auo2",
-                        "XXH3_128": "94d4a52b1bf314ea4350f09c1006dd17"
                     }
                 ]
             }

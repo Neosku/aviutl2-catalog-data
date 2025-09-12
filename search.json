@@ -79,5 +79,25 @@
         }
       ]
     }
+  },
+  {
+    "id": "rigaya.NVEnc",
+    "latest-version": "9.01",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rigaya/NVEnc",
+      "regex": "AviUtl2_NVEnc.*install\\.exe",
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugins\\NVEnc.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/NVEnc.auo2"
+          ]
+        }
+      ]
+    }
   }
 ]
