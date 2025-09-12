@@ -728,6 +728,108 @@
         ]
     },
     {
+        "id": "rigaya.QSVEnc",
+        "name": "QSVEnc",
+        "type": "出力プラグイン",
+        "summary": "QSVによる高速エンコードの性能実験",
+        "description": "このソフトウェアは、IntelのCPUに搭載されているHWエンコーダ(QSV)の画質や速度といった性能の実験を目的としています。",
+        "author": "rigaya",
+        "repoURL": "https://github.com/rigaya/QSVEnc",
+        "latest-version": "8.00",
+        "license": "MIT",
+        "tags": [
+            "エンコード"
+        ],
+        "dependencies": [],
+        "images": [],
+        "installer": {
+            "source": {
+                "github": {
+                    "owner": "rigaya",
+                    "repo": "QSVEnc",
+                    "pattern": "^AviUtl2_QSVEnc.*install\\.exe$"
+                }
+            },
+            "install": [
+                {
+                    "action": "download"
+                },
+                {
+                    "action": "run",
+                    "path": "{download}"
+                }
+            ],
+            "uninstall": [
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/QSVEnc.auo2"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/QSVEnc.conf"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/QSVEnc.ini"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/QSVEnc.en.ini"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/QSVEnc.zh.ini"
+                },
+                {
+                    "action": "delete",
+                    "path": "{pluginsDir}/QSVEnc_stg/"
+                }
+            ]
+        },
+        "version": [
+            {
+                "version": "7.92",
+                "release_date": "2025-07-08",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/QSVEnc.auo",
+                        "XXH3_128": "668468de708dfaa4d749b12e208d775a"
+                    }
+                ]
+            },
+            {
+                "version": "7.93",
+                "release_date": "2025-07-16",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/QSVEnc.auo",
+                        "XXH3_128": "06885f47a755b8666a6cfc14a2e0664c"
+                    }
+                ]
+            },
+            {
+                "version": "7.94",
+                "release_date": "2025-07-19",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/QSVEnc.auo",
+                        "XXH3_128": "e5a1d3e26e380ac469867de4ec384c2f"
+                    }
+                ]
+            },
+            {
+                "version": "8.00",
+                "release_date": "2025-08-27",
+                "file": [
+                    {
+                        "path": "{pluginsDir}/QSVEnc.auo2",
+                        "XXH3_128": "935a683702f585386d68867a5b78282b"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "Mr-Ojii.L-SMASH-Works",
         "name": "L-SMASH-Works",
         "type": "入力プラグイン",
