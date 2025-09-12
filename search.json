@@ -99,5 +99,45 @@
         }
       ]
     }
+  },
+  {
+    "id": "rigaya.QSVEnc",
+    "latest-version": "8.00",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rigaya/QSVEnc",
+      "regex": "AviUtl2_QSVEnc.*install\\.exe",
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugins\\QSVEnc.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/QSVEnc.auo2"
+          ]
+        }
+      ]
+    }
+  },
+    {
+    "id": "rigaya.ffmpegOut",
+    "latest-version": "2.02",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rigaya/ffmpegOut",
+      "regex": "AviUtl2_ffmpegOut.*install\\.exe",
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugins\\ffmpegOut.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/ffmpegOut.auo2"
+          ]
+        }
+      ]
+    }
   }
 ]

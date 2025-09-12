@@ -1,1099 +1,1211 @@
 [
-    {
-        "id": "Kenkun.AviUtlExEdit2",
-        "name": "AviUtlExEdit2",
-        "type": "本体",
-        "summary": "AviUtl2本体です。",
-        "description": "AVIファイルに各種フィルタをかけるツールです。簡単な動画編集や各種codecを使って圧縮しながら出力することも出来ます。WinXP、Win7等で動作すると思います。MMXが使えるCPUが必要です。",
-        "author": "Kenkun",
-        "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-        "latest-version": "beta10",
-        "license": "MIT",
-        "tags": [
-            "必須"
-        ],
-        "dependencies": [],
-        "images": [],
-        "installer": {
-            "source": {
-                "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta9_setup.exe"
-            },
-            "install": [
-                {
-                    "action": "download"
-                },
-                {
-                    "action": "run",
-                    "path": "{download}"
-                }
-            ],
-            "uninstall": [
-                {
-                    "action": "run",
-                    "path": "{appDir}/unins000.exe",
-                    "args": [
-                        "/VERYSILENT",
-                        "/SUPPRESSMSGBOXES",
-                        "/NORESTART"
-                    ],
-                    "elevate": true
-                }
-            ]
+  {
+    "id": "Kenkun.AviUtlExEdit2",
+    "name": "AviUtlExEdit2",
+    "type": "本体",
+    "summary": "AviUtl2本体です。",
+    "description": "AVIファイルに各種フィルタをかけるツールです。簡単な動画編集や各種codecを使って圧縮しながら出力することも出来ます。WinXP、Win7等で動作すると思います。MMXが使えるCPUが必要です。",
+    "author": "Kenkun",
+    "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
+    "latest-version": "beta10",
+    "license": "MIT",
+    "tags": [
+      "必須"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta9_setup.exe"
+      },
+      "install": [
+        {
+          "action": "download"
         },
-        "version": [
-            {
-                "version": "beta1",
-                "release_date": "2025-07-07",
-                "file": [
-                    {
-                        "path": "{appDir}/aviutl2.exe",
-                        "XXH3_128": "d782bc8f7a55a6d0ad2203e64b75fda1"
-                    }
-                ]
-            },
-            {
-                "version": "beta2",
-                "release_date": "2025-07-12",
-                "file": [
-                    {
-                        "path": "{appDir}/aviutl2.exe",
-                        "XXH3_128": "bd8122e9d6555b059aa5a61d1f2c13d9"
-                    }
-                ]
-            },
-            {
-                "version": "beta3",
-                "release_date": "2025-07-20",
-                "file": [
-                    {
-                        "path": "{appDir}/aviutl2.exe",
-                        "XXH3_128": "41c8ca5d2447ba225e601bf143c84712"
-                    }
-                ]
-            },
-            {
-                "version": "beta4",
-                "release_date": "2025-07-27",
-                "file": [
-                    {
-                        "path": "{appDir}/aviutl2.exe",
-                        "XXH3_128": "5ccac2966b5d392a54cef3e411b0d392"
-                    }
-                ]
-            },
-            {
-                "version": "beta5",
-                "release_date": "2025-08-03",
-                "file": [
-                    {
-                        "path": "{appDir}/aviutl2.exe",
-                        "XXH3_128": "c69cd0e480a997795aa873c870b88afc"
-                    }
-                ]
-            },
-            {
-                "version": "beta6",
-                "release_date": "2025-08-10",
-                "file": [
-                    {
-                        "path": "{appDir}/aviutl2.exe",
-                        "XXH3_128": "56684747d51b856d6ce1556b006bf3dd"
-                    }
-                ]
-            },
-            {
-                "version": "beta7",
-                "release_date": "2025-08-16",
-                "file": [
-                    {
-                        "path": "{appDir}/aviutl2.exe",
-                        "XXH3_128": "8e5f3680ab8145b000e6c409014f8abe"
-                    }
-                ]
-            },
-            {
-                "version": "beta8",
-                "release_date": "2025-08-24",
-                "file": [
-                    {
-                        "path": "{appDir}/aviutl2.exe",
-                        "XXH3_128": "ba3a600fcb5d8f5a2b0eb036398e1834"
-                    }
-                ]
-            },
-            {
-                "version": "beta9",
-                "release_date": "2025-08-30",
-                "file": [
-                    {
-                        "path": "{appDir}/aviutl2.exe",
-                        "XXH3_128": "5c152484335a18b4fb1fa1eec6d9ea86"
-                    }
-                ]
-            },
-            {
-                "version": "beta10",
-                "release_date": "2025-09-10",
-                "file": [
-                    {
-                        "path": "{appDir}/aviutl2.exe",
-                        "XXH3_128": "c5f64a177532429555d1db96e5e5b510"
-                    }
-                ]
-            }
-        ]
+        {
+          "action": "run",
+          "path": "{download}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "run",
+          "path": "{appDir}/unins000.exe",
+          "args": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+          ],
+          "elevate": true
+        }
+      ]
     },
-    {
-        "id": "hebiiro.al2_jd",
-        "name": "ダークモード化プラグイン",
-        "type": "入力プラグイン",
-        "summary": "aviutl2を完全にダークモード化することを目的としたMODです。",
-        "description": "AviUtl2のUIをダークモードに変更するプラグインです。",
-        "author": "hebiiro",
-        "repoURL": "https://github.com/hebiiro/al2_jd/",
-        "latest-version": "r16",
-        "license": "MIT",
-        "tags": [
-            "UI",
-            "ダークモード化"
-        ],
-        "dependencies": [],
-        "images": [],
-        "installer": {
-            "source": {
-                "github": {
-                    "owner": "hebiiro",
-                    "repo": "al2_jd",
-                    "pattern": "^al2_jd_r\\d+\\.zip$"
-                }
-            },
-            "install": [
-                {
-                    "action": "download"
-                },
-                {
-                    "action": "extract",
-                    "to": "{tmp}"
-                },
-                {
-                    "action": "copy",
-                    "from": "{tmp}/Plugin/*",
-                    "to": "{pluginsDir}"
-                }
-            ],
-            "uninstall": [
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/al2_jd.aui2"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/DarkenWindow.aul"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/al2/"
-                }
-            ]
-        },
-        "version": [
-            {
-                "version": "r1",
-                "release_date": "2025-07-24",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/al2_jd.aui2",
-                        "XXH3_128": "7f1eb335ebffef7190bd7b705a0ed3fa"
-                    }
-                ]
-            },
-            {
-                "version": "r2",
-                "release_date": "2025-07-29",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/al2_jd.aui2",
-                        "XXH3_128": "e9267975d66f3bf3ec1d801dafa7e199"
-                    }
-                ]
-            },
-            {
-                "version": "r3",
-                "release_date": "2025-07-31",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/al2_jd.aui2",
-                        "XXH3_128": "d50e5e272e9482b86d0e6c6345564535"
-                    }
-                ]
-            },
-            {
-                "version": "r4",
-                "release_date": "2025-08-02",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/al2_jd.aui2",
-                        "XXH3_128": "bd045dde00bdf05807494c1e9f0aa34e"
-                    }
-                ]
-            },
-            {
-                "version": "r5",
-                "release_date": "2025-08-03",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/al2_jd.aui2",
-                        "XXH3_128": "e5fae0244928db816fe60692afe29799"
-                    }
-                ]
-            },
-            {
-                "version": "r6",
-                "release_date": "2025-08-04",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/al2_jd.aui2",
-                        "XXH3_128": "ba879e8d65b3621cf59805007a4c9807"
-                    }
-                ]
-            },
-            {
-                "version": "r7",
-                "release_date": "2025-08-09",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/al2_jd.aui2",
-                        "XXH3_128": "a4afa8325f48106b4886ec0aa1f59193"
-                    }
-                ]
-            },
-            {
-                "version": "r8",
-                "release_date": "2025-08-10",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/al2_jd.aui2",
-                        "XXH3_128": "7897ac96800fea0eba157eb5eac43aef"
-                    }
-                ]
-            },
-            {
-                "version": "r9",
-                "release_date": "2025-08-11",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/al2_jd.aui2",
-                        "XXH3_128": "cc262d9d6e050b80ceff6dcb04cf268d"
-                    }
-                ]
-            },
-            {
-                "version": "r10",
-                "release_date": "2025-08-11",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/al2_jd.aui2",
-                        "XXH3_128": "49ba6a8baab816f85a457408214f1b20"
-                    }
-                ]
-            },
-            {
-                "version": "r11",
-                "release_date": "2025-08-11",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/al2_jd.aui2",
-                        "XXH3_128": "b3c1c02751ff37ec2723365d982cb49b"
-                    }
-                ]
-            },
-            {
-                "version": "r12",
-                "release_date": "2025-08-16",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/al2_jd.aui2",
-                        "XXH3_128": "b821f918a16e3d64a746a14cbd79d966"
-                    }
-                ]
-            },
-            {
-                "version": "r13",
-                "release_date": "2025-08-17",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/al2_jd.aui2",
-                        "XXH3_128": "f81853d94481fa06179e82b1d6bacd5e"
-                    }
-                ]
-            },
-            {
-                "version": "r14",
-                "release_date": "2025-08-22",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/al2_jd.aui2",
-                        "XXH3_128": "d5fe08d3987e93b7df6b7c0ee70d13e0"
-                    }
-                ]
-            },
-            {
-                "version": "r15",
-                "release_date": "2025-08-31",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/al2_jd.aui2",
-                        "XXH3_128": "3ed0139466167d739edd2cbb142400ab"
-                    }
-                ]
-            },
-            {
-                "version": "r16",
-                "release_date": "2025-09-10",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/al2_jd.aui2",
-                        "XXH3_128": "5ce9cca8b484c5e757bb3c9324142230"
-                    }
-                ]
-            }
+    "version": [
+      {
+        "version": "beta1",
+        "release_date": "2025-07-07",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "d782bc8f7a55a6d0ad2203e64b75fda1"
+          }
         ]
+      },
+      {
+        "version": "beta2",
+        "release_date": "2025-07-12",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "bd8122e9d6555b059aa5a61d1f2c13d9"
+          }
+        ]
+      },
+      {
+        "version": "beta3",
+        "release_date": "2025-07-20",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "41c8ca5d2447ba225e601bf143c84712"
+          }
+        ]
+      },
+      {
+        "version": "beta4",
+        "release_date": "2025-07-27",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "5ccac2966b5d392a54cef3e411b0d392"
+          }
+        ]
+      },
+      {
+        "version": "beta5",
+        "release_date": "2025-08-03",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "c69cd0e480a997795aa873c870b88afc"
+          }
+        ]
+      },
+      {
+        "version": "beta6",
+        "release_date": "2025-08-10",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "56684747d51b856d6ce1556b006bf3dd"
+          }
+        ]
+      },
+      {
+        "version": "beta7",
+        "release_date": "2025-08-16",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "8e5f3680ab8145b000e6c409014f8abe"
+          }
+        ]
+      },
+      {
+        "version": "beta8",
+        "release_date": "2025-08-24",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "ba3a600fcb5d8f5a2b0eb036398e1834"
+          }
+        ]
+      },
+      {
+        "version": "beta9",
+        "release_date": "2025-08-30",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "5c152484335a18b4fb1fa1eec6d9ea86"
+          }
+        ]
+      },
+      {
+        "version": "beta10",
+        "release_date": "2025-09-10",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "c5f64a177532429555d1db96e5e5b510"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hebiiro.al2_jd",
+    "name": "ダークモード化プラグイン",
+    "type": "入力プラグイン",
+    "summary": "aviutl2を完全にダークモード化することを目的としたMODです。",
+    "description": "AviUtl2のUIをダークモードに変更するプラグインです。",
+    "author": "hebiiro",
+    "repoURL": "https://github.com/hebiiro/al2_jd/",
+    "latest-version": "r16",
+    "license": "MIT",
+    "tags": [
+      "UI",
+      "ダークモード化"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "hebiiro",
+          "repo": "al2_jd",
+          "pattern": "^al2_jd_r\\d+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract",
+          "to": "{tmp}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/*",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2_jd.aui2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/DarkenWindow.aul"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/"
+        }
+      ]
     },
-    {
-        "id": "rigaya.x264guiEx",
-        "name": "x264guiEx",
-        "type": "出力プラグイン",
-        "summary": "x264を使用してエンコードを行うAviutlの出力プラグインです。",
-        "description": "拡張 x264 出力(GUI) Ex (x264guiEx) は、x264を使用してエンコードを行うAviutlの出力プラグインです。\nseraphy氏 拡張 x264 出力(GUI) を改造し、x264を分離し、別プロセスとして実行できるようにしたものです。",
-        "author": "rigaya",
-        "repoURL": "https://github.com/rigaya/x264guiEx",
-        "latest-version": "4.03",
-        "license": "MIT",
-        "tags": [
-            "必須",
-            "エンコード"
-        ],
-        "dependencies": [],
-        "images": [],
-        "installer": {
-            "source": {
-                "github": {
-                    "owner": "rigaya",
-                    "repo": "x264guiEx",
-                    "pattern": "^AviUtl2_x264guiEx.*install\\.exe$"
-                }
-            },
-            "install": [
-                {
-                    "action": "download"
-                },
-                {
-                    "action": "run",
-                    "path": "{download}"
-                }
-            ],
-            "uninstall": [
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x264guiEx.auo2"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x264guiEx.conf"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x264guiEx.ini"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x264guiEx.en.ini"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x264guiEx.zh.ini"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x264guiEx_stg/"
-                }
-            ]
-        },
-        "version": [
-            {
-                "version": "3.32",
-                "release_date": "2025-07-08",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x264guiEx.auo",
-                        "XXH3_128": "d0222e062a092b5527745a886c74d948"
-                    }
-                ]
-            },
-            {
-                "version": "3.33",
-                "release_date": "2025-07-12",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x264guiEx.auo",
-                        "XXH3_128": "5c241397b2c3800b4968874ca2206787"
-                    }
-                ]
-            },
-            {
-                "version": "4.00",
-                "release_date": "2025-08-14",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x264guiEx.auo2",
-                        "XXH3_128": "57cf3939fe7e1c16cb536444b9851077"
-                    }
-                ]
-            },
-            {
-                "version": "4.01",
-                "release_date": "2025-08-17",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x264guiEx.auo2",
-                        "XXH3_128": "c72850f3d1400b67b53ce505ccdceca2"
-                    }
-                ]
-            },
-            {
-                "version": "4.02",
-                "release_date": "2025-08-25",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x264guiEx.auo2",
-                        "XXH3_128": "75162f5968b580075c71222217c53bbb"
-                    }
-                ]
-            },
-            {
-                "version": "4.03",
-                "release_date": "2025-09-05",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x264guiEx.auo2",
-                        "XXH3_128": "80f78c39ee2204f96441301d93544fc2"
-                    }
-                ]
-            }
+    "version": [
+      {
+        "version": "r1",
+        "release_date": "2025-07-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "7f1eb335ebffef7190bd7b705a0ed3fa"
+          }
         ]
+      },
+      {
+        "version": "r2",
+        "release_date": "2025-07-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "e9267975d66f3bf3ec1d801dafa7e199"
+          }
+        ]
+      },
+      {
+        "version": "r3",
+        "release_date": "2025-07-31",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "d50e5e272e9482b86d0e6c6345564535"
+          }
+        ]
+      },
+      {
+        "version": "r4",
+        "release_date": "2025-08-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "bd045dde00bdf05807494c1e9f0aa34e"
+          }
+        ]
+      },
+      {
+        "version": "r5",
+        "release_date": "2025-08-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "e5fae0244928db816fe60692afe29799"
+          }
+        ]
+      },
+      {
+        "version": "r6",
+        "release_date": "2025-08-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "ba879e8d65b3621cf59805007a4c9807"
+          }
+        ]
+      },
+      {
+        "version": "r7",
+        "release_date": "2025-08-09",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "a4afa8325f48106b4886ec0aa1f59193"
+          }
+        ]
+      },
+      {
+        "version": "r8",
+        "release_date": "2025-08-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "7897ac96800fea0eba157eb5eac43aef"
+          }
+        ]
+      },
+      {
+        "version": "r9",
+        "release_date": "2025-08-11",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "cc262d9d6e050b80ceff6dcb04cf268d"
+          }
+        ]
+      },
+      {
+        "version": "r10",
+        "release_date": "2025-08-11",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "49ba6a8baab816f85a457408214f1b20"
+          }
+        ]
+      },
+      {
+        "version": "r11",
+        "release_date": "2025-08-11",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "b3c1c02751ff37ec2723365d982cb49b"
+          }
+        ]
+      },
+      {
+        "version": "r12",
+        "release_date": "2025-08-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "b821f918a16e3d64a746a14cbd79d966"
+          }
+        ]
+      },
+      {
+        "version": "r13",
+        "release_date": "2025-08-17",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "f81853d94481fa06179e82b1d6bacd5e"
+          }
+        ]
+      },
+      {
+        "version": "r14",
+        "release_date": "2025-08-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "d5fe08d3987e93b7df6b7c0ee70d13e0"
+          }
+        ]
+      },
+      {
+        "version": "r15",
+        "release_date": "2025-08-31",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "3ed0139466167d739edd2cbb142400ab"
+          }
+        ]
+      },
+      {
+        "version": "r16",
+        "release_date": "2025-09-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "5ce9cca8b484c5e757bb3c9324142230"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rigaya.x264guiEx",
+    "name": "x264guiEx",
+    "type": "出力プラグイン",
+    "summary": "x264を使用してエンコードを行うAviutlの出力プラグインです。",
+    "description": "拡張 x264 出力(GUI) Ex (x264guiEx) は、x264を使用してエンコードを行うAviutlの出力プラグインです。\nseraphy氏 拡張 x264 出力(GUI) を改造し、x264を分離し、別プロセスとして実行できるようにしたものです。",
+    "author": "rigaya",
+    "repoURL": "https://github.com/rigaya/x264guiEx",
+    "latest-version": "4.03",
+    "license": "MIT",
+    "tags": [
+      "必須",
+      "エンコード"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "rigaya",
+          "repo": "x264guiEx",
+          "pattern": "^AviUtl2_x264guiEx.*install\\.exe$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "run",
+          "path": "{download}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/x264guiEx.auo2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/x264guiEx.conf"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/x264guiEx.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/x264guiEx.en.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/x264guiEx.zh.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/x264guiEx_stg/"
+        }
+      ]
     },
-    {
-        "id": "rigaya.x265guiEx",
-        "name": "x265guiEx",
-        "type": "出力プラグイン",
-        "summary": "x265を使用してエンコードを行うAviutlの出力プラグインです。",
-        "description": "x265を使用してエンコードを行うAviutlの出力プラグインです。",
-        "author": "rigaya",
-        "repoURL": "https://github.com/rigaya/x265guiEx",
-        "latest-version": "5.02",
-        "license": "MIT",
-        "tags": [
-            "必須",
-            "エンコード"
-        ],
-        "dependencies": [],
-        "images": [],
-        "installer": {
-            "source": {
-                "github": {
-                    "owner": "rigaya",
-                    "repo": "x265guiEx",
-                    "pattern": "^AviUtl2_x265guiEx.*install\\.exe$"
-                }
-            },
-            "install": [
-                {
-                    "action": "download"
-                },
-                {
-                    "action": "run",
-                    "path": "{download}"
-                }
-            ],
-            "uninstall": [
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x265guiEx.auo2"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x265guiEx.conf"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x265guiEx.ini"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x265guiEx.en.ini"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x265guiEx.zh.ini"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/x265guiEx_stg/"
-                }
-            ]
-        },
-        "version": [
-            {
-                "version": "4.22",
-                "release_date": "2025-07-08",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x265guiEx.auo",
-                        "XXH3_128": "7f1fd4e90afb5d5111a8f71f2309aa29"
-                    }
-                ]
-            },
-            {
-                "version": "4.23",
-                "release_date": "2025-07-13",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x265guiEx.auo",
-                        "XXH3_128": "3f8e7d2be58bf1c14a8b31a550876930"
-                    }
-                ]
-            },
-            {
-                "version": "5.00",
-                "release_date": "2025-08-19",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x265guiEx.auo2",
-                        "XXH3_128": "dfa9440a753ffa6be44443fd902a9f83"
-                    }
-                ]
-            },
-            {
-                "version": "5.01",
-                "release_date": "2025-08-25",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x265guiEx.auo2",
-                        "XXH3_128": "75641a331cf279d91b90bf54defb1dd7"
-                    }
-                ]
-            },
-            {
-                "version": "5.02",
-                "release_date": "2025-09-05",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/x265guiEx.auo2",
-                        "XXH3_128": "94d4a52b1bf314ea4350f09c1006dd17"
-                    }
-                ]
-            }
+    "version": [
+      {
+        "version": "3.32",
+        "release_date": "2025-07-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/x264guiEx.auo",
+            "XXH3_128": "d0222e062a092b5527745a886c74d948"
+          }
         ]
+      },
+      {
+        "version": "3.33",
+        "release_date": "2025-07-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/x264guiEx.auo",
+            "XXH3_128": "5c241397b2c3800b4968874ca2206787"
+          }
+        ]
+      },
+      {
+        "version": "4.00",
+        "release_date": "2025-08-14",
+        "file": [
+          {
+            "path": "{pluginsDir}/x264guiEx.auo2",
+            "XXH3_128": "57cf3939fe7e1c16cb536444b9851077"
+          }
+        ]
+      },
+      {
+        "version": "4.01",
+        "release_date": "2025-08-17",
+        "file": [
+          {
+            "path": "{pluginsDir}/x264guiEx.auo2",
+            "XXH3_128": "c72850f3d1400b67b53ce505ccdceca2"
+          }
+        ]
+      },
+      {
+        "version": "4.02",
+        "release_date": "2025-08-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/x264guiEx.auo2",
+            "XXH3_128": "75162f5968b580075c71222217c53bbb"
+          }
+        ]
+      },
+      {
+        "version": "4.03",
+        "release_date": "2025-09-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/x264guiEx.auo2",
+            "XXH3_128": "80f78c39ee2204f96441301d93544fc2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rigaya.x265guiEx",
+    "name": "x265guiEx",
+    "type": "出力プラグイン",
+    "summary": "x265を使用してエンコードを行うAviutlの出力プラグインです。",
+    "description": "x265を使用してエンコードを行うAviutlの出力プラグインです。",
+    "author": "rigaya",
+    "repoURL": "https://github.com/rigaya/x265guiEx",
+    "latest-version": "5.02",
+    "license": "MIT",
+    "tags": [
+      "必須",
+      "エンコード"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "rigaya",
+          "repo": "x265guiEx",
+          "pattern": "^AviUtl2_x265guiEx.*install\\.exe$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "run",
+          "path": "{download}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/x265guiEx.auo2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/x265guiEx.conf"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/x265guiEx.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/x265guiEx.en.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/x265guiEx.zh.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/x265guiEx_stg/"
+        }
+      ]
     },
-    {
-        "id": "rigaya.NVEnc",
-        "name": "NVEnc",
-        "type": "出力プラグイン",
-        "summary": "NVENCによる高速エンコードの性能実験",
-        "description": "このソフトウェアは、NVIDIAのGPU/APUに搭載されているHWエンコーダ(NVENC)の画質や速度といった性能の実験を目的としています。",
-        "author": "rigaya",
-        "repoURL": "https://github.com/rigaya/NVEnc",
-        "latest-version": "9.01",
-        "license": "MIT",
-        "tags": [
-            "エンコード"
-        ],
-        "dependencies": [],
-        "images": [],
-        "installer": {
-            "source": {
-                "github": {
-                    "owner": "rigaya",
-                    "repo": "NVEnc",
-                    "pattern": "^AviUtl2_NVEnc.*install\\.exe$"
-                }
-            },
-            "install": [
-                {
-                    "action": "download"
-                },
-                {
-                    "action": "run",
-                    "path": "{download}"
-                }
-            ],
-            "uninstall": [
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/NVEnc.auo2"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/NVEnc.conf"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/NVEnc.ini"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/NVEnc.en.ini"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/NVEnc.zh.ini"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/NVEnc_stg/"
-                }
-            ]
-        },
-        "version": [
-            {
-                "version": "8.07",
-                "release_date": "2025-06-23",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/NVEnc.auo",
-                        "XXH3_128": "696be816e76e6374faefb8df1f32ede6"
-                    }
-                ]
-            },
-            {
-                "version": "8.08",
-                "release_date": "2025-07-16",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/NVEnc.auo",
-                        "XXH3_128": "0eaf63dbf46a3f66d142f3b3bcec8425"
-                    }
-                ]
-            },
-            {
-                "version": "8.09",
-                "release_date": "2025-07-16",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/NVEnc.auo",
-                        "XXH3_128": "56bea3f4a0a13b513c9315d07479964b"
-                    }
-                ]
-            },
-            {
-                "version": "8.10",
-                "release_date": "2025-07-31",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/NVEnc.auo",
-                        "XXH3_128": "a36d3232a7c826aa6ee4731f1a8abf4a"
-                    }
-                ]
-            },
-            {
-                "version": "8.11",
-                "release_date": "2025-08-13",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/NVEnc.auo",
-                        "XXH3_128": "b16095e08a3b6ad9fd4b4e9242c99692"
-                    }
-                ]
-            },
-            {
-                "version": "9.00",
-                "release_date": "2025-08-30",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/NVEnc.auo2",
-                        "XXH3_128": "11ab67ec93fdde245141d74317a33101"
-                    }
-                ]
-            },
-            {
-                "version": "9.01",
-                "release_date": "2025-09-05",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/NVEnc.auo2",
-                        "XXH3_128": "c4cbea78c94d7b24e298444c935cd07f"
-                    }
-                ]
-            }
+    "version": [
+      {
+        "version": "4.22",
+        "release_date": "2025-07-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/x265guiEx.auo",
+            "XXH3_128": "7f1fd4e90afb5d5111a8f71f2309aa29"
+          }
         ]
+      },
+      {
+        "version": "4.23",
+        "release_date": "2025-07-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/x265guiEx.auo",
+            "XXH3_128": "3f8e7d2be58bf1c14a8b31a550876930"
+          }
+        ]
+      },
+      {
+        "version": "5.00",
+        "release_date": "2025-08-19",
+        "file": [
+          {
+            "path": "{pluginsDir}/x265guiEx.auo2",
+            "XXH3_128": "dfa9440a753ffa6be44443fd902a9f83"
+          }
+        ]
+      },
+      {
+        "version": "5.01",
+        "release_date": "2025-08-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/x265guiEx.auo2",
+            "XXH3_128": "75641a331cf279d91b90bf54defb1dd7"
+          }
+        ]
+      },
+      {
+        "version": "5.02",
+        "release_date": "2025-09-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/x265guiEx.auo2",
+            "XXH3_128": "94d4a52b1bf314ea4350f09c1006dd17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rigaya.NVEnc",
+    "name": "NVEnc",
+    "type": "出力プラグイン",
+    "summary": "NVENCによる高速エンコードの性能実験",
+    "description": "このソフトウェアは、NVIDIAのGPU/APUに搭載されているHWエンコーダ(NVENC)の画質や速度といった性能の実験を目的としています。",
+    "author": "rigaya",
+    "repoURL": "https://github.com/rigaya/NVEnc",
+    "latest-version": "9.01",
+    "license": "MIT",
+    "tags": [
+      "エンコード"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "rigaya",
+          "repo": "NVEnc",
+          "pattern": "^AviUtl2_NVEnc.*install\\.exe$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "run",
+          "path": "{download}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/NVEnc.auo2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/NVEnc.conf"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/NVEnc.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/NVEnc.en.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/NVEnc.zh.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/NVEnc_stg/"
+        }
+      ]
     },
-    {
-        "id": "rigaya.QSVEnc",
-        "name": "QSVEnc",
-        "type": "出力プラグイン",
-        "summary": "QSVによる高速エンコードの性能実験",
-        "description": "このソフトウェアは、IntelのCPUに搭載されているHWエンコーダ(QSV)の画質や速度といった性能の実験を目的としています。",
-        "author": "rigaya",
-        "repoURL": "https://github.com/rigaya/QSVEnc",
-        "latest-version": "8.00",
-        "license": "MIT",
-        "tags": [
-            "エンコード"
-        ],
-        "dependencies": [],
-        "images": [],
-        "installer": {
-            "source": {
-                "github": {
-                    "owner": "rigaya",
-                    "repo": "QSVEnc",
-                    "pattern": "^AviUtl2_QSVEnc.*install\\.exe$"
-                }
-            },
-            "install": [
-                {
-                    "action": "download"
-                },
-                {
-                    "action": "run",
-                    "path": "{download}"
-                }
-            ],
-            "uninstall": [
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/QSVEnc.auo2"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/QSVEnc.conf"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/QSVEnc.ini"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/QSVEnc.en.ini"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/QSVEnc.zh.ini"
-                },
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/QSVEnc_stg/"
-                }
-            ]
-        },
-        "version": [
-            {
-                "version": "7.92",
-                "release_date": "2025-07-08",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/QSVEnc.auo",
-                        "XXH3_128": "668468de708dfaa4d749b12e208d775a"
-                    }
-                ]
-            },
-            {
-                "version": "7.93",
-                "release_date": "2025-07-16",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/QSVEnc.auo",
-                        "XXH3_128": "06885f47a755b8666a6cfc14a2e0664c"
-                    }
-                ]
-            },
-            {
-                "version": "7.94",
-                "release_date": "2025-07-19",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/QSVEnc.auo",
-                        "XXH3_128": "e5a1d3e26e380ac469867de4ec384c2f"
-                    }
-                ]
-            },
-            {
-                "version": "8.00",
-                "release_date": "2025-08-27",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/QSVEnc.auo2",
-                        "XXH3_128": "935a683702f585386d68867a5b78282b"
-                    }
-                ]
-            }
+    "version": [
+      {
+        "version": "8.07",
+        "release_date": "2025-06-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo",
+            "XXH3_128": "696be816e76e6374faefb8df1f32ede6"
+          }
         ]
+      },
+      {
+        "version": "8.08",
+        "release_date": "2025-07-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo",
+            "XXH3_128": "0eaf63dbf46a3f66d142f3b3bcec8425"
+          }
+        ]
+      },
+      {
+        "version": "8.09",
+        "release_date": "2025-07-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo",
+            "XXH3_128": "56bea3f4a0a13b513c9315d07479964b"
+          }
+        ]
+      },
+      {
+        "version": "8.10",
+        "release_date": "2025-07-31",
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo",
+            "XXH3_128": "a36d3232a7c826aa6ee4731f1a8abf4a"
+          }
+        ]
+      },
+      {
+        "version": "8.11",
+        "release_date": "2025-08-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo",
+            "XXH3_128": "b16095e08a3b6ad9fd4b4e9242c99692"
+          }
+        ]
+      },
+      {
+        "version": "9.00",
+        "release_date": "2025-08-30",
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "11ab67ec93fdde245141d74317a33101"
+          }
+        ]
+      },
+      {
+        "version": "9.01",
+        "release_date": "2025-09-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "c4cbea78c94d7b24e298444c935cd07f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rigaya.QSVEnc",
+    "name": "QSVEnc",
+    "type": "出力プラグイン",
+    "summary": "QSVによる高速エンコードの性能実験",
+    "description": "このソフトウェアは、IntelのCPUに搭載されているHWエンコーダ(QSV)の画質や速度といった性能の実験を目的としています。",
+    "author": "rigaya",
+    "repoURL": "https://github.com/rigaya/QSVEnc",
+    "latest-version": "8.00",
+    "license": "MIT",
+    "tags": [
+      "エンコード"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "rigaya",
+          "repo": "QSVEnc",
+          "pattern": "^AviUtl2_QSVEnc.*install\\.exe$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "run",
+          "path": "{download}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/QSVEnc.auo2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/QSVEnc.conf"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/QSVEnc.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/QSVEnc.en.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/QSVEnc.zh.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/QSVEnc_stg/"
+        }
+      ]
     },
-    {
-        "id": "Mr-Ojii.L-SMASH-Works",
-        "name": "L-SMASH-Works",
-        "type": "入力プラグイン",
-        "summary": "AviUtlで幅広い形式の動画・音声ファイルを読み込めるようにする入力プラグイン",
-        "description": "VFR-maniac氏によるL-SMASH Worksの派生版であり、Mr-Ojii氏が提供する自動ビルド版。AviUtlおよびAviUtl ExEdit2向けに最適化されており、多種多様なメディア形式の入力に対応した入力プラグインです。",
-        "author": "Mr-Ojii",
-        "repoURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds",
-        "latest-version": "r1244",
-        "license": "MIT",
-        "tags": [
-            "必須"
-        ],
-        "dependencies": [],
-        "images": [],
-        "installer": {
-            "source": {
-                "github": {
-                    "owner": "Mr-Ojii",
-                    "repo": "L-SMASH-Works-Auto-Builds",
-                    "pattern": "^L-SMASH-Works_r\\d+_Mr-Ojii_vimeo\\.zip$"
-                }
-            },
-            "install": [
-                {
-                    "action": "download"
-                },
-                {
-                    "action": "extract",
-                    "to": "{tmp}"
-                },
-                {
-                    "action": "copy",
-                    "from": "{tmp}/AviUtl2/lwinput.aui2",
-                    "to": "{pluginsDir}"
-                }
-            ],
-            "uninstall": [
-                {
-                    "action": "delete",
-                    "path": "{pluginsDir}/lwinput.aui2"
-                }
-            ]
-        },
-        "version": [
-            {
-                "version": "r1158",
-                "release_date": "2025-07-11",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "e40ba36679c58b1534c7e384fb9c082e"
-                    }
-                ]
-            },
-            {
-                "version": "r1158",
-                "release_date": "2025-07-13",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "289669d6fdd3a18f37ffaa93d29aca34"
-                    }
-                ]
-            },
-            {
-                "version": "r1158",
-                "release_date": "2025-07-13",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "b346184e9cb385599a190880943c90a6"
-                    }
-                ]
-            },
-            {
-                "version": "r1159",
-                "release_date": "2025-07-13",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "1feb161c609b36ccd4781d852410721c"
-                    }
-                ]
-            },
-            {
-                "version": "r1159",
-                "release_date": "2025-07-20",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "6f9089cc74b978f6bac909711b41a06d"
-                    }
-                ]
-            },
-            {
-                "version": "r1159",
-                "release_date": "2025-07-21",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "eb7192f6930165ad7338a223b46d2709"
-                    }
-                ]
-            },
-            {
-                "version": "r1161",
-                "release_date": "2025-07-21",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "2ced86be3f0813784a086ed19b0601c2"
-                    }
-                ]
-            },
-            {
-                "version": "r1162",
-                "release_date": "2025-07-22",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "b23732b4a6b6f776f6d59542ce19ecfe"
-                    }
-                ]
-            },
-            {
-                "version": "r1168",
-                "release_date": "2025-07-24",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "94dd816e397d9898e352ab295206005d"
-                    }
-                ]
-            },
-            {
-                "version": "r1175",
-                "release_date": "2025-07-25",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "d9c4e98170dca5b2b11b13ffc7c287e0"
-                    }
-                ]
-            },
-            {
-                "version": "r1175",
-                "release_date": "2025-07-27",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "0c65c633a772ee831690103ed8a0a6bb"
-                    }
-                ]
-            },
-            {
-                "version": "r1175",
-                "release_date": "2025-08-03",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "c7e90457861da1a0da909aa02919deda"
-                    }
-                ]
-            },
-            {
-                "version": "r1175",
-                "release_date": "2025-08-10",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "c00c1c72dc6a02be103702afd83c46ec"
-                    }
-                ]
-            },
-            {
-                "version": "r1188",
-                "release_date": "2025-08-17",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "9284e94f8f3c8482e81fb1171ffab666"
-                    }
-                ]
-            },
-            {
-                "version": "r1200",
-                "release_date": "2025-08-23",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "6d810ed052caa4ac698f5552bba70d25"
-                    }
-                ]
-            },
-            {
-                "version": "r1200",
-                "release_date": "2025-08-23",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "d5abdaaea0320cf3756ea8b6e68115ce"
-                    }
-                ]
-            },
-            {
-                "version": "r1200",
-                "release_date": "2025-08-24",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "b7d3fa38d5a7a371061fb3cd18deca45"
-                    }
-                ]
-            },
-            {
-                "version": "r1236",
-                "release_date": "2025-09-01",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "b2163d0b4fb7831dd33eec122d9a127c"
-                    }
-                ]
-            },
-            {
-                "version": "r1236",
-                "release_date": "2025-09-02",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "5e11d5b2d7d2e0e73282ee2341c05268"
-                    }
-                ]
-            },
-            {
-                "version": "r1244",
-                "release_date": "2025-09-03",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "acf32e7d0d533ef48bbe48b4871021dd"
-                    }
-                ]
-            },
-            {
-                "version": "r1244",
-                "release_date": "2025-09-07",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "8756dba41fd5d7b7276bd2d84f60330a"
-                    }
-                ]
-            },
-            {
-                "version": "r1245",
-                "release_date": "2025-09-10",
-                "file": [
-                    {
-                        "path": "{pluginsDir}/lwinput.aui2",
-                        "XXH3_128": "7ca75be845bae00887e65f171b09a40c"
-                    }
-                ]
-            }
+    "version": [
+      {
+        "version": "7.92",
+        "release_date": "2025-07-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo",
+            "XXH3_128": "668468de708dfaa4d749b12e208d775a"
+          }
         ]
-    }
+      },
+      {
+        "version": "7.93",
+        "release_date": "2025-07-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo",
+            "XXH3_128": "06885f47a755b8666a6cfc14a2e0664c"
+          }
+        ]
+      },
+      {
+        "version": "7.94",
+        "release_date": "2025-07-19",
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo",
+            "XXH3_128": "e5a1d3e26e380ac469867de4ec384c2f"
+          }
+        ]
+      },
+      {
+        "version": "8.00",
+        "release_date": "2025-08-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo2",
+            "XXH3_128": "935a683702f585386d68867a5b78282b"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rigaya.ffmpegOut",
+    "name": "ffmpegOut",
+    "type": "出力プラグイン",
+    "summary": "Aviutlのffmpegを使用した出力プラグイン",
+    "description": "ffmpegOut は、ffmpegを使用してエンコードを行うAviutlの出力プラグインです。",
+    "author": "rigaya",
+    "repoURL": "https://github.com/rigaya/ffmpegOut",
+    "latest-version": "2.02",
+    "license": "MIT",
+    "tags": [
+      "エンコード"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "rigaya",
+          "repo": "ffmpegOut",
+          "pattern": "^AviUtl2_ffmpegOut.*install\\.exe$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "run",
+          "path": "{download}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ffmpegOut.auo2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ffmpegOut.conf"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ffmpegOut.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ffmpegOut.en.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ffmpegOut.zh.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ffmpegOut_stg/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "1.14",
+        "release_date": "2025-07-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/ffmpegOut.auo",
+            "XXH3_128": "034938a1acc97454805073fcb40d6292"
+          }
+        ]
+      },
+      {
+        "version": "1.15",
+        "release_date": "2025-07-14",
+        "file": [
+          {
+            "path": "{pluginsDir}/ffmpegOut.auo",
+            "XXH3_128": "2d80a5cc6ea84cfa072ac6efd23d2a96"
+          }
+        ]
+      },
+      {
+        "version": "2.00",
+        "release_date": "2025-08-17",
+        "file": [
+          {
+            "path": "{pluginsDir}/ffmpegOut.auo2",
+            "XXH3_128": "a1569680a84888a184028a5e39ee8897"
+          }
+        ]
+      },
+      {
+        "version": "2.01",
+        "release_date": "2025-08-19",
+        "file": [
+          {
+            "path": "{pluginsDir}/ffmpegOut.auo2",
+            "XXH3_128": "70c0de112d08aa70b0ed92c7d1b00955"
+          }
+        ]
+      },
+      {
+        "version": "2.02",
+        "release_date": "2025-08-31",
+        "file": [
+          {
+            "path": "{pluginsDir}/ffmpegOut.auo2",
+            "XXH3_128": "3ccfd53c9155f086b118dca2ff4c4a39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Mr-Ojii.L-SMASH-Works",
+    "name": "L-SMASH-Works",
+    "type": "入力プラグイン",
+    "summary": "AviUtlで幅広い形式の動画・音声ファイルを読み込めるようにする入力プラグイン",
+    "description": "VFR-maniac氏によるL-SMASH Worksの派生版であり、Mr-Ojii氏が提供する自動ビルド版。AviUtlおよびAviUtl ExEdit2向けに最適化されており、多種多様なメディア形式の入力に対応した入力プラグインです。",
+    "author": "Mr-Ojii",
+    "repoURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds",
+    "latest-version": "r1244",
+    "license": "MIT",
+    "tags": [
+      "必須"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Mr-Ojii",
+          "repo": "L-SMASH-Works-Auto-Builds",
+          "pattern": "^L-SMASH-Works_r\\d+_Mr-Ojii_vimeo\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract",
+          "to": "{tmp}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/AviUtl2/lwinput.aui2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/lwinput.aui2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r1158",
+        "release_date": "2025-07-11",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "e40ba36679c58b1534c7e384fb9c082e"
+          }
+        ]
+      },
+      {
+        "version": "r1158",
+        "release_date": "2025-07-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "289669d6fdd3a18f37ffaa93d29aca34"
+          }
+        ]
+      },
+      {
+        "version": "r1158",
+        "release_date": "2025-07-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "b346184e9cb385599a190880943c90a6"
+          }
+        ]
+      },
+      {
+        "version": "r1159",
+        "release_date": "2025-07-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "1feb161c609b36ccd4781d852410721c"
+          }
+        ]
+      },
+      {
+        "version": "r1159",
+        "release_date": "2025-07-20",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "6f9089cc74b978f6bac909711b41a06d"
+          }
+        ]
+      },
+      {
+        "version": "r1159",
+        "release_date": "2025-07-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "eb7192f6930165ad7338a223b46d2709"
+          }
+        ]
+      },
+      {
+        "version": "r1161",
+        "release_date": "2025-07-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "2ced86be3f0813784a086ed19b0601c2"
+          }
+        ]
+      },
+      {
+        "version": "r1162",
+        "release_date": "2025-07-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "b23732b4a6b6f776f6d59542ce19ecfe"
+          }
+        ]
+      },
+      {
+        "version": "r1168",
+        "release_date": "2025-07-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "94dd816e397d9898e352ab295206005d"
+          }
+        ]
+      },
+      {
+        "version": "r1175",
+        "release_date": "2025-07-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "d9c4e98170dca5b2b11b13ffc7c287e0"
+          }
+        ]
+      },
+      {
+        "version": "r1175",
+        "release_date": "2025-07-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "0c65c633a772ee831690103ed8a0a6bb"
+          }
+        ]
+      },
+      {
+        "version": "r1175",
+        "release_date": "2025-08-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "c7e90457861da1a0da909aa02919deda"
+          }
+        ]
+      },
+      {
+        "version": "r1175",
+        "release_date": "2025-08-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "c00c1c72dc6a02be103702afd83c46ec"
+          }
+        ]
+      },
+      {
+        "version": "r1188",
+        "release_date": "2025-08-17",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "9284e94f8f3c8482e81fb1171ffab666"
+          }
+        ]
+      },
+      {
+        "version": "r1200",
+        "release_date": "2025-08-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "6d810ed052caa4ac698f5552bba70d25"
+          }
+        ]
+      },
+      {
+        "version": "r1200",
+        "release_date": "2025-08-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "d5abdaaea0320cf3756ea8b6e68115ce"
+          }
+        ]
+      },
+      {
+        "version": "r1200",
+        "release_date": "2025-08-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "b7d3fa38d5a7a371061fb3cd18deca45"
+          }
+        ]
+      },
+      {
+        "version": "r1236",
+        "release_date": "2025-09-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "b2163d0b4fb7831dd33eec122d9a127c"
+          }
+        ]
+      },
+      {
+        "version": "r1236",
+        "release_date": "2025-09-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "5e11d5b2d7d2e0e73282ee2341c05268"
+          }
+        ]
+      },
+      {
+        "version": "r1244",
+        "release_date": "2025-09-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "acf32e7d0d533ef48bbe48b4871021dd"
+          }
+        ]
+      },
+      {
+        "version": "r1244",
+        "release_date": "2025-09-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "8756dba41fd5d7b7276bd2d84f60330a"
+          }
+        ]
+      },
+      {
+        "version": "r1245",
+        "release_date": "2025-09-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "7ca75be845bae00887e65f171b09a40c"
+          }
+        ]
+      }
+    ]
+  }
 ]
