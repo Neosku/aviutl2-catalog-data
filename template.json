@@ -1,0 +1,43 @@
+{
+    "id": "",
+    "name": "",
+    "type": "",
+    "summary": "",
+    "description": "",
+    "author": "",
+    "repoURL": "",
+    "latest-version": "",
+    "license": "",
+    "tags": [
+        ""
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+        "source": {
+            "direct": ""
+        },
+        "install": [
+            {
+                "action": ""
+            },
+            {
+                "action": "",
+                "path": ""
+            }
+        ],
+        "uninstall": []
+    },
+    "version": [
+        {
+            "version": "",
+            "release_date": "",
+            "file": [
+                {
+                    "path": "",
+                    "XXH3_128": ""
+                }
+            ]
+        }
+    ]
+}

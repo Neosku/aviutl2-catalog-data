@@ -1,0 +1,83 @@
+[
+  {
+    "id": "Kenkun.AviUtlExEdit2",
+    "latest-version": "beta10",
+    "checkType": {
+      "type": "URL",
+      "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
+      "regex": "aviutl2beta(\\d+)\\.zip$",
+      "version_extract": "beta\\d+",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "aviutl2.exe"
+          ],
+          "recordPaths": [
+            "{appDir}/aviutl2.exe"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebiiro.al2_jd",
+    "latest-version": "r16",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_jd",
+      "regex": "al2_jd_r(\\d+)\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "al2_jd.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2_jd.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "rigaya.x264guiEx",
+    "latest-version": "4.03",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rigaya/x264guiEx",
+      "regex": "AviUtl2_x264guiEx.*install\\.exe",
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugins\\x264guiEx.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/x264guiEx.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "rigaya.x265guiEx",
+    "latest-version": "5.02",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rigaya/x265guiEx",
+      "regex": "AviUtl2_x265guiEx.*install\\.exe",
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugins\\x265guiEx.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/x265guiEx.auo2"
+          ]
+        }
+      ]
+    }
+  }
+]
