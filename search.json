@@ -201,5 +201,25 @@
         }
       ]
     }
+  },
+  {
+    "id": "sigma-axis.aviutl2_script_AutoClipping_S",
+    "latest-version": "v1.10-for-beta8",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_AutoClipping_S",
+      "regex": "^aviutl2_script_AutoClipping_S-.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "AutoClipping_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/AutoClipping_S.anm2"
+          ]
+        }
+      ]
+    }
   }
 ]
