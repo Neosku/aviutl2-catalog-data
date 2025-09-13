@@ -1,0 +1,11 @@
+{
+  "version": "0.1.2",
+  "notes": "修正- 自動アップデーターの参照先を間違えていたのを修正",
+  "pub_date": "2025-09-13T13:27:52+09:00",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/Neosku/aviutl2-catalog/releases/download/v0.1.2/AviUtl2_Catalog_0.1.2_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSHJDVDJYS1dEM0t1dWx1UTR2Y0lDWnNyNXdMejROOFBqMFRneG51NVlkM1R1WWtlY0MwM0t6UXgxK3pKcWprMVp5SFBrcGFERWc4SUdTN3JwZndRWllseWxPRTk1dXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU3NzM3NTEyCWZpbGU6QXZpVXRsMl9DYXRhbG9nXzAuMS4yX3g2NC1zZXR1cC5leGUKYVcyckxlajVoQ0J6RWNvZnFRQTVvOXBvL0c2NmlDc01QVVg1aFFKRCtrWDY2cDg1eWVCVTBJWTBlcnVQaHpBZU1TM1hvTklwbFIxZUhRbzRxRDJWQnc9PQo="
+    }
+  }
+}
