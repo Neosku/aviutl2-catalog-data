@@ -7,7 +7,7 @@
     "description": "AVIファイルに各種フィルタをかけるツールです。簡単な動画編集や各種codecを使って圧縮しながら出力することも出来ます。WinXP、Win7等で動作すると思います。MMXが使えるCPUが必要です。",
     "author": "Kenkun",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-    "latest-version": "beta10",
+    "latest-version": "beta11",
     "license": "MIT",
     "tags": [
       "必須"
@@ -138,6 +138,16 @@
           {
             "path": "{appDir}/aviutl2.exe",
             "XXH3_128": "c5f64a177532429555d1db96e5e5b510"
+          }
+        ]
+      },
+      {
+        "version": "beta11",
+        "release_date": "2025-09-13",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "d012aaad5bc62bb87fe6e3c152499929"
           }
         ]
       }
@@ -1510,10 +1520,11 @@
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_AutoClipping_S",
     "latest-version": "v1.10-for-beta8",
     "license": "MIT",
-    "tags": [
-    ],
+    "tags": [],
     "dependencies": [],
-    "images": ["https://raw.githubusercontent.com/Neosku/aviutl2-catalog-data/main/image/sigma-axis.aviutl2_script_AutoClipping_S_1.png"],
+    "images": [
+      "https://raw.githubusercontent.com/Neosku/aviutl2-catalog-data/main/image/sigma-axis.aviutl2_script_AutoClipping_S_1.png"
+    ],
     "installer": {
       "source": {
         "github": {
