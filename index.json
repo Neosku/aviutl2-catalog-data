@@ -1616,5 +1616,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": "gometh.立体化-g",
+    "name": "立体化(g)",
+    "type": "スクリプト",
+    "summary": "",
+    "description": "",
+    "author": "gometh",
+    "repoURL": "https://x.com/gometh55/status/1942624351028928756",
+    "latest-version": "v1",
+    "license": "",
+    "tags": [
+      ""
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://drive.google.com/uc?export=download&id=1ZYCCStaz0s0WwEgquAJSPZKYc9_lWpx0"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "path": "{scriptsDir}/@立体化(g).anm2"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@立体化(g).anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1",
+        "release_date": "2025-07-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/@立体化(g).anm2",
+            "XXH3_128": "6e6975b61926599b3ff2c65222d46f3a"
+          }
+        ]
+      }
+    ]
   }
 ]
