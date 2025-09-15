@@ -68,7 +68,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/x264guiEx",
-      "regex": "AviUtl2_x264guiEx.*install\\.exe",
+      "regex": ".*_x264guiEx.*install\\.exe",
       "hash-calc": [
         {
           "extract": "7zip",
@@ -88,7 +88,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/x265guiEx",
-      "regex": "AviUtl2_x265guiEx.*install\\.exe",
+      "regex": ".*_x265guiEx.*install\\.exe",
       "hash-calc": [
         {
           "extract": "7zip",
@@ -104,11 +104,11 @@
   },
   {
     "id": "rigaya.NVEnc",
-    "latest-version": "9.02",
+    "latest-version": "9.01",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/NVEnc",
-      "regex": "AviUtl2_NVEnc.*install\\.exe",
+      "regex": ".*_NVEnc.*install\\.exe",
       "hash-calc": [
         {
           "extract": "7zip",
@@ -128,7 +128,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/QSVEnc",
-      "regex": "AviUtl2_QSVEnc.*install\\.exe",
+      "regex": ".*_QSVEnc.*install\\.exe",
       "hash-calc": [
         {
           "extract": "7zip",
@@ -148,7 +148,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/ffmpegOut",
-      "regex": "AviUtl2_ffmpegOut.*install\\.exe",
+      "regex": ".*_ffmpegOut.*install\\.exe",
       "hash-calc": [
         {
           "extract": "7zip",
@@ -168,7 +168,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/VCEEnc",
-      "regex": "AviUtl2_VCEEnc.*install\\.exe",
+      "regex": ".*_VCEEnc.*install\\.exe",
       "hash-calc": [
         {
           "extract": "7zip",
@@ -188,7 +188,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/svtAV1guiEx",
-      "regex": "AviUtl2_svtAV1guiEx.*install\\.exe",
+      "regex": ".*_svtAV1guiEx.*install\\.exe",
       "hash-calc": [
         {
           "extract": "7zip",
