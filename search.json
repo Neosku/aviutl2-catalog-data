@@ -110,15 +110,6 @@
       "repo": "rigaya/NVEnc",
       "regex": ".*_NVEnc.*install\\.exe",
       "hash-calc": [
-        {
-          "extract": "7zip",
-          "paths": [
-            "Plugins\\NVEnc.auo2"
-          ],
-          "recordPaths": [
-            "{pluginsDir}/NVEnc.auo2"
-          ]
-        }
       ]
     }
   },
