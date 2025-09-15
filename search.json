@@ -65,7 +65,7 @@
   },
   {
     "id": "rigaya.x264guiEx",
-    "latest-version": "4.03",
+    "latest-version": "4.04",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/x264guiEx",
@@ -85,7 +85,7 @@
   },
   {
     "id": "rigaya.x265guiEx",
-    "latest-version": "5.02",
+    "latest-version": "5.03",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/x265guiEx",
@@ -135,7 +135,7 @@
   },
   {
     "id": "rigaya.ffmpegOut",
-    "latest-version": "2.02",
+    "latest-version": "2.03",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/ffmpegOut",

@@ -505,7 +505,7 @@
     "description": "拡張 x264 出力(GUI) Ex (x264guiEx) は、x264を使用してエンコードを行うAviutlの出力プラグインです。\nseraphy氏 拡張 x264 出力(GUI) を改造し、x264を分離し、別プロセスとして実行できるようにしたものです。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x264guiEx",
-    "latest-version": "4.03",
+    "latest-version": "4.04",
     "license": "MIT",
     "tags": [
       "必須",
@@ -617,6 +617,16 @@
             "XXH3_128": "80f78c39ee2204f96441301d93544fc2"
           }
         ]
+      },
+      {
+        "version": "4.04",
+        "release_date": "2025-09-15",
+        "file": [
+          {
+            "path": "{pluginsDir}/x264guiEx.auo2",
+            "XXH3_128": "9e3ef1ddfb2e0e729e8160fe4a81cec5"
+          }
+        ]
       }
     ]
   },
@@ -628,7 +638,7 @@
     "description": "x265を使用してエンコードを行うAviutlの出力プラグインです。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x265guiEx",
-    "latest-version": "5.02",
+    "latest-version": "5.03",
     "license": "MIT",
     "tags": [
       "必須",
@@ -728,6 +738,16 @@
           {
             "path": "{pluginsDir}/x265guiEx.auo2",
             "XXH3_128": "94d4a52b1bf314ea4350f09c1006dd17"
+          }
+        ]
+      },
+      {
+        "version": "5.03",
+        "release_date": "2025-09-15",
+        "file": [
+          {
+            "path": "{pluginsDir}/x265guiEx.auo2",
+            "XXH3_128": "75986046f6922871922983d21b60c543"
           }
         ]
       }
@@ -985,7 +1005,7 @@
     "description": "ffmpegOut は、ffmpegを使用してエンコードを行うAviutlの出力プラグインです。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/ffmpegOut",
-    "latest-version": "2.02",
+    "latest-version": "2.03",
     "license": "MIT",
     "tags": [
       "エンコード"
