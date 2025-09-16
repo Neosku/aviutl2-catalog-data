@@ -153,7 +153,7 @@
       },
       {
         "version": "beta11a",
-        "release_date": "2025-09-15",
+        "release_date": "2025-09-14",
         "file": [
           {
             "path": "{appDir}/aviutl2.exe",
@@ -906,7 +906,12 @@
       {
         "version": "9.03",
         "release_date": "2025-09-15",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "47599d10221d288a5888717d3808e86d"
+          }
+        ]
       }
     ]
   },
@@ -1125,7 +1130,12 @@
       {
         "version": "2.03",
         "release_date": "2025-09-15",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/ffmpegOut.auo2",
+            "XXH3_128": "ce2c553e5860c69b14e0ae34f2ddf440"
+          }
+        ]
       }
     ]
   },
@@ -1324,7 +1334,12 @@
       {
         "version": "2.02",
         "release_date": "2025-09-15",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/svtAV1guiEx.auo2",
+            "XXH3_128": "ca7c2e6ea73d42824c83f927f8c050be"
+          }
+        ]
       }
     ]
   },
@@ -1667,54 +1682,6 @@
           {
             "path": "{scriptsDir}/AutoClipping_S.anm2",
             "XXH3_128": "79207470804985492f66cefe5de1b6dc"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "gometh.立体化-g",
-    "name": "立体化(g)",
-    "type": "スクリプト",
-    "summary": "",
-    "description": "",
-    "author": "gometh",
-    "repoURL": "https://x.com/gometh55/status/1942624351028928756",
-    "latest-version": "v1",
-    "license": "",
-    "tags": [
-      ""
-    ],
-    "dependencies": [],
-    "images": [],
-    "installer": {
-      "source": {
-        "direct": "https://drive.google.com/uc?export=download&id=1ZYCCStaz0s0WwEgquAJSPZKYc9_lWpx0"
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "copy",
-          "path": "{scriptsDir}/@立体化(g).anm2"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/@立体化(g).anm2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v1",
-        "release_date": "2025-07-09",
-        "file": [
-          {
-            "path": "{scriptsDir}/@立体化(g).anm2",
-            "XXH3_128": "6e6975b61926599b3ff2c65222d46f3a"
           }
         ]
       }
