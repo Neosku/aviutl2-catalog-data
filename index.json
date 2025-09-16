@@ -505,7 +505,7 @@
     "description": "拡張 x264 出力(GUI) Ex (x264guiEx) は、x264を使用してエンコードを行うAviutlの出力プラグインです。\nseraphy氏 拡張 x264 出力(GUI) を改造し、x264を分離し、別プロセスとして実行できるようにしたものです。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x264guiEx",
-    "latest-version": "4.04",
+    "latest-version": "4.05",
     "license": "MIT",
     "tags": [
       "必須",
@@ -625,6 +625,16 @@
           {
             "path": "{pluginsDir}/x264guiEx.auo2",
             "XXH3_128": "9e3ef1ddfb2e0e729e8160fe4a81cec5"
+          }
+        ]
+      },
+      {
+        "version": "4.05",
+        "release_date": "2025-09-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/x264guiEx.auo2",
+            "XXH3_128": "7538c41dc9cc2395dda06a154aa3bfe6"
           }
         ]
       }
