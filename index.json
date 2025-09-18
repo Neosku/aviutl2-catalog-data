@@ -1822,7 +1822,7 @@
     "type": "スクリプト",
     "summary": "虹色グラデーションを作成するエフェクト",
     "description": "虹色グラデーションを作成するエフェクト",
-    "author": "momo_neeeko",
+    "author": "もも猫",
     "repoURL": "https://x.com/momo_neeeko/status/1947433839112163352",
     "latest-version": "ver2.0",
     "license": "",
@@ -1873,7 +1873,7 @@
     "type": "スクリプト",
     "summary": "いい感じに縦と横のリサイズを行います",
     "description": "いい感じに縦と横のリサイズを行います",
-    "author": "momo_neeeko",
+    "author": "もも猫",
     "repoURL": "https://x.com/momo_neeeko/status/1944343165852426666",
     "latest-version": "ver1.0",
     "license": "",
@@ -1924,7 +1924,7 @@
     "type": "スクリプト",
     "summary": "角丸長方形配置状に個別オブジェクトを配置する",
     "description": "角丸長方形配置状に個別オブジェクトを配置する",
-    "author": "momo_neeeko",
+    "author": "もも猫",
     "repoURL": "https://x.com/momo_neeeko/status/1944343165852426666",
     "latest-version": "ver1.0",
     "license": "",
@@ -1975,7 +1975,7 @@
     "type": "スクリプト",
     "summary": "BPMカクカク振動",
     "description": "BPMカクカク振動",
-    "author": "momo_neeeko",
+    "author": "もも猫",
     "repoURL": "https://x.com/momo_neeeko/status/1944343165852426666",
     "latest-version": "ver1.0",
     "license": "",
@@ -2020,7 +2020,7 @@
       }
     ]
   },
-    {
+  {
     "id": "Nagomiku.shape_by_value",
     "name": "値で図形",
     "type": "スクリプト",
@@ -2066,6 +2066,57 @@
           {
             "path": "{scriptsDir}/値で図形.obj2",
             "XXH3_128": "c3f2dda3ffd87fb13f7d7f9ba207cc25"
+          }
+        ]
+      }
+    ]
+  },
+    {
+    "id": "tt_xiaop.ougi_blind",
+    "name": "扇ブラインド",
+    "type": "スクリプト",
+    "summary": "扇型のブラインドを作成するスクリプト",
+    "description": "画像や映像を「扇形」で複数に分割して切り抜くスクリプト",
+    "author": "テツ",
+    "repoURL": "https://x.com/tt_xiaop/status/1943165775189270911",
+    "latest-version": "ver1.0",
+    "license": "",
+    "tags": [
+      "図形"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1z8hF5OVRYpj-4FUtVmHPnMdbpwdPt5yp"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{download}/扇ブラインド.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/扇ブラインド.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "ver1.0",
+        "release_date": "2025-07-10",
+        "file": [
+          {
+            "path": "{scriptsDir}/扇ブラインド.anm2",
+            "XXH3_128": "c053fa3801e80f0632a4db32688ba992"
           }
         ]
       }
