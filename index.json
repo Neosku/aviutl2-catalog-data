@@ -2082,7 +2082,8 @@
     "latest-version": "ver1.0",
     "license": "",
     "tags": [
-      "図形"
+      "図形",
+      "ブラインド"
     ],
     "dependencies": [],
     "images": [],
@@ -2133,7 +2134,7 @@
     "latest-version": "ver1.0",
     "license": "",
     "tags": [
-      "折り畳み"
+      "変形"
     ],
     "dependencies": [],
     "images": [],
@@ -2168,6 +2169,57 @@
           {
             "path": "{scriptsDir}/折り畳み.anm2",
             "XXH3_128": "8ba4702f00fd6229983be0c8fcb20624"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "momo_neeeko.fold",
+    "name": "折りたたむ",
+    "type": "スクリプト",
+    "summary": "オブジェクトを折りたたむスクリプト",
+    "description": "オブジェクトを折りたたむスクリプト",
+    "author": "もも猫",
+    "repoURL": "https://x.com/momo_neeeko/status/1946436761141629252",
+    "latest-version": "ver1.0",
+    "license": "",
+    "tags": [
+      "変形"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1XZeI8fm8pswOl6-C-GphCBk7Nbk5xyEy"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{download}/折りたたむ.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/折りたたむ.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "ver1.0",
+        "release_date": "2025-07-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/折りたたむ.anm2",
+            "XXH3_128": "c526b8dff4056f1d5318dbc13af534c6"
           }
         ]
       }
