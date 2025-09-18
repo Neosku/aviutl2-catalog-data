@@ -1866,5 +1866,56 @@
         ]
       }
     ]
+  },
+  {
+    "id": "momo_neeeko.squash_resize",
+    "name": "潰す",
+    "type": "スクリプト",
+    "summary": "いい感じに縦と横のリサイズを行います",
+    "description": "いい感じに縦と横のリサイズを行います",
+    "author": "momo_neeeko",
+    "repoURL": "https://x.com/momo_neeeko/status/1944343165852426666",
+    "latest-version": "ver1.0",
+    "license": "",
+    "tags": [
+      "リサイズ"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1jONjj4D09Fp23X2z1lP7Q8jZJhHjEg4s"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{download}/潰す.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/潰す.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "ver1.0",
+        "release_date": "2025-07-13",
+        "file": [
+          {
+            "path": "{scriptsDir}/潰す.anm2",
+            "XXH3_128": "6a476f867ee69aefd81ea07aa0280d0e"
+          }
+        ]
+      }
+    ]
   }
 ]
