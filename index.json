@@ -1968,5 +1968,56 @@
         ]
       }
     ]
+  },
+  {
+    "id": "momo_neeeko.bpm_shake",
+    "name": "BPMカクカク振動",
+    "type": "スクリプト",
+    "summary": "BPMカクカク振動",
+    "description": "BPMカクカク振動",
+    "author": "momo_neeeko",
+    "repoURL": "https://x.com/momo_neeeko/status/1944343165852426666",
+    "latest-version": "ver1.0",
+    "license": "",
+    "tags": [
+      "振動"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "195g8P085ExNtNje-KtXm8fsHduimGJKK"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{download}/BPMカクカク振動.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/BPMカクカク振動.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "ver1.0",
+        "release_date": "2025-07-13",
+        "file": [
+          {
+            "path": "{scriptsDir}/BPMカクカク振動.anm2",
+            "XXH3_128": "6efa5c90f7a5d4ac6bf463c853a2c218"
+          }
+        ]
+      }
+    ]
   }
 ]
