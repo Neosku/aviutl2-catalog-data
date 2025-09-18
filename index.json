@@ -2071,7 +2071,7 @@
       }
     ]
   },
-    {
+  {
     "id": "tt_xiaop.ougi_blind",
     "name": "扇ブラインド",
     "type": "スクリプト",
@@ -2117,6 +2117,57 @@
           {
             "path": "{scriptsDir}/扇ブラインド.anm2",
             "XXH3_128": "c053fa3801e80f0632a4db32688ba992"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tt_xiaop.accordion_fold",
+    "name": "折り畳み",
+    "type": "スクリプト",
+    "summary": "画像や映像を折りたたんだり広げたりするスクリプト",
+    "description": "画像や映像を折りたたんだり広げたりするスクリプト",
+    "author": "テツ",
+    "repoURL": "https://x.com/tt_xiaop/status/1942481707682115712",
+    "latest-version": "ver1.0",
+    "license": "",
+    "tags": [
+      "折り畳み"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "14oGLjNDr4yxY6HyFu_u31bQi3O0hpwov"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{download}/折り畳み.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/折り畳み.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "ver1.0",
+        "release_date": "2025-07-08",
+        "file": [
+          {
+            "path": "{scriptsDir}/折り畳み.anm2",
+            "XXH3_128": "8ba4702f00fd6229983be0c8fcb20624"
           }
         ]
       }
