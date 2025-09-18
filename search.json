@@ -194,7 +194,7 @@
     }
   },
   {
-    "id": "sigma-axis.aviutl2_script_AutoClipping_S",
+    "id": "sigma-axis.AutoClipping_S",
     "latest-version": "v1.10-for-beta8",
     "checkType": {
       "type": "GitHub",
@@ -208,6 +208,26 @@
           ],
           "recordPaths": [
             "{scriptsDir}/AutoClipping_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+    {
+    "id": "sigma-axis.RadRotDirBlur_S",
+    "latest-version": "v1.02-for-beta3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_RadRotDirBlur_S",
+      "regex": "^aviutl2_script_RadRotDirBlur_S-.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "RadRotDirBlur_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/RadRotDirBlur_S.anm2"
           ]
         }
       ]

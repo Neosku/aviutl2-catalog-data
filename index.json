@@ -1686,6 +1686,81 @@
     ]
   },
   {
+    "id": "sigma-axis.RadRotDirBlur_S",
+    "name": "RadRotDirBlur_S",
+    "type": "スクリプト",
+    "summary": "放射ブラー・回転ブラー・方向ブラーを組み合わせた複合ブラーのスクリプト",
+    "description": "放射ブラー (radial blur), 回転ブラー (rotation blur), 方向ブラー (directional blur) の 3 つを複合したぼかし効果を適用する AviUtl ExEdit 2 用のスクリプトです．",
+    "author": "sigma-axis",
+    "repoURL": "https://github.com/sigma-axis/aviutl2_script_RadRotDirBlur_S",
+    "latest-version": "v1.02-for-beta3",
+    "license": "MIT",
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sigma-axis",
+          "repo": "aviutl2_script_RadRotDirBlur_S",
+          "pattern": "^aviutl2_script_RadRotDirBlur_S-.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract",
+          "to": "{tmp}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/RadRotDirBlur_S.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/RadRotDirBlur_S.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.00-for-beta2",
+        "release_date": "2025-07-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/RadRotDirBlur_S.anm2",
+            "XXH3_128": "32d26d5c9dac2785f6813dd907e9b096"
+          }
+        ]
+      },
+      {
+        "version": "v1.01-for-beta3",
+        "release_date": "2025-07-20",
+        "file": [
+          {
+            "path": "{scriptsDir}/RadRotDirBlur_S.anm2",
+            "XXH3_128": "df08891ec2477e27f5e692c2852c14ae"
+          }
+        ]
+      },
+      {
+        "version": "v1.02-for-beta3",
+        "release_date": "2025-07-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/RadRotDirBlur_S.anm2",
+            "XXH3_128": "1ba8cd886420276042a949658e654d82"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "gometh.3dconv_g",
     "name": "立体化(g)",
     "type": "スクリプト",
