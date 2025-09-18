@@ -1621,7 +1621,7 @@
     ]
   },
   {
-    "id": "sigma-axis.aviutl2_script_AutoClipping_S",
+    "id": "sigma-axis.AutoClipping_S",
     "name": "AutoClipping_S",
     "type": "スクリプト",
     "summary": "オブジェクトの上下左右の透明領域をクリッピングするスクリプト",
@@ -1632,9 +1632,7 @@
     "license": "MIT",
     "tags": [],
     "dependencies": [],
-    "images": [
-      "https://raw.githubusercontent.com/Neosku/aviutl2-catalog-data/main/image/sigma-axis.aviutl2_script_AutoClipping_S_1.png"
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
