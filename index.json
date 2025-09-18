@@ -1686,5 +1686,61 @@
         ]
       }
     ]
+  },
+  {
+    "id": "gometh.3dconv_g",
+    "name": "立体化(g)",
+    "type": "スクリプト",
+    "summary": "オブジェクトを“立体的”に表示するためのスクリプト",
+    "description": "gometh.3dconv_g.md",
+    "author": "gometh",
+    "repoURL": "https://x.com/gometh55/status/1942624351028928756",
+    "latest-version": "v1",
+    "license": "",
+    "tags": [
+      "3D"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "src": "https://raw.githubusercontent.com/Neosku/aviutl2-catalog-data/main/image/gometh.3dconv_g_1.png",
+        "alt": "screenshot1"
+      }
+    ],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1ZYCCStaz0s0WwEgquAJSPZKYc9_lWpx0"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{download}/@立体化(g).anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@立体化(g).anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1",
+        "release_date": "2025-07-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/@立体化(g).anm2",
+            "XXH3_128": "bdf130a591c1ccdcd7fc4fe8d2c8ef87"
+          }
+        ]
+      }
+    ]
   }
 ]
