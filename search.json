@@ -213,7 +213,7 @@
       ]
     }
   },
-    {
+  {
     "id": "sigma-axis.RadRotDirBlur_S",
     "latest-version": "v1.02-for-beta3",
     "checkType": {
@@ -228,6 +228,26 @@
           ],
           "recordPaths": [
             "{scriptsDir}/RadRotDirBlur_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "korarei.Stylize_K",
+    "latest-version": "v1.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "korarei/AviUtl2_Stylize_K_Script",
+      "regex": "^@Stylize_K.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "@Stylize_K/@Stylize_K.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Stylize_K.anm2"
           ]
         }
       ]

@@ -2224,5 +2224,89 @@
         ]
       }
     ]
+  },
+  {
+    "id": "korarei.Stylize_K",
+    "name": "画像の見た目を変えるスクリプト",
+    "type": "スクリプト",
+    "summary": "AviUtl ExEdit2で画像の見た目を変えるスクリプト群",
+    "description": "AviUtl ExEdit2で画像の見た目を変えるスクリプト群",
+    "author": "Korarei",
+    "repoURL": "https://github.com/korarei/AviUtl2_Stylize_K_Script",
+    "latest-version": "v1.2.0",
+    "license": "MIT",
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "korarei",
+          "repo": "AviUtl2_Stylize_K_Script",
+          "pattern": "^@Stylize_K.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract",
+          "to": "{tmp}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@Stylize_K/@Stylize_K.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@Stylize_K/map_data/*",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@Stylize_K.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/map_data/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2025-07-21",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Stylize_K.anm2",
+            "XXH3_128": "aabf01998d239db7b1eb855e58f6e44a"
+          }
+        ]
+      },
+      {
+        "version": "v1.1.0",
+        "release_date": "2025-07-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Stylize_K.anm2",
+            "XXH3_128": "382f090d8a37d6a144511c9a587247b0"
+          }
+        ]
+      },
+      {
+        "version": "v1.2.0",
+        "release_date": "2025-08-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Stylize_K.anm2",
+            "XXH3_128": "2f2af77784fda2835620c3a9bee2eeaa"
+          }
+        ]
+      }
+    ]
   }
 ]
