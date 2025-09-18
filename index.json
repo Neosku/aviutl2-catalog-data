@@ -2019,5 +2019,56 @@
         ]
       }
     ]
+  },
+    {
+    "id": "Nagomiku.shape_by_value",
+    "name": "値で図形",
+    "type": "スクリプト",
+    "summary": "xyサイズを指定して図形を描画するスクリプト",
+    "description": "xyサイズを指定して図形を描画するスクリプト.ライン幅は少し違った感じになってます",
+    "author": "Nagomiku",
+    "repoURL": "https://x.com/nagomiku7359/status/1943304659487396140",
+    "latest-version": "ver3.0",
+    "license": "",
+    "tags": [
+      "図形"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "13oSfruq51PIMBugVxzziYtEuN0hrVmBJ"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{download}/値で図形.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/値で図形.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "ver3.0",
+        "release_date": "2025-07-10",
+        "file": [
+          {
+            "path": "{scriptsDir}/値で図形.obj2",
+            "XXH3_128": "c3f2dda3ffd87fb13f7d7f9ba207cc25"
+          }
+        ]
+      }
+    ]
   }
 ]
