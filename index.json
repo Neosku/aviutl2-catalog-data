@@ -1815,5 +1815,56 @@
         ]
       }
     ]
+  },
+  {
+    "id": "momo_neeeko.rainbow_grad",
+    "name": "虹色グラデーション",
+    "type": "スクリプト",
+    "summary": "虹色グラデーションを作成するエフェクト",
+    "description": "虹色グラデーションを作成するエフェクト",
+    "author": "momo_neeeko",
+    "repoURL": "https://x.com/momo_neeeko/status/1947433839112163352",
+    "latest-version": "ver2.0",
+    "license": "",
+    "tags": [
+      "エフェクト"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1fJW7QOlam2qO5ApxjkTqjrrXRyh0jS-Y"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{download}/虹色グラデーション.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/虹色グラデーション.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "ver2.0",
+        "release_date": "2025-07-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/虹色グラデーション.anm2",
+            "XXH3_128": "137a1114a00a1882194d40ba3763a62c"
+          }
+        ]
+      }
+    ]
   }
 ]
