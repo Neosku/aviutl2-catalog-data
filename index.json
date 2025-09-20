@@ -1239,7 +1239,7 @@
     "description": "拡張 SVT-AV1 出力(GUI) Ex (svtAV1guiEx) は、SVT-AV1を使用してエンコードを行うAviutlの出力プラグインです。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/svtAV1guiEx",
-    "latest-version": "2.02",
+    "latest-version": "2.03",
     "license": "MIT",
     "tags": [
       "エンコード"
@@ -1338,6 +1338,16 @@
           {
             "path": "{pluginsDir}/svtAV1guiEx.auo2",
             "XXH3_128": "ca7c2e6ea73d42824c83f927f8c050be"
+          }
+        ]
+      },
+      {
+        "version": "2.03",
+        "release_date": "2025-09-20",
+        "file": [
+          {
+            "path": "{pluginsDir}/svtAV1guiEx.auo2",
+            "XXH3_128": "219a4f4474bc837e2e490260546c4dfd"
           }
         ]
       }
