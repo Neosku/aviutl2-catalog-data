@@ -1658,7 +1658,7 @@
     "description": "AutoClipping_S AviUtl ExEdit2 スクリプトオブジェクトの不透明ピクセルを検索して，最小サイズなるよう上下左右端をクリッピングする AviUtl ExEdit 2 用のスクリプトです．",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_AutoClipping_S",
-    "latest-version": "v1.10-for-beta8",
+    "latest-version": "v1.11-for-beta12",
     "license": "MIT",
     "tags": [],
     "dependencies": [],
@@ -1710,6 +1710,16 @@
           {
             "path": "{scriptsDir}/AutoClipping_S.anm2",
             "XXH3_128": "79207470804985492f66cefe5de1b6dc"
+          }
+        ]
+      },
+      {
+        "version": "v1.11-for-beta12",
+        "release_date": "2025-09-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/AutoClipping_S.anm2",
+            "XXH3_128": "b1ca2633e7ce8e20da00665fb875abc7"
           }
         ]
       }
