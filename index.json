@@ -811,7 +811,7 @@
     "description": "このソフトウェアは、NVIDIAのGPU/APUに搭載されているHWエンコーダ(NVENC)の画質や速度といった性能の実験を目的としています。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/NVEnc",
-    "latest-version": "9.03",
+    "latest-version": "9.04",
     "license": "MIT",
     "tags": [
       "エンコード"
@@ -952,6 +952,11 @@
             "XXH3_128": "47599d10221d288a5888717d3808e86d"
           }
         ]
+      },
+      {
+        "version": "9.04",
+        "release_date": "2025-09-29",
+        "file": []
       }
     ]
   },
@@ -963,7 +968,7 @@
     "description": "このソフトウェアは、IntelのCPUに搭載されているHWエンコーダ(QSV)の画質や速度といった性能の実験を目的としています。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/QSVEnc",
-    "latest-version": "8.00",
+    "latest-version": "8.01",
     "license": "MIT",
     "tags": [
       "エンコード"
@@ -1054,6 +1059,11 @@
             "XXH3_128": "935a683702f585386d68867a5b78282b"
           }
         ]
+      },
+      {
+        "version": "8.01",
+        "release_date": "2025-09-29",
+        "file": []
       }
     ]
   },
