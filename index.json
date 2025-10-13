@@ -7,7 +7,7 @@
     "description": "AVIファイルに各種フィルタをかけるツールです。簡単な動画編集や各種codecを使って圧縮しながら出力することも出来ます。WinXP、Win7等で動作すると思います。MMXが使えるCPUが必要です。",
     "author": "Kenkun",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-    "latest-version": "beta13",
+    "latest-version": "beta15",
     "license": "MIT",
     "tags": [
       "必須"
@@ -180,6 +180,26 @@
             "XXH3_128": "f7dc45037dfc624a537add6fdfaba334"
           }
         ]
+      },
+      {
+        "version": "beta14",
+        "release_date": "2025-10-05",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "6bb35434c8977e1b659e07e5ea5db950"
+          }
+        ]
+      },
+      {
+        "version": "beta15",
+        "release_date": "2025-10-12",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "04486deb0f867e9fa2a1dff4c5a44a76"
+          }
+        ]
       }
     ]
   },
@@ -191,7 +211,7 @@
     "description": "AviUtl2のUIをダークモードに変更するプラグインです。",
     "author": "hebiiro",
     "repoURL": "https://github.com/hebiiro/al2_jd/",
-    "latest-version": "r21",
+    "latest-version": "r22",
     "license": "MIT",
     "tags": [
       "UI",
@@ -446,6 +466,16 @@
             "XXH3_128": "8a1856e20f790aec9fa86c352cdb7134"
           }
         ]
+      },
+      {
+        "version": "r22",
+        "release_date": "2025-10-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "8867621c5ca334c741e3c6c9f2193721"
+          }
+        ]
       }
     ]
   },
@@ -555,7 +585,7 @@
     "description": "拡張 x264 出力(GUI) Ex (x264guiEx) は、x264を使用してエンコードを行うAviutlの出力プラグインです。\nseraphy氏 拡張 x264 出力(GUI) を改造し、x264を分離し、別プロセスとして実行できるようにしたものです。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x264guiEx",
-    "latest-version": "4.05",
+    "latest-version": "4.06",
     "license": "MIT",
     "tags": [
       "必須",
@@ -685,6 +715,16 @@
           {
             "path": "{pluginsDir}/x264guiEx.auo2",
             "XXH3_128": "7538c41dc9cc2395dda06a154aa3bfe6"
+          }
+        ]
+      },
+      {
+        "version": "4.06",
+        "release_date": "2025-10-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/x264guiEx.auo2",
+            "XXH3_128": "a5ba0175e6c42ab7152fa36c4934e521"
           }
         ]
       }
@@ -966,7 +1006,12 @@
       {
         "version": "9.04",
         "release_date": "2025-09-29",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "f5a743e0fe0198020d80182a6c9d4392"
+          }
+        ]
       }
     ]
   },
@@ -1073,7 +1118,12 @@
       {
         "version": "8.01",
         "release_date": "2025-09-29",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo2",
+            "XXH3_128": "9221ef8cc5d2db35639983fa840077b8"
+          }
+        ]
       }
     ]
   },
@@ -1207,7 +1257,7 @@
     "description": "このソフトウェアは、AMDのGPU/APUに搭載されているHWエンコーダ(VCE/VCN)の画質や速度といった性能の実験を目的としています。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/VCEEnc",
-    "latest-version": "9.00",
+    "latest-version": "9.01",
     "license": "MIT",
     "tags": [
       "エンコード"
@@ -1286,6 +1336,16 @@
           {
             "path": "{pluginsDir}/VCEEnc.auo2",
             "XXH3_128": "5d8a5350f0771b4185d53f19c0a1671f"
+          }
+        ]
+      },
+      {
+        "version": "9.01",
+        "release_date": "2025-10-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/VCEEnc.auo2",
+            "XXH3_128": "cc06963f433819705e30f2e32073d85a"
           }
         ]
       }
@@ -1695,6 +1755,46 @@
           {
             "path": "{pluginsDir}/lwinput.aui2",
             "XXH3_128": "09c861fee56dec3e4161a089f9fa5995"
+          }
+        ]
+      },
+      {
+        "version": "r1245",
+        "release_date": "2025-09-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "ccb94df5df127291dbed83efe8fa063a"
+          }
+        ]
+      },
+      {
+        "version": "r1245",
+        "release_date": "2025-09-28",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "6a9c94d7aed86b0b5688a0f8af9e8b7f"
+          }
+        ]
+      },
+      {
+        "version": "r1245",
+        "release_date": "2025-10-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "6c9cda6bc7656687999ef8665643e842"
+          }
+        ]
+      },
+      {
+        "version": "r1245",
+        "release_date": "2025-10-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "de6ce3dd2e75a08beef6cc9c9e51d676"
           }
         ]
       }
