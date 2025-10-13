@@ -8,6 +8,7 @@
     "author": "Kenkun",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
     "latest-version": "beta15",
+    "latest-version": "beta15",
     "license": "MIT",
     "tags": [
       "必須"
@@ -16,7 +17,7 @@
     "images": [],
     "installer": {
       "source": {
-        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta13_setup.exe"
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta15_setup.exe"
       },
       "install": [
         {
@@ -211,6 +212,7 @@
     "description": "AviUtl2のUIをダークモードに変更するプラグインです。",
     "author": "hebiiro",
     "repoURL": "https://github.com/hebiiro/al2_jd/",
+    "latest-version": "r22",
     "latest-version": "r22",
     "license": "MIT",
     "tags": [
