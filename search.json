@@ -1,7 +1,7 @@
 [
   {
     "id": "Kenkun.AviUtlExEdit2",
-    "latest-version": "beta13",
+    "latest-version": "beta15",
     "checkType": {
       "type": "URL",
       "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
@@ -23,7 +23,7 @@
   },
   {
     "id": "hebiiro.al2_jd",
-    "latest-version": "r21",
+    "latest-version": "r22",
     "checkType": {
       "type": "GitHub",
       "repo": "hebiiro/al2_jd",
@@ -65,7 +65,7 @@
   },
   {
     "id": "rigaya.x264guiEx",
-    "latest-version": "4.05",
+    "latest-version": "4.06",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/x264guiEx",
@@ -115,7 +115,7 @@
   },
   {
     "id": "rigaya.VCEEnc",
-    "latest-version": "9.00",
+    "latest-version": "9.01",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/VCEEnc",

@@ -7,7 +7,7 @@
     "description": "AVIファイルに各種フィルタをかけるツールです。簡単な動画編集や各種codecを使って圧縮しながら出力することも出来ます。WinXP、Win7等で動作すると思います。MMXが使えるCPUが必要です。",
     "author": "Kenkun",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-    "latest-version": "beta13",
+    "latest-version": "beta15",
     "license": "MIT",
     "tags": [
       "必須"
@@ -16,7 +16,7 @@
     "images": [],
     "installer": {
       "source": {
-        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta13_setup.exe"
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta15_setup.exe"
       },
       "install": [
         {
@@ -180,6 +180,16 @@
             "XXH3_128": "f7dc45037dfc624a537add6fdfaba334"
           }
         ]
+      },
+      {
+        "version": "beta15",
+        "release_date": "2025-10-13",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "04486deb0f867e9fa2a1dff4c5a44a76"
+          }
+        ]
       }
     ]
   },
@@ -191,7 +201,7 @@
     "description": "AviUtl2のUIをダークモードに変更するプラグインです。",
     "author": "hebiiro",
     "repoURL": "https://github.com/hebiiro/al2_jd/",
-    "latest-version": "r21",
+    "latest-version": "r22",
     "license": "MIT",
     "tags": [
       "UI",
@@ -446,6 +456,16 @@
             "XXH3_128": "8a1856e20f790aec9fa86c352cdb7134"
           }
         ]
+      },
+      {
+        "version": "r22",
+        "release_date": "2025-10-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "8867621c5ca334c741e3c6c9f2193721"
+          }
+        ]
       }
     ]
   },
@@ -555,7 +575,7 @@
     "description": "拡張 x264 出力(GUI) Ex (x264guiEx) は、x264を使用してエンコードを行うAviutlの出力プラグインです。\nseraphy氏 拡張 x264 出力(GUI) を改造し、x264を分離し、別プロセスとして実行できるようにしたものです。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x264guiEx",
-    "latest-version": "4.05",
+    "latest-version": "4.06",
     "license": "MIT",
     "tags": [
       "必須",
@@ -687,6 +707,11 @@
             "XXH3_128": "7538c41dc9cc2395dda06a154aa3bfe6"
           }
         ]
+      },
+      {
+        "version": "4.06",
+        "release_date": "2025-10-13",
+        "file": []
       }
     ]
   },
@@ -1207,7 +1232,7 @@
     "description": "このソフトウェアは、AMDのGPU/APUに搭載されているHWエンコーダ(VCE/VCN)の画質や速度といった性能の実験を目的としています。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/VCEEnc",
-    "latest-version": "9.00",
+    "latest-version": "9.01",
     "license": "MIT",
     "tags": [
       "エンコード"
@@ -1288,6 +1313,11 @@
             "XXH3_128": "5d8a5350f0771b4185d53f19c0a1671f"
           }
         ]
+      },
+      {
+        "version": "9.01",
+        "release_date": "2025-10-13",
+        "file": []
       }
     ]
   },
