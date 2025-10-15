@@ -24,7 +24,15 @@
         },
         {
           "action": "run",
-          "path": "{download}"
+          "path": "{download}",
+          "args": [
+            "/VERYSILENT",
+            "/SP-",
+            "/SUPPRESSMSGBOXES",
+            "/DIR={appDir}",
+            "/MERGETASKS='desktopicon,associatefile'"
+          ],
+          "elevate": true
         }
       ],
       "uninstall": [
