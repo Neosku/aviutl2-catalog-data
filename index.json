@@ -29,8 +29,8 @@
             "/VERYSILENT",
             "/SP-",
             "/SUPPRESSMSGBOXES",
-            "/DIR={appDir}",
-            "/MERGETASKS='desktopicon,associatefile'"
+            "/DIR=\"{appDir}\"",
+            "/MERGETASKS=\"desktopicon,associatefile\""
           ],
           "elevate": true
         }
