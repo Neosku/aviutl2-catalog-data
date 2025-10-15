@@ -2536,5 +2536,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": "reindex-ot.reindex_AviUtl2_Language",
+    "name": "非公式言語ファイル(Japanese_Mod)",
+    "type": "言語ファイル",
+    "summary": "修正したAviUtl2 (AviUtl ExEdit2) の日本語の言語ファイルです。",
+    "description": "修正した AviUtl2 (AviUtl ExEdit2) の日本語言語ファイルです。Windows で標準的に使用されている日本語のテキストに修正 (フォルダー、名前を付けて保存、「全て」の綴りを「すべて」に変更) やダイアログが表示されるコンテキストメニューに三点リーダー追加など「こうした方が良いのでは？」と思う箇所を個人的に弄ってます。",
+    "author": "Re*Index. (ot_inc)",
+    "repoURL": "https://github.com/reindex-ot/reindex_AviUtl2_Language",
+    "latest-version": "for Beta 14",
+    "license": "WTFPL license",
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/reindex-ot/reindex_AviUtl2_Language/blob/main/Japanese_Mod.aul2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Japanese_Mod.aul2",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Japanese_Mod.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "for Beta 14",
+        "release_date": "2025-10-06",
+        "file": [
+          {
+            "path": "{dataDir}/Language/Japanese_Mod.aul2",
+            "XXH3_128": "154837afe1dddf917227231fb3389972"
+          }
+        ]
+      }
+    ]
   }
 ]
