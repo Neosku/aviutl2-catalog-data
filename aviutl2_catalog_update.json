@@ -1,11 +1,11 @@
 {
-  "version": "0.1.4",
-  "notes": "## 追加 - サムネイル画像に対応 - パッケージ詳細ページの説明欄で Markdown ファイルを表示可能に - Google ドライブ上のファイルのダウンロードに対応 ## 修正 - 権限設定の問題でパッケージのインストールに失敗していた不具合を修正",
-  "pub_date": "2025-09-18T15:08:16Z",
+  "version": "0.1.5",
+  "notes": "## 追加- セットアップ画面を新たに追加\n - 保存先パスの管理方法を改善\n - AviUtl のインストールをウィンドウを表示せずに実行できるように変更\n- 言語ファイルを含む、すべての環境設定関連ファイルを追加可能に対応\n ## 修正- 内部構造を見直し、コードを最適化",
+  "pub_date": "2025-10-15T13:17:28Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/Neosku/aviutl2-catalog/releases/download/v0.1.4/AviUtl2_Catalog_0.1.4_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSHJDVDJYS1dEM0N3WFRxVnNFZGFMSjVvZmpmR1g0eDNQc1dadlZPdzB4VU9lLzVRMDJnWXE4SEFVcFkxcDdTT1FYSytsMGdsczhZQXJRa0tOU040Znl1NVlTTVliRndzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU4MjA1ODM1CWZpbGU6QXZpVXRsMl9DYXRhbG9nXzAuMS40X3g2NC1zZXR1cC5leGUKSVFXamxxbmx2TlhUR3VZSDJHa2pZR3NGMUNmNWlkbTdjVUtPSTN6M3l3T1RIc2ZsbGRKZk1WRGRwOEVHdmE4TitMcjhtb2RmUlVsZ2VvWUFhR05xQWc9PQo="
+      "url": "https://github.com/Neosku/aviutl2-catalog/releases/download/v0.1.5/AviUtl2_Catalog_0.1.5_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSHJDVDJYS1dEM0VkYmRQVmd4NnorT3RhbUxBMkR2TzZoS1JnTFZDVCtNMlRTM2dDUG9aN1RLcUxTMHQ4WFpqRHdhcHVuS2FPSzNjZzZrWW90RXBJVG50N1J1eUNoc2dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYwNTMzNzQwCWZpbGU6QXZpVXRsMl9DYXRhbG9nXzAuMS41X3g2NC1zZXR1cC5leGUKSEhENTVUMXIyMzY2NitUS1ZZNkYzTTdJQmJ6V0wxOFR2Y3JwOTZtMWtzS2N2clllb09lK1dmTEhBS0tNV01Ld2hTY2M2YmtYZk9JME5ZNGxtTi91QUE9PQo="
     }
   }
 }
