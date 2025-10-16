@@ -613,7 +613,7 @@
     "description": "拡張 x264 出力(GUI) Ex (x264guiEx) は、x264を使用してエンコードを行うAviutlの出力プラグインです。\nseraphy氏 拡張 x264 出力(GUI) を改造し、x264を分離し、別プロセスとして実行できるようにしたものです。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x264guiEx",
-    "latest-version": "4.06",
+    "latest-version": "4.07",
     "license": "MIT",
     "tags": [
       "必須",
@@ -755,6 +755,11 @@
             "XXH3_128": "a5ba0175e6c42ab7152fa36c4934e521"
           }
         ]
+      },
+      {
+        "version": "4.07",
+        "release_date": "2025-10-16",
+        "file": []
       }
     ]
   },
@@ -766,7 +771,7 @@
     "description": "x265を使用してエンコードを行うAviutlの出力プラグインです。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x265guiEx",
-    "latest-version": "5.03",
+    "latest-version": "5.04",
     "license": "MIT",
     "tags": [
       "必須",
@@ -878,6 +883,11 @@
             "XXH3_128": "75986046f6922871922983d21b60c543"
           }
         ]
+      },
+      {
+        "version": "5.04",
+        "release_date": "2025-10-16",
+        "file": []
       }
     ]
   },
@@ -1387,7 +1397,7 @@
     "description": "拡張 SVT-AV1 出力(GUI) Ex (svtAV1guiEx) は、SVT-AV1を使用してエンコードを行うAviutlの出力プラグインです。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/svtAV1guiEx",
-    "latest-version": "2.04",
+    "latest-version": "2.05",
     "license": "MIT",
     "tags": [
       "エンコード"
@@ -1508,6 +1518,11 @@
             "XXH3_128": "512dedc894de95ea78a67e329350a130"
           }
         ]
+      },
+      {
+        "version": "2.05",
+        "release_date": "2025-10-16",
+        "file": []
       }
     ]
   },
