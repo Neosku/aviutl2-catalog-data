@@ -759,7 +759,12 @@
       {
         "version": "4.07",
         "release_date": "2025-10-16",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/x264guiEx.auo2",
+            "XXH3_128": "73d21357634439c67a3b96bec1c2857c"
+          }
+        ]
       }
     ]
   },
@@ -887,7 +892,12 @@
       {
         "version": "5.04",
         "release_date": "2025-10-16",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/x265guiEx.auo2",
+            "XXH3_128": "a1a3043279cebbeba624cd7f21ced9d5"
+          }
+        ]
       }
     ]
   },
@@ -1522,7 +1532,12 @@
       {
         "version": "2.05",
         "release_date": "2025-10-16",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/svtAV1guiEx.auo2",
+            "XXH3_128": "9e6f425a44a95d780ef5dd96a3077395"
+          }
+        ]
       }
     ]
   },
