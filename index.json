@@ -7,7 +7,7 @@
     "description": "AVIファイルに各種フィルタをかけるツールです。簡単な動画編集や各種codecを使って圧縮しながら出力することも出来ます。WinXP、Win7等で動作すると思います。MMXが使えるCPUが必要です。",
     "author": "Kenkun",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-    "latest-version": "beta16",
+    "latest-version": "beta16a",
     "license": "MIT",
     "tags": [
       "必須"
@@ -16,7 +16,7 @@
     "images": [],
     "installer": {
       "source": {
-        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta16_setup.exe"
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta16a_setup.exe"
       },
       "install": [
         {
@@ -216,6 +216,16 @@
           {
             "path": "{appDir}/aviutl2.exe",
             "XXH3_128": "52f5254f933cbf1e59b61ebed82df5f4"
+          }
+        ]
+      },
+      {
+        "version": "beta16a",
+        "release_date": "2025-10-19",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "9b7e7f19368524d8700ff26702496ca2"
           }
         ]
       }
