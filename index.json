@@ -929,7 +929,7 @@
     "description": "このソフトウェアは、NVIDIAのGPU/APUに搭載されているHWエンコーダ(NVENC)の画質や速度といった性能の実験を目的としています。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/NVEnc",
-    "latest-version": "9.04",
+    "latest-version": "9.05",
     "license": "MIT",
     "tags": [
       "エンコード"
@@ -1080,6 +1080,11 @@
             "XXH3_128": "f5a743e0fe0198020d80182a6c9d4392"
           }
         ]
+      },
+      {
+        "version": "9.05",
+        "release_date": "2025-10-22",
+        "file": []
       }
     ]
   },
