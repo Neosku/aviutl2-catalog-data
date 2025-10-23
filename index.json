@@ -239,7 +239,7 @@
     "description": "AviUtl2のUIをダークモードに変更するプラグインです。",
     "author": "hebiiro",
     "repoURL": "https://github.com/hebiiro/al2_jd/",
-    "latest-version": "r24",
+    "latest-version": "r25",
     "license": "MIT",
     "tags": [
       "UI",
@@ -522,6 +522,16 @@
           {
             "path": "{pluginsDir}/al2_jd.aui2",
             "XXH3_128": "200f55b42ceee8d03f6c397e4896b500"
+          }
+        ]
+      },
+      {
+        "version": "r25",
+        "release_date": "2025-10-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "7698408952ad5d6b5632b773f0032477"
           }
         ]
       }
