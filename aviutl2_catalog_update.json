@@ -1,11 +1,11 @@
 {
-  "version": "0.1.5",
-  "notes": "## 追加- セットアップ画面を新たに追加\n - 保存先パスの管理方法を改善\n - AviUtl のインストールをウィンドウを表示せずに実行できるように変更\n- 言語ファイルを含む、すべての環境設定関連ファイルを追加可能に対応\n ## 修正- 内部構造を見直し、コードを最適化",
-  "pub_date": "2025-10-15T13:17:28Z",
+  "version": "0.1.6",
+  "notes": "## 修正 - AviUtl2 のプラグインから本ソフトを正しく呼び出せない不具合を修正\n - 未導入のプラグインが誤って検出される問題を修正\n - インストール処理周りの内部構造を見直し、コードを最適化\n - 依存パッケージを更新",
+  "pub_date": "2025-10-24T03:25:18Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/Neosku/aviutl2-catalog/releases/download/v0.1.5/AviUtl2_Catalog_0.1.5_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSHJDVDJYS1dEM0VkYmRQVmd4NnorT3RhbUxBMkR2TzZoS1JnTFZDVCtNMlRTM2dDUG9aN1RLcUxTMHQ4WFpqRHdhcHVuS2FPSzNjZzZrWW90RXBJVG50N1J1eUNoc2dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYwNTMzNzQwCWZpbGU6QXZpVXRsMl9DYXRhbG9nXzAuMS41X3g2NC1zZXR1cC5leGUKSEhENTVUMXIyMzY2NitUS1ZZNkYzTTdJQmJ6V0wxOFR2Y3JwOTZtMWtzS2N2clllb09lK1dmTEhBS0tNV01Ld2hTY2M2YmtYZk9JME5ZNGxtTi91QUE9PQo="
+      "url": "https://github.com/Neosku/aviutl2-catalog/releases/download/v0.1.6/AviUtl2_Catalog_0.1.6_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSHJDVDJYS1dEM0tSNTBqdHIxUk5XZkpIc3VpZ3krMUxzMHlqQyt3VkdicG11MWtCb0VKeE91Wnp6Yk95NHl0em9jM0tsdmZvcU5aa3lzc0JXZUxMZ2VkYmlKMVpOY1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYxMjczMDk1CWZpbGU6QXZpVXRsMl9DYXRhbG9nXzAuMS42X3g2NC1zZXR1cC5leGUKT20zdEpEVWtFeVo3dGdLMlpPWTg3ZFBWL0UzdWN5WFlhVCt3S2svVnBqSHhSN0QrUmpxZk5MNElXdzAwWHZFRGhlM1ZrTkNGWHdHYUZmZEh6SjhnREE9PQo="
     }
   }
 }
