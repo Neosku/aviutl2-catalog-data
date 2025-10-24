@@ -265,7 +265,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Plugin/*",
+          "from": "{tmp}/Plugin",
           "to": "{pluginsDir}"
         }
       ],
@@ -2554,7 +2554,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/@Stylize_K/map_data/*",
+          "from": "{tmp}/@Stylize_K/map_data",
           "to": "{scriptsDir}"
         }
       ],
