@@ -1114,7 +1114,12 @@
       {
         "version": "9.06",
         "release_date": "2025-10-31",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "747c5346a852d8a09ab1548d59cd40f9"
+          }
+        ]
       }
     ]
   },
@@ -1231,7 +1236,12 @@
       {
         "version": "8.02",
         "release_date": "2025-10-24",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo2",
+            "XXH3_128": "9b1d9e44a75f710a01868e1f3fe3bdc7"
+          }
+        ]
       }
     ]
   },
@@ -1923,6 +1933,16 @@
           {
             "path": "{pluginsDir}/lwinput.aui2",
             "XXH3_128": "f5c30a6a3d527cd4992892d9bcfd1cb3"
+          }
+        ]
+      },
+      {
+        "version": "r1245",
+        "release_date": "2025-10-26",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "4cbe71c6ad11ccb0b4a98d718d57e02a"
           }
         ]
       }
