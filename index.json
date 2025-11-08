@@ -320,7 +320,7 @@
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2/"
+          "path": "{pluginsDir}/al2"
         }
       ]
     },
@@ -714,8 +714,12 @@
           "action": "download"
         },
         {
-          "action": "run",
-          "path": "{download}"
+          "action": "extract_sfx",
+          "to": "{tmp}"
+        },
+        {
+          "action": "run_auo_setup",
+          "path": "{tmp}/Plugin/exe_files/auo_setup2.exe"
         }
       ],
       "uninstall": [
@@ -877,8 +881,12 @@
           "action": "download"
         },
         {
-          "action": "run",
-          "path": "{download}"
+          "action": "extract_sfx",
+          "to": "{tmp}"
+        },
+        {
+          "action": "run_auo_setup",
+          "path": "{tmp}/Plugin/exe_files/auo_setup2.exe"
         }
       ],
       "uninstall": [
@@ -1009,8 +1017,12 @@
           "action": "download"
         },
         {
-          "action": "run",
-          "path": "{download}"
+          "action": "extract_sfx",
+          "to": "{tmp}"
+        },
+        {
+          "action": "run_auo_setup",
+          "path": "{tmp}/Plugin/exe_files/auo_setup2.exe"
         }
       ],
       "uninstall": [
@@ -1196,8 +1208,12 @@
           "action": "download"
         },
         {
-          "action": "run",
-          "path": "{download}"
+          "action": "extract_sfx",
+          "to": "{tmp}"
+        },
+        {
+          "action": "run_auo_setup",
+          "path": "{tmp}/Plugin/exe_files/auo_setup2.exe"
         }
       ],
       "uninstall": [
@@ -1318,8 +1334,12 @@
           "action": "download"
         },
         {
-          "action": "run",
-          "path": "{download}"
+          "action": "extract_sfx",
+          "to": "{tmp}"
+        },
+        {
+          "action": "run_auo_setup",
+          "path": "{tmp}/Plugin/exe_files/auo_setup2.exe"
         }
       ],
       "uninstall": [
@@ -2168,7 +2188,7 @@
     "name": "立体化(g)",
     "type": "スクリプト",
     "summary": "オブジェクトを“立体的”に表示するためのスクリプト",
-    "description": "https://raw.githubusercontent.com/Neosku/aviutl2-catalog-data/main/md/gometh.3dconv_g.md",
+    "description": "./md/gometh.3dconv_g.md",
     "author": "gometh",
     "repoURL": "https://x.com/gometh55/status/1942624351028928756",
     "latest-version": "v1",
@@ -2179,8 +2199,10 @@
     "dependencies": [],
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/Neosku/aviutl2-catalog-data/main/image/gometh.3dconv_g_1.png",
-        "alt": "screenshot1"
+        "thumbnail": "./image/gometh.3dconv_g_1.png",
+        "infoImg": [
+          "./image/gometh.3dconv_g_1.png"
+        ]
       }
     ],
     "installer": {
@@ -2754,6 +2776,53 @@
           {
             "path": "{dataDir}/Language/Japanese_Mod.aul2",
             "XXH3_128": "154837afe1dddf917227231fb3389972"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "seilor0.rounded_polygon_sl",
+    "name": "角丸正多角形_sl",
+    "type": "言語ファイル",
+    "summary": "角丸や星形にもできる正多角形のカスタムオブジェクトです。",
+    "description": "",
+    "author": "seilor0",
+    "repoURL": "https://github.com/seilor0/AviUtl2-scripts/tree/main/角丸正多角形_sl",
+    "latest-version": "v1.0",
+    "license": "",
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/seilor0/AviUtl2-scripts/main/%E8%A7%92%E4%B8%B8%E6%AD%A3%E5%A4%9A%E8%A7%92%E5%BD%A2_sl/%E8%A7%92%E4%B8%B8%E6%AD%A3%E5%A4%9A%E8%A7%92%E5%BD%A2_sl.obj2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/角丸正多角形_sl.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/角丸正多角形_sl.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-10-14",
+        "file": [
+          {
+            "path": "{scriptsDir}/角丸正多角形_sl.obj2",
+            "XXH3_128": "aa6b34ac6ddc28bda603fec709ebff1d"
           }
         ]
       }
