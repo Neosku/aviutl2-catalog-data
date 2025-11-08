@@ -2847,5 +2847,59 @@
         ]
       }
     ]
+  },
+  {
+    "id": "seilor0.roundedPolygonSl",
+    "name": "角丸正多角形_sl",
+    "type": "スクリプト",
+    "summary": "角丸や星形にもできる正多角形のカスタムオブジェクト",
+    "description": "./md/seilor0.roundedPolygonSl.md",
+    "author": "セイル",
+    "repoURL": "https://github.com/seilor0/AviUtl2-scripts/tree/main/角丸正多角形_sl",
+    "latest-version": "v1.0",
+    "license": "MIT",
+    "tags": [
+      "図形"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/seilor0.roundedPolygonSl_thumbnail.png",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/seilor0/AviUtl2-scripts/main/%E8%A7%92%E4%B8%B8%E6%AD%A3%E5%A4%9A%E8%A7%92%E5%BD%A2_sl/%E8%A7%92%E4%B8%B8%E6%AD%A3%E5%A4%9A%E8%A7%92%E5%BD%A2_sl.obj2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/角丸正多角形_sl.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/角丸正多角形_sl.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-10-14",
+        "file": [
+          {
+            "path": "{scriptsDir}/角丸正多角形_sl.obj2",
+            "XXH3_128": "aa6b34ac6ddc28bda603fec709ebff1d"
+          }
+        ]
+      }
+    ]
   }
 ]
