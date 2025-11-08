@@ -2770,12 +2770,22 @@
     },
     "version": [
       {
+        "version": "for Beta 14",
+        "release_date": "2025-10-06",
+        "file": [
+          {
+            "path": "{dataDir}/Language/Japanese_Mod.aul2",
+            "XXH3_128": "154837afe1dddf917227231fb3389972"
+          }
+        ]
+      },
+      {
         "version": "for Beta 18b",
         "release_date": "2025-11-03",
         "file": [
           {
             "path": "{dataDir}/Language/Japanese_Mod.aul2",
-            "XXH3_128": "154837afe1dddf917227231fb3389972"
+            "XXH3_128": "5b17d4f8d08b154881e320a4e398353b"
           }
         ]
       }
