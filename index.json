@@ -4,19 +4,18 @@
     "name": "AviUtlExEdit2",
     "type": "本体",
     "summary": "AviUtl2本体です。",
-    "description": "AVIファイルに各種フィルタをかけるツールです。簡単な動画編集や各種codecを使って圧縮しながら出力することも出来ます。WinXP、Win7等で動作すると思います。MMXが使えるCPUが必要です。",
+    "description": "./md/Kenkun.AviUtlExEdit2.md",
     "author": "Kenkun",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-    "latest-version": "beta19",
+    "latest-version": "beta19a",
     "license": "MIT",
     "tags": [
       "必須"
     ],
     "dependencies": [],
-    "images": [],
     "installer": {
       "source": {
-        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta19_setup.exe"
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta19a_setup.exe"
       },
       "install": [
         {
@@ -30,9 +29,9 @@
             "/SP-",
             "/SUPPRESSMSGBOXES",
             "/DIR=\"{appDir}\"",
-            "/MERGETASKS=\"desktopicon,associatefile\""
-          ],
-          "elevate": true
+            "/MERGETASKS=\"desktopicon",
+            "associatefile\""
+          ]
         }
       ],
       "uninstall": [
@@ -43,8 +42,7 @@
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
-          ],
-          "elevate": true
+          ]
         }
       ]
     },
@@ -276,6 +274,16 @@
           {
             "path": "{appDir}/aviutl2.exe",
             "XXH3_128": "65f396e4f2f20a0b468e270b7634b066"
+          }
+        ]
+      },
+      {
+        "version": "beta19a",
+        "release_date": "2025-11-09",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "53427b0f5f678908662a0a740dc45c71"
           }
         ]
       }
