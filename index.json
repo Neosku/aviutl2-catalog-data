@@ -1743,7 +1743,8 @@
           "action": "download"
         },
         {
-          "action": "extract"
+          "action": "extract",
+          "to": "{tmp}"
         },
         {
           "action": "copy",
