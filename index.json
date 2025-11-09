@@ -1014,7 +1014,7 @@
     "name": "NVEnc",
     "type": "出力プラグイン",
     "summary": "NVENCによる高速エンコードの性能実験",
-    "description": "このソフトウェアは、NVIDIAのGPU/APUに搭載されているHWエンコーダ(NVENC)の画質や速度といった性能の実験を目的としています。",
+    "description": "./md/rigaya.NVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/NVEnc",
     "latest-version": "9.07",
@@ -1196,7 +1196,12 @@
       {
         "version": "9.07",
         "release_date": "2025-11-08",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "594a17bbd766cc9b97defcd34f265f25"
+          }
+        ]
       }
     ]
   },
