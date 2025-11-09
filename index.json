@@ -1721,16 +1721,15 @@
     "name": "L-SMASH-Works",
     "type": "入力プラグイン",
     "summary": "AviUtlで幅広い形式の動画・音声ファイルを読み込めるようにする入力プラグイン",
-    "description": "VFR-maniac氏によるL-SMASH Worksの派生版であり、Mr-Ojii氏が提供する自動ビルド版。AviUtlおよびAviUtl ExEdit2向けに最適化されており、多種多様なメディア形式の入力に対応した入力プラグインです。",
+    "description": "./md/Mr-Ojii.L-SMASH-Works.md",
     "author": "Mr-Ojii",
     "repoURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds",
-    "latest-version": "r1245",
+    "latest-version": "r1249",
     "license": "MIT",
     "tags": [
       "必須"
     ],
     "dependencies": [],
-    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -1744,8 +1743,7 @@
           "action": "download"
         },
         {
-          "action": "extract",
-          "to": "{tmp}"
+          "action": "extract"
         },
         {
           "action": "copy",
@@ -2048,6 +2046,36 @@
           {
             "path": "{pluginsDir}/lwinput.aui2",
             "XXH3_128": "4cbe71c6ad11ccb0b4a98d718d57e02a"
+          }
+        ]
+      },
+      {
+        "version": "r1245",
+        "release_date": "2025-11-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "8b48824b2e1e7b952c3cf62ec88badd7"
+          }
+        ]
+      },
+      {
+        "version": "r1249",
+        "release_date": "2025-11-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "278ca479404c0938d768d628c76e90da"
+          }
+        ]
+      },
+      {
+        "version": "r1249",
+        "release_date": "2025-11-09",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "af6f46572f221d00766d337bca3fa0b6"
           }
         ]
       }
