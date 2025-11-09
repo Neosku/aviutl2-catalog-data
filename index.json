@@ -1013,6 +1013,7 @@
       "エンコード"
     ],
     "dependencies": [],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -1026,10 +1027,12 @@
           "action": "download"
         },
         {
-          "action": "extract_sfx"
+          "action": "extract_sfx",
+          "to": "{tmp}"
         },
         {
-          "action": "run_auo_setup"
+          "action": "run_auo_setup",
+          "path": "{tmp}/Plugin/exe_files/auo_setup2.exe"
         }
       ],
       "uninstall": [
