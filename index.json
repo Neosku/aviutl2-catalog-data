@@ -320,8 +320,7 @@
           "action": "download"
         },
         {
-          "action": "extract",
-          "to": "{tmp}"
+          "action": "extract"
         },
         {
           "action": "copy",
@@ -635,8 +634,7 @@
           "action": "download"
         },
         {
-          "action": "extract",
-          "to": "{tmp}"
+          "action": "extract"
         },
         {
           "action": "copy",
@@ -734,8 +732,7 @@
           "action": "download"
         },
         {
-          "action": "extract_sfx",
-          "to": "{tmp}"
+          "action": "extract_sfx"
         },
         {
           "action": "run_auo_setup",
@@ -901,8 +898,7 @@
           "action": "download"
         },
         {
-          "action": "extract_sfx",
-          "to": "{tmp}"
+          "action": "extract_sfx"
         },
         {
           "action": "run_auo_setup",
@@ -1037,8 +1033,7 @@
           "action": "download"
         },
         {
-          "action": "extract_sfx",
-          "to": "{tmp}"
+          "action": "extract_sfx"
         },
         {
           "action": "run_auo_setup",
@@ -1233,8 +1228,7 @@
           "action": "download"
         },
         {
-          "action": "extract_sfx",
-          "to": "{tmp}"
+          "action": "extract_sfx"
         },
         {
           "action": "run_auo_setup",
@@ -1364,8 +1358,7 @@
           "action": "download"
         },
         {
-          "action": "extract_sfx",
-          "to": "{tmp}"
+          "action": "extract_sfx"
         },
         {
           "action": "run_auo_setup",
@@ -1490,8 +1483,11 @@
           "action": "download"
         },
         {
-          "action": "run",
-          "path": "{download}"
+          "action": "extract_sfx"
+        },
+        {
+          "action": "run_auo_setup",
+          "path": "{tmp}/Plugin/exe_files/auo_setup2.exe"
         }
       ],
       "uninstall": [
@@ -1743,8 +1739,7 @@
           "action": "download"
         },
         {
-          "action": "extract",
-          "to": "{tmp}"
+          "action": "extract"
         },
         {
           "action": "copy",
@@ -2108,8 +2103,7 @@
           "action": "download"
         },
         {
-          "action": "extract",
-          "to": "{tmp}"
+          "action": "extract"
         },
         {
           "action": "copy",
@@ -2193,8 +2187,7 @@
           "action": "download"
         },
         {
-          "action": "extract",
-          "to": "{tmp}"
+          "action": "extract"
         },
         {
           "action": "copy",
@@ -2735,8 +2728,7 @@
           "action": "download"
         },
         {
-          "action": "extract",
-          "to": "{tmp}"
+          "action": "extract"
         },
         {
           "action": "copy",
@@ -2746,7 +2738,7 @@
         {
           "action": "copy",
           "from": "{tmp}/@Stylize_K/map_data",
-          "to": "{scriptsDir}"
+          "to": "{scriptsDir}/map_data"
         }
       ],
       "uninstall": [
@@ -2952,7 +2944,7 @@
         "file": [
           {
             "path": "{scriptsDir}/@twinkle_sl.obj2",
-            "XXH3_128": "fe8edb9055340b342d652eef3c32b1e3"
+            "XXH3_128": "000c4842da5ec15705e995f7b7aed5bd"
           }
         ]
       }
