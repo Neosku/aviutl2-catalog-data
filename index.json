@@ -1460,7 +1460,7 @@
     "name": "VCEEnc",
     "type": "出力プラグイン",
     "summary": "VCEによる高速エンコードの性能実験",
-    "description": "このソフトウェアは、AMDのGPU/APUに搭載されているHWエンコーダ(VCE/VCN)の画質や速度といった性能の実験を目的としています。",
+    "description": "./md/rigaya.VCEEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/VCEEnc",
     "latest-version": "9.02",
@@ -1469,7 +1469,6 @@
       "エンコード"
     ],
     "dependencies": [],
-    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -1561,7 +1560,12 @@
       {
         "version": "9.02",
         "release_date": "2025-11-08",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/VCEEnc.auo2",
+            "XXH3_128": "a348271795108239ce6ffb8af29e6987"
+          }
+        ]
       }
     ]
   },
