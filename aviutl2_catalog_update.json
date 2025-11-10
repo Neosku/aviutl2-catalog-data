@@ -1,11 +1,11 @@
 {
-  "version": "0.1.7",
-  "notes": "## 追加\n一括更新機能を追加\n更新進行状況を表示する機能を追加\nrigaya 氏のプラグインを自動でダウンロードできるよう対応\n更新通知ウィンドウを追加し、更新内容を表示できるよう対応\nライトモードに正式対応\nパッケージ登録時に、既存パッケージの修正や独自登録を簡単に行えるよう対応（Pull Request 承認方式に変更）\n\n## 修正\n設定が更新されない不具合を修正\n権限不足によりインストールが失敗する不具合を修正\n画像および Markdown ファイルの構成を相対パスに対応\nAviUtl2 起動中にエラーメッセージを表示するよう修正\nホーム画面とサイドバーを個別にスクロールできるよう修正\nカタログデータの読み込み処理など、コード全体を最適化\nデザインを調整",
-  "pub_date": "2025-11-08T07:59:01Z",
+  "version": "0.1.8",
+  "notes": "## 修正\n\n- ZIP / 7z 展開時の展開先ディレクトリの初期値を変更\n- パッケージ登録時、パッケージIDに `_` や `-` を使用できない問題を修正\n- パッケージ登録時、変更指定していない部分まで変更されてしまう不具合を修正\n- パッケージ登録時、項目が消失してしまう問題を修正",
+  "pub_date": "2025-11-10T14:14:36Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/Neosku/aviutl2-catalog/releases/download/v0.1.7/AviUtl2_Catalog_0.1.7_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSHJDVDJYS1dEM0pBL25XbWk4UUJ3REtoa0Q5VGRISjBNUWZBNFJLRUNOeEhHQnRZR0JBa0VuOXF2SlBVNDc2VURNYzhyMC90Rm5CYXBUZm1TSWh3OXJCNklGMkJXbGcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYyNTg4MzAxCWZpbGU6QXZpVXRsMl9DYXRhbG9nXzAuMS43X3g2NC1zZXR1cC5leGUKU2pYaE9jRmJkVFNObXJBU3VydTJTTDlJRDV1TERiWkI3aW9vQXBhTi90cjVIaW9NSERyVk45ek1DRE5Ga292QlNlTGs2VWRseHJray9EK0NiSkk2QVE9PQo="
+      "url": "https://github.com/Neosku/aviutl2-catalog/releases/download/v0.1.8/AviUtl2_Catalog_0.1.8_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSHJDVDJYS1dEM0RWV2g5amdlSXRXZ0hUYXQwcDVybTYyK3N0WDYzVyt6SUFuZUhOemlXVmp6NVljZisyckMwTzN3S1FXenFaM2JwQktNNUphaG1tSkZ3aGlPWEE2V3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYyNzgzNTAwCWZpbGU6QXZpVXRsMl9DYXRhbG9nXzAuMS44X3g2NC1zZXR1cC5leGUKeFlndVpHdWpUU0xjK29SejB3QzZrVXE0SkpVbmpWR3pMY2RYUDBITDFPVDJGRk9rejNpczFzYTRZdVUzalBacWE0TFlkdTU0V0tRTUpMTWl6dllXREE9PQo="
     }
   }
 }
