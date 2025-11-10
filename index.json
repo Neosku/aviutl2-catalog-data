@@ -2953,5 +2953,59 @@
         ]
       }
     ]
+  },
+  {
+    "id": "seilor0.twinkle_sl",
+    "name": "twinkle_sl",
+    "type": "スクリプト",
+    "summary": "✨を作れるカスタムオブジェクト",
+    "description": "./md/seilor0.twinkle_sl.md",
+    "author": "セイル",
+    "repoURL": "https://github.com/seilor0/AviUtl2-scripts/tree/main/twinkle_sl",
+    "latest-version": "v1.0",
+    "license": "MIT",
+    "tags": [
+      "図形"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/seilor0.twinkleSl_thumbnail.png",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/seilor0/AviUtl2-scripts/refs/heads/main/twinkle_sl/%40twinkle_sl.obj2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@twinkle_sl.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@twinkle_sl.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-10-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/@twinkle_sl.obj2",
+            "XXH3_128": "fe8edb9055340b342d652eef3c32b1e3"
+          }
+        ]
+      }
+    ]
   }
 ]
