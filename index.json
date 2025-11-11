@@ -2901,11 +2901,11 @@
     ]
   },
   {
-    "id": "seilor0.twinkleSl",
+    "id": "seilor0.twinkle_sl",
     "name": "twinkle_sl",
     "type": "スクリプト",
     "summary": "✨を作れるカスタムオブジェクト",
-    "description": "./md/seilor0.twinkleSl.md",
+    "description": "./md/seilor0.twinkle_sl.md",
     "author": "セイル",
     "repoURL": "https://github.com/seilor0/AviUtl2-scripts/tree/main/twinkle_sl",
     "latest-version": "v1.0",
@@ -2948,7 +2948,7 @@
         "file": [
           {
             "path": "{scriptsDir}/@twinkle_sl.obj2",
-            "XXH3_128": "000c4842da5ec15705e995f7b7aed5bd"
+            "XXH3_128": "fe8edb9055340b342d652eef3c32b1e3"
           }
         ]
       }
