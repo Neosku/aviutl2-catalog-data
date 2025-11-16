@@ -3032,5 +3032,64 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Mr-Ojii.WebPFileReader-Plugin",
+    "name": "WebPFileReader-Plugin",
+    "type": "入力プラグイン",
+    "summary": "Animated WebP を読み込むために開発した AviUtl ExEdit2 用入力プラグイン",
+    "description": "./md/Mr-Ojii.WebPFileReader-Plugin.md",
+    "author": "Mr-Ojii",
+    "repoURL": "https://github.com/Mr-Ojii/AviUtl2-WebPFileReader-Plugin",
+    "latest-version": "r1",
+    "license": "MIT",
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Mr-Ojii",
+          "repo": "AviUtl2-WebPFileReader-Plugin",
+          "pattern": "^webpinput\\\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/webpinput.aui2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/webpinput.aui2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r1",
+        "release_date": "2025-09-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/webpinput.aui2",
+            "XXH3_128": "f275d8f3a52c15ab93dbaf03d5b180a9"
+          }
+        ]
+      }
+    ]
   }
 ]
