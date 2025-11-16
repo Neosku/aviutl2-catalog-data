@@ -2963,5 +2963,121 @@
         ]
       }
     ]
+  },
+  {
+    "id": "yu7400ki.anmImOutput-apng",
+    "name": "APNG出力プラグイン",
+    "type": "出力プラグイン",
+    "summary": "AviUtl ExEdit2で動画をアニメーション画像（APNG）として出力するプラグイン",
+    "description": "./md/yu7400ki.anmImOutput-apng.md",
+    "author": "yu7400ki",
+    "repoURL": "https://yu7400ki.me/aviutl2-animated-image-output/",
+    "latest-version": "v1,1,2",
+    "license": "MIT",
+    "tags": [
+      "アニメーション画像"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://github.com/yu7400ki/aviutl2-animated-image-output/releases/download/apng-v1.1.2/png_output.auo2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/png_output.auo2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/png_output.auo2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/png_output.ini"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1,1,2",
+        "release_date": "2025-08-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/png_output.auo2",
+            "XXH3_128": "bee7ddaa1d20bc5c06adf225cef05f3a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yu7400ki.anmImOutput-gif",
+    "name": "GIF出力プラグイン",
+    "type": "出力プラグイン",
+    "summary": "AviUtl ExEdit2で動画をアニメーション画像（GIF）として出力するプラグイン",
+    "description": "./md/yu7400ki.anmImOutput-gif.md",
+    "author": "yu7400ki",
+    "repoURL": "https://yu7400ki.me/aviutl2-animated-image-output/",
+    "latest-version": "v1.1.3",
+    "license": "MIT",
+    "tags": [
+      "アニメーション画像"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://github.com/yu7400ki/aviutl2-animated-image-output/releases/download/gif-v1.1.3/gif_output.auo2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/gif_output.auo2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/gif_output.auo2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/gif_output.ini"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.1.3",
+        "release_date": "2025-08-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/gif_output.auo2",
+            "XXH3_128": "68047d9f32a1d4e2f972521649e1eeda"
+          }
+        ]
+      }
+    ]
   }
 ]
