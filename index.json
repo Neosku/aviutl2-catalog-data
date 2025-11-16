@@ -2183,7 +2183,7 @@
     "description": "放射ブラー (radial blur), 回転ブラー (rotation blur), 方向ブラー (directional blur) の 3 つを複合したぼかし効果を適用する AviUtl ExEdit 2 用のスクリプトです．",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_RadRotDirBlur_S",
-    "latest-version": "v1.02-for-beta3",
+    "latest-version": "v1.03-for-beta20",
     "license": "MIT",
     "tags": [],
     "dependencies": [],
@@ -2244,6 +2244,16 @@
           {
             "path": "{scriptsDir}/RadRotDirBlur_S.anm2",
             "XXH3_128": "1ba8cd886420276042a949658e654d82"
+          }
+        ]
+      },
+      {
+        "version": "v1.03-for-beta20",
+        "release_date": "2025-11-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/RadRotDirBlur_S.anm2",
+            "XXH3_128": "83454379b882450ac34afb0460235ee0"
           }
         ]
       }
