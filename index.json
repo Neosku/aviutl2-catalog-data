@@ -2963,5 +2963,74 @@
         ]
       }
     ]
+  },
+  {
+    "id": "hebiiro.al2_memo",
+    "name": "メモ帳プラグイン",
+    "type": "汎用プラグイン",
+    "summary": "aviutl2にメモ帳代わりに使用できるウィンドウを追加するプラグインです。",
+    "description": "./md/hebiiro.al2_memo.md",
+    "author": "hebiiro",
+    "repoURL": "https://github.com/hebiiro/al2_memo",
+    "latest-version": "r1",
+    "license": "MIT",
+    "tags": [
+      "メモ"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "hebiiro",
+          "repo": "al2_memo",
+          "pattern": "^al2_memo_r\\\\d+\\\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2_memo.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/config/al2_memo.json"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/config/sharing_note.txt"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r1",
+        "release_date": "2025-11-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_memo.aux2",
+            "XXH3_128": "32d1da1e2755bf2892d74257c75cb350"
+          }
+        ]
+      }
+    ]
   }
 ]
