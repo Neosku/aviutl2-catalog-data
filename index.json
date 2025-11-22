@@ -4,7 +4,7 @@
     "name": "AviUtlExEdit2",
     "type": "本体",
     "summary": "AviUtl2本体です。",
-    "description": "AVIファイルに各種フィルタをかけるツールです。簡単な動画編集や各種codecを使って圧縮しながら出力することも出来ます。WinXP、Win7等で動作すると思います。MMXが使えるCPUが必要です。",
+    "description": "./md/Kenkun.AviUtlExEdit2.md",
     "author": "Kenkun",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
     "latest-version": "beta21",
@@ -13,7 +13,12 @@
       "必須"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
     "installer": {
       "source": {
         "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta21_setup.exe"
@@ -30,9 +35,9 @@
             "/SP-",
             "/SUPPRESSMSGBOXES",
             "/DIR=\"{appDir}\"",
-            "/MERGETASKS=\"desktopicon,associatefile\""
-          ],
-          "elevate": true
+            "/MERGETASKS=\"desktopicon",
+            "associatefile\""
+          ]
         }
       ],
       "uninstall": [
@@ -43,8 +48,7 @@
             "/VERYSILENT",
             "/SUPPRESSMSGBOXES",
             "/NORESTART"
-          ],
-          "elevate": true
+          ]
         }
       ]
     },
