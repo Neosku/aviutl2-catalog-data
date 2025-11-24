@@ -3045,7 +3045,7 @@
         "github": {
           "owner": "hebiiro",
           "repo": "al2_memo",
-          "pattern": "^al2_memo_r\\\\d+\\\\.zip$"
+          "pattern": "^al2_memo_r\\d+\\.zip$"
         }
       },
       "install": [
@@ -3375,6 +3375,91 @@
           {
             "path": "{pluginsDir}/avif_output.auo2",
             "XXH3_128": "b562952c989e495087862a41431aad9e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sigma-axis.Basic_S",
+    "name": "Basic_S",
+    "type": "スクリプト",
+    "summary": "汎用的な基本効果や基本図形などをまとめたスクリプト集",
+    "description": "./md/sigma-axis.Basic_S.md",
+    "author": "sigma-axis",
+    "repoURL": "https://github.com/sigma-axis/aviutl2_script_Basic_S",
+    "latest-version": "v1.30-for-beta21",
+    "license": "MIT",
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sigma-axis",
+          "repo": "aviutl2_script_Basic_S",
+          "pattern": "^aviutl2_script_Basic_S-v[\\d.]+-for-beta\\d+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@Basic_S.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@Basic_S.obj2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@Basic_S.tra2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@Basic_S.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@Basic_S.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@Basic_S.tra2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.30-for-beta21",
+        "release_date": "2025-11-23",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Basic_S.anm2",
+            "XXH3_128": "1f5b14763d4ce3a91a53281b33adfff0"
+          },
+          {
+            "path": "{scriptsDir}/@Basic_S.obj2",
+            "XXH3_128": "1fda7f52949e8544e5ed76230dcc3c74"
+          },
+          {
+            "path": "{scriptsDir}/@Basic_S.tra2",
+            "XXH3_128": "fa1bc2c3020c7c8113e755855bc53fa3"
           }
         ]
       }
