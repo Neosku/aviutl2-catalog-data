@@ -3464,5 +3464,108 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sigma-axis.Path_S",
+    "name": "Path_S",
+    "type": "スクリプト",
+    "summary": "折れ線やベジェ曲線で図形を描画，フィルタ効果をかけるスクリプト",
+    "description": "./md/sigma-axis.Path_S.md",
+    "author": "sigma-axis",
+    "repoURL": "https://github.com/sigma-axis/aviutl2_script_Path_S/",
+    "latest-version": "v1.10-for-beta21",
+    "license": "MIT",
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sigma-axis",
+          "repo": "aviutl2_script_Path_S",
+          "pattern": "^aviutl2_script_Path_S-v[\\d.]+-for-beta-\\d+\\.zip"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@Path_S.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@Path_S.obj2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Path_S.lua",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@Path_S.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@Path_S.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Path_S.lua"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.01-for-beta20",
+        "release_date": "2025-11-21",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Path_S.anm2",
+            "XXH3_128": "dd6a7f4127109196fa9c7ff580c51d2b"
+          },
+          {
+            "path": "{scriptsDir}/@Path_S.obj2",
+            "XXH3_128": "50be847815805ed2ed3e032b0f405c47"
+          },
+          {
+            "path": "{scriptsDir}/Path_S.lua",
+            "XXH3_128": "316f53e3b39518499cda4ec5aceb13c0"
+          }
+        ]
+      },
+      {
+        "version": "v1.10-for-beta21",
+        "release_date": "2025-11-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Path_S.anm2",
+            "XXH3_128": "0dd801dc104a0e87336bee835b462e9b"
+          },
+          {
+            "path": "{scriptsDir}/@Path_S.obj2",
+            "XXH3_128": "c7bee4b2e925950aa3fa73dabe2c0863"
+          },
+          {
+            "path": "{scriptsDir}/Path_S.lua",
+            "XXH3_128": "2e772b914c5a54e656fb2fcd2175df7f"
+          }
+        ]
+      }
+    ]
   }
 ]
