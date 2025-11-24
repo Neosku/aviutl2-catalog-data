@@ -3045,7 +3045,7 @@
         "github": {
           "owner": "hebiiro",
           "repo": "al2_memo",
-          "pattern": "^al2_memo_r\\\\d+\\\\.zip$"
+          "pattern": "^al2_memo_r\\d+\\.zip$"
         }
       },
       "install": [
