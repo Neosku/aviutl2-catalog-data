@@ -3567,5 +3567,77 @@
         ]
       }
     ]
+  },
+  {
+    "id": "korarei.PixelSorter_K",
+    "name": "PixelSorter_K",
+    "type": "スクリプト",
+    "summary": "範囲とソート対象を指定できるピクセルソートスクリプト",
+    "description": "./md/korarei.PixelSorter_K.md",
+    "author": "Korarei",
+    "repoURL": "https://github.com/korarei/AviUtl2_PixelSorter_K_Script",
+    "latest-version": "v1.0.1",
+    "license": "MIT",
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "korarei",
+          "repo": "AviUtl2_PixelSorter_K_Script",
+          "pattern": "^PixelSorter_K\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/PixelSorter_K/PixelSorter_K.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/PixelSorter_K/PixelSorter_K.mod2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PixelSorter_K.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PixelSorter_K.mod2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.1",
+        "release_date": "2025-10-28",
+        "file": [
+          {
+            "path": "{scriptsDir}/PixelSorter_K.anm2",
+            "XXH3_128": "acf7a7f3dd99b30d64ed0c24c1ae119a"
+          },
+          {
+            "path": "{scriptsDir}/PixelSorter_K.mod2",
+            "XXH3_128": "56a62dfb6933958fbe93a99a52e89c33"
+          }
+        ]
+      }
+    ]
   }
 ]
