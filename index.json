@@ -1053,7 +1053,7 @@
     "description": "./md/rigaya.NVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/NVEnc",
-    "latest-version": "9.07",
+    "latest-version": "9.08",
     "license": "MIT",
     "tags": [
       "エンコード"
@@ -1237,6 +1237,11 @@
             "XXH3_128": "594a17bbd766cc9b97defcd34f265f25"
           }
         ]
+      },
+      {
+        "version": "9.08",
+        "release_date": "2025-11-27",
+        "file": []
       }
     ]
   },
