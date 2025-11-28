@@ -1059,7 +1059,12 @@
       "エンコード"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -1241,7 +1246,12 @@
       {
         "version": "9.08",
         "release_date": "2025-11-27",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "fd1fdbb534428bee9523aab136c98bf8"
+          }
+        ]
       }
     ]
   },
