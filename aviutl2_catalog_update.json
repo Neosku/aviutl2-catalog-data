@@ -1,11 +1,11 @@
 {
-  "version": "0.1.8",
-  "notes": "## 修正\n\n- ZIP / 7z 展開時の展開先ディレクトリの初期値を変更\n- パッケージ登録時、パッケージIDに `_` や `-` を使用できない問題を修正\n- パッケージ登録時、変更指定していない部分まで変更されてしまう不具合を修正\n- パッケージ登録時、項目が消失してしまう問題を修正",
-  "pub_date": "2025-11-10T14:14:36Z",
+  "version": "0.1.9",
+  "notes": "## 追加\n* winget に対応（新しいパッケージが反映されるまで約1日かかる場合があります）\n\n## 修正\n* exe 実行時に出力されるエラー文字列が文字化けしないよう改善\n* スクロール時にタイトルバーが消えてしまう問題を修正\n* Markdown 内のリンクを外部ブラウザで開くように変更\n* Markdown 表示で GitHub 形式のアラートに対応\n* 表示されるソフト名を日本語表記に修正\n* UI の配色を調整し、視認性を向上\n* パッケージ登録時、公開日の「年」入力欄に 6 桁入力できてしまう不具合を修正",
+  "pub_date": "2025-11-29T07:43:59Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/Neosku/aviutl2-catalog/releases/download/v0.1.8/AviUtl2_Catalog_0.1.8_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSHJDVDJYS1dEM0RWV2g5amdlSXRXZ0hUYXQwcDVybTYyK3N0WDYzVyt6SUFuZUhOemlXVmp6NVljZisyckMwTzN3S1FXenFaM2JwQktNNUphaG1tSkZ3aGlPWEE2V3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYyNzgzNTAwCWZpbGU6QXZpVXRsMl9DYXRhbG9nXzAuMS44X3g2NC1zZXR1cC5leGUKeFlndVpHdWpUU0xjK29SejB3QzZrVXE0SkpVbmpWR3pMY2RYUDBITDFPVDJGRk9rejNpczFzYTRZdVUzalBacWE0TFlkdTU0V0tRTUpMTWl6dllXREE9PQo="
+      "url": "https://github.com/Neosku/aviutl2-catalog/releases/download/v0.1.9/AviUtl2_Catalog_0.1.9_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSHJDVDJYS1dEM0M5eXNoTklVMHJzejVPSTJxQ0NkdlJUL2tEVDdKTEN4ZFBsR0NpcFk1YyszRm54SmFXL1hJZVRsdUQ4YS90R0txckV1VUdKdlZUUzFncHhqSUxwOEFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY0NDAxOTIzCWZpbGU6QXZpVXRsMiDjgqvjgr/jg63jgrBfMC4xLjlfeDY0LXNldHVwLmV4ZQowbHZpUXVWWE42ZUtKZ3lGNmp6b3RicnVBMjUyVk9NcGJEd29WYUxremovZk5vL0xDTW5ZRGN5Z1dZWGNoZFc4MmVOOUZuam1NWWtaVHhEUzZTYjZEQT09Cg=="
     }
   }
 }
