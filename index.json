@@ -2149,6 +2149,16 @@
             "XXH3_128": "ee45605dd9a27027669866faa0598f6d"
           }
         ]
+      },
+      {
+        "version": "r1253",
+        "release_date": "2025-11-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "8873393daf647c08a53d6a2f74420ab9"
+          }
+        ]
       }
     ]
   },
@@ -2157,12 +2167,15 @@
     "name": "AutoClipping_S",
     "type": "スクリプト",
     "summary": "オブジェクトの上下左右の透明領域をクリッピングするスクリプト",
-    "description": "AutoClipping_S AviUtl ExEdit2 スクリプトオブジェクトの不透明ピクセルを検索して，最小サイズなるよう上下左右端をクリッピングする AviUtl ExEdit 2 用のスクリプトです．",
+    "description": "./md/sigma-axis.AutoClipping_S.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_AutoClipping_S",
     "latest-version": "v1.12-for-beta15",
     "license": "MIT",
-    "tags": [],
+    "tags": [
+      "クリッピング",
+      "リサイズ"
+    ],
     "dependencies": [],
     "images": [],
     "installer": {
@@ -3399,26 +3412,28 @@
     "id": "sigma-axis.Basic_S",
     "name": "Basic_S",
     "type": "スクリプト",
-    "summary": "汎用的な基本効果や基本図形などをまとめたスクリプト集",
+    "summary": "汎用的な基本効果や基本図形などをまとめたスクリプト集．丸角矩形生成や回転操作の補助，傾斜変形など，標準では備わっていない基本的な効果を揃えています．",
     "description": "./md/sigma-axis.Basic_S.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Basic_S",
-    "latest-version": "v1.30-for-beta21",
+    "latest-version": "v1.40-for-beta21",
     "license": "MIT",
-    "tags": [],
-    "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "",
-        "infoImg": []
-      }
+    "tags": [
+      "図形",
+      "変形",
+      "色調補正",
+      "クリッピング",
+      "縁取り",
+      "ぼかし"
     ],
+    "dependencies": [],
+    "images": [],
     "installer": {
       "source": {
         "github": {
           "owner": "sigma-axis",
           "repo": "aviutl2_script_Basic_S",
-          "pattern": "^aviutl2_script_Basic_S-v[\\d.]+-for-beta\\d+\\.zip$"
+          "pattern": "^aviutl2_script_Basic_S.*\\.zip$"
         }
       },
       "install": [
@@ -3461,20 +3476,52 @@
     },
     "version": [
       {
+        "version": "v1.00-for-beta15",
+        "release_date": "2025-10-16",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Basic_S.anm2",
+            "XXH3_128": "e63c8addda7faf391291344a97beec76"
+          }
+        ]
+      },
+      {
+        "version": "v1.10-for-beta19a",
+        "release_date": "2025-11-14",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Basic_S.anm2",
+            "XXH3_128": "de73b94a160cad1195df6cad6dcd04c3"
+          }
+        ]
+      },
+      {
+        "version": "v1.11-for-beta20",
+        "release_date": "2025-11-16",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Basic_S.anm2",
+            "XXH3_128": "dd587e794ff896537d10362813f4133f"
+          }
+        ]
+      },
+      {
         "version": "v1.30-for-beta21",
-        "release_date": "2025-11-23",
+        "release_date": "2025-11-22",
         "file": [
           {
             "path": "{scriptsDir}/@Basic_S.anm2",
             "XXH3_128": "1f5b14763d4ce3a91a53281b33adfff0"
-          },
+          }
+        ]
+      },
+      {
+        "version": "v1.40-for-beta21",
+        "release_date": "2025-11-28",
+        "file": [
           {
-            "path": "{scriptsDir}/@Basic_S.obj2",
-            "XXH3_128": "1fda7f52949e8544e5ed76230dcc3c74"
-          },
-          {
-            "path": "{scriptsDir}/@Basic_S.tra2",
-            "XXH3_128": "fa1bc2c3020c7c8113e755855bc53fa3"
+            "path": "{scriptsDir}/@Basic_S.anm2",
+            "XXH3_128": "f6491cdb1d2a784ad1bed8218476c74e"
           }
         ]
       }
@@ -3669,7 +3716,7 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "",
+        "thumbnail": "./image/korarei.ObjectMotionBlur_LK_thumbnail.png",
         "infoImg": []
       }
     ],
@@ -3726,5 +3773,347 @@
         ]
       }
     ]
-  }
+  },
+  {
+    "id": "sigma-axis.ColoredCollar_S",
+    "name": "ColoredCollar_S",
+    "type": "スクリプト",
+    "summary": "オブジェクトの境界部分の色を引き延ばして縁取りをするスクリプト",
+    "description": "./md/sigma-axis.ColoredCollar_S.md",
+    "author": "sigma-axis",
+    "repoURL": "https://github.com/sigma-axis/aviutl2_script_ColoredCollar_S",
+    "latest-version": "v1.00-for-beta5",
+    "license": "MIT",
+    "tags": [
+      "縁取り"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sigma-axis",
+          "repo": "aviutl2_script_ColoredCollar_S",
+          "pattern": "^aviutl2_script_ColoredCollar_S.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/ColoredCollar_S.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ColoredCollar_S.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.00-for-beta5",
+        "release_date": "2025-08-04",
+        "file": [
+          {
+            "path": "{scriptsDir}/ColoredCollar_S.anm2",
+            "XXH3_128": "c6a22d366802bc08e2b30637c5011ab1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sigma-axis.Tile_S",
+    "name": "Tile_S",
+    "type": "スクリプト",
+    "summary": "幾何学模様のタイルパターンを生成し、背景や装飾として利用できるスクリプト",
+    "description": "./md/sigma-axis.Tile_S.md",
+    "author": "sigma-axis",
+    "repoURL": "https://github.com/sigma-axis/aviutl2_script_Tile_S",
+    "latest-version": "v1.01-for-beta7",
+    "license": "MIT",
+    "tags": [
+      "図形",
+      "パターン",
+      "背景素材"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sigma-axis",
+          "repo": "aviutl2_script_Tile_S",
+          "pattern": "^aviutl2_script_Tile_S.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@Tile_S.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@Tile_S.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.00-for-beta7",
+        "release_date": "2025-08-20",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Tile_S.obj2",
+            "XXH3_128": "6cb404ba7235e7f02353d3466b05581a"
+          }
+        ]
+      },
+      {
+        "version": "v1.01-for-beta7",
+        "release_date": "2025-08-21",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Tile_S.obj2",
+            "XXH3_128": "523c94fabf799a17dc928bc2d28572a4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sigma-axis.Resize_S",
+    "name": "Resize_S",
+    "type": "スクリプト",
+    "summary": "拡大縮小のアルゴリズムを選べるリサイズフィルタ",
+    "description": "./md/sigma-axis.Resize_S.md",
+    "author": "sigma-axis",
+    "repoURL": "https://github.com/sigma-axis/aviutl2_script_Resize_S",
+    "latest-version": "v1.10-for-beta13",
+    "license": "MIT",
+    "tags": [
+      "画質",
+      "変形"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sigma-axis",
+          "repo": "aviutl2_script_Resize_S",
+          "pattern": "^aviutl2_script_Resize_S.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@Resize_S.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@Resize_S.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.00-for-beta3",
+        "release_date": "2025-07-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Resize_S.anm2",
+            "XXH3_128": "51a781669f08ed6c628f5a0f31fb1e39"
+          }
+        ]
+      },
+      {
+        "version": "v1.01-for-beta4",
+        "release_date": "2025-07-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Resize_S.anm2",
+            "XXH3_128": "b300423af0f1590cacc56f5dc5a03d69"
+          }
+        ]
+      },
+      {
+        "version": "v1.10-for-beta13",
+        "release_date": "2025-09-30",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Resize_S.anm2",
+            "XXH3_128": "ca7c2f2877b0fc780a93e96791e13bdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sigma-axis.PixelSnap_S",
+    "name": "PixelSnap_S",
+    "type": "スクリプト",
+    "summary": "小数点以下のピクセルずれで余計なボケが入るのを抑えるスクリプト",
+    "description": "./md/sigma-axis.PixelSnap_S.md",
+    "author": "sigma-axis",
+    "repoURL": "https://github.com/sigma-axis/aviutl2_script_PixelSnap_S",
+    "latest-version": "v1.10-for-beta13",
+    "license": "MIT",
+    "tags": [
+      "座標補正",
+      "補正"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sigma-axis",
+          "repo": "aviutl2_script_PixelSnap_S",
+          "pattern": "^aviutl2_script_PixelSnap_S.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/AviUtl2/PixelSnap_S.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PixelSnap_S.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.03-for-beta13",
+        "release_date": "2025-09-29",
+        "file": [
+          {
+            "path": "{scriptsDir}/PixelSnap_S.anm2",
+            "XXH3_128": "b957d5f56fbe0b918eb86d9b14f4aad0"
+          }
+        ]
+      },
+      {
+        "version": "v1.04-for-beta20",
+        "release_date": "2025-11-16",
+        "file": [
+          {
+            "path": "{scriptsDir}/PixelSnap_S.anm2",
+            "XXH3_128": "88c5188b2eb8f7a59ed9e830dab055ef"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sigma-axis.PageRoll_S",
+    "name": "PageRoll_S",
+    "type": "スクリプト",
+    "summary": "ページを丸めるように画像を変形するスクリプト",
+    "description": "./md/sigma-axis.PageRoll_S.md",
+    "author": "sigma-axis",
+    "repoURL": "https://github.com/sigma-axis/aviutl2_script_PageRoll_S",
+    "latest-version": "v1.10-for-beta13",
+    "license": "MIT",
+    "tags": [
+      "変形",
+      "画像",
+      "立体",
+      "シーンチェンジ",
+      "トランジション"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sigma-axis",
+          "repo": "aviutl2_script_PageRoll_S",
+          "pattern": "^aviutl2_script_PageRoll_S.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/AviUtl2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PageRoll_S(シーンチェンジ).scn2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PageRoll_S.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.00-for-beta12",
+        "release_date": "2025-09-25",
+        "file": [
+          {
+            "path": "{scriptsDir}/PageRoll_S.anm2",
+            "XXH3_128": "906b19dd7a3e46d7fa3c659621f7eb88"
+          }
+        ]
+      },
+      {
+        "version": "v1.10-for-beta13",
+        "release_date": "2025-10-04",
+        "file": [
+          {
+            "path": "{scriptsDir}/PageRoll_S.anm2",
+            "XXH3_128": "4221317ddaf23f7447a30bfbf0f6e824"
+          }
+        ]
+      }
+    ]
+  },
 ]
