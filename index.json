@@ -2180,7 +2180,7 @@
     "description": "./md/sigma-axis.AutoClipping_S.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_AutoClipping_S",
-    "latest-version": "v1.12-for-beta15",
+    "latest-version": "v1.13-for-beta22",
     "license": "MIT",
     "tags": [
       "クリッピング",
@@ -2254,6 +2254,16 @@
           {
             "path": "{scriptsDir}/AutoClipping_S.anm2",
             "XXH3_128": "b7c011ff5e3c1889f0eb75771a13b839"
+          }
+        ]
+      },
+      {
+        "version": "v1.13-for-beta22",
+        "release_date": "2025-12-01",
+        "file": [
+          {
+            "path": "{scriptsDir}/AutoClipping_S.anm2",
+            "XXH3_128": "59a47af0da79d3519acc4d3836937620"
           }
         ]
       }
