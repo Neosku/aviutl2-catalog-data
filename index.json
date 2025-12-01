@@ -4135,5 +4135,127 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Garech.SplitFilters",
+    "name": "フィルタ分離",
+    "type": "汎用プラグイン",
+    "summary": "オブジェクトに付いているフィルタ効果群を個別オブジェクトに分離するAviUtl2 プラグインです。",
+    "description": "./md/Garech.SplitFilters.md",
+    "author": "Garech",
+    "repoURL": "https://github.com/Garech-mas/AviUtl2_SplitFilters",
+    "latest-version": "v1.00",
+    "license": "MIT",
+    "tags": [
+      "オブジェクト操作"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Garech-mas",
+          "repo": "AviUtl2_SplitFilters",
+          "pattern": "^SplitFilters-.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SplitFilters.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SplitFilters.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.00",
+        "release_date": "2025-12-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/SplitFilters.aux2",
+            "XXH3_128": "7615009921bbe33238b1ac5ff278bcb6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Garech.jp_akey.aul2",
+    "name": "アクセスキー付き日本語リソース",
+    "type": "言語ファイル",
+    "summary": "AviUtl2の各メニュー・一部ボタン項目にアクセスキーを追加する言語ファイル(.aul2)です。",
+    "description": "./md/Garech.jp_akey.aul2.md",
+    "author": "Garech",
+    "repoURL": "https://github.com/Garech-mas/AviUtl2_SplitFilters",
+    "latest-version": "v1.00",
+    "license": "MIT",
+    "tags": [
+      "オブジェクト操作"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Garech-mas",
+          "repo": "AviUtl2_SplitFilters",
+          "pattern": "^SplitFilters-.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SplitFilters.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SplitFilters.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.00",
+        "release_date": "2025-12-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/SplitFilters.aux2",
+            "XXH3_128": "7615009921bbe33238b1ac5ff278bcb6"
+          }
+        ]
+      }
+    ]
   }
 ]
