@@ -4310,5 +4310,57 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Natadecoco.TextSplitter",
+    "name": "TextSplitter",
+    "type": "汎用プラグイン",
+    "summary": "テキストオブジェクトを1文字ごとの個別オブジェクトに分割するツール",
+    "description": "./md/Natadecoco.TextSplitter.md",
+    "author": "なたでここ",
+    "repoURL": "",
+    "latest-version": "v1.0",
+    "license": "MIT",
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://github.com/Natadecoco2539/AviUtl2-TextTools/releases/download/v1.0/TextSplitter.aux2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/TextSplitter.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextSplitter.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-12-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/TextSplitter.aux2",
+            "XXH3_128": "d6dd7026493b44c22e85b8c10949495b"
+          }
+        ]
+      }
+    ]
   }
 ]
