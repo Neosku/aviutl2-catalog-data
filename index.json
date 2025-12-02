@@ -4258,5 +4258,57 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Natadecoco.TextEditor",
+    "name": "TextEditor",
+    "type": "汎用プラグイン",
+    "summary": "テキストの文字ごとにサイズ・フォント・色などを個別に設定できるエディタ",
+    "description": "./md/Natadecoco.TextEditor.md",
+    "author": "なたでここ",
+    "repoURL": "",
+    "latest-version": "v1.0",
+    "license": "MIT",
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://github.com/Natadecoco2539/AviUtl2-TextTools/releases/download/v1.0/TextEditor.aux2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{temp}//TextEditor.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextEditor.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-12-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/TextEditor.aux2",
+            "XXH3_128": "2dfdb8bc0f21e6b2f5fa72b4ad40ef97"
+          }
+        ]
+      }
+    ]
   }
 ]
