@@ -192,5 +192,225 @@
         }
       ]
     }
+  },
+  {
+    "id": "hebiiro.al2_memo",
+    "latest-version": "r1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_memo",
+      "regex": "^al2_memo_r\\d+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "al2_memo.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2_memo.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.Basic_S",
+    "latest-version": "v1.51-for-beta22",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_Basic_S",
+      "regex": "^aviutl2_script_Basic_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "@Basic_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Basic_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.Path_S",
+    "latest-version": "v1.10-for-beta21",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_Path_S",
+      "regex": "^aviutl2_script_Path_S-v[\\d.]+-for-beta-\\d+\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "@Path_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Path_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "korarei.PixelSorter_K",
+    "latest-version": "v1.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "korarei/AviUtl2_PixelSorter_K_Script",
+      "regex": "^PixelSorter_K\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "PixelSorter_K/PixelSorter_K.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/PixelSorter_K.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "korarei.ObjectMotionBlur_LK",
+    "latest-version": "v1.1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "korarei/AviUtl2_ObjectMotionBlur_LK_Script",
+      "regex": "^ObjectMotionBlur_LK\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "ObjectMotionBlur_LK/ObjectMotionBlur_LK.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ObjectMotionBlur_LK.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.ColoredCollar_S",
+    "latest-version": "v1.00-for-beta5",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_ColoredCollar_S",
+      "regex": "^aviutl2_script_ColoredCollar_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "ColoredCollar_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ColoredCollar_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.Tile_S",
+    "latest-version": "v1.01-for-beta7",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_Tile_S",
+      "regex": "^aviutl2_script_Tile_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "@Tile_S.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Tile_S.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.Resize_S",
+    "latest-version": "v1.10-for-beta13",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_Resize_S",
+      "regex": "^aviutl2_script_Resize_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "@Resize_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Resize_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.PixelSnap_S",
+    "latest-version": "v1.10-for-beta13",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_PixelSnap_S",
+      "regex": "^aviutl2_script_PixelSnap_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "AviUtl2/PixelSnap_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/PixelSnap_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.PageRoll_S",
+    "latest-version": "v1.10-for-beta13",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_PageRoll_S",
+      "regex": "^aviutl2_script_PageRoll_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "AviUtl2/PageRoll_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/PageRoll_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Garech.SplitFilters",
+    "latest-version": "v1.00",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Garech-mas/AviUtl2_SplitFilters",
+      "regex": "^SplitFilters-.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "AviUtl2/SplitFilters.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SplitFilters.aux2"
+          ]
+        }
+      ]
+    }
   }
 ]
