@@ -7,7 +7,7 @@
     "description": "AVIファイルに各種フィルタをかけるツールです。簡単な動画編集や各種codecを使って圧縮しながら出力することも出来ます。WinXP、Win7等で動作すると思います。MMXが使えるCPUが必要です。",
     "author": "Kenkun",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-    "latest-version": "beta22",
+    "latest-version": "beta22a",
     "license": "MIT",
     "tags": [
       "必須"
@@ -16,7 +16,7 @@
     "images": [],
     "installer": {
       "source": {
-        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta22_setup.exe"
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta22a_setup.exe"
       },
       "install": [
         {
@@ -316,6 +316,16 @@
           {
             "path": "{appDir}/aviutl2.exe",
             "XXH3_128": "9734ce922edd772c664a4d47733592cf"
+          }
+        ]
+      },
+      {
+        "version": "beta22a",
+        "release_date": "2025-12-02",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "b959f800471e866148efd7a702d4e715"
           }
         ]
       }
@@ -4254,6 +4264,110 @@
           {
             "path": "{dataDir}/Language/日本語(アクセスキー付き).aul2",
             "XXH3_128": "e76fe07d41e5ff279f1f233a241e87fa"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Natadecoco.TextEditor",
+    "name": "TextEditor",
+    "type": "汎用プラグイン",
+    "summary": "テキストの文字ごとにサイズ・フォント・色などを個別に設定できるエディタ",
+    "description": "./md/Natadecoco.TextEditor.md",
+    "author": "なたでここ",
+    "repoURL": "",
+    "latest-version": "v1.0",
+    "license": "MIT",
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://github.com/Natadecoco2539/AviUtl2-TextTools/releases/download/v1.0/TextEditor.aux2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{temp}//TextEditor.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextEditor.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-12-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/TextEditor.aux2",
+            "XXH3_128": "2dfdb8bc0f21e6b2f5fa72b4ad40ef97"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Natadecoco.TextSplitter",
+    "name": "TextSplitter",
+    "type": "汎用プラグイン",
+    "summary": "テキストオブジェクトを1文字ごとの個別オブジェクトに分割するツール",
+    "description": "./md/Natadecoco.TextSplitter.md",
+    "author": "なたでここ",
+    "repoURL": "",
+    "latest-version": "v1.0",
+    "license": "MIT",
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://github.com/Natadecoco2539/AviUtl2-TextTools/releases/download/v1.0/TextSplitter.aux2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/TextSplitter.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextSplitter.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-12-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/TextSplitter.aux2",
+            "XXH3_128": "d6dd7026493b44c22e85b8c10949495b"
           }
         ]
       }
