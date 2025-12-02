@@ -3042,7 +3042,7 @@
     "description": "./md/seilor0.twinkle_sl.md",
     "author": "セイル",
     "repoURL": "https://github.com/seilor0/AviUtl2-scripts/tree/main/twinkle_sl",
-    "latest-version": "v1.0",
+    "latest-version": "v1.1",
     "license": "MIT",
     "tags": [
       "図形"
@@ -3083,6 +3083,16 @@
           {
             "path": "{scriptsDir}/@twinkle_sl.obj2",
             "XXH3_128": "fe8edb9055340b342d652eef3c32b1e3"
+          }
+        ]
+      },
+      {
+        "version": "v1.1",
+        "release_date": "2025-12-02",
+        "file": [
+          {
+            "path": "{scriptsDir}/@twinkle_sl.obj2",
+            "XXH3_128": "938db785151caec0c2e8ef7a188bbfe3"
           }
         ]
       }
