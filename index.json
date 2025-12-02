@@ -1799,7 +1799,7 @@
     "description": "./md/Mr-Ojii.L-SMASH-Works.md",
     "author": "Mr-Ojii",
     "repoURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds",
-    "latest-version": "r1253",
+    "latest-version": "r1257",
     "license": "MIT",
     "tags": [
       "必須"
@@ -2177,6 +2177,16 @@
           {
             "path": "{pluginsDir}/lwinput.aui2",
             "XXH3_128": "8873393daf647c08a53d6a2f74420ab9"
+          }
+        ]
+      },
+      {
+        "version": "r1257",
+        "release_date": "2025-11-30",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "0d6142f4c164d941f05f9d1a71df081b"
           }
         ]
       }
