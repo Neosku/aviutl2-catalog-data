@@ -1401,7 +1401,12 @@
       {
         "version": "8.03",
         "release_date": "2025-11-09",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo2",
+            "XXH3_128": "a4163f0419203bcbc594e5e686295c36"
+          }
+        ]
       }
     ]
   },
@@ -1672,8 +1677,11 @@
           "action": "download"
         },
         {
-          "action": "run",
-          "path": "{download}"
+          "action": "extract_sfx"
+        },
+        {
+          "action": "run_auo_setup",
+          "path": "{tmp}/Plugin/exe_files/auo_setup2.exe"
         }
       ],
       "uninstall": [
@@ -3038,7 +3046,7 @@
         "file": [
           {
             "path": "{scriptsDir}/角丸正多角形_sl.obj2",
-            "XXH3_128": "fbe9e8b5bb9bd03a343e91c667ba04b4"
+            "XXH3_128": "8003336754162319a76f362a11bf3fed"
           }
         ]
       }
@@ -3102,7 +3110,7 @@
         "file": [
           {
             "path": "{scriptsDir}/@twinkle_sl.obj2",
-            "XXH3_128": "938db785151caec0c2e8ef7a188bbfe3"
+            "XXH3_128": "aa7268342942fd8a83257be92978c55b"
           }
         ]
       }
@@ -3584,6 +3592,16 @@
             "XXH3_128": "f6491cdb1d2a784ad1bed8218476c74e"
           }
         ]
+      },
+      {
+        "version": "v1.51-for-beta22",
+        "release_date": "2025-12-01",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Basic_S.anm2",
+            "XXH3_128": "2fb47bca98decd779a7eec675db5939b"
+          }
+        ]
       }
     ]
   },
@@ -3825,10 +3843,16 @@
           {
             "path": "{scriptsDir}/ObjectMotionBlur_LK.anm2",
             "XXH3_128": "f65b2416c8a87265d81561ffefc6685b"
-          },
+          }
+        ]
+      },
+      {
+        "version": "v.1.1.1",
+        "release_date": "2025-12-01",
+        "file": [
           {
-            "path": "{scriptsDir}/ObjectMotionBlur_LK.mod2",
-            "XXH3_128": "4a04e57b4b6a42a8e44aaa0aea124126"
+            "path": "{scriptsDir}/ObjectMotionBlur_LK.anm2",
+            "XXH3_128": "4770408326df69dd28e6a8e2a7806b1d"
           }
         ]
       }
@@ -4231,7 +4255,7 @@
         "file": [
           {
             "path": "{pluginsDir}/SplitFilters.aux2",
-            "XXH3_128": "7615009921bbe33238b1ac5ff278bcb6"
+            "XXH3_128": "d39e918d65f9260fdf12b46c9d7d8083"
           }
         ]
       }
@@ -4317,7 +4341,7 @@
         },
         {
           "action": "copy",
-          "from": "{temp}//TextEditor.aux2",
+          "from": "{temp}/TextEditor.aux2",
           "to": "{pluginsDir}"
         }
       ],
