@@ -2968,7 +2968,7 @@
     "description": "./md/seilor0.roundedPolygonSl.md",
     "author": "セイル",
     "repoURL": "https://github.com/seilor0/AviUtl2-scripts/tree/main/角丸正多角形_sl",
-    "latest-version": "v1.0",
+    "latest-version": "v1.1",
     "license": "MIT",
     "tags": [
       "図形"
@@ -3009,6 +3009,16 @@
           {
             "path": "{scriptsDir}/角丸正多角形_sl.obj2",
             "XXH3_128": "aa6b34ac6ddc28bda603fec709ebff1d"
+          }
+        ]
+      },
+      {
+        "version": "v1.1",
+        "release_date": "2025-12-02",
+        "file": [
+          {
+            "path": "{scriptsDir}/角丸正多角形_sl.obj2",
+            "XXH3_128": "fbe9e8b5bb9bd03a343e91c667ba04b4"
           }
         ]
       }
