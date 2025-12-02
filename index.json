@@ -3484,7 +3484,7 @@
     "description": "./md/sigma-axis.Basic_S.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Basic_S",
-    "latest-version": "v1.40-for-beta21",
+    "latest-version": "v1.51-for-beta22",
     "license": "MIT",
     "tags": [
       "図形",
@@ -3771,10 +3771,6 @@
           {
             "path": "{scriptsDir}/PixelSorter_K.anm2",
             "XXH3_128": "acf7a7f3dd99b30d64ed0c24c1ae119a"
-          },
-          {
-            "path": "{scriptsDir}/PixelSorter_K.mod2",
-            "XXH3_128": "56a62dfb6933958fbe93a99a52e89c33"
           }
         ]
       }
@@ -3788,7 +3784,7 @@
     "description": "./md/korarei.ObjectMotionBlur_LK.md",
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script",
-    "latest-version": "v.1.1.0",
+    "latest-version": "v1.1.1",
     "license": "MIT",
     "tags": [],
     "dependencies": [],
@@ -3837,7 +3833,7 @@
     },
     "version": [
       {
-        "version": "v.1.1.0",
+        "version": "v1.1.0",
         "release_date": "2025-11-23",
         "file": [
           {
@@ -3847,7 +3843,7 @@
         ]
       },
       {
-        "version": "v.1.1.1",
+        "version": "v1.1.1",
         "release_date": "2025-12-01",
         "file": [
           {
