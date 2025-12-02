@@ -333,7 +333,7 @@
   },
   {
     "id": "hebiiro.al2_jd",
-    "name": "ダークモード化プラグイン",
+    "name": "ダークモード化MOD",
     "type": "入力プラグイン",
     "summary": "aviutl2を完全にダークモード化することを目的としたMODです。",
     "description": "AviUtl2のUIをダークモードに変更するプラグインです。",
@@ -2850,7 +2850,7 @@
   },
   {
     "id": "korarei.Stylize_K",
-    "name": "画像の見た目を変えるスクリプト",
+    "name": "@Stylize_K",
     "type": "スクリプト",
     "summary": "AviUtl ExEdit2で画像の見た目を変えるスクリプト群",
     "description": "AviUtl ExEdit2で画像の見た目を変えるスクリプト群",
@@ -4320,7 +4320,7 @@
     "summary": "テキストの文字ごとにサイズ・フォント・色などを個別に設定できるエディタ",
     "description": "./md/Natadecoco.TextEditor.md",
     "author": "なたでここ",
-    "repoURL": "",
+    "repoURL": "https://github.com/Natadecoco2539/AviUtl2-TextTools/",
     "latest-version": "v1.0",
     "license": "MIT",
     "tags": [],
@@ -4333,7 +4333,11 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://github.com/Natadecoco2539/AviUtl2-TextTools/releases/download/v1.0/TextEditor.aux2"
+        "github": {
+          "owner": "Natadecoco2539",
+          "repo": "AviUtl2-TextTools",
+          "pattern": "TextEditor.aux2"
+        }
       },
       "install": [
         {
@@ -4372,7 +4376,7 @@
     "summary": "テキストオブジェクトを1文字ごとの個別オブジェクトに分割するツール",
     "description": "./md/Natadecoco.TextSplitter.md",
     "author": "なたでここ",
-    "repoURL": "",
+    "repoURL": "https://github.com/Natadecoco2539/AviUtl2-TextTools/",
     "latest-version": "v1.0",
     "license": "MIT",
     "tags": [],
@@ -4385,7 +4389,11 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://github.com/Natadecoco2539/AviUtl2-TextTools/releases/download/v1.0/TextSplitter.aux2"
+        "github": {
+          "owner": "Natadecoco2539",
+          "repo": "AviUtl2-TextTools",
+          "pattern": "TextSplitter.aux2"
+        }
       },
       "install": [
         {
