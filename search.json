@@ -239,7 +239,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_Path_S",
-      "regex": "^aviutl2_script_Path_S-v[\\d.]+-for-beta-\\d+\\.zip",
+      "regex": "^aviutl2_script_Path_S.*\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",

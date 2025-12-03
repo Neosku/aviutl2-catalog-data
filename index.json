@@ -1795,7 +1795,12 @@
       {
         "version": "2.06",
         "release_date": "2025-11-04",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/svtAV1guiEx.auo2",
+            "XXH3_128": "eb743bf91fb19c51cc1d5f21036501d8"
+          }
+        ]
       }
     ]
   },
@@ -3628,7 +3633,7 @@
         "github": {
           "owner": "sigma-axis",
           "repo": "aviutl2_script_Path_S",
-          "pattern": "^aviutl2_script_Path_S-v[\\d.]+-for-beta-\\d+\\.zip"
+          "pattern": "^aviutl2_script_Path_S.*\\.zip$"
         }
       },
       "install": [
@@ -3677,14 +3682,6 @@
           {
             "path": "{scriptsDir}/@Path_S.anm2",
             "XXH3_128": "dd6a7f4127109196fa9c7ff580c51d2b"
-          },
-          {
-            "path": "{scriptsDir}/@Path_S.obj2",
-            "XXH3_128": "50be847815805ed2ed3e032b0f405c47"
-          },
-          {
-            "path": "{scriptsDir}/Path_S.lua",
-            "XXH3_128": "316f53e3b39518499cda4ec5aceb13c0"
           }
         ]
       },
@@ -3695,21 +3692,18 @@
           {
             "path": "{scriptsDir}/@Path_S.anm2",
             "XXH3_128": "0dd801dc104a0e87336bee835b462e9b"
-          },
-          {
-            "path": "{scriptsDir}/@Path_S.obj2",
-            "XXH3_128": "c7bee4b2e925950aa3fa73dabe2c0863"
-          },
-          {
-            "path": "{scriptsDir}/Path_S.lua",
-            "XXH3_128": "2e772b914c5a54e656fb2fcd2175df7f"
           }
         ]
       },
       {
         "version": "v1.11-for-beta22a",
         "release_date": "2025-12-03",
-        "file": []
+        "file": [
+          {
+            "path": "{scriptsDir}/@Path_S.anm2",
+            "XXH3_128": "4af2bc5fb1c6f576801f6ff3c208044e"
+          }
+        ]
       }
     ]
   },
