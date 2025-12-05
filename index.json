@@ -4587,5 +4587,57 @@
         ]
       }
     ]
+  },
+  {
+    "id": "zopty.BlindLoop",
+    "name": "ブラインドループ",
+    "type": "スクリプト",
+    "summary": "斜めクリッピングを連続して並べたような効果を追加します。",
+    "description": "./md/zopty.BlindLoop.md",
+    "author": "zopty",
+    "repoURL": "https://gist.github.com/zopty/ff3439d79fe609c7714d6db4ef1a39a6",
+    "latest-version": "v1.0.0",
+    "license": "BSD 3-Clause",
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://gist.githubusercontent.com/zopty/ff3439d79fe609c7714d6db4ef1a39a6/raw/60d78451f26f9505c8addb816a099fced4b4981c/BlindLoop.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/BlindLoop.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/BlindLoop.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2025-11-23",
+        "file": [
+          {
+            "path": "{scriptsDir}/BlindLoop.anm2",
+            "XXH3_128": "ec55abc6d1286bdf73e94820421058f7"
+          }
+        ]
+      }
+    ]
   }
 ]
