@@ -4419,5 +4419,107 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sigma-axis.GroundShadow2_S",
+    "name": "GroundShadow2_S",
+    "type": "スクリプト",
+    "summary": "影を立体的に平面へ落とすスクリプト",
+    "description": "./md/sigma-axis.GroundShadow2_S.md",
+    "author": "sigma-axis",
+    "repoURL": "https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S",
+    "latest-version": "v1.04-for-beta22a",
+    "license": "MIT",
+    "tags": [
+      "立体",
+      "影"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sigma-axis",
+          "repo": "aviutl2_script_GroundShadow2_S",
+          "pattern": "^aviutl2_script_GroundShadow2.*\\\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/AviUtl2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/GroundShadow2_S.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.00-for-beta5",
+        "release_date": "2025-08-10",
+        "file": [
+          {
+            "path": "{scriptsDir}/GroundShadow2_S.anm2",
+            "XXH3_128": "88fbf187c69dbc64ccd84a9ebe7f3e27"
+          }
+        ]
+      },
+      {
+        "version": "v1.01-for-beta11a",
+        "release_date": "2025-09-20",
+        "file": [
+          {
+            "path": "{scriptsDir}/GroundShadow2_S.anm2",
+            "XXH3_128": "3c891e801ce3fe53628d32cd92be5484"
+          }
+        ]
+      },
+      {
+        "version": "v1.02-for-beta12",
+        "release_date": "2025-09-25",
+        "file": [
+          {
+            "path": "{scriptsDir}/GroundShadow2_S.anm2",
+            "XXH3_128": "4178ebdb7ded8e84c5c7414d1d3d0c5f"
+          }
+        ]
+      },
+      {
+        "version": "v1.03-for-beta20",
+        "release_date": "2025-11-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/GroundShadow2_S.anm2",
+            "XXH3_128": "8873bf4c28d430342e6db51653af35d5"
+          }
+        ]
+      },
+      {
+        "version": "v1.04-for-beta22a",
+        "release_date": "2025-12-05",
+        "file": [
+          {
+            "path": "{scriptsDir}/GroundShadow2_S.anm2",
+            "XXH3_128": "5823af5e8adfc4546c81306945c64fd6"
+          }
+        ]
+      }
+    ]
   }
 ]
