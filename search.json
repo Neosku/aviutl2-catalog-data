@@ -412,5 +412,25 @@
         }
       ]
     }
+  },
+  {
+    "id": "sigma-axis.GroundShadow2_S",
+    "latest-version": "v1.04-for-beta22a",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_GroundShadow2_S",
+      "regex": "^aviutl2_script_GroundShadow2_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "GroundShadow2_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/GroundShadow2_S.anm2"
+          ]
+        }
+      ]
+    }
   }
 ]
