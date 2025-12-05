@@ -424,10 +424,30 @@
         {
           "extract": "zip",
           "paths": [
-            "GroundShadow2_S.anm2"
+            "AviUtl2/GroundShadow2_S.anm2"
           ],
           "recordPaths": [
             "{scriptsDir}/GroundShadow2_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.Histogram_S",
+    "latest-version": "v1.00-for-beta22a",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_Histogram_S",
+      "regex": "^aviutl2_script_Histogram_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Histogram_S.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Histogram_S.obj2"
           ]
         }
       ]
