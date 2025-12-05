@@ -4521,5 +4521,66 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sigma-axis.Histogram_S",
+    "name": "Histogram_S",
+    "type": "スクリプト",
+    "summary": "ヒストグラムを編集画面上に表示するスクリプト",
+    "description": "./md/sigma-axis.Histogram_S.md",
+    "author": "sigma-axis",
+    "repoURL": "https://github.com/sigma-axis/aviutl2_script_Histogram_S",
+    "latest-version": "v1.00-for-beta22a",
+    "license": "MIT",
+    "tags": [
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sigma-axis",
+          "repo": "aviutl2_script_Histogram_S",
+          "pattern": "^aviutl2_script_Histogram_S.*\\\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Histogram_S.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Histogram_S.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.00-for-beta22a",
+        "release_date": "2025-12-05",
+        "file": [
+          {
+            "path": "{scriptsDir}/Histogram_S.obj2",
+            "XXH3_128": "12bd03db6bf5b61e480b2fb0753b15ed"
+          }
+        ]
+      }
+    ]
   }
 ]
