@@ -3932,7 +3932,7 @@
     "description": "./md/sigma-axis.Tile_S.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Tile_S",
-    "latest-version": "v1.01-for-beta7",
+    "latest-version": "v1.02-for-beta22a",
     "license": "MIT",
     "tags": [
       "図形",
@@ -3987,6 +3987,16 @@
           {
             "path": "{scriptsDir}/@Tile_S.obj2",
             "XXH3_128": "523c94fabf799a17dc928bc2d28572a4"
+          }
+        ]
+      },
+      {
+        "version": "v1.02-for-beta22a",
+        "release_date": "2025-12-06",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Tile_S.obj2",
+            "XXH3_128": "44c98d3ae5265cb15c5155b26017c8de"
           }
         ]
       }
