@@ -4144,7 +4144,7 @@
     "description": "./md/sigma-axis.PageRoll_S.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_PageRoll_S",
-    "latest-version": "v1.10-for-beta13",
+    "latest-version": "v1.11-for-beta22a",
     "license": "MIT",
     "tags": [
       "変形",
@@ -4205,6 +4205,16 @@
           {
             "path": "{scriptsDir}/PageRoll_S.anm2",
             "XXH3_128": "4221317ddaf23f7447a30bfbf0f6e824"
+          }
+        ]
+      },
+      {
+        "version": "v1.11-for-beta22a",
+        "release_date": "2025-12-06",
+        "file": [
+          {
+            "path": "{scriptsDir}/PageRoll_S.anm2",
+            "XXH3_128": "0ad797ba2494b91c70bfb9bccd11dc4f"
           }
         ]
       }
