@@ -1825,7 +1825,12 @@
       {
         "version": "2.07",
         "release_date": "2025-12-05",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/svtAV1guiEx.auo2",
+            "XXH3_128": "08535f9e6b039bda198e8f948448fd5e"
+          }
+        ]
       }
     ]
   },
@@ -4395,7 +4400,7 @@
         },
         {
           "action": "copy",
-          "from": "{temp}/TextEditor.aux2",
+          "from": "{tmp}/TextEditor.aux2",
           "to": "{pluginsDir}"
         }
       ],
