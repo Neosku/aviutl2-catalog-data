@@ -404,7 +404,7 @@
         {
           "extract": "zip",
           "paths": [
-            "AviUtl2/SplitFilters.aux2"
+            "SplitFilters.aux2"
           ],
           "recordPaths": [
             "{pluginsDir}/SplitFilters.aux2"
