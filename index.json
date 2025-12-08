@@ -4263,7 +4263,7 @@
     "description": "./md/Garech.SplitFilters.md",
     "author": "Garech",
     "repoURL": "https://github.com/Garech-mas/AviUtl2_SplitFilters",
-    "latest-version": "v1.01",
+    "latest-version": "v1.02",
     "license": "MIT",
     "tags": [
       "オブジェクト操作"
@@ -4321,6 +4321,16 @@
           {
             "path": "{pluginsDir}/SplitFilters.aux2",
             "XXH3_128": "cf25f13f9406be091dad3eb372843453"
+          }
+        ]
+      },
+      {
+        "version": "v1.02",
+        "release_date": "2025-12-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/SplitFilters.aux2",
+            "XXH3_128": "229aa8c3b69c3638a2de8f9e95fae720"
           }
         ]
       }
