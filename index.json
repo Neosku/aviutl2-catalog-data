@@ -4773,5 +4773,63 @@
         ]
       }
     ]
+  },
+  {
+    "id": "zopty.ObjectSearch",
+    "name": "ObjectSearch",
+    "type": "汎用プラグイン",
+    "summary": "オブジェクト検索ウィンドウを追加します",
+    "description": "./md/zopty.ObjectSearch.md",
+    "author": "zopty",
+    "repoURL": "https://github.com/zopty/ObjectSearch",
+    "latest-version": "v0.2.0",
+    "license": "MIT",
+    "tags": [
+      "検索"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/zopty.ObjectSearch_thumbnail.png",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "zopty",
+          "repo": "ObjectSearch",
+          "pattern": "ObjectSearch.aux2"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/ObjectSearch.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ObjectSearch.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.2.0",
+        "release_date": "2025-12-09",
+        "file": [
+          {
+            "path": "{pluginsDir}/ObjectSearch.aux2",
+            "XXH3_128": "cf92abf4977f4b8546c0c6cc968477f3"
+          }
+        ]
+      }
+    ]
   }
 ]
