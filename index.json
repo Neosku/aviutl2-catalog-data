@@ -4831,5 +4831,79 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Natadecoco2539.AviUtl2-TextTools",
+    "name": "テキスト編集＆分割プラグインセット",
+    "type": "汎用プラグイン",
+    "summary": "AviUtl2でテキストオブジェクトを便利に扱うためのプラグイン2種セットです。",
+    "description": "./md/Natadecoco2539.AviUtl2-TextTools.md",
+    "author": "なたのこ",
+    "repoURL": "https://github.com/Natadecoco2539/AviUtl2-TextTools",
+    "latest-version": "v1.0",
+    "license": "No License",
+    "tags": [
+      "オブジェクト操作"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Natadecoco2539",
+          "repo": "AviUtl2-TextTools",
+          "pattern": "^AviUtl2_TextTools_.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/TextEditor.aux2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/TextSplitter.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextEditor.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextSplitter.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-12-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/TextEditor.aux2",
+            "XXH3_128": "2dfdb8bc0f21e6b2f5fa72b4ad40ef97"
+          },
+          {
+            "path": "{pluginsDir}/TextSplitter.aux2",
+            "XXH3_128": "d6dd7026493b44c22e85b8c10949495b"
+          }
+        ]
+      }
+    ]
   }
 ]
