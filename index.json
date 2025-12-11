@@ -4905,5 +4905,65 @@
         ]
       }
     ]
+  },
+  {
+    "id": "namari.toaster",
+    "name": "出力先トースト通知プラグイン",
+    "type": "汎用プラグイン",
+    "summary": "AviUtl ExEdit2 で、出力先を開くボタン付きのトースト通知を表示するプラグインです。",
+    "description": "./md/namari.toaster.md",
+    "author": "namari",
+    "repoURL": "https://booth.pm/ja/items/7544010",
+    "latest-version": "v0.0.85",
+    "license": "MIT",
+    "tags": [
+      "UI"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/namari.toaster_thumbnail.png",
+        "infoImg": [
+          "./image/namari.toaster_1.png",
+          "./image/namari.toaster_2.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://booth.pm/downloadables/8030406"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/toaster.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/toaster.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.0.85",
+        "release_date": "2025-11-30",
+        "file": [
+          {
+            "path": "{pluginsDir}/toaster.aux2",
+            "XXH3_128": "51c443b2ef666b081910e91dcaf3e5c7"
+          }
+        ]
+      }
+    ]
   }
 ]
