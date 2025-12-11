@@ -452,5 +452,44 @@
         }
       ]
     }
+  },
+  {
+    "id": "azurite.ColorHalftone",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "azurite581/AviUtl2-ColorHalftone",
+      "regex": "^ColorHalftone.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "カラーハーフトーン.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/カラーハーフトーン.anm2"
+          ]
+        }
+      ]
+    }
+  },
+    {
+    "id": "zopty.ObjectSearch",
+    "latest-version": "v0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "zopty/ObjectSearch",
+      "regex": "^ColorHalftone.*\\.zip$",
+      "hash-calc": [
+        {
+          "paths": [
+            "ObjectSearch.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/ObjectSearch.aux2"
+          ]
+        }
+      ]
+    }
   }
 ]
