@@ -4840,5 +4840,120 @@
         ]
       }
     ]
+  },
+  {
+    "id": "oov.GCMZDrops2",
+    "name": "GCMZDrops2",
+    "type": "汎用プラグイン",
+    "summary": "ファイルドロップなどを拡張する汎用プラグインです",
+    "description": "./md/oov.GCMZDrops2.md",
+    "author": "おおぶ",
+    "repoURL": "https://github.com/oov/aviutl2_gcmzdrops2",
+    "latest-version": "v2.0.0alpha6",
+    "license": "MIT",
+    "tags": [
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "",
+        "infoImg": []
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "oov",
+          "repo": "aviutl2_gcmzdrops2",
+          "pattern": "gcmzdrops_.*\\.zip"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/GCMZDrops.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/GCMZScript"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v2.0.0alpha1",
+        "release_date": "2025-11-26",
+        "file": [
+          {
+            "path": "{pluginsDir}/GCMZDrops.aux2",
+            "XXH3_128": "21734b2f99edea16453adc1abc29a9ef"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.0alpha2",
+        "release_date": "2025-11-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/GCMZDrops.aux2",
+            "XXH3_128": "b2ef673663885c7ba8c1319a1a2d6043"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.0alpha3",
+        "release_date": "2025-11-30",
+        "file": [
+          {
+            "path": "{pluginsDir}/GCMZDrops.aux2",
+            "XXH3_128": "2d730c963ce009e15c6df97feee775fd"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.0alpha4",
+        "release_date": "2025-12-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/GCMZDrops.aux2",
+            "XXH3_128": "16252cc323fe3f8346476582d7bb98a8"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.0alpha5",
+        "release_date": "2025-12-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/GCMZDrops.aux2",
+            "XXH3_128": "2df4917994f69efc1cffb6d8ffd23796"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.0alpha6",
+        "release_date": "2025-12-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/GCMZDrops.aux2",
+            "XXH3_128": "e5ddcae9021119193d591397eb1741ae"
+          }
+        ]
+      }
+    ]
   }
 ]

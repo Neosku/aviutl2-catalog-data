@@ -491,5 +491,25 @@
         }
       ]
     }
+  },
+  {
+    "id": "oov.GCMZDrops2",
+    "latest-version": "v2.0.0alpha6",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "oov/aviutl2_gcmzdrops2",
+      "regex": "gcmzdrops.*\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/GCMZDrops.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GCMZDrops.aux2"
+          ]
+        }
+      ]
+    }
   }
 ]
