@@ -2252,6 +2252,16 @@
       },
       {
         "version": "r1257",
+        "release_date": "2025-12-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "3b2c282bf6f1027bf42f40e2ea77c533"
+          }
+        ]
+      },
+      {
+        "version": "r1257",
         "release_date": "2025-12-14",
         "file": [
           {
