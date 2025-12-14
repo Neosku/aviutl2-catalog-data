@@ -4849,7 +4849,7 @@
     "description": "./md/oov.GCMZDrops2.md",
     "author": "おおぶ",
     "repoURL": "https://github.com/oov/aviutl2_gcmzdrops2",
-    "latest-version": "v2.0.0alpha6",
+    "latest-version": "v2.0.0alpha7",
     "license": "MIT",
     "tags": [
       "便利ツール"
@@ -4951,6 +4951,16 @@
           {
             "path": "{pluginsDir}/GCMZDrops.aux2",
             "XXH3_128": "e5ddcae9021119193d591397eb1741ae"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.0alpha7",
+        "release_date": "2025-12-14",
+        "file": [
+          {
+            "path": "{pluginsDir}/GCMZDrops.aux2",
+            "XXH3_128": "4277fffbcd4b5b99d70687f5554ada02"
           }
         ]
       }
