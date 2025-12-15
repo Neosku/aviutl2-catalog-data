@@ -4979,5 +4979,92 @@
         ]
       }
     ]
+  },
+  {
+    "id": "amaii4.AviUtl2_Discord_RPC",
+    "name": "AviUtl2_Discord_RPC",
+    "type": "汎用プラグイン",
+    "summary": "Discordにプレイ中を表示させるAviUtl2のプラグイン",
+    "description": "./md/amaii4.AviUtl2_Discord_RPC.md",
+    "author": "甘味",
+    "repoURL": "https://github.com/amaii4/AviUtl2_Discord_RPC",
+    "latest-version": "1.2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "甘味"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "amaii4",
+          "repo": "AviUtl2_Discord_RPC",
+          "pattern": "^DiscordRPC\\.aux2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/DiscordRPC.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/DiscordRPC.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/DiscordRPC.aui2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "1.0",
+        "release_date": "2025-07-31",
+        "file": [
+          {
+            "path": "{pluginsDir}/DiscordRPC.aui2",
+            "XXH3_128": "f54b3d46a0eb6f9036fb782729aab6fa"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "release_date": "2025-08-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/DiscordRPC.aui2",
+            "XXH3_128": "d3a523529f1e4de24bfb4913b7be218a"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "release_date": "2025-11-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/DiscordRPC.aux2",
+            "XXH3_128": "322ef8a989c1ec7dd0dcffe8060324bc"
+          }
+        ]
+      }
+    ]
   }
 ]
