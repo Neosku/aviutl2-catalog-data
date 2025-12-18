@@ -4,7 +4,6 @@ GCMZDrops2 は AviUtl ExEdit2 へのファイルドロップなどを拡張す�
 
 > [!CAUTION]
 > 現在このプラグインは正式リリースではありません。  
-> AviUtl2本体がGCMZDrops2が対応していないバージョンだと一部の機能が使用できなくなります。
 > 新しいバージョンが公開されている場合は速やかに新バージョンへ移行してください。
 
 更新履歴は [CHANGELOG](https://github.com/oov/aviutl2_gcmzdrops2/blob/master/CHANGELOG.md) を参照してください。
@@ -35,4 +34,4 @@ AviUtl ExEdit2 のメニューから以下のように辿ると設定ダイア�
 `設定` → `プラグイン設定`　→ `GCMZDrops の設定...`
 
 
-※引用：[GCMZDrops2/READMEE.md](https://github.com/oov/aviutl2_gcmzdrops2/blob/main/README.md)
+※引用：[GCMZDrops2/README.md](https://github.com/oov/aviutl2_gcmzdrops2/blob/main/README.md)
