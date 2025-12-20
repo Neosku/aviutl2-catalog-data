@@ -1,7 +1,7 @@
 [
   {
     "id": "Kenkun.AviUtlExEdit2",
-    "latest-version": "beta24a",
+    "latest-version": "beta25",
     "checkType": {
       "type": "URL",
       "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
@@ -65,7 +65,7 @@
   },
   {
     "id": "rigaya.x264guiEx",
-    "latest-version": "4.07",
+    "latest-version": "4.08",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/x264guiEx",

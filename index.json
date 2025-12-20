@@ -7,7 +7,7 @@
     "description": "AVIファイルに各種フィルタをかけるツールです。簡単な動画編集や各種codecを使って圧縮しながら出力することも出来ます。WinXP、Win7等で動作すると思います。MMXが使えるCPUが必要です。",
     "author": "Kenkun",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-    "latest-version": "beta24a",
+    "latest-version": "beta25",
     "license": "MIT",
     "tags": [
       "必須"
@@ -16,7 +16,7 @@
     "images": [],
     "installer": {
       "source": {
-        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta24a_setup.exe"
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta25_setup.exe"
       },
       "install": [
         {
@@ -366,6 +366,16 @@
           {
             "path": "{appDir}/aviutl2.exe",
             "XXH3_128": "24cd6766432759060da6157ec54cc501"
+          }
+        ]
+      },
+      {
+        "version": "beta25",
+        "release_date": "2025-12-20",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "739857ebafb9d2deb4998b3dc0246a01"
           }
         ]
       }
@@ -811,7 +821,7 @@
     "description": "拡張 x264 出力(GUI) Ex (x264guiEx) は、x264を使用してエンコードを行うAviutlの出力プラグインです。\nseraphy氏 拡張 x264 出力(GUI) を改造し、x264を分離し、別プロセスとして実行できるようにしたものです。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x264guiEx",
-    "latest-version": "4.07",
+    "latest-version": "4.08",
     "license": "MIT",
     "tags": [
       "必須",
@@ -966,6 +976,11 @@
             "XXH3_128": "73d21357634439c67a3b96bec1c2857c"
           }
         ]
+      },
+      {
+        "version": "4.08",
+        "release_date": "2025-12-20",
+        "file": []
       }
     ]
   },
