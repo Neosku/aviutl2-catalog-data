@@ -70,7 +70,17 @@
       "type": "GitHub",
       "repo": "rigaya/x264guiEx",
       "regex": ".*_x264guiEx.*install\\.exe",
-      "hash-calc": []
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugin/x264guiEx.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/x264guiEx.auo2"
+          ]
+        }
+      ]
     }
   },
   {
@@ -80,7 +90,17 @@
       "type": "GitHub",
       "repo": "rigaya/x265guiEx",
       "regex": ".*_x265guiEx.*install\\.exe",
-      "hash-calc": []
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugin/x265guiEx.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/x265guiEx.auo2"
+          ]
+        }
+      ]
     }
   },
   {
@@ -90,7 +110,17 @@
       "type": "GitHub",
       "repo": "rigaya/NVEnc",
       "regex": ".*_NVEnc.*install\\.exe",
-      "hash-calc": []
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugin/NVEnc.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/NVEnc.auo2"
+          ]
+        }
+      ]
     }
   },
   {
@@ -100,7 +130,17 @@
       "type": "GitHub",
       "repo": "rigaya/QSVEnc",
       "regex": ".*_QSVEnc.*install\\.exe",
-      "hash-calc": []
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugin/QSVEnc.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/QSVEnc.auo2"
+          ]
+        }
+      ]
     }
   },
   {
@@ -110,7 +150,17 @@
       "type": "GitHub",
       "repo": "rigaya/ffmpegOut",
       "regex": ".*_ffmpegOut.*install\\.exe",
-      "hash-calc": []
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugin/ffmpegOut.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/ffmpegOut.auo2"
+          ]
+        }
+      ]
     }
   },
   {
@@ -120,7 +170,17 @@
       "type": "GitHub",
       "repo": "rigaya/VCEEnc",
       "regex": ".*_VCEEnc.*install\\.exe",
-      "hash-calc": []
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugin/VCEEnc.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/VCEEnc.auo2"
+          ]
+        }
+      ]
     }
   },
   {
@@ -130,7 +190,17 @@
       "type": "GitHub",
       "repo": "rigaya/svtAV1guiEx",
       "regex": ".*_svtAV1guiEx.*install\\.exe",
-      "hash-calc": []
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugin/svtAV1guiEx.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/svtAV1guiEx.auo2"
+          ]
+        }
+      ]
     }
   },
   {
