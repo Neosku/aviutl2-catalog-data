@@ -4036,7 +4036,7 @@
     "description": "./md/sigma-axis.Tile_S.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Tile_S",
-    "latest-version": "v1.02-for-beta22a",
+    "latest-version": "v1.03-for-beta25",
     "license": "MIT",
     "tags": [
       "図形",
@@ -4103,6 +4103,16 @@
             "XXH3_128": "44c98d3ae5265cb15c5155b26017c8de"
           }
         ]
+      },
+      {
+        "version": "v1.03-for-beta25",
+        "release_date": "2025-12-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Tile_S.obj2",
+            "XXH3_128": "601f15c123fcc1d5d378dd485ef0c975"
+          }
+        ]
       }
     ]
   },
@@ -4114,7 +4124,7 @@
     "description": "./md/sigma-axis.Resize_S.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Resize_S",
-    "latest-version": "v1.10-for-beta13",
+    "latest-version": "v1.11-for-beta25",
     "license": "MIT",
     "tags": [
       "画質",
@@ -4178,6 +4188,16 @@
           {
             "path": "{scriptsDir}/@Resize_S.anm2",
             "XXH3_128": "ca7c2f2877b0fc780a93e96791e13bdf"
+          }
+        ]
+      },
+      {
+        "version": "v1.11-for-beta25",
+        "release_date": "2025-12-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Resize_S.anm2",
+            "XXH3_128": "dc295db41c0494becf412e8f888d9aef"
           }
         ]
       }
