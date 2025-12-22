@@ -2419,7 +2419,7 @@
     "description": "放射ブラー (radial blur), 回転ブラー (rotation blur), 方向ブラー (directional blur) の 3 つを複合したぼかし効果を適用する AviUtl ExEdit 2 用のスクリプトです．",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_RadRotDirBlur_S",
-    "latest-version": "v1.04-for-beta22a",
+    "latest-version": "v1.05-for-beta25",
     "license": "MIT",
     "tags": [],
     "dependencies": [],
@@ -2500,6 +2500,16 @@
           {
             "path": "{scriptsDir}/RadRotDirBlur_S.anm2",
             "XXH3_128": "dc1300b053722f94802ddb267c48ac1e"
+          }
+        ]
+      },
+      {
+        "version": "v1.05-for-beta25",
+        "release_date": "2025-12-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/RadRotDirBlur_S.anm2",
+            "XXH3_128": "fd8db5eb7b1d6d62572b7b703e5da026"
           }
         ]
       }
@@ -4278,7 +4288,7 @@
     "description": "./md/sigma-axis.PageRoll_S.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_PageRoll_S",
-    "latest-version": "v1.11-for-beta22a",
+    "latest-version": "v1.12-for-beta25",
     "license": "MIT",
     "tags": [
       "変形",
@@ -4349,6 +4359,16 @@
           {
             "path": "{scriptsDir}/PageRoll_S.anm2",
             "XXH3_128": "0ad797ba2494b91c70bfb9bccd11dc4f"
+          }
+        ]
+      },
+      {
+        "version": "v1.12-for-beta25",
+        "release_date": "2025-12-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/PageRoll_S.anm2",
+            "XXH3_128": "93ff295982ee5790d6e563b9ded9ac3f"
           }
         ]
       }
