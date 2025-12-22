@@ -4509,7 +4509,7 @@
     "description": "./md/sigma-axis.GroundShadow2_S.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S",
-    "latest-version": "v1.04-for-beta22a",
+    "latest-version": "v1.05-for-beta25",
     "license": "MIT",
     "tags": [
       "立体",
@@ -4598,6 +4598,16 @@
           {
             "path": "{scriptsDir}/GroundShadow2_S.anm2",
             "XXH3_128": "5823af5e8adfc4546c81306945c64fd6"
+          }
+        ]
+      },
+      {
+        "version": "v1.05-for-beta25",
+        "release_date": "2025-12-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/GroundShadow2_S.anm2",
+            "XXH3_128": "1aa26920d91169d641dfa435ae40e221"
           }
         ]
       }
