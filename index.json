@@ -3747,7 +3747,7 @@
     "description": "./md/sigma-axis.Path_S.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Path_S/",
-    "latest-version": "v1.11-for-beta22a",
+    "latest-version": "v1.12-for-beta25",
     "license": "MIT",
     "tags": [],
     "dependencies": [],
@@ -3831,6 +3831,16 @@
           {
             "path": "{scriptsDir}/@Path_S.anm2",
             "XXH3_128": "4af2bc5fb1c6f576801f6ff3c208044e"
+          }
+        ]
+      },
+      {
+        "version": "v1.12-for-beta25",
+        "release_date": "2025-12-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Path_S.anm2",
+            "XXH3_128": "c6a85adfb40092bc780c94fcb529c429"
           }
         ]
       }
