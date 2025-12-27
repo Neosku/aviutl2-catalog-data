@@ -1019,7 +1019,7 @@
     "description": "x265を使用してエンコードを行うAviutlの出力プラグインです。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x265guiEx",
-    "latest-version": "5.04",
+    "latest-version": "5.05",
     "license": "MIT",
     "tags": [
       "必須",
@@ -1142,6 +1142,16 @@
           {
             "path": "{pluginsDir}/x265guiEx.auo2",
             "XXH3_128": "a1a3043279cebbeba624cd7f21ced9d5"
+          }
+        ]
+      },
+      {
+        "version": "5.05",
+        "release_date": "2025-12-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/x265guiEx.auo2",
+            "XXH3_128": ""
           }
         ]
       }
@@ -1500,7 +1510,7 @@
     "description": "ffmpegOut は、ffmpegを使用してエンコードを行うAviutlの出力プラグインです。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/ffmpegOut",
-    "latest-version": "2.03",
+    "latest-version": "2.04",
     "license": "MIT",
     "tags": [
       "エンコード"
@@ -1612,6 +1622,16 @@
           {
             "path": "{pluginsDir}/ffmpegOut.auo2",
             "XXH3_128": "ce2c553e5860c69b14e0ae34f2ddf440"
+          }
+        ]
+      },
+      {
+        "version": "2.04",
+        "release_date": "2025-12-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/ffmpegOut.auo2",
+            "XXH3_128": "11bff1b1b1fb258297e899f99147af74"
           }
         ]
       }
@@ -1739,7 +1759,7 @@
     "description": "拡張 SVT-AV1 出力(GUI) Ex (svtAV1guiEx) は、SVT-AV1を使用してエンコードを行うAviutlの出力プラグインです。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/svtAV1guiEx",
-    "latest-version": "2.07",
+    "latest-version": "2.08",
     "license": "MIT",
     "tags": [
       "エンコード"
@@ -1891,6 +1911,16 @@
           {
             "path": "{pluginsDir}/svtAV1guiEx.auo2",
             "XXH3_128": "08535f9e6b039bda198e8f948448fd5e"
+          }
+        ]
+      },
+      {
+        "version": "2.08",
+        "release_date": "2025-12-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/svtAV1guiEx.auo2",
+            "XXH3_128": "541b0671940c3d3816cbee5101ff2c08"
           }
         ]
       }
