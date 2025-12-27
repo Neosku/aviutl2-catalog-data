@@ -3658,7 +3658,7 @@
     "description": "./md/sigma-axis.Basic_S.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Basic_S",
-    "latest-version": "v1.60-for-beta25",
+    "latest-version": "v1.70-for-beta26",
     "license": "MIT",
     "tags": [
       "図形",
@@ -3784,6 +3784,16 @@
           {
             "path": "{scriptsDir}/@Basic_S.anm2",
             "XXH3_128": "e28c28eb75b99bc335d04183154d7a62"
+          }
+        ]
+      },
+      {
+        "version": "v1.70-for-beta26",
+        "release_date": "2025-12-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Basic_S.anm2",
+            "XXH3_128": "3fe5515208093c3a6dca790c11970364"
           }
         ]
       }
