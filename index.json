@@ -1016,11 +1016,23 @@
     "name": "x265guiEx",
     "type": "出力プラグイン",
     "summary": "x265を使用してエンコードを行うAviutlの出力プラグインです。",
-    "description": "x265を使用してエンコードを行うAviutlの出力プラグインです。",
+    "description": "./md/rigaya.x265guiEx.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x265guiEx",
     "latest-version": "5.05",
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2010-2022",
+            "holder": "rigaya"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "必須",
       "エンコード"
@@ -1151,7 +1163,7 @@
         "file": [
           {
             "path": "{pluginsDir}/x265guiEx.auo2",
-            "XXH3_128": ""
+            "XXH3_128": "c4775f85484bbdaa11d71e3e125e389e"
           }
         ]
       }
