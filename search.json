@@ -65,7 +65,7 @@
   },
   {
     "id": "rigaya.x264guiEx",
-    "latest-version": "4.08",
+    "latest-version": "4.09",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/x264guiEx",
@@ -85,7 +85,7 @@
   },
   {
     "id": "rigaya.x265guiEx",
-    "latest-version": "5.05",
+    "latest-version": "5.06",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/x265guiEx",
@@ -145,7 +145,7 @@
   },
   {
     "id": "rigaya.ffmpegOut",
-    "latest-version": "2.04",
+    "latest-version": "2.05",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/ffmpegOut",
@@ -185,7 +185,7 @@
   },
   {
     "id": "rigaya.svtAV1guiEx",
-    "latest-version": "2.08",
+    "latest-version": "2.09",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/svtAV1guiEx",
