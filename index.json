@@ -1208,17 +1208,24 @@
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/NVEnc",
     "latest-version": "9.09",
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2011-2022",
+            "holder": "rigaya"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "エンコード"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "",
-        "infoImg": []
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -1410,7 +1417,12 @@
       {
         "version": "9.09",
         "release_date": "2026-01-02",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "f17099edbc3744db97b57e6b6d69d017"
+          }
+        ]
       }
     ]
   },
