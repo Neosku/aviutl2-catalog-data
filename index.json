@@ -5365,6 +5365,75 @@
     ]
   },
   {
+    "id": "Natadecoco.TextEditor",
+    "name": "TextEditor",
+    "type": "汎用プラグイン",
+    "summary": "テキストの文字ごとにサイズ・フォント・色などを個別に設定できるエディタ",
+    "description": "./md/Natadecoco.TextEditor.md",
+    "author": "なたのこ",
+    "repoURL": "https://github.com/Natadecoco2539/AviUtl2-TextEditor",
+    "latest-version": "v2.0",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "なたのこ"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Natadecoco2539",
+          "repo": "AviUtl2-TextEditor",
+          "pattern": "TextEditor.aux2"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/TextEditor.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextEditor.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{appDir}/TextEditor.ini"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v2.0",
+        "release_date": "2026-01-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/TextEditor.aux2",
+            "XXH3_128": "0fccadc1605b0740e48b2dcbbbb49545"
+          }
+        ]
+      }
+    ]
+  },
+   {
     "id": "Natadecoco.TextSplitter",
     "name": "TextSplitter",
     "type": "汎用プラグイン",
