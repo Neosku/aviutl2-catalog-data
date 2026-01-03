@@ -1444,7 +1444,7 @@
     "description": "このソフトウェアは、IntelのCPUに搭載されているHWエンコーダ(QSV)の画質や速度といった性能の実験を目的としています。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/QSVEnc",
-    "latest-version": "8.03",
+    "latest-version": "8.04",
     "license": "MIT",
     "tags": [
       "エンコード"
@@ -1566,6 +1566,16 @@
           {
             "path": "{pluginsDir}/QSVEnc.auo2",
             "XXH3_128": "a4163f0419203bcbc594e5e686295c36"
+          }
+        ]
+      },
+      {
+        "version": "8.04",
+        "release_date": "2026-01-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo2",
+            "XXH3_128": "febd1b68e52931eb2b5c42eb14351674"
           }
         ]
       }
@@ -1724,7 +1734,7 @@
     "description": "./md/rigaya.VCEEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/VCEEnc",
-    "latest-version": "9.02",
+    "latest-version": "9.03",
     "license": "MIT",
     "tags": [
       "エンコード"
@@ -1825,6 +1835,16 @@
           {
             "path": "{pluginsDir}/VCEEnc.auo2",
             "XXH3_128": "a348271795108239ce6ffb8af29e6987"
+          }
+        ]
+      },
+      {
+        "version": "9.03",
+        "release_date": "2026-01-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/VCEEnc.auo2",
+            "XXH3_128": "c2406b18f83ee044c8a2662fec689a86"
           }
         ]
       }
