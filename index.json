@@ -5507,7 +5507,7 @@
     "description": "./md/Natadecoco.MyAssetManager.md",
     "author": "なたのこ",
     "repoURL": "",
-    "latest-version": "v1.1",
+    "latest-version": "v1.2",
     "licenses": [
       {
         "type": "MIT",
@@ -5568,6 +5568,16 @@
           {
             "path": "{pluginsDir}/MyAssetManager.aux2",
             "XXH3_128": "4d97d268473bcc7bf3d0c7930d45ca52"
+          }
+        ]
+      },
+      {
+        "version": "v1.2",
+        "release_date": "2026-01-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/MyAssetManager.aux2",
+            "XXH3_128": "af161667a339b3615719a215ce03d41d"
           }
         ]
       }
