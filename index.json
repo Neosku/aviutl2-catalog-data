@@ -5557,6 +5557,10 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/MyAssetFavorites.txt"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/MyAssetFixed.txt"
         }
       ]
     },
