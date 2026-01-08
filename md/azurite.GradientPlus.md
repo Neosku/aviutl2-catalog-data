@@ -1,0 +1,1 @@
+sRGB以外の色空間 (Linear sRGB, HSV, HSL, L*a*b*, LCh, Oklab, Oklch) でグラデーションさせるAviUtl2用スクリプトです。
