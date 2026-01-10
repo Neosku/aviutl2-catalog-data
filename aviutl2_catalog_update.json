@@ -1,11 +1,11 @@
 {
-  "version": "0.2.0",
-  "notes": "## 追加\n- 検索窓への入力が即座に検索結果へ反映されるように変更\n- データファイルを開くボタンを追加（標準パス：ProgramData/aviutl2）\n- パッケージ登録時に、既存のタグを簡単に追加できるように変更\n- GitHub 経由のダウンロードにおいて、最新タグが設定されていないパッケージもダウンロード可能に変更\n- ライセンス全文を表示できるように変更\n- カスタムライセンスを登録できるように変更\n\n## 修正\n- 成功時に一時ファイルが削除されていなかった不具合を修正\n- 詳細ページからホームに戻った際、スクロール位置が保持されるように修正\n- パッケージ登録の入力欄で、動作が重く文字の反映が遅れていた問題を修正\n- 不具合報告で「アプリ情報を添付しない」を選択しても、アプリ情報が送信されていた不具合を修正\n- UI 周りの調整",
-  "pub_date": "2025-12-13T07:49:01Z",
+  "version": "0.3.0",
+  "notes": "## 新機能\n- UIを全面的に再設計し、デザインを刷新\n- 人気順で表示する機能を追加\n- BOOTHで配布されているパッケージを導入する機能を追加\n- パッケージ一覧のエクスポート／インポート機能を追加\n- AviUtl2 を起動できるボタンを追加\n\n## 修正\n- カスタムライセンス名を指定できない問題を修正\n- CC0 1.0 のライセンステンプレートを追加",
+  "pub_date": "2026-01-10T08:35:36Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/Neosku/aviutl2-catalog/releases/download/v0.2.0/AviUtl2_Catalog_0.2.0_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSHJDVDJYS1dEM09ySHV1eHAxdjMzblZFdDlGWVRVQTU2N0h5U2JScCthWWd2K3NBck1lTFBlZCtsdWh1Z1c0c2RhVjJFTjBJWFE3dXFsSHZ1cW1WMEdCYm92Q2wvd1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY1NjEyMjc1CWZpbGU6QXZpVXRsMiDjgqvjgr/jg63jgrBfMC4yLjBfeDY0LXNldHVwLmV4ZQpsZTZjeVAwd3I3NFVWeEY3MUJaeS9hcFdRd0ZiUm1yZjRaWUZnNmFvTUkyM0xJSU5BMHp3L1dPcThSSnM5NXpsVXgydGp6MDUwdjJwSFdkUmRyNkJCQT09Cg=="
+      "url": "https://github.com/Neosku/aviutl2-catalog/releases/download/v0.3.0/AviUtl2_Catalog_0.3.0_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSHJDVDJYS1dEM1BWREFEUEJPc05iRWhvN0k1dVlHeVNndTFDelRDelFob1RIM3RpT0M4T2VmMUJhcWtNNUMyeTl3NjRwKzlWU0hSU0hXWGNCNi85TG0rOUNlWEwramc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY4MDMzNzczCWZpbGU6QXZpVXRsMiDjgqvjgr/jg63jgrBfMC4zLjBfeDY0LXNldHVwLmV4ZQpZRDRjUVZEZ3V4Vm1sWFZXZUpGSG9TOTlzK0ViL1lXa3pmU2tFL0J4b25HSzYxT1NxMlo4d0laNzBCeHlZeG1sTHg0S0hpcHJYb1RYVTZKUHBFM0REdz09Cg=="
     }
   }
 }
