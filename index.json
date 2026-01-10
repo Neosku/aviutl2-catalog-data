@@ -5815,7 +5815,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/v1.0/縁取りグラデーション.anm2",
+          "from": "{tmp}/縁取りグラデーション/縁取りグラデーション.anm2",
           "to": "{scriptsDir}"
         }
       ],
@@ -5832,7 +5832,7 @@
         "release_date": "2025-12-09",
         "file": [
           {
-            "path": "{scriptsDir}",
+            "path": "{scriptsDir}/縁取りグラデーション.anm2",
             "XXH3_128": "a62e674a76b0e263a226a0e962e1165e"
           }
         ]
