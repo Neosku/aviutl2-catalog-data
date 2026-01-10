@@ -5777,5 +5777,66 @@
         ]
       }
     ]
+  },
+  {
+    "id": "naltutyo-fuchidorigurade",
+    "name": "縁取りグラデーション",
+    "type": "スクリプト",
+    "summary": "縁取りにグラデーションをかけることのできるソフトです",
+    "description": "./md/naltutyo-fuchidorigurade.md",
+    "author": "Nao",
+    "repoURL": "https://nao-kid.booth.pm/items/7737503",
+    "latest-version": "v1.0",
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "便利ツール",
+      "縁取り",
+      "グラデーション"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/8068164?_gl=1*53fx5y*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NjgwNDgwMjckbzEwJGcxJHQxNzY4MDUwMDM5JGo1NiRsMCRoMA.."
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/v1.0/縁取りグラデーション.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/縁取りグラデーション.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-12-09",
+        "file": [
+          {
+            "path": "{scriptsDir}",
+            "XXH3_128": "a62e674a76b0e263a226a0e962e1165e"
+          }
+        ]
+      }
+    ]
   }
 ]
