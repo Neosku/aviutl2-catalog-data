@@ -5777,5 +5777,65 @@
         ]
       }
     ]
+  },
+  {
+    "id": "naltutyo-ScriptBrowserPlugin",
+    "name": "ScriptBrowserPlugin",
+    "type": "汎用プラグイン",
+    "summary": "多くの効果を検索し、付与や追加等ができるPluginです",
+    "description": "./md/naltutyo-ScriptBrowserPlugin.md",
+    "author": "Nao",
+    "repoURL": "https://nao-kid.booth.pm/items/7684889",
+    "latest-version": "v2.8",
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "便利ツール",
+      "検索"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/8132983?_gl=1*1teub8w*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NjgwNDgwMjckbzEwJGcxJHQxNzY4MDUxODkzJGo1NCRsMCRoMA.."
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/v2.8/SearchBrowserPlugin.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SearchBrowserPlugin.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v2.8",
+        "release_date": "2025-12-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/SearchBrowserPlugin.aux2",
+            "XXH3_128": "364dd63a563764b4fc83fac52dcb6f83"
+          }
+        ]
+      }
+    ]
   }
 ]
