@@ -5926,5 +5926,69 @@
         ]
       }
     ]
+  },
+  {
+    "id": "namarium.toaster",
+    "name": "出力先トースト通知プラグイン",
+    "type": "汎用プラグイン",
+    "summary": "出力先を開くボタン付きのトースト通知を表示するプラグイン",
+    "description": "./md/namarium.toaster.md",
+    "author": "namarium",
+    "repoURL": "https://booth.pm/ja/items/7544010",
+    "latest-version": "v0.0.85",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "namarium"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "UI"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/8030406"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/toaster.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/toaster.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.0.85",
+        "release_date": "2025-11-30",
+        "file": [
+          {
+            "path": "{pluginsDir}/toaster.aux2",
+            "XXH3_128": "7956dba8555458b17ce32e2a650fe002"
+          }
+        ]
+      }
+    ]
   }
 ]
