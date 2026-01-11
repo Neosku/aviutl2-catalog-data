@@ -2059,7 +2059,7 @@
     "id": "Mr-Ojii.L-SMASH-Works",
     "name": "L-SMASH-Works",
     "type": "入力プラグイン",
-    "summary": "AviUtlで幅広い形式の動画・音声ファイルを読み込めるようにする入力プラグイン",
+    "summary": "幅広い形式の動画・音声ファイルを読み込めるようにする入力プラグイン",
     "description": "./md/Mr-Ojii.L-SMASH-Works.md",
     "author": "Mr-Ojii",
     "repoURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds",
@@ -2510,6 +2510,26 @@
           {
             "path": "{pluginsDir}/lwinput.aui2",
             "XXH3_128": "868d456b476c2be98ca701b55d1d0ea9"
+          }
+        ]
+      },
+      {
+        "version": "r1257",
+        "release_date": "2026-01-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "6f443e1475c6267e6baad700b52f49f2"
+          }
+        ]
+      },
+      {
+        "version": "r1257",
+        "release_date": "2026-01-11",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "61bb5f35439890af016d2aaf0ca305e6"
           }
         ]
       }
