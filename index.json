@@ -6243,5 +6243,94 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Karoterra.Bend",
+    "name": "曲げKR",
+    "type": "スクリプト",
+    "summary": "画像を曲線に沿って曲げるスクリプト",
+    "description": "./md/Karoterra.Bend.md",
+    "author": "かろてら",
+    "repoURL": "https://github.com/karoterra/aviutl2-Bend",
+    "latest-version": "v1.0.1",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "karoterra"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "画像",
+      "加工",
+      "曲げ"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "karoterra",
+          "repo": "aviutl2-Bend",
+          "pattern": "^aviutl2-Bend_.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@曲げKR.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/KaroterraBend.lua",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@曲げKR.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/KaroterraBend.lua"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2025-07-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/@曲げKR.anm2",
+            "XXH3_128": "ff8adbd03f91509fda48cbda67584bdd"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2025-08-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/@曲げKR.anm2",
+            "XXH3_128": "070d1328c8c3d37e8071e96296dd696d"
+          }
+        ]
+      }
+    ]
   }
 ]
