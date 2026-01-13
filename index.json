@@ -6173,5 +6173,75 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Karoterra.OilPainting",
+    "name": "油絵KR",
+    "type": "スクリプト",
+    "summary": "油絵風の加工を施すスクリプト",
+    "description": "./md/Karoterra.OilPainting.md",
+    "author": "かろてら",
+    "originalAuthor": "高橋直哉",
+    "repoURL": "https://github.com/karoterra/aviutl2-OilPainting?tab=readme-ov-file",
+    "latest-version": "v1.0.0",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "karoterra"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "画像",
+      "加工"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "karoterra",
+          "repo": "aviutl2-OilPainting",
+          "pattern": "^aviutl2-OilPainting_.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/油絵KR.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/油絵KR.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2025-07-12",
+        "file": [
+          {
+            "path": "{scriptsDir}/油絵KR.anm2",
+            "XXH3_128": "ccea6dfc64fbadbf489544beec698f57"
+          }
+        ]
+      }
+    ]
   }
 ]
