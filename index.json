@@ -6028,5 +6028,150 @@
         ]
       }
     ]
+  },
+  {
+    "id": "oov.PSDToolKit2",
+    "name": "PSDToolKit2",
+    "type": "汎用プラグイン",
+    "summary": "PSD ファイルを扱うためのプラグイン",
+    "description": "./md/oov.PSDToolKit2.md",
+    "author": "おおぶ",
+    "repoURL": "https://github.com/oov/aviutl2_psdtoolkit2",
+    "latest-version": "v2.0.0alpha5",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "oov"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "PSD"
+    ],
+    "dependencies": [
+      "oov.GCMZDrops2"
+    ],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "oov",
+          "repo": "aviutl2_psdtoolkit2",
+          "pattern": "^psdtoolkit_.*\\\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/字幕表示.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.PSDToolKit.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/简体中文.PSDToolKit.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/PSDToolKit.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/PSDToolKit"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/oov"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v2.0.0alpha1",
+        "release_date": "2026-01-09",
+        "file": [
+          {
+            "path": "{pluginsDir}/PSDToolKit.aux2",
+            "XXH3_128": "5b04b5f8f2db35fcec8ec5fb9e4820ef"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.0alpha2",
+        "release_date": "2026-01-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/PSDToolKit.aux2",
+            "XXH3_128": "6829a85927485d77bd2f784b0e8bd8d2"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.0alpha3",
+        "release_date": "2026-01-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/PSDToolKit.aux2",
+            "XXH3_128": "b29b15bfe86b6b44240d67f759f9118d"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.0alpha4",
+        "release_date": "2026-01-11",
+        "file": [
+          {
+            "path": "{pluginsDir}/PSDToolKit.aux2",
+            "XXH3_128": "179b23abf1e616b24fcd481092421458"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.0alpha5",
+        "release_date": "2026-01-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/PSDToolKit.aux2",
+            "XXH3_128": "7c8b9cacbbc551e80433a673799c0e25"
+          }
+        ]
+      }
+    ]
   }
 ]
