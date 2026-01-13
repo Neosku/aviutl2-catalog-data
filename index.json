@@ -6063,7 +6063,7 @@
         "github": {
           "owner": "oov",
           "repo": "aviutl2_psdtoolkit2",
-          "pattern": "^psdtoolkit_.*\\\\.zip$"
+          "pattern": "^psdtoolkit_.*\\.zip$"
         }
       },
       "install": [
