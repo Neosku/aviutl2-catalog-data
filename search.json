@@ -716,5 +716,65 @@
         }
       ]
     }
+  },
+  {
+    "id": "Karoterra.OilPainting",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "karoterra/aviutl2-OilPainting",
+      "regex": "^aviutl2-OilPainting_.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "油絵KR.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/油絵KR.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Karoterra.Bend",
+    "latest-version": "v1.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "karoterra/aviutl2-Bend",
+      "regex": "^aviutl2-Bend_.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/@曲げKR.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@曲げKR.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Karoterra.ColorVisionSimulation",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "karoterra/aviutl2-ColorVisionSimulation",
+      "regex": "^aviutl2-ColorVisionSimulation_.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "色覚シミュレーションKR.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/色覚シミュレーションKR.anm2"
+          ]
+        }
+      ]
+    }
   }
 ]
