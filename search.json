@@ -581,5 +581,140 @@
         }
       ]
     }
+  },
+  {
+    "id": "amaii4.AviUtl2_Discord_RPC",
+    "latest-version": "1.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "amaii4/AviUtl2_Discord_RPC",
+      "regex": "^DiscordRPC\\.aux2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "DiscordRPC.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/DiscordRPC.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "amaii4.AviUtl2_Discord_RPC",
+    "latest-version": "1.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "amaii4/AviUtl2_Discord_RPC",
+      "regex": "DiscordRPC.aux2",
+      "hash-calc": [
+        {
+          "paths": [
+            "DiscordRPC.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/DiscordRPC.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Natadecoco.TextEditor",
+    "latest-version": "2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Natadecoco2539/AviUtl2-TextEditor",
+      "regex": "TextEditor.aux2",
+      "hash-calc": [
+        {
+          "paths": [
+            "TextEditor.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/TextEditor.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Natadecoco.TextSplitter",
+    "latest-version": "1.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Natadecoco2539/AviUtl2-TextSplitter",
+      "regex": "TextSplitter.aux2",
+      "hash-calc": [
+        {
+          "paths": [
+            "TextSplitter.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/TextSplitter.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Natadecoco.MyAssetManager",
+    "latest-version": "v1.3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Natadecoco2539/AviUtl2-MyAssetManager",
+      "regex": "MyAssetManager.aux2",
+      "hash-calc": [
+        {
+          "paths": [
+            "MyAssetManager.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/MyAssetManager.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "azurite.GradientPlus",
+    "latest-version": "v1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "azurite581/AviUtl2-GradientPlus",
+      "regex": "^GradientPlus_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "グラデーション+.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/グラデーション+.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oov.PSDToolKit2",
+    "latest-version": "v2.0.0alpha5",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "oov/aviutl2_psdtoolkit2",
+      "regex": "^psdtoolkit_.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/PSDToolKit.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/PSDToolKit.aux2"
+          ]
+        }
+      ]
+    }
   }
 ]
