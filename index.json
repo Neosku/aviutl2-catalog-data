@@ -1469,7 +1469,12 @@
       {
         "version": "9.10",
         "release_date": "2026-01-15",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "0a13067f50132433eeff0d356ff8df90"
+          }
+        ]
       }
     ]
   },
