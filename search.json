@@ -544,25 +544,6 @@
     }
   },
   {
-    "id": "zopty.ObjectSearch",
-    "latest-version": "v0.2.0",
-    "checkType": {
-      "type": "GitHub",
-      "repo": "zopty/ObjectSearch",
-      "regex": "^ColorHalftone.*\\.zip$",
-      "hash-calc": [
-        {
-          "paths": [
-            "ObjectSearch.aux2"
-          ],
-          "recordPaths": [
-            "{pluginsDir}/ObjectSearch.aux2"
-          ]
-        }
-      ]
-    }
-  },
-  {
     "id": "oov.GCMZDrops2",
     "latest-version": "v2.0.0alpha14",
     "checkType": {
