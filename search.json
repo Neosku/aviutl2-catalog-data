@@ -285,7 +285,7 @@
   },
   {
     "id": "sigma-axis.Basic_S",
-    "latest-version": "v1.74-for-beta28a",
+    "latest-version": "v1.75-for-beta28a",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_Basic_S",
@@ -699,7 +699,7 @@
   },
   {
     "id": "oov.PSDToolKit2",
-    "latest-version": "v2.0.0alpha5",
+    "latest-version": "v2.0.0alpha6",
     "checkType": {
       "type": "GitHub",
       "repo": "oov/aviutl2_psdtoolkit2",

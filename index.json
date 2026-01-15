@@ -3909,7 +3909,7 @@
     "description": "./md/sigma-axis.Basic_S.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Basic_S",
-    "latest-version": "v1.74-for-beta28a",
+    "latest-version": "v1.75-for-beta28a",
     "popularity": 53,
     "trend": 38,
     "license": "MIT",
@@ -4087,6 +4087,16 @@
           {
             "path": "{scriptsDir}/@Basic_S.anm2",
             "XXH3_128": "08e3450fc4af2ba30b7a5f8814d07acf"
+          }
+        ]
+      },
+      {
+        "version": "v1.75-for-beta28a",
+        "release_date": "2026-01-15",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Basic_S.anm2",
+            "XXH3_128": "8eb061c7a997770fb7d4fc3522bd984d"
           }
         ]
       }
@@ -6055,7 +6065,7 @@
     "description": "./md/oov.PSDToolKit2.md",
     "author": "おおぶ",
     "repoURL": "https://github.com/oov/aviutl2_psdtoolkit2",
-    "latest-version": "v2.0.0alpha5",
+    "latest-version": "v2.0.0alpha6",
     "popularity": 4,
     "trend": 5,
     "licenses": [
@@ -6189,6 +6199,16 @@
           {
             "path": "{pluginsDir}/PSDToolKit.aux2",
             "XXH3_128": "7c8b9cacbbc551e80433a673799c0e25"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.0alpha6",
+        "release_date": "2026-01-15",
+        "file": [
+          {
+            "path": "{pluginsDir}/PSDToolKit.aux2",
+            "XXH3_128": "83534e75c48f7a2c058d5bfed4038c55"
           }
         ]
       }
