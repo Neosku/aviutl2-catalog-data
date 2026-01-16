@@ -6785,5 +6785,83 @@
         ]
       }
     ]
+  },
+  {
+    "id": "korarei.ColorLUT_K",
+    "name": "ColorLUT_K",
+    "type": "汎用プラグイン",
+    "summary": "LUTファイルを扱えるようにするプラグイン",
+    "description": "./md/korarei.ColorLUT_K.md",
+    "author": "Korarei",
+    "repoURL": "https://github.com/korarei/AviUtl2_ColorLUT_K_Plugin",
+    "latest-version": "v1.0.1",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Korarei"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "ファイル"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "korarei",
+          "repo": "AviUtl2_ColorLUT_K_Plugin",
+          "pattern": "^ColorLUT_K_.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/ColorLUT_K/ColorLUT_K.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ColorLUT_K.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2025-12-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/ColorLUT_K.aux2",
+            "XXH3_128": "c5a3df3c3e64ea3b1145e3d9dd084fa3"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2025-12-28",
+        "file": [
+          {
+            "path": "{pluginsDir}/ColorLUT_K.aux2",
+            "XXH3_128": "a406f8d4591311fe485fb4562ef9d639"
+          }
+        ]
+      }
+    ]
   }
 ]
