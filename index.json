@@ -4295,22 +4295,31 @@
   },
   {
     "id": "korarei.ObjectMotionBlur_LK",
-    "name": "モーションブラー",
+    "name": "ObjectMotionBlur_LK",
     "type": "スクリプト",
-    "summary": "オブジェクトにモーションブラーをかけるスクリプト",
+    "summary": "モーションブラーをかけるスクリプト",
     "description": "./md/korarei.ObjectMotionBlur_LK.md",
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script",
     "latest-version": "v1.1.1",
-    "popularity": 48,
-    "trend": 16,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Korarei"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [],
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/korarei.ObjectMotionBlur_LK_thumbnail.png",
-        "infoImg": []
+        "thumbnail": "./image/korarei.ObjectMotionBlur_LK_thumbnail.png"
       }
     ],
     "installer": {
