@@ -757,5 +757,105 @@
         }
       ]
     }
+  },
+  {
+    "id": "korarei.AutoLyricAnimation_K",
+    "latest-version": "v1.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "korarei/AviUtl2_AutoLyricAnimation_K_Script",
+      "regex": "^AutoLyricAnimation_K_.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "script/AutoLyricAnimation_K.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/AutoLyricAnimation_K.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "korarei.CameraTransform_K",
+    "latest-version": "v1.0.5",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "korarei/AviUtl2_CameraTransform_K_Script",
+      "regex": "^@CameraTransform_K_.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "@CameraTransform_K/@CameraTransform_K.cam2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@CameraTransform_K.cam2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "korarei.Kaleidoscope_K",
+    "latest-version": "v1.0.3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "korarei/AviUtl2_Kaleidoscope_K_Script",
+      "regex": "^Kaleidoscope_K_.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Kaleidoscope_K/Kaleidoscope_K.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Kaleidoscope_K.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "korarei.ColorLUT_K",
+    "latest-version": "v1.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "korarei/AviUtl2_ColorLUT_K_Plugin",
+      "regex": "^ColorLUT_K_.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "ColorLUT_K/ColorLUT_K.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/ColorLUT_K.aux2"
+          ]
+        }
+      ]
+    }
+  },
+    {
+    "id": "sigma-axis.tl_walkaround2",
+    "latest-version": "v1.22-for-beta26",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_tl_walkaround2",
+      "regex": "^aviutl2_tl_walkaround2.*\\\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "tl_walkaround2.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/tl_walkaround2.aux2"
+          ]
+        }
+      ]
+    }
   }
 ]
