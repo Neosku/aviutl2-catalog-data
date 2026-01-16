@@ -6863,5 +6863,114 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sigma-axis.tl_walkaround2",
+    "name": "TLショトカ移動2",
+    "type": "汎用プラグイン",
+    "summary": "タイムライン操作のコマンドを追加するプラグイン",
+    "description": "./md/sigma-axis.tl_walkaround2.md",
+    "author": "sigma-axis",
+    "repoURL": "https://github.com/sigma-axis/aviutl2_tl_walkaround2",
+    "latest-version": "v1.22-for-beta26",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "sigma-axis"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "便利ツール",
+      "ショートカット"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sigma-axis",
+          "repo": "aviutl2_tl_walkaround2",
+          "pattern": "^aviutl2_tl_walkaround2.*\\\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/tl_walkaround2.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/tl_walkaround2.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.00-for-beta24a",
+        "release_date": "2025-12-19",
+        "file": [
+          {
+            "path": "{pluginsDir}/tl_walkaround2.aux2",
+            "XXH3_128": "059ff502e695afb64a4414ae6997dee6"
+          }
+        ]
+      },
+      {
+        "version": "v1.10-for-beta25",
+        "release_date": "2025-12-20",
+        "file": [
+          {
+            "path": "{pluginsDir}/tl_walkaround2.aux2",
+            "XXH3_128": "bfbb10fa69e05f37dc86934c4de16402"
+          }
+        ]
+      },
+      {
+        "version": "v1.20-for-beta25",
+        "release_date": "2025-12-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/tl_walkaround2.aux2",
+            "XXH3_128": "2f2efed82e56f2cd42f294ff9d67fd7f"
+          }
+        ]
+      },
+      {
+        "version": "v1.21-for-beta25",
+        "release_date": "2025-12-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/tl_walkaround2.aux2",
+            "XXH3_128": "0060ca9297beba638480958f699950f3"
+          }
+        ]
+      },
+      {
+        "version": "v1.22-for-beta26",
+        "release_date": "2025-12-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/tl_walkaround2.aux2",
+            "XXH3_128": "c5a917a476208fbb147618c94b23eef7"
+          }
+        ]
+      }
+    ]
   }
 ]
