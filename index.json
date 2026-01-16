@@ -6456,13 +6456,92 @@
           }
         ]
       },
-            {
+      {
         "version": "v2.1",
         "release_date": "2026-01-16",
         "file": [
           {
             "path": "{pluginsDir}/拡張ツールバー.aux2",
             "XXH3_128": "019e81b0e4e445e0c743c6a498af3578"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "korarei.AutoLyricAnimation_K",
+    "name": "AutoLyricAnimation_K",
+    "type": "スクリプト",
+    "summary": "リリックモーションを行うためのスクリプト",
+    "description": "./md/korarei.AutoLyricAnimation_K.md",
+    "author": "Korarei",
+    "repoURL": "https://github.com/korarei/AviUtl2_AutoLyricAnimation_K_Script",
+    "latest-version": "v1.0.1",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Korarei"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "文字",
+      "アニメーション"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Korarei",
+          "repo": "AviUtl2_AutoLyricAnimation_K_Script",
+          "pattern": "^AutoLyricAnimation_K_.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/script/AutoLyricAnimation_K.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/AutoLyricAnimation_K.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2025-07-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/AutoLyricAnimation_K.anm2",
+            "XXH3_128": "643e9fec084843a11fed7e884f6f31f8"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2025-07-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/AutoLyricAnimation_K.anm2",
+            "XXH3_128": "4d28669219495c4b24e7111d02502ef4"
           }
         ]
       }
