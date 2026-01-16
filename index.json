@@ -6394,5 +6394,68 @@
         ]
       }
     ]
+  },
+  {
+    "id": "naltutyo-kakutyo-tsu-ruba-",
+    "name": "Nao式ツールボックス",
+    "type": "汎用プラグイン",
+    "summary": "元祖拡張ツールバーをAviutl2用にオマージュしたものです",
+    "description": "./md/naltutyo-kakutyo-tsu-ruba-.md",
+    "author": "Nao",
+    "originalAuthor": "aoytsk様",
+    "repoURL": "https://nao-kid.booth.pm/items/7791311",
+    "latest-version": "2.0",
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "ツールバー",
+      "ツールボックス",
+      "便利ツール",
+      "UI"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/8265315?_gl=1*11jovt0*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3Njg1NTI3ODYkbzkkZzEkdDE3Njg1NTY0OTYkajU4JGwwJGgw"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/2.0/拡張ツールバー.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/拡張ツールバー.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2.0",
+        "release_date": "2026-01-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/拡張ツールバー.aux2",
+            "XXH3_128": "3e1bdf5b53492d49c1f1659265091cbc"
+          }
+        ]
+      }
+    ]
   }
 ]
