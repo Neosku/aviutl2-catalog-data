@@ -6546,5 +6546,136 @@
         ]
       }
     ]
+  },
+  {
+    "id": "korarei.CameraTransform_K",
+    "name": "CameraTransform_K",
+    "type": "スクリプト",
+    "summary": "カメラ操作感を変更するスクリプト群",
+    "description": "./md/korarei.CameraTransform_K.md",
+    "author": "Korarei",
+    "repoURL": "https://github.com/korarei/AviUtl2_CameraTransform_K_Script",
+    "latest-version": "v1.0.5",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Korarei"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カメラ"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "korarei",
+          "repo": "AviUtl2_CameraTransform_K_Script",
+          "pattern": "^@CameraTransform_K_.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@CameraTransform_K/@CameraTransform_K.cam2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@CameraTransform_K/CameraTransform_K.mod2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@CameraTransform_K.cam2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CameraTransform_K.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CameraTransform_K.dill"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2025-08-11",
+        "file": [
+          {
+            "path": "{scriptsDir}/@CameraTransform_K.cam2",
+            "XXH3_128": "048cc1e6f9177fdb366abc73044daed5"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2025-08-12",
+        "file": [
+          {
+            "path": "{scriptsDir}/@CameraTransform_K.cam2",
+            "XXH3_128": "80eb6eb0cecfb3dbe350f3da9ac7ff26"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.2",
+        "release_date": "2025-09-23",
+        "file": [
+          {
+            "path": "{scriptsDir}/@CameraTransform_K.cam2",
+            "XXH3_128": "15c8ffe0f985e02ce12b6e22a2fb2e9f"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.3",
+        "release_date": "2025-10-12",
+        "file": [
+          {
+            "path": "{scriptsDir}/@CameraTransform_K.cam2",
+            "XXH3_128": "f5d78df8af8185c7f0ed813a9402c94b"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.4",
+        "release_date": "2025-10-13",
+        "file": [
+          {
+            "path": "{scriptsDir}/@CameraTransform_K.cam2",
+            "XXH3_128": "6dc297886b7708851b41b482a5be14a4"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.5",
+        "release_date": "2025-11-04",
+        "file": [
+          {
+            "path": "{scriptsDir}/@CameraTransform_K.cam2",
+            "XXH3_128": "98c956f70097029dc3367050c14abf77"
+          }
+        ]
+      }
+    ]
   }
 ]
