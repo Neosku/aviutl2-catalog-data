@@ -6423,7 +6423,7 @@
     "images": [],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8265315?_gl=1*11jovt0*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3Njg1NTI3ODYkbzkkZzEkdDE3Njg1NTY0OTYkajU4JGwwJGgw"
+        "booth": "https://booth.pm/downloadables/8265528"
       },
       "install": [
         {
@@ -6434,7 +6434,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/2.0/拡張ツールバー.aux2",
+          "from": "{tmp}/v2.1/拡張ツールバー.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -6447,12 +6447,22 @@
     },
     "version": [
       {
-        "version": "2.0",
+        "version": "v2.0",
         "release_date": "2026-01-16",
         "file": [
           {
             "path": "{pluginsDir}/拡張ツールバー.aux2",
             "XXH3_128": "3e1bdf5b53492d49c1f1659265091cbc"
+          }
+        ]
+      },
+            {
+        "version": "v2.1",
+        "release_date": "2026-01-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/拡張ツールバー.aux2",
+            "XXH3_128": "019e81b0e4e445e0c743c6a498af3578"
           }
         ]
       }
