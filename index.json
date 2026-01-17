@@ -5924,7 +5924,11 @@
       "検索"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/naltutyo-ScriptBrowserPlugin_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "booth": "https://booth.pm/downloadables/8132983?_gl=1*1teub8w*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NjgwNDgwMjckbzEwJGcxJHQxNzY4MDUxODkzJGo1NCRsMCRoMA.."
