@@ -6439,7 +6439,11 @@
       "UI"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/naltutyo-kakutyo-tsu-ruba-_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "booth": "https://booth.pm/downloadables/8268057?_gl=1*wkr5cs*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3Njg2MTY5NzMkbzEzJGcxJHQxNzY4NjE3MTQzJGo1OCRsMCRoMA.."
