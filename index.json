@@ -2575,11 +2575,21 @@
       },
       {
         "version": "r1261",
-        "release_date": "2026-01-18",
+        "release_date": "2026-01-17",
         "file": [
           {
             "path": "{pluginsDir}/lwinput.aui2",
             "XXH3_128": "6f751730029d4542dbbaa0d508df05aa"
+          }
+        ]
+      },
+      {
+        "version": "r1261",
+        "release_date": "2026-01-18",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "918dd44ada6328b2563639bee61d3e85"
           }
         ]
       }
