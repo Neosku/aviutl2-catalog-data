@@ -2104,8 +2104,6 @@
     "author": "Mr-Ojii",
     "repoURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds",
     "latest-version": "r1261",
-    "popularity": 120,
-    "trend": 38,
     "licenses": [
       {
         "type": "MIT",
@@ -2579,7 +2577,7 @@
         "file": [
           {
             "path": "{pluginsDir}/lwinput.aui2",
-            "XXH3_128": "6f751730029d4542dbbaa0d508df05aa"
+            "XXH3_128": "918dd44ada6328b2563639bee61d3e85"
           }
         ]
       }
