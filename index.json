@@ -5858,8 +5858,6 @@
     "author": "Nao",
     "repoURL": "https://nao-kid.booth.pm/items/7737503",
     "latest-version": "v1.0",
-    "popularity": 21,
-    "trend": 14,
     "licenses": [
       {
         "type": "不明",
@@ -5874,7 +5872,11 @@
       "グラデーション"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/naltutyo-fuchidorigurade_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "booth": "https://booth.pm/downloadables/8068164?_gl=1*53fx5y*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NjgwNDgwMjckbzEwJGcxJHQxNzY4MDUwMDM5JGo1NiRsMCRoMA.."
