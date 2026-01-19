@@ -7024,5 +7024,68 @@
         ]
       }
     ]
+  },
+  {
+    "id": "zopty.DokodemoBuffer",
+    "name": "どこでもバッファ",
+    "type": "スクリプト",
+    "summary": "転送可能なフレームバッファ",
+    "description": "./md/zopty.DokodemoBuffer.md",
+    "author": "zopty",
+    "repoURL": "",
+    "latest-version": "v1.0.0",
+    "licenses": [
+      {
+        "type": "BSD-3-Clause",
+        "isCustom": true,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "zopty"
+          }
+        ],
+        "licenseBody": "BSD 3-Clause License\n\nCopyright (c) 2026, zopty\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/zopty.DokodemoBuffer_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://github.com/zopty/DokodemoBuffer/blob/main/%40%E3%81%A9%E3%81%93%E3%81%A7%E3%82%82%E3%83%90%E3%83%83%E3%83%95%E3%82%A1.obj2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@どこでもバッファ.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@どこでもバッファ.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-01-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/@どこでもバッファ.obj2",
+            "XXH3_128": "2639263c5edac2106987c8bd5a93c680"
+          }
+        ]
+      }
+    ]
   }
 ]
