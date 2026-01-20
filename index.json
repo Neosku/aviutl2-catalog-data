@@ -7113,5 +7113,62 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Rhapthorne_0.BlockGlitch_Rh",
+    "name": "BlockGlitch_Rh",
+    "type": "スクリプト",
+    "summary": "ブロック状にずれるグリッチエフェクト",
+    "description": "./md/Rhapthorne_0.BlockGlitch_Rh.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/2000355120782164458",
+    "latest-version": "v1.0.0",
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "加工",
+      "グリッチ"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1ncGkPeVxX7Syh-_DIZQJFxsDRTkqb9C5"
+        }
+      },
+      "install": [
+        {
+          "action": "copy",
+          "from": "{tmp}/BlockGlitch_Rh.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/BlockGlitch_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2025-12-15",
+        "file": [
+          {
+            "path": "{scriptsDir}/BlockGlitch_Rh.anm2",
+            "XXH3_128": "ed71fb1729cd4924d0505f3ccf59ea9e"
+          }
+        ]
+      }
+    ]
   }
 ]
