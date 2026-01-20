@@ -7289,5 +7289,64 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Rhapthorne_0.BPMEffectToggle",
+    "name": "BPMエフェクトトグル",
+    "type": "スクリプト",
+    "summary": "BPMに合わせてエフェクトをオンオフするスクリプト",
+    "description": "./md/Rhapthorne_0.BPMEffectToggle.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1967755313521512906?s=20",
+    "latest-version": "v1.0.1",
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "BPM",
+      "エフェクト"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1F37-BZiPPJ1YWE9I6n1hVJrMhjLHYgG1"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/BPMエフェクトトグル.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/BPMエフェクトトグル.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.1",
+        "release_date": "2025-12-01",
+        "file": [
+          {
+            "path": "{scriptsDir}/BPMエフェクトトグル.anm2",
+            "XXH3_128": "1a99d878cfdc9741d45a454503368234"
+          }
+        ]
+      }
+    ]
   }
 ]
