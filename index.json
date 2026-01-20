@@ -7122,13 +7122,13 @@
     "description": "./md/Rhapthorne_0.BlockGlitch_Rh.md",
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/2000355120782164458",
-    "latest-version": "2025-12-15",
+    "latest-version": "v1.0.0",
     "licenses": [
       {
-        "type": "不明",
+        "type": "カスタムライセンス",
         "isCustom": true,
         "copyrights": [],
-        "licenseBody": ""
+        "licenseBody": "改変再配布等基本自由です"
       }
     ],
     "tags": [
@@ -7141,19 +7141,13 @@
     "installer": {
       "source": {
         "GoogleDrive": {
-          "id": "1-bRId887yGiUjTn_sibjmrj9JfiBw6eU"
+          "id": "1ncGkPeVxX7Syh-_DIZQJFxsDRTkqb9C5"
         }
       },
       "install": [
         {
-          "action": "download"
-        },
-        {
-          "action": "extract"
-        },
-        {
           "action": "copy",
-          "from": "{tmp}/AviUtlスクリプト/BlockGlitch_Rh.anm2",
+          "from": "{tmp}/BlockGlitch_Rh.anm2",
           "to": "{scriptsDir}"
         }
       ],
@@ -7166,7 +7160,7 @@
     },
     "version": [
       {
-        "version": "2025-12-15",
+        "version": "v1.0.0",
         "release_date": "2025-12-15",
         "file": [
           {
