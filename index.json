@@ -3374,20 +3374,29 @@
     "id": "reindex-ot.reindex_AviUtl2_Language",
     "name": "非公式言語ファイル(Japanese_Mod)",
     "type": "言語ファイル",
-    "summary": "修正した AviUtl2 (AviUtl ExEdit2) の日本語の言語ファイル。",
-    "description": "修正した AviUtl2 (AviUtl ExEdit2) の日本語言語ファイルです。Windows で標準的に使用されている日本語のテキストに修正 (フォルダー、名前を付けて保存、「全て」の綴りを「すべて」に変更) やダイアログが表示されるコンテキストメニューに三点リーダー追加など「こうした方が良いのでは？」と思う箇所を個人的に弄ってます。",
+    "summary": "修正した AviUtl2 の日本語の言語ファイル。",
+    "description": "./md/reindex-ot.reindex_AviUtl2_Language.md",
     "author": "Re*Index. (ot_inc)",
     "repoURL": "https://github.com/reindex-ot/reindex_AviUtl2_Language",
-    "latest-version": "for Beta 18b",
-    "popularity": 25,
-    "trend": 7,
-    "license": "WTFPL license",
+    "latest-version": "Beta29",
+    "licenses": [
+      {
+        "type": "WTFPL license",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE\n                    Version 2, December 2004\n  \n Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>\n \n Everyone is permitted to copy and distribute verbatim or modified\n copies of this license document, and changing it is allowed as long\n as the name is changed.\n  \n            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE\n   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n  \n  0. You just DO WHAT THE FUCK YOU WANT TO."
+      }
+    ],
     "tags": [],
     "dependencies": [],
     "images": [],
     "installer": {
       "source": {
-        "direct": "https://raw.githubusercontent.com/reindex-ot/reindex_AviUtl2_Language/refs/heads/main/Japanese_Mod.aul2"
+        "github": {
+          "owner": "reindex-ot",
+          "repo": "reindex_AviUtl2_Language",
+          "pattern": "Japanese_Mod.aul2"
+        }
       },
       "install": [
         {
@@ -3397,6 +3406,9 @@
           "action": "copy",
           "from": "{tmp}/Japanese_Mod.aul2",
           "to": "{dataDir}/Language"
+        },
+        {
+          "action": "download"
         }
       ],
       "uninstall": [
@@ -3424,6 +3436,16 @@
           {
             "path": "{dataDir}/Language/Japanese_Mod.aul2",
             "XXH3_128": "5b17d4f8d08b154881e320a4e398353b"
+          }
+        ]
+      },
+      {
+        "version": "Beta29",
+        "release_date": "2026-01-20",
+        "file": [
+          {
+            "path": "{dataDir}/Language/Japanese_Mod.aul2",
+            "XXH3_128": "67343a7444f2cedad0d94d56dd8b3464"
           }
         ]
       }
