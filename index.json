@@ -7141,13 +7141,19 @@
     "installer": {
       "source": {
         "GoogleDrive": {
-          "id": "1ncGkPeVxX7Syh-_DIZQJFxsDRTkqb9C5"
+          "id": "1-bRId887yGiUjTn_sibjmrj9JfiBw6eU"
         }
       },
       "install": [
         {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/BlockGlitch_Rh.anm2",
+          "from": "{tmp}/AviUtlスクリプト/BlockGlitch_Rh.anm2",
           "to": "{scriptsDir}"
         }
       ],
@@ -7166,6 +7172,69 @@
           {
             "path": "{scriptsDir}/BlockGlitch_Rh.anm2",
             "XXH3_128": "ed71fb1729cd4924d0505f3ccf59ea9e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne_0.RadialRaster_Rh",
+    "name": "放射ラスター_Rh",
+    "type": "スクリプト",
+    "summary": "画像などを放射状に変形するエフェクト",
+    "description": "./md/Rhapthorne_0.RadialRaster_Rh.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/2009429917847658676",
+    "latest-version": "v1.0.0",
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "加工",
+      "変形"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1-bRId887yGiUjTn_sibjmrj9JfiBw6eU"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/AviUtlスクリプト/放射ラスター_Rh.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/放射ラスター_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "",
+        "release_date": "2026-01-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/放射ラスター_Rh.anm2",
+            "XXH3_128": "92cf825fdb1c3b85fa67ada3ff9b4276"
           }
         ]
       }
