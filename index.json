@@ -7348,5 +7348,63 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Rhapthorne_0.unifyText",
+    "name": "テキスト一枚化",
+    "type": "スクリプト",
+    "summary": "テキストを一つのオブジェクトのように扱えるスクリプト",
+    "description": "./md/Rhapthorne_0.unifyText.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1968330680842297713",
+    "latest-version": "v1.0.3",
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "テキスト"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1nCKqRzmP-d3padObGlogo83IrJciqmhM"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/テキスト一枚化っぽい.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/テキスト一枚化っぽい.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.3",
+        "release_date": "2025-12-01",
+        "file": [
+          {
+            "path": "{scriptsDir}/テキスト一枚化っぽい.anm2",
+            "XXH3_128": "511c18fb9925da7fc20dce482aa86186"
+          }
+        ]
+      }
+    ]
   }
 ]
