@@ -7115,11 +7115,11 @@
     ]
   },
   {
-    "id": "Rhapthorne_0.BlockGlitch_Rh",
+    "id": "Rhapthorne.BlockGlitch_Rh",
     "name": "BlockGlitch_Rh",
     "type": "スクリプト",
     "summary": "ブロック状にずれるグリッチエフェクト",
-    "description": "./md/Rhapthorne_0.BlockGlitch_Rh.md",
+    "description": "./md/Rhapthorne.BlockGlitch_Rh.md",
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/2000355120782164458",
     "latest-version": "v1.0.0",
@@ -7178,11 +7178,11 @@
     ]
   },
   {
-    "id": "Rhapthorne_0.RadialRaster_Rh",
+    "id": "Rhapthorne.RadialRaster_Rh",
     "name": "放射ラスター_Rh",
     "type": "スクリプト",
     "summary": "画像などを放射状に変形するエフェクト",
-    "description": "./md/Rhapthorne_0.RadialRaster_Rh.md",
+    "description": "./md/Rhapthorne.RadialRaster_Rh.md",
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/2009429917847658676",
     "latest-version": "v1.0.0",
