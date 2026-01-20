@@ -7056,7 +7056,7 @@
     "summary": "転送可能なフレームバッファ",
     "description": "./md/zopty.DokodemoBuffer.md",
     "author": "zopty",
-    "repoURL": "",
+    "repoURL": "https://github.com/zopty/DokodemoBuffer",
     "latest-version": "v1.0.0",
     "popularity": 4,
     "trend": 9,
@@ -7082,7 +7082,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://github.com/zopty/DokodemoBuffer/blob/main/%40%E3%81%A9%E3%81%93%E3%81%A7%E3%82%82%E3%83%90%E3%83%83%E3%83%95%E3%82%A1.obj2"
+        "direct": "https://raw.githubusercontent.com/zopty/DokodemoBuffer/refs/heads/main/%40%E3%81%A9%E3%81%93%E3%81%A7%E3%82%82%E3%83%90%E3%83%83%E3%83%95%E3%82%A1.obj2"
       },
       "install": [
         {
@@ -7141,7 +7141,7 @@
     "installer": {
       "source": {
         "GoogleDrive": {
-          "id": "1-bRId887yGiUjTn_sibjmrj9JfiBw6eU"
+          "id": "1ncGkPeVxX7Syh-_DIZQJFxsDRTkqb9C5"
         }
       },
       "install": [
@@ -7149,11 +7149,8 @@
           "action": "download"
         },
         {
-          "action": "extract"
-        },
-        {
           "action": "copy",
-          "from": "{tmp}/AviUtlスクリプト/BlockGlitch_Rh.anm2",
+          "from": "{tmp}/BlockGlitch_Rh.anm2",
           "to": "{scriptsDir}"
         }
       ],
@@ -7204,7 +7201,7 @@
     "installer": {
       "source": {
         "GoogleDrive": {
-          "id": "1-bRId887yGiUjTn_sibjmrj9JfiBw6eU"
+          "id": "1bGkU0meijOofi-ZXuxw1JkU00ajraRmY"
         }
       },
       "install": [
@@ -7212,11 +7209,8 @@
           "action": "download"
         },
         {
-          "action": "extract"
-        },
-        {
           "action": "copy",
-          "from": "{tmp}/AviUtlスクリプト/放射ラスター_Rh.anm2",
+          "from": "{tmp}/放射ラスター_Rh.anm2",
           "to": "{scriptsDir}"
         }
       ],
@@ -7263,7 +7257,7 @@
     "installer": {
       "source": {
         "GoogleDrive": {
-          "id": "1-bRId887yGiUjTn_sibjmrj9JfiBw6eU"
+          "id": "1SfqfsWrvtevmnqnq5xpiatlKneRj9BjM"
         }
       },
       "install": [
@@ -7271,11 +7265,8 @@
           "action": "download"
         },
         {
-          "action": "extract"
-        },
-        {
           "action": "copy",
-          "from": "{tmp}/AviUtlスクリプト/Textスキン.anm2",
+          "from": "{tmp}/Textスキン.anm2",
           "to": "{scriptsDir}"
         }
       ],
