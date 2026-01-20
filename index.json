@@ -7109,5 +7109,61 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Rhapthorne_0.TextSkin",
+    "name": "Textスキン",
+    "type": "スクリプト",
+    "summary": "テキストを図形/画像/動画に置き換えます。",
+    "description": "./md/Rhapthorne_0.TextSkin.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1967755313521512906",
+    "latest-version": "v1.0.0",
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1SfqfsWrvtevmnqnq5xpiatlKneRj9BjM"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{download}/Textスキン.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Textスキン.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-01-20",
+        "file": [
+          {
+            "path": "{scriptsDir}/Textスキン.anm2",
+            "XXH3_128": "486329aca02c9efc322451830e1a802c"
+          }
+        ]
+      }
+    ]
   }
 ]
