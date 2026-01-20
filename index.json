@@ -7464,5 +7464,63 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Rhapthorne_0.SolidColorMosaic",
+    "name": "単色不透明化+モザイク",
+    "type": "スクリプト",
+    "summary": "モザイク後不透明な部分を指定色で塗りつぶすスクリプト",
+    "description": "./md/Rhapthorne_0.SolidColorMosaic.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1971988664227172734",
+    "latest-version": "v1.0.0",
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "モザイク"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1csIQOG5px9maGEikEXi1qb95st4GlvXi"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/単色不透明化+モザイク.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/単色不透明化+モザイク.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2025-09-28",
+        "file": [
+          {
+            "path": "{scriptsDir}/単色不透明化+モザイク.anm2",
+            "XXH3_128": "b1147940fbd50c46dd174c23d8c6c3e6"
+          }
+        ]
+      }
+    ]
   }
 ]
