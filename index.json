@@ -7406,5 +7406,63 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Rhapthorne_0.TextAutoWrap",
+    "name": "テキスト自動改行",
+    "type": "スクリプト",
+    "summary": "テキストを自動改行するスクリプト",
+    "description": "./md/Rhapthorne_0.TextAutoWrap.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1971818367167483937",
+    "latest-version": "v1.0.0",
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "テキスト"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1LOTIAnsobDjh8fGMRiqMn7XGGUFOKQRc"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/テキスト自動改行.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/テキスト自動改行.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2025-09-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/テキスト自動改行.anm2",
+            "XXH3_128": "1f2d0a5301c8e88c7c2336828f30e4d0"
+          }
+        ]
+      }
+    ]
   }
 ]
