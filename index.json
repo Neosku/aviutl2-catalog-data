@@ -7807,5 +7807,67 @@
         ]
       }
     ]
+  },
+  {
+    "id": "teruyoshii.pathGradation",
+    "name": "パスグラデーション",
+    "type": "スクリプト",
+    "summary": "パスでグラデーションを掛けられるスクリプト",
+    "description": "./md/teruyoshii.pathGradation.md",
+    "author": "てるよし",
+    "repoURL": "https://github.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/blob/main/%E3%83%91%E3%82%B9%E3%82%B0%E3%83%A9%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.anm2",
+    "latest-version": "v1.1",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "teruyoshi"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "グラデーション"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/refs/heads/main/%E3%83%91%E3%82%B9%E3%82%B0%E3%83%A9%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/パスグラデーション.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/パスグラデーション.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.1",
+        "release_date": "2025-10-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/パスグラデーション.anm2",
+            "XXH3_128": "5b63276a9ceffc406a505b466e01fa0d"
+          }
+        ]
+      }
+    ]
   }
 ]
