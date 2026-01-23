@@ -7827,10 +7827,10 @@
     ]
   },
   {
-    "id": "shyachi.AviUtl2_SrtImporter",
-    "name": "AviUtl2_SrtImporter",
+    "id": "shyachi.SrtImporter",
+    "name": "SrtImporter",
     "type": "入力プラグイン",
-    "summary": "SRT字幕ファイルをインポート",
+    "summary": "SRT字幕ファイルをインポートするプラグイン",
     "description": "./md/shyachi.AviUtl2_SrtImporter.md",
     "author": "shyachi",
     "repoURL": "https://github.com/shyachi/AviUtl2_SrtImporter",
@@ -7858,7 +7858,7 @@
         "github": {
           "owner": "shyachi",
           "repo": "AviUtl2_SrtImporter",
-          "pattern": "SrtImporter\\\\.aux2"
+          "pattern": "SrtImporter\\.aux2"
         }
       },
       "install": [
@@ -7868,7 +7868,7 @@
         {
           "action": "copy",
           "from": "{tmp}/SrtImporter.aux2",
-          "to": "{pluginsDir}/SrtImporter.aux2"
+          "to": "{pluginsDir}"
         }
       ],
       "uninstall": [
