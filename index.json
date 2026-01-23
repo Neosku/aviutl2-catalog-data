@@ -7900,5 +7900,77 @@
         ]
       }
     ]
+  },
+  {
+    "id": "hebiiro.al2_preset_adder",
+    "name": "AviUtl2プリセット追加MOD",
+    "type": "汎用プラグイン",
+    "summary": "一部のダイアログにプリセットを追加するプラグイン",
+    "description": "https://raw.githubusercontent.com/hebiiro/al2_preset_adder/refs/heads/master/README.md",
+    "author": "hebiiro",
+    "repoURL": "https://github.com/hebiiro/al2_preset_adder",
+    "latest-version": "r1",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "hebiiro"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "UI"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "hebiiro",
+          "repo": "al2_preset_adder",
+          "pattern": "^al2_preset_adder.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2_preset_adder.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/assets/al2_preset_adder"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r1",
+        "release_date": "2026-01-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_preset_adder.aux2",
+            "XXH3_128": "15f1f9a96b2a35f7658a7b318e5accb5"
+          }
+        ]
+      }
+    ]
   }
 ]
