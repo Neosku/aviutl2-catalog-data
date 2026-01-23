@@ -7825,5 +7825,70 @@
         ]
       }
     ]
+  },
+  {
+    "id": "shyachi.SrtImporter",
+    "name": "SrtImporter",
+    "type": "入力プラグイン",
+    "summary": "SRT字幕ファイルをインポートするプラグイン",
+    "description": "./md/shyachi.AviUtl2_SrtImporter.md",
+    "author": "shyachi",
+    "repoURL": "https://github.com/shyachi/AviUtl2_SrtImporter",
+    "latest-version": "v0.10",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "shyachi"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "テキスト"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "shyachi",
+          "repo": "AviUtl2_SrtImporter",
+          "pattern": "SrtImporter\\.aux2"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SrtImporter.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SrtImporter.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.10",
+        "release_date": "2025-12-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/SrtImporter.aux2",
+            "XXH3_128": "285d82c160d8cc54eb491841f0bb4f43"
+          }
+        ]
+      }
+    ]
   }
 ]
