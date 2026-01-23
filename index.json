@@ -437,14 +437,24 @@
     "id": "hebiiro.al2_jd",
     "name": "ダークモード化MOD",
     "type": "入力プラグイン",
-    "summary": "aviutl2を完全にダークモード化することを目的としたMODです。",
-    "description": "AviUtl2のUIをダークモードに変更するプラグインです。",
+    "summary": "AviUtl2を完全にダークモード化するプラグイン",
+    "description": "https://raw.githubusercontent.com/hebiiro/al2_jd/refs/heads/master/README.md",
     "author": "hebiiro",
     "repoURL": "https://github.com/hebiiro/al2_jd/",
     "latest-version": "r29",
-    "popularity": 119,
-    "trend": 38,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2015",
+            "holder": "hebiiro"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "UI",
       "ダークモード化"
@@ -483,7 +493,7 @@
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2"
+          "path": "{pluginsDir}/al2/assets/al2_jd.json"
         }
       ]
     },
@@ -778,7 +788,9 @@
           }
         ]
       }
-    ]
+    ],
+    "popularity": 119,
+    "trend": 38
   },
   {
     "id": "hebiiro.al2_wav_saver",
