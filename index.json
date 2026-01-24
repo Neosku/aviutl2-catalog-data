@@ -4,13 +4,21 @@
     "name": "AviUtlExEdit2",
     "type": "本体",
     "summary": "AviUtl2本体です。",
-    "description": "AVIファイルに各種フィルタをかけるツールです。簡単な動画編集や各種codecを使って圧縮しながら出力することも出来ます。WinXP、Win7等で動作すると思います。MMXが使えるCPUが必要です。",
+    "description": "./md/Kenkun.AviUtlExEdit2.md",
     "author": "Kenkun",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
     "latest-version": "beta29",
     "popularity": 155,
     "trend": 106,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "本プログラムはフリーソフトです。\n本プログラムの使用によって何らかの障害が発生した場合でも、\n作者は一切の責任を負わないものとします。\n\nプラグインやスクリプト等の外部ファイルも自己責任で使用してください。\n※外部プログラムにはマルウェア等が含まれるリスクがあるので注意が必要です。\n\n本プログラムは商用を目的とした業務でも使用できます。\n本プログラム以外(素材・拡張機能等)はそちらの利用規約を確認ください。\nプログラムファイルの不特定多数への再配布はご遠慮ください。"
+      }
+    ],
+    "niconiCommonsId": "nc422952",
     "tags": [
       "必須"
     ],
@@ -32,7 +40,8 @@
             "/SP-",
             "/SUPPRESSMSGBOXES",
             "/DIR=\"{appDir}\"",
-            "/MERGETASKS=\"desktopicon,associatefile\""
+            "/MERGETASKS=\"desktopicon",
+            "associatefile\""
           ],
           "elevate": true
         }
