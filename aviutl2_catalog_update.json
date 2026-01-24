@@ -1,11 +1,11 @@
 {
-  "version": "0.3.0",
-  "notes": "## 新機能\n- UIを全面的に再設計し、デザインを刷新\n- 人気順で表示する機能を追加\n- BOOTHで配布されているパッケージを導入する機能を追加\n- パッケージ一覧のエクスポート／インポート機能を追加\n- AviUtl2 を起動できるボタンを追加\n\n## 修正\n- カスタムライセンス名を指定できない問題を修正\n- CC0 1.0 のライセンステンプレートを追加",
-  "pub_date": "2026-01-10T08:35:36Z",
+  "version": "0.3.1",
+  "notes": "## 新機能\n・DeepLink への対応による外部リンクからのアプリ起動機能の追加\n・ニコニ・コモンズIDの登録およびコピー機能の追加\n・パッケージ登録画面におけるインストーラーテスト機能の追加\n・パッケージ登録時の詳細説明における外部 Markdown リンク指定への対応\n\n## 修正・改善\n・画像プレビューが表示されない不具合の修正\n・一覧画面復帰時における検索クエリ復元に対応\n・表示順に「新着順」「トレンド順」の追加\n・デザインの調整および依存関係の更新",
+  "pub_date": "2026-01-24T07:38:04Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/Neosku/aviutl2-catalog/releases/download/v0.3.0/AviUtl2_Catalog_0.3.0_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSHJDVDJYS1dEM1BWREFEUEJPc05iRWhvN0k1dVlHeVNndTFDelRDelFob1RIM3RpT0M4T2VmMUJhcWtNNUMyeTl3NjRwKzlWU0hSU0hXWGNCNi85TG0rOUNlWEwramc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY4MDMzNzczCWZpbGU6QXZpVXRsMiDjgqvjgr/jg63jgrBfMC4zLjBfeDY0LXNldHVwLmV4ZQpZRDRjUVZEZ3V4Vm1sWFZXZUpGSG9TOTlzK0ViL1lXa3pmU2tFL0J4b25HSzYxT1NxMlo4d0laNzBCeHlZeG1sTHg0S0hpcHJYb1RYVTZKUHBFM0REdz09Cg=="
+      "url": "https://github.com/Neosku/aviutl2-catalog/releases/download/v0.3.1/AviUtl2_Catalog_0.3.1_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSHJDVDJYS1dEM00veHNqSUQ3VlVLSk9TblFXMHJIRW00K3lKaG5iREN3SkV4cWVEZ01yQW5NbWtzWkNTZlNmYkdjNGl0N0w4b2x6VmdjQjMwcWdPekNJdWpHWGdaTmcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY5MjM3MDUwCWZpbGU6QXZpVXRsMiDjgqvjgr/jg63jgrBfMC4zLjFfeDY0LXNldHVwLmV4ZQpUbWJLUWZGQjMwcitRaHJ1STRvZFp2ejJTNWhhTC9PQmZVcmxlRjZtR25VLzdKaWY1SUVIVSthZGVaaytBOU5RRmFEdnAzU2hLZDcvNmZBOVR4M3pCZz09Cg=="
     }
   }
 }
