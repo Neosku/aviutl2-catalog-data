@@ -3549,26 +3549,41 @@
     "name": "twinkle_sl",
     "type": "スクリプト",
     "summary": "✨を作れるカスタムオブジェクト",
-    "description": "./md/seilor0.twinkle_sl.md",
+    "description": "https://raw.githubusercontent.com/seilor0/twinkle_sl/refs/heads/main/README.md",
     "author": "セイル",
-    "repoURL": "https://github.com/seilor0/AviUtl2-scripts/tree/main/twinkle_sl",
-    "latest-version": "v1.1",
+    "repoURL": "https://github.com/seilor0/twinkle_sl",
+    "latest-version": "v1.2",
     "popularity": 56,
     "trend": 28,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "seilor0"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "図形"
     ],
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/seilor0.twinkleSl_thumbnail.png",
-        "infoImg": []
+        "thumbnail": "./image/seilor0.twinkleSl_thumbnail.png"
       }
     ],
     "installer": {
       "source": {
-        "direct": "https://raw.githubusercontent.com/seilor0/AviUtl2-scripts/refs/heads/main/twinkle_sl/%40twinkle_sl.obj2"
+        "github": {
+          "owner": "seilor0",
+          "repo": "twinkle_sl",
+          "pattern": "^@twinkle_sl\\.obj2$"
+        }
       },
       "install": [
         {
@@ -3605,6 +3620,16 @@
           {
             "path": "{scriptsDir}/@twinkle_sl.obj2",
             "XXH3_128": "aa7268342942fd8a83257be92978c55b"
+          }
+        ]
+      },
+      {
+        "version": "v1.2",
+        "release_date": "2026-01-25",
+        "file": [
+          {
+            "path": "{scriptsDir}/@twinkle_sl.obj2",
+            "XXH3_128": "1c1f252f36abb505a21b6a9e77a358e7"
           }
         ]
       }
