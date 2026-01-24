@@ -3,9 +3,9 @@
     "id": "Kenkun.AviUtlExEdit2",
     "name": "AviUtlExEdit2",
     "type": "本体",
-    "summary": "AviUtl2本体です。",
+    "summary": "AviUtl2本体",
     "description": "./md/Kenkun.AviUtlExEdit2.md",
-    "author": "Kenkun",
+    "author": "Kenくん",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
     "latest-version": "beta29",
     "popularity": 155,
@@ -23,7 +23,11 @@
       "必須"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/Kenkun.AviUtlExEdit2_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta29_setup.exe"
