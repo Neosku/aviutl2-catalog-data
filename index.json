@@ -8072,5 +8072,64 @@
         ]
       }
     ]
+  },
+  {
+    "id": "ar-ca-na.connection_line",
+    "name": "connection_line",
+    "type": "スクリプト",
+    "summary": "指定した2つのオブジェクトの中心を実線または点線で繋ぐスクリプト",
+    "description": "https://raw.githubusercontent.com/ar-ca-na/connection_line/refs/heads/main/readme.md",
+    "author": "arcana",
+    "repoURL": "https://github.com/ar-ca-na/connection_line/",
+    "latest-version": "2025-10-27",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "arcana"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/ar-ca-na/connection_line/refs/heads/main/%E9%80%A3%E7%B5%90%E3%83%A9%E3%82%A4%E3%83%B3.obj2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/連結ライン.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/連結ライン.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025-10-27",
+        "release_date": "2025-10-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/連結ライン.obj2",
+            "XXH3_128": "4da7af8e7ad1e271c8150df1f06a3e3d"
+          }
+        ]
+      }
+    ]
   }
 ]
