@@ -1,7 +1,7 @@
 [
   {
     "id": "Kenkun.AviUtlExEdit2",
-    "latest-version": "beta29",
+    "latest-version": "beta30",
     "checkType": {
       "type": "URL",
       "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
@@ -285,7 +285,7 @@
   },
   {
     "id": "sigma-axis.Basic_S",
-    "latest-version": "v1.76-for-beta28a",
+    "latest-version": "v1.80-for-beta29",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_Basic_S",
