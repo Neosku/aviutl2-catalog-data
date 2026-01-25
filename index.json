@@ -3600,7 +3600,7 @@
     "description": "https://raw.githubusercontent.com/seilor0/twinkle_sl/refs/heads/main/README.md",
     "author": "セイル",
     "repoURL": "https://github.com/seilor0/twinkle_sl",
-    "latest-version": "v1.2",
+    "latest-version": "v1.2.1",
     "popularity": 57,
     "trend": 25,
     "licenses": [
@@ -3678,6 +3678,16 @@
           {
             "path": "{scriptsDir}/@twinkle_sl.obj2",
             "XXH3_128": "1c1f252f36abb505a21b6a9e77a358e7"
+          }
+        ]
+      },
+      {
+        "version": "v1.2.1",
+        "release_date": "2026-01-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/@twinkle_sl.obj2",
+            "XXH3_128": "7ba9bf8b116ad236250ff6c697deb826"
           }
         ]
       }
