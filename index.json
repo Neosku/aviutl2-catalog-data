@@ -3493,30 +3493,48 @@
     "name": "角丸正多角形_sl",
     "type": "スクリプト",
     "summary": "角丸や星形にもできる正多角形のカスタムオブジェクト",
-    "description": "./md/seilor0.roundedPolygonSl.md",
+    "description": "https://raw.githubusercontent.com/seilor0/roundedPolygon_sl/refs/heads/main/README.md",
     "author": "セイル",
-    "repoURL": "https://github.com/seilor0/AviUtl2-scripts/tree/main/角丸正多角形_sl",
-    "latest-version": "v1.1",
+    "repoURL": "https://github.com/seilor0/roundedPolygon_sl",
+    "latest-version": "v1.2",
     "popularity": 55,
-    "trend": 25,
-    "license": "MIT",
+    "trend": 28,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "seilor0"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "図形"
     ],
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/seilor0.roundedPolygonSl_thumbnail.png",
-        "infoImg": []
+        "thumbnail": "./image/seilor0.roundedPolygonSl_thumbnail.png"
       }
     ],
     "installer": {
       "source": {
-        "direct": "https://raw.githubusercontent.com/seilor0/AviUtl2-scripts/main/%E8%A7%92%E4%B8%B8%E6%AD%A3%E5%A4%9A%E8%A7%92%E5%BD%A2_sl/%E8%A7%92%E4%B8%B8%E6%AD%A3%E5%A4%9A%E8%A7%92%E5%BD%A2_sl.obj2"
+        "github": {
+          "owner": "seilor0",
+          "repo": "roundedPolygon_sl",
+          "pattern": "^roundedPolygon_sl\\.zip$"
+        }
       },
       "install": [
         {
           "action": "download"
+        },
+        {
+          "action": "extract"
         },
         {
           "action": "copy",
@@ -3549,6 +3567,16 @@
           {
             "path": "{scriptsDir}/角丸正多角形_sl.obj2",
             "XXH3_128": "8003336754162319a76f362a11bf3fed"
+          }
+        ]
+      },
+      {
+        "version": "v1.2",
+        "release_date": "2026-01-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/角丸正多角形_sl.obj2",
+            "XXH3_128": "fbe9e8b5bb9bd03a343e91c667ba04b4"
           }
         ]
       }
