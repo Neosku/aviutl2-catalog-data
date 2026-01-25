@@ -3990,7 +3990,7 @@
     "description": "./md/sigma-axis.Basic_S.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Basic_S",
-    "latest-version": "v1.76-for-beta28a",
+    "latest-version": "v1.80-for-beta29",
     "popularity": 100,
     "trend": 88,
     "license": "MIT",
@@ -4188,6 +4188,16 @@
           {
             "path": "{scriptsDir}/@Basic_S.anm2",
             "XXH3_128": "b44fec0773671379c2728c6fda31d889"
+          }
+        ]
+      },
+      {
+        "version": "v1.80-for-beta29",
+        "release_date": "2026-01-25",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Basic_S.anm2",
+            "XXH3_128": "3398ed84646e57352f850bb1aa27808c"
           }
         ]
       }
