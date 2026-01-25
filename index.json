@@ -2643,6 +2643,16 @@
             "XXH3_128": "918dd44ada6328b2563639bee61d3e85"
           }
         ]
+      },
+      {
+        "version": "r1261",
+        "release_date": "2026-01-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "c422a41debd07ba04cbe79a558c03d84"
+          }
+        ]
       }
     ]
   },
@@ -6269,7 +6279,6 @@
         "licenseBody": null
       }
     ],
-    "niconiCommonsId": "sm32904901",
     "tags": [
       "PSD"
     ],
