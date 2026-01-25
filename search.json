@@ -844,7 +844,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_tl_walkaround2",
-      "regex": "^aviutl2_tl_walkaround2.*\\\\.zip$",
+      "regex": "^aviutl2_tl_walkaround2.*\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -853,6 +853,103 @@
           ],
           "recordPaths": [
             "{pluginsDir}/tl_walkaround2.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "shyachi.SrtImporter",
+    "latest-version": "v0.10",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "shyachi/AviUtl2_SrtImporter",
+      "regex": "SrtImporter\\.aux2",
+      "hash-calc": [
+        {
+          "paths": [
+            "SrtImporter.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SrtImporter.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebiiro.al2_preset_adder",
+    "latest-version": "r1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_preset_adder",
+      "regex": "^al2_preset_adder.*\\.zip$",
+      "hash-calc": [
+        {
+          "paths": [
+            "Plugin/al2_preset_adder.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2_preset_adder.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.WhiteBalance_S",
+    "latest-version": "v1.00-for-beta29",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_WhiteBalance_S",
+      "regex": "^aviutl2_script_WhiteBalance_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "AviUtl2/@WhiteBalance_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@WhiteBalance_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "seilor0.roundedPolygonSl",
+    "latest-version": "v1.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "seilor0/roundedPolygon_sl",
+      "regex": "^roundedPolygon_sl\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "角丸正多角形_sl.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/角丸正多角形_sl.obj2"
+          ]
+        }
+      ]
+    }
+  },
+      {
+    "id": "seilor0.twinkle_sl",
+    "latest-version": "v1.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "seilor0/twinkle_sl",
+      "regex": "^@twinkle_sl\\.obj2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "@twinkle_sl.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@twinkle_sl.obj2"
           ]
         }
       ]

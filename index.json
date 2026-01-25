@@ -8120,7 +8120,7 @@
         "github": {
           "owner": "sigma-axis",
           "repo": "aviutl2_script_WhiteBalance_S",
-          "pattern": "^aviutl2_script_WhiteBalance_S.*\\\\.zip$"
+          "pattern": "^aviutl2_script_WhiteBalance_S.*\\.zip$"
         }
       },
       "install": [
