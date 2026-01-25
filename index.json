@@ -4730,7 +4730,20 @@
     "latest-version": "v1.11-for-beta25",
     "popularity": 49,
     "trend": 17,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "sigma-axis"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "sm45220623",
     "tags": [
       "画質",
       "変形"
