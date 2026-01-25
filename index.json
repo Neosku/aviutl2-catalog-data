@@ -954,7 +954,11 @@
       "エンコード"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/rigaya.x264guiEx_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
