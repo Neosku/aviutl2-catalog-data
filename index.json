@@ -4084,14 +4084,27 @@
     "id": "sigma-axis.Basic_S",
     "name": "Basic_S",
     "type": "スクリプト",
-    "summary": "汎用的な基本効果や基本図形などをまとめたスクリプト集．丸角矩形生成や回転操作の補助，傾斜変形など，標準では備わっていない基本的な効果を揃えています．",
+    "summary": "汎用的な基本効果や基本図形などをまとめたスクリプト集",
     "description": "./md/sigma-axis.Basic_S.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Basic_S",
     "latest-version": "v1.80-for-beta29",
     "popularity": 104,
     "trend": 90,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "sigma-axis"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "sm45523651",
     "tags": [
       "図形",
       "変形",
