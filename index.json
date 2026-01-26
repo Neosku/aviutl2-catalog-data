@@ -5296,7 +5296,7 @@
     "description": "./md/sigma-axis.Histogram_S.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Histogram_S",
-    "latest-version": "v1.00-for-beta22a",
+    "latest-version": "v1.10-for-beta30a",
     "popularity": 32,
     "trend": 9,
     "license": "MIT",
@@ -5346,6 +5346,16 @@
           {
             "path": "{scriptsDir}/Histogram_S.obj2",
             "XXH3_128": "12bd03db6bf5b61e480b2fb0753b15ed"
+          }
+        ]
+      },
+      {
+        "version": "v1.10-for-beta30a",
+        "release_date": "2026-01-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/Histogram_S.obj2",
+            "XXH3_128": "13df0c29749ad220814605bdeb10b0b4"
           }
         ]
       }
