@@ -8094,7 +8094,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_preset_adder/refs/heads/master/README.md",
     "author": "hebiiro",
     "repoURL": "https://github.com/hebiiro/al2_preset_adder",
-    "latest-version": "r1",
+    "latest-version": "r2",
     "popularity": 12,
     "trend": 9,
     "licenses": [
@@ -8155,6 +8155,16 @@
           {
             "path": "{pluginsDir}/al2_preset_adder.aux2",
             "XXH3_128": "15f1f9a96b2a35f7658a7b318e5accb5"
+          }
+        ]
+      },
+      {
+        "version": "r2",
+        "release_date": "2026-01-26",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_preset_adder.aux2",
+            "XXH3_128": "a11bdbe8cf1a2c87c26923df6b1105c2"
           }
         ]
       }
