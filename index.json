@@ -8098,11 +8098,11 @@
   },
   {
     "id": "hebiiro.al2_preset_adder",
-    "name": "AviUtl2プリセット追加MOD",
+    "name": "プリセット追加MOD",
     "type": "汎用プラグイン",
     "summary": "一部のダイアログにプリセットを追加するプラグイン",
     "description": "https://raw.githubusercontent.com/hebiiro/al2_preset_adder/refs/heads/master/README.md",
-    "author": "hebiiro",
+    "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_preset_adder",
     "latest-version": "r2",
     "popularity": 12,
