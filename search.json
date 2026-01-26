@@ -884,16 +884,7 @@
       "type": "GitHub",
       "repo": "hebiiro/al2_preset_adder",
       "regex": "^al2_preset_adder.*\\.zip$",
-      "hash-calc": [
-        {
-          "paths": [
-            "Plugin/al2_preset_adder.aux2"
-          ],
-          "recordPaths": [
-            "{pluginsDir}/al2_preset_adder.aux2"
-          ]
-        }
-      ]
+      "hash-calc": []
     }
   },
   {

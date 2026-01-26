@@ -8141,15 +8141,24 @@
           "action": "extract"
         },
         {
+          "action": "extract",
+          "from": "{tmp}/al2_preset_adder.au2pkg.zip",
+          "to": "{tmp}/al2_preset_adder"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/Plugin",
-          "to": "{pluginsDir}"
+          "from": "{tmp}/al2_preset_adder",
+          "to": "{dataDir}"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/al2_preset_adder.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/al2_preset_adder.aux2"
         },
         {
           "action": "delete",
@@ -8173,8 +8182,8 @@
         "release_date": "2026-01-26",
         "file": [
           {
-            "path": "{pluginsDir}/al2_preset_adder.aux2",
-            "XXH3_128": "a11bdbe8cf1a2c87c26923df6b1105c2"
+            "path": "{pluginsDir}/al2/al2_preset_adder.aux2",
+            "XXH3_128": "89f784ad8649cb8a38e03cf265833ba4"
           }
         ]
       }
