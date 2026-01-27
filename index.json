@@ -8391,5 +8391,65 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Rhapthorne_0.lineGlitch_Rh",
+    "name": "LineGlitch_Rh",
+    "type": "スクリプト",
+    "summary": "帯状に画面をランダムずらし色ズレも出すグリッチスクリプト",
+    "description": "./md/Rhapthorne_0.lineGlitch_Rh.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1992790280186011754",
+    "latest-version": "v1.0.1",
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "グリッチ",
+      "ノイズ",
+      "色ずれ"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1d5pSbg5QgUa99ho40I1t4kzaD4FnVTA2"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/LineGlitch_Rh.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/LineGlitch_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.1",
+        "release_date": "2025-12-01",
+        "file": [
+          {
+            "path": "{scriptsDir}/LineGlitch_Rh.anm2",
+            "XXH3_128": "a65982420facddd82f47f8b86ef779c4"
+          }
+        ]
+      }
+    ]
   }
 ]
