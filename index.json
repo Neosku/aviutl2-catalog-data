@@ -8451,5 +8451,66 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Rhapthorne_0.anchorControl_Rh",
+    "name": "個別アンカー操作_Rh",
+    "type": "スクリプト",
+    "summary": "アンカーを用いて文字ごとの移動・回転・拡大を直感操作できるスクリプト",
+    "description": "./md/Rhapthorne_0.anchorControl_Rh.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1996544042973409715",
+    "latest-version": "v1.0.0",
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "アニメーション",
+      "移動",
+      "回転",
+      "テキスト"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1Rm0L0W5Nm2gQXDZCZy-ypqTVPkx1-tqw"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/個別アンカー操作_Rh.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/個別アンカー操作_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2025-12-04",
+        "file": [
+          {
+            "path": "{scriptsDir}/個別アンカー操作_Rh.anm2",
+            "XXH3_128": "3e39a1e53b68d54f4d0da8d8d89ba3a7"
+          }
+        ]
+      }
+    ]
   }
 ]
