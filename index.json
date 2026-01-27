@@ -8512,5 +8512,92 @@
         ]
       }
     ]
+  },
+  {
+    "id": "hebiiro.al2_visual_font",
+    "name": "フォント視覚化MOD",
+    "type": "汎用プラグイン",
+    "summary": "フォントを選ぶ際にプレビューを表示するプラグイン",
+    "description": "https://raw.githubusercontent.com/hebiiro/al2_visual_font/refs/heads/master/README.md",
+    "author": "蛇色",
+    "repoURL": "https://github.com/hebiiro/al2_visual_font",
+    "latest-version": "r2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "hebiiro"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "UI"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "hebiiro",
+          "repo": "al2_visual_font",
+          "pattern": "^al2_visual_font.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "extract",
+          "from": "{tmp}/al2_visual_font.au2pkg.zip",
+          "to": "{tmp}/al2_visual_font"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/al2_visual_font",
+          "to": "{dataDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/al2_visual_font.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/template.al2_visual_font.aul2"
+        }
+      ]
+    },
+"version": [
+      {
+        "version": "r1",
+        "release_date": "2026-01-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_visual_font.aux2",
+            "XXH3_128": "c1184243c942c5ed70e9b9652fcb150b"
+          }
+        ]
+      },
+      {
+        "version": "r2",
+        "release_date": "2026-01-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_visual_font.aux2",
+            "XXH3_128": "8db8ead9a746940f3b59e2eecbc086e3"
+          }
+        ]
+      }
+    ]
   }
 ]
