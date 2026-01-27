@@ -8333,13 +8333,13 @@
   },
   {
     "id": "Rhapthorne_0.roundCornerRh",
-    "name": "角丸補正_Rh",
+    "name": "LineGlitch_Rh",
     "type": "スクリプト",
-    "summary": "角を丸めるスクリプト",
-    "description": "./md/Rhapthorne_0.basicDelay.md",
+    "summary": "帯状に画面をランダムずらし色ズレも出すグリッチスクリプト",
+    "description": "./md/Rhapthorne_0.roundCornerRh.md",
     "author": "ラプソーン",
-    "repoURL": "https://x.com/Rhapthorne_0/status/1991423812328648848?s=20",
-    "latest-version": "v1.0.0",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1992790280186011754",
+    "latest-version": "v1.0.1",
     "popularity": 22,
     "trend": 18,
     "licenses": [
@@ -8351,15 +8351,16 @@
       }
     ],
     "tags": [
-      "図形",
-      "角丸"
+      "グリッチ",
+      "ノイズ",
+      "色ずれ"
     ],
     "dependencies": [],
     "images": [],
     "installer": {
       "source": {
         "GoogleDrive": {
-          "id": "1Zv3EYS1_iSbI4DapWeOxzCxRmulE5kKO"
+          "id": "1d5pSbg5QgUa99ho40I1t4kzaD4FnVTA2"
         }
       },
       "install": [
@@ -8368,25 +8369,25 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/角丸補正_Rh.anm2",
+          "from": "{tmp}/LineGlitch_Rh.anm2",
           "to": "{scriptsDir}"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{scriptsDir}/角丸補正_Rh.anm2"
+          "path": "{scriptsDir}/LineGlitch_Rh.anm2"
         }
       ]
     },
     "version": [
       {
-        "version": "v1.0.0",
-        "release_date": "2025-11-20",
+        "version": "v1.0.1",
+        "release_date": "2025-12-01",
         "file": [
           {
-            "path": "{scriptsDir}/角丸補正_Rh.anm2",
-            "XXH3_128": "0da8d6dc68e00c1ae1c400f8dc37faf1"
+            "path": "{scriptsDir}/LineGlitch_Rh.anm2",
+            "XXH3_128": "a65982420facddd82f47f8b86ef779c4"
           }
         ]
       }
