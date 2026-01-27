@@ -6680,7 +6680,7 @@
     "author": "Nao",
     "originalAuthor": "aoytsk様",
     "repoURL": "https://nao-kid.booth.pm/items/7791311",
-    "latest-version": "v2.2",
+    "latest-version": "v2.3",
     "popularity": 34,
     "trend": 31,
     "licenses": [
@@ -6705,7 +6705,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8293823?_gl=1*xetzj*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NjkxMjYyMjgkbzIzJGcxJHQxNzY5MTI2NTE1JGoxOSRsMCRoMA.."
+        "booth": "https://booth.pm/downloadables/8313531?_gl=1*bjlmpf*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3Njk1MTE0NDMkbzUkZzEkdDE3Njk1MTIxMzckajU0JGwwJGgw"
       },
       "install": [
         {
@@ -6716,7 +6716,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/v2.2/拡張ツールバー.aux2",
+          "from": "{tmp}/v2.3/拡張ツールバー.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -6775,6 +6775,16 @@
           {
             "path": "{pluginsDir}/拡張ツールバー.aux2",
             "XXH3_128": "365d644761e7491d780387f61d8d6f50"
+          }
+        ]
+      },
+      {
+        "version": "v2.3",
+        "release_date": "2026-01-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/拡張ツールバー.aux2",
+            "XXH3_128": "67ca0d1e5838f171e2390d1bac035189"
           }
         ]
       }
@@ -7841,13 +7851,13 @@
   },
   {
     "id": "Rhapthorne_0.basicDelay",
-    "name": "角丸補正_Rh",
+    "name": "基本効果(Delay)",
     "type": "スクリプト",
-    "summary": "角を丸めるスクリプト",
+    "summary": "基本効果をオブジェクトごとに時間差で適用するスクリプト",
     "description": "./md/Rhapthorne_0.basicDelay.md",
     "author": "ラプソーン",
-    "repoURL": "https://x.com/Rhapthorne_0/status/1991423812328648848?s=20",
-    "latest-version": "v1.0.0",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1978378817640018296",
+    "latest-version": "v1.0.1",
     "popularity": 22,
     "trend": 18,
     "licenses": [
@@ -7859,15 +7869,16 @@
       }
     ],
     "tags": [
-      "図形",
-      "角丸"
+      "ディレイ",
+      "テキスト",
+      "アニメーション"
     ],
     "dependencies": [],
     "images": [],
     "installer": {
       "source": {
         "GoogleDrive": {
-          "id": "1Zv3EYS1_iSbI4DapWeOxzCxRmulE5kKO"
+          "id": "1gfxWKrin6RWXz8FRt1Pd8JVM74FtCfvo"
         }
       },
       "install": [
@@ -7876,25 +7887,25 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/角丸補正_Rh.anm2",
+          "from": "{tmp}/基本効果(Delay).anm2",
           "to": "{scriptsDir}"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{scriptsDir}/角丸補正_Rh.anm2"
+          "path": "{scriptsDir}/基本効果(Delay).anm2"
         }
       ]
     },
     "version": [
       {
-        "version": "v1.0.0",
-        "release_date": "2025-11-20",
+        "version": "v1.0.1",
+        "release_date": "2025-12-01",
         "file": [
           {
-            "path": "{scriptsDir}/角丸補正_Rh.anm2",
-            "XXH3_128": "0da8d6dc68e00c1ae1c400f8dc37faf1"
+            "path": "{scriptsDir}/基本効果(Delay).anm2",
+            "XXH3_128": "acaa6a83289c5bd75a5f9366baaee2b6"
           }
         ]
       }
