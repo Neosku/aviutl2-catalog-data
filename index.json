@@ -3367,7 +3367,7 @@
     "description": "AviUtl ExEdit2で画像の見た目を変えるスクリプト群",
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_Stylize_K_Script",
-    "latest-version": "v1.2.0",
+    "latest-version": "v1.2.1",
     "popularity": 67,
     "trend": 20,
     "license": "MIT",
@@ -3439,6 +3439,16 @@
           {
             "path": "{scriptsDir}/@Stylize_K.anm2",
             "XXH3_128": "2f2af77784fda2835620c3a9bee2eeaa"
+          }
+        ]
+      },
+      {
+        "version": "v1.2.1",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Stylize_K.anm2",
+            "XXH3_128": "e8a961840190111b67f17151b7fd0370"
           }
         ]
       }
