@@ -549,15 +549,15 @@
     "checkType": {
       "type": "GitHub",
       "repo": "oov/aviutl2_gcmzdrops2",
-      "regex": "gcmzdrops.*\\.zip",
+      "regex": "^gcmzdrops.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
           "paths": [
-            "Plugin/GCMZDrops.aux2"
+            "Plugin/GCMZDrops/GCMZDrops.aux2"
           ],
           "recordPaths": [
-            "{pluginsDir}/GCMZDrops.aux2"
+            "{pluginsDir}/GCMZDrops/GCMZDrops.aux2"
           ]
         }
       ]

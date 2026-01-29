@@ -5490,7 +5490,7 @@
     "id": "oov.GCMZDrops2",
     "name": "GCMZDrops2",
     "type": "汎用プラグイン",
-    "summary": "ファイルドロップなどを拡張する汎用プラグインです",
+    "summary": "ファイルドロップを拡張するプラグイン（ごちゃまぜドロップス2）",
     "description": "./md/oov.GCMZDrops2.md",
     "author": "おおぶ",
     "repoURL": "https://github.com/oov/aviutl2_gcmzdrops2",
@@ -5513,7 +5513,7 @@
         "github": {
           "owner": "oov",
           "repo": "aviutl2_gcmzdrops2",
-          "pattern": "gcmzdrops_.*\\.zip"
+          "pattern": "^gcmzdrops_.*\\.exe$"
         }
       },
       "install": [
@@ -5521,15 +5521,26 @@
           "action": "download"
         },
         {
-          "action": "extract"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Plugin",
-          "to": "{pluginsDir}"
+          "action": "run",
+          "path": "{download}",
+          "args": [
+            "/VERYSILENT",
+            "/SP-",
+            "/SUPPRESSMSGBOXES",
+            "/DIR=\"{pluginsDir}\""
+          ],
+          "elevate": false
         }
       ],
       "uninstall": [
+        {
+          "action": "run",
+          "path": "{pluginsDir}/GCMZDrops/unins000.exe",
+          "args": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES"
+          ]
+        },
         {
           "action": "delete",
           "path": "{pluginsDir}/GCMZDrops.aux2"
@@ -5686,8 +5697,8 @@
         "release_date": "2026-01-29",
         "file": [
           {
-            "path": "{pluginsDir}/GCMZDrops.aux2",
-            "XXH3_128": ""
+            "path": "{pluginsDir}/GCMZDrops/GCMZDrops.aux2",
+            "XXH3_128": "dbbb682b21fb63b776064d1501243eb5"
           }
         ]
       }
