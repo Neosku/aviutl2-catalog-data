@@ -8577,7 +8577,7 @@
         }
       ]
     },
-"version": [
+    "version": [
       {
         "version": "r1",
         "release_date": "2026-01-25",
@@ -8595,6 +8595,922 @@
           {
             "path": "{pluginsDir}/al2/al2_visual_font.aux2",
             "XXH3_128": "8db8ead9a746940f3b59e2eecbc086e3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_binaural",
+    "name": "Rusty Binaural Filter",
+    "type": "フィルタプラグイン",
+    "summary": "バイノーラルな感じの音を再現できるプラグイン",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/binaural-filter/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
+    "latest-version": "0.12.2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Nanashi. <sevenc7c.com>"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "音声",
+      "エフェクト"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "aviutl2-rs",
+          "pattern": "^rusty_binaural.auf2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/rusty_binaural.auf2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/rusty_binaural.auf2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.12.2",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_binaural.auf2",
+            "XXH3_128": "5f64839b98e7b6c999011a9449a746e0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_chiptune",
+    "name": "Rusty Chiptune Filter",
+    "type": "フィルタプラグイン",
+    "summary": "チップチューンで使われるような音を実装するプラグイン",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/chiptune-filter/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
+    "latest-version": "0.12.2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Nanashi. <sevenc7c.com>"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "音声",
+      "エフェクト"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "aviutl2-rs",
+          "pattern": "^rusty_chiptune.auf2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/rusty_chiptune.auf2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/rusty_chiptune.auf2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.12.2",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_chiptune.auf2",
+            "XXH3_128": "4014e3039b45cd5942e22a5d27162959"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_equalizer",
+    "name": "Rusty Equalizer Filter",
+    "type": "フィルタプラグイン",
+    "summary": "イコライザーを実装するプラグイン",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/equalizer-filter/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
+    "latest-version": "0.12.2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Nanashi. <sevenc7c.com>"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "音声",
+      "エフェクト"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "aviutl2-rs",
+          "pattern": "^rusty_equalizer.auf2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/rusty_equalizer.auf2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/rusty_equalizer.auf2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.12.2",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_equalizer.auf2",
+            "XXH3_128": "9a3c0eb4c5c113e57d2a507837289f1c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_ffmpeg",
+    "name": "Rusty FFmpeg Output",
+    "type": "出力プラグイン",
+    "summary": "FFmpegを使用して動画を出力するプラグイン",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/ffmpeg-output/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
+    "latest-version": "0.12.2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Nanashi. <sevenc7c.com>"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "エンコード"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "aviutl2-rs",
+          "pattern": "^rusty_ffmpeg.auo2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/rusty_ffmpeg.auo2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.12.2",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+            "XXH3_128": "52ddbe68132466a2c4a2e417d20d7f05"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_input",
+    "name": "Rusty Image Input",
+    "type": "入力プラグイン",
+    "summary": "様々な画像（アニメーション画像を含む）を読み込むプラグイン",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/image-rs-input/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
+    "latest-version": "0.12.2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Nanashi. <sevenc7c.com>"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "画像",
+      "入力"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "aviutl2-rs",
+          "pattern": "^rusty_image_rs.aui2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/rusty_image_rs.aui2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/rusty_image_rs.aui2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.12.2",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_image_rs.aui2",
+            "XXH3_128": "52ee1662a2aaa8ee1eacb71294de7ea1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_output",
+    "name": "Rusty Image Output",
+    "type": "出力プラグイン",
+    "summary": "画像を連番で出力するプラグイン",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/image-rs-output/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
+    "latest-version": "0.12.2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Nanashi. <sevenc7c.com>"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "連番画像"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "aviutl2-rs",
+          "pattern": "^rusty_image_rs.auo2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/rusty_image_rs.auo2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/rusty_image_rs.auo2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.12.2",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_image_rs.auo2",
+            "XXH3_128": "b492200c167a16f1422f7c058fcb7b2b"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_local_alias_plugin",
+    "name": "Rusty Local Alias Plugin",
+    "type": "汎用プラグイン",
+    "summary": "プロジェクトファイル内にエイリアスを登録できるようにするプラグイン",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/local-alias-plugin/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
+    "latest-version": "0.12.2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Nanashi. <sevenc7c.com>"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "エイリアス"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "aviutl2-rs",
+          "pattern": "^rusty_local_alias.aux2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/rusty_local_alias.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/rusty_local_alias.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.12.2",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_local_alias.aux2",
+            "XXH3_128": "0862e8f0a156795f9bd38749d5539bdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_midi_player",
+    "name": "Rusty Piano Midi Player Input",
+    "type": "入力プラグイン",
+    "summary": "MIDIを読み込みピアノ音源で再生するプラグイン",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/midi-player-input/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
+    "latest-version": "0.12.2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Nanashi. <sevenc7c.com>"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "MIDI",
+      "音声"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "aviutl2-rs",
+          "pattern": "^rusty_midi_player.aui2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/rusty_midi_player.aui2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/rusty_midi_player.aui2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.12.2",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_midi_player.aui2",
+            "XXH3_128": "aae7da05a56060ca0573c26be0fd4547"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_pixelsort",
+    "name": "Rusty Pixel Sort Filter",
+    "type": "フィルタプラグイン",
+    "summary": "ピクセルソートを行うプラグイン",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/pixelsort-filter/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
+    "latest-version": "0.12.2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Nanashi. <sevenc7c.com>"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "ピクセルソート",
+      "グリッチ"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "aviutl2-rs",
+          "pattern": "^rusty_pixelsort.auf2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/rusty_pixelsort.auf2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/rusty_pixelsort.auf2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.12.2",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_pixelsort.auf2",
+            "XXH3_128": "24a5adaac7287a945df183f09ed1f267"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_random_color",
+    "name": "Rusty Random Color Filter",
+    "type": "フィルタプラグイン",
+    "summary": "ランダムな色の正方形のカスタムオブジェクトを作成するプラグイン",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/random-color-filter/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
+    "latest-version": "0.12.2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Nanashi. <sevenc7c.com>"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "aviutl2-rs",
+          "pattern": "^rusty_random_color.auf2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/rusty_random_color.auf2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/rusty_random_color.auf2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.12.2",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_random_color.auf2",
+            "XXH3_128": "06186acb1773ad30e70fd5edf528f003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut",
+    "name": "Rusty Restart Shortcut Plugin",
+    "type": "汎用プラグイン",
+    "summary": "AviUtl2を再起動する編集メニューを追加するプラグイン",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/restart-shortcut-plugin/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
+    "latest-version": "0.12.2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Nanashi. <sevenc7c.com>"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "aviutl2-rs",
+          "pattern": "^rusty_restart_shortcut.aux2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/rusty_restart_shortcut.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/rusty_restart_shortcut.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.12.2",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_restart_shortcut.aux2",
+            "XXH3_128": "eacd92bfa71424576a2a3ab332fb4725"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_scripts_search",
+    "name": "Rusty Scripts Search Plugin",
+    "type": "汎用プラグイン",
+    "summary": "AviUtl2を再起動する編集メニューを追加するプラグイン",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/scripts-search-plugin/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
+    "latest-version": "0.12.2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Nanashi. <sevenc7c.com>"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "aviutl2-rs",
+          "pattern": "^rusty_scripts_search.aux2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/rusty_scripts_search.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/rusty_scripts_search.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.12.2",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_scripts_search.aux2",
+            "XXH3_128": "bc1721ea90b7a148a7cd07c64377d463"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_srt_file",
+    "name": "Rusty SRT File Plugin",
+    "type": "汎用プラグイン",
+    "summary": "SRTファイル(字幕)のインポート/エクスポートを行うプラグイン",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/srt-file-plugin/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
+    "latest-version": "0.12.2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Nanashi. <sevenc7c.com>"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "字幕"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "aviutl2-rs",
+          "pattern": "^rusty_srt_file.aux2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/rusty_srt_file.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/rusty_srt_file.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.12.2",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_srt_file.aux2",
+            "XXH3_128": "55ee8cd6af534c806879d512ba310f2c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_statistics",
+    "name": "Rusty Statistics Output",
+    "type": "出力プラグイン",
+    "summary": "フレームを描画するのにかかった時間を表示するプラグイン",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/statistics-output/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
+    "latest-version": "0.12.2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Nanashi. <sevenc7c.com>"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "統計"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "aviutl2-rs",
+          "pattern": "^rusty_statistics.auo2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/rusty_statistics.auo2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/rusty_statistics.auo2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.12.2",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_statistics.auo2",
+            "XXH3_128": "8421bb86f6b0881c6dc2fe7d9a29b684"
           }
         ]
       }

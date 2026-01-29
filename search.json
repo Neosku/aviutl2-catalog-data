@@ -945,5 +945,271 @@
         }
       ]
     }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_binaural",
+    "latest-version": "0.12.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^rusty_binaural.auf2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "rusty_binaural.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_binaural.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_chiptune",
+    "latest-version": "0.12.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^rusty_chiptune.auf2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "rusty_chiptune.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_chiptune.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_equalizer",
+    "latest-version": "0.12.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^rusty_equalizer.auf2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "rusty_equalizer.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_equalizer.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_ffmpeg",
+    "latest-version": "0.12.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^rusty_ffmpeg.auo2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "rusty_ffmpeg.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_ffmpeg.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_input",
+    "latest-version": "0.12.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^rusty_image_rs.aui2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "rusty_image_rs.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_image_rs.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_output",
+    "latest-version": "0.12.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^rusty_image_rs.auo2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "rusty_image_rs.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_image_rs.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_local_alias_plugin",
+    "latest-version": "0.12.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^rusty_local_alias.aux2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "rusty_local_alias.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_local_alias.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_midi_player",
+    "latest-version": "0.12.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^rusty_midi_player.aui2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "rusty_midi_player.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_midi_player.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_pixelsort",
+    "latest-version": "0.12.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^rusty_pixelsort.auf2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "rusty_pixelsort.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_pixelsort.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_random_color",
+    "latest-version": "0.12.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^rusty_random_color.auf2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "rusty_random_color.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_random_color.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut",
+    "latest-version": "0.12.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^rusty_restart_shortcut.aux2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "rusty_restart_shortcut.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_restart_shortcut.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_scripts_search",
+    "latest-version": "0.12.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^rusty_scripts_search.aux2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "rusty_scripts_search.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_scripts_search.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_srt_file",
+    "latest-version": "0.12.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^rusty_srt_file.aux2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "rusty_srt_file.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_srt_file.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_statistics",
+    "latest-version": "0.12.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^rusty_statistics.auo2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "rusty_statistics.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_statistics.auo2"
+          ]
+        }
+      ]
+    }
   }
 ]
