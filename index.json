@@ -9536,5 +9536,87 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sevenc-nanashi.ntsc-rs",
+    "name": "ntsc-rs.anm2",
+    "type": "スクリプト",
+    "summary": "ntsc.rs を使ってVHS風のエフェクトを追加するプラグイン。",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/ntsc-rs.anm2/refs/heads/main/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/ntsc-rs.anm2",
+    "latest-version": "0.1.3",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT License\n\nCopyright (c) 2026 Nanashi. <sevenc7c.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+      }
+    ],
+    "tags": [
+      "ノイズ"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "infoImg": [
+          "./image/sevenc-nanashi.ntsc-rs_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "ntsc-rs.anm2",
+          "pattern": "^ntsc-rs-v.*\\.au2pkg\\.zip"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/ntsc-rs.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/ntsc-rs.mod2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Script/ntsc-rs.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Script/ntsc-rs.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.1.3",
+        "release_date": "2026-01-25",
+        "file": [
+          {
+            "path": "{scriptsDir}/Script/ntsc-rs.anm2",
+            "XXH3_128": "dd1ef383f1c0b21e2015e113271c12f3"
+          },
+          {
+            "path": "{scriptsDir}/Script/ntsc-rs.mod2",
+            "XXH3_128": "0e16f9e64a673f54659a6d534a620a2e"
+          }
+        ]
+      }
+    ]
   }
 ]
