@@ -6342,7 +6342,7 @@
         "github": {
           "owner": "oov",
           "repo": "aviutl2_psdtoolkit2",
-          "pattern": "^psdtoolkit_.*\\.zip$"
+          "pattern": "^psdtoolkit_.*\\.exe$"
         }
       },
       "install": [
@@ -6350,53 +6350,27 @@
           "action": "download"
         },
         {
-          "action": "extract"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias",
-          "to": "{dataDir}/Alias"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Language",
-          "to": "{dataDir}/Language"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Plugin",
-          "to": "{pluginsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Script",
-          "to": "{scriptsDir}"
+          "action": "run",
+          "path": "{download}",
+          "args": [
+            "/VERYSILENT",
+            "/SP-",
+            "/SUPPRESSMSGBOXES",
+            "/DIR=\"{pluginsDir}\"",
+            "/MERGETASKS=\"desktopicon",
+            "associatefile\""
+          ],
+          "elevate": false
         }
       ],
       "uninstall": [
         {
-          "action": "delete",
-          "path": "{dataDir}/Alias/字幕表示.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Language/English.PSDToolKit.aul2"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Language/简体中文.PSDToolKit.aul2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/PSDToolKit.aux2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/PSDToolKit"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/oov"
+          "action": "run",
+          "path": "{pluginsDir}/PSDToolKit/unins000.exe",
+          "args": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES"
+          ]
         }
       ]
     },
@@ -6476,8 +6450,8 @@
         "release_date": "2026-01-29",
         "file": [
           {
-            "path": "{pluginsDir}/PSDToolKit.aux2",
-            "XXH3_128": ""
+            "path": "{pluginsDir}/PSDToolKit/PSDToolKit.aux2",
+            "XXH3_128": "bbe739a3c0ebea206fe91c4ec5685e05"
           }
         ]
       }
