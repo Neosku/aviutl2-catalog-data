@@ -8505,6 +8505,16 @@
             "XXH3_128": "0da8d6dc68e00c1ae1c400f8dc37faf1"
           }
         ]
+      },
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{scriptsDir}/角丸補正_Rh.anm2",
+            "XXH3_128": "d75b9d2640f3d276835e9920b1d71660"
+          }
+        ]
       }
     ]
   },
@@ -8565,6 +8575,16 @@
           {
             "path": "{scriptsDir}/LineGlitch_Rh.anm2",
             "XXH3_128": "a65982420facddd82f47f8b86ef779c4"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{scriptsDir}/LineGlitch_Rh.anm2",
+            "XXH3_128": "9c68eab4b6b7a512262d09a2d25bd8a1"
           }
         ]
       }
@@ -8628,6 +8648,16 @@
           {
             "path": "{scriptsDir}/個別アンカー操作_Rh.anm2",
             "XXH3_128": "3e39a1e53b68d54f4d0da8d8d89ba3a7"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{scriptsDir}/個別アンカー操作_Rh.anm2",
+            "XXH3_128": "9fad071dcf43ed510de39b65b7f4928b"
           }
         ]
       }
