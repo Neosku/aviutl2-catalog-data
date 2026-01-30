@@ -4468,15 +4468,26 @@
     "latest-version": "v1.0.1",
     "popularity": 61,
     "trend": 23,
-    "license": "MIT",
-    "tags": [],
-    "dependencies": [],
-    "images": [
+    "licenses": [
       {
-        "thumbnail": "",
-        "infoImg": []
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Korarei"
+          }
+        ],
+        "licenseBody": null
       }
     ],
+    "tags": [
+      "グリッチ",
+      "ピクセルソート",
+      "加工"
+    ],
+    "dependencies": [],
+    "images": [],
     "installer": {
       "source": {
         "github": {
