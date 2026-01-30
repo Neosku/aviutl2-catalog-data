@@ -7435,6 +7435,16 @@
             "XXH3_128": "ed71fb1729cd4924d0505f3ccf59ea9e"
           }
         ]
+      },
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{scriptsDir}/BlockGlitch_Rh.anm2",
+            "XXH3_128": "69bfc400364e5d9a36f69e32a3d1624f"
+          }
+        ]
       }
     ]
   },
@@ -7495,6 +7505,16 @@
           {
             "path": "{scriptsDir}/放射ラスター_Rh.anm2",
             "XXH3_128": "92cf825fdb1c3b85fa67ada3ff9b4276"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{scriptsDir}/放射ラスター_Rh.anm2",
+            "XXH3_128": "f2e6a32323f7702c0abcae1eed5dbe1d"
           }
         ]
       }
@@ -7559,6 +7579,16 @@
             "XXH3_128": "486329aca02c9efc322451830e1a802c"
           }
         ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{scriptsDir}/Textスキン.anm2",
+            "XXH3_128": "535952b656b88e636445f581f69faeea"
+          }
+        ]
       }
     ]
   },
@@ -7618,6 +7648,16 @@
           {
             "path": "{scriptsDir}/BPMエフェクトトグル.anm2",
             "XXH3_128": "1a99d878cfdc9741d45a454503368234"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{scriptsDir}/BPMエフェクトトグル.anm2",
+            "XXH3_128": "4ee3d962bd548ff75add6810f57b26b3"
           }
         ]
       }
@@ -7680,6 +7720,16 @@
             "XXH3_128": "511c18fb9925da7fc20dce482aa86186"
           }
         ]
+      },
+      {
+        "version": "v1.0.3",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{scriptsDir}/テキスト一枚化っぽい.anm2",
+            "XXH3_128": "2f5859314588203e6fce91265dced451"
+          }
+        ]
       }
     ]
   },
@@ -7738,6 +7788,16 @@
           {
             "path": "{scriptsDir}/テキスト自動改行.anm2",
             "XXH3_128": "1f2d0a5301c8e88c7c2336828f30e4d0"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{scriptsDir}/テキスト自動改行.anm2",
+            "XXH3_128": "44a3b63725e3eb51ef6be4179b8a8ade"
           }
         ]
       }
@@ -7800,6 +7860,16 @@
             "XXH3_128": "b1147940fbd50c46dd174c23d8c6c3e6"
           }
         ]
+      },
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-01-29",
+        "file": [
+          {
+            "path": "{scriptsDir}/単色不透明化+モザイク.anm2",
+            "XXH3_128": "7e386213002827ba42095edc4c31049c"
+          }
+        ]
       }
     ]
   },
@@ -7852,6 +7922,16 @@
       ]
     },
     "version": [
+      {
+        "version": "v1.0.3",
+        "release_date": "2025-12-01",
+        "file": [
+          {
+            "path": "{scriptsDir}/ラディアルシフト.anm2",
+            "XXH3_128": "585fda4a2c8b8be91bb09dbeb5f9824a"
+          }
+        ]
+      },
       {
         "version": "v1.0.3",
         "release_date": "2025-12-01",
