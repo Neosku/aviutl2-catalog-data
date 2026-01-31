@@ -6335,7 +6335,7 @@
     "description": "./md/oov.PSDToolKit2.md",
     "author": "おおぶ",
     "repoURL": "https://github.com/oov/aviutl2_psdtoolkit2",
-    "latest-version": "v2.0.0alpha9",
+    "latest-version": "v2.0.0alpha10",
     "popularity": 62,
     "trend": 58,
     "licenses": [
@@ -6483,6 +6483,16 @@
           {
             "path": "{pluginsDir}/PSDToolKit/PSDToolKit.aux2",
             "XXH3_128": "1b058af9b3dd410aa5832effa94b3aa5"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.0alpha10",
+        "release_date": "2026-02-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/PSDToolKit/PSDToolKit.aux2",
+            "XXH3_128": "cafeb85ba13ebc9be7d1b8510643fbe7"
           }
         ]
       }
