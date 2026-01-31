@@ -474,7 +474,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_jd/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_jd/",
-    "latest-version": "r29",
+    "latest-version": "r30",
     "popularity": 140,
     "trend": 27,
     "licenses": [
@@ -820,6 +820,16 @@
           {
             "path": "{pluginsDir}/al2_jd.aui2",
             "XXH3_128": "d214574331c6471a7ed7af8c583befdf"
+          }
+        ]
+      },
+      {
+        "version": "r30",
+        "release_date": "2026-01-31",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2_jd.aui2",
+            "XXH3_128": "53ca53ae928a494974afb382ef653f63"
           }
         ]
       }
