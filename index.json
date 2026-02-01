@@ -9639,7 +9639,7 @@
     "id": "sevenc-nanashi.aviutl2-rs.rusty_scripts_search",
     "name": "Rusty Scripts Search Plugin",
     "type": "汎用プラグイン",
-    "summary": "AviUtl2を再起動する編集メニューを追加するプラグイン",
+    "summary": "オブジェクト・エフェクトを検索してタイムラインに配置するプラグイン",
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/scripts-search-plugin/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
