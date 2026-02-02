@@ -10239,5 +10239,85 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sagami121.AudioEnc",
+    "name": "AudioEnc",
+    "type": "出力プラグイン",
+    "summary": "Aviutl2で音声を出力するプラグイン",
+    "description": "./md/sagami121.AudioEnc.md",
+    "author": "3aGaM1",
+    "repoURL": "https://github.com/sagami121/Aviutl2-AudioEnc",
+    "latest-version": "v1.1",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "3aGaM1"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "エンコード"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sagami121",
+          "repo": "Aviutl2-AudioEnc",
+          "pattern": "^AudioEnc.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download",
+          "from": "{tmp}/AudioEnc.auo2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/AudioEnc.auo2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-01-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/AudioEnc.auo2",
+            "XXH3_128": "711656211ad67e51a72fa97c930e182e"
+          }
+        ]
+      },
+      {
+        "version": "v1.1",
+        "release_date": "2026-02-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/AudioEnc.auo2",
+            "XXH3_128": "711656211ad67e51a72fa97c930e182e"
+          }
+        ]
+      }
+    ]
   }
 ]
