@@ -10686,5 +10686,89 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Garech.DoubleBPMGrid",
+    "name": "BPMグリッド倍化",
+    "type": "汎用プラグイン",
+    "summary": "グリッドの設定のBPM値を倍々に変化&BPM測定",
+    "description": "https://raw.githubusercontent.com/Garech-mas/DoubleBPMGrid/refs/heads/master/README.md",
+    "author": "Garech",
+    "repoURL": "https://github.com/Garech-mas/DoubleBPMGrid",
+    "latest-version": "v2.2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Garech"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "BPM",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "infoImg": [
+          "./image/Garech.DoubleBPMGrid_1.jfif"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Garech-mas",
+          "repo": "DoubleBPMGrid",
+          "pattern": "^DoubleBPMGrid-.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/AviUtl2/DoubleBPMGrid.aux2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/AviUtl2/English.DoubleBPMGrid.aul2",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/DoubleBPMGrid.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.DoubleBPMGrid.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v2.2",
+        "release_date": "2026-02-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/DoubleBPMGrid.aux2",
+            "XXH3_128": "4b68af4ef3f0c5beef061232bd593b89"
+          }
+        ]
+      }
+    ]
   }
 ]
