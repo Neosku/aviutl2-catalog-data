@@ -9113,6 +9113,7 @@
         "licenseBody": null
       }
     ],
+    "niconiCommonsId": "sm45355531",
     "tags": [
       "エンコード"
     ],
@@ -9210,6 +9211,7 @@
         "licenseBody": null
       }
     ],
+    "niconiCommonsId": "sm45355531",
     "tags": [
       "画像",
       "入力"
@@ -9308,6 +9310,7 @@
         "licenseBody": null
       }
     ],
+    "niconiCommonsId": "sm45355531",
     "tags": [
       "連番画像"
     ],
@@ -9503,6 +9506,7 @@
         "licenseBody": null
       }
     ],
+    "niconiCommonsId": "sm45355531",
     "tags": [
       "MIDI",
       "音声"
@@ -10092,6 +10096,7 @@
         "licenseBody": null
       }
     ],
+    "niconiCommonsId": "sm45355531",
     "tags": [
       "統計"
     ],
@@ -10325,6 +10330,141 @@
           {
             "path": "{pluginsDir}/AudioEnc.auo2",
             "XXH3_128": "711656211ad67e51a72fa97c930e182e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sevenc-nanashi.clipboard-aux2",
+    "name": "clipboard.aux2",
+    "type": "汎用プラグイン",
+    "summary": "ファイル・画像・テキストをクリップボードから直接貼り付けるプラグイン",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/clipboard.aux2/refs/heads/main/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/clipboard.aux2",
+    "latest-version": "v0.2.2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT License\n\nCopyright (c) 2026 Nanashi. <sevenc7c.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+      }
+    ],
+    "niconiCommonsId": "sm45904404",
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "clipboard.aux2",
+          "pattern": "^clipboard-aux2-v.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/clipboard.aux2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.clipboard.aul2",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/clipboard.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.clipboard.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.2.2",
+        "release_date": "2026-02-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/clipboard.aux2",
+            "XXH3_128": "b0394c76e34e4942fc806ee042702e32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sevenc-nanashi.vintage-auf2",
+    "name": "vintage.auf2",
+    "type": "フィルタプラグイン",
+    "summary": "音声を昔のビデオっぽくするAviUtl2のフィルタプラグイン",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/vintage.auf2/refs/heads/main/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/vintage.auf2",
+    "latest-version": "0.1.1",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT License\n\nCopyright (c) 2026 Nanashi. <sevenc7c.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+      }
+    ],
+    "niconiCommonsId": "sm45904404",
+    "tags": [
+      "ノイズ"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "vintage.auf2",
+          "pattern": "^vintage-.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/vintage.auf2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/vintage.auf2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.1.1",
+        "release_date": "2026-02-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/vintage.auf2",
+            "XXH3_128": "d30ea0d5976e07f79091bf7aba420c9b"
           }
         ]
       }
