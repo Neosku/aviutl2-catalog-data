@@ -10308,7 +10308,7 @@
       "uninstall": [
         {
           "action": "delete",
-          "path": "{pluginsDir}"
+          "path": "{pluginsDir}/AudioEnc.auo2"
         }
       ]
     },
