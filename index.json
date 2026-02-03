@@ -10369,7 +10369,7 @@
         {
           "action": "copy",
           "from": "{tmp}/Plugin/clipboard.aux2",
-          "to": "{pluginsDir}/clipboard.aux2"
+          "to": "{pluginsDir}"
         },
         {
           "action": "copy",
