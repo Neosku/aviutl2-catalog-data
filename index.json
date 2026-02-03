@@ -10244,11 +10244,11 @@
         "release_date": "2026-01-25",
         "file": [
           {
-            "path": "{scriptsDir}/Script/ntsc-rs.anm2",
+            "path": "{scriptsDir}/ntsc-rs.anm2",
             "XXH3_128": "dd1ef383f1c0b21e2015e113271c12f3"
           },
           {
-            "path": "{scriptsDir}/Script/ntsc-rs.mod2",
+            "path": "{scriptsDir}/ntsc-rs.mod2",
             "XXH3_128": "0e16f9e64a673f54659a6d534a620a2e"
           }
         ]
