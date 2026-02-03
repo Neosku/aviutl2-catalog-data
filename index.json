@@ -10178,7 +10178,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/ntsc-rs.anm2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/ntsc-rs.anm2",
-    "latest-version": "0.1.3",
+    "latest-version": "0.2.0",
     "popularity": 37,
     "trend": 39,
     "licenses": [
@@ -10250,6 +10250,20 @@
           {
             "path": "{scriptsDir}/ntsc-rs.mod2",
             "XXH3_128": "0e16f9e64a673f54659a6d534a620a2e"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0",
+        "release_date": "2026-02-03",
+        "file": [
+          {
+            "path": "{scriptsDir}/ntsc-rs.anm2",
+            "XXH3_128": "f88330c700595cf8324f13e11999a432"
+          },
+          {
+            "path": "{scriptsDir}/ntsc-rs.mod2",
+            "XXH3_128": "cd5ede6558e41bddbdd96bfad3377167"
           }
         ]
       }
