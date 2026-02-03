@@ -10374,7 +10374,7 @@
         {
           "action": "copy",
           "from": "{tmp}/Language/English.clipboard.aul2",
-          "to": "{dataDir}/English.clipboard.aul2"
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -10384,7 +10384,7 @@
         },
         {
           "action": "delete",
-          "path": "{dataDir}/English.clipboard.aul2"
+          "path": "{dataDir}/Language/English.clipboard.aul2"
         }
       ]
     },
