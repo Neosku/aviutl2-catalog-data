@@ -10608,5 +10608,83 @@
         ]
       }
     ]
+  },
+  {
+    "id": "hebiiro.al2_slimming",
+    "name": "スリム化MOD",
+    "type": "汎用プラグイン",
+    "summary": "タイトルバーとメニューバーを一体化してスリム化するMOD",
+    "description": "https://raw.githubusercontent.com/hebiiro/al2_slimming/refs/heads/master/README.md",
+    "author": "蛇色",
+    "repoURL": "https://github.com/hebiiro/al2_slimming",
+    "latest-version": "r2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "hebiiro"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "UI"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "hebiiro",
+          "repo": "al2_slimming",
+          "pattern": "^al2_slimming.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r1",
+        "release_date": "2026-01-28",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_slimming.aui2",
+            "XXH3_128": "7bf4279dbf6a8eea0260cc67a6f078c9"
+          }
+        ]
+      },
+      {
+        "version": "r2",
+        "release_date": "2026-02-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_slimming.aui2",
+            "XXH3_128": "dda9903cba2b1ab145cc4736d9644a8b"
+          }
+        ]
+      }
+    ]
   }
 ]
