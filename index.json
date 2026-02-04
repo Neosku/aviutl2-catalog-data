@@ -5078,22 +5078,35 @@
     "id": "Garech.SplitFilters",
     "name": "フィルタ分離",
     "type": "汎用プラグイン",
-    "summary": "オブジェクトに付いているフィルタ効果群を個別オブジェクトに分離するAviUtl2 プラグインです。",
-    "description": "./md/Garech.SplitFilters.md",
+    "summary": "オブジェクト上のフィルタ効果群を個別オブジェクト化するプラグイン",
+    "description": "https://raw.githubusercontent.com/Garech-mas/AviUtl2_SplitFilters/refs/heads/master/README.md",
     "author": "Garech",
     "repoURL": "https://github.com/Garech-mas/AviUtl2_SplitFilters",
     "latest-version": "v1.03",
     "popularity": 96,
     "trend": 29,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Garech"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "オブジェクト操作"
     ],
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "",
-        "infoImg": []
+        "infoImg": [
+          "./image/Garech.SplitFilters_1.png"
+        ]
       }
     ],
     "installer": {
@@ -5115,12 +5128,21 @@
           "action": "copy",
           "from": "{tmp}/SplitFilters.aux2",
           "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/English.SplitFilters.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/SplitFilters.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.SplitFilters.aul2"
         }
       ]
     },
