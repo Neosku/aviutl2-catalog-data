@@ -11001,5 +11001,64 @@
         ]
       }
     ]
+  },
+  {
+    "id": "EsugoMP4Exporter",
+    "name": "MP4Exporter",
+    "type": "エンコード",
+    "summary": "MP4ファイルを出力するプラグイン",
+    "description": "./md/EsugoMP4Exporter.md",
+    "author": "えすご",
+    "originalAuthor": "えすご",
+    "repoURL": "https://apps.esugo.net/aviutl2-mp4exporter/",
+    "latest-version": "不明",
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "エンコード"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/EsugoMP4Exporter_thumbnail.png",
+        "infoImg": [
+          "./image/EsugoMP4Exporter_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://apps.esugo.net/aviutl2-mp4exporter/releases/MP4Exporter_1.0.1.zip"
+      },
+      "install": [
+        {
+          "action": "download"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/MP4Exporter.auo2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "不明",
+        "release_date": "2026-02-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/MP4Exporter.auo2",
+            "XXH3_128": "0cb0285678d34acad3ab8082056c9a17"
+          }
+        ]
+      }
+    ]
   }
 ]
