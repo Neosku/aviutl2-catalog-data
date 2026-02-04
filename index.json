@@ -10456,15 +10456,20 @@
           "action": "extract"
         },
         {
-          "action": "copy",
-          "from": "{tmp}/AudioEnc.auo2",
-          "to": "{pluginsDir}"
+          "action": "run",
+          "path": "{tmp}/AudioEnc_Setup.exe",
+          "args": [
+            "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART"
+          ]
         }
       ],
       "uninstall": [
         {
-          "action": "delete",
-          "path": "{pluginsDir}/AudioEnc.auo2"
+          "action": "run",
+          "path": "{pluginsDir}/AudioEnc_Uninstall.exe",
+          "args": [
+            "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART"
+          ]
         }
       ]
     },
@@ -10486,6 +10491,16 @@
           {
             "path": "{pluginsDir}/AudioEnc.auo2",
             "XXH3_128": "711656211ad67e51a72fa97c930e182e"
+          }
+        ]
+      },
+      {
+        "version": "v1.2",
+        "release_date": "2026-02-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/AudioEnc.auo2",
+            "XXH3_128": "a8386e0953f9cb57d3cc9612f759d461"
           }
         ]
       }
