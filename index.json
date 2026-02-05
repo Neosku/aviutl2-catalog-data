@@ -11037,7 +11037,7 @@
   {
     "id": "EsugoMP4Exporter",
     "name": "MP4Exporter",
-    "type": "エンコード",
+    "type": "出力プラグイン",
     "summary": "MP4ファイルを出力するプラグイン",
     "description": "./md/EsugoMP4Exporter.md",
     "author": "えすご",
