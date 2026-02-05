@@ -8743,7 +8743,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_visual_font/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_visual_font",
-    "latest-version": "r2",
+    "latest-version": "r3",
     "popularity": 112,
     "trend": 115,
     "licenses": [
@@ -8780,14 +8780,9 @@
           "action": "extract"
         },
         {
-          "action": "extract",
-          "from": "{tmp}/al2_visual_font.au2pkg.zip",
-          "to": "{tmp}/al2_visual_font"
-        },
-        {
           "action": "copy",
-          "from": "{tmp}/al2_visual_font",
-          "to": "{dataDir}"
+          "from": "{tmp}/Plugin/al2/al2_visual_font.aui2",
+          "to": "{pluginsDir}"
         }
       ],
       "uninstall": [
@@ -8798,6 +8793,10 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/template.al2_visual_font.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/al2_visual_font.aui2"
         }
       ]
     },
@@ -8819,6 +8818,16 @@
           {
             "path": "{pluginsDir}/al2/al2_visual_font.aux2",
             "XXH3_128": "8db8ead9a746940f3b59e2eecbc086e3"
+          }
+        ]
+      },
+      {
+        "version": "r3",
+        "release_date": "2026-02-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_visual_font.aui2",
+            "XXH3_128": "099aa5adc42266f75c6733ec67052926"
           }
         ]
       }
