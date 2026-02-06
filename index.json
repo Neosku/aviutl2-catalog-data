@@ -11215,5 +11215,69 @@
         ]
       }
     ]
+  },
+  {
+    "id": "ngw.anm2",
+    "name": "二色化",
+    "type": "スクリプト",
+    "summary": "オブジェクトが2色のみに加工される",
+    "description": "./md/ngw.anm2.md",
+    "author": "ngw",
+    "repoURL": "https://booth.pm/ja/items/7234918",
+    "latest-version": "v1.0.0",
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "色調整",
+      "加工"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/ngw.anm2_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/7255466"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/二値化_250728/二値化.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/二値化.anm2)"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2025-07-28",
+        "file": [
+          {
+            "path": "{scriptsDir}/二値化.anm2)",
+            "XXH3_128": "3adb21afee23fba9132f3bd2f53fba41"
+          }
+        ]
+      }
+    ]
   }
 ]
