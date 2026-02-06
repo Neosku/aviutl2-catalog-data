@@ -2915,9 +2915,18 @@
     "latest-version": "v1",
     "popularity": 111,
     "trend": 51,
-    "license": "",
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
     "tags": [
-      "3D"
+      "立体",
+      "加工",
+      "エフェクト"
     ],
     "dependencies": [],
     "images": [
