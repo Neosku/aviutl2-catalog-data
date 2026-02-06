@@ -11152,5 +11152,68 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Book-0225.EAP2.4.AviUtl2",
+    "name": "External Audio Processing 2 for AviUtl ExEdit2",
+    "type": "入力プラグイン",
+    "summary": "VST 3 / CLAP を利用可能にするためのフィルタプラグイン",
+    "description": "./md/Book-0225.EAP2.4.AviUtl2.md",
+    "author": "Book0225",
+    "repoURL": "https://github.com/Book-0225/aviutl2_External_Audio_Processing",
+    "latest-version": "v0.0.23",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Book-0225"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Book-0225",
+          "repo": "aviutl2_External_Audio_Processing",
+          "pattern": "External_Audio_Processing2.aux2"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/External_Audio_Processing2.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/External_Audio_Processing2.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.0.23",
+        "release_date": "2026-02-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/External_Audio_Processing2.aux2",
+            "XXH3_128": "848c5d2cb36ca60ddd4a9cdcbc6f9630"
+          }
+        ]
+      }
+    ]
   }
 ]
