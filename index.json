@@ -11152,5 +11152,66 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_metronome_plugin",
+    "name": "Rusty Metronome Plugin",
+    "type": "汎用プラグイン",
+    "summary": "BPMを合わせるためのボタンとメトロノームを追加するプラグイン",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/metronome-plugin/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
+    "latest-version": "v0.15.1",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT License\n\nCopyright (c) 2025 Nanashi. <sevenc7c.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+      }
+    ],
+    "niconiCommonsId": "sm45904404",
+    "tags": [
+      "音声"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "aviutl2-rs",
+          "pattern": "^rusty_metronome\\.aux2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/rusty_metronome.aux2",
+          "to": "{pluginDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginDir}/rusty_metronome.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.15.1",
+        "release_date": "2026-02-06",
+        "file": [
+          {
+            "path": "{pluginDir}/rusty_metronome.aux2",
+            "XXH3_128": "12e1a0eb2b8bcee982411af8f0c0b0cc"
+          }
+        ]
+      }
+    ]
   }
 ]
