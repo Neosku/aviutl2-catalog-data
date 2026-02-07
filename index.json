@@ -3415,14 +3415,30 @@
     "name": "@Stylize_K",
     "type": "スクリプト",
     "summary": "AviUtl ExEdit2で画像の見た目を変えるスクリプト群",
-    "description": "AviUtl ExEdit2で画像の見た目を変えるスクリプト群",
+    "description": "https://raw.githubusercontent.com/korarei/AviUtl2_Stylize_K_Script/refs/heads/main/README.md",
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_Stylize_K_Script",
     "latest-version": "v1.2.1",
     "popularity": 123,
     "trend": 103,
-    "license": "MIT",
-    "tags": [],
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Korarei"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "色調整",
+      "色調補正",
+      "画像"
+    ],
     "dependencies": [],
     "images": [],
     "installer": {
