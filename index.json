@@ -8366,7 +8366,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_preset_adder/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_preset_adder",
-    "latest-version": "r2",
+    "latest-version": "r3",
     "popularity": 44,
     "trend": 40,
     "licenses": [
@@ -8448,6 +8448,11 @@
             "XXH3_128": "89f784ad8649cb8a38e03cf265833ba4"
           }
         ]
+      },
+      {
+        "version": "r3",
+        "release_date": "2026-02-07",
+        "file": []
       }
     ]
   },
