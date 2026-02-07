@@ -1,0 +1,1 @@
+aviutl2用の出力プラグインです。音声のみを32bit floatまたは16bit shortのWAV形式で出力します。

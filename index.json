@@ -849,14 +849,26 @@
     "id": "hebiiro.al2_wav_saver",
     "name": "WAVファイル出力",
     "type": "出力プラグイン",
-    "summary": "WAVファイルを出力するプラグインです。",
-    "description": "aviutl2用の出力プラグインです。音声のみを32bit floatまたは16bit shortのWAV形式で出力します。",
-    "author": "hebiiro",
+    "summary": "WAVファイルを出力するプラグイン",
+    "description": "./md/hebiiro.al2_wav_saver.md",
+    "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_wav_saver/",
     "latest-version": "r3",
     "popularity": 154,
     "trend": 63,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "hebiiro"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "音声"
     ],
