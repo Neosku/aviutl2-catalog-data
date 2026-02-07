@@ -3813,24 +3813,31 @@
     "id": "hebiiro.al2_memo",
     "name": "メモ帳プラグイン",
     "type": "汎用プラグイン",
-    "summary": "aviutl2にメモ帳代わりに使用できるウィンドウを追加するプラグインです。",
+    "summary": "メモ帳代わりに使用できるウィンドウを追加するプラグイン",
     "description": "./md/hebiiro.al2_memo.md",
-    "author": "hebiiro",
+    "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_memo",
     "latest-version": "r1",
     "popularity": 105,
     "trend": 42,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "hebiiro"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "メモ"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "",
-        "infoImg": []
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
