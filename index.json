@@ -11464,10 +11464,10 @@
     ]
   },
   {
-    "id": "vstcpp.UtsboxAudioEffectForAviUtl2",
-    "name": "Utsbox Audio Effect for AviUtl ExEdit2",
+    "id": "vstcpp.UtsboxAudioEffect",
+    "name": "Utsbox Audio Effect",
     "type": "フィルタプラグイン",
-    "summary": "音声に対してさまざまな加工を行うことができます",
+    "summary": "音声に対してさまざまな加工を行うプラグイン",
     "description": "./md/vstcpp.UtsboxAudioEffectForAviUtl2.md",
     "author": "うつぼかずら",
     "repoURL": "https://www.utsbox.com/?p=4050",
