@@ -8433,14 +8433,14 @@
           "action": "extract"
         },
         {
-          "action": "extract",
-          "from": "{tmp}/al2_preset_adder.au2pkg.zip",
-          "to": "{tmp}/al2_preset_adder"
+          "action": "copy",
+          "from": "{tmp}/Plugin",
+          "to": "{pluginsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/al2_preset_adder",
-          "to": "{dataDir}"
+          "from": "{tmp}/Language",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -8455,6 +8455,10 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/al2/assets/al2_preset_adder"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/template/al2_preset_adder.aul2"
         }
       ]
     },
@@ -8482,7 +8486,12 @@
       {
         "version": "r3",
         "release_date": "2026-02-07",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_preset_adder.aux2",
+            "XXH3_128": "0a0cb620a6420d3082603ef567a82b01"
+          }
+        ]
       }
     ]
   },
