@@ -5247,7 +5247,7 @@
         "file": [
           {
             "path": "{pluginsDir}/SplitFilters.aux2",
-            "XXH3_128": "c11652fe67078747d0ba697d2a228da3"
+            "XXH3_128": "db1a6f550a26396ec4d123a0c715e737"
           }
         ]
       }
@@ -6852,7 +6852,7 @@
     "author": "Nao",
     "originalAuthor": "aoytsk様",
     "repoURL": "https://nao-kid.booth.pm/items/7791311",
-    "latest-version": "v3.1",
+    "latest-version": "v3.2",
     "popularity": 78,
     "trend": 74,
     "licenses": [
@@ -6877,7 +6877,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8361887?_gl=1*1fj1g86*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzAzNDYyNjEkbzQxJGcxJHQxNzcwMzQ2NDUwJGo1OSRsMCRoMA.."
+        "booth": "https://booth.pm/downloadables/8371287?_gl=1*25osuy*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzA1MTcyNTUkbzUyJGcxJHQxNzcwNTE3NDQ0JGo1OSRsMCRoMA.."
       },
       "install": [
         {
@@ -6888,7 +6888,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/v3.1/拡張ツールバー.aux2",
+          "from": "{tmp}/v3.2/拡張ツールバー.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -6977,6 +6977,16 @@
           {
             "path": "{pluginsDir}/拡張ツールバー.aux2",
             "XXH3_128": "e0ffd381b3445457223724f4e296ba71"
+          }
+        ]
+      },
+      {
+        "version": "v3.2",
+        "release_date": "2026-02-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/拡張ツールバー.aux2",
+            "XXH3_128": "e41acd1f3c7b851aae3b5a176b11c551"
           }
         ]
       }
@@ -8423,14 +8433,14 @@
           "action": "extract"
         },
         {
-          "action": "extract",
-          "from": "{tmp}/al2_preset_adder.au2pkg.zip",
-          "to": "{tmp}/al2_preset_adder"
+          "action": "copy",
+          "from": "{tmp}/Plugin",
+          "to": "{pluginsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/al2_preset_adder",
-          "to": "{dataDir}"
+          "from": "{tmp}/Language",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -8445,6 +8455,10 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/al2/assets/al2_preset_adder"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/template/al2_preset_adder.aul2"
         }
       ]
     },
@@ -8472,7 +8486,12 @@
       {
         "version": "r3",
         "release_date": "2026-02-07",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_preset_adder.aux2",
+            "XXH3_128": "0a0cb620a6420d3082603ef567a82b01"
+          }
+        ]
       }
     ]
   },
@@ -8870,8 +8889,13 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Plugin/al2/al2_visual_font.aui2",
+          "from": "{tmp}/Plugin",
           "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -8881,7 +8905,7 @@
         },
         {
           "action": "delete",
-          "path": "{dataDir}/Language/template.al2_visual_font.aul2"
+          "path": "{dataDir}/Language/template/al2_visual_font.aul2"
         },
         {
           "action": "delete",
@@ -11221,7 +11245,7 @@
     "description": "./md/Book-0225.EAP2.4.AviUtl2.md",
     "author": "Book0225",
     "repoURL": "https://github.com/Book-0225/aviutl2_External_Audio_Processing",
-    "latest-version": "v0.0.23",
+    "latest-version": "v0.0.24",
     "popularity": 13,
     "trend": 14,
     "licenses": [
@@ -11273,6 +11297,16 @@
           {
             "path": "{pluginsDir}/External_Audio_Processing2.aux2",
             "XXH3_128": "848c5d2cb36ca60ddd4a9cdcbc6f9630"
+          }
+        ]
+      },
+      {
+        "version": "v0.0.24",
+        "release_date": "2026-02-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/External_Audio_Processing2.aux2",
+            "XXH3_128": "ec478a8a7f34e890f53d02c06f4e18e0"
           }
         ]
       }
@@ -11468,6 +11502,106 @@
           {
             "path": "{pluginDir}/rusty_metronome.aux2",
             "XXH3_128": "12e1a0eb2b8bcee982411af8f0c0b0cc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vstcpp.UtsboxAudioEffect",
+    "name": "Utsbox Audio Effect",
+    "type": "フィルタプラグイン",
+    "summary": "音声に対してさまざまな加工を行うプラグイン",
+    "description": "./md/vstcpp.UtsboxAudioEffect.md",
+    "author": "うつぼかずら",
+    "repoURL": "https://www.utsbox.com/?p=4050",
+    "latest-version": "0.1β",
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "本ソフトウェアを使用したことによって生じたすべての障害・損害・不具合等に関しては、私と私の関係者および私の所属するいかなる団体・組織とも、一切の責任を負いません。各自の責任においてご使用ください。\n\n利用にあたっては必ずアンチウィルスソフトウェア等でチェックのほどお願いいたします。"
+      }
+    ],
+    "tags": [
+      "音声",
+      "加工"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://www.utsbox.com/wp-content/uploads/2025/10/UtsboxAudioEffectForAviUtl2.zip"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/UtsboxAudioEffectForAviUtl2",
+          "to": "{pluginsDir}/UtsboxAudioEffectForAviUtl2"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.1β",
+        "release_date": "2025-11-11",
+        "file": [
+          {
+            "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxChorus.auf2",
+            "XXH3_128": "259caf40fb65a1afb9e2be10253e1437"
+          },
+          {
+            "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxCompressor.auf2",
+            "XXH3_128": "89edccb3023033603e8baa98346c4672"
+          },
+          {
+            "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxDelay.auf2",
+            "XXH3_128": "bb0baa7fec2c934947cb59acc31dde23"
+          },
+          {
+            "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxEqualizer.auf2",
+            "XXH3_128": "3f2051d42b77135fdacf166f55a5be93"
+          },
+          {
+            "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxFilter.auf2",
+            "XXH3_128": "214a4fe1ff3fd55662406ba41a59bb7b"
+          },
+          {
+            "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxModulator.auf2",
+            "XXH3_128": "b78e9ae8f7de826dd784c038182cbae5"
+          },
+          {
+            "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxPhaser.auf2",
+            "XXH3_128": "71418f443fc730664e687bb9cbc043f1"
+          },
+          {
+            "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxPitchShifter.auf2",
+            "XXH3_128": "66affbd17ea4de2ea03648e3162e6e80"
+          },
+          {
+            "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxReverb.auf2",
+            "XXH3_128": "86f842825ebdf9bc4113ab7a95583bd7"
+          },
+          {
+            "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxTremolo.auf2",
+            "XXH3_128": "ead74b28a759b0feb38b7587364fcad7"
+          },
+          {
+            "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxWah.auf2",
+            "XXH3_128": "e10751202e720c8776201a083d15458e"
           }
         ]
       }
