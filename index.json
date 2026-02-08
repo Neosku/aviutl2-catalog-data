@@ -10942,12 +10942,21 @@
           "action": "copy",
           "from": "{tmp}/Plugin",
           "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2"
+          "path": "{pluginsDir}/al2/al2_slimming.aui2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Template/al2_slimming.aul2"
         }
       ]
     },
