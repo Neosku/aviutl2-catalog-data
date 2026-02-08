@@ -11494,13 +11494,13 @@
         {
           "action": "copy",
           "from": "{tmp}/rusty_metronome.aux2",
-          "to": "{pluginDir}"
+          "to": "{pluginsDir}"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{pluginDir}/rusty_metronome.aux2"
+          "path": "{pluginsDir}/rusty_metronome.aux2"
         }
       ]
     },
