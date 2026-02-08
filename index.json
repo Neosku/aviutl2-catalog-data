@@ -8880,8 +8880,13 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Plugin/al2/al2_visual_font.aui2",
+          "from": "{tmp}/Plugin",
           "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -8891,7 +8896,7 @@
         },
         {
           "action": "delete",
-          "path": "{dataDir}/Language/template.al2_visual_font.aul2"
+          "path": "{dataDir}/Language/template/al2_visual_font.aul2"
         },
         {
           "action": "delete",
