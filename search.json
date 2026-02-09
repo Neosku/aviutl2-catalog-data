@@ -1422,7 +1422,6 @@
       "regex": "^rusty_metronome\\.aux2$",
       "hash-calc": [
         {
-          "extract": "zip",
           "paths": [
             "rusty_metronome.aux2"
           ],
