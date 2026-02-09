@@ -11705,7 +11705,7 @@
       "uninstall": [
         {
           "action": "delete",
-          "path": "{scriptsDir}/二値化.anm2)"
+          "path": "{scriptsDir}/二値化.anm2"
         }
       ]
     },
@@ -11715,7 +11715,7 @@
         "release_date": "2025-07-28",
         "file": [
           {
-            "path": "{scriptsDir}/二値化.anm2)",
+            "path": "{scriptsDir}/二値化.anm2",
             "XXH3_128": "3adb21afee23fba9132f3bd2f53fba41"
           }
         ]
