@@ -1591,7 +1591,19 @@
     "latest-version": "8.04",
     "popularity": 51,
     "trend": 27,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2010-2016",
+            "holder": "rigaya"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "エンコード"
     ],
@@ -1738,7 +1750,19 @@
     "latest-version": "2.05",
     "popularity": 151,
     "trend": 77,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "",
+            "holder": "rigaya"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "エンコード"
     ],
@@ -1885,7 +1909,19 @@
     "latest-version": "9.03",
     "popularity": 43,
     "trend": 25,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2014-2017",
+            "holder": "rigaya"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "エンコード"
     ],
@@ -2011,7 +2047,19 @@
     "latest-version": "2.09",
     "popularity": 55,
     "trend": 27,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "",
+            "holder": "rigaya"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "エンコード"
     ],
@@ -2729,7 +2777,19 @@
     "latest-version": "v1.13-for-beta22",
     "popularity": 175,
     "trend": 88,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "sigma-axis"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "クリッピング",
       "リサイズ"
@@ -3016,7 +3076,14 @@
     "latest-version": "ver2.0",
     "popularity": 154,
     "trend": 82,
-    "license": "",
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
     "tags": [
       "エフェクト"
     ],
@@ -3069,7 +3136,14 @@
     "latest-version": "ver1.0",
     "popularity": 177,
     "trend": 85,
-    "license": "",
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
     "tags": [
       "リサイズ"
     ],
@@ -3122,7 +3196,14 @@
     "latest-version": "ver1.0",
     "popularity": 123,
     "trend": 45,
-    "license": "",
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
     "tags": [
       "配置"
     ],
@@ -3175,7 +3256,14 @@
     "latest-version": "ver1.0",
     "popularity": 173,
     "trend": 84,
-    "license": "",
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
     "tags": [
       "振動"
     ],
@@ -3228,7 +3316,14 @@
     "latest-version": "ver3.0",
     "popularity": 98,
     "trend": 34,
-    "license": "",
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
     "tags": [
       "図形"
     ],
@@ -3281,7 +3376,14 @@
     "latest-version": "ver1.0",
     "popularity": 135,
     "trend": 63,
-    "license": "",
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
     "tags": [
       "図形",
       "ブラインド"
@@ -3335,7 +3437,14 @@
     "latest-version": "ver1.0",
     "popularity": 110,
     "trend": 43,
-    "license": "",
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
     "tags": [
       "変形"
     ],
@@ -3388,7 +3497,14 @@
     "latest-version": "ver1.0",
     "popularity": 99,
     "trend": 35,
-    "license": "",
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
     "tags": [
       "変形"
     ],
@@ -3918,7 +4034,19 @@
     "latest-version": "r1",
     "popularity": 108,
     "trend": 41,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Mr-Ojii"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [],
     "dependencies": [],
     "images": [
@@ -3979,7 +4107,19 @@
     "latest-version": "v1.1.2",
     "popularity": 95,
     "trend": 45,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Yuki Natori"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "アニメーション画像"
     ],
@@ -4039,7 +4179,19 @@
     "latest-version": "v1.1.3",
     "popularity": 219,
     "trend": 144,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Yuki Natori"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "アニメーション画像"
     ],
@@ -4099,7 +4251,19 @@
     "latest-version": "v1.1.2",
     "popularity": 65,
     "trend": 33,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Yuki Natori"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "アニメーション画像"
     ],
@@ -4159,7 +4323,19 @@
     "latest-version": "v1.1.3",
     "popularity": 41,
     "trend": 18,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Yuki Natori"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "アニメーション画像"
     ],
@@ -4453,7 +4629,19 @@
     "latest-version": "v1.12-for-beta25",
     "popularity": 196,
     "trend": 120,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "sigma-axis"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [],
     "dependencies": [],
     "images": [
@@ -4734,7 +4922,19 @@
     "latest-version": "v1.00-for-beta5",
     "popularity": 113,
     "trend": 49,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "sigma-axis"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "縁取り"
     ],
@@ -4792,7 +4992,19 @@
     "latest-version": "v1.03-for-beta25",
     "popularity": 170,
     "trend": 102,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "sigma-axis"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "図形",
       "パターン",
@@ -4984,7 +5196,19 @@
     "latest-version": "v1.04-for-beta20",
     "popularity": 94,
     "trend": 37,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "sigma-axis"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "座標補正",
       "補正"
@@ -5053,7 +5277,19 @@
     "latest-version": "v1.12-for-beta25",
     "popularity": 89,
     "trend": 45,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "sigma-axis"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "変形",
       "画像",
@@ -5342,7 +5578,19 @@
     "latest-version": "v1.05-for-beta25",
     "popularity": 156,
     "trend": 92,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "sigma-axis"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "立体",
       "影"
@@ -5456,7 +5704,19 @@
     "latest-version": "v1.10-for-beta30a",
     "popularity": 68,
     "trend": 62,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "sigma-axis"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "便利ツール"
     ],
@@ -5529,7 +5789,19 @@
     "latest-version": "v1.0.0",
     "popularity": 121,
     "trend": 64,
-    "license": "BSD 3-Clause",
+    "licenses": [
+      {
+        "type": "BSD-3-Clause",
+        "isCustom": true,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "zopty"
+          }
+        ],
+        "licenseBody": "BSD 3-Clause License\n\nCopyright (c) 2026, zopty\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+      }
+    ],
     "tags": [],
     "dependencies": [],
     "images": [
@@ -5583,7 +5855,19 @@
     "latest-version": "v1.0.0",
     "popularity": 140,
     "trend": 75,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "azurite"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [],
     "dependencies": [],
     "images": [
@@ -5644,7 +5928,19 @@
     "latest-version": "v2.0.0beta1",
     "popularity": 386,
     "trend": 301,
-    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "oov"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
     "tags": [
       "便利ツール"
     ],
