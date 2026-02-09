@@ -7,9 +7,9 @@
     "description": "./md/Kenkun.AviUtlExEdit2.md",
     "author": "Kenくん",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-    "latest-version": "beta32",
-    "popularity": 767,
-    "trend": 442,
+    "latest-version": "beta31",
+    "popularity": 555,
+    "trend": 306,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -30,7 +30,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta32_setup.exe"
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta31_setup.exe"
       },
       "install": [
         {
@@ -473,30 +473,20 @@
             "XXH3_128": "353bcb900b5d0fffed1a89972c9e52b2"
           }
         ]
-      },
-      {
-        "version": "beta32",
-        "release_date": "2026-02-08",
-        "file": [
-          {
-            "path": "{appDir}/aviutl2.exe",
-            "XXH3_128": "8588626d8cf495ed947c627be2ce5aba"
-          }
-        ]
       }
     ]
   },
   {
     "id": "hebiiro.al2_jd",
     "name": "ダークモード化MOD",
-    "type": "入力プラグイン",
+    "type": "MOD",
     "summary": "AviUtl2を完全にダークモード化するプラグイン",
     "description": "https://raw.githubusercontent.com/hebiiro/al2_jd/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_jd/",
     "latest-version": "r30",
-    "popularity": 585,
-    "trend": 187,
+    "popularity": 416,
+    "trend": 144,
     "licenses": [
       {
         "type": "MIT",
@@ -864,8 +854,8 @@
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_wav_saver/",
     "latest-version": "r3",
-    "popularity": 207,
-    "trend": 104,
+    "popularity": 162,
+    "trend": 69,
     "licenses": [
       {
         "type": "MIT",
@@ -975,8 +965,8 @@
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x264guiEx",
     "latest-version": "4.09",
-    "popularity": 740,
-    "trend": 230,
+    "popularity": 536,
+    "trend": 163,
     "licenses": [
       {
         "type": "MIT",
@@ -1180,8 +1170,8 @@
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x265guiEx",
     "latest-version": "5.06",
-    "popularity": 165,
-    "trend": 102,
+    "popularity": 131,
+    "trend": 70,
     "licenses": [
       {
         "type": "MIT",
@@ -1350,8 +1340,8 @@
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/NVEnc",
     "latest-version": "9.10",
-    "popularity": 224,
-    "trend": 135,
+    "popularity": 186,
+    "trend": 105,
     "licenses": [
       {
         "type": "MIT",
@@ -1581,613 +1571,6 @@
     ]
   },
   {
-    "id": "rigaya.QSVEnc",
-    "name": "QSVEnc",
-    "type": "出力プラグイン",
-    "summary": "QSVによる高速エンコードの性能実験",
-    "description": "このソフトウェアは、IntelのCPUに搭載されているHWエンコーダ(QSV)の画質や速度といった性能の実験を目的としています。",
-    "author": "rigaya",
-    "repoURL": "https://github.com/rigaya/QSVEnc",
-    "latest-version": "8.04",
-    "popularity": 51,
-    "trend": 27,
-    "license": "MIT",
-    "tags": [
-      "エンコード"
-    ],
-    "dependencies": [],
-    "images": [],
-    "installer": {
-      "source": {
-        "github": {
-          "owner": "rigaya",
-          "repo": "QSVEnc",
-          "pattern": "^AviUtl2_QSVEnc.*install\\.exe$"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "extract_sfx"
-        },
-        {
-          "action": "run_auo_setup",
-          "path": "{tmp}/Plugin/exe_files/auo_setup2.exe"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/QSVEnc.auo2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/QSVEnc.conf"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/QSVEnc.ini"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/QSVEnc.en.ini"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/QSVEnc.zh.ini"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/QSVEnc_stg/"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "7.92",
-        "release_date": "2025-07-08",
-        "file": [
-          {
-            "path": "{pluginsDir}/QSVEnc.auo",
-            "XXH3_128": "668468de708dfaa4d749b12e208d775a"
-          }
-        ]
-      },
-      {
-        "version": "7.93",
-        "release_date": "2025-07-16",
-        "file": [
-          {
-            "path": "{pluginsDir}/QSVEnc.auo",
-            "XXH3_128": "06885f47a755b8666a6cfc14a2e0664c"
-          }
-        ]
-      },
-      {
-        "version": "7.94",
-        "release_date": "2025-07-19",
-        "file": [
-          {
-            "path": "{pluginsDir}/QSVEnc.auo",
-            "XXH3_128": "e5a1d3e26e380ac469867de4ec384c2f"
-          }
-        ]
-      },
-      {
-        "version": "8.00",
-        "release_date": "2025-08-27",
-        "file": [
-          {
-            "path": "{pluginsDir}/QSVEnc.auo2",
-            "XXH3_128": "935a683702f585386d68867a5b78282b"
-          }
-        ]
-      },
-      {
-        "version": "8.01",
-        "release_date": "2025-09-29",
-        "file": [
-          {
-            "path": "{pluginsDir}/QSVEnc.auo2",
-            "XXH3_128": "9221ef8cc5d2db35639983fa840077b8"
-          }
-        ]
-      },
-      {
-        "version": "8.02",
-        "release_date": "2025-10-24",
-        "file": [
-          {
-            "path": "{pluginsDir}/QSVEnc.auo2",
-            "XXH3_128": "9b1d9e44a75f710a01868e1f3fe3bdc7"
-          }
-        ]
-      },
-      {
-        "version": "8.03",
-        "release_date": "2025-11-09",
-        "file": [
-          {
-            "path": "{pluginsDir}/QSVEnc.auo2",
-            "XXH3_128": "a4163f0419203bcbc594e5e686295c36"
-          }
-        ]
-      },
-      {
-        "version": "8.04",
-        "release_date": "2026-01-03",
-        "file": [
-          {
-            "path": "{pluginsDir}/QSVEnc.auo2",
-            "XXH3_128": "febd1b68e52931eb2b5c42eb14351674"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "rigaya.ffmpegOut",
-    "name": "ffmpegOut",
-    "type": "出力プラグイン",
-    "summary": "Aviutlのffmpegを使用した出力プラグイン",
-    "description": "ffmpegOut は、ffmpegを使用してエンコードを行うAviutlの出力プラグインです。",
-    "author": "rigaya",
-    "repoURL": "https://github.com/rigaya/ffmpegOut",
-    "latest-version": "2.05",
-    "popularity": 151,
-    "trend": 77,
-    "license": "MIT",
-    "tags": [
-      "エンコード"
-    ],
-    "dependencies": [],
-    "images": [],
-    "installer": {
-      "source": {
-        "github": {
-          "owner": "rigaya",
-          "repo": "ffmpegOut",
-          "pattern": "^AviUtl2_ffmpegOut.*install\\.exe$"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "extract_sfx"
-        },
-        {
-          "action": "run_auo_setup",
-          "path": "{tmp}/Plugin/exe_files/auo_setup2.exe"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/ffmpegOut.auo2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/ffmpegOut.conf"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/ffmpegOut.ini"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/ffmpegOut.en.ini"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/ffmpegOut.zh.ini"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/ffmpegOut_stg/"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "1.14",
-        "release_date": "2025-07-08",
-        "file": [
-          {
-            "path": "{pluginsDir}/ffmpegOut.auo",
-            "XXH3_128": "034938a1acc97454805073fcb40d6292"
-          }
-        ]
-      },
-      {
-        "version": "1.15",
-        "release_date": "2025-07-14",
-        "file": [
-          {
-            "path": "{pluginsDir}/ffmpegOut.auo",
-            "XXH3_128": "2d80a5cc6ea84cfa072ac6efd23d2a96"
-          }
-        ]
-      },
-      {
-        "version": "2.00",
-        "release_date": "2025-08-17",
-        "file": [
-          {
-            "path": "{pluginsDir}/ffmpegOut.auo2",
-            "XXH3_128": "a1569680a84888a184028a5e39ee8897"
-          }
-        ]
-      },
-      {
-        "version": "2.01",
-        "release_date": "2025-08-19",
-        "file": [
-          {
-            "path": "{pluginsDir}/ffmpegOut.auo2",
-            "XXH3_128": "70c0de112d08aa70b0ed92c7d1b00955"
-          }
-        ]
-      },
-      {
-        "version": "2.02",
-        "release_date": "2025-08-31",
-        "file": [
-          {
-            "path": "{pluginsDir}/ffmpegOut.auo2",
-            "XXH3_128": "3ccfd53c9155f086b118dca2ff4c4a39"
-          }
-        ]
-      },
-      {
-        "version": "2.03",
-        "release_date": "2025-09-15",
-        "file": [
-          {
-            "path": "{pluginsDir}/ffmpegOut.auo2",
-            "XXH3_128": "ce2c553e5860c69b14e0ae34f2ddf440"
-          }
-        ]
-      },
-      {
-        "version": "2.04",
-        "release_date": "2025-12-27",
-        "file": [
-          {
-            "path": "{pluginsDir}/ffmpegOut.auo2",
-            "XXH3_128": "11bff1b1b1fb258297e899f99147af74"
-          }
-        ]
-      },
-      {
-        "version": "2.05",
-        "release_date": "2025-12-28",
-        "file": [
-          {
-            "path": "{pluginsDir}/ffmpegOut.auo2",
-            "XXH3_128": "eeae2a53bdf902aaf2e0b0a5db16572e"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "rigaya.VCEEnc",
-    "name": "VCEEnc",
-    "type": "出力プラグイン",
-    "summary": "VCEによる高速エンコードの性能実験",
-    "description": "./md/rigaya.VCEEnc.md",
-    "author": "rigaya",
-    "repoURL": "https://github.com/rigaya/VCEEnc",
-    "latest-version": "9.03",
-    "popularity": 43,
-    "trend": 25,
-    "license": "MIT",
-    "tags": [
-      "エンコード"
-    ],
-    "dependencies": [],
-    "installer": {
-      "source": {
-        "github": {
-          "owner": "rigaya",
-          "repo": "VCEEnc",
-          "pattern": "^AviUtl2_VCEEnc.*install\\.exe$"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "extract_sfx"
-        },
-        {
-          "action": "run_auo_setup",
-          "path": "{tmp}/Plugin/exe_files/auo_setup2.exe"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/VCEEnc.auo2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/VCEEnc.conf"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/VCEEnc.ini"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/VCEEnc.en.ini"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/VCEEnc.zh.ini"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/VCEEnc_stg/"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "8.37",
-        "release_date": "2025-06-22",
-        "file": [
-          {
-            "path": "{pluginsDir}/VCEEnc.auo",
-            "XXH3_128": "87531c85d781ef75cb890393d0b70915"
-          }
-        ]
-      },
-      {
-        "version": "8.38",
-        "release_date": "2025-07-16",
-        "file": [
-          {
-            "path": "{pluginsDir}/VCEEnc.auo",
-            "XXH3_128": "8e31a5b77ee0238dd3818492f7e94a0f"
-          }
-        ]
-      },
-      {
-        "version": "9.00",
-        "release_date": "2025-09-02",
-        "file": [
-          {
-            "path": "{pluginsDir}/VCEEnc.auo2",
-            "XXH3_128": "5d8a5350f0771b4185d53f19c0a1671f"
-          }
-        ]
-      },
-      {
-        "version": "9.01",
-        "release_date": "2025-10-02",
-        "file": [
-          {
-            "path": "{pluginsDir}/VCEEnc.auo2",
-            "XXH3_128": "cc06963f433819705e30f2e32073d85a"
-          }
-        ]
-      },
-      {
-        "version": "9.02",
-        "release_date": "2025-11-08",
-        "file": [
-          {
-            "path": "{pluginsDir}/VCEEnc.auo2",
-            "XXH3_128": "a348271795108239ce6ffb8af29e6987"
-          }
-        ]
-      },
-      {
-        "version": "9.03",
-        "release_date": "2026-01-03",
-        "file": [
-          {
-            "path": "{pluginsDir}/VCEEnc.auo2",
-            "XXH3_128": "c2406b18f83ee044c8a2662fec689a86"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "rigaya.svtAV1guiEx",
-    "name": "svtAV1guiEx",
-    "type": "出力プラグイン",
-    "summary": "拡張 SVT-AV1 出力(GUI) Ex",
-    "description": "拡張 SVT-AV1 出力(GUI) Ex (svtAV1guiEx) は、SVT-AV1を使用してエンコードを行うAviutlの出力プラグインです。",
-    "author": "rigaya",
-    "repoURL": "https://github.com/rigaya/svtAV1guiEx",
-    "latest-version": "2.09",
-    "popularity": 55,
-    "trend": 27,
-    "license": "MIT",
-    "tags": [
-      "エンコード"
-    ],
-    "dependencies": [],
-    "images": [],
-    "installer": {
-      "source": {
-        "github": {
-          "owner": "rigaya",
-          "repo": "svtAV1guiEx",
-          "pattern": "^AviUtl2_svtAV1guiEx.*install\\.exe$"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "extract_sfx"
-        },
-        {
-          "action": "run_auo_setup",
-          "path": "{tmp}/Plugin/exe_files/auo_setup2.exe"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/svtAV1guiEx.auo2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/svtAV1guiEx.conf"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/svtAV1guiEx.ini"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/svtAV1guiEx.en.ini"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/svtAV1guiEx.zh.ini"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/svtAV1guiEx_stg/"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "1.28",
-        "release_date": "2025-07-08",
-        "file": [
-          {
-            "path": "{pluginsDir}/svtAV1guiEx.auo",
-            "XXH3_128": "c162d3efab802ef5b7f9425e0dbf60af"
-          }
-        ]
-      },
-      {
-        "version": "1.29",
-        "release_date": "2025-07-13",
-        "file": [
-          {
-            "path": "{pluginsDir}/svtAV1guiEx.auo",
-            "XXH3_128": "fc510b623147662d618b1c66f06802ab"
-          }
-        ]
-      },
-      {
-        "version": "2.00",
-        "release_date": "2025-08-19",
-        "file": [
-          {
-            "path": "{pluginsDir}/svtAV1guiEx.auo2",
-            "XXH3_128": "ca4ae4a8212f5c8780af0fa6cd1b30e8"
-          }
-        ]
-      },
-      {
-        "version": "2.01",
-        "release_date": "2025-09-05",
-        "file": [
-          {
-            "path": "{pluginsDir}/svtAV1guiEx.auo2",
-            "XXH3_128": "168e2856893e46097d2ca291b4761518"
-          }
-        ]
-      },
-      {
-        "version": "2.02",
-        "release_date": "2025-09-15",
-        "file": [
-          {
-            "path": "{pluginsDir}/svtAV1guiEx.auo2",
-            "XXH3_128": "ca7c2e6ea73d42824c83f927f8c050be"
-          }
-        ]
-      },
-      {
-        "version": "2.03",
-        "release_date": "2025-09-20",
-        "file": [
-          {
-            "path": "{pluginsDir}/svtAV1guiEx.auo2",
-            "XXH3_128": "219a4f4474bc837e2e490260546c4dfd"
-          }
-        ]
-      },
-      {
-        "version": "2.04",
-        "release_date": "2025-09-27",
-        "file": [
-          {
-            "path": "{pluginsDir}/svtAV1guiEx.auo2",
-            "XXH3_128": "512dedc894de95ea78a67e329350a130"
-          }
-        ]
-      },
-      {
-        "version": "2.05",
-        "release_date": "2025-10-16",
-        "file": [
-          {
-            "path": "{pluginsDir}/svtAV1guiEx.auo2",
-            "XXH3_128": "9e6f425a44a95d780ef5dd96a3077395"
-          }
-        ]
-      },
-      {
-        "version": "2.06",
-        "release_date": "2025-11-04",
-        "file": [
-          {
-            "path": "{pluginsDir}/svtAV1guiEx.auo2",
-            "XXH3_128": "eb743bf91fb19c51cc1d5f21036501d8"
-          }
-        ]
-      },
-      {
-        "version": "2.07",
-        "release_date": "2025-12-05",
-        "file": [
-          {
-            "path": "{pluginsDir}/svtAV1guiEx.auo2",
-            "XXH3_128": "08535f9e6b039bda198e8f948448fd5e"
-          }
-        ]
-      },
-      {
-        "version": "2.08",
-        "release_date": "2025-12-27",
-        "file": [
-          {
-            "path": "{pluginsDir}/svtAV1guiEx.auo2",
-            "XXH3_128": "541b0671940c3d3816cbee5101ff2c08"
-          }
-        ]
-      },
-      {
-        "version": "2.09",
-        "release_date": "2025-12-28",
-        "file": [
-          {
-            "path": "{pluginsDir}/svtAV1guiEx.auo2",
-            "XXH3_128": "a810bfaa05f549ffb9d5bae2fb864ed4"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "Mr-Ojii.L-SMASH-Works",
     "name": "L-SMASH-Works",
     "type": "入力プラグイン",
@@ -2196,8 +1579,8 @@
     "author": "Mr-Ojii",
     "repoURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds",
     "latest-version": "r1262",
-    "popularity": 779,
-    "trend": 460,
+    "popularity": 568,
+    "trend": 344,
     "licenses": [
       {
         "type": "MIT",
@@ -2705,115 +2088,6 @@
             "XXH3_128": "7ec6605cd45131c6f08a1fecd09339f8"
           }
         ]
-      },
-      {
-        "version": "r1262",
-        "release_date": "2026-02-08",
-        "file": [
-          {
-            "path": "{pluginsDir}/lwinput.aui2",
-            "XXH3_128": "e05608ebad911d793556e4f54fa6f7e2"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "sigma-axis.AutoClipping_S",
-    "name": "AutoClipping_S",
-    "type": "スクリプト",
-    "summary": "オブジェクトの上下左右の透明領域をクリッピングするスクリプト",
-    "description": "./md/sigma-axis.AutoClipping_S.md",
-    "author": "sigma-axis",
-    "repoURL": "https://github.com/sigma-axis/aviutl2_script_AutoClipping_S",
-    "latest-version": "v1.13-for-beta22",
-    "popularity": 175,
-    "trend": 88,
-    "license": "MIT",
-    "tags": [
-      "クリッピング",
-      "リサイズ"
-    ],
-    "dependencies": [],
-    "images": [],
-    "installer": {
-      "source": {
-        "github": {
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_AutoClipping_S",
-          "pattern": "^aviutl2_script_AutoClipping_S-.*\\.zip$"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "extract"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/AutoClipping_S.anm2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/AutoClipping_S.anm2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v1.00-for-beta3",
-        "release_date": "2025-07-27",
-        "file": [
-          {
-            "path": "{scriptsDir}/AutoClipping_S.anm2",
-            "XXH3_128": "f22b341fcbff8e9259a1d3183497724b"
-          }
-        ]
-      },
-      {
-        "version": "v1.10-for-beta8",
-        "release_date": "2025-08-24",
-        "file": [
-          {
-            "path": "{scriptsDir}/AutoClipping_S.anm2",
-            "XXH3_128": "79207470804985492f66cefe5de1b6dc"
-          }
-        ]
-      },
-      {
-        "version": "v1.11-for-beta12",
-        "release_date": "2025-09-27",
-        "file": [
-          {
-            "path": "{scriptsDir}/AutoClipping_S.anm2",
-            "XXH3_128": "b1ca2633e7ce8e20da00665fb875abc7"
-          }
-        ]
-      },
-      {
-        "version": "v1.12-for-beta15",
-        "release_date": "2025-10-14",
-        "file": [
-          {
-            "path": "{scriptsDir}/AutoClipping_S.anm2",
-            "XXH3_128": "b7c011ff5e3c1889f0eb75771a13b839"
-          }
-        ]
-      },
-      {
-        "version": "v1.13-for-beta22",
-        "release_date": "2025-12-01",
-        "file": [
-          {
-            "path": "{scriptsDir}/AutoClipping_S.anm2",
-            "XXH3_128": "59a47af0da79d3519acc4d3836937620"
-          }
-        ]
       }
     ]
   },
@@ -2826,8 +2100,8 @@
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_RadRotDirBlur_S",
     "latest-version": "v1.05-for-beta25",
-    "popularity": 225,
-    "trend": 134,
+    "popularity": 180,
+    "trend": 93,
     "licenses": [
       {
         "type": "MIT",
@@ -2945,8 +2219,8 @@
     "author": "gometh",
     "repoURL": "https://x.com/gometh55/status/1942624351028928756",
     "latest-version": "v1",
-    "popularity": 161,
-    "trend": 95,
+    "popularity": 128,
+    "trend": 67,
     "licenses": [
       {
         "type": "不明",
@@ -3006,431 +2280,6 @@
     ]
   },
   {
-    "id": "momo_neeeko.rainbow_grad",
-    "name": "虹色グラデーション",
-    "type": "スクリプト",
-    "summary": "虹色グラデーションを作成するエフェクト",
-    "description": "虹色グラデーションを作成するエフェクト",
-    "author": "もも猫",
-    "repoURL": "https://x.com/momo_neeeko/status/1947433839112163352",
-    "latest-version": "ver2.0",
-    "popularity": 154,
-    "trend": 82,
-    "license": "",
-    "tags": [
-      "エフェクト"
-    ],
-    "dependencies": [],
-    "images": [],
-    "installer": {
-      "source": {
-        "GoogleDrive": {
-          "id": "1fJW7QOlam2qO5ApxjkTqjrrXRyh0jS-Y"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "copy",
-          "from": "{download}/虹色グラデーション.anm2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/虹色グラデーション.anm2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "ver2.0",
-        "release_date": "2025-07-22",
-        "file": [
-          {
-            "path": "{scriptsDir}/虹色グラデーション.anm2",
-            "XXH3_128": "137a1114a00a1882194d40ba3763a62c"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "momo_neeeko.squash_resize",
-    "name": "潰す",
-    "type": "スクリプト",
-    "summary": "いい感じに縦と横のリサイズを行います",
-    "description": "いい感じに縦と横のリサイズを行います",
-    "author": "もも猫",
-    "repoURL": "https://x.com/momo_neeeko/status/1944343165852426666",
-    "latest-version": "ver1.0",
-    "popularity": 177,
-    "trend": 85,
-    "license": "",
-    "tags": [
-      "リサイズ"
-    ],
-    "dependencies": [],
-    "images": [],
-    "installer": {
-      "source": {
-        "GoogleDrive": {
-          "id": "1jONjj4D09Fp23X2z1lP7Q8jZJhHjEg4s"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "copy",
-          "from": "{download}/潰す.anm2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/潰す.anm2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "ver1.0",
-        "release_date": "2025-07-13",
-        "file": [
-          {
-            "path": "{scriptsDir}/潰す.anm2",
-            "XXH3_128": "6a476f867ee69aefd81ea07aa0280d0e"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "momo_neeeko.rounded_rect_layout",
-    "name": "角丸長方形配置",
-    "type": "スクリプト",
-    "summary": "角丸長方形配置状に個別オブジェクトを配置する",
-    "description": "角丸長方形配置状に個別オブジェクトを配置する",
-    "author": "もも猫",
-    "repoURL": "https://x.com/momo_neeeko/status/1944343165852426666",
-    "latest-version": "ver1.0",
-    "popularity": 123,
-    "trend": 45,
-    "license": "",
-    "tags": [
-      "配置"
-    ],
-    "dependencies": [],
-    "images": [],
-    "installer": {
-      "source": {
-        "GoogleDrive": {
-          "id": "1SmP5Vrz54UwManD0SE6rccwU-F4pI-Jy"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "copy",
-          "from": "{download}/角丸長方形配置.anm2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/角丸長方形配置.anm2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "ver1.0",
-        "release_date": "2025-07-13",
-        "file": [
-          {
-            "path": "{scriptsDir}/角丸長方形配置.anm2",
-            "XXH3_128": "99a7e976b19d1eeabe0d868d27f798d1"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "momo_neeeko.bpm_shake",
-    "name": "BPMカクカク振動",
-    "type": "スクリプト",
-    "summary": "BPMカクカク振動",
-    "description": "BPMカクカク振動",
-    "author": "もも猫",
-    "repoURL": "https://x.com/momo_neeeko/status/1944343165852426666",
-    "latest-version": "ver1.0",
-    "popularity": 173,
-    "trend": 84,
-    "license": "",
-    "tags": [
-      "振動"
-    ],
-    "dependencies": [],
-    "images": [],
-    "installer": {
-      "source": {
-        "GoogleDrive": {
-          "id": "195g8P085ExNtNje-KtXm8fsHduimGJKK"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "copy",
-          "from": "{download}/BPMカクカク振動.anm2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/BPMカクカク振動.anm2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "ver1.0",
-        "release_date": "2025-07-13",
-        "file": [
-          {
-            "path": "{scriptsDir}/BPMカクカク振動.anm2",
-            "XXH3_128": "6efa5c90f7a5d4ac6bf463c853a2c218"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "Nagomiku.shape_by_value",
-    "name": "値で図形",
-    "type": "スクリプト",
-    "summary": "xyサイズを指定して図形を描画するスクリプト",
-    "description": "xyサイズを指定して図形を描画するスクリプト.ライン幅は少し違った感じになってます",
-    "author": "Nagomiku",
-    "repoURL": "https://x.com/nagomiku7359/status/1943304659487396140",
-    "latest-version": "ver3.0",
-    "popularity": 98,
-    "trend": 34,
-    "license": "",
-    "tags": [
-      "図形"
-    ],
-    "dependencies": [],
-    "images": [],
-    "installer": {
-      "source": {
-        "GoogleDrive": {
-          "id": "13oSfruq51PIMBugVxzziYtEuN0hrVmBJ"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "copy",
-          "from": "{download}/値で図形.obj2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/値で図形.obj2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "ver3.0",
-        "release_date": "2025-07-10",
-        "file": [
-          {
-            "path": "{scriptsDir}/値で図形.obj2",
-            "XXH3_128": "c3f2dda3ffd87fb13f7d7f9ba207cc25"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "tt_xiaop.ougi_blind",
-    "name": "扇ブラインド",
-    "type": "スクリプト",
-    "summary": "扇型のブラインドを作成するスクリプト",
-    "description": "画像や映像を「扇形」で複数に分割して切り抜くスクリプト",
-    "author": "テツ",
-    "repoURL": "https://x.com/tt_xiaop/status/1943165775189270911",
-    "latest-version": "ver1.0",
-    "popularity": 135,
-    "trend": 63,
-    "license": "",
-    "tags": [
-      "図形",
-      "ブラインド"
-    ],
-    "dependencies": [],
-    "images": [],
-    "installer": {
-      "source": {
-        "GoogleDrive": {
-          "id": "1z8hF5OVRYpj-4FUtVmHPnMdbpwdPt5yp"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "copy",
-          "from": "{download}/扇ブラインド.anm2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/扇ブラインド.anm2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "ver1.0",
-        "release_date": "2025-07-10",
-        "file": [
-          {
-            "path": "{scriptsDir}/扇ブラインド.anm2",
-            "XXH3_128": "c053fa3801e80f0632a4db32688ba992"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "tt_xiaop.fold",
-    "name": "折り畳み",
-    "type": "スクリプト",
-    "summary": "画像や映像を折りたたんだり広げたりするスクリプト",
-    "description": "画像や映像を折りたたんだり広げたりするスクリプト",
-    "author": "テツ",
-    "repoURL": "https://x.com/tt_xiaop/status/1942481707682115712",
-    "latest-version": "ver1.0",
-    "popularity": 110,
-    "trend": 43,
-    "license": "",
-    "tags": [
-      "変形"
-    ],
-    "dependencies": [],
-    "images": [],
-    "installer": {
-      "source": {
-        "GoogleDrive": {
-          "id": "14oGLjNDr4yxY6HyFu_u31bQi3O0hpwov"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "copy",
-          "from": "{download}/折り畳み.anm2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/折り畳み.anm2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "ver1.0",
-        "release_date": "2025-07-08",
-        "file": [
-          {
-            "path": "{scriptsDir}/折り畳み.anm2",
-            "XXH3_128": "8ba4702f00fd6229983be0c8fcb20624"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "momo_neeeko.fold",
-    "name": "折りたたむ",
-    "type": "スクリプト",
-    "summary": "オブジェクトを折りたたむスクリプト",
-    "description": "オブジェクトを折りたたむスクリプト",
-    "author": "もも猫",
-    "repoURL": "https://x.com/momo_neeeko/status/1946436761141629252",
-    "latest-version": "ver1.0",
-    "popularity": 99,
-    "trend": 35,
-    "license": "",
-    "tags": [
-      "変形"
-    ],
-    "dependencies": [],
-    "images": [],
-    "installer": {
-      "source": {
-        "GoogleDrive": {
-          "id": "1XZeI8fm8pswOl6-C-GphCBk7Nbk5xyEy"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "copy",
-          "from": "{download}/折りたたむ.anm2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/折りたたむ.anm2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "ver1.0",
-        "release_date": "2025-07-19",
-        "file": [
-          {
-            "path": "{scriptsDir}/折りたたむ.anm2",
-            "XXH3_128": "c526b8dff4056f1d5318dbc13af534c6"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "korarei.Stylize_K",
     "name": "@Stylize_K",
     "type": "スクリプト",
@@ -3439,8 +2288,8 @@
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_Stylize_K_Script",
     "latest-version": "v1.2.1",
-    "popularity": 152,
-    "trend": 134,
+    "popularity": 128,
+    "trend": 110,
     "licenses": [
       {
         "type": "MIT",
@@ -3550,8 +2399,8 @@
     "author": "Re*Index. (ot_inc)",
     "repoURL": "https://github.com/reindex-ot/reindex_AviUtl2_Language",
     "latest-version": "Beta29",
-    "popularity": 74,
-    "trend": 51,
+    "popularity": 63,
+    "trend": 44,
     "licenses": [
       {
         "type": "WTFPL license",
@@ -3633,8 +2482,8 @@
     "author": "セイル",
     "repoURL": "https://github.com/seilor0/roundedPolygon_sl",
     "latest-version": "v1.2.1",
-    "popularity": 145,
-    "trend": 115,
+    "popularity": 118,
+    "trend": 105,
     "licenses": [
       {
         "type": "MIT",
@@ -3737,8 +2586,8 @@
     "author": "セイル",
     "repoURL": "https://github.com/seilor0/twinkle_sl",
     "latest-version": "v1.2.1",
-    "popularity": 172,
-    "trend": 143,
+    "popularity": 135,
+    "trend": 122,
     "licenses": [
       {
         "type": "MIT",
@@ -3838,8 +2687,8 @@
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_memo",
     "latest-version": "r1",
-    "popularity": 124,
-    "trend": 62,
+    "popularity": 106,
+    "trend": 42,
     "licenses": [
       {
         "type": "MIT",
@@ -3908,307 +2757,6 @@
     ]
   },
   {
-    "id": "Mr-Ojii.WebPFileReader-Plugin",
-    "name": "WebPFileReader-Plugin",
-    "type": "入力プラグイン",
-    "summary": "Animated WebP を読み込むために開発した AviUtl ExEdit2 用入力プラグイン",
-    "description": "./md/Mr-Ojii.WebPFileReader-Plugin.md",
-    "author": "Mr-Ojii",
-    "repoURL": "https://github.com/Mr-Ojii/AviUtl2-WebPFileReader-Plugin",
-    "latest-version": "r1",
-    "popularity": 108,
-    "trend": 41,
-    "license": "MIT",
-    "tags": [],
-    "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "",
-        "infoImg": []
-      }
-    ],
-    "installer": {
-      "source": {
-        "github": {
-          "owner": "Mr-Ojii",
-          "repo": "AviUtl2-WebPFileReader-Plugin",
-          "pattern": "^webpinput\\\\.zip$"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "extract"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/webpinput.aui2",
-          "to": "{pluginsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/webpinput.aui2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "r1",
-        "release_date": "2025-09-04",
-        "file": [
-          {
-            "path": "{pluginsDir}/webpinput.aui2",
-            "XXH3_128": "f275d8f3a52c15ab93dbaf03d5b180a9"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "yu7400ki.anmImOutput-apng",
-    "name": "APNG出力プラグイン",
-    "type": "出力プラグイン",
-    "summary": "AviUtl ExEdit2で動画をアニメーション画像（APNG）として出力するプラグイン",
-    "description": "./md/yu7400ki.anmImOutput-apng.md",
-    "author": "yu7400ki",
-    "repoURL": "https://yu7400ki.me/aviutl2-animated-image-output/",
-    "latest-version": "v1.1.2",
-    "popularity": 95,
-    "trend": 45,
-    "license": "MIT",
-    "tags": [
-      "アニメーション画像"
-    ],
-    "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "",
-        "infoImg": []
-      }
-    ],
-    "installer": {
-      "source": {
-        "direct": "https://github.com/yu7400ki/aviutl2-animated-image-output/releases/download/apng-v1.1.2/png_output.auo2"
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/png_output.auo2",
-          "to": "{pluginsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/png_output.auo2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/png_output.ini"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v1.1.2",
-        "release_date": "2025-08-22",
-        "file": [
-          {
-            "path": "{pluginsDir}/png_output.auo2",
-            "XXH3_128": "bee7ddaa1d20bc5c06adf225cef05f3a"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "yu7400ki.anmImOutput-gif",
-    "name": "GIF出力プラグイン",
-    "type": "出力プラグイン",
-    "summary": "AviUtl ExEdit2で動画をアニメーション画像（GIF）として出力するプラグイン",
-    "description": "./md/yu7400ki.anmImOutput-gif.md",
-    "author": "yu7400ki",
-    "repoURL": "https://yu7400ki.me/aviutl2-animated-image-output/",
-    "latest-version": "v1.1.3",
-    "popularity": 219,
-    "trend": 144,
-    "license": "MIT",
-    "tags": [
-      "アニメーション画像"
-    ],
-    "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "",
-        "infoImg": []
-      }
-    ],
-    "installer": {
-      "source": {
-        "direct": "https://github.com/yu7400ki/aviutl2-animated-image-output/releases/download/gif-v1.1.3/gif_output.auo2"
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/gif_output.auo2",
-          "to": "{pluginsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/gif_output.auo2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/gif_output.ini"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v1.1.3",
-        "release_date": "2025-08-22",
-        "file": [
-          {
-            "path": "{pluginsDir}/gif_output.auo2",
-            "XXH3_128": "68047d9f32a1d4e2f972521649e1eeda"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "yu7400ki.anmImOutput-webp",
-    "name": "WebP出力プラグイン",
-    "type": "出力プラグイン",
-    "summary": "AviUtl ExEdit2で動画をアニメーション画像（WebP）として出力するプラグイン",
-    "description": "./md/yu7400ki.anmImOutput-webp.md",
-    "author": "yu7400ki",
-    "repoURL": "https://yu7400ki.me/aviutl2-animated-image-output/",
-    "latest-version": "v1.1.2",
-    "popularity": 65,
-    "trend": 33,
-    "license": "MIT",
-    "tags": [
-      "アニメーション画像"
-    ],
-    "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "",
-        "infoImg": []
-      }
-    ],
-    "installer": {
-      "source": {
-        "direct": "https://github.com/yu7400ki/aviutl2-animated-image-output/releases/download/webp-v1.1.2/webp_output.auo2"
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/webp_output.auo2",
-          "to": "{pluginsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/webp_output.auo2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/webp_output.ini"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v1.1.2",
-        "release_date": "2025-08-22",
-        "file": [
-          {
-            "path": "{pluginsDir}/webp_output.auo2",
-            "XXH3_128": "9a3acd8718b1d143895b7082ac0e78ce"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "yu7400ki.anmImOutput-avif",
-    "name": "AVIF出力プラグイン",
-    "type": "出力プラグイン",
-    "summary": "AviUtl ExEdit2で動画をアニメーション画像（AVIF）として出力するプラグイン",
-    "description": "./md/yu7400ki.anmImOutput-avif.md",
-    "author": "yu7400ki",
-    "repoURL": "https://yu7400ki.me/aviutl2-animated-image-output/",
-    "latest-version": "v1.1.3",
-    "popularity": 41,
-    "trend": 18,
-    "license": "MIT",
-    "tags": [
-      "アニメーション画像"
-    ],
-    "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "",
-        "infoImg": []
-      }
-    ],
-    "installer": {
-      "source": {
-        "direct": "https://github.com/yu7400ki/aviutl2-animated-image-output/releases/download/avif-v1.1.3/avif_output.auo2"
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/avif_output.auo2",
-          "to": "{pluginsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/avif_output.auo2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/avif_output.ini"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v1.1.3",
-        "release_date": "2025-08-22",
-        "file": [
-          {
-            "path": "{pluginsDir}/avif_output.auo2",
-            "XXH3_128": "b562952c989e495087862a41431aad9e"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "sigma-axis.Basic_S",
     "name": "Basic_S",
     "type": "スクリプト",
@@ -4217,8 +2765,8 @@
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Basic_S",
     "latest-version": "v1.80-for-beta29",
-    "popularity": 373,
-    "trend": 288,
+    "popularity": 290,
+    "trend": 261,
     "licenses": [
       {
         "type": "MIT",
@@ -4443,115 +2991,6 @@
     ]
   },
   {
-    "id": "sigma-axis.Path_S",
-    "name": "Path_S",
-    "type": "スクリプト",
-    "summary": "折れ線やベジェ曲線で図形を描画，フィルタ効果をかけるスクリプト",
-    "description": "./md/sigma-axis.Path_S.md",
-    "author": "sigma-axis",
-    "repoURL": "https://github.com/sigma-axis/aviutl2_script_Path_S/",
-    "latest-version": "v1.12-for-beta25",
-    "popularity": 196,
-    "trend": 120,
-    "license": "MIT",
-    "tags": [],
-    "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "",
-        "infoImg": []
-      }
-    ],
-    "installer": {
-      "source": {
-        "github": {
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_Path_S",
-          "pattern": "^aviutl2_script_Path_S.*\\.zip$"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "extract"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/@Path_S.anm2",
-          "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/@Path_S.obj2",
-          "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Path_S.lua",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/@Path_S.anm2"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/@Path_S.obj2"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/Path_S.lua"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v1.01-for-beta20",
-        "release_date": "2025-11-21",
-        "file": [
-          {
-            "path": "{scriptsDir}/@Path_S.anm2",
-            "XXH3_128": "dd6a7f4127109196fa9c7ff580c51d2b"
-          }
-        ]
-      },
-      {
-        "version": "v1.10-for-beta21",
-        "release_date": "2025-11-24",
-        "file": [
-          {
-            "path": "{scriptsDir}/@Path_S.anm2",
-            "XXH3_128": "0dd801dc104a0e87336bee835b462e9b"
-          }
-        ]
-      },
-      {
-        "version": "v1.11-for-beta22a",
-        "release_date": "2025-12-03",
-        "file": [
-          {
-            "path": "{scriptsDir}/@Path_S.anm2",
-            "XXH3_128": "4af2bc5fb1c6f576801f6ff3c208044e"
-          }
-        ]
-      },
-      {
-        "version": "v1.12-for-beta25",
-        "release_date": "2025-12-22",
-        "file": [
-          {
-            "path": "{scriptsDir}/@Path_S.anm2",
-            "XXH3_128": "c6a85adfb40092bc780c94fcb529c429"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "korarei.PixelSorter_K",
     "name": "PixelSorter_K",
     "type": "スクリプト",
@@ -4560,8 +2999,8 @@
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_PixelSorter_K_Script",
     "latest-version": "v1.0.1",
-    "popularity": 125,
-    "trend": 62,
+    "popularity": 106,
+    "trend": 48,
     "licenses": [
       {
         "type": "MIT",
@@ -4641,8 +3080,8 @@
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script",
     "latest-version": "v1.1.1",
-    "popularity": 303,
-    "trend": 204,
+    "popularity": 240,
+    "trend": 146,
     "licenses": [
       {
         "type": "MIT",
@@ -4724,154 +3163,6 @@
     ]
   },
   {
-    "id": "sigma-axis.ColoredCollar_S",
-    "name": "ColoredCollar_S",
-    "type": "スクリプト",
-    "summary": "オブジェクトの境界部分の色を引き延ばして縁取りをするスクリプト",
-    "description": "./md/sigma-axis.ColoredCollar_S.md",
-    "author": "sigma-axis",
-    "repoURL": "https://github.com/sigma-axis/aviutl2_script_ColoredCollar_S",
-    "latest-version": "v1.00-for-beta5",
-    "popularity": 113,
-    "trend": 49,
-    "license": "MIT",
-    "tags": [
-      "縁取り"
-    ],
-    "dependencies": [],
-    "images": [],
-    "installer": {
-      "source": {
-        "github": {
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_ColoredCollar_S",
-          "pattern": "^aviutl2_script_ColoredCollar_S.*\\.zip$"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "extract"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/ColoredCollar_S.anm2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/ColoredCollar_S.anm2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v1.00-for-beta5",
-        "release_date": "2025-08-04",
-        "file": [
-          {
-            "path": "{scriptsDir}/ColoredCollar_S.anm2",
-            "XXH3_128": "c6a22d366802bc08e2b30637c5011ab1"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "sigma-axis.Tile_S",
-    "name": "Tile_S",
-    "type": "スクリプト",
-    "summary": "幾何学模様のタイルパターンを生成し、背景や装飾として利用できるスクリプト",
-    "description": "./md/sigma-axis.Tile_S.md",
-    "author": "sigma-axis",
-    "repoURL": "https://github.com/sigma-axis/aviutl2_script_Tile_S",
-    "latest-version": "v1.03-for-beta25",
-    "popularity": 170,
-    "trend": 102,
-    "license": "MIT",
-    "tags": [
-      "図形",
-      "パターン",
-      "背景素材"
-    ],
-    "dependencies": [],
-    "images": [],
-    "installer": {
-      "source": {
-        "github": {
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_Tile_S",
-          "pattern": "^aviutl2_script_Tile_S.*\\.zip$"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "extract"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/@Tile_S.obj2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/@Tile_S.obj2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v1.00-for-beta7",
-        "release_date": "2025-08-20",
-        "file": [
-          {
-            "path": "{scriptsDir}/@Tile_S.obj2",
-            "XXH3_128": "6cb404ba7235e7f02353d3466b05581a"
-          }
-        ]
-      },
-      {
-        "version": "v1.01-for-beta7",
-        "release_date": "2025-08-21",
-        "file": [
-          {
-            "path": "{scriptsDir}/@Tile_S.obj2",
-            "XXH3_128": "523c94fabf799a17dc928bc2d28572a4"
-          }
-        ]
-      },
-      {
-        "version": "v1.02-for-beta22a",
-        "release_date": "2025-12-06",
-        "file": [
-          {
-            "path": "{scriptsDir}/@Tile_S.obj2",
-            "XXH3_128": "44c98d3ae5265cb15c5155b26017c8de"
-          }
-        ]
-      },
-      {
-        "version": "v1.03-for-beta25",
-        "release_date": "2025-12-22",
-        "file": [
-          {
-            "path": "{scriptsDir}/@Tile_S.obj2",
-            "XXH3_128": "601f15c123fcc1d5d378dd485ef0c975"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "sigma-axis.Resize_S",
     "name": "Resize_S",
     "type": "スクリプト",
@@ -4880,8 +3171,8 @@
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Resize_S",
     "latest-version": "v1.11-for-beta25",
-    "popularity": 106,
-    "trend": 52,
+    "popularity": 90,
+    "trend": 38,
     "licenses": [
       {
         "type": "MIT",
@@ -4974,171 +3265,6 @@
     ]
   },
   {
-    "id": "sigma-axis.PixelSnap_S",
-    "name": "PixelSnap_S",
-    "type": "スクリプト",
-    "summary": "小数点以下のピクセルずれで余計なボケが入るのを抑えるスクリプト",
-    "description": "./md/sigma-axis.PixelSnap_S.md",
-    "author": "sigma-axis",
-    "repoURL": "https://github.com/sigma-axis/aviutl2_script_PixelSnap_S",
-    "latest-version": "v1.04-for-beta20",
-    "popularity": 94,
-    "trend": 37,
-    "license": "MIT",
-    "tags": [
-      "座標補正",
-      "補正"
-    ],
-    "dependencies": [],
-    "images": [],
-    "installer": {
-      "source": {
-        "github": {
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_PixelSnap_S",
-          "pattern": "^aviutl2_script_PixelSnap_S.*\\.zip$"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "extract"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/AviUtl2/PixelSnap_S.anm2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/PixelSnap_S.anm2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v1.03-for-beta13",
-        "release_date": "2025-09-29",
-        "file": [
-          {
-            "path": "{scriptsDir}/PixelSnap_S.anm2",
-            "XXH3_128": "b957d5f56fbe0b918eb86d9b14f4aad0"
-          }
-        ]
-      },
-      {
-        "version": "v1.04-for-beta20",
-        "release_date": "2025-11-16",
-        "file": [
-          {
-            "path": "{scriptsDir}/PixelSnap_S.anm2",
-            "XXH3_128": "88c5188b2eb8f7a59ed9e830dab055ef"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "sigma-axis.PageRoll_S",
-    "name": "PageRoll_S",
-    "type": "スクリプト",
-    "summary": "ページを丸めるように画像を変形するスクリプト",
-    "description": "./md/sigma-axis.PageRoll_S.md",
-    "author": "sigma-axis",
-    "repoURL": "https://github.com/sigma-axis/aviutl2_script_PageRoll_S",
-    "latest-version": "v1.12-for-beta25",
-    "popularity": 89,
-    "trend": 45,
-    "license": "MIT",
-    "tags": [
-      "変形",
-      "画像",
-      "立体",
-      "シーンチェンジ",
-      "トランジション"
-    ],
-    "dependencies": [],
-    "images": [],
-    "installer": {
-      "source": {
-        "github": {
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_PageRoll_S",
-          "pattern": "^aviutl2_script_PageRoll_S.*\\.zip$"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "extract"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/AviUtl2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/PageRoll_S(シーンチェンジ).scn2"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/PageRoll_S.anm2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v1.00-for-beta12",
-        "release_date": "2025-09-25",
-        "file": [
-          {
-            "path": "{scriptsDir}/PageRoll_S.anm2",
-            "XXH3_128": "906b19dd7a3e46d7fa3c659621f7eb88"
-          }
-        ]
-      },
-      {
-        "version": "v1.10-for-beta13",
-        "release_date": "2025-10-04",
-        "file": [
-          {
-            "path": "{scriptsDir}/PageRoll_S.anm2",
-            "XXH3_128": "4221317ddaf23f7447a30bfbf0f6e824"
-          }
-        ]
-      },
-      {
-        "version": "v1.11-for-beta22a",
-        "release_date": "2025-12-06",
-        "file": [
-          {
-            "path": "{scriptsDir}/PageRoll_S.anm2",
-            "XXH3_128": "0ad797ba2494b91c70bfb9bccd11dc4f"
-          }
-        ]
-      },
-      {
-        "version": "v1.12-for-beta25",
-        "release_date": "2025-12-22",
-        "file": [
-          {
-            "path": "{scriptsDir}/PageRoll_S.anm2",
-            "XXH3_128": "93ff295982ee5790d6e563b9ded9ac3f"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "Garech.SplitFilters",
     "name": "フィルタ分離",
     "type": "汎用プラグイン",
@@ -5147,8 +3273,8 @@
     "author": "Garech",
     "repoURL": "https://github.com/Garech-mas/AviUtl2_SplitFilters",
     "latest-version": "v1.04",
-    "popularity": 130,
-    "trend": 102,
+    "popularity": 109,
+    "trend": 70,
     "licenses": [
       {
         "type": "MIT",
@@ -5257,7 +3383,7 @@
         "file": [
           {
             "path": "{pluginsDir}/SplitFilters.aux2",
-            "XXH3_128": "db1a6f550a26396ec4d123a0c715e737"
+            "XXH3_128": "c11652fe67078747d0ba697d2a228da3"
           }
         ]
       }
@@ -5272,8 +3398,8 @@
     "author": "Garech",
     "repoURL": "https://github.com/Garech-mas/jp_akey.aul2",
     "latest-version": "v0.24",
-    "popularity": 74,
-    "trend": 36,
+    "popularity": 61,
+    "trend": 25,
     "licenses": [
       {
         "type": "CC0-1.0",
@@ -5332,526 +3458,6 @@
     ]
   },
   {
-    "id": "sigma-axis.GroundShadow2_S",
-    "name": "GroundShadow2_S",
-    "type": "スクリプト",
-    "summary": "影を立体的に平面へ落とすスクリプト",
-    "description": "./md/sigma-axis.GroundShadow2_S.md",
-    "author": "sigma-axis",
-    "repoURL": "https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S",
-    "latest-version": "v1.05-for-beta25",
-    "popularity": 156,
-    "trend": 92,
-    "license": "MIT",
-    "tags": [
-      "立体",
-      "影"
-    ],
-    "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "",
-        "infoImg": []
-      }
-    ],
-    "installer": {
-      "source": {
-        "github": {
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_GroundShadow2_S",
-          "pattern": "^aviutl2_script_GroundShadow2.*\\\\.zip$"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "extract"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/AviUtl2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/GroundShadow2_S.anm2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v1.00-for-beta5",
-        "release_date": "2025-08-10",
-        "file": [
-          {
-            "path": "{scriptsDir}/GroundShadow2_S.anm2",
-            "XXH3_128": "88fbf187c69dbc64ccd84a9ebe7f3e27"
-          }
-        ]
-      },
-      {
-        "version": "v1.01-for-beta11a",
-        "release_date": "2025-09-20",
-        "file": [
-          {
-            "path": "{scriptsDir}/GroundShadow2_S.anm2",
-            "XXH3_128": "3c891e801ce3fe53628d32cd92be5484"
-          }
-        ]
-      },
-      {
-        "version": "v1.02-for-beta12",
-        "release_date": "2025-09-25",
-        "file": [
-          {
-            "path": "{scriptsDir}/GroundShadow2_S.anm2",
-            "XXH3_128": "4178ebdb7ded8e84c5c7414d1d3d0c5f"
-          }
-        ]
-      },
-      {
-        "version": "v1.03-for-beta20",
-        "release_date": "2025-11-17",
-        "file": [
-          {
-            "path": "{scriptsDir}/GroundShadow2_S.anm2",
-            "XXH3_128": "8873bf4c28d430342e6db51653af35d5"
-          }
-        ]
-      },
-      {
-        "version": "v1.04-for-beta22a",
-        "release_date": "2025-12-05",
-        "file": [
-          {
-            "path": "{scriptsDir}/GroundShadow2_S.anm2",
-            "XXH3_128": "5823af5e8adfc4546c81306945c64fd6"
-          }
-        ]
-      },
-      {
-        "version": "v1.05-for-beta25",
-        "release_date": "2025-12-22",
-        "file": [
-          {
-            "path": "{scriptsDir}/GroundShadow2_S.anm2",
-            "XXH3_128": "1aa26920d91169d641dfa435ae40e221"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "sigma-axis.Histogram_S",
-    "name": "Histogram_S",
-    "type": "スクリプト",
-    "summary": "ヒストグラムを編集画面上に表示するスクリプト",
-    "description": "./md/sigma-axis.Histogram_S.md",
-    "author": "sigma-axis",
-    "repoURL": "https://github.com/sigma-axis/aviutl2_script_Histogram_S",
-    "latest-version": "v1.10-for-beta30a",
-    "popularity": 68,
-    "trend": 62,
-    "license": "MIT",
-    "tags": [
-      "便利ツール"
-    ],
-    "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "",
-        "infoImg": []
-      }
-    ],
-    "installer": {
-      "source": {
-        "github": {
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_Histogram_S",
-          "pattern": "^aviutl2_script_Histogram_S.*\\\\.zip$"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "extract"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Histogram_S.obj2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/Histogram_S.obj2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v1.00-for-beta22a",
-        "release_date": "2025-12-05",
-        "file": [
-          {
-            "path": "{scriptsDir}/Histogram_S.obj2",
-            "XXH3_128": "12bd03db6bf5b61e480b2fb0753b15ed"
-          }
-        ]
-      },
-      {
-        "version": "v1.10-for-beta30a",
-        "release_date": "2026-01-26",
-        "file": [
-          {
-            "path": "{scriptsDir}/Histogram_S.obj2",
-            "XXH3_128": "13df0c29749ad220814605bdeb10b0b4"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "zopty.BlindLoop",
-    "name": "ブラインドループ",
-    "type": "スクリプト",
-    "summary": "斜めクリッピングを連続して並べたような効果を追加します。",
-    "description": "./md/zopty.BlindLoop.md",
-    "author": "zopty",
-    "repoURL": "https://gist.github.com/zopty/ff3439d79fe609c7714d6db4ef1a39a6",
-    "latest-version": "v1.0.0",
-    "popularity": 121,
-    "trend": 64,
-    "license": "BSD 3-Clause",
-    "tags": [],
-    "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "",
-        "infoImg": []
-      }
-    ],
-    "installer": {
-      "source": {
-        "direct": "https://gist.githubusercontent.com/zopty/ff3439d79fe609c7714d6db4ef1a39a6/raw/60d78451f26f9505c8addb816a099fced4b4981c/BlindLoop.anm2"
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/BlindLoop.anm2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/BlindLoop.anm2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v1.0.0",
-        "release_date": "2025-11-23",
-        "file": [
-          {
-            "path": "{scriptsDir}/BlindLoop.anm2",
-            "XXH3_128": "bc227a3573b9f5b0a65d506ad34b7bc2"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "azurite.ColorHalftone",
-    "name": "カラーハーフトーン",
-    "type": "スクリプト",
-    "summary": "カラーハーフトーン加工をする AviUtl2 用スクリプトです。",
-    "description": "./md/azurite.ColorHalftone.md",
-    "author": "azurite",
-    "repoURL": "https://github.com/azurite581/AviUtl2-ColorHalftone",
-    "latest-version": "v1.0.0",
-    "popularity": 140,
-    "trend": 75,
-    "license": "MIT",
-    "tags": [],
-    "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "",
-        "infoImg": []
-      }
-    ],
-    "installer": {
-      "source": {
-        "github": {
-          "owner": "azurite581",
-          "repo": "AviUtl2-ColorHalftone",
-          "pattern": "^ColorHalftone_v[\\d.]+\\.zip$"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "extract"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/カラーハーフトーン.anm2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/カラーハーフトーン.anm2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v1.0.0",
-        "release_date": "2025-11-28",
-        "file": [
-          {
-            "path": "{scriptsDir}/カラーハーフトーン.anm2",
-            "XXH3_128": "20b9118019c362037c047b2b87c37ae4"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "oov.GCMZDrops2",
-    "name": "GCMZDrops2",
-    "type": "汎用プラグイン",
-    "summary": "ファイルドロップを拡張するプラグイン（ごちゃまぜドロップス2）",
-    "description": "./md/oov.GCMZDrops2.md",
-    "author": "おおぶ",
-    "repoURL": "https://github.com/oov/aviutl2_gcmzdrops2",
-    "latest-version": "v2.0.0beta1",
-    "popularity": 386,
-    "trend": 301,
-    "license": "MIT",
-    "tags": [
-      "便利ツール"
-    ],
-    "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "",
-        "infoImg": []
-      }
-    ],
-    "installer": {
-      "source": {
-        "github": {
-          "owner": "oov",
-          "repo": "aviutl2_gcmzdrops2",
-          "pattern": "^gcmzdrops_.*\\.exe$"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "run",
-          "path": "{download}",
-          "args": [
-            "/VERYSILENT",
-            "/SP-",
-            "/SUPPRESSMSGBOXES",
-            "/DIR=\"{pluginsDir}\""
-          ],
-          "elevate": false
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "run",
-          "path": "{pluginsDir}/GCMZDrops/unins000.exe",
-          "args": [
-            "/VERYSILENT",
-            "/SUPPRESSMSGBOXES"
-          ]
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/GCMZDrops.aux2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/GCMZScript"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v2.0.0alpha1",
-        "release_date": "2025-11-26",
-        "file": [
-          {
-            "path": "{pluginsDir}/GCMZDrops.aux2",
-            "XXH3_128": "21734b2f99edea16453adc1abc29a9ef"
-          }
-        ]
-      },
-      {
-        "version": "v2.0.0alpha2",
-        "release_date": "2025-11-27",
-        "file": [
-          {
-            "path": "{pluginsDir}/GCMZDrops.aux2",
-            "XXH3_128": "b2ef673663885c7ba8c1319a1a2d6043"
-          }
-        ]
-      },
-      {
-        "version": "v2.0.0alpha3",
-        "release_date": "2025-11-30",
-        "file": [
-          {
-            "path": "{pluginsDir}/GCMZDrops.aux2",
-            "XXH3_128": "2d730c963ce009e15c6df97feee775fd"
-          }
-        ]
-      },
-      {
-        "version": "v2.0.0alpha4",
-        "release_date": "2025-12-04",
-        "file": [
-          {
-            "path": "{pluginsDir}/GCMZDrops.aux2",
-            "XXH3_128": "16252cc323fe3f8346476582d7bb98a8"
-          }
-        ]
-      },
-      {
-        "version": "v2.0.0alpha5",
-        "release_date": "2025-12-06",
-        "file": [
-          {
-            "path": "{pluginsDir}/GCMZDrops.aux2",
-            "XXH3_128": "2df4917994f69efc1cffb6d8ffd23796"
-          }
-        ]
-      },
-      {
-        "version": "v2.0.0alpha6",
-        "release_date": "2025-12-08",
-        "file": [
-          {
-            "path": "{pluginsDir}/GCMZDrops.aux2",
-            "XXH3_128": "e5ddcae9021119193d591397eb1741ae"
-          }
-        ]
-      },
-      {
-        "version": "v2.0.0alpha7",
-        "release_date": "2025-12-14",
-        "file": [
-          {
-            "path": "{pluginsDir}/GCMZDrops.aux2",
-            "XXH3_128": "4277fffbcd4b5b99d70687f5554ada02"
-          }
-        ]
-      },
-      {
-        "version": "v2.0.0alpha8",
-        "release_date": "2025-12-18",
-        "file": [
-          {
-            "path": "{pluginsDir}/GCMZDrops.aux2",
-            "XXH3_128": "20bea40cfe39f7a74ab284df98024584"
-          }
-        ]
-      },
-      {
-        "version": "v2.0.0alpha9",
-        "release_date": "2025-12-19",
-        "file": [
-          {
-            "path": "{pluginsDir}/GCMZDrops.aux2",
-            "XXH3_128": "c374ff181ec8a03a9a17b4c5aa5790fc"
-          }
-        ]
-      },
-      {
-        "version": "v2.0.0alpha10",
-        "release_date": "2025-12-22",
-        "file": [
-          {
-            "path": "{pluginsDir}/GCMZDrops.aux2",
-            "XXH3_128": "b30b6d12b537e85207ff3f98527b1c84"
-          }
-        ]
-      },
-      {
-        "version": "v2.0.0alpha11",
-        "release_date": "2025-12-23",
-        "file": [
-          {
-            "path": "{pluginsDir}/GCMZDrops.aux2",
-            "XXH3_128": "d4783bfc3906274a00a89943f52dc317"
-          }
-        ]
-      },
-      {
-        "version": "v2.0.0alpha12",
-        "release_date": "2025-12-28",
-        "file": [
-          {
-            "path": "{pluginsDir}/GCMZDrops.aux2",
-            "XXH3_128": "10882eb3c950ba6a0706e902c8041b16"
-          }
-        ]
-      },
-      {
-        "version": "v2.0.0alpha13",
-        "release_date": "2025-12-31",
-        "file": [
-          {
-            "path": "{pluginsDir}/GCMZDrops.aux2",
-            "XXH3_128": "3e31564a82dd5e30fcb828cd7a01527c"
-          }
-        ]
-      },
-      {
-        "version": "v2.0.0alpha14",
-        "release_date": "2026-01-11",
-        "file": [
-          {
-            "path": "{pluginsDir}/GCMZDrops.aux2",
-            "XXH3_128": "0e3ef38c6e56d3e651b47f2ab3462e7f"
-          }
-        ]
-      },
-      {
-        "version": "v2.0.0beta1",
-        "release_date": "2026-01-29",
-        "file": [
-          {
-            "path": "{pluginsDir}/GCMZDrops/GCMZDrops.aux2",
-            "XXH3_128": "dbbb682b21fb63b776064d1501243eb5"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "amaii4.AviUtl2_Discord_RPC",
     "name": "AviUtl2_Discord_RPC",
     "type": "汎用プラグイン",
@@ -5860,8 +3466,8 @@
     "author": "甘味",
     "repoURL": "https://github.com/amaii4/AviUtl2_Discord_RPC",
     "latest-version": "1.2",
-    "popularity": 107,
-    "trend": 62,
+    "popularity": 85,
+    "trend": 40,
     "licenses": [
       {
         "type": "MIT",
@@ -5949,8 +3555,8 @@
     "author": "なたのこ",
     "repoURL": "https://github.com/Natadecoco2539/AviUtl2-TextEditor",
     "latest-version": "2.0",
-    "popularity": 328,
-    "trend": 238,
+    "popularity": 251,
+    "trend": 164,
     "licenses": [
       {
         "type": "MIT",
@@ -6020,8 +3626,8 @@
     "author": "なたのこ",
     "repoURL": "https://github.com/Natadecoco2539/AviUtl2-TextSplitter",
     "latest-version": "v1.2",
-    "popularity": 226,
-    "trend": 150,
+    "popularity": 179,
+    "trend": 105,
     "licenses": [
       {
         "type": "MIT",
@@ -6088,8 +3694,8 @@
     "author": "なたのこ",
     "repoURL": "https://github.com/Natadecoco2539/AviUtl2-MyAssetManager",
     "latest-version": "v1.3",
-    "popularity": 177,
-    "trend": 109,
+    "popularity": 145,
+    "trend": 83,
     "licenses": [
       {
         "type": "MIT",
@@ -6188,8 +3794,8 @@
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-GradientPlus",
     "latest-version": "v1.1.0",
-    "popularity": 101,
-    "trend": 59,
+    "popularity": 84,
+    "trend": 45,
     "licenses": [
       {
         "type": "CC0-1.0",
@@ -6263,8 +3869,8 @@
     "author": "Nao",
     "repoURL": "https://nao-kid.booth.pm/items/7737503",
     "latest-version": "v1.0",
-    "popularity": 120,
-    "trend": 78,
+    "popularity": 96,
+    "trend": 59,
     "licenses": [
       {
         "type": "不明",
@@ -6330,8 +3936,8 @@
     "author": "Nao",
     "repoURL": "https://nao-kid.booth.pm/items/7684889",
     "latest-version": "v2.8",
-    "popularity": 87,
-    "trend": 39,
+    "popularity": 75,
+    "trend": 29,
     "licenses": [
       {
         "type": "不明",
@@ -6396,7 +4002,7 @@
     "author": "namarium",
     "repoURL": "https://booth.pm/ja/items/7544010",
     "latest-version": "v0.0.85",
-    "popularity": 39,
+    "popularity": 38,
     "trend": 22,
     "licenses": [
       {
@@ -6462,8 +4068,8 @@
     "author": "おおぶ",
     "repoURL": "https://github.com/oov/aviutl2_psdtoolkit2",
     "latest-version": "v2.0.0alpha10",
-    "popularity": 238,
-    "trend": 190,
+    "popularity": 179,
+    "trend": 145,
     "licenses": [
       {
         "type": "MIT",
@@ -6634,8 +4240,8 @@
     "originalAuthor": "高橋直哉",
     "repoURL": "https://github.com/karoterra/aviutl2-OilPainting",
     "latest-version": "v1.0.0",
-    "popularity": 95,
-    "trend": 59,
+    "popularity": 74,
+    "trend": 43,
     "licenses": [
       {
         "type": "MIT",
@@ -6705,8 +4311,8 @@
     "author": "かろてら",
     "repoURL": "https://github.com/karoterra/aviutl2-Bend",
     "latest-version": "v1.0.1",
-    "popularity": 89,
-    "trend": 52,
+    "popularity": 73,
+    "trend": 43,
     "licenses": [
       {
         "type": "MIT",
@@ -6796,8 +4402,8 @@
     "author": "かろてら",
     "repoURL": "https://github.com/karoterra/aviutl2-ColorVisionSimulation",
     "latest-version": "v1.0.0",
-    "popularity": 38,
-    "trend": 22,
+    "popularity": 33,
+    "trend": 20,
     "licenses": [
       {
         "type": "Unlicense",
@@ -6862,9 +4468,9 @@
     "author": "Nao",
     "originalAuthor": "aoytsk様",
     "repoURL": "https://nao-kid.booth.pm/items/7791311",
-    "latest-version": "v3.2",
-    "popularity": 83,
-    "trend": 75,
+    "latest-version": "v3.1",
+    "popularity": 78,
+    "trend": 72,
     "licenses": [
       {
         "type": "不明",
@@ -6887,7 +4493,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8371287?_gl=1*25osuy*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzA1MTcyNTUkbzUyJGcxJHQxNzcwNTE3NDQ0JGo1OSRsMCRoMA.."
+        "booth": "https://booth.pm/downloadables/8361887?_gl=1*1fj1g86*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzAzNDYyNjEkbzQxJGcxJHQxNzcwMzQ2NDUwJGo1OSRsMCRoMA.."
       },
       "install": [
         {
@@ -6898,7 +4504,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/v3.2/拡張ツールバー.aux2",
+          "from": "{tmp}/v3.1/拡張ツールバー.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -6989,16 +4595,6 @@
             "XXH3_128": "e0ffd381b3445457223724f4e296ba71"
           }
         ]
-      },
-      {
-        "version": "v3.2",
-        "release_date": "2026-02-08",
-        "file": [
-          {
-            "path": "{pluginsDir}/拡張ツールバー.aux2",
-            "XXH3_128": "e41acd1f3c7b851aae3b5a176b11c551"
-          }
-        ]
       }
     ]
   },
@@ -7011,8 +4607,8 @@
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_AutoLyricAnimation_K_Script",
     "latest-version": "v1.0.1",
-    "popularity": 207,
-    "trend": 134,
+    "popularity": 155,
+    "trend": 90,
     "licenses": [
       {
         "type": "MIT",
@@ -7092,8 +4688,8 @@
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_CameraTransform_K_Script",
     "latest-version": "v1.0.5",
-    "popularity": 93,
-    "trend": 55,
+    "popularity": 77,
+    "trend": 43,
     "licenses": [
       {
         "type": "MIT",
@@ -7225,8 +4821,8 @@
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_Kaleidoscope_K_Script",
     "latest-version": "v1.0.3",
-    "popularity": 66,
-    "trend": 42,
+    "popularity": 56,
+    "trend": 35,
     "licenses": [
       {
         "type": "MIT",
@@ -7326,8 +4922,8 @@
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_ColorLUT_K_Plugin",
     "latest-version": "v1.0.1",
-    "popularity": 70,
-    "trend": 42,
+    "popularity": 59,
+    "trend": 34,
     "licenses": [
       {
         "type": "MIT",
@@ -7406,8 +5002,8 @@
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_tl_walkaround2",
     "latest-version": "v1.22-for-beta26",
-    "popularity": 72,
-    "trend": 40,
+    "popularity": 59,
+    "trend": 29,
     "licenses": [
       {
         "type": "MIT",
@@ -7517,8 +5113,8 @@
     "author": "zopty",
     "repoURL": "https://github.com/zopty/DokodemoBuffer",
     "latest-version": "v1.0.0",
-    "popularity": 85,
-    "trend": 62,
+    "popularity": 68,
+    "trend": 52,
     "licenses": [
       {
         "type": "BSD-3-Clause",
@@ -7582,8 +5178,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/2000355120782164458",
     "latest-version": "v1.0.0",
-    "popularity": 149,
-    "trend": 107,
+    "popularity": 113,
+    "trend": 76,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -7654,8 +5250,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/2009429917847658676",
     "latest-version": "v1.0.0",
-    "popularity": 64,
-    "trend": 42,
+    "popularity": 56,
+    "trend": 39,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -7726,8 +5322,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1967755313521512906",
     "latest-version": "v1.0.1",
-    "popularity": 75,
-    "trend": 48,
+    "popularity": 62,
+    "trend": 40,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -7798,8 +5394,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1967755313521512906?s=20",
     "latest-version": "v1.0.1",
-    "popularity": 88,
-    "trend": 61,
+    "popularity": 70,
+    "trend": 47,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -7869,8 +5465,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1968330680842297713",
     "latest-version": "v1.0.3",
-    "popularity": 86,
-    "trend": 59,
+    "popularity": 68,
+    "trend": 46,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -7939,8 +5535,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1971818367167483937",
     "latest-version": "v1.0.0",
-    "popularity": 83,
-    "trend": 52,
+    "popularity": 69,
+    "trend": 45,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -8009,8 +5605,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1971988664227172734",
     "latest-version": "v1.0.0",
-    "popularity": 75,
-    "trend": 45,
+    "popularity": 62,
+    "trend": 37,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -8079,8 +5675,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1975320165941129277",
     "latest-version": "v1.0.3",
-    "popularity": 77,
-    "trend": 49,
+    "popularity": 64,
+    "trend": 41,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -8150,8 +5746,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1978378817640018296",
     "latest-version": "v1.0.1",
-    "popularity": 98,
-    "trend": 67,
+    "popularity": 80,
+    "trend": 57,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -8212,8 +5808,8 @@
     "author": "てるよし",
     "repoURL": "https://x.com/teruyoshi_uec/status/1979927691215471002",
     "latest-version": "v1.3",
-    "popularity": 94,
-    "trend": 71,
+    "popularity": 73,
+    "trend": 56,
     "licenses": [
       {
         "type": "MIT",
@@ -8276,7 +5872,7 @@
     "author": "てるよし",
     "repoURL": "https://github.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/blob/main/%E3%83%91%E3%82%B9%E3%82%B0%E3%83%A9%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.anm2",
     "latest-version": "v1.1",
-    "popularity": 45,
+    "popularity": 42,
     "trend": 28,
     "licenses": [
       {
@@ -8340,8 +5936,8 @@
     "author": "shyachi",
     "repoURL": "https://github.com/shyachi/AviUtl2_SrtImporter",
     "latest-version": "v0.10",
-    "popularity": 50,
-    "trend": 41,
+    "popularity": 42,
+    "trend": 38,
     "licenses": [
       {
         "type": "MIT",
@@ -8407,8 +6003,8 @@
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_preset_adder",
     "latest-version": "r3",
-    "popularity": 44,
-    "trend": 48,
+    "popularity": 43,
+    "trend": 41,
     "licenses": [
       {
         "type": "MIT",
@@ -8443,14 +6039,14 @@
           "action": "extract"
         },
         {
-          "action": "copy",
-          "from": "{tmp}/Plugin",
-          "to": "{pluginsDir}"
+          "action": "extract",
+          "from": "{tmp}/al2_preset_adder.au2pkg.zip",
+          "to": "{tmp}/al2_preset_adder"
         },
         {
           "action": "copy",
-          "from": "{tmp}/Language",
-          "to": "{dataDir}/Language"
+          "from": "{tmp}/al2_preset_adder",
+          "to": "{dataDir}"
         }
       ],
       "uninstall": [
@@ -8465,10 +6061,6 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/al2/assets/al2_preset_adder"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Language/template/al2_preset_adder.aul2"
         }
       ]
     },
@@ -8496,12 +6088,7 @@
       {
         "version": "r3",
         "release_date": "2026-02-07",
-        "file": [
-          {
-            "path": "{pluginsDir}/al2/al2_preset_adder.aux2",
-            "XXH3_128": "0a0cb620a6420d3082603ef567a82b01"
-          }
-        ]
+        "file": []
       }
     ]
   },
@@ -8514,8 +6101,8 @@
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_WhiteBalance_S",
     "latest-version": "v1.00-for-beta29",
-    "popularity": 74,
-    "trend": 57,
+    "popularity": 61,
+    "trend": 52,
     "licenses": [
       {
         "type": "MIT",
@@ -8585,8 +6172,8 @@
     "author": "arcana",
     "repoURL": "https://github.com/ar-ca-na/connection_line/",
     "latest-version": "2025-10-27",
-    "popularity": 61,
-    "trend": 50,
+    "popularity": 47,
+    "trend": 43,
     "licenses": [
       {
         "type": "MIT",
@@ -8646,8 +6233,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1991423812328648848?s=20",
     "latest-version": "v1.0.0",
-    "popularity": 109,
-    "trend": 86,
+    "popularity": 80,
+    "trend": 60,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -8717,8 +6304,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1992790280186011754",
     "latest-version": "v1.0.1",
-    "popularity": 113,
-    "trend": 91,
+    "popularity": 83,
+    "trend": 64,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -8789,8 +6376,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1996544042973409715",
     "latest-version": "v1.0.0",
-    "popularity": 76,
-    "trend": 49,
+    "popularity": 65,
+    "trend": 42,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -8862,8 +6449,8 @@
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_visual_font",
     "latest-version": "r3",
-    "popularity": 230,
-    "trend": 242,
+    "popularity": 152,
+    "trend": 157,
     "licenses": [
       {
         "type": "MIT",
@@ -8899,13 +6486,8 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Plugin",
+          "from": "{tmp}/Plugin/al2/al2_visual_font.aui2",
           "to": "{pluginsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Language",
-          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -8915,7 +6497,7 @@
         },
         {
           "action": "delete",
-          "path": "{dataDir}/Language/template/al2_visual_font.aul2"
+          "path": "{dataDir}/Language/template.al2_visual_font.aul2"
         },
         {
           "action": "delete",
@@ -8965,8 +6547,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.15.1",
-    "popularity": 57,
-    "trend": 54,
+    "popularity": 44,
+    "trend": 43,
     "licenses": [
       {
         "type": "MIT",
@@ -9074,8 +6656,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.15.1",
-    "popularity": 51,
-    "trend": 51,
+    "popularity": 42,
+    "trend": 43,
     "licenses": [
       {
         "type": "MIT",
@@ -9183,8 +6765,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.15.1",
-    "popularity": 67,
-    "trend": 63,
+    "popularity": 50,
+    "trend": 49,
     "licenses": [
       {
         "type": "MIT",
@@ -9292,8 +6874,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.15.1",
-    "popularity": 41,
-    "trend": 39,
+    "popularity": 31,
+    "trend": 31,
     "licenses": [
       {
         "type": "MIT",
@@ -9400,8 +6982,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.15.1",
-    "popularity": 110,
-    "trend": 107,
+    "popularity": 81,
+    "trend": 79,
     "licenses": [
       {
         "type": "MIT",
@@ -9509,8 +7091,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.15.1",
-    "popularity": 52,
-    "trend": 50,
+    "popularity": 41,
+    "trend": 39,
     "licenses": [
       {
         "type": "MIT",
@@ -9617,8 +7199,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.15.1",
-    "popularity": 40,
-    "trend": 40,
+    "popularity": 30,
+    "trend": 31,
     "licenses": [
       {
         "type": "MIT",
@@ -9725,8 +7307,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.15.1",
-    "popularity": 47,
-    "trend": 44,
+    "popularity": 37,
+    "trend": 35,
     "licenses": [
       {
         "type": "MIT",
@@ -9834,8 +7416,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.15.1",
-    "popularity": 93,
-    "trend": 91,
+    "popularity": 70,
+    "trend": 69,
     "licenses": [
       {
         "type": "MIT",
@@ -9943,8 +7525,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.15.1",
-    "popularity": 58,
-    "trend": 56,
+    "popularity": 46,
+    "trend": 45,
     "licenses": [
       {
         "type": "MIT",
@@ -10051,8 +7633,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.15.1",
-    "popularity": 72,
-    "trend": 73,
+    "popularity": 53,
+    "trend": 55,
     "licenses": [
       {
         "type": "MIT",
@@ -10159,8 +7741,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.15.1",
-    "popularity": 97,
-    "trend": 97,
+    "popularity": 82,
+    "trend": 83,
     "licenses": [
       {
         "type": "MIT",
@@ -10267,8 +7849,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.15.1",
-    "popularity": 62,
-    "trend": 58,
+    "popularity": 48,
+    "trend": 46,
     "licenses": [
       {
         "type": "MIT",
@@ -10375,8 +7957,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.15.1",
-    "popularity": 40,
-    "trend": 39,
+    "popularity": 32,
+    "trend": 32,
     "licenses": [
       {
         "type": "MIT",
@@ -10483,8 +8065,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/ntsc-rs.anm2",
     "latest-version": "0.2.0",
-    "popularity": 125,
-    "trend": 126,
+    "popularity": 84,
+    "trend": 86,
     "licenses": [
       {
         "type": "MIT",
@@ -10582,8 +8164,8 @@
     "author": "3aGaM1",
     "repoURL": "https://github.com/sagami121/Aviutl2-AudioEnc",
     "latest-version": "v1.1",
-    "popularity": 43,
-    "trend": 45,
+    "popularity": 34,
+    "trend": 34,
     "licenses": [
       {
         "type": "MIT",
@@ -10679,8 +8261,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/clipboard.aux2",
     "latest-version": "v0.2.2",
-    "popularity": 84,
-    "trend": 86,
+    "popularity": 62,
+    "trend": 62,
     "licenses": [
       {
         "type": "MIT",
@@ -10752,8 +8334,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/vintage.auf2",
     "latest-version": "0.1.1",
-    "popularity": 76,
-    "trend": 75,
+    "popularity": 58,
+    "trend": 59,
     "licenses": [
       {
         "type": "MIT",
@@ -10818,8 +8400,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2#%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2anm2",
     "latest-version": "v3.2",
-    "popularity": 52,
-    "trend": 47,
+    "popularity": 35,
+    "trend": 33,
     "licenses": [
       {
         "type": "CC0-1.0",
@@ -10877,8 +8459,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E7%9B%AE%E6%A8%99%E6%8C%87%E5%AE%9A%E6%8B%A1%E5%A4%A7%E7%B8%AE%E5%B0%8F/README.md",
     "latest-version": "v1.0",
-    "popularity": 29,
-    "trend": 27,
+    "popularity": 24,
+    "trend": 23,
     "licenses": [
       {
         "type": "CC0-1.0",
@@ -10931,14 +8513,14 @@
   {
     "id": "hebiiro.al2_slimming",
     "name": "スリム化MOD",
-    "type": "汎用プラグイン",
+    "type": "MOD",
     "summary": "タイトルバーとメニューバーを一体化してスリム化するMOD",
     "description": "https://raw.githubusercontent.com/hebiiro/al2_slimming/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_slimming",
     "latest-version": "r2",
-    "popularity": 46,
-    "trend": 40,
+    "popularity": 28,
+    "trend": 25,
     "licenses": [
       {
         "type": "MIT",
@@ -10976,21 +8558,12 @@
           "action": "copy",
           "from": "{tmp}/Plugin",
           "to": "{pluginsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Language",
-          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/al2/al2_slimming.aui2"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Language/Template/al2_slimming.aul2"
         }
       ]
     },
@@ -11026,8 +8599,8 @@
     "author": "Garech",
     "repoURL": "https://github.com/Garech-mas/DoubleBPMGrid",
     "latest-version": "v2.2",
-    "popularity": 66,
-    "trend": 64,
+    "popularity": 39,
+    "trend": 37,
     "licenses": [
       {
         "type": "MIT",
@@ -11112,8 +8685,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/svg.aux2",
     "latest-version": "v0.2.0",
-    "popularity": 27,
-    "trend": 31,
+    "popularity": 17,
+    "trend": 20,
     "licenses": [
       {
         "type": "MIT",
@@ -11187,8 +8760,8 @@
     "originalAuthor": "えすご",
     "repoURL": "https://apps.esugo.net/aviutl2-mp4exporter/",
     "latest-version": "v1.0.1",
-    "popularity": 165,
-    "trend": 49,
+    "popularity": 56,
+    "trend": 21,
     "licenses": [
       {
         "type": "不明",
@@ -11264,9 +8837,9 @@
     "description": "./md/Book-0225.EAP2.4.AviUtl2.md",
     "author": "Book0225",
     "repoURL": "https://github.com/Book-0225/aviutl2_External_Audio_Processing",
-    "latest-version": "v0.0.24",
-    "popularity": 21,
-    "trend": 28,
+    "latest-version": "v0.0.23",
+    "popularity": 5,
+    "trend": 6,
     "licenses": [
       {
         "type": "MIT",
@@ -11318,16 +8891,6 @@
             "XXH3_128": "848c5d2cb36ca60ddd4a9cdcbc6f9630"
           }
         ]
-      },
-      {
-        "version": "v0.0.24",
-        "release_date": "2026-02-08",
-        "file": [
-          {
-            "path": "{pluginsDir}/External_Audio_Processing2.aux2",
-            "XXH3_128": "ec478a8a7f34e890f53d02c06f4e18e0"
-          }
-        ]
       }
     ]
   },
@@ -11340,8 +8903,8 @@
     "author": "ngw",
     "repoURL": "https://booth.pm/ja/items/7234918",
     "latest-version": "v1.0.0",
-    "popularity": 25,
-    "trend": 26,
+    "popularity": 7,
+    "trend": 7,
     "licenses": [
       {
         "type": "不明",
@@ -11406,8 +8969,8 @@
     "author": "ちはユキ",
     "repoURL": "https://www.nicovideo.jp/watch/sm37066079",
     "latest-version": "v1.1",
-    "popularity": 30,
-    "trend": 32,
+    "popularity": 8,
+    "trend": 9,
     "licenses": [
       {
         "type": "GPLv3",
@@ -11472,8 +9035,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "v0.15.1",
-    "popularity": 24,
-    "trend": 26,
+    "popularity": 6,
+    "trend": 7,
     "licenses": [
       {
         "type": "MIT",
@@ -11503,13 +9066,13 @@
         {
           "action": "copy",
           "from": "{tmp}/rusty_metronome.aux2",
-          "to": "{pluginsDir}"
+          "to": "{pluginDir}"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{pluginsDir}/rusty_metronome.aux2"
+          "path": "{pluginDir}/rusty_metronome.aux2"
         }
       ]
     },
@@ -11531,12 +9094,10 @@
     "name": "Utsbox Audio Effect",
     "type": "フィルタプラグイン",
     "summary": "音声に対してさまざまな加工を行うプラグイン",
-    "description": "./md/vstcpp.UtsboxAudioEffect.md",
+    "description": "./md/vstcpp.UtsboxAudioEffectForAviUtl2.md",
     "author": "うつぼかずら",
     "repoURL": "https://www.utsbox.com/?p=4050",
     "latest-version": "0.1β",
-    "popularity": 19,
-    "trend": 19,
     "licenses": [
       {
         "type": "カスタムライセンス",
