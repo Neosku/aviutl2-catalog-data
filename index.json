@@ -11794,7 +11794,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/metronome-plugin/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
-    "latest-version": "v0.15.1",
+    "latest-version": "0.15.1",
     "popularity": 24,
     "trend": 26,
     "licenses": [
@@ -11840,6 +11840,16 @@
       {
         "version": "v0.15.1",
         "release_date": "2026-02-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_metronome.aux2",
+            "XXH3_128": "12e1a0eb2b8bcee982411af8f0c0b0cc"
+          }
+        ]
+      },
+      {
+        "version": "0.15.1",
+        "release_date": "2026-02-10",
         "file": [
           {
             "path": "{pluginsDir}/rusty_metronome.aux2",
