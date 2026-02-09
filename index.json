@@ -9188,7 +9188,7 @@
         "github": {
           "owner": "hebiiro",
           "repo": "al2_visual_font",
-          "pattern": "^al2_visual_font.*\\.zip$"
+          "pattern": "^al2_visual_font.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -10917,9 +10917,7 @@
       },
       "install": [
         {
-          "action": "download",
-          "from": "{tmp}/AudioEnc.auo2",
-          "to": "{pluginsDir}"
+          "action": "download"
         },
         {
           "action": "extract"
@@ -10983,7 +10981,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/clipboard.aux2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/clipboard.aux2",
-    "latest-version": "v0.2.2",
+    "latest-version": "0.2.2",
     "popularity": 84,
     "trend": 86,
     "licenses": [
@@ -11037,7 +11035,7 @@
     },
     "version": [
       {
-        "version": "v0.2.2",
+        "version": "0.2.2",
         "release_date": "2026-02-03",
         "file": [
           {
@@ -11330,7 +11328,7 @@
     "description": "https://raw.githubusercontent.com/Garech-mas/DoubleBPMGrid/refs/heads/master/README.md",
     "author": "Garech",
     "repoURL": "https://github.com/Garech-mas/DoubleBPMGrid",
-    "latest-version": "v2.2",
+    "latest-version": "v2.2-aul2",
     "popularity": 66,
     "trend": 64,
     "licenses": [
@@ -11397,7 +11395,7 @@
     },
     "version": [
       {
-        "version": "v2.2",
+        "version": "v2.2-aul2",
         "release_date": "2026-02-03",
         "file": [
           {
@@ -11572,11 +11570,11 @@
     ]
   },
   {
-    "id": "Book-0225.EAP2.4.AviUtl2",
+    "id": "Book-0225.EAP2",
     "name": "External Audio Processing 2",
     "type": "入力プラグイン",
     "summary": "VST 3 / CLAP を利用可能にするためのフィルタプラグイン",
-    "description": "./md/Book-0225.EAP2.4.AviUtl2.md",
+    "description": "./md/Book-0225.EAP2.md",
     "author": "Book0225",
     "repoURL": "https://github.com/Book-0225/aviutl2_External_Audio_Processing",
     "latest-version": "v0.0.25",
@@ -11852,11 +11850,11 @@
     ]
   },
   {
-    "id": "vstcpp.UtsboxAudioEffect",
+    "id": "Utsbox.AudioEffect",
     "name": "Utsbox Audio Effect",
     "type": "フィルタプラグイン",
     "summary": "音声に対してさまざまな加工を行うプラグイン",
-    "description": "./md/vstcpp.UtsboxAudioEffect.md",
+    "description": "./md/Utsbox.AudioEffect.md",
     "author": "うつぼかずら",
     "repoURL": "https://www.utsbox.com/?p=4050",
     "latest-version": "0.1β",
@@ -11985,7 +11983,7 @@
         "github": {
           "owner": "hebiiro",
           "repo": "al2_ui_dressing",
-          "pattern": "^al2_ui_dressing.*\\.au2pkg\\.zip"
+          "pattern": "^al2_ui_dressing.*\\.au2pkg\\.zip$"
         }
       },
       "install": [

@@ -1211,5 +1211,226 @@
         }
       ]
     }
+  },
+  {
+    "id": "sevenc-nanashi.ntsc-rs",
+    "latest-version": "0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/ntsc-rs.anm2",
+      "regex": "^ntsc-rs-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/ntsc-rs.anm2",
+            "Script/ntsc-rs.mod2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ntsc-rs.anm2",
+            "{scriptsDir}/ntsc-rs.mod2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.clipboard-aux2",
+    "latest-version": "0.2.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/clipboard.aux2",
+      "regex": "^clipboard-aux2-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/clipboard.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/clipboard.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.vintage-auf2",
+    "latest-version": "0.1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/vintage.auf2",
+      "regex": "^vintage-.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/vintage.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/vintage.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebiiro.al2_slimming",
+    "latest-version": "r2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_slimming",
+      "regex": "^al2_slimming.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/al2/al2_slimming.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_slimming.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebiiro.al2_ui_dressing",
+    "latest-version": "r2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_ui_dressing",
+      "regex": "^al2_ui_dressing.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/al2/al2_ui_dressing.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_ui_dressing.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebiiro.al2_preset_adder",
+    "latest-version": "r3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_preset_adder",
+      "regex": "^al2_preset_adder.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/al2/al2_preset_adder.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_preset_adder.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebiiro.al2_visual_font",
+    "latest-version": "r3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_visual_font",
+      "regex": "^al2_preset_adder.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/al2/al2_visual_font.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_visual_font.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Garech.DoubleBPMGrid",
+    "latest-version": "v2.2-aul2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Garech-mas/DoubleBPMGrid",
+      "regex": "^DoubleBPMGrid-.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "AviUtl2/DoubleBPMGrid.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/DoubleBPMGrid.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.svg-aux2",
+    "latest-version": "0.3.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/svg.aux2",
+      "regex": "^svg-aux2-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/svg.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/svg.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Book-0225.EAP2.4.AviUtl2",
+    "latest-version": "v0.0.25",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Book-0225/aviutl2_External_Audio_Processing",
+      "regex": "External_Audio_Processing2.aux2",
+      "hash-calc": [
+        {
+          "paths": [
+            "External_Audio_Processing2.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/External_Audio_Processing2.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_metronome_plugin",
+    "latest-version": "v0.15.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^rusty_metronome\\.aux2$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "rusty_metronome.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_metronome.aux2"
+          ]
+        }
+      ]
+    }
   }
 ]
