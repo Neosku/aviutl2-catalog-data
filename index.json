@@ -489,7 +489,7 @@
   {
     "id": "hebiiro.al2_jd",
     "name": "ダークモード化MOD",
-    "type": "入力プラグイン",
+    "type": "MOD",
     "summary": "AviUtl2を完全にダークモード化するプラグイン",
     "description": "https://raw.githubusercontent.com/hebiiro/al2_jd/refs/heads/master/README.md",
     "author": "蛇色",
@@ -8401,7 +8401,7 @@
   {
     "id": "hebiiro.al2_preset_adder",
     "name": "プリセット追加MOD",
-    "type": "汎用プラグイン",
+    "type": "MOD",
     "summary": "一部のダイアログにプリセットを追加するプラグイン",
     "description": "https://raw.githubusercontent.com/hebiiro/al2_preset_adder/refs/heads/master/README.md",
     "author": "蛇色",
@@ -8432,7 +8432,7 @@
         "github": {
           "owner": "hebiiro",
           "repo": "al2_preset_adder",
-          "pattern": "^al2_preset_adder.*\\.zip$"
+          "pattern": "^al2_preset_adder.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -8464,11 +8464,15 @@
         },
         {
           "action": "delete",
+          "path": "{pluginsDir}/al2/al2_preset_adder.aui2"
+        },
+        {
+          "action": "delete",
           "path": "{pluginsDir}/al2/assets/al2_preset_adder"
         },
         {
           "action": "delete",
-          "path": "{dataDir}/Language/template/al2_preset_adder.aul2"
+          "path": "{pluginsDir}/al2/al2_preset_adder"
         }
       ]
     },
@@ -8498,7 +8502,7 @@
         "release_date": "2026-02-07",
         "file": [
           {
-            "path": "{pluginsDir}/al2/al2_preset_adder.aux2",
+            "path": "{pluginsDir}/al2/al2_preset_adder.aui2",
             "XXH3_128": "0a0cb620a6420d3082603ef567a82b01"
           }
         ]
@@ -8911,15 +8915,19 @@
       "uninstall": [
         {
           "action": "delete",
+          "path": "{pluginsDir}/al2_visual_font.aux2"
+        },
+        {
+          "action": "delete",
           "path": "{pluginsDir}/al2/al2_visual_font.aux2"
         },
         {
           "action": "delete",
-          "path": "{dataDir}/Language/template/al2_visual_font.aul2"
+          "path": "{pluginsDir}/al2/al2_visual_font.aui2"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2/al2_visual_font.aui2"
+          "path": "{dataDir}/Language/template.al2_visual_font.aul2"
         }
       ]
     },
@@ -10931,7 +10939,7 @@
   {
     "id": "hebiiro.al2_slimming",
     "name": "スリム化MOD",
-    "type": "汎用プラグイン",
+    "type": "MOD",
     "summary": "タイトルバーとメニューバーを一体化してスリム化するMOD",
     "description": "https://raw.githubusercontent.com/hebiiro/al2_slimming/refs/heads/master/README.md",
     "author": "蛇色",
@@ -11623,6 +11631,97 @@
           {
             "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxWah.auf2",
             "XXH3_128": "e10751202e720c8776201a083d15458e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hebiiro.al2_ui_dressing",
+    "name": "UIドレッシングMOD",
+    "type": "MOD",
+    "summary": "AviUtl2の見た目を統一するMOD",
+    "description": "https://raw.githubusercontent.com/hebiiro/al2_ui_dressing/refs/heads/master/README.md",
+    "author": "蛇色",
+    "repoURL": "https://github.com/hebiiro/al2_ui_dressing",
+    "latest-version": "r2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "hebiiro"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "UI"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "hebiiro",
+          "repo": "al2_ui_dressing",
+          "pattern": "^al2_ui_dressing.*\\.au2pkg\\.zip"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/al2_ui_dressing.aui2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/al2_ui_dressing"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Template/al2_ui_dressing.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r1",
+        "release_date": "2026-01-31",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
+            "XXH3_128": "03cc38026863d4c5b813ca64701678cb"
+          }
+        ]
+      },
+      {
+        "version": "r2",
+        "release_date": "2026-02-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
+            "XXH3_128": "aac1461f2afe1880830dd3403aee2a44"
           }
         ]
       }
