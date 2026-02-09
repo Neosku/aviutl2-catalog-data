@@ -10885,7 +10885,7 @@
     "description": "./md/sagami121.AudioEnc.md",
     "author": "3aGaM1",
     "repoURL": "https://github.com/sagami121/Aviutl2-AudioEnc",
-    "latest-version": "v1.1",
+    "latest-version": "v1.2",
     "popularity": 43,
     "trend": 45,
     "licenses": [
@@ -10927,7 +10927,7 @@
           "action": "run",
           "path": "{tmp}/AudioEnc_Setup.exe",
           "args": [
-            "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART"
+            "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /DIR=\"{pluginsDir}\""
           ]
         }
       ],
@@ -11415,7 +11415,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/svg.aux2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/svg.aux2",
-    "latest-version": "v0.2.0",
+    "latest-version": "0.3.0",
     "popularity": 27,
     "trend": 31,
     "licenses": [
@@ -11470,12 +11470,22 @@
     },
     "version": [
       {
-        "version": "v0.2.0",
+        "version": "0.2.0",
         "release_date": "2026-02-04",
         "file": [
           {
             "path": "{pluginDir}/svg.aux2",
             "XXH3_128": "9f9d97c8c8022dcfe168a5405c8269c8"
+          }
+        ]
+      },
+      {
+        "version": "0.3.0",
+        "release_date": "2026-02-06",
+        "file": [
+          {
+            "path": "{pluginDir}/svg.aux2",
+            "XXH3_128": "ecb8ad1af5c1982a41e3b5f83eece953"
           }
         ]
       }
