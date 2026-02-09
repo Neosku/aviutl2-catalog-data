@@ -10839,11 +10839,11 @@
       "uninstall": [
         {
           "action": "delete",
-          "path": "{scriptsDir}/Script/ntsc-rs.mod2"
+          "path": "{scriptsDir}/ntsc-rs.mod2"
         },
         {
           "action": "delete",
-          "path": "{scriptsDir}/Script/ntsc-rs.anm2"
+          "path": "{scriptsDir}/ntsc-rs.anm2"
         }
       ]
     },
