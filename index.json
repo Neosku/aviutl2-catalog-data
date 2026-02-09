@@ -10589,7 +10589,7 @@
     "description": "./md/sagami121.AudioEnc.md",
     "author": "3aGaM1",
     "repoURL": "https://github.com/sagami121/Aviutl2-AudioEnc",
-    "latest-version": "v1.1",
+    "latest-version": "v1.2",
     "popularity": 43,
     "trend": 45,
     "licenses": [
@@ -10631,7 +10631,7 @@
           "action": "run",
           "path": "{tmp}/AudioEnc_Setup.exe",
           "args": [
-            "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART"
+            "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /DIR=\"{pluginsDir}\""
           ]
         }
       ],
