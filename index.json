@@ -11449,7 +11449,7 @@
         {
           "action": "copy",
           "from": "{tmp}/Plugin/svg.aux2",
-          "to": "{pluginDir}"
+          "to": "{pluginsDir}"
         },
         {
           "action": "copy",
@@ -11464,7 +11464,7 @@
         },
         {
           "action": "delete",
-          "path": "{pluginDir}/svg.aux2"
+          "path": "{pluginsDir}/svg.aux2"
         }
       ]
     },
@@ -11474,7 +11474,7 @@
         "release_date": "2026-02-04",
         "file": [
           {
-            "path": "{pluginDir}/svg.aux2",
+            "path": "{pluginsDir}/svg.aux2",
             "XXH3_128": "9f9d97c8c8022dcfe168a5405c8269c8"
           }
         ]
@@ -11484,7 +11484,7 @@
         "release_date": "2026-02-06",
         "file": [
           {
-            "path": "{pluginDir}/svg.aux2",
+            "path": "{pluginsDir}/svg.aux2",
             "XXH3_128": "ecb8ad1af5c1982a41e3b5f83eece953"
           }
         ]
@@ -11833,7 +11833,7 @@
         "release_date": "2026-02-06",
         "file": [
           {
-            "path": "{pluginDir}/rusty_metronome.aux2",
+            "path": "{pluginsDir}/rusty_metronome.aux2",
             "XXH3_128": "12e1a0eb2b8bcee982411af8f0c0b0cc"
           }
         ]
