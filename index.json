@@ -10484,7 +10484,11 @@
       "便利ツール"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/sevenc-nanashi.aviutl2-rs.rusty_scripts_search_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
