@@ -8641,9 +8641,9 @@
   {
     "id": "shyachi.SrtImporter",
     "name": "SrtImporter",
-    "type": "入力プラグイン",
+    "type": "汎用プラグイン",
     "summary": "SRT字幕ファイルをインポートするプラグイン",
-    "description": "./md/shyachi.AviUtl2_SrtImporter.md",
+    "description": "./md/shyachi.SrtImporter.md",
     "author": "shyachi",
     "repoURL": "https://github.com/shyachi/AviUtl2_SrtImporter",
     "latest-version": "v0.10",
