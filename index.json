@@ -12364,5 +12364,63 @@
         ]
       }
     ]
+  },
+  {
+    "id": "CatWithNeko.ToneCurve",
+    "name": "トーンカーブ(時間制御)",
+    "type": "スクリプト",
+    "summary": "時間制御のカーブエディタを利用したトーンカーブスクリプト",
+    "description": "./md/CatWithNeko.ToneCurve.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://x.com/CatWithNeko/status/1972685066963960255",
+    "latest-version": "2025-11-02",
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "色調整",
+      "色調補正",
+      "画像"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://scrapbox.io/api/code/CatWithNeko/aviutl2_%E3%83%88%E3%83%BC%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%96(%E6%99%82%E9%96%93%E5%88%B6%E5%BE%A1)%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88/%E3%83%88%E3%83%BC%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%96(%E6%99%82%E9%96%93%E5%88%B6%E5%BE%A1).anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/トーンカーブ(時間制御).anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/トーンカーブ(時間制御).anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025-11-02",
+        "release_date": "2025-11-02",
+        "file": [
+          {
+            "path": "{scriptsDir}/トーンカーブ(時間制御).anm2",
+            "XXH3_128": "20179a871f9bc3430e0f0a6ec1390746"
+          }
+        ]
+      }
+    ]
   }
 ]
