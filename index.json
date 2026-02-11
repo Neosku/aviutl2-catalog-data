@@ -12217,5 +12217,74 @@
         ]
       }
     ]
+  },
+  {
+    "id": "mes51.Unmult",
+    "name": "Unmult",
+    "type": "スクリプト",
+    "summary": "黒背景または白背景に重ねられた素材を復元するスクリプト",
+    "description": "https://raw.githubusercontent.com/mes51/AVIUtl2_Unmult/refs/heads/master/README.md",
+    "author": "mes51",
+    "repoURL": "https://github.com/mes51/AVIUtl2_Unmult",
+    "latest-version": "v1.1.0",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "mes51"
+          }
+        ],
+        "licenseBody": "Copyright 2026 mes51\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+      }
+    ],
+    "niconiCommonsId": "sm39935396",
+    "tags": [
+      "キーイング"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "mes51",
+          "repo": "AVIUtl2_Unmult",
+          "pattern": "AVIUtl2_Unmult_.*\\\\.zip"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/AVIUtl2_Unmult/Unmult.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Unmult.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.1.0",
+        "release_date": "2026-02-11",
+        "file": [
+          {
+            "path": "{scriptsDir}/Unmult.anm2",
+            "XXH3_128": "95db06616aa817ef502997202b231fde"
+          }
+        ]
+      }
+    ]
   }
 ]
