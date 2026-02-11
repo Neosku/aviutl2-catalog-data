@@ -12286,5 +12286,73 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sagami121.Calculator",
+    "name": "aviutl2_calc.aux2",
+    "type": "汎用プラグイン",
+    "summary": "AviUtl2上で計算ができるプラグイン",
+    "description": "./md/sagami121.Calculator.md",
+    "author": "3aGaM1",
+    "repoURL": "https://github.com/sagami121/Aviutl2-Calculator",
+    "latest-version": "v0.1",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "3aGaM1"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sagami121",
+          "repo": "Aviutl2-Calculator",
+          "pattern": "^aviutl2_calc_.*\\\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/aviutl2_calc.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/aviutl2_calc.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1",
+        "release_date": "2026-02-11",
+        "file": [
+          {
+            "path": "{pluginsDir}/aviutl2_calc.aux2",
+            "XXH3_128": "6a21912b3f08384b47837c88b43e1be0"
+          }
+        ]
+      }
+    ]
   }
 ]
