@@ -12219,10 +12219,10 @@
     ]
   },
   {
-    "id": "mes51.AVIUtl2_Unmult",
+    "id": "mes51.Unmult",
     "name": "Unmult",
     "type": "スクリプト",
-    "summary": "Knoll UnMultと同様な動きをするスクリプト",
+    "summary": "黒背景または白背景に重ねられた素材を復元するスクリプト",
     "description": "https://raw.githubusercontent.com/mes51/AVIUtl2_Unmult/refs/heads/master/README.md",
     "author": "mes51",
     "repoURL": "https://github.com/mes51/AVIUtl2_Unmult",
