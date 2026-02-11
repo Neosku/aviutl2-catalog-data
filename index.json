@@ -12295,7 +12295,7 @@
     "description": "./md/sagami121.Calculator.md",
     "author": "3aGaM1",
     "repoURL": "https://github.com/sagami121/Aviutl2-Calculator",
-    "latest-version": "v0.1",
+    "latest-version": "v0.2",
     "licenses": [
       {
         "type": "MIT",
@@ -12350,6 +12350,16 @@
           {
             "path": "{pluginsDir}/aviutl2_calc.aux2",
             "XXH3_128": "6a21912b3f08384b47837c88b43e1be0"
+          }
+        ]
+      },
+      {
+        "version": "v0.2",
+        "release_date": "2026-02-11",
+        "file": [
+          {
+            "path": "{pluginsDir}/aviutl2_calc.aux2",
+            "XXH3_128": "5a788772aa35e8a3f82d63a047f5b75b"
           }
         ]
       }
