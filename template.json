@@ -1,43 +1,89 @@
-{
-  "id": "",
-  "name": "",
-  "type": "",
-  "summary": "",
-  "description": "",
-  "author": "",
-  "repoURL": "",
-  "latest-version": "",
-  "license": "",
-  "tags": [
-    ""
-  ],
-  "dependencies": [],
-  "images": [],
-  "installer": {
-    "source": {
-      "direct": ""
-    },
-    "install": [
+[
+  {
+    "id": "authorName.packageName",
+    "name": "packageDisplayName",
+    "type": "入力プラグイン/出力プラグイン/汎用プラグイン/フィルタプラグイン/スクリプト/言語ファイル",
+    "summary": "概要を35文字以内で記載してください。",
+    "description": "./md/authorName.packageName.md",
+    "author": "作者名",
+    "repoURL": "パッケージの詳細がわかるURL（GitHub/個人サイト/Xなど）",
+    "niconiCommonsID": 123456,
+    "licenses": [
       {
-        "action": ""
-      },
-      {
-        "action": "",
-        "path": ""
+        "type": "ライセンス名を書いてください",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "ライセンス本文を記載してください"
       }
     ],
-    "uninstall": []
-  },
-  "version": [
-    {
-      "version": "",
-      "release_date": "",
-      "file": [
+    "tags": [
+      "タグ1",
+      "タグ2"
+    ],
+    "dependencies": ["現在未対応です"],
+    "images": ["カタログ本体でご登録ください"],
+    "installer": {
+      "source": {
+        "direct": "https://example.com/path/to/package.zip",
+        "github": {
+          "owner": "ownerName",
+          "repo": "repoName",
+          "pattern": "^package_.*\\.zip$(正規表現で入力してください。)"
+        },
+        "GoogleDrive": {
+          "id": "GoogleDriveFileId"
+        },
+        "booth": "https://booth.pm/downloadables/1234567890abcdef"
+      },
+      "install": [
         {
+          "action": "delete",
+          "path": ""
+        },
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract",
+          "from": "",
+          "to": ""
+        },
+        {
+          "action": "copy",
+          "from": "",
+          "to": ""
+        },
+        {
+          "action": "run",
           "path": "",
-          "XXH3_128": ""
+          "args": [],
+          "elevate": false
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": ""
+        },
+        {
+          "action": "run",
+          "path": "",
+          "args": [],
+          "elevate": false
         }
       ]
-    }
-  ]
-}
+    },
+    "version": [
+      {
+        "version": "versionString",
+        "release_date": "releaseDate",
+        "file": [
+          {
+            "path": "path/to/file",
+            "XXH3_128": "xxh3_128_hash_value"
+          }
+        ]
+      }
+    ]
+  }
+]
