@@ -12486,5 +12486,96 @@
         ]
       }
     ]
+  },
+  {
+    "id": "cleaning.sam_frame_export_filter",
+    "name": "1クリック物体切り抜き（静止画）",
+    "type": "フィルタプラグイン",
+    "summary": "1クリックで背景を消す(初回導入にあたってはGithubを読んで)",
+    "description": "./md/cleaning.sam_frame_export_filter.md",
+    "author": "クリーニング",
+    "repoURL": "https://github.com/clean262/sam_frame_export_filter",
+    "latest-version": "v0.1.3",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "cleaning"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "sm45723074",
+    "tags": [
+      "キーイング",
+      "クリッピング",
+      "画像",
+      "加工",
+      "AI",
+      "切り抜き",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/cleaning.sam_frame_export_filter_thumbnail.png",
+        "infoImg": [
+          "./image/cleaning.sam_frame_export_filter_1.jpg"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "clean262",
+          "repo": "sam_frame_export_filter",
+          "pattern": "^sam_frame_export_filter-windows-x64\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/sam_frame_export_filter.auf2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/sam_frame_export_filter",
+          "to": "{pluginsDir}/sam_frame_export_filter"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/sam_frame_export_filter.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/sam_frame_export_filter/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.3",
+        "release_date": "2026-02-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/sam_frame_export_filter.auf2",
+            "XXH3_128": "b3c0ae51f0f64c81145a849faffdf193"
+          }
+        ]
+      }
+    ]
   }
 ]
