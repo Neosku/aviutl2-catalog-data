@@ -12577,5 +12577,75 @@
         ]
       }
     ]
+  },
+  {
+    "id": "KAZOON.KSA",
+    "name": "KSA",
+    "type": "スクリプト",
+    "summary": "リサイズやインターレース解除を含むスクリプト集",
+    "description": "https://raw.githubusercontent.com/cycloawaodorin/ksa/refs/heads/main/USAGE.md",
+    "author": "KAZOON",
+    "repoURL": "https://github.com/cycloawaodorin/ksa",
+    "latest-version": "2.0.0",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "KAZOON"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト",
+      "リサイズ",
+      "インターレース解除"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "cycloawaodorin",
+          "repo": "ksa",
+          "pattern": "^ksa\\..*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/KSA"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2.0.0",
+        "release_date": "2026-02-05",
+        "file": [
+          {
+            "path": "{scriptsDir}//KSA/ksa_ext.mod2",
+            "XXH3_128": "ffd99de0a935213fe4372f88e8be46bf"
+          }
+        ]
+      }
+    ]
   }
 ]
