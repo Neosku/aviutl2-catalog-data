@@ -488,10 +488,10 @@
   },
   {
     "id": "hebiiro.al2_jd",
-    "name": "ダークモード化MOD",
+    "name": "⚠️【非推奨】ダークモード化MOD",
     "type": "MOD",
     "summary": "AviUtl2を完全にダークモード化するプラグイン",
-    "description": "https://raw.githubusercontent.com/hebiiro/al2_jd/refs/heads/master/README.md",
+    "description": "./md/hebiiro.al2_jd.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_jd/",
     "latest-version": "r30",
@@ -8749,6 +8749,18 @@
       },
       "install": [
         {
+          "action": "delete",
+          "path": "{pluginsDir}/al2_memo.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/config/al2_memo.json"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/config/sharing_note.txt"
+        },
+        {
           "action": "download"
         },
         {
@@ -9207,6 +9219,18 @@
         }
       },
       "install": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2_memo.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/config/al2_memo.json"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/config/sharing_note.txt"
+        },
         {
           "action": "download"
         },
@@ -11429,6 +11453,18 @@
       },
       "install": [
         {
+          "action": "delete",
+          "path": "{pluginsDir}/al2_memo.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/config/al2_memo.json"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/config/sharing_note.txt"
+        },
+        {
           "action": "download"
         },
         {
@@ -12168,6 +12204,18 @@
         }
       },
       "install": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2_memo.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/config/al2_memo.json"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/config/sharing_note.txt"
+        },
         {
           "action": "download"
         },
