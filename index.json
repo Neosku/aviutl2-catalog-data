@@ -8605,10 +8605,15 @@
     ],
     "tags": [
       "エフェクト",
-      "グラデーション"
+      "グラデーション",
+      "パス"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/teruyoshii.pathGradation_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "direct": "https://raw.githubusercontent.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/refs/heads/main/%E3%83%91%E3%82%B9%E3%82%B0%E3%83%A9%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.anm2"
