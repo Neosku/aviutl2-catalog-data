@@ -8755,15 +8755,15 @@
       "install": [
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2_jd.aui2"
+          "path": "{pluginsDir}/al2_memo.aux2"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/DarkenWindow.aul"
+          "path": "{pluginsDir}/al2/config/al2_memo.json"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2/assets/al2_jd.json"
+          "path": "{pluginsDir}/al2/config/sharing_note.txt"
         },
         {
           "action": "download"
@@ -9226,15 +9226,15 @@
       "install": [
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2_jd.aui2"
+          "path": "{pluginsDir}/al2_memo.aux2"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/DarkenWindow.aul"
+          "path": "{pluginsDir}/al2/config/al2_memo.json"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2/assets/al2_jd.json"
+          "path": "{pluginsDir}/al2/config/sharing_note.txt"
         },
         {
           "action": "download"
@@ -11459,15 +11459,15 @@
       "install": [
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2_jd.aui2"
+          "path": "{pluginsDir}/al2_memo.aux2"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/DarkenWindow.aul"
+          "path": "{pluginsDir}/al2/config/al2_memo.json"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2/assets/al2_jd.json"
+          "path": "{pluginsDir}/al2/config/sharing_note.txt"
         },
         {
           "action": "download"
@@ -12211,15 +12211,15 @@
       "install": [
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2_jd.aui2"
+          "path": "{pluginsDir}/al2_memo.aux2"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/DarkenWindow.aul"
+          "path": "{pluginsDir}/al2/config/al2_memo.json"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2/assets/al2_jd.json"
+          "path": "{pluginsDir}/al2/config/sharing_note.txt"
         },
         {
           "action": "download"
@@ -12653,42 +12653,51 @@
     ]
   },
   {
-    "id": "sevenc-nanashi.tinted-aviutl2",
-    "name": "Tinted AviUtl2",
+    "id": "cleaning.sam3_bb_gb_generator",
+    "name": "1クリック動画切り抜き",
     "type": "汎用プラグイン",
-    "summary": "tinted-theming をAviUtl2で使うプラグイン。",
-    "description": "https://raw.githubusercontent.com/sevenc-nanashi/tinted-aviutl2/main/README.md",
-    "author": "Nanashi.",
-    "originalAuthor": "Tinted Theming",
-    "repoURL": "https://github.com/sevenc-nanashi/tinted-aviutl2",
-    "latest-version": "0.2.0",
+    "summary": "動画背景を消す(初回導入にあたってはGithubを読んで)",
+    "description": "./md/cleaning.sam3_bb_gb_generator.md",
+    "author": "クリーニング",
+    "repoURL": "https://github.com/clean262/sam3_bb_gb_generator",
+    "latest-version": "v0.0.5",
     "licenses": [
       {
         "type": "MIT",
-        "isCustom": true,
-        "copyrights": [],
-        "licenseBody": "MIT License\r\n\r\nCopyright (c) 2026 Nanashi. <sevenc7c.com>\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "cleaning"
+          }
+        ],
+        "licenseBody": null
       }
     ],
-    "niconiCommonsId": "sm45904404",
+    "niconiCommonsId": "https://www.nicovideo.jp/watch/sm45931905",
     "tags": [
-      "UI"
+      "キーイング",
+      "クリッピング",
+      "加工",
+      "切り抜き",
+      "便利ツール",
+      "AI"
     ],
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/sevenc-nanashi.tinted-aviutl2_thumbnail.png",
+        "thumbnail": "./image/cleaning.sam3_bb_gb_generator_thumbnail.png",
         "infoImg": [
-          "./image/sevenc-nanashi.tinted-aviutl2_1.png"
+          "./image/cleaning.sam3_bb_gb_generator_1.png"
         ]
       }
     ],
     "installer": {
       "source": {
         "github": {
-          "owner": "sevenc-nanashi",
-          "repo": "tinted-aviutl2",
-          "pattern": "^tinted-aviutl2-v[^/]+\\.au2pkg\\.zip$"
+          "owner": "clean262",
+          "repo": "sam3_bb_gb_generator",
+          "pattern": "^SAM3_win64\\.zip$"
         }
       },
       "install": [
@@ -12700,38 +12709,46 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Language/English.tinted-aviutl2.aul2",
-          "to": "{dataDir}/Language"
+          "from": "{tmp}/SAM3_win64/aviutl2/Plugin",
+          "to": "{pluginsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/Plugin/tinted-aviutl2.aux2",
-          "to": "{pluginsDir}"
+          "from": "{tmp}/SAM3_win64/aviutl2/Script",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "run",
+          "path": "{pluginsDir}/SAM3/python/uv.exe",
+          "args": [
+            "--directory \"{pluginsDir}/SAM3/python\" sync --locked"
+          ],
+          "from": "{pluginsDir}/SAM3/python/uv.exe"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{pluginsDir}/tinted-aviutl2.aux2"
+          "path": "{pluginsDir}/SAM3/python"
         },
         {
           "action": "delete",
-          "path": "{dataDir}/Language/English.tinted-aviutl2.aul2"
+          "path": "{pluginsDir}/SAM3/sam3.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/SAM3"
         }
       ]
     },
     "version": [
       {
-        "version": "0.2.0",
+        "version": "v0.0.5",
         "release_date": "2026-02-13",
         "file": [
           {
-            "path": "{dataDir}/Language/English.tinted-aviutl2.aul2",
-            "XXH3_128": "22369479880f856bd22d843c16e7830b"
-          },
-          {
-            "path": "{pluginsDir}/tinted-aviutl2.aux2",
-            "XXH3_128": "58bce4e92f7d57afe4f4522bc6b79f12"
+            "path": "{pluginsDir}/SAM3/sam3.aux2",
+            "XXH3_128": "b43303e97f0ead363a1d843d8ac7a22a"
           }
         ]
       }
