@@ -12796,5 +12796,107 @@
         ]
       }
     ]
+  },
+  {
+    "id": "cleaning.sam3_bb_gb_generator",
+    "name": "1クリック動画切り抜き",
+    "type": "汎用プラグイン",
+    "summary": "動画背景を消す(初回導入にあたってはGithubを読んで)",
+    "description": "./md/cleaning.sam3_bb_gb_generator.md",
+    "author": "クリーニング",
+    "repoURL": "https://github.com/clean262/sam3_bb_gb_generator",
+    "latest-version": "v0.0.5",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "cleaning"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "https://www.nicovideo.jp/watch/sm45931905",
+    "tags": [
+      "キーイング",
+      "クリッピング",
+      "加工",
+      "切り抜き",
+      "便利ツール",
+      "AI"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/cleaning.sam3_bb_gb_generator_thumbnail.png",
+        "infoImg": [
+          "./image/cleaning.sam3_bb_gb_generator_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "clean262",
+          "repo": "sam3_bb_gb_generator",
+          "pattern": "^SAM3_win64\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SAM3_win64/aviutl2/Plugin",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SAM3_win64/aviutl2/Script",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "run",
+          "path": "{pluginsDir}/SAM3/python/uv.exe",
+          "args": [
+            "--directory \"{pluginsDir}/SAM3/python\" sync --locked"
+          ],
+          "from": "{pluginsDir}/SAM3/python/uv.exe"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SAM3/python"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SAM3/sam3.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/SAM3"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.0.5",
+        "release_date": "2026-02-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/SAM3/sam3.aux2",
+            "XXH3_128": "b43303e97f0ead363a1d843d8ac7a22a"
+          }
+        ]
+      }
+    ]
   }
 ]
