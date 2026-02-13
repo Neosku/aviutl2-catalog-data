@@ -8755,15 +8755,15 @@
       "install": [
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2_memo.aux2"
+          "path": "{pluginsDir}/al2_jd.aui2"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2/config/al2_memo.json"
+          "path": "{pluginsDir}/DarkenWindow.aul"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2/config/sharing_note.txt"
+          "path": "{pluginsDir}/al2/assets/al2_jd.json"
         },
         {
           "action": "download"
@@ -9226,15 +9226,15 @@
       "install": [
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2_memo.aux2"
+          "path": "{pluginsDir}/al2_jd.aui2"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2/config/al2_memo.json"
+          "path": "{pluginsDir}/DarkenWindow.aul"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2/config/sharing_note.txt"
+          "path": "{pluginsDir}/al2/assets/al2_jd.json"
         },
         {
           "action": "download"
@@ -11459,15 +11459,15 @@
       "install": [
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2_memo.aux2"
+          "path": "{pluginsDir}/al2_jd.aui2"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2/config/al2_memo.json"
+          "path": "{pluginsDir}/DarkenWindow.aul"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2/config/sharing_note.txt"
+          "path": "{pluginsDir}/al2/assets/al2_jd.json"
         },
         {
           "action": "download"
@@ -12211,15 +12211,15 @@
       "install": [
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2_memo.aux2"
+          "path": "{pluginsDir}/al2_jd.aui2"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2/config/al2_memo.json"
+          "path": "{pluginsDir}/DarkenWindow.aul"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2/config/sharing_note.txt"
+          "path": "{pluginsDir}/al2/assets/al2_jd.json"
         },
         {
           "action": "download"
