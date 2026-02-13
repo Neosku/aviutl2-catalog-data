@@ -8754,18 +8754,6 @@
       },
       "install": [
         {
-          "action": "delete",
-          "path": "{pluginsDir}/al2_memo.aux2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/al2/config/al2_memo.json"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/al2/config/sharing_note.txt"
-        },
-        {
           "action": "download"
         },
         {
@@ -9224,18 +9212,6 @@
         }
       },
       "install": [
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/al2_memo.aux2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/al2/config/al2_memo.json"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/al2/config/sharing_note.txt"
-        },
         {
           "action": "download"
         },
@@ -11458,18 +11434,6 @@
       },
       "install": [
         {
-          "action": "delete",
-          "path": "{pluginsDir}/al2_memo.aux2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/al2/config/al2_memo.json"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/al2/config/sharing_note.txt"
-        },
-        {
           "action": "download"
         },
         {
@@ -12209,18 +12173,6 @@
         }
       },
       "install": [
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/al2_memo.aux2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/al2/config/al2_memo.json"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/al2/config/sharing_note.txt"
-        },
         {
           "action": "download"
         },
