@@ -6636,7 +6636,7 @@
     "description": "./md/naltutyo-ScriptBrowserPlugin.md",
     "author": "Nao",
     "repoURL": "https://nao-kid.booth.pm/items/7684889",
-    "latest-version": "v2.8",
+    "latest-version": "v2.9",
     "popularity": 179,
     "trend": 123,
     "licenses": [
@@ -6659,7 +6659,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8132983?_gl=1*1teub8w*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NjgwNDgwMjckbzEwJGcxJHQxNzY4MDUxODkzJGo1NCRsMCRoMA.."
+        "booth": "https://booth.pm/downloadables/8401734?_gl=1*8ogfe*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzA5ODc4MzQkbzY0JGcxJHQxNzcwOTg4Njc4JGo1MyRsMCRoMA.."
       },
       "install": [
         {
@@ -6670,7 +6670,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/v2.8/SearchBrowserPlugin.aux2",
+          "from": "{tmp}/v2.9/SearchBrowserPlugin.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -6689,6 +6689,16 @@
           {
             "path": "{pluginsDir}/SearchBrowserPlugin.aux2",
             "XXH3_128": "364dd63a563764b4fc83fac52dcb6f83"
+          }
+        ]
+      },
+      {
+        "version": "v2.9",
+        "release_date": "2026-02-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/SearchBrowserPlugin.aux2",
+            "XXH3_128": "727555509b8ae310d8e98af7a5548e5d"
           }
         ]
       }
