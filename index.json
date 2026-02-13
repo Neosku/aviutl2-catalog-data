@@ -12647,5 +12647,65 @@
         ]
       }
     ]
+  },
+  {
+    "id": "zopty.OKLCHpalette",
+    "name": "OKLCH パレット",
+    "type": "その他",
+    "summary": "OKLCH に基づいて設計されたカラーパレット",
+    "description": "https://gist.githubusercontent.com/zopty/46b16b7d5f90ec772274e67015117a91/raw/75195d968386793ecb99bc98d9d2db9ed8595644/README.md",
+    "author": "zopty",
+    "repoURL": "https://gist.github.com/zopty/46b16b7d5f90ec772274e67015117a91",
+    "latest-version": "2025-11-21",
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "カラーパレット"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/zopty.OKLCHpalette_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://gist.githubusercontent.com/zopty/46b16b7d5f90ec772274e67015117a91/raw/75195d968386793ecb99bc98d9d2db9ed8595644/OKLCH.palette"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/OKLCH.palette",
+          "to": "{dataDir}/default"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{dataDir}/default/OKLCH.palette"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025-11-21",
+        "release_date": "2025-11-21",
+        "file": [
+          {
+            "path": "{dataDir}/default/OKLCH.palette",
+            "XXH3_128": "ba13d1bd5821946ca7fa0b647add6142"
+          }
+        ]
+      }
+    ]
   }
 ]
