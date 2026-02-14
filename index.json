@@ -13178,7 +13178,7 @@
   {
     "id": "KuroNeko.audio2obj",
     "name": "audio2obj",
-    "type": "ハンドラースクリプト",
+    "type": "スクリプト",
     "summary": "音声ファイル名からオブジェクト生成",
     "description": "./md/KuroNeko.audio2obj.md",
     "author": "黒猫大福",
@@ -13251,7 +13251,7 @@
   {
     "id": "KuroNeko.midi2EAP2",
     "name": "midi2EAP2",
-    "type": "ハンドラースクリプト",
+    "type": "スクリプト",
     "summary": "EAP2 MIDI Visualizerのハンドラースクリプト",
     "description": "./md/KuroNeko.midi2EAP2.md",
     "author": "黒猫大福",
