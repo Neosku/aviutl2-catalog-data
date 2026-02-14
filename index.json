@@ -12754,6 +12754,16 @@
             "XXH3_128": "58bce4e92f7d57afe4f4522bc6b79f12"
           }
         ]
+      },
+      {
+        "version": "0.2.1",
+        "release_date": "2026-02-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/tinted-aviutl2.aux2",
+            "XXH3_128": "2597e2cb8a602656d6451fcfaa88cc2a"
+          }
+        ]
       }
     ]
   },
