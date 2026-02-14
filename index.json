@@ -12373,13 +12373,13 @@
   },
   {
     "id": "sagami121.Calculator",
-    "name": "aviutl2_calc.aux2",
+    "name": "Aviutl2-Calculator",
     "type": "汎用プラグイン",
     "summary": "AviUtl2上で計算ができるプラグイン",
     "description": "./md/sagami121.Calculator.md",
     "author": "3aGaM1",
     "repoURL": "https://github.com/sagami121/Aviutl2-Calculator",
-    "latest-version": "v0.2",
+    "latest-version": "0.2",
     "popularity": 30,
     "trend": 29,
     "licenses": [
@@ -12405,7 +12405,7 @@
         "github": {
           "owner": "sagami121",
           "repo": "Aviutl2-Calculator",
-          "pattern": "^aviutl2_calc_.*\\\\.zip$"
+          "pattern": "^aviutl2_calc_.*\\.zip$"
         }
       },
       "install": [
@@ -12430,7 +12430,7 @@
     },
     "version": [
       {
-        "version": "v0.1",
+        "version": "0.1",
         "release_date": "2026-02-11",
         "file": [
           {
@@ -12440,7 +12440,7 @@
         ]
       },
       {
-        "version": "v0.2",
+        "version": "0.2",
         "release_date": "2026-02-11",
         "file": [
           {
@@ -12750,10 +12750,6 @@
         "release_date": "2026-02-13",
         "file": [
           {
-            "path": "{dataDir}/Language/English.tinted-aviutl2.aul2",
-            "XXH3_128": "22369479880f856bd22d843c16e7830b"
-          },
-          {
             "path": "{pluginsDir}/tinted-aviutl2.aux2",
             "XXH3_128": "58bce4e92f7d57afe4f4522bc6b79f12"
           }
@@ -12843,7 +12839,7 @@
         "licenseBody": null
       }
     ],
-    "niconiCommonsId": "https://www.nicovideo.jp/watch/sm45931905",
+    "niconiCommonsId": "sm45931905",
     "tags": [
       "キーイング",
       "クリッピング",

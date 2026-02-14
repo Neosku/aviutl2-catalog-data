@@ -1431,5 +1431,105 @@
         }
       ]
     }
+  },
+  {
+    "id": "mes51.Unmult",
+    "latest-version": "v1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "mes51/AVIUtl2_Unmult",
+      "regex": "AVIUtl2_Unmult_.*\\\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "AVIUtl2_Unmult/Unmult.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Unmult.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sagami121.Calculator",
+    "latest-version": "0.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sagami121/Aviutl2-Calculator",
+      "regex": "^aviutl2_calc_.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "aviutl2_calc.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2_calc.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "cleaning.sam_frame_export_filter",
+    "latest-version": "v0.1.3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "clean262/sam_frame_export_filter",
+      "regex": "^sam_frame_export_filter-windows-x64\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "sam_frame_export_filter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/sam_frame_export_filter.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.tinted-aviutl2",
+    "latest-version": "0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/tinted-aviutl2",
+      "regex": "^tinted-aviutl2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/tinted-aviutl2.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/tinted-aviutl2.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "cleaning.sam3_bb_gb_generator",
+    "latest-version": "v0.0.5",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "clean262/sam3_bb_gb_generator",
+      "regex": "^SAM3_win64\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SAM3_win64/aviutl2/Plugin/SAM3/sam3.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SAM3/sam3.aux2"
+          ]
+        }
+      ]
+    }
   }
 ]
