@@ -13182,7 +13182,7 @@
     "summary": "音声ファイル名からオブジェクト生成",
     "description": "./md/KuroNeko.audio2obj.md",
     "author": "黒猫大福",
-    "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
+    "repoURL": "https://github.com/rokujyushi/GCMZScripts",
     "latest-version": "0.2.0",
     "licenses": [
       {
@@ -13231,7 +13231,7 @@
       "uninstall": [
         {
           "action": "delete",
-          "path": "{appDir}\\Plugin\\GCMZDrops\\GCMZScript\\audio2obj.lua"
+          "path": "{pluginsDir}\\GCMZDrops\\GCMZScript\\audio2obj.lua"
         }
       ]
     },
@@ -13242,7 +13242,7 @@
         "file": [
           {
             "path": "{pluginsDir}\\GCMZDrops\\GCMZScript\\audio2obj.lua",
-            "XXH3_128": "4bb5bd2102c19ec17a49e5e891d1cff1"
+            "XXH3_128": "3ed42ada0f8f94eaa75048cae4591d4a"
           }
         ]
       }
