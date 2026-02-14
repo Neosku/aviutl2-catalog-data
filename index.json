@@ -12685,7 +12685,7 @@
     "author": "Nanashi.",
     "originalAuthor": "Tinted Theming",
     "repoURL": "https://github.com/sevenc-nanashi/tinted-aviutl2",
-    "latest-version": "0.2.0",
+    "latest-version": "0.2.2",
     "licenses": [
       {
         "type": "MIT",
@@ -12762,6 +12762,16 @@
           {
             "path": "{pluginsDir}/tinted-aviutl2.aux2",
             "XXH3_128": "2597e2cb8a602656d6451fcfaa88cc2a"
+          }
+        ]
+      },
+      {
+        "version": "0.2.2",
+        "release_date": "2026-02-14",
+        "file": [
+          {
+            "path": "{pluginsDir}/tinted-aviutl2.aux2",
+            "XXH3_128": "11563fd464e4360cd0ceeecd5f80c2f4"
           }
         ]
       }
