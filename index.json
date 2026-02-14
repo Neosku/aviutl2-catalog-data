@@ -5526,8 +5526,8 @@
   {
     "id": "Garech.jp_akey.aul2",
     "name": "アクセスキー付き日本語リソース",
-    "type": "言語ファイル",
-    "summary": "AviUtl2の各メニュー・一部ボタン項目にアクセスキーを追加する言語ファイルです。",
+    "type": "その他",
+    "summary": "AviUtl2のメニュー・一部ボタンにアクセスキーを加える言語ファイル",
     "description": "./md/Garech.jp_akey.aul2.md",
     "author": "Garech",
     "repoURL": "https://github.com/Garech-mas/jp_akey.aul2",
@@ -5543,7 +5543,8 @@
       }
     ],
     "tags": [
-      "UI"
+      "UI",
+      "言語ファイル"
     ],
     "dependencies": [],
     "images": [],
