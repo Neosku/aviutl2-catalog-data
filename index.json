@@ -12819,7 +12819,7 @@
         "release_date": "2026-02-05",
         "file": [
           {
-            "path": "{scriptsDir}//KSA/ksa_ext.mod2",
+            "path": "{scriptsDir}/KSA/ksa_ext.mod2",
             "XXH3_128": "ffd99de0a935213fe4372f88e8be46bf"
           }
         ]
@@ -13256,7 +13256,7 @@
     "description": "./md/KuroNeko.midi2EAP2.md",
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/GCMZScripts",
-    "latest-version": "0.1.0",
+    "latest-version": "0.2.0",
     "licenses": [
       {
         "type": "MIT",
@@ -13320,16 +13320,12 @@
     },
     "version": [
       {
-        "version": "0.1.0",
+        "version": "0.2.0",
         "release_date": "2026-01-21",
         "file": [
           {
-            "path": "{pluginsDir}\\GCMZDrops\\GCMZScript\\midi2EAP2.lua",
+            "path": "{pluginsDir}/GCMZDrops/GCMZScript/midi2EAP2.lua",
             "XXH3_128": "eb859d0f7a00c3dc7953b838a4aeba93"
-          },
-          {
-            "path": "{pluginsDir}\\GCMZDrops\\GCMZScript\\midi.lua",
-            "XXH3_128": "aa970dfb21695b759099bf3f9999c21d"
           }
         ]
       }
@@ -13343,7 +13339,7 @@
     "description": "https://raw.githubusercontent.com/rokujyushi/Haribote/refs/heads/main/Catalog_ReadMe.md",
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/Haribote",
-    "latest-version": "v0.0.0",
+    "latest-version": "0.0.0",
     "licenses": [
       {
         "type": "MIT",
@@ -13397,7 +13393,7 @@
     },
     "version": [
       {
-        "version": "v0.0.0",
+        "version": "0.0.0",
         "release_date": "2026-01-21",
         "file": [
           {

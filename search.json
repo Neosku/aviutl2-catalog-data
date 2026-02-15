@@ -1395,7 +1395,7 @@
     }
   },
   {
-    "id": "Book-0225.EAP2.4.AviUtl2",
+    "id": "Book-0225.EAP2",
     "latest-version": "v0.0.25",
     "checkType": {
       "type": "GitHub",
@@ -1527,6 +1527,85 @@
           ],
           "recordPaths": [
             "{pluginsDir}/SAM3/sam3.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KAZOON.KSA",
+    "latest-version": "2.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "cycloawaodorin/ksa",
+      "regex": "^ksa\\..*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/KSA/ksa_ext.mod2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/KSA/ksa_ext.mod2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KuroNeko.audio2obj",
+    "latest-version": "0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rokujyushi/GCMZScripts",
+      "regex": "audio2obj\\.lua",
+      "hash-calc": [
+        {
+          "paths": [
+            "audio2obj\\.lua"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GCMZDrops/GCMZScript/audio2obj.lua"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KuroNeko.midi2EAP2",
+    "latest-version": "0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rokujyushi/GCMZScripts",
+      "regex": "midi2EAP2\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "midi2EAP2/midi2EAP2.lua"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GCMZDrops/GCMZScript/midi2EAP2.lua"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KuroNeko.Haribote",
+    "latest-version": "0.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rokujyushi/Haribote",
+      "regex": "HariboteReader\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "HariboteReader.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/HariboteReader.aui2"
           ]
         }
       ]
