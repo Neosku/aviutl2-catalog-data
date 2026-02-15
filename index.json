@@ -13445,5 +13445,21 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Book-0225.EAP2.4.AviUtl2",
+    "latest-version": "v0.0.26",
+    "version": [
+      {
+        "version": "v0.0.26",
+        "release_date": "2026-02-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/External_Audio_Processing2.aux2",
+            "XXH3_128": "9f5444015466890fac8a0715f2983a34"
+          }
+        ]
+      }
+    ]
   }
 ]
