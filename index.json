@@ -5406,7 +5406,7 @@
     "description": "https://raw.githubusercontent.com/Garech-mas/AviUtl2_SplitFilters/refs/heads/master/README.md",
     "author": "Garech",
     "repoURL": "https://github.com/Garech-mas/AviUtl2_SplitFilters",
-    "latest-version": "v1.04",
+    "latest-version": "v1.05",
     "popularity": 508,
     "trend": 491,
     "licenses": [
@@ -5518,6 +5518,16 @@
           {
             "path": "{pluginsDir}/SplitFilters.aux2",
             "XXH3_128": "db1a6f550a26396ec4d123a0c715e737"
+          }
+        ]
+      },
+      {
+        "version": "v1.05",
+        "release_date": "2026-02-15",
+        "file": [
+          {
+            "path": "{pluginsDir}/SplitFilters.aux2",
+            "XXH3_128": "2212ce7e14f23f08c249fe6c52505db0"
           }
         ]
       }
