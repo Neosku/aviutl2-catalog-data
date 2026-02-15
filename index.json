@@ -12797,7 +12797,7 @@
     "description": "https://raw.githubusercontent.com/cycloawaodorin/ksa/refs/heads/main/USAGE.md",
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/ksa",
-    "latest-version": "2.0.0",
+    "latest-version": "v2.0.0",
     "popularity": 58,
     "trend": 66,
     "licenses": [
@@ -12852,6 +12852,16 @@
       {
         "version": "2.0.0",
         "release_date": "2026-02-05",
+        "file": [
+          {
+            "path": "{scriptsDir}/KSA/ksa_ext.mod2",
+            "XXH3_128": "ffd99de0a935213fe4372f88e8be46bf"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.0",
+        "release_date": "2026-02-16",
         "file": [
           {
             "path": "{scriptsDir}/KSA/ksa_ext.mod2",
