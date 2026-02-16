@@ -13456,5 +13456,85 @@
         ]
       }
     ]
+  },
+  {
+    "id": "KuroNeko.FontPreview",
+    "name": "FontPreview",
+    "type": "汎用プラグイン",
+    "summary": "フォント一覧検索およびVFの補助プラグイン",
+    "description": "https://raw.githubusercontent.com/rokujyushi/FontPreview/refs/heads/main/README.md",
+    "author": "黒猫大福",
+    "repoURL": "https://github.com/rokujyushi/Haribote",
+    "latest-version": "1.0.0",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "rokujyushi"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "ファイル",
+      "検索",
+      "字幕",
+      "テキスト",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/KuroNeko.FontPreview_thumbnail.png",
+        "infoImg": [
+          "./image/KuroNeko.FontPreview_1.png",
+          "./image/KuroNeko.FontPreview_2.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "rokujyushi",
+          "repo": "FontPreview",
+          "pattern": "FontPreview\\.zip"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}\\FontPreview.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}\\FontPreview.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "1.0.0",
+        "release_date": "2026-02-17",
+        "file": [
+          {
+            "path": "{pluginsDir}\\FontPreview.aux2",
+            "XXH3_128": "c66622093873b9f4468e3dfcd9d9fbab"
+          }
+        ]
+      }
+    ]
   }
 ]
