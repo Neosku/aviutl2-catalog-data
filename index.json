@@ -4800,10 +4800,16 @@
     "tags": [
       "グリッチ",
       "ピクセルソート",
-      "加工"
+      "加工",
+      "エフェクト",
+      "ノイズ"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/korarei.PixelSorter_K_thumbnail.jpg"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
