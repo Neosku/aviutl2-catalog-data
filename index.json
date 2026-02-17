@@ -7612,12 +7612,23 @@
         "licenseBody": null
       }
     ],
+    "niconiCommonsId": "sm44606738",
     "tags": [
       "加工",
-      "画像"
+      "画像",
+      "パターン",
+      "エフェクト"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/korarei.Kaleidoscope_K_thumbnail.jpg",
+        "infoImg": [
+          "./image/korarei.Kaleidoscope_K_1.jpg",
+          "./image/korarei.Kaleidoscope_K_2.gif"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
