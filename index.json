@@ -4878,11 +4878,26 @@
         "licenseBody": null
       }
     ],
-    "tags": [],
+    "niconiCommonsId": "sm45655394",
+    "tags": [
+      "エフェクト",
+      "ぼかし",
+      "テキスト",
+      "文字",
+      "図形",
+      "画像",
+      "移動",
+      "回転",
+      "変形"
+    ],
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/korarei.ObjectMotionBlur_LK_thumbnail.png"
+        "thumbnail": "./image/korarei.ObjectMotionBlur_LK_thumbnail.png",
+        "infoImg": [
+          "./image/korarei.ObjectMotionBlur_LK_1.gif",
+          "./image/korarei.ObjectMotionBlur_LK_2.jpg"
+        ]
       }
     ],
     "installer": {
