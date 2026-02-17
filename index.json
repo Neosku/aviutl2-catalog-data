@@ -13458,6 +13458,182 @@
     ]
   },
   {
+    "id": "NeAc.CinemaScope",
+    "name": "シネマスコープ",
+    "type": "スクリプト",
+    "summary": "ぼくのかんがえたさいきょうのしねますこーぷすくりぷと",
+    "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_CinemaScope/refs/heads/master/README.md",
+    "author": "猫愛",
+    "repoURL": "https://github.com/nea-c/aviutl2_script_CinemaScope",
+    "latest-version": "r2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "NeAc"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト",
+      "エフェクト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/NeAc.CinemaScope_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nea-c",
+          "repo": "aviutl2_script_CinemaScope",
+          "pattern": "^CinemaScope\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/シネマスコープ.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/シネマスコープ.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r2",
+        "release_date": "2026-02-16",
+        "file": [
+          {
+            "path": "{scriptsDir}/シネマスコープ.obj2",
+            "XXH3_128": "4d6c4027059de068266d3488b436319f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "azurite.GradientEditor",
+    "name": "GradientEditor",
+    "type": "汎用プラグイン",
+    "summary": "グラデーションエディタ",
+    "description": "./md/azurite.GradientEditor.md",
+    "author": "azurite",
+    "repoURL": "https://github.com/azurite581/AviUtl2-GradientEditor",
+    "latest-version": "v0.1.0",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "azurite"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "グラデーション",
+      "加工",
+      "色調整"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/azurite.GradientEditor_thumbnail.png",
+        "infoImg": [
+          "./image/azurite.GradientEditor_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "azurite581",
+          "repo": "AviUtl2-GradientEditor",
+          "pattern": "^GradientEditor-v.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/GradientEditor.aux2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@GradientEditor.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.GradientEditor.aul2",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/GradientEditor.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@GradientEditor.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.GradientEditor.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/GradientEditorPreset/gradient_editor_preset.json"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-02-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/GradientEditor.aux2",
+            "XXH3_128": "a8751b0ae82e3c48d7f4583c2982d815"
+          },
+          {
+            "path": "{scriptsDir}/@GradientEditor.anm2",
+            "XXH3_128": "a3addcee4f63c5f805dc9440d7e67baf"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "KAZOON.wav_output_ks",
     "name": "WAVファイル出力",
     "type": "出力プラグイン",
