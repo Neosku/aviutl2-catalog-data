@@ -13704,5 +13704,75 @@
         ]
       }
     ]
+  },
+  {
+    "id": "KAZOON.fzgx_smr_ks",
+    "name": "SMR for F-ZERO GX",
+    "type": "出力プラグイン",
+    "summary": "F-ZERO GX のスピードメータ指示値をテキスト化するプラグイン",
+    "description": "https://raw.githubusercontent.com/cycloawaodorin/fzgx_smr_ks/refs/heads/main/README.md",
+    "author": "KAZOON",
+    "repoURL": "https://github.com/cycloawaodorin/fzgx_smr_ks",
+    "latest-version": "v2.0.1",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "KAZOON"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "cycloawaodorin",
+          "repo": "fzgx_smr_ks",
+          "pattern": "^fzgx_smr_ks\\.2.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/fzgx_smr_ks.auo2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/fzgx_smr_ks.auo2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/fzgx_smr_ks.config"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v2.0.1",
+        "release_date": "2026-02-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/fzgx_smr_ks.auo2",
+            "XXH3_128": "35b0796445208b13bd3f1a71567d1600"
+          }
+        ]
+      }
+    ]
   }
 ]
