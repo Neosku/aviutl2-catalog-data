@@ -14244,7 +14244,7 @@
     "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_BezierPath/refs/heads/master/README.md",
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_script_BezierPath",
-    "latest-version": "r1",
+    "latest-version": "r2",
     "licenses": [
       {
         "type": "MIT",
@@ -14309,6 +14309,16 @@
           {
             "path": "{scriptsDir}/BezierPath.anm2",
             "XXH3_128": "d7aadfa3011bce1805d4eb71789d9622"
+          }
+        ]
+      },
+      {
+        "version": "r2",
+        "release_date": "2026-02-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/BezierPath.anm2",
+            "XXH3_128": "12d98cf32d8617c0f80997009a7551b9"
           }
         ]
       }
