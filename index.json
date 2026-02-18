@@ -14355,7 +14355,11 @@
     ],
     "tags": [],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/sevenc-nanashi.open_project_directory-aux2_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
