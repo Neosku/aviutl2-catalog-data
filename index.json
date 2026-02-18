@@ -13598,7 +13598,7 @@
       },
       {
         "version": "r4",
-        "release_date": "2026-02-19",
+        "release_date": "2026-02-17",
         "file": [
           {
             "path": "{scriptsDir}/シネマスコープ.obj2",
@@ -14097,18 +14097,8 @@
     },
     "version": [
       {
-        "version": "0.1.0",
-        "release_date": "2026-02-05",
-        "file": [
-          {
-            "path": "{pluginsDir}\\GCMZDrops\\GCMZScript\\svg2obj.lua",
-            "XXH3_128": "49d0780121a64907f06fc28017cc81b1"
-          }
-        ]
-      },
-      {
         "version": "0.2.0",
-        "release_date": "2026-02-19",
+        "release_date": "2026-02-05",
         "file": [
           {
             "path": "{pluginsDir}/GCMZDrops/GCMZScript/svg2obj.lua",
@@ -14348,7 +14338,7 @@
       },
       {
         "version": "r2",
-        "release_date": "2026-02-19",
+        "release_date": "2026-02-18",
         "file": [
           {
             "path": "{scriptsDir}/BezierPath.anm2",
