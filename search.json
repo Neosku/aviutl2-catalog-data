@@ -529,15 +529,15 @@
     "checkType": {
       "type": "GitHub",
       "repo": "azurite581/AviUtl2-ColorHalftone",
-      "regex": "^ColorHalftone.*\\.zip$",
+      "regex": "^.*ColorHalftone_v[\\d.]+\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
           "paths": [
-            "カラーハーフトーン.anm2"
+            "Script/ColorHalftone.anm2"
           ],
           "recordPaths": [
-            "{scriptsDir}/カラーハーフトーン.anm2"
+            "{scriptsDir}/ColorHalftone.anm2"
           ]
         }
       ]
@@ -1606,6 +1606,285 @@
           ],
           "recordPaths": [
             "{pluginsDir}/HariboteReader.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "NeAc.CinemaScope",
+    "latest-version": "r3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nea-c/aviutl2_script_CinemaScope",
+      "regex": "^CinemaScope\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "シネマスコープ.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/シネマスコープ.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "azurite.GradientEditor",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "azurite581/AviUtl2-GradientEditor",
+      "regex": "^GradientEditor-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/GradientEditor.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GradientEditor.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KAZOON.wav_output_ks",
+    "latest-version": "v0.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "cycloawaodorin/wav_output_ks",
+      "regex": "^wav_output_ks\\..*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "wav_output_ks.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/wav_output_ks.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KAZOON.wav_output_ks",
+    "latest-version": "v0.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "cycloawaodorin/wav_output_ks",
+      "regex": "^wav_output_ks\\..*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "wav_output_ks.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/wav_output_ks.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KAZOON.fzgx_smr_ks",
+    "latest-version": "v2.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "cycloawaodorin/fzgx_smr_ks",
+      "regex": "^fzgx_smr_ks\\.2.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "fzgx_smr_ks.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/fzgx_smr_ks.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KAZOON.fzgx_smr_ks",
+    "latest-version": "v2.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "cycloawaodorin/fzgx_smr_ks",
+      "regex": "^fzgx_smr_ks\\.2.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "fzgx_smr_ks.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/fzgx_smr_ks.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KuroNeko.VariableFont",
+    "latest-version": "1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rokujyushi/Variable-Font-Plug-ins",
+      "regex": "VariableFont\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "VariableFont.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/VariableFont.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KuroNeko.FontPreview",
+    "latest-version": "1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rokujyushi/FontPreview",
+      "regex": "FontPreview\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "FontPreview.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/FontPreview.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KuroNeko.svg2obj",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rokujyushi/GCMZScripts",
+      "regex": "svg2obj\\.lua",
+      "hash-calc": [
+        {
+          "paths": [
+            "svg2obj.lua"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GCMZDrops/GCMZScript/svg2obj.lua"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "NeAc.ScreenAspect",
+    "latest-version": "r3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nea-c/aviutl2_script_ScreenAspect",
+      "regex": "^ScreenAspect\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "画面アスペクト.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/画面アスペクト.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "NeAc.Egasumi",
+    "latest-version": "r2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nea-c/aviutl2_script_Egasumi",
+      "regex": "^Egasumi\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "エ霞.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/エ霞.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "NeAc.BezierPath",
+    "latest-version": "r1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nea-c/aviutl2_script_BezierPath",
+      "regex": "^BezierPath\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "BezierPath.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/BezierPath.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "NeAc.BezierPath",
+    "latest-version": "r1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nea-c/aviutl2_script_BezierPath",
+      "regex": "^BezierPath\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "BezierPath.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/BezierPath.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.open_project_directory-aux2",
+    "latest-version": "0.1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/open_project_directory.aux2",
+      "regex": "^open_project_directory-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/open_project_directory.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/open_project_directory.aux2"
           ]
         }
       ]

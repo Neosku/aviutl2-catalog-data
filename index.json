@@ -13934,15 +13934,7 @@
         "release_date": "2026-02-17",
         "file": [
           {
-            "path": "{pluginsDir}\\VariableFontDoc\\VARIABLE_FONT_AXES.md",
-            "XXH3_128": "e21bbf5f6aad14d8afbe7f1afdebf9c2"
-          },
-          {
-            "path": "{pluginsDir}\\VariableFontDoc\\Plugin_README.md",
-            "XXH3_128": "6d56e5b941d645f9ff703798722b0f6c"
-          },
-          {
-            "path": "{pluginsDir}\\VariableFont.auf2",
+            "path": "{pluginsDir}/VariableFont.auf2",
             "XXH3_128": "693a50231d5e32413c95c38a397c7eaf"
           }
         ]
@@ -13956,7 +13948,7 @@
     "summary": "フォント一覧検索およびVFの補助プラグイン",
     "description": "https://raw.githubusercontent.com/rokujyushi/FontPreview/refs/heads/main/README.md",
     "author": "黒猫大福",
-    "repoURL": "https://github.com/rokujyushi/Haribote",
+    "repoURL": "https://github.com/rokujyushi/FontPreview",
     "latest-version": "1.0.0",
     "popularity": 53,
     "trend": 60,
@@ -14398,10 +14390,6 @@
         "version": "0.1.1",
         "release_date": "2026-02-18",
         "file": [
-          {
-            "path": "{dataDir}/Language/English.open_project_directory.aul2",
-            "XXH3_128": "fbf93aea4ce6775aaf64dc74efcf5bce"
-          },
           {
             "path": "{pluginsDir}/open_project_directory.aux2",
             "XXH3_128": "3b7de7f89e58ca680d3f61fa20562a86"
