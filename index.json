@@ -5947,10 +5947,14 @@
         "github": {
           "owner": "azurite581",
           "repo": "AviUtl2-ColorHalftone",
-          "pattern": "^ColorHalftone_v[\\d.]+\\.zip$"
+          "pattern": "^.*ColorHalftone_v[\\d.]+\\.au2pkg\\.zip$"
         }
       },
       "install": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/カラーハーフトーン.anm2"
+        },
         {
           "action": "download"
         },
@@ -5959,14 +5963,23 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/カラーハーフトーン.anm2",
+          "from": "{tmp}/Script",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{scriptsDir}/カラーハーフトーン.anm2"
+          "path": "{scriptsDir}/ColorHalftone.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.ColorHalftone.aul2"
         }
       ]
     },
@@ -5982,14 +5995,14 @@
         ]
       },
       {
-        "version": "v1.1.0",
-        "release_date": "2026-02-18",
-        "file": []
-      },
-      {
         "version": "v1.1.1",
         "release_date": "2026-02-18",
-        "file": []
+        "file": [
+          {
+            "path": "{scriptsDir}/ColorHalftone.anm2",
+            "XXH3_128": "3527ac50873a4c7647972bf8c1b80ef1"
+          }
+        ]
       }
     ]
   },
