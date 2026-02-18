@@ -7920,10 +7920,10 @@
     "name": "どこでもバッファ",
     "type": "スクリプト",
     "summary": "転送可能なフレームバッファ",
-    "description": "https://raw.githubusercontent.com/zopty/DokodemoBuffer/refs/heads/main/README.md",
+    "description": "./md/zopty.DokodemoBuffer.md",
     "author": "zopty",
     "repoURL": "https://github.com/zopty/DokodemoBuffer",
-    "latest-version": "v2.0.0",
+    "latest-version": "v1.0.0",
     "popularity": 337,
     "trend": 284,
     "licenses": [
@@ -7939,11 +7939,7 @@
         "licenseBody": "BSD 3-Clause License\n\nCopyright (c) 2026, zopty\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
       }
     ],
-    "tags": [
-      "フレームバッファ",
-      "エフェクト",
-      "スクリプト"
-    ],
+    "tags": [],
     "dependencies": [],
     "images": [
       {
@@ -7952,19 +7948,15 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://raw.githubusercontent.com/zopty/DokodemoBuffer/refs/heads/main/%40%E3%81%A9%E3%81%93%E3%81%A7%E3%82%82%E3%83%90%E3%83%83%E3%83%95%E3%82%A1.anm2"
+        "direct": "https://raw.githubusercontent.com/zopty/DokodemoBuffer/refs/heads/main/%40%E3%81%A9%E3%81%93%E3%81%A7%E3%82%82%E3%83%90%E3%83%83%E3%83%95%E3%82%A1.obj2"
       },
       "install": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/@どこでもバッファ.obj2"
-        },
         {
           "action": "download"
         },
         {
           "action": "copy",
-          "from": "{tmp}/@どこでもバッファ.anm2",
+          "from": "{tmp}/@どこでもバッファ.obj2",
           "to": "{scriptsDir}"
         }
       ],
@@ -7972,10 +7964,6 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/@どこでもバッファ.obj2"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/@どこでもバッファ.anm2"
         }
       ]
     },
@@ -7987,16 +7975,6 @@
           {
             "path": "{scriptsDir}/@どこでもバッファ.obj2",
             "XXH3_128": "2639263c5edac2106987c8bd5a93c680"
-          }
-        ]
-      },
-      {
-        "version": "v2.0.0",
-        "release_date": "2026-02-18",
-        "file": [
-          {
-            "path": "{scriptsDir}/@どこでもバッファ.anm2",
-            "XXH3_128": "107685e075ce9444c4496b4aed8b3596"
           }
         ]
       }
@@ -13620,7 +13598,7 @@
       },
       {
         "version": "r4",
-        "release_date": "2026-02-17",
+        "release_date": "2026-02-19",
         "file": [
           {
             "path": "{scriptsDir}/シネマスコープ.obj2",
@@ -14119,8 +14097,18 @@
     },
     "version": [
       {
-        "version": "0.2.0",
+        "version": "0.1.0",
         "release_date": "2026-02-05",
+        "file": [
+          {
+            "path": "{pluginsDir}\\GCMZDrops\\GCMZScript\\svg2obj.lua",
+            "XXH3_128": "49d0780121a64907f06fc28017cc81b1"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0",
+        "release_date": "2026-02-19",
         "file": [
           {
             "path": "{pluginsDir}/GCMZDrops/GCMZScript/svg2obj.lua",
@@ -14360,7 +14348,7 @@
       },
       {
         "version": "r2",
-        "release_date": "2026-02-18",
+        "release_date": "2026-02-19",
         "file": [
           {
             "path": "{scriptsDir}/BezierPath.anm2",
@@ -14439,6 +14427,79 @@
           {
             "path": "{pluginsDir}/open_project_directory.aux2",
             "XXH3_128": "3b7de7f89e58ca680d3f61fa20562a86"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "AviUtl2_Language_kr",
+    "name": "AviUtl2  한국어",
+    "type": "言語ファイル",
+    "summary": "AviUtl2를 한국어로 변환하는 언어 파일",
+    "description": "./md/AviUtl2_Language_kr.md",
+    "author": "V.Bernkastel (Victorique Bernkastel)",
+    "repoURL": "https://github.com/Victorique-Bernkastel/AviUtl2_Language/releases/download/aviutl2KORv3.3/Korean.v3.3.aul2",
+    "latest-version": "v3.3",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Victorique Bernkastel"
+          }
+        ],
+        "licenseBody": "MIT License\n\nCopyright (c) 2025 Victorique Bernkastel\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nThe following terms are added by the author (Victorique Bernkastel) and take precedence over any other permissions.\n\n1. PROHIBITION OF HARMFUL USE\nThis software shall NOT be used by or for the benefit of any:\nAnti-social forces (criminal organizations, gangs, etc.).\nReligious solicitation or activities (specifically Kenshokai, or any similar organizations).\nAny activities that violate public order, morality, or the law.\n\n2. STRICTLY FREE OF CHARGE (NO COMMERCIAL USE)\nNO PROFIT: Distribution of this software, or any modified versions thereof (including accuracy improvements), must be 100% FREE OF CHARGE.\n\nSTRICTLY FREE OF CHARGE (0-Yen Rule)\nNO CHARGING: You are strictly prohibited from charging any amount, even as little as 1 Yen, for this software.\n\nPRICE MUST BE ZERO: The price for distributing this software must always be zero (0) in any currency.\nCOPYLEFT: Any redistributed versions must be licensed under these exact same terms (including these Additional Terms).\n\n3. DISCLAIMER\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY.\n\n4. VIOLATIONS AND PENALTIES\n\nTERMINATION OF RIGHTS: Any violation of these terms (including unauthorized commercial use or prohibited activities) will result in the immediate and automatic termination of your right to use or distribute this software.\n\nCEASE AND DESIST: The author (Victorique Bernkastel) reserves the right to demand the immediate removal, suspension, and cessation of distribution of any infringing versions.\n\nLEGAL ACTION: The author reserves the right to seek legal remedies, including but not limited to, claims for damages and compensation for any unauthorized profit or harm caused by the violation of these terms."
+      }
+    ],
+    "tags": [
+      "言語ファイル",
+      "テキスト",
+      "ファイル"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://github.com/Victorique-Bernkastel/AviUtl2_Language/releases"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "C:\\Users\\Pandora\\Downloads\\Korean.v3.3.aul2",
+          "to": "C:\\ProgramData\\aviutl2\\Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "C:\\ProgramData\\aviutl2\\Language\\Korean.v3.3.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-07-24",
+        "file": [
+          {
+            "path": "C:\\ProgramData\\aviutl2\\Language\\Korean.v1.0.aul2",
+            "XXH3_128": "c1b7aff2cbd8ebdd5978c7934c9a1fcd"
+          }
+        ]
+      },
+      {
+        "version": "v3.3",
+        "release_date": "2026-02-15",
+        "file": [
+          {
+            "path": "C:\\ProgramData\\aviutl2\\Language\\Korean.v3.3.aul2",
+            "XXH3_128": "e14a3c7a54110f7f8314e1ecdbca816c"
           }
         ]
       }
