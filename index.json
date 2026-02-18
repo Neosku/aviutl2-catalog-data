@@ -5918,7 +5918,7 @@
     "description": "./md/azurite.ColorHalftone.md",
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-ColorHalftone",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.1.0",
     "popularity": 445,
     "trend": 356,
     "licenses": [
@@ -5980,6 +5980,11 @@
             "XXH3_128": "20b9118019c362037c047b2b87c37ae4"
           }
         ]
+      },
+      {
+        "version": "v1.1.0",
+        "release_date": "2026-02-18",
+        "file": []
       }
     ]
   },
@@ -13497,7 +13502,7 @@
     "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_CinemaScope/refs/heads/master/README.md",
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_script_CinemaScope",
-    "latest-version": "r2",
+    "latest-version": "r3",
     "popularity": 32,
     "trend": 35,
     "licenses": [
@@ -13559,6 +13564,16 @@
           {
             "path": "{scriptsDir}/シネマスコープ.obj2",
             "XXH3_128": "4d6c4027059de068266d3488b436319f"
+          }
+        ]
+      },
+      {
+        "version": "r3",
+        "release_date": "2026-02-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/シネマスコープ.obj2",
+            "XXH3_128": "fe1412b53b88b0b26fe8a5779823711e"
           }
         ]
       }
@@ -13992,6 +14007,225 @@
           {
             "path": "{pluginsDir}\\FontPreview.aux2",
             "XXH3_128": "c66622093873b9f4468e3dfcd9d9fbab"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "KuroNeko.svg2obj",
+    "name": "svg2obj",
+    "type": "スクリプト",
+    "summary": "svg.aux2をSVGファイルD&Dで利用できるようになる",
+    "description": "./md/KuroNeko.svg2obj.md",
+    "author": "黒猫大福",
+    "repoURL": "https://github.com/rokujyushi/GCMZScripts",
+    "latest-version": "0.1.0",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "rokujyushi"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "便利ツール",
+      "入力",
+      "ファイル",
+      "画像"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/KuroNeko.svg2obj_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "rokujyushi",
+          "repo": "GCMZScripts",
+          "pattern": "svg2obj\\.lua"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "path": "{download}",
+          "from": "{tmp}/svg2obj.lua",
+          "to": "{pluginsDir}\\GCMZDrops\\GCMZScript"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}\\GCMZDrops\\GCMZScript\\svg2obj.lua"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.1.0",
+        "release_date": "2026-02-05",
+        "file": [
+          {
+            "path": "{pluginsDir}\\GCMZDrops\\GCMZScript\\svg2obj.lua",
+            "XXH3_128": "49d0780121a64907f06fc28017cc81b1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "NeAc.ScreenAspect",
+    "name": "画面アスペクト",
+    "type": "スクリプト",
+    "summary": "画面アスペクト比を指定してサイズ確認等をできるようにするスクリプト",
+    "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_ScreenAspect/refs/heads/master/README.md",
+    "author": "猫愛",
+    "repoURL": "https://github.com/nea-c/aviutl2_script_ScreenAspect",
+    "latest-version": "r3",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "NeAc"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト",
+      "図形"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/NeAc.ScreenAspect_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nea-c",
+          "repo": "aviutl2_script_ScreenAspect",
+          "pattern": "^ScreenAspect\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/画面アスペクト.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/画面アスペクト.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r3",
+        "release_date": "2026-02-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/画面アスペクト.obj2",
+            "XXH3_128": "4d33e0a18ff17debbeb19fb8c751102a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "NeAc.Egasumi",
+    "name": "エ霞(えがすみ)",
+    "type": "スクリプト",
+    "summary": "和柄の雲を作成可能なカスタムオブジェクト",
+    "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_Egasumi/refs/heads/master/README.md",
+    "author": "猫愛",
+    "repoURL": "https://github.com/nea-c/aviutl2_script_Egasumi",
+    "latest-version": "r2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "NeAc"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト",
+      "図形"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/NeAc.Egasumi_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nea-c",
+          "repo": "aviutl2_script_Egasumi",
+          "pattern": "^Egasumi\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/エ霞.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/エ霞.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r2",
+        "release_date": "2026-02-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/エ霞.obj2",
+            "XXH3_128": "478063ae5967499789a1c501533d47b5"
           }
         ]
       }
