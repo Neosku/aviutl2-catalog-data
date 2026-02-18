@@ -7956,17 +7956,23 @@
       },
       "install": [
         {
-          "action": "download",
-          "from": "{tmp}\\@どこでもバッファ.anm2",
-          "to": "{scriptsDir}"
+          "action": "delete",
+          "path": "{scriptsDir}/@どこでもバッファ.obj2"
+        },
+        {
+          "action": "download"
         },
         {
           "action": "copy",
-          "from": "{tmp}\\@どこでもバッファ.anm2",
+          "from": "{tmp}/@どこでもバッファ.anm2",
           "to": "{scriptsDir}"
         }
       ],
       "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@どこでもバッファ.obj2"
+        },
         {
           "action": "delete",
           "path": "{scriptsDir}/@どこでもバッファ.anm2"
@@ -13537,7 +13543,7 @@
     "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_CinemaScope/refs/heads/master/README.md",
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_script_CinemaScope",
-    "latest-version": "r3",
+    "latest-version": "r4",
     "popularity": 57,
     "trend": 70,
     "licenses": [
@@ -13609,6 +13615,16 @@
           {
             "path": "{scriptsDir}/シネマスコープ.obj2",
             "XXH3_128": "fe1412b53b88b0b26fe8a5779823711e"
+          }
+        ]
+      },
+      {
+        "version": "r4",
+        "release_date": "2026-02-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/シネマスコープ.obj2",
+            "XXH3_128": "1db2ca94e9cd9e648ebdb199d140bfb0"
           }
         ]
       }
@@ -13950,15 +13966,7 @@
         "release_date": "2026-02-17",
         "file": [
           {
-            "path": "{pluginsDir}\\VariableFontDoc\\VARIABLE_FONT_AXES.md",
-            "XXH3_128": "e21bbf5f6aad14d8afbe7f1afdebf9c2"
-          },
-          {
-            "path": "{pluginsDir}\\VariableFontDoc\\Plugin_README.md",
-            "XXH3_128": "6d56e5b941d645f9ff703798722b0f6c"
-          },
-          {
-            "path": "{pluginsDir}\\VariableFont.auf2",
+            "path": "{pluginsDir}/VariableFont.auf2",
             "XXH3_128": "693a50231d5e32413c95c38a397c7eaf"
           }
         ]
@@ -13972,7 +13980,7 @@
     "summary": "フォント一覧検索およびVFの補助プラグイン",
     "description": "https://raw.githubusercontent.com/rokujyushi/FontPreview/refs/heads/main/README.md",
     "author": "黒猫大福",
-    "repoURL": "https://github.com/rokujyushi/Haribote",
+    "repoURL": "https://github.com/rokujyushi/FontPreview",
     "latest-version": "1.0.0",
     "popularity": 53,
     "trend": 60,
@@ -14055,7 +14063,7 @@
     "description": "./md/KuroNeko.svg2obj.md",
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/GCMZScripts",
-    "latest-version": "0.1.0",
+    "latest-version": "0.2.0",
     "popularity": 4,
     "trend": 5,
     "licenses": [
@@ -14111,11 +14119,11 @@
     },
     "version": [
       {
-        "version": "0.1.0",
+        "version": "0.2.0",
         "release_date": "2026-02-05",
         "file": [
           {
-            "path": "{pluginsDir}\\GCMZDrops\\GCMZScript\\svg2obj.lua",
+            "path": "{pluginsDir}/GCMZDrops/GCMZScript/svg2obj.lua",
             "XXH3_128": "49d0780121a64907f06fc28017cc81b1"
           }
         ]
@@ -14280,7 +14288,7 @@
     "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_BezierPath/refs/heads/master/README.md",
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_script_BezierPath",
-    "latest-version": "r1",
+    "latest-version": "r2",
     "popularity": 19,
     "trend": 21,
     "licenses": [
@@ -14347,6 +14355,16 @@
           {
             "path": "{scriptsDir}/BezierPath.anm2",
             "XXH3_128": "d7aadfa3011bce1805d4eb71789d9622"
+          }
+        ]
+      },
+      {
+        "version": "r2",
+        "release_date": "2026-02-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/BezierPath.anm2",
+            "XXH3_128": "12d98cf32d8617c0f80997009a7551b9"
           }
         ]
       }
@@ -14418,10 +14436,6 @@
         "version": "0.1.1",
         "release_date": "2026-02-18",
         "file": [
-          {
-            "path": "{dataDir}/Language/English.open_project_directory.aul2",
-            "XXH3_128": "fbf93aea4ce6775aaf64dc74efcf5bce"
-          },
           {
             "path": "{pluginsDir}/open_project_directory.aux2",
             "XXH3_128": "3b7de7f89e58ca680d3f61fa20562a86"
