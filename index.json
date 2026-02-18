@@ -13521,7 +13521,7 @@
     "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_CinemaScope/refs/heads/master/README.md",
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_script_CinemaScope",
-    "latest-version": "r3",
+    "latest-version": "r4",
     "popularity": 57,
     "trend": 70,
     "licenses": [
@@ -13593,6 +13593,16 @@
           {
             "path": "{scriptsDir}/シネマスコープ.obj2",
             "XXH3_128": "fe1412b53b88b0b26fe8a5779823711e"
+          }
+        ]
+      },
+      {
+        "version": "r4",
+        "release_date": "2026-02-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/シネマスコープ.obj2",
+            "XXH3_128": "1db2ca94e9cd9e648ebdb199d140bfb0"
           }
         ]
       }
@@ -14031,7 +14041,7 @@
     "description": "./md/KuroNeko.svg2obj.md",
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/GCMZScripts",
-    "latest-version": "0.1.0",
+    "latest-version": "0.2.0",
     "popularity": 4,
     "trend": 5,
     "licenses": [
@@ -14092,6 +14102,16 @@
         "file": [
           {
             "path": "{pluginsDir}\\GCMZDrops\\GCMZScript\\svg2obj.lua",
+            "XXH3_128": "49d0780121a64907f06fc28017cc81b1"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0",
+        "release_date": "2026-02-19",
+        "file": [
+          {
+            "path": "{pluginsDir}/GCMZDrops/GCMZScript/svg2obj.lua",
             "XXH3_128": "49d0780121a64907f06fc28017cc81b1"
           }
         ]
@@ -14256,7 +14276,7 @@
     "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_BezierPath/refs/heads/master/README.md",
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_script_BezierPath",
-    "latest-version": "r1",
+    "latest-version": "r2",
     "popularity": 19,
     "trend": 21,
     "licenses": [
@@ -14323,6 +14343,16 @@
           {
             "path": "{scriptsDir}/BezierPath.anm2",
             "XXH3_128": "d7aadfa3011bce1805d4eb71789d9622"
+          }
+        ]
+      },
+      {
+        "version": "r2",
+        "release_date": "2026-02-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/BezierPath.anm2",
+            "XXH3_128": "12d98cf32d8617c0f80997009a7551b9"
           }
         ]
       }
