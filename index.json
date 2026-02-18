@@ -5918,9 +5918,9 @@
     "description": "./md/azurite.ColorHalftone.md",
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-ColorHalftone",
-    "latest-version": "v1.0.0",
-    "popularity": 403,
-    "trend": 331,
+    "latest-version": "v1.1.0",
+    "popularity": 445,
+    "trend": 356,
     "licenses": [
       {
         "type": "MIT",
@@ -5980,6 +5980,11 @@
             "XXH3_128": "20b9118019c362037c047b2b87c37ae4"
           }
         ]
+      },
+      {
+        "version": "v1.1.0",
+        "release_date": "2026-02-18",
+        "file": []
       }
     ]
   },
@@ -13990,6 +13995,79 @@
           {
             "path": "{pluginsDir}\\FontPreview.aux2",
             "XXH3_128": "c66622093873b9f4468e3dfcd9d9fbab"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "KuroNeko.svg2obj",
+    "name": "svg2obj",
+    "type": "スクリプト",
+    "summary": "svg.aux2をSVGファイルD&Dで利用できるようになる",
+    "description": "./md/KuroNeko.svg2obj.md",
+    "author": "黒猫大福",
+    "repoURL": "https://github.com/rokujyushi/GCMZScripts",
+    "latest-version": "0.1.0",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "rokujyushi"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "便利ツール",
+      "入力",
+      "ファイル",
+      "画像"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/KuroNeko.svg2obj_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "rokujyushi",
+          "repo": "GCMZScripts",
+          "pattern": "svg2obj\\.lua"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "path": "{download}",
+          "from": "{tmp}/svg2obj.lua",
+          "to": "{pluginsDir}\\GCMZDrops\\GCMZScript"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}\\GCMZDrops\\GCMZScript\\svg2obj.lua"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.1.0",
+        "release_date": "2026-02-05",
+        "file": [
+          {
+            "path": "{pluginsDir}\\GCMZDrops\\GCMZScript\\svg2obj.lua",
+            "XXH3_128": "49d0780121a64907f06fc28017cc81b1"
           }
         ]
       }
