@@ -13502,7 +13502,7 @@
     "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_CinemaScope/refs/heads/master/README.md",
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_script_CinemaScope",
-    "latest-version": "r2",
+    "latest-version": "r3",
     "popularity": 32,
     "trend": 35,
     "licenses": [
@@ -13564,6 +13564,16 @@
           {
             "path": "{scriptsDir}/シネマスコープ.obj2",
             "XXH3_128": "4d6c4027059de068266d3488b436319f"
+          }
+        ]
+      },
+      {
+        "version": "r3",
+        "release_date": "2026-02-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/シネマスコープ.obj2",
+            "XXH3_128": "fe1412b53b88b0b26fe8a5779823711e"
           }
         ]
       }
