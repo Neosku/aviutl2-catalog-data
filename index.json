@@ -14230,5 +14230,83 @@
         ]
       }
     ]
+  },
+  {
+    "id": "NeAc.BezierPath",
+    "name": "BezierPath",
+    "type": "スクリプト",
+    "summary": "ベジェ曲線としてパスを描き、それに沿っての移動や配置が可能なスクリプト",
+    "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_BezierPath/refs/heads/master/README.md",
+    "author": "猫愛",
+    "repoURL": "https://github.com/nea-c/aviutl2_script_BezierPath",
+    "latest-version": "r1",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "NeAc"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "テキスト",
+      "配置",
+      "アニメーション",
+      "オブジェクト操作",
+      "パス",
+      "移動"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/NeAc.BezierPath_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nea-c",
+          "repo": "aviutl2_script_BezierPath",
+          "pattern": "^BezierPath\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/BezierPath.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/BezierPath.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r1",
+        "release_date": "2026-02-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/BezierPath.anm2",
+            "XXH3_128": "d7aadfa3011bce1805d4eb71789d9622"
+          }
+        ]
+      }
+    ]
   }
 ]
