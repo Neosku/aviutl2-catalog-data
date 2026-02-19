@@ -14434,13 +14434,13 @@
   },
   {
     "id": "AviUtl2_Language_kr",
-    "name": "AviUtl2  한국어",
-    "type": "言語ファイル",
-    "summary": "AviUtl2를 한국어로 변환하는 언어 파일",
+    "name": "Korean (한국어)",
+    "type": "その他",
+    "summary": "AviUtl2를 한국어로 변환하는 언어 파일 \n 韓国語言語ファイル",
     "description": "./md/AviUtl2_Language_kr.md",
     "author": "V.Bernkastel (Victorique Bernkastel)",
-    "repoURL": "https://github.com/Victorique-Bernkastel/AviUtl2_Language/releases/download/aviutl2KORv3.3/Korean.v3.3.aul2",
-    "latest-version": "v3.3",
+    "repoURL": "https://github.com/Victorique-Bernkastel/AviUtl2_Language",
+    "latest-version": "aviutl2KORv3.3",
     "licenses": [
       {
         "type": "MIT",
@@ -14463,7 +14463,11 @@
     "images": [],
     "installer": {
       "source": {
-        "direct": "https://github.com/Victorique-Bernkastel/AviUtl2_Language/releases"
+        "github": {
+          "owner": "Victorique-Bernkastel",
+          "repo": "AviUtl2_Language",
+          "pattern": "^Korean.*\\.aul2$"
+        }
       },
       "install": [
         {
@@ -14471,34 +14475,24 @@
         },
         {
           "action": "copy",
-          "from": "C:\\Users\\Pandora\\Downloads\\Korean.v3.3.aul2",
-          "to": "C:\\ProgramData\\aviutl2\\Language"
+          "from": "{tmp}",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "C:\\ProgramData\\aviutl2\\Language\\Korean.v3.3.aul2"
+          "path": "{dataDir}/Language/Korean.v3.3.aul2"
         }
       ]
     },
     "version": [
       {
-        "version": "v1.0",
-        "release_date": "2025-07-24",
-        "file": [
-          {
-            "path": "C:\\ProgramData\\aviutl2\\Language\\Korean.v1.0.aul2",
-            "XXH3_128": "c1b7aff2cbd8ebdd5978c7934c9a1fcd"
-          }
-        ]
-      },
-      {
         "version": "v3.3",
         "release_date": "2026-02-15",
         "file": [
           {
-            "path": "C:\\ProgramData\\aviutl2\\Language\\Korean.v3.3.aul2",
+            "path": "{dataDir}/Language/Korean.v3.3.aul2",
             "XXH3_128": "e14a3c7a54110f7f8314e1ecdbca816c"
           }
         ]
