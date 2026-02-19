@@ -1514,7 +1514,7 @@
   },
   {
     "id": "cleaning.sam3_bb_gb_generator",
-    "latest-version": "v0.0.6",
+    "latest-version": "v0.0.7",
     "checkType": {
       "type": "GitHub",
       "repo": "clean262/sam3_bb_gb_generator",
@@ -1633,7 +1633,7 @@
   },
   {
     "id": "azurite.GradientEditor",
-    "latest-version": "v0.1.0",
+    "latest-version": "v0.1.1",
     "checkType": {
       "type": "GitHub",
       "repo": "azurite581/AviUtl2-GradientEditor",
