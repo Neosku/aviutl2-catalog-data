@@ -8778,7 +8778,7 @@
     "description": "./md/shyachi.SrtImporter.md",
     "author": "shyachi",
     "repoURL": "https://github.com/shyachi/AviUtl2_SrtImporter",
-    "latest-version": "v0.10",
+    "latest-version": "v0.11",
     "popularity": 131,
     "trend": 96,
     "licenses": [
@@ -8834,6 +8834,11 @@
             "XXH3_128": "285d82c160d8cc54eb491841f0bb4f43"
           }
         ]
+      },
+      {
+        "version": "v0.11",
+        "release_date": "2026-02-20",
+        "file": []
       }
     ]
   },
