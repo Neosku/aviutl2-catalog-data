@@ -14465,5 +14465,72 @@
         ]
       }
     ]
+  },
+  {
+    "id": "AviUtl2_Language_kr",
+    "name": "Korean (한국어)",
+    "type": "その他",
+    "summary": "AviUtl2를 한국어로 변환하는 언어 파일 \n 韓国語言語ファイル",
+    "description": "./md/AviUtl2_Language_kr.md",
+    "author": "V.Bernkastel (Victorique Bernkastel)",
+    "repoURL": "https://github.com/Victorique-Bernkastel/AviUtl2_Language",
+    "latest-version": "aviutl2KORv3.3",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Victorique Bernkastel"
+          }
+        ],
+        "licenseBody": "MIT License\n\nCopyright (c) 2025 Victorique Bernkastel\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nThe following terms are added by the author (Victorique Bernkastel) and take precedence over any other permissions.\n\n1. PROHIBITION OF HARMFUL USE\nThis software shall NOT be used by or for the benefit of any:\nAnti-social forces (criminal organizations, gangs, etc.).\nReligious solicitation or activities (specifically Kenshokai, or any similar organizations).\nAny activities that violate public order, morality, or the law.\n\n2. STRICTLY FREE OF CHARGE (NO COMMERCIAL USE)\nNO PROFIT: Distribution of this software, or any modified versions thereof (including accuracy improvements), must be 100% FREE OF CHARGE.\n\nSTRICTLY FREE OF CHARGE (0-Yen Rule)\nNO CHARGING: You are strictly prohibited from charging any amount, even as little as 1 Yen, for this software.\n\nPRICE MUST BE ZERO: The price for distributing this software must always be zero (0) in any currency.\nCOPYLEFT: Any redistributed versions must be licensed under these exact same terms (including these Additional Terms).\n\n3. DISCLAIMER\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY.\n\n4. VIOLATIONS AND PENALTIES\n\nTERMINATION OF RIGHTS: Any violation of these terms (including unauthorized commercial use or prohibited activities) will result in the immediate and automatic termination of your right to use or distribute this software.\n\nCEASE AND DESIST: The author (Victorique Bernkastel) reserves the right to demand the immediate removal, suspension, and cessation of distribution of any infringing versions.\n\nLEGAL ACTION: The author reserves the right to seek legal remedies, including but not limited to, claims for damages and compensation for any unauthorized profit or harm caused by the violation of these terms."
+      }
+    ],
+    "tags": [
+      "言語ファイル",
+      "テキスト",
+      "ファイル"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Victorique-Bernkastel",
+          "repo": "AviUtl2_Language",
+          "pattern": "^Korean.*\\.aul2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Korean.v3.3.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v3.3",
+        "release_date": "2026-02-15",
+        "file": [
+          {
+            "path": "{dataDir}/Language/Korean.v3.3.aul2",
+            "XXH3_128": "e14a3c7a54110f7f8314e1ecdbca816c"
+          }
+        ]
+      }
+    ]
   }
 ]
