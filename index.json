@@ -14453,5 +14453,176 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.Syncroh2",
+    "name": ".Syncroh2",
+    "type": "入力/汎用プラグイン/スクリプト",
+    "summary": "AviUtl2でPSDファイル形式の立ち絵が使えて他プラグイン多数",
+    "description": "./md/VRAMWIZ.Syncroh2.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://vramwiz.github.io/Syncroh2-site/download.html",
+    "latest-version": "v1.20",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "nc443168",
+    "tags": [
+      "PSD",
+      "MIDI",
+      "アニメーション"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.Syncroh2_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://vramwiz.github.io/Syncroh2-site/files/Syncroh2_Desktop.zip"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "path": "{tmp}/Syncroh2_Setup.exe",
+          "from": "{tmp}/Plugin/Syncroh2_Extension.aux2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Syncroh2_Filter_EyeSyncBlink.auf2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Syncroh2_Filter_Face.auf2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Syncroh2_Filter_LipSyncSong.auf2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Syncroh2_Filter_LipSyncTalk.auf2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Syncroh2_Filter_LyricTelop.auf2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Syncroh2_Filter_PianoRoll.auf2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Syncroh2_Filter_PSDAnime.auf2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Syncroh2_Filter_PSDDraw.auf2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Syncroh2_Input_Base.aui2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@Syncroh2_Script.obj2",
+          "to": "{scriptsDir}/Syncroh2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Syncroh2_Module.mod2",
+          "to": "{scriptsDir}/Syncroh2"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Syncroh2_Extension.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Syncroh2_Filter_EyeSyncBlink.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Syncroh2_Filter_Face.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Syncroh2_Filter_LipSyncSong.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Syncroh2_Filter_LipSyncTalk.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Syncroh2_Filter_LyricTelop.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Syncroh2_Filter_PianoRoll.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Syncroh2_Filter_PSDAnime.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Syncroh2_Filter_PSDDraw.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Syncroh2_Input_Base.aui2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Syncroh2/Syncroh2_Module.mod2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.20",
+        "release_date": "2026-02-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "0a1f4f6016ea2545d918b4a0ffd8fbcd"
+          }
+        ]
+      }
+    ]
   }
 ]
