@@ -14543,5 +14543,74 @@
         ]
       }
     ]
+  },
+  {
+    "id": "zopty.OpticalFlowMotionBlur",
+    "name": "光学モーションブラー",
+    "type": "スクリプト",
+    "summary": "オプティカルフローを使った疑似モーションブラー",
+    "description": "./md/zopty.OpticalFlowMotionBlur.md",
+    "author": "zopty",
+    "repoURL": "https://gist.github.com/zopty/51deda495876451c1dcfb09ceb05345d",
+    "latest-version": "v0.1.0",
+    "licenses": [
+      {
+        "type": "BSD-3-Clause",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "zopty"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "モーションブラー"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/zopty.OpticalFlowMotionBlur_thumbnail.webp",
+        "infoImg": [
+          "./image/zopty.OpticalFlowMotionBlur_1.webp"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://gist.githubusercontent.com/zopty/51deda495876451c1dcfb09ceb05345d/raw/5ab04f068f2f0448cb76807f245772bf6c713bf5/OpticalFlowMotionBlur.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/OpticalFlowMotionBlur.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/OpticalFlowMotionBlur.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-02-20",
+        "file": [
+          {
+            "path": "{scriptsDir}/OpticalFlowMotionBlur.anm2",
+            "XXH3_128": "20c8250aee5ad75f5aa4f5c156890a60"
+          }
+        ]
+      }
+    ]
   }
 ]
