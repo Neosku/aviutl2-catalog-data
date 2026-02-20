@@ -8818,7 +8818,7 @@
         "github": {
           "owner": "shyachi",
           "repo": "AviUtl2_SrtImporter",
-          "pattern": "SrtImporter\\.aux2"
+          "pattern": "^SrtImporter-v[^/]+\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -8826,8 +8826,16 @@
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/SrtImporter.aux2",
+          "from": "{tmp}/Language/English.SrtImporter.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/SrtImporter/SrtImporter.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -8835,6 +8843,10 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/SrtImporter.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.SrtImporter.aul2"
         }
       ]
     },
@@ -8852,7 +8864,12 @@
       {
         "version": "v0.11",
         "release_date": "2026-02-20",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/SrtImporter.aux2",
+            "XXH3_128": "936fa738ed39b2ed83dd727f7d07eed9"
+          }
+        ]
       }
     ]
   },
