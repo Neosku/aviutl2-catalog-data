@@ -6573,7 +6573,7 @@
     "description": "./md/azurite.GradientPlus.md",
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-GradientPlus",
-    "latest-version": "v1.1.0",
+    "latest-version": "v1.1.1",
     "popularity": 387,
     "trend": 300,
     "licenses": [
@@ -6635,6 +6635,16 @@
           {
             "path": "{scriptsDir}/グラデーション+.anm2",
             "XXH3_128": "88eecc57ec9c3455ff219aba6bc68cca"
+          }
+        ]
+      },
+      {
+        "version": "v1.1.1",
+        "release_date": "2026-02-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/グラデーション+.anm2",
+            "XXH3_128": "58aef1b8ad7102aaa6a263af3aca4373"
           }
         ]
       }
