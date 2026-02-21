@@ -14818,5 +14818,81 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.Syncroh2",
+    "name": "新旧朗2",
+    "type": "汎用プラグイン",
+    "summary": "PSD立ち絵表示と専用Explorerとセリフ流し込み他音楽系多数",
+    "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
+    "latest-version": "v1.20",
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "本ソフトウェアは無償で使用・改変・再配布・商用利用が可能です。\n\n再配布する場合は、原作者「VRAMの魔術師」のクレジットを明記してください。\n改変版を配布する場合も同様に原作者名を表示してください。\n\n本ソフトウェアは現状のまま提供され、いかなる保証もありません。\n本ソフトウェアの使用によって生じたいかなる損害についても、\n作者は一切の責任を負いません。"
+      }
+    ],
+    "niconiCommonsId": "nc443168",
+    "tags": [
+      "MIDI",
+      "PSD",
+      "アニメーション",
+      "オブジェクト操作",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.Syncroh2_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://vramwiz.github.io/Syncroh2-site/files/Syncroh2_Setup.zip"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "run",
+          "path": "{tmp}/Syncroh2_Setup.exe",
+          "args": [
+            "/catalog=1 /VERYSILENT"
+          ],
+          "elevate": true
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "run",
+          "path": "{pluginsDir}/Syncroh2/unins000.exe",
+          "args": [
+            "/VERYSILENT",
+            "/catalog=1"
+          ],
+          "elevate": true
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.20",
+        "release_date": "2026-02-21",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "0a1f4f6016ea2545d918b4a0ffd8fbcd"
+          }
+        ]
+      }
+    ]
   }
 ]
