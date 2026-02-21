@@ -14733,5 +14733,80 @@
         ]
       }
     ]
+  },
+  {
+    "id": "koisi0319.Duplicate_objects",
+    "name": "オブジェクト行複製",
+    "type": "スクリプト",
+    "summary": "選択したオブジェクトをそのレイヤーに複製します。",
+    "description": "./md/koisi0319.Duplicate_objects.md",
+    "author": "koisi0319",
+    "repoURL": "https://github.com/koisi0319/Aviutl2-Duplicate-objects-at-equal-intervals",
+    "latest-version": "v1.0.0",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "koisi0319"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "sm45973331",
+    "tags": [
+      "オブジェクト操作",
+      "スクリプト",
+      "配置"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/koisi0319.Duplicate_objects_thumbnail.webp",
+        "infoImg": [
+          "./image/koisi0319.Duplicate_objects_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "koisi0319",
+          "repo": "Aviutl2-Duplicate-objects-at-equal-intervals",
+          "pattern": "^Duplicate_objects*\\.aux2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Duplicate_objects.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Duplicate_objects.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-02-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/Duplicate_objects.aux2",
+            "XXH3_128": "237bd08b8279c574c6e2aca57fb69da4"
+          }
+        ]
+      }
+    ]
   }
 ]
