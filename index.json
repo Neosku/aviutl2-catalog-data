@@ -14822,9 +14822,9 @@
   {
     "id": "VRAMWIZ.Syncroh2",
     "name": "新旧朗2",
-    "type": "入力/汎用プラグイン/スクリプト",
+    "type": "汎用プラグイン",
     "summary": "PSD立ち絵表示と専用Explorerとセリフ流し込み他音楽系多数",
-    "description": "https://vramwiz.github.io/Syncroh2-site/",
+    "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
     "latest-version": "v1.20",
