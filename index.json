@@ -7923,7 +7923,7 @@
     "description": "https://raw.githubusercontent.com/zopty/DokodemoBuffer/refs/heads/main/README.md",
     "author": "zopty",
     "repoURL": "https://github.com/zopty/DokodemoBuffer",
-    "latest-version": "v2.2.0",
+    "latest-version": "v2.2.1",
     "popularity": 358,
     "trend": 328,
     "licenses": [
@@ -8021,6 +8021,16 @@
           {
             "path": "{scriptsDir}/@どこでもバッファ.anm2",
             "XXH3_128": "d73e8467819552ad7d76e315492a4950"
+          }
+        ]
+      },
+      {
+        "version": "v2.2.1",
+        "release_date": "2026-02-21",
+        "file": [
+          {
+            "path": "{scriptsDir}/@どこでもバッファ.anm2",
+            "XXH3_128": "158db51a7f3b25ef1a7ccca3beb803c7"
           }
         ]
       }
