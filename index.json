@@ -14888,7 +14888,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://vramwiz.github.io/Syncroh2-site/files/Syncroh2_Setup.zip"
+        "direct": "https://github.com/vramwiz/Syncroh2-site/releases/download/v1.2.1/Syncroh2_Setup.zip"
       },
       "install": [
         {
@@ -14911,8 +14911,7 @@
           "action": "run",
           "path": "{pluginsDir}/Syncroh2/unins000.exe",
           "args": [
-            "/VERYSILENT",
-            "/catalog=1"
+            "/VERYSILENT /catalog=1"
           ],
           "elevate": true
         }
