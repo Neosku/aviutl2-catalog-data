@@ -1889,5 +1889,45 @@
         }
       ]
     }
+  },
+  {
+    "id": "sevenc-nanashi.filter_effect_toggle.aux2",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/filter_effect_toggle.aux2",
+      "regex": "^filter_effect_toggle-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/filter_effect_toggle.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/filter_effect_toggle.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "koisi0319.Duplicate_objects",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/filter_effect_toggle.aux2",
+      "regex": "^filter_effect_toggle-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/filter_effect_toggle.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/filter_effect_toggle.aux2"
+          ]
+        }
+      ]
+    }
   }
 ]
