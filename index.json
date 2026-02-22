@@ -6573,7 +6573,7 @@
     "description": "./md/azurite.GradientPlus.md",
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-GradientPlus",
-    "latest-version": "v1.1.0",
+    "latest-version": "v1.1.1",
     "popularity": 387,
     "trend": 300,
     "licenses": [
@@ -6635,6 +6635,16 @@
           {
             "path": "{scriptsDir}/グラデーション+.anm2",
             "XXH3_128": "88eecc57ec9c3455ff219aba6bc68cca"
+          }
+        ]
+      },
+      {
+        "version": "v1.1.1",
+        "release_date": "2026-02-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/グラデーション+.anm2",
+            "XXH3_128": "58aef1b8ad7102aaa6a263af3aca4373"
           }
         ]
       }
@@ -13722,7 +13732,7 @@
     "description": "./md/azurite.GradientEditor.md",
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-GradientEditor",
-    "latest-version": "v0.1.1",
+    "latest-version": "v0.1.3",
     "popularity": 180,
     "trend": 187,
     "licenses": [
@@ -13824,6 +13834,26 @@
           {
             "path": "{pluginsDir}/GradientEditor.aux2",
             "XXH3_128": "e752b4c906b13c648446e90f18601fa9"
+          }
+        ]
+      },
+      {
+        "version": "v0.1.2",
+        "release_date": "2026-02-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/GradientEditor.aux2",
+            "XXH3_128": "5ea2b949158831bf9f7842568aaf9fc7"
+          }
+        ]
+      },
+      {
+        "version": "v0.1.3",
+        "release_date": "2026-02-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/GradientEditor.aux2",
+            "XXH3_128": "115a094ace1689b7c7ea164eca70a53c"
           }
         ]
       }
@@ -14841,7 +14871,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v1.20",
+    "latest-version": "v1.2.1",
     "popularity": 7,
     "trend": 5,
     "licenses": [
@@ -14868,20 +14898,22 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://vramwiz.github.io/Syncroh2-site/files/Syncroh2_Setup.zip"
+        "github": {
+          "owner": "vramwiz",
+          "repo": "Syncroh2-site",
+          "pattern": "^Syncroh2_Setup.*\\.exe$"
+        }
       },
       "install": [
         {
           "action": "download"
         },
         {
-          "action": "extract"
-        },
-        {
           "action": "run",
           "path": "{tmp}/Syncroh2_Setup.exe",
           "args": [
-            "/catalog=1 /VERYSILENT"
+            "/VERYSILENT",
+            "/catalog=1"
           ],
           "elevate": true
         }
@@ -14901,6 +14933,16 @@
     "version": [
       {
         "version": "v1.20",
+        "release_date": "2026-02-21",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "0a1f4f6016ea2545d918b4a0ffd8fbcd"
+          }
+        ]
+      },
+      {
+        "version": "v1.2.1",
         "release_date": "2026-02-21",
         "file": [
           {
