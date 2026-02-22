@@ -660,7 +660,7 @@
   },
   {
     "id": "azurite.GradientPlus",
-    "latest-version": "v1.1.0",
+    "latest-version": "v1.1.1",
     "checkType": {
       "type": "GitHub",
       "repo": "azurite581/AviUtl2-GradientPlus",
@@ -1633,7 +1633,7 @@
   },
   {
     "id": "azurite.GradientEditor",
-    "latest-version": "v0.1.1",
+    "latest-version": "v0.1.3",
     "checkType": {
       "type": "GitHub",
       "repo": "azurite581/AviUtl2-GradientEditor",
@@ -1911,20 +1911,20 @@
     }
   },
   {
-    "id": "koisi0319.Duplicate_objects",
-    "latest-version": "0.1.0",
+    "id": "VRAMWIZ.Syncroh2",
+    "latest-version": "v1.2.1",
     "checkType": {
       "type": "GitHub",
-      "repo": "sevenc-nanashi/filter_effect_toggle.aux2",
-      "regex": "^filter_effect_toggle-v[^/]+\\.au2pkg\\.zip$",
+      "repo": "vramwiz/Syncroh2-site",
+      "regex": "^Syncroh2_Desktop.*\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
           "paths": [
-            "Plugin/filter_effect_toggle.aux2"
+            "Script/@Syncroh2_Script.obj2"
           ],
           "recordPaths": [
-            "{pluginsDir}/filter_effect_toggle.aux2"
+            "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2"
           ]
         }
       ]
