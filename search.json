@@ -1929,5 +1929,43 @@
         }
       ]
     }
+  },
+  {
+    "id": "KuroNeko.CopyAlias",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rokujyushi/Copy_alias",
+      "regex": "CopyAlias\\.zip",
+      "hash-calc": [
+        {
+          "paths": [
+            "CopyAlias.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/CopyAlias.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KuroNeko.CopyAlias",
+    "latest-version": "1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sagami121/Aviutl2-BlockNoise",
+      "regex": "^BlockNoise.*\\.zip$",
+      "hash-calc": [
+        {
+          "paths": [
+            "BlockNoise.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/BlockNoise.anm2"
+          ]
+        }
+      ]
+    }
   }
 ]
