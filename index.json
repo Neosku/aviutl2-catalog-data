@@ -14930,5 +14930,76 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sagami121.BlockNoise",
+    "name": "BlockNoise",
+    "type": "スクリプト",
+    "summary": "Aviutl2でブロックノイズをかけるスクリプト",
+    "description": "./md/sagami121.BlockNoise.md",
+    "author": "3aGaM1",
+    "originalAuthor": "プリンカ",
+    "repoURL": "https://github.com/sagami121/Aviutl2-BlockNoise",
+    "latest-version": "v1.0",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "3aGaM1"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "グリッチ",
+      "エフェクト",
+      "加工"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sagami121",
+          "repo": "Aviutl2-BlockNoise",
+          "pattern": "^BlockNoise.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/BlockNoise.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/BlockNoise.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-02-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/BlockNoise.anm2",
+            "XXH3_128": "a84e0ffc05fdb0190dc12ced177a5b5b"
+          }
+        ]
+      }
+    ]
   }
 ]
