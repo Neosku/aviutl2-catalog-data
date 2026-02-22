@@ -14861,7 +14861,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v1.20",
+    "latest-version": "v1.2.1",
     "popularity": 7,
     "trend": 5,
     "licenses": [
@@ -14888,20 +14888,22 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://vramwiz.github.io/Syncroh2-site/files/Syncroh2_Setup.zip"
+        "github": {
+          "owner": "vramwiz",
+          "repo": "Syncroh2-site",
+          "pattern": "^Syncroh2_Setup.*\\.exe$"
+        }
       },
       "install": [
         {
           "action": "download"
         },
         {
-          "action": "extract"
-        },
-        {
           "action": "run",
           "path": "{tmp}/Syncroh2_Setup.exe",
           "args": [
-            "/catalog=1 /VERYSILENT"
+            "/VERYSILENT",
+            "/catalog=1"
           ],
           "elevate": true
         }
@@ -14921,6 +14923,16 @@
     "version": [
       {
         "version": "v1.20",
+        "release_date": "2026-02-21",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "0a1f4f6016ea2545d918b4a0ffd8fbcd"
+          }
+        ]
+      },
+      {
+        "version": "v1.2.1",
         "release_date": "2026-02-21",
         "file": [
           {
