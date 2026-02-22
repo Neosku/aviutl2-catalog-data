@@ -14972,5 +14972,79 @@
         ]
       }
     ]
+  },
+  {
+    "id": "KuroNeko.CopyAlias",
+    "name": "CopyAlias",
+    "type": "汎用プラグイン",
+    "summary": "選択オブジェクトのエイリアスをクリップボードにコピー",
+    "description": "https://raw.githubusercontent.com/rokujyushi/Copy_alias/refs/heads/main/README.md",
+    "author": "黒猫大福",
+    "repoURL": "https://github.com/rokujyushi/Copy_alias",
+    "latest-version": "0.1.0",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "rokujyushi"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "便利ツール",
+      "エイリアス"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/KuroNeko.CopyAlias_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "rokujyushi",
+          "repo": "Copy_alias",
+          "pattern": "CopyAlias\\.zip"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract",
+          "path": "{download}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/CopyAlias.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/CopyAlias.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.1.0",
+        "release_date": "2026-02-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/CopyAlias.aux2",
+            "XXH3_128": "7932d43226e2a89fd5fef5c6adeaa864"
+          }
+        ]
+      }
+    ]
   }
 ]
