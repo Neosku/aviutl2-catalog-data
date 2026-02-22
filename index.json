@@ -6725,7 +6725,7 @@
     "description": "./md/naltutyo-ScriptBrowserPlugin.md",
     "author": "Nao",
     "repoURL": "https://nao-kid.booth.pm/items/7684889",
-    "latest-version": "v2.9",
+    "latest-version": "v2.95",
     "popularity": 249,
     "trend": 218,
     "licenses": [
@@ -6748,7 +6748,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8401734?_gl=1*8ogfe*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzA5ODc4MzQkbzY0JGcxJHQxNzcwOTg4Njc4JGo1MyRsMCRoMA.."
+        "booth": "https://booth.pm/downloadables/8441991?_gl=1*17mcvgb*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzE3Mzc4NjEkbzg4JGcxJHQxNzcxNzM4MDQ2JGo0MSRsMCRoMA.."
       },
       "install": [
         {
@@ -6759,7 +6759,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/v2.9/SearchBrowserPlugin.aux2",
+          "from": "{tmp}/v2.95/SearchBrowserPlugin.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -6788,6 +6788,16 @@
           {
             "path": "{pluginsDir}/SearchBrowserPlugin.aux2",
             "XXH3_128": "727555509b8ae310d8e98af7a5548e5d"
+          }
+        ]
+      },
+      {
+        "version": "v2.95",
+        "release_date": "2026-02-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/SearchBrowserPlugin.aux2",
+            "XXH3_128": "6bdbad12508c04b8d0abaf16001dd884"
           }
         ]
       }
@@ -7268,7 +7278,7 @@
     "author": "Nao",
     "originalAuthor": "aoytsk様",
     "repoURL": "https://nao-kid.booth.pm/items/7791311",
-    "latest-version": "v3.2",
+    "latest-version": "v3.3",
     "popularity": 318,
     "trend": 284,
     "licenses": [
@@ -7293,7 +7303,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8371287?_gl=1*25osuy*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzA1MTcyNTUkbzUyJGcxJHQxNzcwNTE3NDQ0JGo1OSRsMCRoMA.."
+        "booth": "https://booth.pm/downloadables/8441989?_gl=1*8uz613*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzE3Mzc4NjEkbzg4JGcxJHQxNzcxNzM4MTM3JGo1OCRsMCRoMA.."
       },
       "install": [
         {
@@ -7304,7 +7314,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/v3.2/拡張ツールバー.aux2",
+          "from": "{tmp}/v3.3/拡張ツールバー.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -7403,6 +7413,16 @@
           {
             "path": "{pluginsDir}/拡張ツールバー.aux2",
             "XXH3_128": "e41acd1f3c7b851aae3b5a176b11c551"
+          }
+        ]
+      },
+      {
+        "version": "v3.3",
+        "release_date": "2026-02-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/拡張ツールバー.aux2",
+            "XXH3_128": "6c9e60a2542d35b0e05a1b855ec64b2a"
           }
         ]
       }
@@ -13732,7 +13752,7 @@
     "description": "./md/azurite.GradientEditor.md",
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-GradientEditor",
-    "latest-version": "v0.1.2",
+    "latest-version": "v0.1.3",
     "popularity": 180,
     "trend": 187,
     "licenses": [
@@ -13844,6 +13864,16 @@
           {
             "path": "{pluginsDir}/GradientEditor.aux2",
             "XXH3_128": "5ea2b949158831bf9f7842568aaf9fc7"
+          }
+        ]
+      },
+      {
+        "version": "v0.1.3",
+        "release_date": "2026-02-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/GradientEditor.aux2",
+            "XXH3_128": "115a094ace1689b7c7ea164eca70a53c"
           }
         ]
       }
@@ -14861,7 +14891,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v1.20",
+    "latest-version": "v1.2.1",
     "popularity": 7,
     "trend": 5,
     "licenses": [
@@ -14888,20 +14918,22 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://vramwiz.github.io/Syncroh2-site/files/Syncroh2_Setup.zip"
+        "github": {
+          "owner": "vramwiz",
+          "repo": "Syncroh2-site",
+          "pattern": "^Syncroh2_Setup.*\\.exe$"
+        }
       },
       "install": [
         {
           "action": "download"
         },
         {
-          "action": "extract"
-        },
-        {
           "action": "run",
           "path": "{tmp}/Syncroh2_Setup.exe",
           "args": [
-            "/catalog=1 /VERYSILENT"
+            "/VERYSILENT",
+            "/catalog=1"
           ],
           "elevate": true
         }
@@ -14926,6 +14958,90 @@
           {
             "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
             "XXH3_128": "0a1f4f6016ea2545d918b4a0ffd8fbcd"
+          }
+        ]
+      },
+      {
+        "version": "v1.2.1",
+        "release_date": "2026-02-21",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "0a1f4f6016ea2545d918b4a0ffd8fbcd"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "KuroNeko.CopyAlias",
+    "name": "CopyAlias",
+    "type": "汎用プラグイン",
+    "summary": "選択オブジェクトのエイリアスをクリップボードにコピー",
+    "description": "https://raw.githubusercontent.com/rokujyushi/Copy_alias/refs/heads/main/README.md",
+    "author": "黒猫大福",
+    "repoURL": "https://github.com/rokujyushi/Copy_alias",
+    "latest-version": "0.1.0",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "rokujyushi"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "便利ツール",
+      "エイリアス"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/KuroNeko.CopyAlias_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "rokujyushi",
+          "repo": "Copy_alias",
+          "pattern": "CopyAlias\\.zip"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract",
+          "path": "{download}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/CopyAlias.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/CopyAlias.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.1.0",
+        "release_date": "2026-02-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/CopyAlias.aux2",
+            "XXH3_128": "7932d43226e2a89fd5fef5c6adeaa864"
           }
         ]
       }
