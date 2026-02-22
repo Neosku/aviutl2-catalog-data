@@ -14961,14 +14961,14 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}\\CopyAlias.aux2",
+          "from": "{tmp}/CopyAlias.aux2",
           "to": "{pluginsDir}"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{pluginsDir}\\CopyAlias.aux2"
+          "path": "{pluginsDir}/CopyAlias.aux2"
         }
       ]
     },
