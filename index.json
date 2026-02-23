@@ -11788,7 +11788,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/vintage.auf2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/vintage.auf2",
-    "latest-version": "0.1.1",
+    "latest-version": "0.1.2",
     "popularity": 606,
     "trend": 562,
     "licenses": [
@@ -11841,6 +11841,16 @@
           {
             "path": "{pluginsDir}/vintage.auf2",
             "XXH3_128": "d30ea0d5976e07f79091bf7aba420c9b"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2",
+        "release_date": "2026-02-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/vintage.auf2",
+            "XXH3_128": "1cd03c43dd77b305e35941a5c413bcf7"
           }
         ]
       }
