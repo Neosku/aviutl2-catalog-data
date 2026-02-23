@@ -6421,11 +6421,11 @@
     "id": "Natadecoco.TextSplitter",
     "name": "TextSplitter",
     "type": "汎用プラグイン",
-    "summary": "選択したテキストオブジェクトを、1文字ずつのオブジェクトに一括分割するプラグイン",
+    "summary": "テキストオブジェクトを1文字ずつのオブジェクトに一括分割するプラグイン",
     "description": "./md/Natadecoco.TextSplitter.md",
     "author": "なたのこ",
     "repoURL": "https://github.com/Natadecoco2539/AviUtl2-TextSplitter",
-    "latest-version": "v1.2",
+    "latest-version": "1.2",
     "popularity": 1118,
     "trend": 974,
     "licenses": [
