@@ -9569,7 +9569,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/binaural-filter/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
-    "latest-version": "0.17.0",
+    "latest-version": "0.18.0",
     "popularity": 276,
     "trend": 266,
     "licenses": [
@@ -9687,6 +9687,16 @@
             "XXH3_128": "f1082d4e9d6d2355419961f36a2370fb"
           }
         ]
+      },
+      {
+        "version": "0.18.0",
+        "release_date": "2026-02-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_binaural.auf2",
+            "XXH3_128": "703574c80748999eccf09fd5ac27fd5d"
+          }
+        ]
       }
     ]
   },
@@ -9698,7 +9708,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/chiptune-filter/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
-    "latest-version": "0.17.0",
+    "latest-version": "0.18.0",
     "popularity": 212,
     "trend": 209,
     "licenses": [
@@ -9816,6 +9826,16 @@
             "XXH3_128": "d2bb2d32fbe2da35899ced23b75c0203"
           }
         ]
+      },
+      {
+        "version": "0.18.0",
+        "release_date": "2026-02-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_chiptune.auf2",
+            "XXH3_128": "43f127d74d5b441785c7da2f266e0ab1"
+          }
+        ]
       }
     ]
   },
@@ -9827,7 +9847,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/equalizer-filter/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
-    "latest-version": "0.17.0",
+    "latest-version": "0.18.0",
     "popularity": 375,
     "trend": 371,
     "licenses": [
@@ -9945,6 +9965,16 @@
             "XXH3_128": "7566fce0ea5fdd81f02c23c897611b4a"
           }
         ]
+      },
+      {
+        "version": "0.18.0",
+        "release_date": "2026-02-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_equalizer.auf2",
+            "XXH3_128": "141eca1f375207d7c76ae058b64e9078"
+          }
+        ]
       }
     ]
   },
@@ -9956,7 +9986,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/ffmpeg-output/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
-    "latest-version": "0.17.0",
+    "latest-version": "0.18.0",
     "popularity": 157,
     "trend": 155,
     "licenses": [
@@ -10073,6 +10103,16 @@
             "XXH3_128": "629486af36bd12fbbc349dd47a90d6d0"
           }
         ]
+      },
+      {
+        "version": "0.18.0",
+        "release_date": "2026-02-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+            "XXH3_128": "04346ab366b6a22c4e1c4490af57c679"
+          }
+        ]
       }
     ]
   },
@@ -10084,7 +10124,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/image-rs-input/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
-    "latest-version": "0.17.0",
+    "latest-version": "0.18.0",
     "popularity": 887,
     "trend": 871,
     "licenses": [
@@ -10202,6 +10242,16 @@
             "XXH3_128": "4d5d698a21e8ad9ee3efa1ef916a4574"
           }
         ]
+      },
+      {
+        "version": "0.18.0",
+        "release_date": "2026-02-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_image_rs.aui2",
+            "XXH3_128": "b4414d2adb0f63e3c4717e5e27e328e5"
+          }
+        ]
       }
     ]
   },
@@ -10213,7 +10263,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/image-rs-output/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
-    "latest-version": "0.17.0",
+    "latest-version": "0.18.0",
     "popularity": 253,
     "trend": 247,
     "licenses": [
@@ -10330,6 +10380,16 @@
             "XXH3_128": "fea944cf7cade8c42361687c9cf05426"
           }
         ]
+      },
+      {
+        "version": "0.18.0",
+        "release_date": "2026-02-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_image_rs.auo2",
+            "XXH3_128": "11c984b2fd11a543434d7d4b3dd12680"
+          }
+        ]
       }
     ]
   },
@@ -10341,7 +10401,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/local-alias-plugin/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
-    "latest-version": "0.17.0",
+    "latest-version": "0.18.0",
     "popularity": 135,
     "trend": 126,
     "licenses": [
@@ -10458,6 +10518,16 @@
             "XXH3_128": "84c63f9656b7626e4e32423a8140521b"
           }
         ]
+      },
+      {
+        "version": "0.18.0",
+        "release_date": "2026-02-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_local_alias.aux2",
+            "XXH3_128": "be8428ea3bc01a4dffc1e6e963b8c7f5"
+          }
+        ]
       }
     ]
   },
@@ -10469,7 +10539,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/midi-player-input/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
-    "latest-version": "0.17.0",
+    "latest-version": "0.18.0",
     "popularity": 215,
     "trend": 208,
     "licenses": [
@@ -10587,6 +10657,16 @@
             "XXH3_128": "a2bfe88579e08018337c7dd85a6ede21"
           }
         ]
+      },
+      {
+        "version": "0.18.0",
+        "release_date": "2026-02-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_midi_player.aui2",
+            "XXH3_128": "16e707157703504f27927782fb7b2317"
+          }
+        ]
       }
     ]
   },
@@ -10598,7 +10678,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/pixelsort-filter/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
-    "latest-version": "0.17.0",
+    "latest-version": "0.18.0",
     "popularity": 346,
     "trend": 331,
     "licenses": [
@@ -10716,6 +10796,16 @@
             "XXH3_128": "8e73c7a4580c53d05464b12b042eca65"
           }
         ]
+      },
+      {
+        "version": "0.18.0",
+        "release_date": "2026-02-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_pixelsort.auf2",
+            "XXH3_128": "d0d0cbc615e2228e4e668ec086c27bce"
+          }
+        ]
       }
     ]
   },
@@ -10727,7 +10817,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/random-color-filter/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
-    "latest-version": "0.17.0",
+    "latest-version": "0.18.0",
     "popularity": 219,
     "trend": 207,
     "licenses": [
@@ -10844,6 +10934,16 @@
             "XXH3_128": "5078236d34e9be03228c264acffbe282"
           }
         ]
+      },
+      {
+        "version": "0.18.0",
+        "release_date": "2026-02-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_random_color.auf2",
+            "XXH3_128": "8f4ca2febfba631421a3d0b6c479d287"
+          }
+        ]
       }
     ]
   },
@@ -10855,7 +10955,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/restart-shortcut-plugin/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
-    "latest-version": "0.17.0",
+    "latest-version": "0.18.0",
     "popularity": 337,
     "trend": 327,
     "licenses": [
@@ -10972,6 +11072,16 @@
             "XXH3_128": "2c6f5d7468aec280f65eb86b96ad7bb3"
           }
         ]
+      },
+      {
+        "version": "0.18.0",
+        "release_date": "2026-02-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_restart_shortcut.aux2",
+            "XXH3_128": "a63114493894e30255c90367d4dc2dec"
+          }
+        ]
       }
     ]
   },
@@ -10983,7 +11093,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/scripts-search-plugin/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
-    "latest-version": "0.17.0",
+    "latest-version": "0.18.0",
     "popularity": 583,
     "trend": 570,
     "licenses": [
@@ -11104,6 +11214,16 @@
             "XXH3_128": "e22395209c1be9b34147ffdf25208a35"
           }
         ]
+      },
+      {
+        "version": "0.18.0",
+        "release_date": "2026-02-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_scripts_search.aux2",
+            "XXH3_128": "4b1c7448aaf32bc0c5ecbddba451b4a4"
+          }
+        ]
       }
     ]
   },
@@ -11115,7 +11235,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/srt-file-plugin/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
-    "latest-version": "0.17.0",
+    "latest-version": "0.18.0",
     "popularity": 176,
     "trend": 166,
     "licenses": [
@@ -11232,6 +11352,16 @@
             "XXH3_128": "e25bddaac97620d8742de44b42388e17"
           }
         ]
+      },
+      {
+        "version": "0.18.0",
+        "release_date": "2026-02-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_srt_file.aux2",
+            "XXH3_128": "84f609bf4f038e478d46d2af4e55d8ca"
+          }
+        ]
       }
     ]
   },
@@ -11243,7 +11373,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/statistics-output/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
-    "latest-version": "0.17.0",
+    "latest-version": "0.18.0",
     "popularity": 148,
     "trend": 144,
     "licenses": [
@@ -11358,6 +11488,16 @@
           {
             "path": "{pluginsDir}/rusty_statistics.auo2",
             "XXH3_128": "be5f92f3e3f5db17846cc92c45825790"
+          }
+        ]
+      },
+      {
+        "version": "0.18.0",
+        "release_date": "2026-02-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_statistics.auo2",
+            "XXH3_128": "4768592f95552dd94441fddb9c3e626c"
           }
         ]
       }
@@ -12415,7 +12555,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/metronome-plugin/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
-    "latest-version": "0.17.0",
+    "latest-version": "0.18.0",
     "popularity": 271,
     "trend": 275,
     "licenses": [
@@ -12495,6 +12635,16 @@
           {
             "path": "{pluginsDir}/rusty_metronome.aux2",
             "XXH3_128": "4b3171547bd368498f6500196bd10220"
+          }
+        ]
+      },
+      {
+        "version": "0.18.0",
+        "release_date": "2026-02-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_metronome.aux2",
+            "XXH3_128": "f3b182b6006d47f4e0efedbb7430badb"
           }
         ]
       }
