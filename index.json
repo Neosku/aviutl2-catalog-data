@@ -15201,7 +15201,7 @@
     "description": "https://raw.githubusercontent.com/rokujyushi/Copy_alias/refs/heads/main/README.md",
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/Copy_alias",
-    "latest-version": "0.1.0",
+    "latest-version": "1.0.0",
     "popularity": 17,
     "trend": 21,
     "licenses": [
@@ -15264,6 +15264,16 @@
           {
             "path": "{pluginsDir}/CopyAlias.aux2",
             "XXH3_128": "7932d43226e2a89fd5fef5c6adeaa864"
+          }
+        ]
+      },
+      {
+        "version": "1.0.0",
+        "release_date": "2026-02-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/CopyAlias.aux2",
+            "XXH3_128": "33a7e4d2c34119370866c56648289bba"
           }
         ]
       }
