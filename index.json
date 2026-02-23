@@ -7,7 +7,7 @@
     "description": "./md/Kenkun.AviUtlExEdit2.md",
     "author": "Kenくん",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-    "latest-version": "beta33",
+    "latest-version": "beta34",
     "popularity": 5701,
     "trend": 2727,
     "licenses": [
@@ -30,7 +30,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta33_setup.exe"
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta34_setup.exe"
       },
       "install": [
         {
@@ -491,6 +491,16 @@
           {
             "path": "{appDir}/aviutl2.exe",
             "XXH3_128": "aaafb7426612f3f5e7f1fef14245f483"
+          }
+        ]
+      },
+      {
+        "version": "beta34",
+        "release_date": "2026-02-23",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "451be769a3f3fd25d10299f11ae7b9a6"
           }
         ]
       }
@@ -7963,7 +7973,7 @@
     "description": "https://raw.githubusercontent.com/zopty/DokodemoBuffer/refs/heads/main/README.md",
     "author": "zopty",
     "repoURL": "https://github.com/zopty/DokodemoBuffer",
-    "latest-version": "v2.2.1",
+    "latest-version": "v2.3.0",
     "popularity": 380,
     "trend": 355,
     "licenses": [
@@ -8071,6 +8081,16 @@
           {
             "path": "{scriptsDir}/@どこでもバッファ.anm2",
             "XXH3_128": "158db51a7f3b25ef1a7ccca3beb803c7"
+          }
+        ]
+      },
+      {
+        "version": "v2.3.0",
+        "release_date": "2026-02-23",
+        "file": [
+          {
+            "path": "{scriptsDir}/@どこでもバッファ.anm2",
+            "XXH3_128": "3d7eeb173ef632a541da2af876abf064"
           }
         ]
       }
@@ -9425,7 +9445,7 @@
   {
     "id": "hebiiro.al2_visual_font",
     "name": "フォント視覚化MOD",
-    "type": "汎用プラグイン",
+    "type": "MOD",
     "summary": "フォントを選ぶ際にプレビューを表示するプラグイン",
     "description": "https://raw.githubusercontent.com/hebiiro/al2_visual_font/refs/heads/master/README.md",
     "author": "蛇色",
