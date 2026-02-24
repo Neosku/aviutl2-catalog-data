@@ -7804,19 +7804,34 @@
       }
     ],
     "tags": [
-      "ファイル"
+      "ファイル",
+      "補正",
+      "色調補正",
+      "色調整",
+      "エフェクト"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/korarei.ColorLUT_K_thumbnail.jpg",
+        "infoImg": [
+          "./image/korarei.ColorLUT_K_1.webp"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
           "owner": "korarei",
           "repo": "AviUtl2_ColorLUT_K_Plugin",
-          "pattern": "^ColorLUT_K_.*\\.zip$"
+          "pattern": "^ColorLUT_K.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ColorLUT_K.aux2"
+        },
         {
           "action": "download"
         },
@@ -7825,14 +7840,18 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/ColorLUT_K/ColorLUT_K.aux2",
-          "to": "{pluginsDir}"
+          "from": "{tmp}/Plugin/ColorLUT_K/ColorLUT_K.aux2",
+          "to": "{pluginsDir}/ColorLUT_K"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/ColorLUT_K.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ColorLUT_K"
         }
       ]
     },
@@ -7860,7 +7879,12 @@
       {
         "version": "v1.1.0",
         "release_date": "2026-02-24",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/ColorLUT_K/ColorLUT_K.aux2",
+            "XXH3_128": "12d8db7ec640521eea79f9ce2caa82c9"
+          }
+        ]
       }
     ]
   },
