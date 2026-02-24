@@ -15067,7 +15067,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/open_project_directory.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/open_project_directory.aux2",
-    "latest-version": "0.1.1",
+    "latest-version": "0.1.2",
     "popularity": 70,
     "trend": 79,
     "licenses": [
@@ -15130,6 +15130,16 @@
           {
             "path": "{pluginsDir}/open_project_directory.aux2",
             "XXH3_128": "3b7de7f89e58ca680d3f61fa20562a86"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2",
+        "release_date": "2026-02-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/open_project_directory.aux2",
+            "XXH3_128": "1d84069b9be0a3f250d409b5fa0d3786"
           }
         ]
       }
