@@ -5978,8 +5978,11 @@
       },
       "install": [
         {
-          "action": "download",
+          "action": "delete",
           "path": "{scriptsDir}/カラーハーフトーン.anm2"
+        },
+        {
+          "action": "download"
         },
         {
           "action": "extract"
@@ -6024,10 +6027,6 @@
           {
             "path": "{scriptsDir}/ColorHalftone.anm2",
             "XXH3_128": "3527ac50873a4c7647972bf8c1b80ef1"
-          },
-          {
-            "path": "{dataDir}/Language/English.ColorHalftone.aul2",
-            "XXH3_128": "f2d3839f69bba22f7a7721e769d1e241"
           }
         ]
       }
