@@ -15846,5 +15846,88 @@
         ]
       }
     ]
+  },
+  {
+    "id": "azurite.Hex-Tiling",
+    "name": "Hex-Tiling",
+    "type": "スクリプト",
+    "summary": "テクスチャの繰り返しを目立ちにくくするスクリプト",
+    "description": "./md/azurite.Hex-Tiling.md",
+    "author": "azurite",
+    "repoURL": "https://github.com/azurite581/AviUtl2-Hex-Tiling",
+    "latest-version": "v0.1.0",
+    "licenses": [
+      {
+        "type": "MIT No Attribution",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT No Attribution\n\nCopyright 2026 azurite\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+      }
+    ],
+    "tags": [
+      "加工"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/azurite.Hex-Tiling_thumbnail.png",
+        "infoImg": [
+          "./image/azurite.Hex-Tiling_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "azurite581",
+          "repo": "AviUtl2-Hex-Tiling",
+          "pattern": "^.*Hex-Tiling_v[\\\\d.]+\\\\.au2pkg\\\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Hex-Tiling.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Hex-Tiling.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.Hex-Tiling.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-02-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/Hex-Tiling.anm2",
+            "XXH3_128": "761ca93163a980f44dd41cf99b70df86"
+          },
+          {
+            "path": "{dataDir}/Language/English.Hex-Tiling.aul2",
+            "XXH3_128": "7440d9acf90b0c9c68da4f0056b1bff8"
+          }
+        ]
+      }
+    ]
   }
 ]
