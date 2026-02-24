@@ -15699,7 +15699,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/insert.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/insert.aux2",
-    "latest-version": "0.1.0",
+    "latest-version": "0.1.4",
     "popularity": 3,
     "trend": 3,
     "licenses": [
@@ -15710,9 +15710,7 @@
         "licenseBody": "MIT License\r\n\r\nCopyright (c) 2026 Nanashi. <sevenc7c.com>\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
       }
     ],
-    "tags": [
-      "便利ツール"
-    ],
+    "tags": [],
     "dependencies": [],
     "images": [
       {
@@ -15724,7 +15722,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "insert.aux2",
-          "pattern": "^insert-v[^/]+\\.au2pkg\\.zip$"
+          "pattern": "^insert\\.aux2-v[^/]+\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -15768,6 +15766,20 @@
           {
             "path": "{pluginsDir}/insert.aux2",
             "XXH3_128": "fb8aad5e16da38cd0a9dc77385f23241"
+          }
+        ]
+      },
+      {
+        "version": "0.1.4",
+        "release_date": "2026-02-24",
+        "file": [
+          {
+            "path": "{dataDir}/English.insert.aul2",
+            "XXH3_128": "27b05958542022d0086e724d81e707fe"
+          },
+          {
+            "path": "{pluginsDir}/insert.aux2",
+            "XXH3_128": "912b792026d04397708b641d54b8db90"
           }
         ]
       }
