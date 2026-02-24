@@ -7819,10 +7819,14 @@
         "github": {
           "owner": "korarei",
           "repo": "AviUtl2_ColorLUT_K_Plugin",
-          "pattern": "^ColorLUT_K_.*\\.zip$"
+          "pattern": "^ColorLUT_K.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ColorLUT_K.aux2"
+        },
         {
           "action": "download"
         },
@@ -7832,13 +7836,17 @@
         {
           "action": "copy",
           "from": "{tmp}/Plugin/ColorLUT_K/ColorLUT_K.aux2",
-          "to": "{pluginsDir}"
+          "to": "{pluginsDir}/ColorLUT_K"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/ColorLUT_K.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ColorLUT_K"
         }
       ]
     },
@@ -7868,7 +7876,7 @@
         "release_date": "2026-02-24",
         "file": [
           {
-            "path": "{pluginsDir}/ColorLUT_K.aux2",
+            "path": "{pluginsDir}/ColorLUT_K/ColorLUT_K.aux2",
             "XXH3_128": "12d8db7ec640521eea79f9ce2caa82c9"
           }
         ]
