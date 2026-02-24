@@ -1967,5 +1967,24 @@
         }
       ]
     }
+  },
+  {
+    "id": "koisi0319.Duplicate_objects",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "koisi0319/Aviutl2-Duplicate-objects-at-equal-intervals",
+      "regex": "^Duplicate_objects*\\.aux2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "Duplicate_objects.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Duplicate_objects.aux2"
+          ]
+        }
+      ]
+    }
   }
 ]
