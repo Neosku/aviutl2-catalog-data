@@ -5949,7 +5949,7 @@
     "description": "./md/azurite.ColorHalftone.md",
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-ColorHalftone",
-    "latest-version": "v1.1.1",
+    "latest-version": "v2.0.0",
     "popularity": 543,
     "trend": 408,
     "licenses": [
@@ -6039,6 +6039,11 @@
             "XXH3_128": "3527ac50873a4c7647972bf8c1b80ef1"
           }
         ]
+      },
+      {
+        "version": "v2.0.0",
+        "release_date": "2026-02-25",
+        "file": []
       }
     ]
   },
