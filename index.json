@@ -5933,9 +5933,9 @@
   },
   {
     "id": "azurite.ColorHalftone",
-    "name": "カラーハーフトーン",
+    "name": "ColorHalftone",
     "type": "スクリプト",
-    "summary": "カラーハーフトーン加工をする AviUtl2 用スクリプトです。",
+    "summary": "カラーハーフトーン加工をするスクリプト",
     "description": "./md/azurite.ColorHalftone.md",
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-ColorHalftone",
@@ -5948,19 +5948,24 @@
         "isCustom": false,
         "copyrights": [
           {
-            "years": "2025",
+            "years": "2025-2026",
             "holder": "azurite"
           }
         ],
         "licenseBody": null
       }
     ],
-    "tags": [],
+    "tags": [
+      "エフェクト",
+      "加工"
+    ],
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "",
-        "infoImg": []
+        "thumbnail": "./image/azurite.ColorHalftone_thumbnail.png",
+        "infoImg": [
+          "./image/azurite.ColorHalftone_1.png"
+        ]
       }
     ],
     "installer": {
@@ -5973,11 +5978,8 @@
       },
       "install": [
         {
-          "action": "delete",
+          "action": "download",
           "path": "{scriptsDir}/カラーハーフトーン.anm2"
-        },
-        {
-          "action": "download"
         },
         {
           "action": "extract"
@@ -6022,6 +6024,10 @@
           {
             "path": "{scriptsDir}/ColorHalftone.anm2",
             "XXH3_128": "3527ac50873a4c7647972bf8c1b80ef1"
+          },
+          {
+            "path": "{dataDir}/Language/English.ColorHalftone.aul2",
+            "XXH3_128": "f2d3839f69bba22f7a7721e769d1e241"
           }
         ]
       }
