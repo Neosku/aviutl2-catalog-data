@@ -15805,11 +15805,6 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/package.ini",
-          "to": "{dataDir}/"
-        },
-        {
-          "action": "copy",
           "from": "{tmp}/Plugin/quantizer.aux2",
           "to": "{pluginsDir}"
         }
@@ -15818,10 +15813,6 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/quantizer.aux2"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}//package.ini"
         },
         {
           "action": "delete",
@@ -15834,14 +15825,6 @@
         "version": "0.1.0",
         "release_date": "2026-02-24",
         "file": [
-          {
-            "path": "{dataDir}/Language/English.quantizer_aux2.aul2",
-            "XXH3_128": "f76cb122d76d90daa8ba553c0b37f470"
-          },
-          {
-            "path": "{dataDir}/package.ini",
-            "XXH3_128": "2865b8d385bbffadc0eea72a82529757"
-          },
           {
             "path": "{pluginsDir}/quantizer.aux2",
             "XXH3_128": "d5b7b2d9f9a12ae52080755b53881508"
