@@ -15881,7 +15881,7 @@
         "github": {
           "owner": "azurite581",
           "repo": "AviUtl2-Hex-Tiling",
-          "pattern": "^.*Hex-Tiling_v[\\\\d.]+\\\\.au2pkg\\\\.zip$"
+          "pattern": "^.*Hex-Tiling_v[\\d.]+\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -15921,10 +15921,6 @@
           {
             "path": "{scriptsDir}/Hex-Tiling.anm2",
             "XXH3_128": "761ca93163a980f44dd41cf99b70df86"
-          },
-          {
-            "path": "{dataDir}/Language/English.Hex-Tiling.aul2",
-            "XXH3_128": "7440d9acf90b0c9c68da4f0056b1bff8"
           }
         ]
       }
