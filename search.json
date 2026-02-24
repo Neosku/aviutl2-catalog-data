@@ -820,7 +820,7 @@
   },
   {
     "id": "korarei.ColorLUT_K",
-    "latest-version": "v1.0.1",
+    "latest-version": "v1.1.0",
     "checkType": {
       "type": "GitHub",
       "repo": "korarei/AviUtl2_ColorLUT_K_Plugin",
@@ -948,7 +948,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_binaural",
-    "latest-version": "0.18.0",
+    "latest-version": "0.19.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -967,7 +967,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_chiptune",
-    "latest-version": "0.18.0",
+    "latest-version": "0.19.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -986,7 +986,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_equalizer",
-    "latest-version": "0.18.0",
+    "latest-version": "0.19.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1005,7 +1005,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_ffmpeg",
-    "latest-version": "0.18.0",
+    "latest-version": "0.19.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1024,7 +1024,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_input",
-    "latest-version": "0.18.0",
+    "latest-version": "0.19.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1043,7 +1043,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_output",
-    "latest-version": "0.18.0",
+    "latest-version": "0.19.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1062,7 +1062,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_local_alias_plugin",
-    "latest-version": "0.18.0",
+    "latest-version": "0.19.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1081,7 +1081,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_midi_player",
-    "latest-version": "0.18.0",
+    "latest-version": "0.19.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1100,7 +1100,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_pixelsort",
-    "latest-version": "0.18.0",
+    "latest-version": "0.19.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1119,7 +1119,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_random_color",
-    "latest-version": "0.18.0",
+    "latest-version": "0.19.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1138,7 +1138,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut",
-    "latest-version": "0.18.0",
+    "latest-version": "0.19.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1157,7 +1157,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_scripts_search",
-    "latest-version": "0.18.0",
+    "latest-version": "0.19.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1176,7 +1176,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_srt_file",
-    "latest-version": "0.18.0",
+    "latest-version": "0.19.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1195,7 +1195,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_statistics",
-    "latest-version": "0.18.0",
+    "latest-version": "0.19.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1256,7 +1256,7 @@
   },
   {
     "id": "sevenc-nanashi.vintage-auf2",
-    "latest-version": "0.1.1",
+    "latest-version": "0.1.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/vintage.auf2",
@@ -1396,7 +1396,7 @@
   },
   {
     "id": "Book-0225.EAP2",
-    "latest-version": "v0.0.26",
+    "latest-version": "v0.0.27",
     "checkType": {
       "type": "GitHub",
       "repo": "Book-0225/aviutl2_External_Audio_Processing",
@@ -1415,7 +1415,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_metronome_plugin",
-    "latest-version": "0.18.0",
+    "latest-version": "0.19.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1633,7 +1633,7 @@
   },
   {
     "id": "azurite.GradientEditor",
-    "latest-version": "v0.1.3",
+    "latest-version": "v0.1.4",
     "checkType": {
       "type": "GitHub",
       "repo": "azurite581/AviUtl2-GradientEditor",
@@ -1932,7 +1932,7 @@
   },
   {
     "id": "KuroNeko.CopyAlias",
-    "latest-version": "0.1.0",
+    "latest-version": "1.0.0",
     "checkType": {
       "type": "GitHub",
       "repo": "rokujyushi/Copy_alias",
