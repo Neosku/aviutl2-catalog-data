@@ -6043,7 +6043,12 @@
       {
         "version": "v2.0.0",
         "release_date": "2026-02-25",
-        "file": []
+        "file": [
+          {
+            "path": "{scriptsDir}/ColorHalftone.anm2",
+            "XXH3_128": "6f97a79c1286554dc24be3691c973f5e"
+          }
+        ]
       }
     ]
   },
