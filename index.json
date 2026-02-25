@@ -15767,7 +15767,7 @@
         {
           "action": "copy",
           "from": "{tmp}/English.insert.aul2",
-          "to": "{dataDir}/"
+          "to": "{dataDir}/Language"
         },
         {
           "action": "copy",
@@ -15782,7 +15782,7 @@
         },
         {
           "action": "delete",
-          "path": "{dataDir}//English.insert.aul2"
+          "path": "{dataDir}/Language/English.insert.aul2"
         }
       ]
     },
@@ -15799,7 +15799,7 @@
       },
       {
         "version": "0.1.4",
-        "release_date": "2026-02-25",
+        "release_date": "2026-02-24",
         "file": [
           {
             "path": "{pluginsDir}/insert.aux2",
