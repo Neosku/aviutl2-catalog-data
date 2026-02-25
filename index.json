@@ -15744,7 +15744,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "insert.aux2",
-          "pattern": "^insert-v[^/]+\\.au2pkg\\.zip$"
+          "pattern": "^insert\\.aux2-v[^/]+\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -15781,10 +15781,6 @@
         "version": "0.1.0",
         "release_date": "2026-02-23",
         "file": [
-          {
-            "path": "{dataDir}/English.insert.aul2",
-            "XXH3_128": "27b05958542022d0086e724d81e707fe"
-          },
           {
             "path": "{pluginsDir}/insert.aux2",
             "XXH3_128": "fb8aad5e16da38cd0a9dc77385f23241"
