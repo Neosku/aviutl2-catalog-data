@@ -465,7 +465,7 @@
   },
   {
     "id": "Garech.SplitFilters",
-    "latest-version": "v1.05",
+    "latest-version": "v1.06",
     "checkType": {
       "type": "GitHub",
       "repo": "Garech-mas/AviUtl2_SplitFilters",
@@ -525,7 +525,7 @@
   },
   {
     "id": "azurite.ColorHalftone",
-    "latest-version": "v1.1.1",
+    "latest-version": "v2.0.0",
     "checkType": {
       "type": "GitHub",
       "repo": "azurite581/AviUtl2-ColorHalftone",
@@ -1872,7 +1872,7 @@
   },
   {
     "id": "sevenc-nanashi.open_project_directory-aux2",
-    "latest-version": "0.1.1",
+    "latest-version": "0.1.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/open_project_directory.aux2",
@@ -1932,7 +1932,7 @@
   },
   {
     "id": "KuroNeko.CopyAlias",
-    "latest-version": "1.0.0",
+    "latest-version": "2.0.0",
     "checkType": {
       "type": "GitHub",
       "repo": "rokujyushi/Copy_alias",
@@ -1950,7 +1950,7 @@
     }
   },
   {
-    "id": "KuroNeko.CopyAlias",
+    "id": "sagami121.BlockNoise",
     "latest-version": "1.0",
     "checkType": {
       "type": "GitHub",
@@ -2001,6 +2001,66 @@
           ],
           "recordPaths": [
             "{dataDir}/Language/Korean.language.aul2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.insert-aux2",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/insert.aux2",
+      "regex": "^insert\\.aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/insert.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/insert.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.quantizer-aux2",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/quantizer.aux2",
+      "regex": "^sevenc-nanashi\\.quantizer-aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/quantizer.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/quantizer.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "azurite.Hex-Tiling",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "azurite581/AviUtl2-Hex-Tiling",
+      "regex": "^.*Hex-Tiling_v[\\d.]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/Hex-Tiling.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Hex-Tiling.anm2"
           ]
         }
       ]
