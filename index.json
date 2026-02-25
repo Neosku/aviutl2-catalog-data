@@ -5949,7 +5949,7 @@
     "description": "./md/azurite.ColorHalftone.md",
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-ColorHalftone",
-    "latest-version": "v1.1.1",
+    "latest-version": "v2.0.0",
     "popularity": 543,
     "trend": 408,
     "licenses": [
@@ -6039,6 +6039,11 @@
             "XXH3_128": "3527ac50873a4c7647972bf8c1b80ef1"
           }
         ]
+      },
+      {
+        "version": "v2.0.0",
+        "release_date": "2026-02-25",
+        "file": []
       }
     ]
   },
@@ -15071,7 +15076,7 @@
   },
   {
     "id": "sevenc-nanashi.open_project_directory-aux2",
-    "name": "open_project_directory",
+    "name": "open_project_directory.aux2",
     "type": "汎用プラグイン",
     "summary": "「プロジェクトファイルのフォルダを開く」ボタンを追加する汎用プラグイン",
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/open_project_directory.aux2/main/README.md",
@@ -15729,7 +15734,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/insert.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/insert.aux2",
-    "latest-version": "0.1.0",
+    "latest-version": "0.1.4",
     "popularity": 3,
     "trend": 3,
     "licenses": [
@@ -15754,7 +15759,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "insert.aux2",
-          "pattern": "^insert-v[^/]+\\.au2pkg\\.zip$"
+          "pattern": "^insert\\.aux2-v[^/]+\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -15767,7 +15772,7 @@
         {
           "action": "copy",
           "from": "{tmp}/English.insert.aul2",
-          "to": "{dataDir}/"
+          "to": "{dataDir}/Language"
         },
         {
           "action": "copy",
@@ -15782,7 +15787,7 @@
         },
         {
           "action": "delete",
-          "path": "{dataDir}//English.insert.aul2"
+          "path": "{dataDir}/Language/English.insert.aul2"
         }
       ]
     },
@@ -15792,12 +15797,18 @@
         "release_date": "2026-02-23",
         "file": [
           {
-            "path": "{dataDir}/English.insert.aul2",
-            "XXH3_128": "27b05958542022d0086e724d81e707fe"
-          },
-          {
             "path": "{pluginsDir}/insert.aux2",
             "XXH3_128": "fb8aad5e16da38cd0a9dc77385f23241"
+          }
+        ]
+      },
+      {
+        "version": "0.1.4",
+        "release_date": "2026-02-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/insert.aux2",
+            "XXH3_128": "912b792026d04397708b641d54b8db90"
           }
         ]
       }
@@ -15811,7 +15822,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/quantizer.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/quantizer.aux2",
-    "latest-version": "0.1.0",
+    "latest-version": "0.1.4",
     "popularity": 18,
     "trend": 18,
     "licenses": [
@@ -15874,6 +15885,16 @@
           {
             "path": "{pluginsDir}/quantizer.aux2",
             "XXH3_128": "d5b7b2d9f9a12ae52080755b53881508"
+          }
+        ]
+      },
+      {
+        "version": "0.1.4",
+        "release_date": "2026-02-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/quantizer.aux2",
+            "XXH3_128": "7ecf862dbd5adba7d3a66e96fae2b19a"
           }
         ]
       }
