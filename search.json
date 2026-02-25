@@ -1936,11 +1936,11 @@
     "checkType": {
       "type": "GitHub",
       "repo": "rokujyushi/Copy_alias",
-      "regex": "CopyAlias\\.zip",
+      "regex": "KuroNeko\\.CopyAlias.*\\.au2pkg\\.zip",
       "hash-calc": [
         {
           "paths": [
-            "CopyAlias.aux2"
+            "Plugin/CopyAlias.aux2"
           ],
           "recordPaths": [
             "{pluginsDir}/CopyAlias.aux2"

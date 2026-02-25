@@ -15562,7 +15562,7 @@
     "name": "CopyAlias",
     "type": "汎用プラグイン",
     "summary": "選択オブジェクトのエイリアスをクリップボードにコピー",
-    "description": "https://raw.githubusercontent.com/rokujyushi/Copy_alias/refs/heads/main/README.md",
+    "description": "https://raw.githubusercontent.com/rokujyushi/Copy_alias/refs/heads/Rust-2.0.0/README.md",
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/Copy_alias",
     "latest-version": "2.0.0",
@@ -15596,7 +15596,7 @@
         "github": {
           "owner": "rokujyushi",
           "repo": "Copy_alias",
-          "pattern": "CopyAlias\\.zip"
+          "pattern": "KuroNeko\\.CopyAlias.*\\.au2pkg\\.zip"
         }
       },
       "install": [
@@ -15609,7 +15609,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/CopyAlias.aux2",
+          "from": "{tmp}/Plugin/CopyAlias.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -15644,7 +15644,12 @@
       {
         "version": "2.0.0",
         "release_date": "2026-02-25",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/CopyAlias.aux2",
+            "XXH3_128": "700b3e8ad9d6b1740be42fcbd33f72f1"
+          }
+        ]
       }
     ]
   },
