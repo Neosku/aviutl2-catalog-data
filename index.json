@@ -15591,7 +15591,7 @@
         "github": {
           "owner": "rokujyushi",
           "repo": "Copy_alias",
-          "pattern": "KuroNeko\\.CopyAlias-v2\\.0\\.0\\.au2pkg\\.zip"
+          "pattern": "KuroNeko\\.CopyAlias.*\\.au2pkg\\.zip"
         }
       },
       "install": [
