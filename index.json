@@ -15729,7 +15729,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/insert.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/insert.aux2",
-    "latest-version": "0.1.0",
+    "latest-version": "0.1.4",
     "popularity": 3,
     "trend": 3,
     "licenses": [
@@ -15796,6 +15796,16 @@
             "XXH3_128": "fb8aad5e16da38cd0a9dc77385f23241"
           }
         ]
+      },
+      {
+        "version": "0.1.4",
+        "release_date": "2026-02-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/insert.aux2",
+            "XXH3_128": "912b792026d04397708b641d54b8db90"
+          }
+        ]
       }
     ]
   },
@@ -15807,7 +15817,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/quantizer.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/quantizer.aux2",
-    "latest-version": "0.1.0",
+    "latest-version": "0.1.4",
     "popularity": 18,
     "trend": 18,
     "licenses": [
@@ -15870,6 +15880,16 @@
           {
             "path": "{pluginsDir}/quantizer.aux2",
             "XXH3_128": "d5b7b2d9f9a12ae52080755b53881508"
+          }
+        ]
+      },
+      {
+        "version": "0.1.4",
+        "release_date": "2026-02-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/quantizer.aux2",
+            "XXH3_128": "7ecf862dbd5adba7d3a66e96fae2b19a"
           }
         ]
       }
