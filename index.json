@@ -5983,7 +5983,7 @@
         "github": {
           "owner": "azurite581",
           "repo": "AviUtl2-ColorHalftone",
-          "pattern": "^.*ColorHalftone_v[\\d.]+\\.au2pkg\\.zip$"
+          "pattern": "^.*ColorHalftone.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -6009,6 +6009,10 @@
         }
       ],
       "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/カラーハーフトーン.anm2"
+        },
         {
           "action": "delete",
           "path": "{scriptsDir}/ColorHalftone.anm2"
