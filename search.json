@@ -1912,7 +1912,7 @@
   },
   {
     "id": "VRAMWIZ.Syncroh2",
-    "latest-version": "v1.2.1",
+    "latest-version": "v1.3.0",
     "checkType": {
       "type": "GitHub",
       "repo": "vramwiz/Syncroh2-site",
@@ -1936,11 +1936,11 @@
     "checkType": {
       "type": "GitHub",
       "repo": "rokujyushi/Copy_alias",
-      "regex": "CopyAlias\\.zip",
+      "regex": "KuroNeko\\.CopyAlias.*\\.au2pkg\\.zip",
       "hash-calc": [
         {
           "paths": [
-            "CopyAlias.aux2"
+            "Plugin/CopyAlias.aux2"
           ],
           "recordPaths": [
             "{pluginsDir}/CopyAlias.aux2"
@@ -1950,7 +1950,7 @@
     }
   },
   {
-    "id": "KuroNeko.CopyAlias",
+    "id": "sagami121.BlockNoise",
     "latest-version": "1.0",
     "checkType": {
       "type": "GitHub",
@@ -2001,6 +2001,66 @@
           ],
           "recordPaths": [
             "{dataDir}/Language/Korean.language.aul2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.insert-aux2",
+    "latest-version": "0.1.4",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/insert.aux2",
+      "regex": "^insert\\.aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/insert.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/insert.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.quantizer-aux2",
+    "latest-version": "0.1.4",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/quantizer.aux2",
+      "regex": "^sevenc-nanashi\\.quantizer-aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/quantizer.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/quantizer.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "azurite.Hex-Tiling",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "azurite581/AviUtl2-Hex-Tiling",
+      "regex": "^.*Hex-Tiling_v[\\d.]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/Hex-Tiling.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Hex-Tiling.anm2"
           ]
         }
       ]
