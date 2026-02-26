@@ -529,7 +529,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "azurite581/AviUtl2-ColorHalftone",
-      "regex": "^.*ColorHalftone_v[\\d.]+\\.au2pkg\\.zip$",
+      "regex": "^.*ColorHalftone.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
