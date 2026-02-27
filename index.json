@@ -13561,7 +13561,11 @@
       "インターレース解除"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/KAZOON.KSA_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
