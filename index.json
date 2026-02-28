@@ -16068,14 +16068,14 @@
     ]
   },
   {
-    "id": "NeAc.LyricMotioN",
-    "name": "LyricMotioN",
+    "id": "NeAc.Loop",
+    "name": "Loop",
     "type": "スクリプト",
-    "summary": "リリックモーションを簡単に作成できるスクリプト",
-    "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_LyricMotioN/refs/heads/master/README.md",
+    "summary": "Z軸方向にもループ可能な高度な画像ループ系スクリプト",
+    "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_Loop/refs/heads/master/README.md",
     "author": "猫愛",
-    "repoURL": "https://github.com/nea-c/aviutl2_script_LyricMotioN",
-    "latest-version": "r4",
+    "repoURL": "https://github.com/nea-c/aviutl2_script_Loop",
+    "latest-version": "r2",
     "licenses": [
       {
         "type": "MIT",
@@ -16090,20 +16090,17 @@
       }
     ],
     "tags": [
-      "トランジション",
-      "アニメーション",
-      "スクリプト",
-      "シーンチェンジ",
-      "エフェクト",
-      "ディレイ",
-      "移動"
+      "配置",
+      "立体",
+      "移動",
+      "スクリプト"
     ],
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/NeAc.LyricMotioN_thumbnail.webp",
+        "thumbnail": "./image/NeAc.Loop_thumbnail.png",
         "infoImg": [
-          "./image/NeAc.LyricMotioN_1.webp"
+          "./image/NeAc.Loop_1.png"
         ]
       }
     ],
@@ -16111,8 +16108,8 @@
       "source": {
         "github": {
           "owner": "nea-c",
-          "repo": "aviutl2_script_LyricMotioN",
-          "pattern": "^LyricMotioN\\.zip$"
+          "repo": "aviutl2_script_Loop",
+          "pattern": "^ScreenAspect\\.zip$"
         }
       },
       "install": [
@@ -16124,25 +16121,25 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/LyricMotioN.anm2",
+          "from": "{tmp}/Loop.anm2",
           "to": "{scriptsDir}"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{scriptsDir}/LyricMotioN.anm2"
+          "path": "{scriptsDir}/Loop.anm2"
         }
       ]
     },
     "version": [
       {
-        "version": "r4",
+        "version": "r2",
         "release_date": "2026-02-28",
         "file": [
           {
-            "path": "{scriptsDir}/LyricMotioN.anm2",
-            "XXH3_128": "f166c78d24d31a2147beb6ea229895ad"
+            "path": "{scriptsDir}/Loop.anm2",
+            "XXH3_128": "00c4207ef0f68d5348bc339d4770ee97"
           }
         ]
       }
