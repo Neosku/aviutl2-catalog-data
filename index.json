@@ -14324,16 +14324,6 @@
             "XXH3_128": "4acbae0dcea6f865827e2d025bde1d6c"
           }
         ]
-      },
-      {
-        "version": "r5",
-        "release_date": "2026-02-26",
-        "file": [
-          {
-            "path": "{scriptsDir}/シネマスコープ.obj2",
-            "XXH3_128": "4acbae0dcea6f865827e2d025bde1d6c"
-          }
-        ]
       }
     ]
   },
@@ -15063,7 +15053,10 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/NeAc.BezierPath_thumbnail.png"
+        "thumbnail": "./image/NeAc.BezierPath_thumbnail.png",
+        "infoImg": [
+          "./image/NeAc.BezierPath_1.webp"
+        ]
       }
     ],
     "installer": {
@@ -15112,6 +15105,16 @@
           {
             "path": "{scriptsDir}/BezierPath.anm2",
             "XXH3_128": "12d98cf32d8617c0f80997009a7551b9"
+          }
+        ]
+      },
+      {
+        "version": "r3",
+        "release_date": "2026-02-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/BezierPath.anm2",
+            "XXH3_128": "45600b471aba051970f9345926faeca4"
           }
         ]
       },
