@@ -7337,7 +7337,7 @@
     "author": "Nao",
     "originalAuthor": "aoytsk様",
     "repoURL": "https://nao-kid.booth.pm/items/7791311",
-    "latest-version": "v3.3",
+    "latest-version": "v3.4",
     "popularity": 358,
     "trend": 220,
     "licenses": [
@@ -7362,7 +7362,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8441989?_gl=1*8uz613*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzE3Mzc4NjEkbzg4JGcxJHQxNzcxNzM4MTM3JGo1OCRsMCRoMA.."
+        "booth": "https://booth.pm/downloadables/8474962?_gl=1*1lk6i1k*_ga*MTc4Nzg5MDE1OS4xNzMwODE3OTQ0*_ga_RWT2QKJLDC*czE3NzIyODMxNDkkbzMkZzEkdDE3NzIyODM3MzAkajUzJGwwJGgw"
       },
       "install": [
         {
@@ -7373,7 +7373,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/v3.3/拡張ツールバー.aux2",
+          "from": "{tmp}/v3.4/拡張ツールバー.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -7482,6 +7482,16 @@
           {
             "path": "{pluginsDir}/拡張ツールバー.aux2",
             "XXH3_128": "6c9e60a2542d35b0e05a1b855ec64b2a"
+          }
+        ]
+      },
+      {
+        "version": "v3.4",
+        "release_date": "2026-02-28",
+        "file": [
+          {
+            "path": "{pluginsDir}/拡張ツールバー.aux2",
+            "XXH3_128": "31544e2bebe5b9392e2cdfc2eb1a439b"
           }
         ]
       }
