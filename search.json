@@ -1,7 +1,7 @@
 [
   {
     "id": "Kenkun.AviUtlExEdit2",
-    "latest-version": "beta34",
+    "latest-version": "beta35",
     "checkType": {
       "type": "URL",
       "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
@@ -1613,7 +1613,7 @@
   },
   {
     "id": "NeAc.CinemaScope",
-    "latest-version": "r4",
+    "latest-version": "r5",
     "checkType": {
       "type": "GitHub",
       "repo": "nea-c/aviutl2_script_CinemaScope",
@@ -1832,7 +1832,7 @@
   },
   {
     "id": "NeAc.BezierPath",
-    "latest-version": "r2",
+    "latest-version": "r3",
     "checkType": {
       "type": "GitHub",
       "repo": "nea-c/aviutl2_script_BezierPath",
@@ -1852,7 +1852,7 @@
   },
   {
     "id": "NeAc.BezierPath",
-    "latest-version": "r2",
+    "latest-version": "r3",
     "checkType": {
       "type": "GitHub",
       "repo": "nea-c/aviutl2_script_BezierPath",
@@ -1912,7 +1912,7 @@
   },
   {
     "id": "VRAMWIZ.Syncroh2",
-    "latest-version": "v1.3.0",
+    "latest-version": "v1.4.0",
     "checkType": {
       "type": "GitHub",
       "repo": "vramwiz/Syncroh2-site",
