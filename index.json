@@ -14572,7 +14572,11 @@
     ],
     "tags": [],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/KAZOON.fzgx_smr_ks_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
