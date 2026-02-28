@@ -7,7 +7,7 @@
     "description": "./md/Kenkun.AviUtlExEdit2.md",
     "author": "Kenくん",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-    "latest-version": "beta34",
+    "latest-version": "beta35",
     "popularity": 6696,
     "trend": 2793,
     "licenses": [
@@ -30,7 +30,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta34_setup.exe"
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta35_setup.exe"
       },
       "install": [
         {
@@ -501,6 +501,16 @@
           {
             "path": "{appDir}/aviutl2.exe",
             "XXH3_128": "451be769a3f3fd25d10299f11ae7b9a6"
+          }
+        ]
+      },
+      {
+        "version": "beta35",
+        "release_date": "2026-02-28",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "13e1f13bd4bdb11a37fc8b96ff5da036"
           }
         ]
       }
@@ -14235,7 +14245,10 @@
     ],
     "tags": [
       "カスタムオブジェクト",
-      "エフェクト"
+      "エフェクト",
+      "スクリプト",
+      "シーンチェンジ",
+      "トランジション"
     ],
     "dependencies": [],
     "images": [
@@ -15040,7 +15053,10 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/NeAc.BezierPath_thumbnail.png"
+        "thumbnail": "./image/NeAc.BezierPath_thumbnail.png",
+        "infoImg": [
+          "./image/NeAc.BezierPath_1.webp"
+        ]
       }
     ],
     "installer": {
@@ -15089,6 +15105,16 @@
           {
             "path": "{scriptsDir}/BezierPath.anm2",
             "XXH3_128": "12d98cf32d8617c0f80997009a7551b9"
+          }
+        ]
+      },
+      {
+        "version": "r3",
+        "release_date": "2026-02-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/BezierPath.anm2",
+            "XXH3_128": "45600b471aba051970f9345926faeca4"
           }
         ]
       },
@@ -15505,7 +15531,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v1.4.0",
+    "latest-version": "v1.4.1",
     "popularity": 86,
     "trend": 94,
     "licenses": [
@@ -15598,6 +15624,16 @@
       {
         "version": "v1.4.0",
         "release_date": "2026-02-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "5bf28c06cf4ddf76ecdae61bd4f058ee"
+          }
+        ]
+      },
+      {
+        "version": "v1.4.1",
+        "release_date": "2026-02-28",
         "file": [
           {
             "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
