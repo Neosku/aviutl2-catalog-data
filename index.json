@@ -14245,7 +14245,10 @@
     ],
     "tags": [
       "カスタムオブジェクト",
-      "エフェクト"
+      "エフェクト",
+      "スクリプト",
+      "シーンチェンジ",
+      "トランジション"
     ],
     "dependencies": [],
     "images": [
@@ -14309,6 +14312,16 @@
           {
             "path": "{scriptsDir}/シネマスコープ.obj2",
             "XXH3_128": "1db2ca94e9cd9e648ebdb199d140bfb0"
+          }
+        ]
+      },
+      {
+        "version": "r5",
+        "release_date": "2026-02-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/シネマスコープ.obj2",
+            "XXH3_128": "4acbae0dcea6f865827e2d025bde1d6c"
           }
         ]
       },
