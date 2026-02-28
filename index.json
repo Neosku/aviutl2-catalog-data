@@ -16083,7 +16083,7 @@
     "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_LyricMotioN/refs/heads/master/README.md",
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_script_LyricMotioN",
-    "latest-version": "r4",
+    "latest-version": "r5",
     "licenses": [
       {
         "type": "MIT",
@@ -16151,6 +16151,16 @@
           {
             "path": "{scriptsDir}/LyricMotioN.anm2",
             "XXH3_128": "f166c78d24d31a2147beb6ea229895ad"
+          }
+        ]
+      },
+      {
+        "version": "r5",
+        "release_date": "2026-02-28",
+        "file": [
+          {
+            "path": "{scriptsDir}/LyricMotioN.anm2",
+            "XXH3_128": "83c91a99196d5f3eeade18f414235bfc"
           }
         ]
       }
