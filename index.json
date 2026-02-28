@@ -16155,5 +16155,83 @@
         ]
       }
     ]
+  },
+  {
+    "id": "NeAc.Loop",
+    "name": "Loop",
+    "type": "スクリプト",
+    "summary": "Z軸方向にもループ可能な高度な画像ループ系スクリプト",
+    "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_Loop/refs/heads/master/README.md",
+    "author": "猫愛",
+    "repoURL": "https://github.com/nea-c/aviutl2_script_Loop",
+    "latest-version": "r2",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "NeAc"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "配置",
+      "立体",
+      "移動",
+      "スクリプト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/NeAc.Loop_thumbnail.png",
+        "infoImg": [
+          "./image/NeAc.Loop_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nea-c",
+          "repo": "aviutl2_script_Loop",
+          "pattern": "^ScreenAspect\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Loop.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Loop.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r2",
+        "release_date": "2026-02-28",
+        "file": [
+          {
+            "path": "{scriptsDir}/Loop.anm2",
+            "XXH3_128": "00c4207ef0f68d5348bc339d4770ee97"
+          }
+        ]
+      }
+    ]
   }
 ]
