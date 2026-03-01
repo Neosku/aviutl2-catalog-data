@@ -12150,7 +12150,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/ntsc-rs.anm2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/ntsc-rs.anm2",
-    "latest-version": "0.2.0",
+    "latest-version": "0.2.1",
     "popularity": 1069,
     "trend": 463,
     "licenses": [
@@ -12236,6 +12236,20 @@
           {
             "path": "{scriptsDir}/ntsc-rs.mod2",
             "XXH3_128": "cd5ede6558e41bddbdd96bfad3377167"
+          }
+        ]
+      },
+      {
+        "version": "0.2.1",
+        "release_date": "2026-03-02",
+        "file": [
+          {
+            "path": "{scriptsDir}/ntsc-rs.anm2",
+            "XXH3_128": "5fbe3ce13f627962037d90c0a5cc2538"
+          },
+          {
+            "path": "{scriptsDir}/ntsc-rs.mod2",
+            "XXH3_128": "baf3625723dfcd32abaa13e4ab6a816c"
           }
         ]
       }
@@ -12354,7 +12368,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/clipboard.aux2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/clipboard.aux2",
-    "latest-version": "0.2.2",
+    "latest-version": "0.2.3",
     "popularity": 946,
     "trend": 447,
     "licenses": [
@@ -12414,6 +12428,16 @@
           {
             "path": "{pluginsDir}/clipboard.aux2",
             "XXH3_128": "b0394c76e34e4942fc806ee042702e32"
+          }
+        ]
+      },
+      {
+        "version": "0.2.3",
+        "release_date": "2026-03-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/clipboard.aux2",
+            "XXH3_128": "d4c7a520f8b267725fe0ae8283614ed8"
           }
         ]
       }
@@ -12829,7 +12853,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/svg.aux2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/svg.aux2",
-    "latest-version": "0.3.0",
+    "latest-version": "0.3.2",
     "popularity": 192,
     "trend": 81,
     "licenses": [
@@ -12900,6 +12924,16 @@
           {
             "path": "{pluginsDir}/svg.aux2",
             "XXH3_128": "ecb8ad1af5c1982a41e3b5f83eece953"
+          }
+        ]
+      },
+      {
+        "version": "0.3.2",
+        "release_date": "2026-03-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/svg.aux2",
+            "XXH3_128": "76ac8007a9c80d9d61a5f4952be87dd9"
           }
         ]
       }
@@ -15763,7 +15797,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/filter_effect_toggle.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/filter_effect_toggle.aux2",
-    "latest-version": "0.1.0",
+    "latest-version": "0.1.3",
     "popularity": 45,
     "trend": 30,
     "licenses": [
@@ -15826,6 +15860,16 @@
           {
             "path": "{pluginsDir}/filter_effect_toggle.aux2",
             "XXH3_128": "eaf4fefaa40e8ec07c00380a7e2474b5"
+          }
+        ]
+      },
+      {
+        "version": "0.1.3",
+        "release_date": "2026-03-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/filter_effect_toggle.aux2",
+            "XXH3_128": "769ba27a58503c9ff05adcd0e3337317"
           }
         ]
       }
@@ -16205,7 +16249,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/insert.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/insert.aux2",
-    "latest-version": "0.1.4",
+    "latest-version": "0.1.6",
     "popularity": 43,
     "trend": 43,
     "licenses": [
@@ -16280,6 +16324,16 @@
           {
             "path": "{pluginsDir}/insert.aux2",
             "XXH3_128": "912b792026d04397708b641d54b8db90"
+          }
+        ]
+      },
+      {
+        "version": "0.1.6",
+        "release_date": "2026-03-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/insert.aux2",
+            "XXH3_128": "a75a3867cc394b34c32d9d0111881203"
           }
         ]
       }
