@@ -12354,7 +12354,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/clipboard.aux2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/clipboard.aux2",
-    "latest-version": "0.2.2",
+    "latest-version": "0.2.3",
     "popularity": 946,
     "trend": 447,
     "licenses": [
@@ -12416,6 +12416,11 @@
             "XXH3_128": "b0394c76e34e4942fc806ee042702e32"
           }
         ]
+      },
+      {
+        "version": "0.2.3",
+        "release_date": "2026-03-01",
+        "file": []
       }
     ]
   },
@@ -12427,7 +12432,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/vintage.auf2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/vintage.auf2",
-    "latest-version": "0.1.2",
+    "latest-version": "0.1.3",
     "popularity": 720,
     "trend": 426,
     "licenses": [
@@ -12490,6 +12495,16 @@
           {
             "path": "{pluginsDir}/vintage.auf2",
             "XXH3_128": "1cd03c43dd77b305e35941a5c413bcf7"
+          }
+        ]
+      },
+      {
+        "version": "0.1.3",
+        "release_date": "2026-03-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/vintage.auf2",
+            "XXH3_128": "0dc4089bdd619e52731c20453e116f56"
           }
         ]
       }
@@ -12819,7 +12834,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/svg.aux2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/svg.aux2",
-    "latest-version": "0.3.0",
+    "latest-version": "0.3.2",
     "popularity": 192,
     "trend": 81,
     "licenses": [
@@ -12892,6 +12907,11 @@
             "XXH3_128": "ecb8ad1af5c1982a41e3b5f83eece953"
           }
         ]
+      },
+      {
+        "version": "0.3.2",
+        "release_date": "2026-03-01",
+        "file": []
       }
     ]
   },
@@ -13963,7 +13983,7 @@
     "author": "Nanashi.",
     "originalAuthor": "Tinted Theming",
     "repoURL": "https://github.com/sevenc-nanashi/tinted-aviutl2",
-    "latest-version": "0.2.4",
+    "latest-version": "0.2.5",
     "popularity": 147,
     "trend": 125,
     "licenses": [
@@ -14072,6 +14092,16 @@
           {
             "path": "{pluginsDir}/tinted-aviutl2.aux2",
             "XXH3_128": "f3e2cbf5487186a07a64f1d2c358e0bc"
+          }
+        ]
+      },
+      {
+        "version": "0.2.5",
+        "release_date": "2026-03-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/tinted-aviutl2.aux2",
+            "XXH3_128": "ae2e1aa0c44fdca97f2b6dc36ddd888b"
           }
         ]
       }
@@ -15483,7 +15513,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/open_project_directory.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/open_project_directory.aux2",
-    "latest-version": "0.1.2",
+    "latest-version": "0.1.3",
     "popularity": 100,
     "trend": 111,
     "licenses": [
@@ -15556,6 +15586,16 @@
           {
             "path": "{pluginsDir}/open_project_directory.aux2",
             "XXH3_128": "1d84069b9be0a3f250d409b5fa0d3786"
+          }
+        ]
+      },
+      {
+        "version": "0.1.3",
+        "release_date": "2026-03-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/open_project_directory.aux2",
+            "XXH3_128": "cb11905695103fabf304d8ef61770f4c"
           }
         ]
       }
@@ -16175,7 +16215,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/insert.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/insert.aux2",
-    "latest-version": "0.1.4",
+    "latest-version": "0.1.5",
     "popularity": 43,
     "trend": 43,
     "licenses": [
@@ -16252,6 +16292,11 @@
             "XXH3_128": "912b792026d04397708b641d54b8db90"
           }
         ]
+      },
+      {
+        "version": "0.1.5",
+        "release_date": "2026-03-01",
+        "file": []
       }
     ]
   },
@@ -16669,10 +16714,15 @@
   },
   {
     "id": "sevenc-nanashi.filter_effect_toggle.aux2",
-    "latest-version": "0.1.1",
+    "latest-version": "0.1.2",
     "version": [
       {
         "version": "0.1.1",
+        "release_date": "2026-03-01",
+        "file": []
+      },
+      {
+        "version": "0.1.2",
         "release_date": "2026-03-01",
         "file": []
       }
