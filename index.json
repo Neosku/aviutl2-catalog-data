@@ -2824,6 +2824,16 @@
             "XXH3_128": "67906c3d79c098397b4d545ebde01d8b"
           }
         ]
+      },
+      {
+        "version": "r1262",
+        "release_date": "2026-03-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "0d9371bda38ee5ff3257d31d910e3277"
+          }
+        ]
       }
     ]
   },
@@ -16719,22 +16729,6 @@
             "XXH3_128": "35465e3fc606f04fe3ecb63d49e3b753"
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "sevenc-nanashi.filter_effect_toggle.aux2",
-    "latest-version": "0.1.2",
-    "version": [
-      {
-        "version": "0.1.1",
-        "release_date": "2026-03-01",
-        "file": []
-      },
-      {
-        "version": "0.1.2",
-        "release_date": "2026-03-01",
-        "file": []
       }
     ]
   }
