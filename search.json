@@ -583,25 +583,6 @@
     }
   },
   {
-    "id": "amaii4.AviUtl2_Discord_RPC",
-    "latest-version": "1.2",
-    "checkType": {
-      "type": "GitHub",
-      "repo": "amaii4/AviUtl2_Discord_RPC",
-      "regex": "DiscordRPC.aux2",
-      "hash-calc": [
-        {
-          "paths": [
-            "DiscordRPC.aux2"
-          ],
-          "recordPaths": [
-            "{pluginsDir}/DiscordRPC.aux2"
-          ]
-        }
-      ]
-    }
-  },
-  {
     "id": "Natadecoco.TextEditor",
     "latest-version": "2.0",
     "checkType": {
@@ -875,16 +856,6 @@
           ]
         }
       ]
-    }
-  },
-  {
-    "id": "hebiiro.al2_preset_adder",
-    "latest-version": "r3",
-    "checkType": {
-      "type": "GitHub",
-      "repo": "hebiiro/al2_preset_adder",
-      "regex": "^al2_preset_adder.*\\.zip$",
-      "hash-calc": []
     }
   },
   {
@@ -1672,46 +1643,6 @@
     }
   },
   {
-    "id": "KAZOON.wav_output_ks",
-    "latest-version": "v0.0.1",
-    "checkType": {
-      "type": "GitHub",
-      "repo": "cycloawaodorin/wav_output_ks",
-      "regex": "^wav_output_ks\\..*\\.zip$",
-      "hash-calc": [
-        {
-          "extract": "zip",
-          "paths": [
-            "wav_output_ks.auo2"
-          ],
-          "recordPaths": [
-            "{pluginsDir}/wav_output_ks.auo2"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "KAZOON.fzgx_smr_ks",
-    "latest-version": "v2.0.1",
-    "checkType": {
-      "type": "GitHub",
-      "repo": "cycloawaodorin/fzgx_smr_ks",
-      "regex": "^fzgx_smr_ks\\.2.*\\.zip$",
-      "hash-calc": [
-        {
-          "extract": "zip",
-          "paths": [
-            "fzgx_smr_ks.auo2"
-          ],
-          "recordPaths": [
-            "{pluginsDir}/fzgx_smr_ks.auo2"
-          ]
-        }
-      ]
-    }
-  },
-  {
     "id": "KAZOON.fzgx_smr_ks",
     "latest-version": "v2.0.1",
     "checkType": {
@@ -1825,26 +1756,6 @@
           ],
           "recordPaths": [
             "{scriptsDir}/エ霞.obj2"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "NeAc.BezierPath",
-    "latest-version": "r3",
-    "checkType": {
-      "type": "GitHub",
-      "repo": "nea-c/aviutl2_script_BezierPath",
-      "regex": "^BezierPath\\.zip$",
-      "hash-calc": [
-        {
-          "extract": "zip",
-          "paths": [
-            "BezierPath.anm2"
-          ],
-          "recordPaths": [
-            "{scriptsDir}/BezierPath.anm2"
           ]
         }
       ]
