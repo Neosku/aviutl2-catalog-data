@@ -2065,5 +2065,45 @@
         }
       ]
     }
+  },
+  {
+    "id": "NeAc.LyricMotioN",
+    "latest-version": "r4",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nea-c/aviutl2_script_LyricMotioN",
+      "regex": "^LyricMotioN\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "LyricMotioN.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/LyricMotioN.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "NeAc.Loop",
+    "latest-version": "r2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nea-c/aviutl2_script_Loop",
+      "regex": "^Loop\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Loop.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Loop.anm2"
+          ]
+        }
+      ]
+    }
   }
 ]
