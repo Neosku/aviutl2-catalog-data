@@ -12715,7 +12715,14 @@
       "エフェクト"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/Book-0225.EAP2_thumbnail.webp",
+        "infoImg": [
+          "./image/Book-0225.EAP2_1.png"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
