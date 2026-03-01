@@ -16285,5 +16285,64 @@
         ]
       }
     ]
+  },
+  {
+    "id": "naltutyo-sagyouroga-N",
+    "name": "作業ロガーN",
+    "type": "汎用プラグイン",
+    "summary": "自分の作業を記録しXに投稿したり、作業時間を見直すプラグインです",
+    "description": "./md/naltutyo-sagyouroga-N.md",
+    "author": "Nao",
+    "repoURL": "https://nao-kid.booth.pm/items/8025601",
+    "latest-version": "v1.0",
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/8453472?_gl=1*wc0w1v*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzE5MzQ5NDYkbzEwMCRnMSR0MTc3MTkzNTQxOCRqNTkkbDAkaDA."
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/v1.0/作業ロガーN.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/作業ロガーN.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-02-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/作業ロガーN.aux2",
+            "XXH3_128": "35465e3fc606f04fe3ecb63d49e3b753"
+          }
+        ]
+      }
+    ]
   }
 ]
