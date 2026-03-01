@@ -12178,7 +12178,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "ntsc-rs.anm2",
-          "pattern": "^.*ntsc-rs.*\\.au2pkg\\.zip"
+          "pattern": "^sevenc-nanashi\\.ntsc-rs-anm2.*\\.au2pkg\\.zip"
         }
       },
       "install": [
