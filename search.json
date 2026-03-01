@@ -1214,11 +1214,11 @@
   },
   {
     "id": "sevenc-nanashi.ntsc-rs",
-    "latest-version": "0.2.1",
+    "latest-version": "0.2.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/ntsc-rs.anm2",
-      "regex": "^ntsc-rs-v.*\\.au2pkg\\.zip$",
+      "regex": "^.*ntsc-rs.*\\.au2pkg\\.zip",
       "hash-calc": [
         {
           "extract": "zip",
@@ -1236,11 +1236,11 @@
   },
   {
     "id": "sevenc-nanashi.clipboard-aux2",
-    "latest-version": "0.2.3",
+    "latest-version": "0.2.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/clipboard.aux2",
-      "regex": "^clipboard-aux2-v.*\\.au2pkg\\.zip$",
+      "regex": "^.*clipboard-aux2-v.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -1260,7 +1260,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/vintage.auf2",
-      "regex": "^vintage-.*\\.au2pkg\\.zip$",
+      "regex": "^.*vintage-.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -1376,11 +1376,11 @@
   },
   {
     "id": "sevenc-nanashi.svg-aux2",
-    "latest-version": "0.3.2",
+    "latest-version": "0.3.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/svg.aux2",
-      "regex": "^svg-aux2-v.*\\.au2pkg\\.zip$",
+      "regex": "^.*svg-aux2-v.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -1498,7 +1498,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/tinted-aviutl2",
-      "regex": "^tinted-aviutl2-v[^/]+\\.au2pkg\\.zip$",
+      "regex": "^.*tinted-aviutl2-v[^/]+\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -1876,7 +1876,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/open_project_directory.aux2",
-      "regex": "^open_project_directory-v[^/]+\\.au2pkg\\.zip$",
+      "regex": "^.*open_project_directory-v[^/]+\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -1891,12 +1891,12 @@
     }
   },
   {
-    "id": "sevenc-nanashi.filter_effect_toggle.aux2",
-    "latest-version": "0.1.3",
+    "id": "sevenc-nanashi.filter_effect_toggle-aux2",
+    "latest-version": "0.1.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/filter_effect_toggle.aux2",
-      "regex": "^filter_effect_toggle-v[^/]+\\.au2pkg\\.zip$",
+      "regex": "^.*filter_effect_toggle-aux2.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -2008,11 +2008,11 @@
   },
   {
     "id": "sevenc-nanashi.insert-aux2",
-    "latest-version": "0.1.6",
+    "latest-version": "0.1.4",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/insert.aux2",
-      "regex": "^insert\\.aux2-v[^/]+\\.au2pkg\\.zip$",
+      "regex": "^.*insert-aux2-v[^/]+\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
