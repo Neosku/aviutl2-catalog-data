@@ -16182,7 +16182,7 @@
     "id": "NeAc.Loop",
     "name": "Loop",
     "type": "スクリプト",
-    "summary": "Z軸方向にもループ可能な高度な画像ループ系スクリプト",
+    "summary": "個別オブジェクト化、Z方向ループ対応の高度な画像ループ系スクリプト",
     "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_Loop/refs/heads/master/README.md",
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_script_Loop",
@@ -16206,7 +16206,8 @@
       "配置",
       "立体",
       "移動",
-      "スクリプト"
+      "スクリプト",
+      "パターン"
     ],
     "dependencies": [],
     "images": [
@@ -16222,7 +16223,7 @@
         "github": {
           "owner": "nea-c",
           "repo": "aviutl2_script_Loop",
-          "pattern": "^ScreenAspect\\.zip$"
+          "pattern": "^Loop\\.zip$"
         }
       },
       "install": [
