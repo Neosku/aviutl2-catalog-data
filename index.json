@@ -7347,7 +7347,7 @@
     "author": "Nao",
     "originalAuthor": "aoytsk様",
     "repoURL": "https://nao-kid.booth.pm/items/7791311",
-    "latest-version": "v3.3",
+    "latest-version": "v3.4",
     "popularity": 358,
     "trend": 220,
     "licenses": [
@@ -7372,7 +7372,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8441989?_gl=1*8uz613*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzE3Mzc4NjEkbzg4JGcxJHQxNzcxNzM4MTM3JGo1OCRsMCRoMA.."
+        "booth": "https://booth.pm/downloadables/8474962?_gl=1*190x3fl*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzIyNjU1MTQkbzExMSRnMSR0MTc3MjI2NjU0MyRqMTQkbDAkaDA."
       },
       "install": [
         {
@@ -7383,7 +7383,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/v3.3/拡張ツールバー.aux2",
+          "from": "{tmp}/v3.4/拡張ツールバー.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -7492,6 +7492,16 @@
           {
             "path": "{pluginsDir}/拡張ツールバー.aux2",
             "XXH3_128": "6c9e60a2542d35b0e05a1b855ec64b2a"
+          }
+        ]
+      },
+      {
+        "version": "v3.4",
+        "release_date": "2026-02-28",
+        "file": [
+          {
+            "path": "{pluginsDir}/拡張ツールバー.aux2",
+            "XXH3_128": "31544e2bebe5b9392e2cdfc2eb1a439b"
           }
         ]
       }
@@ -12705,7 +12715,14 @@
       "エフェクト"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/Book-0225.EAP2_thumbnail.webp",
+        "infoImg": [
+          "./image/Book-0225.EAP2_1.png"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -15242,7 +15259,7 @@
     "description": "./md/AviUtl2_Language_kr.md",
     "author": "Victorique Bernkastel",
     "repoURL": "https://github.com/Victorique-Bernkastel/AviUtl2_Language",
-    "latest-version": "aviutl2KORv3.4",
+    "latest-version": "aviutl2KORv3.5",
     "popularity": 13,
     "trend": 12,
     "licenses": [
@@ -15312,6 +15329,16 @@
           {
             "path": "{dataDir}/Language/Korean.language.aul2",
             "XXH3_128": "27a4fa0a60407cd526fa5778a2d9430b"
+          }
+        ]
+      },
+      {
+        "version": "aviutl2KORv3.5",
+        "release_date": "2026-03-01",
+        "file": [
+          {
+            "path": "{dataDir}/Language/Korean.language.aul2",
+            "XXH3_128": "1deb8224b4b6bf7b7ee57e03a927cd2f"
           }
         ]
       }
@@ -15655,7 +15682,7 @@
         "file": [
           {
             "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
-            "XXH3_128": "5bf28c06cf4ddf76ecdae61bd4f058ee"
+            "XXH3_128": "0f9cec4c867364d6c0cf3b0ab46e2dde"
           }
         ]
       }
@@ -15926,7 +15953,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/quantizer.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/quantizer.aux2",
-    "latest-version": "0.1.4",
+    "latest-version": "0.1.5",
     "popularity": 115,
     "trend": 122,
     "licenses": [
@@ -15999,6 +16026,16 @@
           {
             "path": "{pluginsDir}/quantizer.aux2",
             "XXH3_128": "7ecf862dbd5adba7d3a66e96fae2b19a"
+          }
+        ]
+      },
+      {
+        "version": "0.1.5",
+        "release_date": "2026-03-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/quantizer.aux2",
+            "XXH3_128": "6c3162a7ffbbfae0608ae1a0e1089996"
           }
         ]
       }
@@ -16172,7 +16209,7 @@
     "id": "NeAc.Loop",
     "name": "Loop",
     "type": "スクリプト",
-    "summary": "Z軸方向にもループ可能な高度な画像ループ系スクリプト",
+    "summary": "個別オブジェクト化、Z方向ループ対応の高度な画像ループ系スクリプト",
     "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_Loop/refs/heads/master/README.md",
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_script_Loop",
@@ -16196,7 +16233,8 @@
       "配置",
       "立体",
       "移動",
-      "スクリプト"
+      "スクリプト",
+      "パターン"
     ],
     "dependencies": [],
     "images": [
@@ -16212,7 +16250,7 @@
         "github": {
           "owner": "nea-c",
           "repo": "aviutl2_script_Loop",
-          "pattern": "^ScreenAspect\\.zip$"
+          "pattern": "^Loop\\.zip$"
         }
       },
       "install": [
