@@ -10391,7 +10391,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "aviutl2-rs",
-          "pattern": "^rusty_image_rs.aui2$"
+          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -10399,15 +10399,27 @@
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/rusty_image_rs.aui2",
+          "from": "{tmp}/Plugin/rusty_image_rs.aui2",
           "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.rusty_image_rs_input.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/rusty_image_rs.aui2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.rusty_image_rs_input.aul2"
         }
       ]
     },
@@ -10569,7 +10581,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "aviutl2-rs",
-          "pattern": "^rusty_image_rs.auo2$"
+          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -10577,15 +10589,27 @@
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/rusty_image_rs.auo2",
+          "from": "{tmp}/Plugin/rusty_image_rs.auo2",
           "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.rusty_image_rs_output.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/rusty_image_rs.auo2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.rusty_image_rs_output.aul2"
         }
       ]
     },
@@ -10747,7 +10771,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "aviutl2-rs",
-          "pattern": "^rusty_local_alias.aux2$"
+          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -10755,15 +10779,27 @@
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/rusty_local_alias.aux2",
+          "from": "{tmp}/Plugin/rusty_local_alias.aux2",
           "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.rusty_local_alias_plugin.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/rusty_local_alias.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.rusty_local_alias_plugin.aul2"
         }
       ]
     },
@@ -10926,7 +10962,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "aviutl2-rs",
-          "pattern": "^rusty_midi_player.aui2$"
+          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -10934,15 +10970,27 @@
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/rusty_midi_player.aui2",
+          "from": "{tmp}/Plugin/rusty_midi_player.aui2",
           "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.rusty_midi_player_input.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/rusty_midi_player.aui2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.rusty_midi_player_input.aul2"
         }
       ]
     },
@@ -11105,7 +11153,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "aviutl2-rs",
-          "pattern": "^rusty_pixelsort.auf2$"
+          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -11113,15 +11161,27 @@
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/rusty_pixelsort.auf2",
+          "from": "{tmp}/Plugin/rusty_pixelsort.auf2",
           "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.rusty_pixelsort_filter.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/rusty_pixelsort.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.rusty_pixelsort_filter.aul2"
         }
       ]
     },
@@ -11283,7 +11343,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "aviutl2-rs",
-          "pattern": "^rusty_random_color.auf2$"
+          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -11291,15 +11351,27 @@
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/rusty_random_color.auf2",
+          "from": "{tmp}/Plugin/rusty_random_color.auf2",
           "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.rusty_random_color_filter.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/rusty_random_color.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.rusty_random_color_filter.aul2"
         }
       ]
     },
@@ -11461,7 +11533,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "aviutl2-rs",
-          "pattern": "^rusty_restart_shortcut.aux2$"
+          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -11469,15 +11541,27 @@
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/rusty_restart_shortcut.aux2",
+          "from": "{tmp}/Plugin/rusty_restart_shortcut.aux2",
           "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.rusty_restart_shortcut_plugin.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/rusty_restart_shortcut.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.rusty_restart_shortcut_plugin.aul2"
         }
       ]
     },
@@ -11643,7 +11727,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "aviutl2-rs",
-          "pattern": "^rusty_scripts_search.aux2$"
+          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -11651,15 +11735,27 @@
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/rusty_scripts_search.aux2",
+          "from": "{tmp}/Plugin/rusty_scripts_search.aux2",
           "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.rusty_scripts_search_plugin.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/rusty_scripts_search.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.rusty_scripts_search_plugin.aul2"
         }
       ]
     },
@@ -11821,7 +11917,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "aviutl2-rs",
-          "pattern": "^rusty_srt_file.aux2$"
+          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -11829,15 +11925,27 @@
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/rusty_srt_file.aux2",
+          "from": "{tmp}/Plugin/rusty_srt_file.aux2",
           "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.rusty_srt_file_plugin.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/rusty_srt_file.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.rusty_srt_file_plugin.aul2"
         }
       ]
     },
@@ -11999,7 +12107,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "aviutl2-rs",
-          "pattern": "^rusty_statistics.auo2$"
+          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -12007,15 +12115,27 @@
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/rusty_statistics.auo2",
+          "from": "{tmp}/Plugin/rusty_statistics.auo2",
           "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.rusty_statistics_output.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/rusty_statistics.auo2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.rusty_statistics_output.aul2"
         }
       ]
     },
@@ -12178,7 +12298,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "ntsc-rs.anm2",
-          "pattern": "^.*ntsc-rs.*\\.au2pkg\\.zip"
+          "pattern": "^sevenc-nanashi\\.ntsc-rs-anm2.*\\.au2pkg\\.zip"
         }
       },
       "install": [
@@ -12388,7 +12508,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "clipboard.aux2",
-          "pattern": "^.*clipboard-aux2-v.*\\.au2pkg\\.zip$"
+          "pattern": "^sevenc-nanashi\\.clipboard-aux2-v.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -13297,7 +13417,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "aviutl2-rs",
-          "pattern": "^rusty_metronome\\.aux2$"
+          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -13305,15 +13425,27 @@
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/rusty_metronome.aux2",
+          "from": "{tmp}/Plugin/rusty_metronome.aux2",
           "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.rusty_metronome_plugin.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/rusty_metronome.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.rusty_metronome_plugin.aul2"
         }
       ]
     },
@@ -15808,7 +15940,9 @@
         "licenseBody": "MIT License\r\n\r\nCopyright (c) 2026 Nanashi. <sevenc7c.com>\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
       }
     ],
-    "tags": [],
+    "tags": [
+      "オブジェクト操作"
+    ],
     "dependencies": [],
     "images": [
       {
@@ -15820,7 +15954,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "filter_effect_toggle.aux2",
-          "pattern": "^.*filter_effect_toggle-aux2.*\\.au2pkg\\.zip$"
+          "pattern": "^sevenc-nanashi\\.filter_effect_toggle-aux2.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -16274,7 +16408,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "insert.aux2",
-          "pattern": "^.*insert-aux2-v[^/]+\\.au2pkg\\.zip$"
+          "pattern": "^sevenc-nanashi\\.insert-aux2-v[^/]+\\.au2pkg\\.zip$"
         }
       },
       "install": [
