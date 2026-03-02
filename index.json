@@ -17208,7 +17208,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/image-rs-single-output/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
-    "latest-version": "0.20.1",
+    "latest-version": "0.20.2",
     "licenses": [
       {
         "type": "MIT",
@@ -17260,6 +17260,16 @@
             "XXH3_128": "6d9f0d9dd1b407dd4e7f17049cf1f24f"
           }
         ]
+      },
+      {
+        "version": "0.20.2",
+        "release_date": "2026-03-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/rusty_image_rs_single.auo2",
+            "XXH3_128": "acdcdba2b1a369902edce534734d0fad"
+          }
+        ]
       }
     ]
   },
@@ -17271,7 +17281,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/discord_activity.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/discord_activity.aux2",
-    "latest-version": "0.1.0",
+    "latest-version": "0.1.1",
     "licenses": [
       {
         "type": "MIT",
@@ -17328,6 +17338,16 @@
           {
             "path": "{pluginsDir}/discord_activity_aux2.aux2",
             "XXH3_128": "a1835faa4836e2be716876b05b819273"
+          }
+        ]
+      },
+      {
+        "version": "0.1.1",
+        "release_date": "2026-03-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/discord_activity_aux2.aux2",
+            "XXH3_128": "9b113585f8a6b0518fa139be5708012c"
           }
         ]
       }
