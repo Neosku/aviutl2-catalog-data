@@ -919,15 +919,16 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_binaural",
-    "latest-version": "0.20.1",
+    "latest-version": "0.20.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
-      "regex": "^rusty_binaural.auf2$",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
-            "rusty_binaural.auf2"
+            "Plugin/rusty_binaural.auf2"
           ],
           "recordPaths": [
             "{pluginsDir}/rusty_binaural.auf2"
@@ -938,15 +939,16 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_chiptune",
-    "latest-version": "0.20.1",
+    "latest-version": "0.20.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
-      "regex": "^rusty_chiptune.auf2$",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
-            "rusty_chiptune.auf2"
+            "Plugin/rusty_chiptune.auf2"
           ],
           "recordPaths": [
             "{pluginsDir}/rusty_chiptune.auf2"
@@ -957,15 +959,16 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_equalizer",
-    "latest-version": "0.20.1",
+    "latest-version": "0.20.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
-      "regex": "^rusty_equalizer.auf2$",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
-            "rusty_equalizer.auf2"
+            "Plugin/rusty_equalizer.auf2"
           ],
           "recordPaths": [
             "{pluginsDir}/rusty_equalizer.auf2"
@@ -976,15 +979,16 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_ffmpeg",
-    "latest-version": "0.20.1",
+    "latest-version": "0.20.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
-      "regex": "^rusty_ffmpeg.auo2$",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
-            "rusty_ffmpeg.auo2"
+            "Plugin/rusty_ffmpeg.auo2"
           ],
           "recordPaths": [
             "{pluginsDir}/rusty_ffmpeg.auo2"
@@ -995,15 +999,16 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_input",
-    "latest-version": "0.20.1",
+    "latest-version": "0.20.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
-      "regex": "^rusty_image_rs.aui2$",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
-            "rusty_image_rs.aui2"
+            "Plugin/rusty_image_rs.aui2"
           ],
           "recordPaths": [
             "{pluginsDir}/rusty_image_rs.aui2"
@@ -1014,15 +1019,16 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_output",
-    "latest-version": "0.20.1",
+    "latest-version": "0.20.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
-      "regex": "^rusty_image_rs.auo2$",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
-            "rusty_image_rs.auo2"
+            "Plugin/rusty_image_rs.auo2"
           ],
           "recordPaths": [
             "{pluginsDir}/rusty_image_rs.auo2"
@@ -1033,15 +1039,16 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_local_alias_plugin",
-    "latest-version": "0.20.1",
+    "latest-version": "0.20.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
-      "regex": "^rusty_local_alias.aux2$",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
-            "rusty_local_alias.aux2"
+            "Plugin/rusty_local_alias.aux2"
           ],
           "recordPaths": [
             "{pluginsDir}/rusty_local_alias.aux2"
@@ -1052,15 +1059,16 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_midi_player",
-    "latest-version": "0.20.1",
+    "latest-version": "0.20.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
-      "regex": "^rusty_midi_player.aui2$",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
-            "rusty_midi_player.aui2"
+            "Plugin/rusty_midi_player.aui2"
           ],
           "recordPaths": [
             "{pluginsDir}/rusty_midi_player.aui2"
@@ -1071,15 +1079,16 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_pixelsort",
-    "latest-version": "0.20.1",
+    "latest-version": "0.20.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
-      "regex": "^rusty_pixelsort.auf2$",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
-            "rusty_pixelsort.auf2"
+            "Plugin/rusty_pixelsort.auf2"
           ],
           "recordPaths": [
             "{pluginsDir}/rusty_pixelsort.auf2"
@@ -1090,15 +1099,16 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_random_color",
-    "latest-version": "0.20.1",
+    "latest-version": "0.20.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
-      "regex": "^rusty_random_color.auf2$",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
-            "rusty_random_color.auf2"
+            "Plugin/rusty_random_color.auf2"
           ],
           "recordPaths": [
             "{pluginsDir}/rusty_random_color.auf2"
@@ -1109,15 +1119,16 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut",
-    "latest-version": "0.20.1",
+    "latest-version": "0.20.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
-      "regex": "^rusty_restart_shortcut.aux2$",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
-            "rusty_restart_shortcut.aux2"
+            "Plugin/rusty_restart_shortcut.aux2"
           ],
           "recordPaths": [
             "{pluginsDir}/rusty_restart_shortcut.aux2"
@@ -1128,15 +1139,16 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_scripts_search",
-    "latest-version": "0.20.1",
+    "latest-version": "0.20.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
-      "regex": "^rusty_scripts_search.aux2$",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
-            "rusty_scripts_search.aux2"
+            "Plugin/rusty_scripts_search.aux2"
           ],
           "recordPaths": [
             "{pluginsDir}/rusty_scripts_search.aux2"
@@ -1147,15 +1159,16 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_srt_file",
-    "latest-version": "0.20.1",
+    "latest-version": "0.20.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
-      "regex": "^rusty_srt_file.aux2$",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
-            "rusty_srt_file.aux2"
+            "Plugin/rusty_srt_file.aux2"
           ],
           "recordPaths": [
             "{pluginsDir}/rusty_srt_file.aux2"
@@ -1166,15 +1179,16 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_statistics",
-    "latest-version": "0.20.1",
+    "latest-version": "0.20.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
-      "regex": "^rusty_statistics.auo2$",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
-            "rusty_statistics.auo2"
+            "Plugin/rusty_statistics.auo2"
           ],
           "recordPaths": [
             "{pluginsDir}/rusty_statistics.auo2"
@@ -1189,7 +1203,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/ntsc-rs.anm2",
-      "regex": "^.*ntsc-rs.*\\.au2pkg\\.zip",
+      "regex": "^sevenc-nanashi\\.ntsc-rs-anm2.*\\.au2pkg\\.zip",
       "hash-calc": [
         {
           "extract": "zip",
@@ -1211,7 +1225,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/clipboard.aux2",
-      "regex": "^.*clipboard-aux2-v.*\\.au2pkg\\.zip$",
+      "regex": "^sevenc-nanashi\\.clipboard-aux2-v.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -1386,15 +1400,16 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_metronome_plugin",
-    "latest-version": "0.20.1",
+    "latest-version": "0.20.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
-      "regex": "^rusty_metronome\\.aux2$",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
-            "rusty_metronome.aux2"
+            "Plugin/rusty_metronome.aux2"
           ],
           "recordPaths": [
             "{pluginsDir}/rusty_metronome.aux2"
@@ -1505,7 +1520,7 @@
   },
   {
     "id": "KAZOON.KSA",
-    "latest-version": "v2.0.0",
+    "latest-version": "v2.0.1",
     "checkType": {
       "type": "GitHub",
       "repo": "cycloawaodorin/ksa",
@@ -1644,7 +1659,7 @@
   },
   {
     "id": "KAZOON.fzgx_smr_ks",
-    "latest-version": "v2.0.1",
+    "latest-version": "v2.0.2",
     "checkType": {
       "type": "GitHub",
       "repo": "cycloawaodorin/fzgx_smr_ks",
@@ -1807,7 +1822,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/filter_effect_toggle.aux2",
-      "regex": "^.*filter_effect_toggle-aux2.*\\.au2pkg\\.zip$",
+      "regex": "^sevenc-nanashi\\.filter_effect_toggle-aux2.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -1923,7 +1938,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/insert.aux2",
-      "regex": "^.*insert-aux2-v[^/]+\\.au2pkg\\.zip$",
+      "regex": "^sevenc-nanashi\\.insert-aux2-v[^/]+\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
