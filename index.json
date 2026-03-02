@@ -17305,11 +17305,6 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/package.ini",
-          "to": "{dataDir}/"
-        },
-        {
-          "action": "copy",
           "from": "{tmp}/Plugin/discord_activity_aux2.aux2",
           "to": "{pluginsDir}"
         }
@@ -17318,10 +17313,6 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/discord_activity_aux2.aux2"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}//package.ini"
         },
         {
           "action": "delete",
@@ -17334,10 +17325,6 @@
         "version": "0.1.0",
         "release_date": "2026-03-02",
         "file": [
-          {
-            "path": "{dataDir}/Language/English.discord_activity_aux2.aul2",
-            "XXH3_128": "5d9fcbd39aab3db589ffc76a46649d74"
-          },
           {
             "path": "{pluginsDir}/discord_activity_aux2.aux2",
             "XXH3_128": "a1835faa4836e2be716876b05b819273"

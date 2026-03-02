@@ -2031,5 +2031,45 @@
         }
       ]
     }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_single_image_output",
+    "latest-version": "0.20.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/rusty_image_rs_single.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_image_rs_single.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.discord_activity-aux2",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/discord_activity.aux2",
+      "regex": "^sevenc-nanashi\\.discord_activity-aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/discord_activity_aux2.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/discord_activity_aux2.aux2"
+          ]
+        }
+      ]
+    }
   }
 ]
