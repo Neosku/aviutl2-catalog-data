@@ -17305,7 +17305,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/discord_activity.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/discord_activity.aux2",
-    "latest-version": "0.1.1",
+    "latest-version": "0.1.2",
     "licenses": [
       {
         "type": "MIT",
@@ -17372,6 +17372,16 @@
           {
             "path": "{pluginsDir}/discord_activity_aux2.aux2",
             "XXH3_128": "9b113585f8a6b0518fa139be5708012c"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2",
+        "release_date": "2026-03-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/discord_activity_aux2.aux2",
+            "XXH3_128": "c5c8b9b86aad7f123533ba879d28bec2"
           }
         ]
       }
