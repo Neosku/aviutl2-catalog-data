@@ -15189,6 +15189,10 @@
         },
         {
           "action": "delete",
+          "path": "{dataDir}/Language/简体中文.GradientEditor.aul2"
+        },
+        {
+          "action": "delete",
           "path": "{pluginsDir}/GradientEditorPreset/gradient_editor_preset.json"
         }
       ]
