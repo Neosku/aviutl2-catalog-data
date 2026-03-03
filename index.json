@@ -17366,5 +17366,63 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-scripts.camera_frame-obj2",
+    "name": "カメラフレーム.obj2",
+    "type": "スクリプト",
+    "summary": "カメラフレームっぽい図形を描画するスクリプト",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0/README.md",
+    "latest-version": "v1.0",
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/sevenc-nanashi.aviutl2-scripts.camera_frame-obj2_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0.obj2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/カメラフレーム.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/カメラフレーム.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-03-03",
+        "file": [
+          {
+            "path": "{scriptsDir}/カメラフレーム.obj2",
+            "XXH3_128": "b6aeed496a8c57821571ceb131c52228"
+          }
+        ]
+      }
+    ]
   }
 ]
