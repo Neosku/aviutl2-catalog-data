@@ -15160,17 +15160,17 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Plugin/GradientEditor.aux2",
+          "from": "{tmp}/Plugin",
           "to": "{pluginsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/Script/@GradientEditor.anm2",
+          "from": "{tmp}/Script",
           "to": "{scriptsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/Language/English.GradientEditor.aul2",
+          "from": "{tmp}/Language",
           "to": "{dataDir}/Language"
         }
       ],
@@ -15186,6 +15186,10 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/English.GradientEditor.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/简体中文.GradientEditor.aul2"
         },
         {
           "action": "delete",
