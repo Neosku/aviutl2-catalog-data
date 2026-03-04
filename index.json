@@ -9018,14 +9018,10 @@
         "github": {
           "owner": "shyachi",
           "repo": "AviUtl2_SrtImporter",
-          "pattern": "^SrtImporter.*\\.au2pkg\\.zip$"
+          "pattern": "^SrtImporter\\.au2pkg\\.zip$"
         }
       },
       "install": [
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/SrtImporter.aux2"
-        },
         {
           "action": "download"
         },
