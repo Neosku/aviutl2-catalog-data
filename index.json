@@ -16309,7 +16309,7 @@
   {
     "id": "koisi0319.Duplicate_objects",
     "name": "オブジェクト行複製",
-    "type": "スクリプト",
+    "type": "汎用プラグイン",
     "summary": "選択したオブジェクトをそのレイヤーに複製するスクリプト",
     "description": "./md/koisi0319.Duplicate_objects.md",
     "author": "koisi0319",
