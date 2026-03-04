@@ -8731,7 +8731,7 @@
     "description": "./md/Rhapthorne_0.radialShift.md",
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1975320165941129277",
-    "latest-version": "v1.0.3",
+    "latest-version": "20260222",
     "popularity": 275,
     "trend": 158,
     "licenses": [
@@ -8779,6 +8779,16 @@
           {
             "path": "{scriptsDir}/ラディアルシフト.anm2",
             "XXH3_128": "585fda4a2c8b8be91bb09dbeb5f9824a"
+          }
+        ]
+      },
+      {
+        "version": "20260222",
+        "release_date": "2026-02-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/ラディアルシフト.anm2",
+            "XXH3_128": "7de1540aed39f0dc20ef9427ea6a59a6"
           }
         ]
       }
