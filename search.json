@@ -622,7 +622,7 @@
   },
   {
     "id": "Natadecoco.MyAssetManager",
-    "latest-version": "v1.3",
+    "latest-version": "v1.4",
     "checkType": {
       "type": "GitHub",
       "repo": "Natadecoco2539/AviUtl2-MyAssetManager",
@@ -919,7 +919,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_binaural",
-    "latest-version": "0.20.2",
+    "latest-version": "0.20.3",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -939,7 +939,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_chiptune",
-    "latest-version": "0.20.2",
+    "latest-version": "0.20.3",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -959,7 +959,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_equalizer",
-    "latest-version": "0.20.2",
+    "latest-version": "0.20.3",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -979,7 +979,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_ffmpeg",
-    "latest-version": "0.20.2",
+    "latest-version": "0.20.3",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -999,7 +999,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_input",
-    "latest-version": "0.20.2",
+    "latest-version": "0.20.3",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1019,7 +1019,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_output",
-    "latest-version": "0.20.2",
+    "latest-version": "0.20.3",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1039,7 +1039,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_local_alias_plugin",
-    "latest-version": "0.20.2",
+    "latest-version": "0.20.3",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1059,7 +1059,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_midi_player",
-    "latest-version": "0.20.2",
+    "latest-version": "0.20.3",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1079,7 +1079,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_pixelsort",
-    "latest-version": "0.20.2",
+    "latest-version": "0.20.3",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1099,7 +1099,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_random_color",
-    "latest-version": "0.20.2",
+    "latest-version": "0.20.3",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1119,7 +1119,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut",
-    "latest-version": "0.20.2",
+    "latest-version": "0.20.3",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1139,7 +1139,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_scripts_search",
-    "latest-version": "0.20.2",
+    "latest-version": "0.20.3",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1159,7 +1159,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_srt_file",
-    "latest-version": "0.20.2",
+    "latest-version": "0.20.3",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1179,7 +1179,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_statistics",
-    "latest-version": "0.20.2",
+    "latest-version": "0.20.3",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1400,7 +1400,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_metronome_plugin",
-    "latest-version": "0.20.2",
+    "latest-version": "0.20.3",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1520,7 +1520,7 @@
   },
   {
     "id": "KAZOON.KSA",
-    "latest-version": "v2.0.1",
+    "latest-version": "v2.1.0",
     "checkType": {
       "type": "GitHub",
       "repo": "cycloawaodorin/ksa",
@@ -1659,7 +1659,7 @@
   },
   {
     "id": "KAZOON.fzgx_smr_ks",
-    "latest-version": "v2.0.2",
+    "latest-version": "v2.0.3",
     "checkType": {
       "type": "GitHub",
       "repo": "cycloawaodorin/fzgx_smr_ks",
@@ -2034,7 +2034,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_single_image_output",
-    "latest-version": "0.20.2",
+    "latest-version": "0.20.3",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -2054,7 +2054,7 @@
   },
   {
     "id": "sevenc-nanashi.discord_activity-aux2",
-    "latest-version": "0.1.2",
+    "latest-version": "0.2.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/discord_activity.aux2",
