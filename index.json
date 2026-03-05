@@ -8812,7 +8812,7 @@
     "description": "./md/Rhapthorne_0.basicDelay.md",
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1978378817640018296",
-    "latest-version": "v1.0.1",
+    "latest-version": "2026.02.22",
     "popularity": 576,
     "trend": 189,
     "licenses": [
@@ -8861,6 +8861,16 @@
           {
             "path": "{scriptsDir}/基本効果(Delay).anm2",
             "XXH3_128": "acaa6a83289c5bd75a5f9366baaee2b6"
+          }
+        ]
+      },
+      {
+        "version": "20260222",
+        "release_date": "2026-02-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/基本効果(Delay).anm2",
+            "XXH3_128": "394c88d2924713a7dc1ee83a22b1aa22"
           }
         ]
       }
