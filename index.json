@@ -5631,7 +5631,7 @@
     "name": "アクセスキー付き日本語リソース",
     "type": "その他",
     "summary": "AviUtl2のメニュー・一部ボタンにアクセスキーを加える言語ファイル",
-    "description": "./md/Garech.jp_akey.aul2.md",
+    "description": "https://raw.githubusercontent.com/Garech-mas/jp_akey.aul2/refs/heads/main/README.md",
     "author": "Garech",
     "repoURL": "https://github.com/Garech-mas/jp_akey.aul2",
     "latest-version": "v0.24",
@@ -5653,7 +5653,7 @@
     "images": [],
     "installer": {
       "source": {
-        "direct": "https://raw.githubusercontent.com/Garech-mas/jp_akey.aul2/refs/heads/main/日本語(アクセスキー付き).aul2"
+        "direct": "https://raw.githubusercontent.com/Garech-mas/jp_akey.aul2/refs/tags/v0.24/%E6%97%A5%E6%9C%AC%E8%AA%9E(%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%82%AD%E3%83%BC%E4%BB%98%E3%81%8D).aul2"
       },
       "install": [
         {
