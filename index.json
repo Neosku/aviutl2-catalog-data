@@ -17990,7 +17990,7 @@
         "github": {
           "owner": "cycloawaodorin",
           "repo": "resize_ks",
-          "pattern": "^resize_ks\..*\.zip$"
+          "pattern": "^resize_ks\\..*\\.zip$"
         }
       },
       "install": [
