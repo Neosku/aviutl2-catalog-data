@@ -1,0 +1,15 @@
+{
+  "name": "aviutl2-catalog-data",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.30.3",
+  "description": "Validation index.json",
+  "scripts": {
+    "validate:index": "tsc --project tsconfig.json --outDir .tmp/build --noEmit false && node .tmp/build/validate-index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.6"
+  }
+}
