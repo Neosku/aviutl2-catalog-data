@@ -8793,7 +8793,7 @@
         ]
       },
       {
-        "version": "2026.02.22",
+        "version": "20260222",
         "release_date": "2026-02-22",
         "file": [
           {
@@ -8865,7 +8865,7 @@
         ]
       },
       {
-        "version": "2026.02.22",
+        "version": "20260222",
         "release_date": "2026-02-22",
         "file": [
           {
@@ -17953,6 +17953,74 @@
           {
             "path": "{scriptsDir}/disassembler.mod2",
             "XXH3_128": "58586f805cf1e38f8e8a6b0b6d02dc2d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "KAZOON.resize_ks",
+    "name": "Lanczos3 / 画素平均法リサイズ",
+    "type": "フィルタプラグイン",
+    "summary": "Lanczos3 または画素平均法でリサイズするフィルタプラグイン",
+    "description": "https://raw.githubusercontent.com/cycloawaodorin/resize_ks/refs/heads/main/README.md",
+    "author": "KAZOON",
+    "repoURL": "https://github.com/cycloawaodorin/resize_ks",
+    "latest-version": "v0.0.0",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "KAZOON"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "リサイズ"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "cycloawaodorin",
+          "repo": "resize_ks",
+          "pattern": "^resize_ks\\..*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/resize_ks.auf2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/resize_ks.auf2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.0.0",
+        "release_date": "2026-03-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/resize_ks.auf2",
+            "XXH3_128": "11b90bff9c91a495bf0535786d32c3f0"
           }
         ]
       }
