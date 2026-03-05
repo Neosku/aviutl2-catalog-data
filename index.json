@@ -17781,7 +17781,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/transform_specific_chars.anm2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/transform_specific_chars.anm2",
-    "latest-version": "0.1.2",
+    "latest-version": "0.3.1",
     "popularity": 1,
     "trend": 1,
     "licenses": [
@@ -17799,7 +17799,10 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/sevenc-nanashi.transform_specific_chars-anm2_thumbnail.webp"
+        "thumbnail": "./image/sevenc-nanashi.transform_specific_chars-anm2_thumbnail.webp",
+        "infoImg": [
+          "./image/sevenc-nanashi.transform_specific_chars-anm2_1.webp"
+        ]
       }
     ],
     "installer": {
@@ -17824,7 +17827,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Script/transform_specific_chars.anm2",
+          "from": "{tmp}/Script/transform_specific_chars.anm2.anm2",
           "to": "{scriptsDir}"
         },
         {
@@ -17840,7 +17843,7 @@
         },
         {
           "action": "delete",
-          "path": "{scriptsDir}/transform_specific_chars.anm2"
+          "path": "{scriptsDir}/transform_specific_chars.anm2.anm2"
         },
         {
           "action": "delete",
@@ -17866,6 +17869,24 @@
             "XXH3_128": "c9e26081e6664972623bda486890bda4"
           }
         ]
+      },
+      {
+        "version": "0.3.1",
+        "release_date": "2026-03-05",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.transform_specific_chars.aul2",
+            "XXH3_128": "1dc7fde13fe2e1f84a4651dc00fc7ab8"
+          },
+          {
+            "path": "{scriptsDir}/transform_specific_chars.anm2.anm2",
+            "XXH3_128": "c6da81da1a7a04d8f6eaffc1f5720880"
+          },
+          {
+            "path": "{scriptsDir}/transform_specific_chars.mod2",
+            "XXH3_128": "0daa8b19dbd360e85050d1dc3f4ac3f3"
+          }
+        ]
       }
     ]
   },
@@ -17877,7 +17898,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/disassembler.anm2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/disassembler.anm2",
-    "latest-version": "0.1.1",
+    "latest-version": "0.1.4",
     "popularity": 21,
     "trend": 23,
     "licenses": [
@@ -17894,7 +17915,10 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/sevenc-nanashi.disassembler-anm2_thumbnail.webp"
+        "thumbnail": "./image/sevenc-nanashi.disassembler-anm2_thumbnail.webp",
+        "infoImg": [
+          "./image/sevenc-nanashi.disassembler-anm2_1.webp"
+        ]
       }
     ],
     "installer": {
@@ -17959,6 +17983,24 @@
           {
             "path": "{scriptsDir}/disassembler.mod2",
             "XXH3_128": "58586f805cf1e38f8e8a6b0b6d02dc2d"
+          }
+        ]
+      },
+      {
+        "version": "0.1.4",
+        "release_date": "2026-03-05",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.disassembler-anm2.aul2",
+            "XXH3_128": "a5fdbac01893cc7751e07d6ff1696ed4"
+          },
+          {
+            "path": "{scriptsDir}/disassembler.anm2.anm2",
+            "XXH3_128": "bde5e4fe94c8cc5ed3cca59d85204516"
+          },
+          {
+            "path": "{scriptsDir}/disassembler.mod2",
+            "XXH3_128": "a18f49153b33f934b056c08737c8bf63"
           }
         ]
       }
