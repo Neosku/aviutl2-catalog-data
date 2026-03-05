@@ -1,6 +1,6 @@
 # AviUtl2-MyAssetManager
 
-AviUtl2用 アセット（素材）管理プラグイン v1.1
+AviUtl2用 アセット（素材）管理プラグイン
 作成者: [なたでここ/Natadecoco_2539]
 
 
