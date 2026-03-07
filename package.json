@@ -5,7 +5,8 @@
   "packageManager": "pnpm@10.30.3",
   "description": "Validation index.json",
   "scripts": {
-    "validate:index": "tsc --project tsconfig.json --outDir .tmp/build --noEmit false && node .tmp/build/validate-index.js"
+    "validate:index": "tsc --project tsconfig.json --outDir .tmp/build --noEmit false && node .tmp/build/validate-index.js",
+    "generate:package-md": "tsc --project tsconfig.json --outDir .tmp/build --noEmit false && node .tmp/build/generate-package-md.js"
   },
   "devDependencies": {
     "@types/node": "^25.3.3",
