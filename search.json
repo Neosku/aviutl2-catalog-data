@@ -2151,5 +2151,25 @@
         }
       ]
     }
+  },
+  {
+    "id": "Pachira762.vsr4aviutl",
+    "latest-version": "v1.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Pachira762/vsr4aviutl",
+      "regex": "^vsr4aviutl_.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "vsr4aviutl/vsr4aviutl.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/vsr4aviutl.auf2"
+          ]
+        }
+      ]
+    }
   }
 ]
