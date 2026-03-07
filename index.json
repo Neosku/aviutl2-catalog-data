@@ -18024,7 +18024,7 @@
     "description": "https://raw.githubusercontent.com/cycloawaodorin/resize_ks/refs/heads/main/README.md",
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/resize_ks",
-    "latest-version": "0.0.0",
+    "latest-version": "v0.0.0",
     "popularity": 8,
     "trend": 10,
     "licenses": [
@@ -18077,6 +18077,16 @@
       {
         "version": "0.0.0",
         "release_date": "2026-03-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/resize_ks.auf2",
+            "XXH3_128": "11b90bff9c91a495bf0535786d32c3f0"
+          }
+        ]
+      },
+      {
+        "version": "v0.0.0",
+        "release_date": "2026-03-07",
         "file": [
           {
             "path": "{pluginsDir}/resize_ks.auf2",
