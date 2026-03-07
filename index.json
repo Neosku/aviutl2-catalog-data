@@ -18105,5 +18105,98 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Pachira762.vsr4aviutl",
+    "name": "vsr4aviutl",
+    "type": "フィルタプラグイン",
+    "summary": "RTX VSRを使用したデノイズ、アップスケーリングを行う",
+    "description": "https://raw.githubusercontent.com/Pachira762/vsr4aviutl/refs/heads/master/README.md",
+    "author": "Pachira762",
+    "repoURL": "https://github.com/Pachira762/vsr4aviutl",
+    "latest-version": "v1.0.1",
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Pachira762"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "画質",
+      "補正",
+      "AI"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/Pachira762.vsr4aviutl_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Pachira762",
+          "repo": "vsr4aviutl",
+          "pattern": "^vsr4aviutl_.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/vsr4aviutl/nvngx_vsr.dll",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/vsr4aviutl/vsr4aviutl.auf2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/nvngx_vsr.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/vsr4aviutl.auf2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2025-10-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/vsr4aviutl.auf2",
+            "XXH3_128": "aead8cc9ddc6446d5a21708ddc0effc1"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-03-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/vsr4aviutl.auf2",
+            "XXH3_128": "8fd17ec9b070ecced8253923d573ebce"
+          }
+        ]
+      }
+    ]
   }
 ]
