@@ -2071,5 +2071,85 @@
         }
       ]
     }
+  },
+  {
+    "id": "sevenc-nanashi.modify_group_num_layers-aux2",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/modify_group_num_layers.aux2",
+      "regex": "^sevenc-nanashi\\.modify_group_num_layers-aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/modify_group_num_layers.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/modify_group_num_layers.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.transform_specific_chars-anm2",
+    "latest-version": "0.3.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/transform_specific_chars.anm2",
+      "regex": "^sevenc-nanashi\\.transform_specific_chars-anm2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/transform_specific_chars.anm2.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/transform_specific_chars.anm2.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.disassembler-anm2",
+    "latest-version": "0.1.4",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/disassembler.anm2",
+      "regex": "^sevenc-nanashi\\.disassembler-anm2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/disassembler.anm2.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/disassembler.anm2.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KAZOON.resize_ks",
+    "latest-version": "0.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "cycloawaodorin/resize_ks",
+      "regex": "^resize_ks\\..*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "resize_ks.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/resize_ks.auf2"
+          ]
+        }
+      ]
+    }
   }
 ]
