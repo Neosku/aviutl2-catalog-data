@@ -14804,7 +14804,7 @@
     "description": "./md/cleaning.sam3_bb_gb_generator.md",
     "author": "クリーニング",
     "repoURL": "https://github.com/clean262/sam3_bb_gb_generator",
-    "latest-version": "v0.0.7",
+    "latest-version": "v0.0.8",
     "popularity": 404,
     "trend": 184,
     "licenses": [
@@ -14915,6 +14915,16 @@
           {
             "path": "{pluginsDir}/SAM3/sam3.aux2",
             "XXH3_128": "d1991b9d397816c5cfaab40a8e232711"
+          }
+        ]
+      },
+      {
+        "version": "v0.0.8",
+        "release_date": "2026-03-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/SAM3/sam3.aux2",
+            "XXH3_128": "945675f81950fa42077baacda318a5ef"
           }
         ]
       }
