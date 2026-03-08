@@ -17540,7 +17540,7 @@
     "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_Loop/refs/heads/master/README.md",
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_script_Loop",
-    "latest-version": "r2",
+    "latest-version": "r3",
     "popularity": 136,
     "trend": 141,
     "licenses": [
@@ -17608,6 +17608,16 @@
           {
             "path": "{scriptsDir}/Loop.anm2",
             "XXH3_128": "00c4207ef0f68d5348bc339d4770ee97"
+          }
+        ]
+      },
+      {
+        "version": "r3",
+        "release_date": "2026-03-08",
+        "file": [
+          {
+            "path": "{scriptsDir}/Loop.anm2",
+            "XXH3_128": "f457f41872507e9a08d183fdacd53498"
           }
         ]
       }
