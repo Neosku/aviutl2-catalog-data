@@ -18420,5 +18420,66 @@
         ]
       }
     ]
+  },
+  {
+    "id": "nakano000",
+    "name": "NKN集中線",
+    "type": "スクリプト",
+    "summary": "漫画のような集中線スクリプト",
+    "description": "./md/nakano000.md",
+    "author": "nakano000",
+    "repoURL": "https://www.nicovideo.jp/watch/sm45167975",
+    "latest-version": "v0.1.0",
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "niconiCommonsId": "sm45167975",
+    "tags": [
+      "カスタムオブジェクト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/nakano000_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://github.com/nakano000/AviUtl2_Scripts/raw/refs/heads/main/NKN%E9%9B%86%E4%B8%AD%E7%B7%9A.obj2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/NKN集中線.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/NKN集中線.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2025-07-08",
+        "file": [
+          {
+            "path": "{scriptsDir}/NKN集中線.obj2",
+            "XXH3_128": "adab42f43aa03f36807c1fcef2578a34"
+          }
+        ]
+      }
+    ]
   }
 ]
