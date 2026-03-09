@@ -15137,9 +15137,7 @@
     "images": [],
     "installer": {
       "source": {
-        "GoogleDrive": {
-          "id": "1IlhDquMUR93NbW7P3FtQyVfxDNsqV1mQ"
-        }
+        "direct": "https://drive.google.com/uc?id=1IlhDquMUR93NbW7P3FtQyVfxDNsqV1mQ"
       },
       "install": [
         {
