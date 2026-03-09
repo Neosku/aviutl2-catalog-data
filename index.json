@@ -3142,7 +3142,7 @@
         },
         {
           "action": "copy",
-          "from": "{download}/@立体化(g).anm2",
+          "from": "{tmp}/@立体化(g).anm2",
           "to": "{scriptsDir}"
         }
       ],
@@ -3202,7 +3202,7 @@
         },
         {
           "action": "copy",
-          "from": "{download}/虹色グラデーション.anm2",
+          "from": "{tmp}/虹色グラデーション.anm2",
           "to": "{scriptsDir}"
         }
       ],
@@ -3262,7 +3262,7 @@
         },
         {
           "action": "copy",
-          "from": "{download}/潰す.anm2",
+          "from": "{tmp}/潰す.anm2",
           "to": "{scriptsDir}"
         }
       ],
@@ -3322,7 +3322,7 @@
         },
         {
           "action": "copy",
-          "from": "{download}/角丸長方形配置.anm2",
+          "from": "{tmp}/角丸長方形配置.anm2",
           "to": "{scriptsDir}"
         }
       ],
@@ -3382,7 +3382,7 @@
         },
         {
           "action": "copy",
-          "from": "{download}/BPMカクカク振動.anm2",
+          "from": "{tmp}/BPMカクカク振動.anm2",
           "to": "{scriptsDir}"
         }
       ],
@@ -3442,7 +3442,7 @@
         },
         {
           "action": "copy",
-          "from": "{download}/値で図形.obj2",
+          "from": "{tmp}/値で図形.obj2",
           "to": "{scriptsDir}"
         }
       ],
@@ -3503,7 +3503,7 @@
         },
         {
           "action": "copy",
-          "from": "{download}/扇ブラインド.anm2",
+          "from": "{tmp}/扇ブラインド.anm2",
           "to": "{scriptsDir}"
         }
       ],
@@ -3563,7 +3563,7 @@
         },
         {
           "action": "copy",
-          "from": "{download}/折り畳み.anm2",
+          "from": "{tmp}/折り畳み.anm2",
           "to": "{scriptsDir}"
         }
       ],
@@ -3623,7 +3623,7 @@
         },
         {
           "action": "copy",
-          "from": "{download}/折りたたむ.anm2",
+          "from": "{tmp}/折りたたむ.anm2",
           "to": "{scriptsDir}"
         }
       ],
@@ -15137,7 +15137,9 @@
     "images": [],
     "installer": {
       "source": {
-        "direct": "https://drive.google.com/uc?id=1IlhDquMUR93NbW7P3FtQyVfxDNsqV1mQ"
+        "GoogleDrive": {
+          "id": "1IlhDquMUR93NbW7P3FtQyVfxDNsqV1mQ"
+        }
       },
       "install": [
         {
@@ -15222,7 +15224,6 @@
         },
         {
           "action": "copy",
-          "path": "{download}",
           "from": "{tmp}/audio2obj.lua",
           "to": "{pluginsDir}\\GCMZDrops\\GCMZScript"
         }
@@ -15913,8 +15914,7 @@
           "action": "download"
         },
         {
-          "action": "extract",
-          "path": "{download}"
+          "action": "extract"
         },
         {
           "action": "copy",
@@ -16088,7 +16088,6 @@
         },
         {
           "action": "copy",
-          "path": "{download}",
           "from": "{tmp}/svg2obj.lua",
           "to": "{pluginsDir}\\GCMZDrops\\GCMZScript"
         }
@@ -17000,8 +16999,7 @@
           "action": "download"
         },
         {
-          "action": "extract",
-          "path": "{download}"
+          "action": "extract"
         },
         {
           "action": "copy",
