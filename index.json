@@ -1643,7 +1643,7 @@
     "description": "このソフトウェアは、IntelのCPUに搭載されているHWエンコーダ(QSV)の画質や速度といった性能の実験を目的としています。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/QSVEnc",
-    "latest-version": "8.04",
+    "latest-version": "8.05",
     "popularity": 265,
     "trend": 54,
     "licenses": [
@@ -1789,6 +1789,16 @@
           {
             "path": "{pluginsDir}/QSVEnc.auo2",
             "XXH3_128": "febd1b68e52931eb2b5c42eb14351674"
+          }
+        ]
+      },
+      {
+        "version": "8.05",
+        "release_date": "2026-03-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo2",
+            "XXH3_128": "702feab9f3a00651c4c489d82d989b03"
           }
         ]
       }
