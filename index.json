@@ -1056,7 +1056,7 @@
         "github": {
           "owner": "rigaya",
           "repo": "x264guiEx",
-          "pattern": "^AviUtl2_x264guiEx.*install\\.exe$"
+          "pattern": "^Aviutl2_x264guiEx.*install\\.exe$"
         }
       },
       "install": [
@@ -1256,7 +1256,7 @@
         "github": {
           "owner": "rigaya",
           "repo": "x265guiEx",
-          "pattern": "^AviUtl2_x265guiEx.*install\\.exe$"
+          "pattern": "^Aviutl2_x265guiEx.*install\\.exe$"
         }
       },
       "install": [
@@ -1425,7 +1425,7 @@
         "github": {
           "owner": "rigaya",
           "repo": "NVEnc",
-          "pattern": "Aviutl2_NVEnc_.*install\\.exe"
+          "pattern": "^Aviutl2_NVEnc_.*install\\.exe$"
         }
       },
       "install": [
@@ -1631,7 +1631,12 @@
       {
         "version": "9.11",
         "release_date": "2026-03-12",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "570b8c8a73296af087a9f01a56e080ea"
+          }
+        ]
       }
     ]
   },
@@ -1669,7 +1674,7 @@
         "github": {
           "owner": "rigaya",
           "repo": "QSVEnc",
-          "pattern": "^AviUtl2_QSVEnc.*install\\.exe$"
+          "pattern": "^Aviutl2_QSVEnc.*install\\.exe$"
         }
       },
       "install": [
@@ -1838,7 +1843,7 @@
         "github": {
           "owner": "rigaya",
           "repo": "ffmpegOut",
-          "pattern": "^AviUtl2_ffmpegOut.*install\\.exe$"
+          "pattern": "^Aviutl2_ffmpegOut.*install\\.exe$"
         }
       },
       "install": [
@@ -1997,7 +2002,7 @@
         "github": {
           "owner": "rigaya",
           "repo": "VCEEnc",
-          "pattern": "^AviUtl2_VCEEnc.*install\\.exe$"
+          "pattern": "^Aviutl2_VCEEnc.*install\\.exe$"
         }
       },
       "install": [
@@ -2136,7 +2141,7 @@
         "github": {
           "owner": "rigaya",
           "repo": "svtAV1guiEx",
-          "pattern": "^AviUtl2_svtAV1guiEx.*install\\.exe$"
+          "pattern": "^Aviutl2_svtAV1guiEx.*install\\.exe$"
         }
       },
       "install": [
