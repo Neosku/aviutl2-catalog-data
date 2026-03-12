@@ -489,7 +489,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_GroundShadow2_S",
-      "regex": "^aviutl2_script_GroundShadow2_S.*\\.zip$",
+      "regex": "^aviutl2_script_GroundShadow2.*\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -765,7 +765,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "korarei/AviUtl2_CameraTransform_K_Script",
-      "regex": "^@CameraTransform_K_.*\\.zip$",
+      "regex": "@CameraTransform_K.*\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -785,7 +785,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "korarei/AviUtl2_Kaleidoscope_K_Script",
-      "regex": "^Kaleidoscope_K_.*\\.zip$",
+      "regex": "^Kaleidoscope_K.*\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -1424,7 +1424,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "mes51/AVIUtl2_Unmult",
-      "regex": "AVIUtl2_Unmult_.*\\\\.zip",
+      "regex": ".*Unmult_.*\\.zip",
       "hash-calc": [
         {
           "extract": "zip",
@@ -1444,7 +1444,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "sagami121/Aviutl2-Calculator",
-      "regex": "^aviutl2_calc_.*\\.zip$",
+      "regex": "^aviutl2_calc.*\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -1978,7 +1978,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "azurite581/AviUtl2-Hex-Tiling",
-      "regex": "^.*Hex-Tiling_v[\\d.]+\\.au2pkg\\.zip$",
+      "regex": "^.*Hex-Tiling.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",

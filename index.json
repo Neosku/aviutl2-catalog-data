@@ -4194,7 +4194,7 @@
         "github": {
           "owner": "Mr-Ojii",
           "repo": "AviUtl2-WebPFileReader-Plugin",
-          "pattern": "^webpinput\\\\.zip$"
+          "pattern": "^webpinput\\.zip$"
         }
       },
       "install": [
@@ -5785,7 +5785,7 @@
         "github": {
           "owner": "sigma-axis",
           "repo": "aviutl2_script_GroundShadow2_S",
-          "pattern": "^aviutl2_script_GroundShadow2.*\\\\.zip$"
+          "pattern": "^aviutl2_script_GroundShadow2.*\\.zip$"
         }
       },
       "install": [
@@ -5910,7 +5910,7 @@
         "github": {
           "owner": "sigma-axis",
           "repo": "aviutl2_script_Histogram_S",
-          "pattern": "^aviutl2_script_Histogram_S.*\\\\.zip$"
+          "pattern": "^aviutl2_script_Histogram_S.*\\.zip$"
         }
       },
       "install": [
@@ -7783,7 +7783,7 @@
         "github": {
           "owner": "korarei",
           "repo": "AviUtl2_CameraTransform_K_Script",
-          "pattern": "^@CameraTransform_K_.*\\.zip$"
+          "pattern": "@CameraTransform_K.*\\.zip$"
         }
       },
       "install": [
@@ -7928,7 +7928,7 @@
         "github": {
           "owner": "korarei",
           "repo": "AviUtl2_Kaleidoscope_K_Script",
-          "pattern": "^Kaleidoscope_K_.*\\.zip$"
+          "pattern": "^Kaleidoscope_K.*\\.zip$"
         }
       },
       "install": [
@@ -8139,7 +8139,7 @@
         "github": {
           "owner": "sigma-axis",
           "repo": "aviutl2_tl_walkaround2",
-          "pattern": "^aviutl2_tl_walkaround2.*\\\\.zip$"
+          "pattern": "^aviutl2_tl_walkaround2.*\\.zip$"
         }
       },
       "install": [
@@ -14476,7 +14476,7 @@
         "github": {
           "owner": "mes51",
           "repo": "AVIUtl2_Unmult",
-          "pattern": "AVIUtl2_Unmult_.*\\\\.zip"
+          "pattern": ".*Unmult_.*\\.zip"
         }
       },
       "install": [
@@ -14546,7 +14546,7 @@
         "github": {
           "owner": "sagami121",
           "repo": "Aviutl2-Calculator",
-          "pattern": "^aviutl2_calc_.*\\.zip$"
+          "pattern": "^aviutl2_calc.*\\.zip$"
         }
       },
       "install": [
@@ -17450,7 +17450,7 @@
         "github": {
           "owner": "azurite581",
           "repo": "AviUtl2-Hex-Tiling",
-          "pattern": "^.*Hex-Tiling_v[\\d.]+\\.au2pkg\\.zip$"
+          "pattern": "^.*Hex-Tiling.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
