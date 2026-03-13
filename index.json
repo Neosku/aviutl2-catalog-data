@@ -6811,7 +6811,7 @@
     ]
   },
   {
-    "id": "naltutyo.fuchidorigurade",
+    "id": "naltutyo-fuchidorigurade",
     "name": "縁取りグラデーション",
     "type": "スクリプト",
     "summary": "縁取りにグラデーションをかけることのできるソフトです",
@@ -6878,7 +6878,7 @@
     ]
   },
   {
-    "id": "naltutyo.ScriptBrowserPlugin",
+    "id": "naltutyo-ScriptBrowserPlugin",
     "name": "ScriptBrowserPlugin",
     "type": "汎用プラグイン",
     "summary": "多くの効果を検索し、付与や追加等ができるPluginです",
@@ -7470,7 +7470,7 @@
     ]
   },
   {
-    "id": "naltutyo.kakutyo-tsu-ruba-",
+    "id": "naltutyo-kakutyo-tsu-ruba-",
     "name": "Nao式ツールボックス",
     "type": "汎用プラグイン",
     "summary": "元祖拡張ツールバーをAviutl2用にオマージュしたものです",
@@ -13721,7 +13721,7 @@
     ]
   },
   {
-    "id": "Esgo.MP4Exporter",
+    "id": "EsugoMP4Exporter",
     "name": "MP4Exporter",
     "type": "出力プラグイン",
     "summary": "MP4ファイルを出力するプラグイン",
@@ -17014,7 +17014,7 @@
         "file": [
           {
             "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
-            "XXH3_128": ""
+            "XXH3_128": "500efa8020c43d47cb85ee66e89fc269"
           }
         ]
       }
@@ -17690,7 +17690,7 @@
     ]
   },
   {
-    "id": "naltutyo.sagyouroga-N",
+    "id": "naltutyo-sagyouroga-N",
     "name": "作業ロガーN",
     "type": "汎用プラグイン",
     "summary": "自分の作業を記録しXに投稿したり、作業時間を見直すプラグイン",
@@ -18498,7 +18498,7 @@
     ]
   },
   {
-    "id": "nakano000.nkn_zoom_lines",
+    "id": "nakano000",
     "name": "NKN集中線",
     "type": "スクリプト",
     "summary": "漫画のような集中線スクリプト",
