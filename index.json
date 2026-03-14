@@ -8012,7 +8012,7 @@
     "description": "./md/korarei.ColorLUT_K.md",
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_ColorLUT_K_Plugin",
-    "latest-version": "v1.1.0",
+    "latest-version": "v1.2.0",
     "popularity": 258,
     "trend": 84,
     "licenses": [
@@ -8110,6 +8110,11 @@
             "XXH3_128": "12d8db7ec640521eea79f9ce2caa82c9"
           }
         ]
+      },
+      {
+        "version": "v1.2.0",
+        "release_date": "2026-03-14",
+        "file": []
       }
     ]
   },
