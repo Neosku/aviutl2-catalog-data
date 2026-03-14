@@ -15118,8 +15118,7 @@
           "path": "{pluginsDir}/SAM3/python/uv.exe",
           "args": [
             "--directory \"{pluginsDir}/SAM3/python\" sync --locked"
-          ],
-          "from": "{pluginsDir}/SAM3/python/uv.exe"
+          ]
         }
       ],
       "uninstall": [
@@ -18575,6 +18574,97 @@
           {
             "path": "{scriptsDir}/NKN集中線.obj2",
             "XXH3_128": "adab42f43aa03f36807c1fcef2578a34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "azurite.ImageCropExport",
+    "name": "ImageCropExport",
+    "type": "出力プラグイン",
+    "summary": "現在フレームの一部を切り抜いて画像として出力する出力プラグイン",
+    "description": "./md/azurite.ImageCropExport.md",
+    "author": "azurite",
+    "repoURL": "https://github.com/azurite581/AviUtl2-ImageCropExport",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "azurite"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "画像",
+      "切り抜き"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/azurite.ImageCropExport_thumbnail.png",
+        "infoImg": [
+          "./image/azurite.ImageCropExport_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "azurite581",
+          "repo": "AviUtl2-ImageCropExport",
+          "pattern": "^ImageCropExport-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/ImageCropExport.auo2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.ImageCropExport.aul2",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ImageCropExport.auo2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.ImageCropExport.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ImageCropExport.ini"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-03-14",
+        "file": [
+          {
+            "path": "{pluginsDir}/ImageCropExport.auo2",
+            "XXH3_128": "0387016c3851d87daadccffab676f6db"
           }
         ]
       }
