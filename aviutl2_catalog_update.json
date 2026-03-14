@@ -1,11 +1,11 @@
 {
-  "version": "0.3.2",
-  "notes": "## ⚠️お知らせ\n\n蛇色氏のダークモード化が非推奨に変更されました。以下のMODに機能を分割されていますので、ダークモード化MODを削除し、必要なMODをインストールするようにしてください。\n* UIドレッシングMOD (ダークモード化機能)\n* フォント視覚化MOD (フォントプレビュー機能)\n* プリセット追加MOD (ダイアログ拡張機能)\n* スリム化MOD (スリムバー機能)\n## ✨ 新機能\n\n* 推奨パッケージを変更（ダークモード化MODを非推奨に変更）\n* パッケージ登録画面で複数パッケージを同時に登録できる機能を実装\n* パッケージ登録画面でJSON入力機能を実装\n* パッケージ登録画面でインストーラーのログを拡張 & インストーラーの必須化\n\n\n## 🛠 修正・改善\n\n* 複数ファイルを同時にインストール・削除できない不具合を修正\n* パスに日本語が含まれる際に実行ファイルを実行できない不具合の修正\n* 特定のドライブのみ書き込みできなかった不具合の修正\n* インストーラーに削除機能の実装\n* GoogleDriveのダウンロード方法の修正\n* デザインの調整および依存関係の更新\n",
-  "pub_date": "2026-02-12T13:44:56Z",
+  "version": "v0.3.3",
+  "notes": "### ✨ 新機能\n\n- au2pkg形式ファイルの管理登録機能を実装\n- アップデートセンターで更新を一時停止できる機能を追加\n- アップデートセンター・ニコニコモンズにおいて、パッケージ名をクリックするとパッケージ詳細へ移動できる機能を追加\n- パッケージ詳細画面で、作者名・タグをクリックするとパッケージ一覧の検索結果へ遷移できる機能を追加\n- リンク集を追加\n\n### 🛠 修正・改善\n\n- 低解像度環境で更新通知画面が見切れ、更新ボタンを押せない不具合を修正\n- パッケージ一覧で種類の表示項目を固定\n- 各種ファイルのTypeScriptへの移行およびファイル分割\n- インストーラー実行処理をPowerShellからRustへ移行\n- フィードバック送信時のデバイス情報取得処理をPowerShellからRustへ移行\n- Markdownレンダリング機能を拡充（by Nanashi.）\n- 外部Markdown表示時に相対パスを解決するよう修正（by Nanashi.）\n- 更新後、バージョンが未確定でもファイルが存在すれば導入済みとして扱うよう修正 \\*（再起動時には更新が必要と判定されます）\n- アプリを複数起動しようとした際、既存のウィンドウを前面に表示するよう修正\n- パッケージ登録画面で、インストーラまたはバージョン履歴を変更した場合のみテストを要求するよう変更\n- GitHubダウンロード処理を厳格化（全てのパッケージが正常に導入できるか確認済み）\n- GoogleDriveのダウンロード時に展開元として誤ったパスを渡していたエラーを修正（issue by Garech）\n- バージョン不明時のラベルを「不明」に変更\n- UIの改善\n- 依存関係をアップグレード",
+  "pub_date": "2026-03-14T07:26:48Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/Neosku/aviutl2-catalog/releases/download/v0.3.2/AviUtl2_Catalog_0.3.2_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSHJDVDJYS1dEM0dkWTUyUkxzazBwZFFiT1BlbnpMSlZsZTJENERZWmpHclFERVVzQUdER1M3NjA4Unh4TFJDOGliamZBZVRRakwwNTNoeXk2VFkxN0xTTk9IMGpWQXdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcwOTAyNzMxCWZpbGU6QXZpVXRsMiDjgqvjgr/jg63jgrBfMC4zLjJfeDY0LXNldHVwLmV4ZQpWNDM2QnBtWjZMMW9EVTRUUThiRTV6bURQSHk1d28wT3o4SW5HaG1Sd3E2cUs5QTRuWjJESnhhYXVzUUgvTlJQcXdMbU1PTUxGaDdURXc5NW0vN2tCZz09Cg=="
+      "url": "https://github.com/Neosku/aviutl2-catalog/releases/download/v0.3.3/AviUtl2_Catalog_0.3.3_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSHJDVDJYS1dEM0VST0JVQ1NlZDZMNm1ieWNBSmpxODZyK1pOeXRDRnRld2RKQmUxR3UxNjAyU0tyaTcwVlRoZTQ1Zk03ZmV3eFFkd0VBZU5PVEpHeHVYZWc3UVpsU0FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNDczMTkzCWZpbGU6QXZpVXRsMiDjgqvjgr/jg63jgrBfMC4zLjNfeDY0LXNldHVwLmV4ZQppdVVDOGNnaFFGa3ZaM0lvQnYvWDBKdEk2ODJpekl5dTZUeWlwVU5BL1l5bEFzTXplcVlQV29YOWpyOURndHExNjEzSDNYWk9YMWp5Y1VLVWNIRHFEQT09Cg=="
     }
   }
 }
