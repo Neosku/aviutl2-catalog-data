@@ -15118,8 +15118,7 @@
           "path": "{pluginsDir}/SAM3/python/uv.exe",
           "args": [
             "--directory \"{pluginsDir}/SAM3/python\" sync --locked"
-          ],
-          "from": "{pluginsDir}/SAM3/python/uv.exe"
+          ]
         }
       ],
       "uninstall": [
