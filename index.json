@@ -8024,7 +8024,7 @@
     "name": "ColorLUT_K",
     "type": "汎用プラグイン",
     "summary": "LUTファイルを扱えるようにするプラグイン",
-    "description": "./md/korarei.ColorLUT_K.md",
+    "description": "https://raw.githubusercontent.com/korarei/AviUtl2_ColorLUT_K_Plugin/main/README.md",
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_ColorLUT_K_Plugin",
     "latest-version": "v1.2.0",
@@ -8129,7 +8129,12 @@
       {
         "version": "v1.2.0",
         "release_date": "2026-03-14",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/ColorLUT_K/ColorLUT_K.aux2",
+            "XXH3_128": "c7d42a84be7f80bf25d5fd743e82457f"
+          }
+        ]
       }
     ]
   },
@@ -15143,8 +15148,7 @@
           "path": "{pluginsDir}/SAM3/python/uv.exe",
           "args": [
             "--directory \"{pluginsDir}/SAM3/python\" sync --locked"
-          ],
-          "from": "{pluginsDir}/SAM3/python/uv.exe"
+          ]
         }
       ],
       "uninstall": [
