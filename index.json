@@ -1409,7 +1409,7 @@
     "description": "./md/rigaya.NVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/NVEnc",
-    "latest-version": "9.11",
+    "latest-version": "9.12",
     "popularity": 1484,
     "trend": 422,
     "licenses": [
@@ -1647,6 +1647,11 @@
             "XXH3_128": "570b8c8a73296af087a9f01a56e080ea"
           }
         ]
+      },
+      {
+        "version": "9.12",
+        "release_date": "2026-03-15",
+        "file": []
       }
     ]
   },
@@ -1658,7 +1663,7 @@
     "description": "このソフトウェアは、IntelのCPUに搭載されているHWエンコーダ(QSV)の画質や速度といった性能の実験を目的としています。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/QSVEnc",
-    "latest-version": "8.05",
+    "latest-version": "8.06",
     "popularity": 277,
     "trend": 95,
     "licenses": [
@@ -1816,6 +1821,11 @@
             "XXH3_128": "702feab9f3a00651c4c489d82d989b03"
           }
         ]
+      },
+      {
+        "version": "8.06",
+        "release_date": "2026-03-15",
+        "file": []
       }
     ]
   },
@@ -1986,7 +1996,7 @@
     "description": "./md/rigaya.VCEEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/VCEEnc",
-    "latest-version": "9.03",
+    "latest-version": "9.04",
     "popularity": 234,
     "trend": 40,
     "licenses": [
@@ -2114,6 +2124,11 @@
             "XXH3_128": "c2406b18f83ee044c8a2662fec689a86"
           }
         ]
+      },
+      {
+        "version": "9.04",
+        "release_date": "2026-03-15",
+        "file": []
       }
     ]
   },
