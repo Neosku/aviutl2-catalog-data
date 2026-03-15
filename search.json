@@ -27,7 +27,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "hebiiro/al2_jd",
-      "regex": "al2_jd_r(\\d+)\\.zip$",
+      "regex": "^al2_jd_r\\d+\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -805,7 +805,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "korarei/AviUtl2_ColorLUT_K_Plugin",
-      "regex": "^ColorLUT_K_.*\\.zip$",
+      "regex": "^ColorLUT_K.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -813,7 +813,7 @@
             "ColorLUT_K/ColorLUT_K.aux2"
           ],
           "recordPaths": [
-            "{pluginsDir}/ColorLUT_K.aux2"
+            "{pluginsDir}/ColorLUT_K/ColorLUT_K.aux2"
           ]
         }
       ]
@@ -845,9 +845,10 @@
     "checkType": {
       "type": "GitHub",
       "repo": "shyachi/AviUtl2_SrtImporter",
-      "regex": "SrtImporter\\.aux2",
+      "regex": "^SrtImporter.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
             "SrtImporter.aux2"
           ],
@@ -1325,7 +1326,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "hebiiro/al2_visual_font",
-      "regex": "^al2_preset_adder.*\\.au2pkg\\.zip$",
+      "regex": "^al2_visual_font.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -1865,6 +1866,7 @@
       "regex": "KuroNeko\\.CopyAlias.*\\.au2pkg\\.zip",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
             "Plugin/CopyAlias.aux2"
           ],
@@ -1884,6 +1886,7 @@
       "regex": "^BlockNoise.*\\.zip$",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
             "BlockNoise.anm2"
           ],

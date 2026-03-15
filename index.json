@@ -1651,7 +1651,12 @@
       {
         "version": "9.12",
         "release_date": "2026-03-15",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "3185440e89285dce5b2c471b8822b43c"
+          }
+        ]
       }
     ]
   },
@@ -1825,7 +1830,12 @@
       {
         "version": "8.06",
         "release_date": "2026-03-15",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo2",
+            "XXH3_128": "9dccbf924eafdc84e258507f0e64cfe1"
+          }
+        ]
       }
     ]
   },
@@ -2128,7 +2138,12 @@
       {
         "version": "9.04",
         "release_date": "2026-03-15",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/VCEEnc.auo2",
+            "XXH3_128": "27e72956beb00ae50b573651a5510c87"
+          }
+        ]
       }
     ]
   },
@@ -8024,7 +8039,7 @@
     "name": "ColorLUT_K",
     "type": "汎用プラグイン",
     "summary": "LUTファイルを扱えるようにするプラグイン",
-    "description": "./md/korarei.ColorLUT_K.md",
+    "description": "https://raw.githubusercontent.com/korarei/AviUtl2_ColorLUT_K_Plugin/main/README.md",
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_ColorLUT_K_Plugin",
     "latest-version": "v1.2.0",
@@ -8129,7 +8144,12 @@
       {
         "version": "v1.2.0",
         "release_date": "2026-03-14",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/ColorLUT_K/ColorLUT_K.aux2",
+            "XXH3_128": "c7d42a84be7f80bf25d5fd743e82457f"
+          }
+        ]
       }
     ]
   },
@@ -9793,11 +9813,6 @@
           "action": "copy",
           "from": "{tmp}/Plugin",
           "to": "{pluginsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Language",
-          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -9853,7 +9868,12 @@
       {
         "version": "r4",
         "release_date": "2026-03-15",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_visual_font.aui2",
+            "XXH3_128": "31abf1c054858d87209c1945e7150a2a"
+          }
+        ]
       }
     ]
   },
