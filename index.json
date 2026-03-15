@@ -12973,6 +12973,7 @@
     "dependencies": [],
     "images": [
       {
+        "thumbnail": "./image/sevenc-nanashi.ntsc-rs_thumbnail.webp",
         "infoImg": [
           "./image/sevenc-nanashi.ntsc-rs_1.png"
         ]
@@ -15143,8 +15144,7 @@
           "path": "{pluginsDir}/SAM3/python/uv.exe",
           "args": [
             "--directory \"{pluginsDir}/SAM3/python\" sync --locked"
-          ],
-          "from": "{pluginsDir}/SAM3/python/uv.exe"
+          ]
         }
       ],
       "uninstall": [
