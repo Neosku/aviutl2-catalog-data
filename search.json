@@ -2174,5 +2174,25 @@
         }
       ]
     }
+  },
+  {
+    "id": "azurite.ImageCropExport",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "azurite581/AviUtl2-ImageCropExport",
+      "regex": "^ImageCropExport-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/ImageCropExport.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/ImageCropExport.auo2"
+          ]
+        }
+      ]
+    }
   }
 ]
