@@ -9725,7 +9725,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_visual_font/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_visual_font",
-    "latest-version": "r3",
+    "latest-version": "r4",
     "popularity": 3898,
     "trend": 963,
     "licenses": [
@@ -9834,6 +9834,11 @@
             "XXH3_128": "099aa5adc42266f75c6733ec67052926"
           }
         ]
+      },
+      {
+        "version": "r4",
+        "release_date": "2026-03-15",
+        "file": []
       }
     ]
   },
