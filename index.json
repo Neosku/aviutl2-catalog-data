@@ -1650,7 +1650,7 @@
       },
       {
         "version": "9.12",
-        "release_date": "2026-03-16",
+        "release_date": "2026-03-15",
         "file": [
           {
             "path": "{pluginsDir}/NVEnc.auo2",
@@ -1829,7 +1829,7 @@
       },
       {
         "version": "8.06",
-        "release_date": "2026-03-16",
+        "release_date": "2026-03-15",
         "file": [
           {
             "path": "{pluginsDir}/QSVEnc.auo2",
@@ -2137,7 +2137,7 @@
       },
       {
         "version": "9.04",
-        "release_date": "2026-03-16",
+        "release_date": "2026-03-15",
         "file": [
           {
             "path": "{pluginsDir}/VCEEnc.auo2",
@@ -8143,10 +8143,10 @@
       },
       {
         "version": "v1.2.0",
-        "release_date": "2026-03-16",
+        "release_date": "2026-03-14",
         "file": [
           {
-            "path": "{pluginsDir}/ColorLUT_K.aux2",
+            "path": "{pluginsDir}/ColorLUT_K/ColorLUT_K.aux2",
             "XXH3_128": "c7d42a84be7f80bf25d5fd743e82457f"
           }
         ]
@@ -9872,7 +9872,7 @@
       },
       {
         "version": "r4",
-        "release_date": "2026-03-16",
+        "release_date": "2026-03-15",
         "file": [
           {
             "path": "{pluginsDir}/al2/al2_visual_font.aui2",
