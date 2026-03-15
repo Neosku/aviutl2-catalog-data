@@ -9778,11 +9778,6 @@
           "action": "copy",
           "from": "{tmp}/Plugin",
           "to": "{pluginsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Language",
-          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -9838,7 +9833,12 @@
       {
         "version": "r4",
         "release_date": "2026-03-15",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_visual_font.aui2",
+            "XXH3_128": "31abf1c054858d87209c1945e7150a2a"
+          }
+        ]
       }
     ]
   },
@@ -15128,8 +15128,7 @@
           "path": "{pluginsDir}/SAM3/python/uv.exe",
           "args": [
             "--directory \"{pluginsDir}/SAM3/python\" sync --locked"
-          ],
-          "from": "{pluginsDir}/SAM3/python/uv.exe"
+          ]
         }
       ],
       "uninstall": [
