@@ -1409,7 +1409,7 @@
     "description": "./md/rigaya.NVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/NVEnc",
-    "latest-version": "9.11",
+    "latest-version": "9.12",
     "popularity": 1511,
     "trend": 488,
     "licenses": [
@@ -1647,6 +1647,16 @@
             "XXH3_128": "570b8c8a73296af087a9f01a56e080ea"
           }
         ]
+      },
+      {
+        "version": "9.12",
+        "release_date": "2026-03-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "3185440e89285dce5b2c471b8822b43c"
+          }
+        ]
       }
     ]
   },
@@ -1658,7 +1668,7 @@
     "description": "このソフトウェアは、IntelのCPUに搭載されているHWエンコーダ(QSV)の画質や速度といった性能の実験を目的としています。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/QSVEnc",
-    "latest-version": "8.05",
+    "latest-version": "8.06",
     "popularity": 279,
     "trend": 100,
     "licenses": [
@@ -1814,6 +1824,16 @@
           {
             "path": "{pluginsDir}/QSVEnc.auo2",
             "XXH3_128": "702feab9f3a00651c4c489d82d989b03"
+          }
+        ]
+      },
+      {
+        "version": "8.06",
+        "release_date": "2026-03-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo2",
+            "XXH3_128": "9dccbf924eafdc84e258507f0e64cfe1"
           }
         ]
       }
@@ -1986,7 +2006,7 @@
     "description": "./md/rigaya.VCEEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/VCEEnc",
-    "latest-version": "9.03",
+    "latest-version": "9.04",
     "popularity": 238,
     "trend": 42,
     "licenses": [
@@ -2112,6 +2132,16 @@
           {
             "path": "{pluginsDir}/VCEEnc.auo2",
             "XXH3_128": "c2406b18f83ee044c8a2662fec689a86"
+          }
+        ]
+      },
+      {
+        "version": "9.04",
+        "release_date": "2026-03-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/VCEEnc.auo2",
+            "XXH3_128": "27e72956beb00ae50b573651a5510c87"
           }
         ]
       }
@@ -8012,7 +8042,7 @@
     "description": "./md/korarei.ColorLUT_K.md",
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_ColorLUT_K_Plugin",
-    "latest-version": "v1.1.0",
+    "latest-version": "v1.2.0",
     "popularity": 263,
     "trend": 113,
     "licenses": [
@@ -8108,6 +8138,16 @@
           {
             "path": "{pluginsDir}/ColorLUT_K/ColorLUT_K.aux2",
             "XXH3_128": "12d8db7ec640521eea79f9ce2caa82c9"
+          }
+        ]
+      },
+      {
+        "version": "v1.2.0",
+        "release_date": "2026-03-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/ColorLUT_K.aux2",
+            "XXH3_128": "c7d42a84be7f80bf25d5fd743e82457f"
           }
         ]
       }
@@ -9720,7 +9760,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_visual_font/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_visual_font",
-    "latest-version": "r3",
+    "latest-version": "r4",
     "popularity": 3884,
     "trend": 911,
     "licenses": [
@@ -9827,6 +9867,16 @@
           {
             "path": "{pluginsDir}/al2/al2_visual_font.aui2",
             "XXH3_128": "099aa5adc42266f75c6733ec67052926"
+          }
+        ]
+      },
+      {
+        "version": "r4",
+        "release_date": "2026-03-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_visual_font.aui2",
+            "XXH3_128": "31abf1c054858d87209c1945e7150a2a"
           }
         ]
       }

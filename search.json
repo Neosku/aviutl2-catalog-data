@@ -105,7 +105,7 @@
   },
   {
     "id": "rigaya.NVEnc",
-    "latest-version": "9.11",
+    "latest-version": "9.12",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/NVEnc",
@@ -125,7 +125,7 @@
   },
   {
     "id": "rigaya.QSVEnc",
-    "latest-version": "8.05",
+    "latest-version": "8.06",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/QSVEnc",
@@ -165,7 +165,7 @@
   },
   {
     "id": "rigaya.VCEEnc",
-    "latest-version": "9.03",
+    "latest-version": "9.04",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/VCEEnc",
@@ -801,7 +801,7 @@
   },
   {
     "id": "korarei.ColorLUT_K",
-    "latest-version": "v1.1.0",
+    "latest-version": "v1.2.0",
     "checkType": {
       "type": "GitHub",
       "repo": "korarei/AviUtl2_ColorLUT_K_Plugin",
@@ -1322,7 +1322,7 @@
   },
   {
     "id": "hebiiro.al2_visual_font",
-    "latest-version": "r3",
+    "latest-version": "r4",
     "checkType": {
       "type": "GitHub",
       "repo": "hebiiro/al2_visual_font",
