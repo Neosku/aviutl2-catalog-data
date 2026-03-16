@@ -1262,7 +1262,7 @@
   },
   {
     "id": "hebiiro.al2_slimming",
-    "latest-version": "r2",
+    "latest-version": "r3",
     "checkType": {
       "type": "GitHub",
       "repo": "hebiiro/al2_slimming",
@@ -1282,7 +1282,7 @@
   },
   {
     "id": "hebiiro.al2_ui_dressing",
-    "latest-version": "r2",
+    "latest-version": "r3",
     "checkType": {
       "type": "GitHub",
       "repo": "hebiiro/al2_ui_dressing",
@@ -1302,7 +1302,7 @@
   },
   {
     "id": "hebiiro.al2_preset_adder",
-    "latest-version": "r3",
+    "latest-version": "r4",
     "checkType": {
       "type": "GitHub",
       "repo": "hebiiro/al2_preset_adder",
@@ -1620,7 +1620,7 @@
   },
   {
     "id": "azurite.GradientEditor",
-    "latest-version": "v0.2.0",
+    "latest-version": "v0.3.0",
     "checkType": {
       "type": "GitHub",
       "repo": "azurite581/AviUtl2-GradientEditor",
