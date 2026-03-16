@@ -14436,7 +14436,7 @@
         "github": {
           "owner": "hebiiro",
           "repo": "al2_ui_dressing",
-          "pattern": "^al2_ui_dressing.*\\.au2pkg\\.zip$"
+          "pattern": "^al2_ui_dressing.*\\.zip$"
         }
       },
       "install": [
@@ -14462,11 +14462,6 @@
           "action": "copy",
           "from": "{tmp}/Plugin",
           "to": "{pluginsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Language",
-          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -14508,7 +14503,12 @@
       {
         "version": "r3",
         "release_date": "2026-03-16",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
+            "XXH3_128": "c312b162f1729efba224c10f0735b89d"
+          }
+        ]
       }
     ]
   },
