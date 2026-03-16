@@ -9305,7 +9305,7 @@
         "github": {
           "owner": "hebiiro",
           "repo": "al2_preset_adder",
-          "pattern": "^al2_preset_adder.*\\.au2pkg\\.zip$"
+          "pattern": "^al2_preset_adder.*\\.zip$"
         }
       },
       "install": [
@@ -9331,11 +9331,6 @@
           "action": "copy",
           "from": "{tmp}/Plugin",
           "to": "{pluginsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Language",
-          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -9345,15 +9340,15 @@
         },
         {
           "action": "delete",
+          "path": "{pluginsDir}/al2/assets/al2_preset_adder"
+        },
+        {
+          "action": "delete",
           "path": "{pluginsDir}/al2/al2_preset_adder.aux2"
         },
         {
           "action": "delete",
           "path": "{pluginsDir}/al2/al2_preset_adder.aui2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/al2/assets/al2_preset_adder"
         },
         {
           "action": "delete",
@@ -9395,7 +9390,12 @@
       {
         "version": "r4",
         "release_date": "2026-03-16",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_preset_adder.aui2",
+            "XXH3_128": "2fab78660f4bffada443c29571b332e7"
+          }
+        ]
       }
     ]
   },
