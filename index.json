@@ -13523,7 +13523,7 @@
         "github": {
           "owner": "hebiiro",
           "repo": "al2_slimming",
-          "pattern": "^al2_slimming.*\\.au2pkg\\.zip$"
+          "pattern": "^al2_slimming.*\\.zip$"
         }
       },
       "install": [
@@ -13549,11 +13549,6 @@
           "action": "copy",
           "from": "{tmp}/Plugin",
           "to": "{pluginsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Language",
-          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -13591,7 +13586,12 @@
       {
         "version": "r3",
         "release_date": "2026-03-16",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_slimming.aui2",
+            "XXH3_128": "d168619d0a3ad9a5c21af3921de4677b"
+          }
+        ]
       }
     ]
   },
