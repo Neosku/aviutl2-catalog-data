@@ -9792,7 +9792,7 @@
         "github": {
           "owner": "hebiiro",
           "repo": "al2_visual_font",
-          "pattern": "^al2_visual_font.*\\.au2pkg\\.zip$"
+          "pattern": "^al2_visual_font.*\\.zip$"
         }
       },
       "install": [
@@ -9832,6 +9832,10 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/al2/al2_visual_font.aui2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/al2_visual_font"
         },
         {
           "action": "delete",
