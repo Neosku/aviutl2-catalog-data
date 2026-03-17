@@ -18754,5 +18754,75 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Nagomiku.CrushPNG",
+    "name": "CrushPNG",
+    "type": "スクリプト",
+    "summary": "⚠️説明文要確認　PNGのフィルタ方式で画像をグリッチするスクリプト",
+    "description": "./md/Nagomiku.CrushPNG.md",
+    "author": "Nagomiku",
+    "repoURL": "https://scrapbox.io/nanikani-shugo/CrushPNG",
+    "latest-version": "2025.10.13",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "グリッチ",
+      "ノイズ",
+      "加工"
+    ],
+    "dependencies": [
+      "Nagomiku.NagoEffect2.mod2"
+    ],
+    "images": [
+      {
+        "infoImg": [
+          "./image/Nagomiku.CrushPNG_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1-Gwp52NHMAS_CW5CJ4cKpU6V90dlA_OB"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/CrushPNG.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CrushPNG.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.10.13",
+        "release_date": "2025-10-13",
+        "file": [
+          {
+            "path": "{scriptsDir}/CrushPNG.anm2",
+            "XXH3_128": "9ff69db7cf376bb69ef5d642c9f2db94"
+          }
+        ]
+      }
+    ]
   }
 ]
