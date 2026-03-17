@@ -18754,5 +18754,139 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Nagomiku.CrushPNG",
+    "name": "CrushPNG",
+    "type": "スクリプト",
+    "summary": "⚠️説明文要確認　PNGのフィルタ方式で画像をグリッチするスクリプト",
+    "description": "./md/Nagomiku.CrushPNG.md",
+    "author": "Nagomiku",
+    "repoURL": "https://scrapbox.io/nanikani-shugo/CrushPNG",
+    "latest-version": "2025.10.13",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "グリッチ",
+      "ノイズ",
+      "加工"
+    ],
+    "dependencies": [
+      "Nagomiku.NagoEffect2.mod2"
+    ],
+    "images": [
+      {
+        "infoImg": [
+          "./image/Nagomiku.CrushPNG_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1-Gwp52NHMAS_CW5CJ4cKpU6V90dlA_OB"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/CrushPNG.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CrushPNG.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.10.13",
+        "release_date": "2025-10-13",
+        "file": [
+          {
+            "path": "{scriptsDir}/CrushPNG.anm2",
+            "XXH3_128": "9ff69db7cf376bb69ef5d642c9f2db94"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Nagomiku.NagoEffect2.mod2",
+    "name": "NagoEffect2.mod2",
+    "type": "スクリプトモジュール",
+    "summary": "Nagomiku氏が作成する一部スクリプトに必須なスクリプトモジュール",
+    "description": "./md/Nagomiku.NagoEffect2.mod2.md",
+    "author": "Nagomiku",
+    "repoURL": "https://scrapbox.io/nanikani-shugo/NagoEffect2.mod2",
+    "latest-version": "v1.00",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "infoImg": [
+          "./image/Nagomiku.NagoEffect2.mod2_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1z4emRYgdB6iDym_77XgvjRALol_LNhQn"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/NagoEffect2.mod2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/NagoEffect2.mod2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.00",
+        "release_date": "2025-10-13",
+        "file": [
+          {
+            "path": "{scriptsDir}/NagoEffect2.mod2",
+            "XXH3_128": "7f3c589fe1646bed058973072992ae8e"
+          }
+        ]
+      }
+    ]
   }
 ]
