@@ -18756,6 +18756,71 @@
     ]
   },
   {
+    "id": "teruyoshii.TrackbarAudioSync",
+    "name": "トラックバー音声同期",
+    "type": "スクリプト",
+    "summary": "プロジェクトの音量に応じてパラメータを変化させるトラックバースクリプト",
+    "description": "./md/teruyoshii.TrackbarAudioSync.md",
+    "author": "てるよし",
+    "repoURL": "https://x.com/teruyoshi_uec/status/1965389717224276231",
+    "latest-version": "2025.09.09",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "teruyoshi"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "トラックバー",
+      "音声",
+      "エフェクト"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/refs/heads/main/%E9%9F%B3%E5%A3%B0%E5%90%8C%E6%9C%9F.tra2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/音声同期.tra2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/音声同期.tra2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.09.09",
+        "release_date": "2025-09-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/音声同期.tra2",
+            "XXH3_128": "a66716f7ce798954238e324d607ca78e"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "Nagomiku.CrushPNG",
     "name": "CrushPNG",
     "type": "スクリプト",
