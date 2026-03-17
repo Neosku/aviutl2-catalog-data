@@ -18788,9 +18788,7 @@
     "images": [],
     "installer": {
       "source": {
-        "GoogleDrive": {
-          "id": "1HvRxJtsYAvyGA8T1ViN8m6wcm_WMqhyg"
-        }
+        "direct": "https://raw.githubusercontent.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/refs/heads/main/%E9%9F%B3%E5%A3%B0%E5%90%8C%E6%9C%9F.tra2"
       },
       "install": [
         {
