@@ -19038,5 +19038,74 @@
         ]
       }
     ]
+  },
+  {
+    "id": "korarei.Constraint",
+    "name": "Constraint",
+    "type": "スクリプト",
+    "summary": "テキストの横にアイコン画像を表示",
+    "description": "./md/korarei.Constraint.md",
+    "author": "Korarei",
+    "repoURL": "https://gist.github.com/korarei/d5b089a69e0c8ba5903d641d677c89e8",
+    "latest-version": "v0.2.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "スクリプト",
+      "テキスト",
+      "配置",
+      "画像"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/korarei.Constraint_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://gist.githubusercontent.com/korarei/d5b089a69e0c8ba5903d641d677c89e8/raw/17465fec4af168b05b06d043419630f11a975e7d/Constraint.anm2"
+      },
+      "install": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Constraint.anm2"
+        },
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Constraint.anm2",
+          "to": "{scriptsDir}/Constraint/"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Constraint"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.2.0",
+        "release_date": "2026-03-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/Constraint/Constraint.anm2",
+            "XXH3_128": "9436d73c3087c0a1eba6b3e61120f5d7"
+          }
+        ]
+      }
+    ]
   }
 ]
