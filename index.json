@@ -18328,7 +18328,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/disassembler.anm2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/disassembler.anm2",
-    "latest-version": "0.1.5",
+    "latest-version": "0.2.0",
     "popularity": 399,
     "trend": 395,
     "licenses": [
@@ -18441,6 +18441,16 @@
           {
             "path": "{scriptsDir}/disassembler.anm2.anm2",
             "XXH3_128": "eb04083121fec1a08c2f42d530a8b912"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0",
+        "release_date": "2026-03-20",
+        "file": [
+          {
+            "path": "{scriptsDir}/disassembler.anm2.anm2",
+            "XXH3_128": "e8122b9577cfe0de81d1181a3b830d1c"
           }
         ]
       }
