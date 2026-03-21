@@ -6922,10 +6922,10 @@
     "name": "ScriptBrowserPlugin",
     "type": "汎用プラグイン",
     "summary": "多くの効果を検索し、付与や追加等ができるPluginです",
-    "description": "./md/naltutyo-ScriptBrowserPlugin.md",
+    "description": "./md/naltutyo.ScriptBrowserPlugin.md",
     "author": "Nao",
     "repoURL": "https://nao-kid.booth.pm/items/7684889",
-    "latest-version": "v2.99",
+    "latest-version": "v3.0",
     "popularity": 147,
     "trend": 92,
     "licenses": [
@@ -6943,12 +6943,12 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/naltutyo-ScriptBrowserPlugin_thumbnail.png"
+        "thumbnail": "./image/naltutyo.ScriptBrowserPlugin_thumbnail.png"
       }
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8523234?_gl=1*rnx52r*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzMxMDkyNDEkbzYkZzEkdDE3NzMxMDk0NzIkajU5JGwwJGgw"
+        "booth": "https://booth.pm/downloadables/8581570?_gl=1*1w1dl2x*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzQwODg4MDMkbzUkZzEkdDE3NzQwODg5NDEkajU5JGwwJGgw"
       },
       "install": [
         {
@@ -6959,7 +6959,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/v2.99/SearchBrowserPlugin.aux2",
+          "from": "{tmp}/v3.0/SearchBrowserPlugin.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -7038,6 +7038,16 @@
           {
             "path": "{pluginsDir}/SearchBrowserPlugin.aux2",
             "XXH3_128": "0f3a2de76435c5597b5672496f9ae447"
+          }
+        ]
+      },
+      {
+        "version": "v3.0",
+        "release_date": "2026-03-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/SearchBrowserPlugin.aux2",
+            "XXH3_128": "4b5192c5298eae4e90cf8f9c9082bffa"
           }
         ]
       }
