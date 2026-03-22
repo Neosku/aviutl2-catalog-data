@@ -1,7 +1,7 @@
 [
   {
     "id": "Kenkun.AviUtlExEdit2",
-    "latest-version": "beta37",
+    "latest-version": "beta38a",
     "checkType": {
       "type": "URL",
       "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
@@ -165,7 +165,7 @@
   },
   {
     "id": "rigaya.VCEEnc",
-    "latest-version": "9.04",
+    "latest-version": "9.05",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/VCEEnc",
@@ -622,7 +622,7 @@
   },
   {
     "id": "Natadecoco.MyAssetManager",
-    "latest-version": "v1.6",
+    "latest-version": "v1.6.1",
     "checkType": {
       "type": "GitHub",
       "repo": "Natadecoco2539/AviUtl2-MyAssetManager",
@@ -1382,7 +1382,7 @@
   },
   {
     "id": "Book-0225.EAP2",
-    "latest-version": "v0.0.27",
+    "latest-version": "v0.0.28",
     "checkType": {
       "type": "GitHub",
       "repo": "Book-0225/aviutl2_External_Audio_Processing",
@@ -1839,7 +1839,7 @@
   },
   {
     "id": "VRAMWIZ.Syncroh2",
-    "latest-version": "v2.1.1",
+    "latest-version": "v2.1.2",
     "checkType": {
       "type": "GitHub",
       "repo": "vramwiz/Syncroh2-site",
