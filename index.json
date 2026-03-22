@@ -13973,7 +13973,7 @@
         "github": {
           "owner": "Book-0225",
           "repo": "aviutl2_External_Audio_Processing",
-          "pattern": "External_Audio_Processing2.aux2"
+          "pattern": "External_Audio_Processing2.au2pkg.zip"
         }
       },
       "install": [
@@ -13981,15 +13981,27 @@
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/External_Audio_Processing2.aux2",
+          "from": "{tmp}/Plugin/External_Audio_Processing2.aux2",
           "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.External_Audio_Processing2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/External_Audio_Processing2.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.External_Audio_Processing2.aul2"
         }
       ]
     },
