@@ -7,9 +7,9 @@
     "description": "./md/Kenkun.AviUtlExEdit2.md",
     "author": "ＫＥＮくん",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-    "latest-version": "beta38",
-    "popularity": 10770,
-    "trend": 3054,
+    "latest-version": "beta38a",
+    "popularity": 10971,
+    "trend": 3105,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -30,7 +30,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta38_setup.exe"
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta38a_setup.exe"
       },
       "install": [
         {
@@ -553,6 +553,16 @@
             "XXH3_128": "6383d13d6fad4c6ccdf2e0c4ccad7124"
           }
         ]
+      },
+      {
+        "version": "beta38a",
+        "release_date": "2026-03-22",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "4145ad796e91f5095c91d5afd4f08326"
+          }
+        ]
       }
     ]
   },
@@ -565,8 +575,8 @@
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_jd/",
     "latest-version": "r30",
-    "popularity": 1686,
-    "trend": 95,
+    "popularity": 1684,
+    "trend": 94,
     "licenses": [
       {
         "type": "MIT",
@@ -934,8 +944,8 @@
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_wav_saver/",
     "latest-version": "r3",
-    "popularity": 2119,
-    "trend": 447,
+    "popularity": 2152,
+    "trend": 431,
     "licenses": [
       {
         "type": "MIT",
@@ -1045,8 +1055,8 @@
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x264guiEx",
     "latest-version": "4.09",
-    "popularity": 10457,
-    "trend": 591,
+    "popularity": 10651,
+    "trend": 604,
     "licenses": [
       {
         "type": "MIT",
@@ -1250,8 +1260,8 @@
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x265guiEx",
     "latest-version": "5.06",
-    "popularity": 2027,
-    "trend": 437,
+    "popularity": 2080,
+    "trend": 445,
     "licenses": [
       {
         "type": "MIT",
@@ -1420,8 +1430,8 @@
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/NVEnc",
     "latest-version": "9.12",
-    "popularity": 1713,
-    "trend": 754,
+    "popularity": 1746,
+    "trend": 790,
     "licenses": [
       {
         "type": "MIT",
@@ -1679,8 +1689,8 @@
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/QSVEnc",
     "latest-version": "8.06",
-    "popularity": 306,
-    "trend": 139,
+    "popularity": 311,
+    "trend": 141,
     "licenses": [
       {
         "type": "MIT",
@@ -1858,8 +1868,8 @@
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/ffmpegOut",
     "latest-version": "2.05",
-    "popularity": 963,
-    "trend": 180,
+    "popularity": 979,
+    "trend": 182,
     "licenses": [
       {
         "type": "MIT",
@@ -2016,9 +2026,9 @@
     "description": "./md/rigaya.VCEEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/VCEEnc",
-    "latest-version": "9.04",
-    "popularity": 271,
-    "trend": 127,
+    "latest-version": "9.05",
+    "popularity": 275,
+    "trend": 133,
     "licenses": [
       {
         "type": "MIT",
@@ -2154,6 +2164,16 @@
             "XXH3_128": "27e72956beb00ae50b573651a5510c87"
           }
         ]
+      },
+      {
+        "version": "9.05",
+        "release_date": "2026-03-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/VCEEnc.auo2",
+            "XXH3_128": "4d5af301cb9c97fa9d1f54dad1cceca1"
+          }
+        ]
       }
     ]
   },
@@ -2166,8 +2186,8 @@
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/svtAV1guiEx",
     "latest-version": "2.09",
-    "popularity": 243,
-    "trend": 42,
+    "popularity": 250,
+    "trend": 46,
     "licenses": [
       {
         "type": "MIT",
@@ -2365,8 +2385,8 @@
     "author": "Mr-Ojii",
     "repoURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds",
     "latest-version": "r1267",
-    "popularity": 10874,
-    "trend": 2341,
+    "popularity": 11075,
+    "trend": 2249,
     "licenses": [
       {
         "type": "MIT",
@@ -2956,8 +2976,8 @@
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_AutoClipping_S",
     "latest-version": "v1.13-for-beta22",
-    "popularity": 999,
-    "trend": 168,
+    "popularity": 1008,
+    "trend": 165,
     "licenses": [
       {
         "type": "MIT",
@@ -3067,8 +3087,8 @@
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_RadRotDirBlur_S",
     "latest-version": "v1.05-for-beta25",
-    "popularity": 1786,
-    "trend": 363,
+    "popularity": 1808,
+    "trend": 357,
     "licenses": [
       {
         "type": "MIT",
@@ -3186,8 +3206,8 @@
     "author": "gometh",
     "repoURL": "https://x.com/gometh55/status/1942624351028928756",
     "latest-version": "v1",
-    "popularity": 1539,
-    "trend": 351,
+    "popularity": 1562,
+    "trend": 350,
     "licenses": [
       {
         "type": "不明",
@@ -3255,8 +3275,8 @@
     "author": "もも猫",
     "repoURL": "https://x.com/momo_neeeko/status/1947433839112163352",
     "latest-version": "ver2.0",
-    "popularity": 1167,
-    "trend": 215,
+    "popularity": 1184,
+    "trend": 208,
     "licenses": [
       {
         "type": "不明",
@@ -3315,8 +3335,8 @@
     "author": "もも猫",
     "repoURL": "https://x.com/momo_neeeko/status/1944343165852426666",
     "latest-version": "ver1.0",
-    "popularity": 1189,
-    "trend": 199,
+    "popularity": 1206,
+    "trend": 205,
     "licenses": [
       {
         "type": "不明",
@@ -3375,8 +3395,8 @@
     "author": "もも猫",
     "repoURL": "https://x.com/momo_neeeko/status/1944343165852426666",
     "latest-version": "ver1.0",
-    "popularity": 670,
-    "trend": 104,
+    "popularity": 677,
+    "trend": 108,
     "licenses": [
       {
         "type": "不明",
@@ -3435,7 +3455,7 @@
     "author": "もも猫",
     "repoURL": "https://x.com/momo_neeeko/status/1944343165852426666",
     "latest-version": "ver1.0",
-    "popularity": 1294,
+    "popularity": 1314,
     "trend": 230,
     "licenses": [
       {
@@ -3495,8 +3515,8 @@
     "author": "Nagomiku",
     "repoURL": "https://x.com/nagomiku7359/status/1943304659487396140",
     "latest-version": "ver3.0",
-    "popularity": 479,
-    "trend": 74,
+    "popularity": 483,
+    "trend": 73,
     "licenses": [
       {
         "type": "不明",
@@ -3555,8 +3575,8 @@
     "author": "テツ",
     "repoURL": "https://x.com/tt_xiaop/status/1943165775189270911",
     "latest-version": "ver1.0",
-    "popularity": 846,
-    "trend": 136,
+    "popularity": 857,
+    "trend": 140,
     "licenses": [
       {
         "type": "不明",
@@ -3616,8 +3636,8 @@
     "author": "テツ",
     "repoURL": "https://x.com/tt_xiaop/status/1942481707682115712",
     "latest-version": "ver1.0",
-    "popularity": 644,
-    "trend": 108,
+    "popularity": 655,
+    "trend": 112,
     "licenses": [
       {
         "type": "不明",
@@ -3676,8 +3696,8 @@
     "author": "もも猫",
     "repoURL": "https://x.com/momo_neeeko/status/1946436761141629252",
     "latest-version": "ver1.0",
-    "popularity": 469,
-    "trend": 61,
+    "popularity": 478,
+    "trend": 67,
     "licenses": [
       {
         "type": "不明",
@@ -3736,8 +3756,8 @@
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_Stylize_K_Script",
     "latest-version": "v1.2.1",
-    "popularity": 745,
-    "trend": 118,
+    "popularity": 754,
+    "trend": 117,
     "licenses": [
       {
         "type": "MIT",
@@ -3847,8 +3867,8 @@
     "author": "Re*Index. (ot_inc)",
     "repoURL": "https://github.com/reindex-ot/reindex_AviUtl2_Language",
     "latest-version": "Beta29",
-    "popularity": 609,
-    "trend": 93,
+    "popularity": 620,
+    "trend": 98,
     "licenses": [
       {
         "type": "WTFPL license",
@@ -3933,8 +3953,8 @@
     "author": "セイル",
     "repoURL": "https://github.com/seilor0/roundedPolygon_sl",
     "latest-version": "v1.2.1",
-    "popularity": 1205,
-    "trend": 263,
+    "popularity": 1221,
+    "trend": 258,
     "licenses": [
       {
         "type": "MIT",
@@ -4037,8 +4057,8 @@
     "author": "セイル",
     "repoURL": "https://github.com/seilor0/twinkle_sl",
     "latest-version": "v1.2.1",
-    "popularity": 1407,
-    "trend": 307,
+    "popularity": 1425,
+    "trend": 303,
     "licenses": [
       {
         "type": "MIT",
@@ -4138,8 +4158,8 @@
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_memo",
     "latest-version": "r1",
-    "popularity": 656,
-    "trend": 138,
+    "popularity": 665,
+    "trend": 132,
     "licenses": [
       {
         "type": "MIT",
@@ -4216,8 +4236,8 @@
     "author": "Mr-Ojii",
     "repoURL": "https://github.com/Mr-Ojii/AviUtl2-WebPFileReader-Plugin",
     "latest-version": "r1",
-    "popularity": 588,
-    "trend": 101,
+    "popularity": 600,
+    "trend": 102,
     "licenses": [
       {
         "type": "MIT",
@@ -4289,7 +4309,7 @@
     "author": "yu7400ki",
     "repoURL": "https://yu7400ki.me/aviutl2-animated-image-output/",
     "latest-version": "v1.1.2",
-    "popularity": 710,
+    "popularity": 718,
     "trend": 135,
     "licenses": [
       {
@@ -4361,8 +4381,8 @@
     "author": "yu7400ki",
     "repoURL": "https://yu7400ki.me/aviutl2-animated-image-output/",
     "latest-version": "v1.1.3",
-    "popularity": 2349,
-    "trend": 497,
+    "popularity": 2381,
+    "trend": 492,
     "licenses": [
       {
         "type": "MIT",
@@ -4433,8 +4453,8 @@
     "author": "yu7400ki",
     "repoURL": "https://yu7400ki.me/aviutl2-animated-image-output/",
     "latest-version": "v1.1.2",
-    "popularity": 425,
-    "trend": 74,
+    "popularity": 431,
+    "trend": 73,
     "licenses": [
       {
         "type": "MIT",
@@ -4505,8 +4525,8 @@
     "author": "yu7400ki",
     "repoURL": "https://yu7400ki.me/aviutl2-animated-image-output/",
     "latest-version": "v1.1.3",
-    "popularity": 213,
-    "trend": 32,
+    "popularity": 216,
+    "trend": 30,
     "licenses": [
       {
         "type": "MIT",
@@ -4577,8 +4597,8 @@
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Basic_S",
     "latest-version": "v1.80-for-beta29",
-    "popularity": 4129,
-    "trend": 1019,
+    "popularity": 4204,
+    "trend": 1016,
     "licenses": [
       {
         "type": "MIT",
@@ -4811,7 +4831,7 @@
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Path_S/",
     "latest-version": "v1.12-for-beta25",
-    "popularity": 1381,
+    "popularity": 1400,
     "trend": 273,
     "licenses": [
       {
@@ -4932,8 +4952,8 @@
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_PixelSorter_K_Script",
     "latest-version": "v1.0.1",
-    "popularity": 943,
-    "trend": 244,
+    "popularity": 960,
+    "trend": 243,
     "licenses": [
       {
         "type": "MIT",
@@ -5019,8 +5039,8 @@
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script",
     "latest-version": "v1.1.1",
-    "popularity": 3451,
-    "trend": 803,
+    "popularity": 3502,
+    "trend": 794,
     "licenses": [
       {
         "type": "MIT",
@@ -5125,8 +5145,8 @@
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_ColoredCollar_S",
     "latest-version": "v1.00-for-beta5",
-    "popularity": 509,
-    "trend": 81,
+    "popularity": 519,
+    "trend": 87,
     "licenses": [
       {
         "type": "MIT",
@@ -5195,8 +5215,8 @@
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Tile_S",
     "latest-version": "v1.03-for-beta25",
-    "popularity": 1104,
-    "trend": 213,
+    "popularity": 1121,
+    "trend": 218,
     "licenses": [
       {
         "type": "MIT",
@@ -5297,8 +5317,8 @@
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Resize_S",
     "latest-version": "v1.11-for-beta25",
-    "popularity": 437,
-    "trend": 79,
+    "popularity": 440,
+    "trend": 78,
     "licenses": [
       {
         "type": "MIT",
@@ -5399,8 +5419,8 @@
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_PixelSnap_S",
     "latest-version": "v1.04-for-beta20",
-    "popularity": 453,
-    "trend": 68,
+    "popularity": 461,
+    "trend": 71,
     "licenses": [
       {
         "type": "MIT",
@@ -5480,8 +5500,8 @@
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_PageRoll_S",
     "latest-version": "v1.12-for-beta25",
-    "popularity": 446,
-    "trend": 79,
+    "popularity": 454,
+    "trend": 80,
     "licenses": [
       {
         "type": "MIT",
@@ -5589,8 +5609,8 @@
     "author": "Garech",
     "repoURL": "https://github.com/Garech-mas/AviUtl2_SplitFilters",
     "latest-version": "v1.06",
-    "popularity": 1221,
-    "trend": 352,
+    "popularity": 1232,
+    "trend": 336,
     "licenses": [
       {
         "type": "MIT",
@@ -5735,8 +5755,8 @@
     "author": "Garech",
     "repoURL": "https://github.com/Garech-mas/jp_akey.aul2",
     "latest-version": "v0.24",
-    "popularity": 292,
-    "trend": 37,
+    "popularity": 299,
+    "trend": 42,
     "licenses": [
       {
         "type": "CC0-1.0",
@@ -5804,8 +5824,8 @@
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S",
     "latest-version": "v1.05-for-beta25",
-    "popularity": 996,
-    "trend": 174,
+    "popularity": 1010,
+    "trend": 178,
     "licenses": [
       {
         "type": "MIT",
@@ -5930,8 +5950,8 @@
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Histogram_S",
     "latest-version": "v1.10-for-beta30a",
-    "popularity": 235,
-    "trend": 34,
+    "popularity": 240,
+    "trend": 40,
     "licenses": [
       {
         "type": "MIT",
@@ -6015,8 +6035,8 @@
     "author": "zopty",
     "repoURL": "https://gist.github.com/zopty/ff3439d79fe609c7714d6db4ef1a39a6",
     "latest-version": "v1.0.0",
-    "popularity": 812,
-    "trend": 161,
+    "popularity": 821,
+    "trend": 162,
     "licenses": [
       {
         "type": "BSD-3-Clause",
@@ -6081,8 +6101,8 @@
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-ColorHalftone",
     "latest-version": "v2.0.0",
-    "popularity": 964,
-    "trend": 323,
+    "popularity": 981,
+    "trend": 326,
     "licenses": [
       {
         "type": "MIT",
@@ -6196,8 +6216,8 @@
     "author": "おおぶ",
     "repoURL": "https://github.com/oov/aviutl2_gcmzdrops2",
     "latest-version": "v2.0.0beta1",
-    "popularity": 3307,
-    "trend": 697,
+    "popularity": 3359,
+    "trend": 699,
     "licenses": [
       {
         "type": "MIT",
@@ -6426,8 +6446,8 @@
     "author": "甘味",
     "repoURL": "https://github.com/amaii4/AviUtl2_Discord_RPC",
     "latest-version": "1.2",
-    "popularity": 655,
-    "trend": 135,
+    "popularity": 663,
+    "trend": 128,
     "licenses": [
       {
         "type": "MIT",
@@ -6515,8 +6535,8 @@
     "author": "なたのこ",
     "repoURL": "https://github.com/Natadecoco2539/AviUtl2-TextEditor",
     "latest-version": "2.0",
-    "popularity": 3961,
-    "trend": 928,
+    "popularity": 4027,
+    "trend": 929,
     "licenses": [
       {
         "type": "MIT",
@@ -6586,8 +6606,8 @@
     "author": "なたのこ",
     "repoURL": "https://github.com/Natadecoco2539/AviUtl2-TextSplitter",
     "latest-version": "1.2",
-    "popularity": 1839,
-    "trend": 382,
+    "popularity": 1873,
+    "trend": 392,
     "licenses": [
       {
         "type": "MIT",
@@ -6653,9 +6673,9 @@
     "description": "./md/Natadecoco.MyAssetManager.md",
     "author": "なたのこ",
     "repoURL": "https://github.com/Natadecoco2539/AviUtl2-MyAssetManager",
-    "latest-version": "v1.6",
-    "popularity": 1255,
-    "trend": 605,
+    "latest-version": "v1.6.1",
+    "popularity": 1265,
+    "trend": 596,
     "licenses": [
       {
         "type": "MIT",
@@ -6772,6 +6792,16 @@
             "XXH3_128": "dbf643f5ba97b35d95c9a6e1a6ae47b7"
           }
         ]
+      },
+      {
+        "version": "v1.6.1",
+        "release_date": "2026-03-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/MyAssetManager.aux2",
+            "XXH3_128": "4851492fcd357ac7f33460ddde1f2070"
+          }
+        ]
       }
     ]
   },
@@ -6784,7 +6814,7 @@
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-GradientPlus",
     "latest-version": "v1.1.1",
-    "popularity": 585,
+    "popularity": 593,
     "trend": 140,
     "licenses": [
       {
@@ -6869,8 +6899,8 @@
     "author": "Nao",
     "repoURL": "https://nao-kid.booth.pm/items/7737503",
     "latest-version": "v1.0",
-    "popularity": 363,
-    "trend": 61,
+    "popularity": 392,
+    "trend": 67,
     "licenses": [
       {
         "type": "不明",
@@ -6935,8 +6965,8 @@
     "description": "./md/naltutyo.ScriptBrowserPlugin.md",
     "author": "Nao",
     "repoURL": "https://nao-kid.booth.pm/items/7684889",
-    "latest-version": "v3.0",
-    "popularity": 147,
+    "latest-version": "v3.01",
+    "popularity": 152,
     "trend": 92,
     "licenses": [
       {
@@ -6958,7 +6988,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8581570?_gl=1*1w1dl2x*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzQwODg4MDMkbzUkZzEkdDE3NzQwODg5NDEkajU5JGwwJGgw"
+        "booth": "https://booth.pm/downloadables/8581906?_gl=1*oj641f*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzQxNTQwOTUkbzckZzEkdDE3NzQxNTQxMDIkajUzJGwwJGgw"
       },
       "install": [
         {
@@ -6969,7 +6999,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/v3.0/SearchBrowserPlugin.aux2",
+          "from": "{tmp}/v3.1/SearchBrowserPlugin.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -7060,6 +7090,16 @@
             "XXH3_128": "4b5192c5298eae4e90cf8f9c9082bffa"
           }
         ]
+      },
+      {
+        "version": "v3.01",
+        "release_date": "2026-03-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/SearchBrowserPlugin.aux2",
+            "XXH3_128": "b6b303130101c539a6c39cd383975a62"
+          }
+        ]
       }
     ]
   },
@@ -7073,7 +7113,7 @@
     "repoURL": "https://booth.pm/ja/items/7544010",
     "latest-version": "v0.0.85",
     "popularity": 157,
-    "trend": 22,
+    "trend": 21,
     "licenses": [
       {
         "type": "MIT",
@@ -7138,8 +7178,8 @@
     "author": "おおぶ",
     "repoURL": "https://github.com/oov/aviutl2_psdtoolkit2",
     "latest-version": "v2.0.0alpha10",
-    "popularity": 2312,
-    "trend": 499,
+    "popularity": 2349,
+    "trend": 497,
     "licenses": [
       {
         "type": "MIT",
@@ -7310,8 +7350,8 @@
     "originalAuthor": "高橋直哉",
     "repoURL": "https://github.com/karoterra/aviutl2-OilPainting",
     "latest-version": "v1.0.0",
-    "popularity": 772,
-    "trend": 159,
+    "popularity": 782,
+    "trend": 161,
     "licenses": [
       {
         "type": "MIT",
@@ -7381,8 +7421,8 @@
     "author": "かろてら",
     "repoURL": "https://github.com/karoterra/aviutl2-Bend",
     "latest-version": "v1.0.1",
-    "popularity": 662,
-    "trend": 134,
+    "popularity": 675,
+    "trend": 136,
     "licenses": [
       {
         "type": "MIT",
@@ -7472,8 +7512,8 @@
     "author": "かろてら",
     "repoURL": "https://github.com/karoterra/aviutl2-ColorVisionSimulation",
     "latest-version": "v1.0.0",
-    "popularity": 176,
-    "trend": 30,
+    "popularity": 179,
+    "trend": 31,
     "licenses": [
       {
         "type": "Unlicense",
@@ -7539,8 +7579,8 @@
     "originalAuthor": "aoytsk様",
     "repoURL": "https://nao-kid.booth.pm/items/7791311",
     "latest-version": "v4.1",
-    "popularity": 203,
-    "trend": 125,
+    "popularity": 217,
+    "trend": 130,
     "licenses": [
       {
         "type": "不明",
@@ -7737,8 +7777,8 @@
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_AutoLyricAnimation_K_Script",
     "latest-version": "v1.0.1",
-    "popularity": 2252,
-    "trend": 470,
+    "popularity": 2281,
+    "trend": 467,
     "licenses": [
       {
         "type": "MIT",
@@ -7818,8 +7858,8 @@
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_CameraTransform_K_Script",
     "latest-version": "v1.0.5",
-    "popularity": 697,
-    "trend": 180,
+    "popularity": 712,
+    "trend": 189,
     "licenses": [
       {
         "type": "MIT",
@@ -7951,8 +7991,8 @@
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_Kaleidoscope_K_Script",
     "latest-version": "v1.0.3",
-    "popularity": 538,
-    "trend": 131,
+    "popularity": 550,
+    "trend": 136,
     "licenses": [
       {
         "type": "MIT",
@@ -8063,8 +8103,8 @@
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_ColorLUT_K_Plugin",
     "latest-version": "v1.2.0",
-    "popularity": 299,
-    "trend": 161,
+    "popularity": 304,
+    "trend": 164,
     "licenses": [
       {
         "type": "MIT",
@@ -8182,8 +8222,8 @@
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_tl_walkaround2",
     "latest-version": "v1.22-for-beta26",
-    "popularity": 403,
-    "trend": 65,
+    "popularity": 408,
+    "trend": 62,
     "licenses": [
       {
         "type": "MIT",
@@ -8294,7 +8334,7 @@
     "author": "zopty",
     "repoURL": "https://github.com/zopty/DokodemoBuffer",
     "latest-version": "v2.3.0",
-    "popularity": 594,
+    "popularity": 606,
     "trend": 164,
     "licenses": [
       {
@@ -8425,8 +8465,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/2000355120782164458",
     "latest-version": "v1.0.0",
-    "popularity": 1594,
-    "trend": 394,
+    "popularity": 1616,
+    "trend": 389,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -8497,8 +8537,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/2009429917847658676",
     "latest-version": "v1.0.0",
-    "popularity": 405,
-    "trend": 77,
+    "popularity": 412,
+    "trend": 80,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -8569,8 +8609,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1967755313521512906",
     "latest-version": "v1.0.1",
-    "popularity": 448,
-    "trend": 76,
+    "popularity": 454,
+    "trend": 80,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -8641,8 +8681,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1967755313521512906?s=20",
     "latest-version": "v1.0.1",
-    "popularity": 817,
-    "trend": 159,
+    "popularity": 829,
+    "trend": 155,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -8712,8 +8752,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1968330680842297713",
     "latest-version": "v1.0.3",
-    "popularity": 611,
-    "trend": 108,
+    "popularity": 622,
+    "trend": 116,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -8782,8 +8822,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1971818367167483937",
     "latest-version": "v1.0.0",
-    "popularity": 642,
-    "trend": 122,
+    "popularity": 655,
+    "trend": 124,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -8852,8 +8892,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1971988664227172734",
     "latest-version": "v1.0.0",
-    "popularity": 409,
-    "trend": 62,
+    "popularity": 417,
+    "trend": 68,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -8922,8 +8962,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1975320165941129277",
     "latest-version": "2026.02.22",
-    "popularity": 374,
-    "trend": 114,
+    "popularity": 382,
+    "trend": 116,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -8993,8 +9033,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1978378817640018296",
     "latest-version": "2026.02.22",
-    "popularity": 765,
-    "trend": 296,
+    "popularity": 778,
+    "trend": 282,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -9065,8 +9105,8 @@
     "author": "てるよし",
     "repoURL": "https://x.com/teruyoshi_uec/status/1979927691215471002",
     "latest-version": "v1.3",
-    "popularity": 1308,
-    "trend": 330,
+    "popularity": 1330,
+    "trend": 333,
     "licenses": [
       {
         "type": "MIT",
@@ -9134,7 +9174,7 @@
     "author": "てるよし",
     "repoURL": "https://github.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/blob/main/%E3%83%91%E3%82%B9%E3%82%B0%E3%83%A9%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.anm2",
     "latest-version": "v1.1",
-    "popularity": 489,
+    "popularity": 498,
     "trend": 112,
     "licenses": [
       {
@@ -9203,7 +9243,7 @@
     "author": "shyachi",
     "repoURL": "https://github.com/shyachi/AviUtl2_SrtImporter",
     "latest-version": "v0.11",
-    "popularity": 187,
+    "popularity": 190,
     "trend": 59,
     "licenses": [
       {
@@ -9300,8 +9340,8 @@
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_preset_adder",
     "latest-version": "r4",
-    "popularity": 656,
-    "trend": 287,
+    "popularity": 663,
+    "trend": 305,
     "licenses": [
       {
         "type": "MIT",
@@ -9428,8 +9468,8 @@
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_WhiteBalance_S",
     "latest-version": "v1.00-for-beta29",
-    "popularity": 634,
-    "trend": 127,
+    "popularity": 645,
+    "trend": 128,
     "licenses": [
       {
         "type": "MIT",
@@ -9499,8 +9539,8 @@
     "author": "arcana",
     "repoURL": "https://github.com/ar-ca-na/connection_line/",
     "latest-version": "2025-10-27",
-    "popularity": 302,
-    "trend": 48,
+    "popularity": 309,
+    "trend": 49,
     "licenses": [
       {
         "type": "MIT",
@@ -9560,8 +9600,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1991423812328648848?s=20",
     "latest-version": "v1.0.0",
-    "popularity": 1060,
-    "trend": 229,
+    "popularity": 1070,
+    "trend": 219,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -9631,8 +9671,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1992790280186011754",
     "latest-version": "v1.0.1",
-    "popularity": 1033,
-    "trend": 218,
+    "popularity": 1049,
+    "trend": 223,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -9703,8 +9743,8 @@
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1996544042973409715",
     "latest-version": "v1.0.1",
-    "popularity": 544,
-    "trend": 128,
+    "popularity": 557,
+    "trend": 129,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -9786,8 +9826,8 @@
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_visual_font",
     "latest-version": "r4",
-    "popularity": 4448,
-    "trend": 1633,
+    "popularity": 4539,
+    "trend": 1706,
     "licenses": [
       {
         "type": "MIT",
@@ -9915,8 +9955,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.21.0",
-    "popularity": 395,
-    "trend": 213,
+    "popularity": 398,
+    "trend": 190,
     "licenses": [
       {
         "type": "MIT",
@@ -10136,8 +10176,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.21.0",
-    "popularity": 290,
-    "trend": 172,
+    "popularity": 294,
+    "trend": 155,
     "licenses": [
       {
         "type": "MIT",
@@ -10357,8 +10397,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.21.0",
-    "popularity": 578,
-    "trend": 308,
+    "popularity": 583,
+    "trend": 285,
     "licenses": [
       {
         "type": "MIT",
@@ -10578,8 +10618,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.21.0",
-    "popularity": 222,
-    "trend": 117,
+    "popularity": 227,
+    "trend": 116,
     "licenses": [
       {
         "type": "MIT",
@@ -10798,8 +10838,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.21.0",
-    "popularity": 1672,
-    "trend": 876,
+    "popularity": 1706,
+    "trend": 843,
     "licenses": [
       {
         "type": "MIT",
@@ -11020,7 +11060,7 @@
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.21.0",
     "popularity": 379,
-    "trend": 196,
+    "trend": 172,
     "licenses": [
       {
         "type": "MIT",
@@ -11239,8 +11279,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.21.0",
-    "popularity": 182,
-    "trend": 107,
+    "popularity": 185,
+    "trend": 95,
     "licenses": [
       {
         "type": "MIT",
@@ -11459,8 +11499,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.21.0",
-    "popularity": 337,
-    "trend": 196,
+    "popularity": 341,
+    "trend": 172,
     "licenses": [
       {
         "type": "MIT",
@@ -11680,8 +11720,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.21.0",
-    "popularity": 473,
-    "trend": 257,
+    "popularity": 477,
+    "trend": 224,
     "licenses": [
       {
         "type": "MIT",
@@ -11901,8 +11941,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.21.0",
-    "popularity": 310,
-    "trend": 173,
+    "popularity": 315,
+    "trend": 156,
     "licenses": [
       {
         "type": "MIT",
@@ -12121,8 +12161,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.21.0",
-    "popularity": 519,
-    "trend": 298,
+    "popularity": 526,
+    "trend": 274,
     "licenses": [
       {
         "type": "MIT",
@@ -12341,8 +12381,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.21.0",
-    "popularity": 1017,
-    "trend": 559,
+    "popularity": 1026,
+    "trend": 510,
     "licenses": [
       {
         "type": "MIT",
@@ -12565,8 +12605,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.21.0",
-    "popularity": 261,
-    "trend": 156,
+    "popularity": 266,
+    "trend": 143,
     "licenses": [
       {
         "type": "MIT",
@@ -12785,8 +12825,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.21.0",
-    "popularity": 202,
-    "trend": 115,
+    "popularity": 204,
+    "trend": 103,
     "licenses": [
       {
         "type": "MIT",
@@ -13005,8 +13045,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/ntsc-rs.anm2",
     "latest-version": "0.2.1",
-    "popularity": 1640,
-    "trend": 676,
+    "popularity": 1676,
+    "trend": 662,
     "licenses": [
       {
         "type": "MIT",
@@ -13119,8 +13159,8 @@
     "author": "3aGaM1",
     "repoURL": "https://github.com/sagami121/Aviutl2-AudioEnc",
     "latest-version": "v1.3",
-    "popularity": 554,
-    "trend": 170,
+    "popularity": 564,
+    "trend": 167,
     "licenses": [
       {
         "type": "MIT",
@@ -13224,8 +13264,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/clipboard.aux2",
     "latest-version": "0.2.4",
-    "popularity": 1503,
-    "trend": 604,
+    "popularity": 1527,
+    "trend": 577,
     "licenses": [
       {
         "type": "MIT",
@@ -13317,8 +13357,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/vintage.auf2",
     "latest-version": "0.1.3",
-    "popularity": 1005,
-    "trend": 349,
+    "popularity": 1020,
+    "trend": 326,
     "licenses": [
       {
         "type": "MIT",
@@ -13403,8 +13443,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2#%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2anm2",
     "latest-version": "v3.2",
-    "popularity": 438,
-    "trend": 79,
+    "popularity": 445,
+    "trend": 82,
     "licenses": [
       {
         "type": "CC0-1.0",
@@ -13462,8 +13502,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E7%9B%AE%E6%A8%99%E6%8C%87%E5%AE%9A%E6%8B%A1%E5%A4%A7%E7%B8%AE%E5%B0%8F/README.md",
     "latest-version": "v1.0",
-    "popularity": 244,
-    "trend": 49,
+    "popularity": 248,
+    "trend": 54,
     "licenses": [
       {
         "type": "CC0-1.0",
@@ -13522,8 +13562,8 @@
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_slimming",
     "latest-version": "r3",
-    "popularity": 936,
-    "trend": 404,
+    "popularity": 946,
+    "trend": 428,
     "licenses": [
       {
         "type": "MIT",
@@ -13628,8 +13668,8 @@
     "author": "Garech",
     "repoURL": "https://github.com/Garech-mas/DoubleBPMGrid",
     "latest-version": "v2.3-aul2",
-    "popularity": 1032,
-    "trend": 363,
+    "popularity": 1052,
+    "trend": 347,
     "licenses": [
       {
         "type": "MIT",
@@ -13724,8 +13764,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/svg.aux2",
     "latest-version": "0.3.2",
-    "popularity": 265,
-    "trend": 96,
+    "popularity": 270,
+    "trend": 94,
     "licenses": [
       {
         "type": "MIT",
@@ -13820,8 +13860,8 @@
     "originalAuthor": "えすご",
     "repoURL": "https://apps.esugo.net/aviutl2-mp4exporter/",
     "latest-version": "v1.0.1",
-    "popularity": 1726,
-    "trend": 314,
+    "popularity": 1922,
+    "trend": 364,
     "licenses": [
       {
         "type": "不明",
@@ -13898,8 +13938,8 @@
     "author": "Book0225",
     "repoURL": "https://github.com/Book-0225/aviutl2_External_Audio_Processing",
     "latest-version": "v0.0.28",
-    "popularity": 325,
-    "trend": 113,
+    "popularity": 332,
+    "trend": 122,
     "licenses": [
       {
         "type": "MIT",
@@ -14037,8 +14077,8 @@
     "author": "ngw",
     "repoURL": "https://booth.pm/ja/items/7234918",
     "latest-version": "v1.0.0",
-    "popularity": 496,
-    "trend": 104,
+    "popularity": 506,
+    "trend": 99,
     "licenses": [
       {
         "type": "不明",
@@ -14103,8 +14143,8 @@
     "author": "ちはユキ",
     "repoURL": "https://www.nicovideo.jp/watch/sm37066079",
     "latest-version": "v1.1",
-    "popularity": 459,
-    "trend": 92,
+    "popularity": 468,
+    "trend": 91,
     "licenses": [
       {
         "type": "GPLv3",
@@ -14169,8 +14209,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.21.0",
-    "popularity": 431,
-    "trend": 238,
+    "popularity": 437,
+    "trend": 223,
     "licenses": [
       {
         "type": "MIT",
@@ -14354,8 +14394,8 @@
     "author": "うつぼかずら",
     "repoURL": "https://www.utsbox.com/?p=4050",
     "latest-version": "0.1β",
-    "popularity": 1191,
-    "trend": 374,
+    "popularity": 1217,
+    "trend": 368,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -14456,8 +14496,8 @@
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_ui_dressing",
     "latest-version": "r3",
-    "popularity": 1116,
-    "trend": 474,
+    "popularity": 1130,
+    "trend": 497,
     "licenses": [
       {
         "type": "MIT",
@@ -14567,8 +14607,8 @@
     "author": "mes51",
     "repoURL": "https://github.com/mes51/AVIUtl2_Unmult",
     "latest-version": "v1.1.0",
-    "popularity": 178,
-    "trend": 32,
+    "popularity": 183,
+    "trend": 35,
     "licenses": [
       {
         "type": "MIT",
@@ -14638,7 +14678,7 @@
     "author": "3aGaM1",
     "repoURL": "https://github.com/sagami121/Aviutl2-Calculator",
     "latest-version": "0.2",
-    "popularity": 147,
+    "popularity": 150,
     "trend": 41,
     "licenses": [
       {
@@ -14718,8 +14758,8 @@
     "author": "こんにゃくねこ",
     "repoURL": "https://x.com/CatWithNeko/status/1972685066963960255",
     "latest-version": "2025-11-02",
-    "popularity": 397,
-    "trend": 75,
+    "popularity": 403,
+    "trend": 77,
     "licenses": [
       {
         "type": "不明",
@@ -14778,8 +14818,8 @@
     "author": "クリーニング",
     "repoURL": "https://github.com/clean262/sam_frame_export_filter",
     "latest-version": "v0.1.3",
-    "popularity": 935,
-    "trend": 324,
+    "popularity": 956,
+    "trend": 323,
     "licenses": [
       {
         "type": "MIT",
@@ -14871,8 +14911,8 @@
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/ksa",
     "latest-version": "v2.1.1",
-    "popularity": 172,
-    "trend": 88,
+    "popularity": 178,
+    "trend": 98,
     "licenses": [
       {
         "type": "MIT",
@@ -14978,8 +15018,8 @@
     "originalAuthor": "Tinted Theming",
     "repoURL": "https://github.com/sevenc-nanashi/tinted-aviutl2",
     "latest-version": "0.2.5",
-    "popularity": 213,
-    "trend": 86,
+    "popularity": 216,
+    "trend": 81,
     "licenses": [
       {
         "type": "MIT",
@@ -15110,7 +15150,7 @@
     "author": "zopty",
     "repoURL": "https://gist.github.com/zopty/46b16b7d5f90ec772274e67015117a91",
     "latest-version": "2025-11-21",
-    "popularity": 527,
+    "popularity": 537,
     "trend": 146,
     "licenses": [
       {
@@ -15172,8 +15212,8 @@
     "author": "クリーニング",
     "repoURL": "https://github.com/clean262/sam3_bb_gb_generator",
     "latest-version": "v0.0.8",
-    "popularity": 649,
-    "trend": 280,
+    "popularity": 666,
+    "trend": 243,
     "licenses": [
       {
         "type": "MIT",
@@ -15305,8 +15345,8 @@
     "author": "蒼天つむぐ",
     "repoURL": "https://x.com/soten_various/status/1951590669304336443",
     "latest-version": "r1",
-    "popularity": 836,
-    "trend": 277,
+    "popularity": 853,
+    "trend": 266,
     "licenses": [
       {
         "type": "GPL-3.0 license",
@@ -15367,7 +15407,7 @@
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/GCMZScripts",
     "latest-version": "0.2.0",
-    "popularity": 162,
+    "popularity": 165,
     "trend": 45,
     "licenses": [
       {
@@ -15441,8 +15481,8 @@
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/GCMZScripts",
     "latest-version": "0.2.0",
-    "popularity": 115,
-    "trend": 28,
+    "popularity": 118,
+    "trend": 30,
     "licenses": [
       {
         "type": "MIT",
@@ -15526,8 +15566,8 @@
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/Haribote",
     "latest-version": "0.0.0",
-    "popularity": 198,
-    "trend": 67,
+    "popularity": 205,
+    "trend": 69,
     "licenses": [
       {
         "type": "MIT",
@@ -15601,7 +15641,7 @@
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_script_CinemaScope",
     "latest-version": "r5",
-    "popularity": 796,
+    "popularity": 822,
     "trend": 405,
     "licenses": [
       {
@@ -15709,8 +15749,8 @@
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-GradientEditor",
     "latest-version": "v0.3.0",
-    "popularity": 844,
-    "trend": 633,
+    "popularity": 869,
+    "trend": 628,
     "licenses": [
       {
         "type": "MIT",
@@ -15898,8 +15938,8 @@
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/wav_output_ks",
     "latest-version": "v0.0.1",
-    "popularity": 243,
-    "trend": 85,
+    "popularity": 251,
+    "trend": 81,
     "licenses": [
       {
         "type": "MIT",
@@ -15972,7 +16012,7 @@
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/fzgx_smr_ks",
     "latest-version": "v2.0.3",
-    "popularity": 63,
+    "popularity": 65,
     "trend": 30,
     "licenses": [
       {
@@ -16068,7 +16108,7 @@
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/Variable-Font-Plug-ins",
     "latest-version": "1.0.0",
-    "popularity": 457,
+    "popularity": 473,
     "trend": 162,
     "licenses": [
       {
@@ -16159,8 +16199,8 @@
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/FontPreview",
     "latest-version": "1.0.0",
-    "popularity": 361,
-    "trend": 136,
+    "popularity": 368,
+    "trend": 134,
     "licenses": [
       {
         "type": "MIT",
@@ -16241,8 +16281,8 @@
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/GCMZScripts",
     "latest-version": "0.2.0",
-    "popularity": 116,
-    "trend": 42,
+    "popularity": 121,
+    "trend": 46,
     "licenses": [
       {
         "type": "MIT",
@@ -16315,8 +16355,8 @@
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_script_ScreenAspect",
     "latest-version": "r3",
-    "popularity": 500,
-    "trend": 190,
+    "popularity": 520,
+    "trend": 199,
     "licenses": [
       {
         "type": "MIT",
@@ -16390,8 +16430,8 @@
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_script_Egasumi",
     "latest-version": "r2",
-    "popularity": 378,
-    "trend": 130,
+    "popularity": 388,
+    "trend": 131,
     "licenses": [
       {
         "type": "MIT",
@@ -16465,8 +16505,8 @@
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_script_BezierPath",
     "latest-version": "r3",
-    "popularity": 1059,
-    "trend": 510,
+    "popularity": 1087,
+    "trend": 496,
     "licenses": [
       {
         "type": "MIT",
@@ -16578,8 +16618,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/open_project_directory.aux2",
     "latest-version": "0.1.3",
-    "popularity": 190,
-    "trend": 87,
+    "popularity": 200,
+    "trend": 90,
     "licenses": [
       {
         "type": "MIT",
@@ -16676,7 +16716,7 @@
     "repoURL": "https://github.com/Victorique-Bernkastel/AviUtl2_Language",
     "latest-version": "v3.6",
     "popularity": 39,
-    "trend": 24,
+    "trend": 18,
     "licenses": [
       {
         "type": "MIT",
@@ -16778,8 +16818,8 @@
     "author": "zopty",
     "repoURL": "https://gist.github.com/zopty/51deda495876451c1dcfb09ceb05345d",
     "latest-version": "v0.1.0",
-    "popularity": 367,
-    "trend": 146,
+    "popularity": 382,
+    "trend": 148,
     "licenses": [
       {
         "type": "BSD-3-Clause",
@@ -16849,8 +16889,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/filter_effect_toggle.aux2",
     "latest-version": "0.1.4",
-    "popularity": 149,
-    "trend": 80,
+    "popularity": 152,
+    "trend": 75,
     "licenses": [
       {
         "type": "MIT",
@@ -16948,8 +16988,8 @@
     "author": "koisi0319",
     "repoURL": "https://github.com/koisi0319/Aviutl2-Duplicate-objects-at-equal-intervals",
     "latest-version": "v1.0.0",
-    "popularity": 118,
-    "trend": 44,
+    "popularity": 122,
+    "trend": 46,
     "licenses": [
       {
         "type": "MIT",
@@ -17025,8 +17065,8 @@
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
     "latest-version": "v2.1.2",
-    "popularity": 245,
-    "trend": 206,
+    "popularity": 256,
+    "trend": 210,
     "licenses": [
       {
         "type": "カスタムライセンス",
@@ -17205,8 +17245,8 @@
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/Copy_alias",
     "latest-version": "2.0.0",
-    "popularity": 122,
-    "trend": 54,
+    "popularity": 124,
+    "trend": 52,
     "licenses": [
       {
         "type": "MIT",
@@ -17301,8 +17341,8 @@
     "originalAuthor": "プリンカ",
     "repoURL": "https://github.com/sagami121/Aviutl2-BlockNoise",
     "latest-version": "1.0",
-    "popularity": 374,
-    "trend": 162,
+    "popularity": 391,
+    "trend": 167,
     "licenses": [
       {
         "type": "MIT",
@@ -17373,8 +17413,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/insert.aux2",
     "latest-version": "0.1.7",
-    "popularity": 158,
-    "trend": 92,
+    "popularity": 165,
+    "trend": 93,
     "licenses": [
       {
         "type": "MIT",
@@ -17482,8 +17522,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/quantizer.aux2",
     "latest-version": "0.1.9",
-    "popularity": 485,
-    "trend": 286,
+    "popularity": 502,
+    "trend": 273,
     "licenses": [
       {
         "type": "MIT",
@@ -17609,8 +17649,8 @@
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-Hex-Tiling",
     "latest-version": "v0.1.0",
-    "popularity": 174,
-    "trend": 69,
+    "popularity": 183,
+    "trend": 71,
     "licenses": [
       {
         "type": "MIT No Attribution",
@@ -17690,7 +17730,7 @@
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_script_LyricMotioN",
     "latest-version": "r5",
-    "popularity": 1328,
+    "popularity": 1404,
     "trend": 894,
     "licenses": [
       {
@@ -17783,8 +17823,8 @@
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_script_Loop",
     "latest-version": "r3",
-    "popularity": 292,
-    "trend": 259,
+    "popularity": 309,
+    "trend": 252,
     "licenses": [
       {
         "type": "MIT",
@@ -17874,8 +17914,8 @@
     "author": "Nao",
     "repoURL": "https://nao-kid.booth.pm/items/8025601",
     "latest-version": "v1.0",
-    "popularity": 61,
-    "trend": 26,
+    "popularity": 64,
+    "trend": 27,
     "licenses": [
       {
         "type": "不明",
@@ -17935,8 +17975,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
     "latest-version": "0.21.0",
-    "popularity": 204,
-    "trend": 176,
+    "popularity": 214,
+    "trend": 163,
     "licenses": [
       {
         "type": "MIT",
@@ -18030,8 +18070,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/discord_activity.aux2",
     "latest-version": "0.2.0",
-    "popularity": 87,
-    "trend": 68,
+    "popularity": 91,
+    "trend": 64,
     "licenses": [
       {
         "type": "MIT",
@@ -18132,8 +18172,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0/README.md",
     "latest-version": "v1.0",
-    "popularity": 294,
-    "trend": 197,
+    "popularity": 309,
+    "trend": 192,
     "licenses": [
       {
         "type": "CC0-1.0",
@@ -18192,8 +18232,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/modify_group_num_layers.aux2",
     "latest-version": "0.1.0",
-    "popularity": 113,
-    "trend": 86,
+    "popularity": 116,
+    "trend": 80,
     "licenses": [
       {
         "type": "MIT",
@@ -18274,8 +18314,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/transform_specific_chars.anm2",
     "latest-version": "0.3.1",
-    "popularity": 411,
-    "trend": 318,
+    "popularity": 430,
+    "trend": 301,
     "licenses": [
       {
         "type": "MIT",
@@ -18391,8 +18431,8 @@
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/disassembler.anm2",
     "latest-version": "0.2.0",
-    "popularity": 439,
-    "trend": 407,
+    "popularity": 467,
+    "trend": 432,
     "licenses": [
       {
         "type": "MIT",
@@ -18527,7 +18567,7 @@
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/resize_ks",
     "latest-version": "v0.0.1",
-    "popularity": 72,
+    "popularity": 74,
     "trend": 67,
     "licenses": [
       {
@@ -18607,8 +18647,8 @@
     "author": "Pachira762",
     "repoURL": "https://github.com/Pachira762/vsr4aviutl",
     "latest-version": "v1.0.1",
-    "popularity": 256,
-    "trend": 239,
+    "popularity": 269,
+    "trend": 191,
     "licenses": [
       {
         "type": "MIT",
@@ -18702,8 +18742,8 @@
     "author": "nakano000",
     "repoURL": "https://www.nicovideo.jp/watch/sm45167975",
     "latest-version": "v0.1.0",
-    "popularity": 345,
-    "trend": 205,
+    "popularity": 372,
+    "trend": 226,
     "licenses": [
       {
         "type": "不明",
@@ -18765,8 +18805,8 @@
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-ImageCropExport",
     "latest-version": "v0.1.0",
-    "popularity": 112,
-    "trend": 111,
+    "popularity": 129,
+    "trend": 127,
     "licenses": [
       {
         "type": "MIT",
@@ -18856,8 +18896,8 @@
     "author": "てるよし",
     "repoURL": "https://x.com/teruyoshi_uec/status/1965389717224276231",
     "latest-version": "2025.09.09",
-    "popularity": 51,
-    "trend": 40,
+    "popularity": 64,
+    "trend": 50,
     "licenses": [
       {
         "type": "MIT",
@@ -18921,8 +18961,8 @@
     "author": "Nagomiku",
     "repoURL": "https://scrapbox.io/nanikani-shugo/CrushPNG",
     "latest-version": "2025.10.13",
-    "popularity": 62,
-    "trend": 51,
+    "popularity": 83,
+    "trend": 70,
     "licenses": [
       {
         "type": "不明",
@@ -18991,8 +19031,8 @@
     "author": "Nagomiku",
     "repoURL": "https://scrapbox.io/nanikani-shugo/NagoEffect2.mod2",
     "latest-version": "v1.00",
-    "popularity": 71,
-    "trend": 62,
+    "popularity": 89,
+    "trend": 77,
     "licenses": [
       {
         "type": "不明",
@@ -19055,8 +19095,8 @@
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/GCMZScripts",
     "latest-version": "0.2.0",
-    "popularity": 9,
-    "trend": 9,
+    "popularity": 16,
+    "trend": 16,
     "licenses": [
       {
         "type": "MIT",
@@ -19130,8 +19170,8 @@
     "author": "Korarei",
     "repoURL": "https://gist.github.com/korarei/d5b089a69e0c8ba5903d641d677c89e8",
     "latest-version": "v0.2.0",
-    "popularity": 86,
-    "trend": 86,
+    "popularity": 108,
+    "trend": 112,
     "licenses": [
       {
         "type": "CC0-1.0",
@@ -19199,8 +19239,8 @@
     "author": "arcana",
     "repoURL": "https://github.com/ar-ca-na/connection_line",
     "latest-version": "2025.10.27",
-    "popularity": 66,
-    "trend": 42,
+    "popularity": 97,
+    "trend": 55,
     "licenses": [
       {
         "type": "MIT",
