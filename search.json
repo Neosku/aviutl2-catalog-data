@@ -1521,7 +1521,7 @@
   },
   {
     "id": "KAZOON.KSA",
-    "latest-version": "v2.1.1",
+    "latest-version": "v2.1.2",
     "checkType": {
       "type": "GitHub",
       "repo": "cycloawaodorin/ksa",
@@ -2137,7 +2137,7 @@
   },
   {
     "id": "KAZOON.resize_ks",
-    "latest-version": "v0.0.1",
+    "latest-version": "v0.0.2",
     "checkType": {
       "type": "GitHub",
       "repo": "cycloawaodorin/resize_ks",
