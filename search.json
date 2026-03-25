@@ -264,6 +264,25 @@
     }
   },
   {
+    "id": "reindex-ot.reindex_AviUtl2_Language",
+    "latest-version": "Beta29",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "reindex-ot/reindex_AviUtl2_Language",
+      "regex": "Japanese_Mod.aul2",
+      "hash-calc": [
+        {
+          "paths": [
+            "Japanese_Mod.aul2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/Japanese_Mod.aul2"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "hebiiro.al2_memo",
     "latest-version": "r1",
     "checkType": {
@@ -278,6 +297,26 @@
           ],
           "recordPaths": [
             "{pluginsDir}/al2_memo.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Mr-Ojii.WebPFileReader-Plugin",
+    "latest-version": "r1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Mr-Ojii/AviUtl2-WebPFileReader-Plugin",
+      "regex": "^webpinput\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "webpinput.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/webpinput.aui2"
           ]
         }
       ]
@@ -2190,6 +2229,45 @@
           ],
           "recordPaths": [
             "{pluginsDir}/ImageCropExport.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KuroNeko.TTSFileRename",
+    "latest-version": "0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rokujyushi/GCMZScripts",
+      "regex": "TTSFileRename\\.lua",
+      "hash-calc": [
+        {
+          "paths": [
+            "TTSFileRename.lua"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GCMZDrops/GCMZScript/TTSFileRename.lua"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "novenove.KaraokeLyricRenderer",
+    "latest-version": "v1.1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nove-nove/aviutl2-karaoke-lyric-renderer",
+      "regex": "aviutl2-karaoke-lyric-renderer.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "AviUtl2KaraokeLyricRenderer.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/AviUtl2KaraokeLyricRenderer.auf2"
           ]
         }
       ]
