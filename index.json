@@ -6739,6 +6739,10 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/MyAssetFixed.txt"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/MyAssetTextStyle.txt"
         }
       ]
     },
@@ -6826,7 +6830,12 @@
       {
         "version": "v1.7",
         "release_date": "2026-03-26",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/MyAssetManager.aux2",
+            "XXH3_128": "ccdf0e48f5e87f8aa9104cefac8a2ade"
+          }
+        ]
       }
     ]
   },
