@@ -19347,5 +19347,88 @@
         ]
       }
     ]
+  },
+  {
+    "id": "novenove.KaraokeLyricRenderer",
+    "name": "Karaoke Lyric Renderer",
+    "type": "フィルタプラグイン",
+    "summary": "タイムタグ付き歌詞をカスタムオブジェクトとして表示する（ルビ対応）",
+    "description": "https://raw.githubusercontent.com/nove-nove/aviutl2-karaoke-lyric-renderer/refs/heads/main/README.md",
+    "author": "novenove",
+    "repoURL": "https://github.com/nove-nove/aviutl2-karaoke-lyric-renderer",
+    "latest-version": "v1.1.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "novenove"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "sm46085639",
+    "tags": [
+      "カスタムオブジェクト",
+      "字幕",
+      "テキスト"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nove-nove",
+          "repo": "aviutl2-karaoke-lyric-renderer",
+          "pattern": "aviutl2-karaoke-lyric-renderer.zip"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/AviUtl2KaraokeLyricRenderer.auf2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/AviUtl2KaraokeLyricRenderer.auf2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.1.0",
+        "release_date": "2026-03-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/AviUtl2KaraokeLyricRenderer.auf2",
+            "XXH3_128": "d288dfc00f17b1be648fab3717c1a155"
+          }
+        ]
+      },
+      {
+        "version": "v1.1.1",
+        "release_date": "2026-03-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/AviUtl2KaraokeLyricRenderer.auf2",
+            "XXH3_128": "f08607fa1e282645d5fcf6fb1e4e7d0d"
+          }
+        ]
+      }
+    ]
   }
 ]
