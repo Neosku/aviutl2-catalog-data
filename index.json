@@ -13788,7 +13788,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/svg.aux2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/svg.aux2",
-    "latest-version": "0.3.2",
+    "latest-version": "0.4.0",
     "popularity": 275,
     "trend": 88,
     "licenses": [
@@ -13870,6 +13870,16 @@
           {
             "path": "{pluginsDir}/svg.aux2",
             "XXH3_128": "76ac8007a9c80d9d61a5f4952be87dd9"
+          }
+        ]
+      },
+      {
+        "version": "0.4.0",
+        "release_date": "2026-03-26",
+        "file": [
+          {
+            "path": "{pluginsDir}/svg.aux2",
+            "XXH3_128": "90ef52395f89371cf84ff1d4791f8bac"
           }
         ]
       }
