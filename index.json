@@ -6683,7 +6683,7 @@
     "description": "./md/Natadecoco.MyAssetManager.md",
     "author": "なたのこ",
     "repoURL": "https://github.com/Natadecoco2539/AviUtl2-MyAssetManager",
-    "latest-version": "v1.7",
+    "latest-version": "v1.7.1",
     "popularity": 1322,
     "trend": 575,
     "licenses": [
@@ -6834,6 +6834,16 @@
           {
             "path": "{pluginsDir}/MyAssetManager.aux2",
             "XXH3_128": "ccdf0e48f5e87f8aa9104cefac8a2ade"
+          }
+        ]
+      },
+      {
+        "version": "v1.7.1",
+        "release_date": "2026-03-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/MyAssetManager.aux2",
+            "XXH3_128": "6227b2ddd2fd2ad17eb129d49ca5d563"
           }
         ]
       }
