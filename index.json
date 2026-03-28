@@ -1429,7 +1429,7 @@
     "description": "./md/rigaya.NVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/NVEnc",
-    "latest-version": "9.12",
+    "latest-version": "9.13",
     "popularity": 1850,
     "trend": 915,
     "licenses": [
@@ -1677,6 +1677,11 @@
             "XXH3_128": "3185440e89285dce5b2c471b8822b43c"
           }
         ]
+      },
+      {
+        "version": "9.13",
+        "release_date": "2026-03-28",
+        "file": []
       }
     ]
   },
@@ -1688,7 +1693,7 @@
     "description": "このソフトウェアは、IntelのCPUに搭載されているHWエンコーダ(QSV)の画質や速度といった性能の実験を目的としています。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/QSVEnc",
-    "latest-version": "8.06",
+    "latest-version": "8.07",
     "popularity": 322,
     "trend": 158,
     "licenses": [
@@ -1856,6 +1861,11 @@
             "XXH3_128": "9dccbf924eafdc84e258507f0e64cfe1"
           }
         ]
+      },
+      {
+        "version": "8.07",
+        "release_date": "2026-03-28",
+        "file": []
       }
     ]
   },
@@ -17138,7 +17148,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v2.1.2",
+    "latest-version": "v2.2.0",
     "popularity": 277,
     "trend": 234,
     "licenses": [
@@ -17305,6 +17315,16 @@
           {
             "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
             "XXH3_128": "e38748f53740016fa8dbe4a93ecaff2f"
+          }
+        ]
+      },
+      {
+        "version": "v2.2.0",
+        "release_date": "2026-03-28",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "42aa66ebdce27bfefada9acbb5d3ba0c"
           }
         ]
       }
