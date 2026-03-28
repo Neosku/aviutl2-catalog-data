@@ -1429,7 +1429,7 @@
     "description": "./md/rigaya.NVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/NVEnc",
-    "latest-version": "9.12",
+    "latest-version": "9.13",
     "popularity": 1850,
     "trend": 915,
     "licenses": [
@@ -1677,6 +1677,11 @@
             "XXH3_128": "3185440e89285dce5b2c471b8822b43c"
           }
         ]
+      },
+      {
+        "version": "9.13",
+        "release_date": "2026-03-28",
+        "file": []
       }
     ]
   },
@@ -1688,7 +1693,7 @@
     "description": "このソフトウェアは、IntelのCPUに搭載されているHWエンコーダ(QSV)の画質や速度といった性能の実験を目的としています。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/QSVEnc",
-    "latest-version": "8.06",
+    "latest-version": "8.07",
     "popularity": 322,
     "trend": 158,
     "licenses": [
@@ -1856,6 +1861,11 @@
             "XXH3_128": "9dccbf924eafdc84e258507f0e64cfe1"
           }
         ]
+      },
+      {
+        "version": "8.07",
+        "release_date": "2026-03-28",
+        "file": []
       }
     ]
   },
@@ -17148,7 +17158,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v2.1.2",
+    "latest-version": "v2.2.0",
     "popularity": 277,
     "trend": 234,
     "licenses": [
@@ -17315,6 +17325,16 @@
           {
             "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
             "XXH3_128": "e38748f53740016fa8dbe4a93ecaff2f"
+          }
+        ]
+      },
+      {
+        "version": "v2.2.0",
+        "release_date": "2026-03-28",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "42aa66ebdce27bfefada9acbb5d3ba0c"
           }
         ]
       }
@@ -19470,6 +19490,78 @@
           {
             "path": "{pluginsDir}/AviUtl2KaraokeLyricRenderer.auf2",
             "XXH3_128": "f08607fa1e282645d5fcf6fb1e4e7d0d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "momo_neeeko.WaveClipping",
+    "name": "ウェーブクリッピング",
+    "type": "スクリプト",
+    "summary": "様々な波の形で斜めクリッピング",
+    "description": "./md/momo_neeeko.WaveClipping.md",
+    "author": "もも猫",
+    "repoURL": "https://x.com/momo_neeeko/status/2037491184260784191",
+    "latest-version": "ver1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "もも猫"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "クリッピング"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/momo_neeeko.WaveClipping_thumbnail.gif",
+        "infoImg": [
+          "./image/momo_neeeko.WaveClipping_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "16Xz_PlzMltamT3XlW4QVv0paL_xPNGPk"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/ウェーブクリッピング.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ウェーブクリッピング.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "ver1.0",
+        "release_date": "2026-03-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/ウェーブクリッピング.anm2",
+            "XXH3_128": "fc603613bf445e16a9b209ff1fd12a98"
           }
         ]
       }
