@@ -19576,5 +19576,97 @@
         ]
       }
     ]
+  },
+  {
+    "id": "naltutyo.zikanseigyoN",
+    "name": "時間制御N",
+    "type": "汎用プラグイン",
+    "summary": "独自のイージングエディタを追加するPluginです",
+    "description": "./md/naltutyo.zikanseigyoN.md",
+    "author": "Nao",
+    "repoURL": "https://nao-kid.booth.pm/items/8121576",
+    "latest-version": "v1.3",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "UI",
+      "イージング"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/naltutyo.zikanseigyoN_thumbnail.jpg"
+      }
+    ],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/8612051?_gl=1*1k8hpaz*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzQ2MTk1MzQkbzI3JGcxJHQxNzc0NjIzNTM1JGo1OSRsMCRoMA.."
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/v1.3/時間制御N.aux2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/v1.3/時間制御N.mod2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/v1.3/時間制御N.tra2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/時間制御N.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/時間制御N.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/時間制御N.tra2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.3",
+        "release_date": "2026-03-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/時間制御N.aux2",
+            "XXH3_128": "50e78b0c1e66d1e74cb80497808c31e9"
+          },
+          {
+            "path": "{scriptsDir}/時間制御N.mod2",
+            "XXH3_128": "51d99acccf1f9ed8dee0c096a91fd646"
+          },
+          {
+            "path": "{scriptsDir}/時間制御N.tra2",
+            "XXH3_128": "3b88bb6914f06b28434e2bdf7265ef35"
+          }
+        ]
+      }
+    ]
   }
 ]
