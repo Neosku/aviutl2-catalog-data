@@ -1690,7 +1690,7 @@
     "name": "QSVEnc",
     "type": "出力プラグイン",
     "summary": "QSVによる高速エンコードの性能実験",
-    "description": "このソフトウェアは、IntelのCPUに搭載されているHWエンコーダ(QSV)の画質や速度といった性能の実験を目的としています。",
+    "description": "./md/rigaya.QSVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/QSVEnc",
     "latest-version": "8.07",
@@ -1865,7 +1865,12 @@
       {
         "version": "8.07",
         "release_date": "2026-03-28",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo2",
+            "XXH3_128": "1bb63a5589a2f77d41004092373faa50"
+          }
+        ]
       }
     ]
   },
