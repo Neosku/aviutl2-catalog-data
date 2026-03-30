@@ -19930,5 +19930,103 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sevenc-nanashi.budoux-obj2",
+    "name": "budoux.obj2",
+    "type": "汎用プラグイン",
+    "summary": "横幅を指定してテキストを折り返すスクリプト",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/budoux.obj2/main/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/budoux.obj2",
+    "latest-version": "0.1.4",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT License\r\n\r\nCopyright (c) 2026 Nanashi. <sevenc7c.com>\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
+      }
+    ],
+    "tags": [
+      "文字"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/sevenc-nanashi.budoux-obj2_thumbnail.webp",
+        "infoImg": [
+          "./image/sevenc-nanashi.budoux-obj2_1.webp"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "budoux.obj2",
+          "pattern": "^sevenc-nanashi\\.budoux-obj2-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.budoux-obj2.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/budoux.mod2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/budoux.obj2.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/budoux.obj2.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/budoux.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.budoux-obj2.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.1.4",
+        "release_date": "2026-03-30",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.budoux-obj2.aul2",
+            "XXH3_128": "760780dc7399cad914a08f1d57b822ae"
+          },
+          {
+            "path": "{scriptsDir}/budoux.mod2",
+            "XXH3_128": "3a6b246c7b65dcec3ce1f88771d8cb16"
+          },
+          {
+            "path": "{scriptsDir}/budoux.obj2.obj2",
+            "XXH3_128": "ba4b2457fa4c83f648b1eeafce8c294d"
+          }
+        ]
+      }
+    ]
   }
 ]
