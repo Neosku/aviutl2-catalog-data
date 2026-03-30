@@ -16028,7 +16028,7 @@
     "id": "azurite.GradientEditor",
     "name": "GradientEditor",
     "type": "汎用プラグイン",
-    "summary": "グラデーションエディタ",
+    "summary": "グラデーションエディタプラグイン",
     "description": "./md/azurite.GradientEditor.md",
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-GradientEditor",
@@ -16113,6 +16113,18 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/GradientEditorPreset/gradient_editor_preset.json"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/GradientEditorPreset/gradient_editor_default_preset.json"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/GradientEditorPreset/gradient_editor_history.json"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/GradientEditor.ini"
         }
       ]
     },
