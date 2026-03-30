@@ -20038,5 +20038,96 @@
         ]
       }
     ]
+  },
+  {
+    "id": "korarei.Diffusion_K",
+    "name": "Diffusion_K",
+    "type": "スクリプト",
+    "summary": "オートン効果をかけるスクリプト",
+    "description": "https://raw.githubusercontent.com/korarei/AviUtl2_Diffusion_K_Script/main/README.md",
+    "author": "Korarei",
+    "repoURL": "https://github.com/korarei/AviUtl2_Diffusion_K_Script",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT License\n\nCopyright (c) 2026 Korarei\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "スクリプト",
+      "ぼかし",
+      "加工",
+      "画像",
+      "色調整",
+      "色調補正",
+      "補正"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/korarei.Diffusion_K_thumbnail.jpg"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "korarei",
+          "repo": "AviUtl2_Diffusion_K_Script",
+          "pattern": "^Diffusion_K.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Diffusion_K/@Diffusion_K.anm2",
+          "to": "{scriptsDir}/Diffusion_K"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Diffusion_K/CHANGELOG.md",
+          "to": "{scriptsDir}/Diffusion_K"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Diffusion_K/LICENSE",
+          "to": "{scriptsDir}/Diffusion_K"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Diffusion_K/README.md",
+          "to": "{scriptsDir}/Diffusion_K"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Diffusion_K/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-03-30",
+        "file": [
+          {
+            "path": "{scriptsDir}/Diffusion_K/@Diffusion_K.anm2",
+            "XXH3_128": "8edafabc08eef0e8c9c005aa0dd3a54d"
+          }
+        ]
+      }
+    ]
   }
 ]
