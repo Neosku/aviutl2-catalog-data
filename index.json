@@ -6793,6 +6793,10 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/MyAssetTextStyle.txt"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/MyAssetMeta.json"
         }
       ]
     },
