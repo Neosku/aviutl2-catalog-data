@@ -20111,22 +20111,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Script/Diffusion_K/@Diffusion_K.anm2",
-          "to": "{scriptsDir}/Diffusion_K"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Script/Diffusion_K/CHANGELOG.md",
-          "to": "{scriptsDir}/Diffusion_K"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Script/Diffusion_K/LICENSE",
-          "to": "{scriptsDir}/Diffusion_K"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Script/Diffusion_K/README.md",
+          "from": "{tmp}/Script/Diffusion_K",
           "to": "{scriptsDir}/Diffusion_K"
         }
       ],
