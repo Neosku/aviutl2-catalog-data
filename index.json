@@ -1708,7 +1708,7 @@
     "description": "./md/rigaya.QSVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/QSVEnc",
-    "latest-version": "8.07",
+    "latest-version": "8.08",
     "popularity": 339,
     "trend": 135,
     "licenses": [
@@ -1884,6 +1884,16 @@
           {
             "path": "{pluginsDir}/QSVEnc.auo2",
             "XXH3_128": "1bb63a5589a2f77d41004092373faa50"
+          }
+        ]
+      },
+      {
+        "version": "8.08",
+        "release_date": "2026-03-31",
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo2",
+            "XXH3_128": "604f7fc61a8794f289a9019f4e0868c6"
           }
         ]
       }
@@ -6723,7 +6733,7 @@
     "description": "./md/Natadecoco.MyAssetManager.md",
     "author": "なたのこ",
     "repoURL": "https://github.com/Natadecoco2539/AviUtl2-MyAssetManager",
-    "latest-version": "v1.7.1",
+    "latest-version": "v1.8",
     "popularity": 1407,
     "trend": 582,
     "licenses": [
@@ -6884,6 +6894,16 @@
           {
             "path": "{pluginsDir}/MyAssetManager.aux2",
             "XXH3_128": "6227b2ddd2fd2ad17eb129d49ca5d563"
+          }
+        ]
+      },
+      {
+        "version": "v1.8",
+        "release_date": "2026-03-31",
+        "file": [
+          {
+            "path": "{pluginsDir}/MyAssetManager.aux2",
+            "XXH3_128": "ed2dc5f72fb98ee568d2df671151d149"
           }
         ]
       }
