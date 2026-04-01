@@ -7716,7 +7716,7 @@
     "author": "Nao",
     "originalAuthor": "aoytsk様",
     "repoURL": "https://nao-kid.booth.pm/items/7791311",
-    "latest-version": "v5.0",
+    "latest-version": "v4.31",
     "popularity": 305,
     "trend": 183,
     "licenses": [
@@ -7741,7 +7741,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8638004?_gl=1*10vdt8s*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzUwMjk4ODUkbzckZzEkdDE3NzUwMzAxMDUkajMkbDAkaDA."
+        "booth": "https://booth.pm/downloadables/8629817?_gl=1*1mydgof*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzQ5MDMzODUkbzQxJGcxJHQxNzc0OTAzOTMzJGoxNiRsMCRoMA.."
       },
       "install": [
         {
@@ -7752,7 +7752,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/v5.0/拡張ツールバー.aux2",
+          "from": "{tmp}/v4.31/拡張ツールバー.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -7931,16 +7931,6 @@
           {
             "path": "{pluginsDir}/拡張ツールバー.aux2",
             "XXH3_128": "c6d4e67f990ca7c4fe3adaa593e6797a"
-          }
-        ]
-      },
-      {
-        "version": "v5.0",
-        "release_date": "2026-04-01",
-        "file": [
-          {
-            "path": "{pluginsDir}/拡張ツールバー.aux2",
-            "XXH3_128": "7596f34d1a66537a628875bed56fc80f"
           }
         ]
       }
@@ -20003,7 +19993,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/budoux.obj2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/budoux.obj2",
-    "latest-version": "0.1.9",
+    "latest-version": "0.1.4",
     "popularity": 79,
     "trend": 83,
     "licenses": [
@@ -20090,24 +20080,6 @@
             "XXH3_128": "ba4b2457fa4c83f648b1eeafce8c294d"
           }
         ]
-      },
-      {
-        "version": "0.1.9",
-        "release_date": "2026-03-30",
-        "file": [
-          {
-            "path": "{dataDir}/Language/English.budoux-obj2.aul2",
-            "XXH3_128": "760780dc7399cad914a08f1d57b822ae"
-          },
-          {
-            "path": "{scriptsDir}/budoux.mod2",
-            "XXH3_128": "bb3a2bfbd57281a37918cd8023e7d552"
-          },
-          {
-            "path": "{scriptsDir}/budoux.obj2.obj2",
-            "XXH3_128": "b0ccaa65dca01c9f3ed36c448e9728af"
-          }
-        ]
       }
     ]
   },
@@ -20190,7 +20162,7 @@
   {
     "id": "sigma-axis.Border_S",
     "name": "Border_S",
-    "type": "フィルタプラグイン",
+    "type": "汎用プラグイン",
     "summary": "縁取り・角丸め・アウトラインができるフィルタ集",
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_Border_S/refs/heads/master/README.md",
     "author": "sigma-axis",
@@ -20280,6 +20252,89 @@
           {
             "path": "{pluginsDir}/Border_S.aux2",
             "XXH3_128": "c917493c9971a95af01daea9a25a3096"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Number-0621.AviUtl2-Plugin-SelectEasing",
+    "name": "AviUtl2-Plugin-SelectEasing",
+    "type": "汎用プラグイン",
+    "summary": "AviUtl(無印)用の「イージング簡単選択」の移植版",
+    "description": "./md/Number-0621.AviUtl2-Plugin-SelectEasing.md",
+    "author": "No.0",
+    "originalAuthor": "蛇色",
+    "repoURL": "https://github.com/NumberZero-0621/AviUtl2-Plugin-SelectEasing",
+    "latest-version": "イージング簡単選択(AviUtl2対応版) 1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT-0  license",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT License\n\nCopyright (c) 2026 No.0\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+      }
+    ],
+    "tags": [
+      "イージング",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/Number-0621.AviUtl2-Plugin-SelectEasing_thumbnail.png",
+        "infoImg": [
+          "./image/Number-0621.AviUtl2-Plugin-SelectEasing_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "NumberZero-0621",
+          "repo": "AviUtl2-Plugin-SelectEasing",
+          "pattern": "^SelectEasing_AviUtl2.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SelectEasing_AviUtl2/SelectEasing.aux2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SelectEasing_AviUtl2/SelectEasing",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SelectEasing.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SelectEasing"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "イージング簡単選択(AviUtl2対応版) 1.0.0",
+        "release_date": "2026-04-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/SelectEasing.aux2",
+            "XXH3_128": "d9869a98f4057869d25bd27573328072"
           }
         ]
       }
