@@ -20078,10 +20078,6 @@
         "release_date": "2026-03-30",
         "file": [
           {
-            "path": "{dataDir}/Language/English.budoux-obj2.aul2",
-            "XXH3_128": "760780dc7399cad914a08f1d57b822ae"
-          },
-          {
             "path": "{scriptsDir}/budoux.mod2",
             "XXH3_128": "3a6b246c7b65dcec3ce1f88771d8cb16"
           },
@@ -20095,10 +20091,6 @@
         "version": "0.1.9",
         "release_date": "2026-03-30",
         "file": [
-          {
-            "path": "{dataDir}/Language/English.budoux-obj2.aul2",
-            "XXH3_128": "760780dc7399cad914a08f1d57b822ae"
-          },
           {
             "path": "{scriptsDir}/budoux.mod2",
             "XXH3_128": "bb3a2bfbd57281a37918cd8023e7d552"
