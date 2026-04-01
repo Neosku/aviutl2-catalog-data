@@ -20190,7 +20190,7 @@
   {
     "id": "sigma-axis.Border_S",
     "name": "Border_S",
-    "type": "汎用プラグイン",
+    "type": "フィルタプラグイン",
     "summary": "縁取り・角丸め・アウトラインができるフィルタ集",
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_Border_S/refs/heads/master/README.md",
     "author": "sigma-axis",
