@@ -8409,7 +8409,7 @@
     "description": "./md/sigma-axis.tl_walkaround2.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_tl_walkaround2",
-    "latest-version": "v1.22-for-beta26",
+    "latest-version": "v1.30-for-beta39",
     "popularity": 448,
     "trend": 61,
     "licenses": [
@@ -8508,6 +8508,16 @@
           {
             "path": "{pluginsDir}/tl_walkaround2.aux2",
             "XXH3_128": "c5a917a476208fbb147618c94b23eef7"
+          }
+        ]
+      },
+      {
+        "version": "v1.30-for-beta39",
+        "release_date": "2026-04-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/tl_walkaround2.aux2",
+            "XXH3_128": "fc8eda88d6f5144586fa0616cfc4f3a3"
           }
         ]
       }
@@ -14270,7 +14280,7 @@
   {
     "id": "Book-0225.EAP2",
     "name": "External Audio Processing 2",
-    "type": "汎用プラグイン",
+    "type": "フィルタプラグイン",
     "summary": "VST 3 / CLAP を利用可能にするためのフィルタプラグイン",
     "description": "https://raw.githubusercontent.com/Book-0225/aviutl2_External_Audio_Processing/refs/heads/master/README.md",
     "author": "Book0225",
@@ -19931,7 +19941,7 @@
     "description": "./md/naltutyo.zikanseigyoN.md",
     "author": "Nao",
     "repoURL": "https://nao-kid.booth.pm/items/8121576",
-    "latest-version": "v1.4",
+    "latest-version": "v1.5",
     "popularity": 206,
     "trend": 199,
     "licenses": [
@@ -19954,7 +19964,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8614011?_gl=1*14g5mqk*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzQ2ODcyODckbzI5JGcxJHQxNzc0Njg3MjkyJGo1NSRsMCRoMA.."
+        "booth": "https://booth.pm/downloadables/8645255?_gl=1*138imoo*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzUxMzEzMjQkbzkkZzEkdDE3NzUxMzEzNjIkajIyJGwwJGgw"
       },
       "install": [
         {
@@ -19965,17 +19975,17 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/v1.4/時間制御N.aux2",
+          "from": "{tmp}/v1.5/時間制御N.aux2",
           "to": "{pluginsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/v1.4/時間制御N.mod2",
+          "from": "{tmp}/v1.5/時間制御N.mod2",
           "to": "{scriptsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/v1.4/時間制御N.tra2",
+          "from": "{tmp}/v1.5/時間制御N.tra2",
           "to": "{scriptsDir}"
         }
       ],
@@ -20020,6 +20030,20 @@
           {
             "path": "{scriptsDir}/時間制御N.mod2",
             "XXH3_128": "74a205d43929159a0d7da10cfd57c2a5"
+          }
+        ]
+      },
+      {
+        "version": "v1.5",
+        "release_date": "2026-04-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/時間制御N.aux2",
+            "XXH3_128": "a8a1b548fb11f4024f684efe879efb0c"
+          },
+          {
+            "path": "{scriptsDir}/時間制御N.mod2",
+            "XXH3_128": "d8bf7ee3bdf9665919bd344e7eaa561d"
           }
         ]
       }
@@ -20302,6 +20326,89 @@
           {
             "path": "{pluginsDir}/Border_S.aux2",
             "XXH3_128": "c917493c9971a95af01daea9a25a3096"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Number-0621.SelectEasing",
+    "name": "SelectEasing",
+    "type": "汎用プラグイン",
+    "summary": "AviUtl(無印)用の「イージング簡単選択」の移植版",
+    "description": "./md/Number-0621.SelectEasing.md",
+    "author": "No.0",
+    "originalAuthor": "蛇色",
+    "repoURL": "https://github.com/NumberZero-0621/AviUtl2-Plugin-SelectEasing",
+    "latest-version": "1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT-0  license",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT License\n\nCopyright (c) 2026 No.0\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+      }
+    ],
+    "tags": [
+      "イージング",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/Number-0621.SelectEasing_thumbnail.png",
+        "infoImg": [
+          "./image/Number-0621.SelectEasing_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "NumberZero-0621",
+          "repo": "AviUtl2-Plugin-SelectEasing",
+          "pattern": "^SelectEasing_AviUtl2.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SelectEasing_AviUtl2/SelectEasing.aux2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SelectEasing_AviUtl2/SelectEasing",
+          "to": "{pluginsDir}/SelectEasing"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SelectEasing.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SelectEasing"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "1.0.0",
+        "release_date": "2026-04-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/SelectEasing.aux2",
+            "XXH3_128": "d9869a98f4057869d25bd27573328072"
           }
         ]
       }
