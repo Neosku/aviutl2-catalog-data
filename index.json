@@ -8399,7 +8399,7 @@
     "description": "./md/sigma-axis.tl_walkaround2.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_tl_walkaround2",
-    "latest-version": "v1.30-for-beta39",
+    "latest-version": "v1.22-for-beta26",
     "popularity": 448,
     "trend": 61,
     "licenses": [
@@ -8498,16 +8498,6 @@
           {
             "path": "{pluginsDir}/tl_walkaround2.aux2",
             "XXH3_128": "c5a917a476208fbb147618c94b23eef7"
-          }
-        ]
-      },
-      {
-        "version": "v1.30-for-beta39",
-        "release_date": "2026-04-02",
-        "file": [
-          {
-            "path": "{pluginsDir}/tl_walkaround2.aux2",
-            "XXH3_128": "fc8eda88d6f5144586fa0616cfc4f3a3"
           }
         ]
       }
@@ -20302,6 +20292,78 @@
           {
             "path": "{pluginsDir}/Border_S.aux2",
             "XXH3_128": "c917493c9971a95af01daea9a25a3096"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "azurite.PointZoom",
+    "name": "ポイントズーム",
+    "type": "スクリプト",
+    "summary": "指定したポイントにズームするAviUtl2スクリプト",
+    "description": "https://raw.githubusercontent.com/azurite581/AviUtl2-PointZoom/refs/heads/main/README.md",
+    "author": "azurite",
+    "repoURL": "https://github.com/azurite581/AviUtl2-PointZoom",
+    "latest-version": "v1.0.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "azurite"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/azurite.PointZoom_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "azurite581",
+          "repo": "AviUtl2-PointZoom",
+          "pattern": "^PointZoom_.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/ポイントズーム.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ポイントズーム.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.1",
+        "release_date": "2025-11-03",
+        "file": [
+          {
+            "path": "{scriptsDir}/ポイントズーム.anm2",
+            "XXH3_128": "edb5258aa057f48c0e8596f00779ff64"
           }
         ]
       }
