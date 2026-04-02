@@ -19921,7 +19921,7 @@
     "description": "./md/naltutyo.zikanseigyoN.md",
     "author": "Nao",
     "repoURL": "https://nao-kid.booth.pm/items/8121576",
-    "latest-version": "v1.4",
+    "latest-version": "v1.5",
     "popularity": 206,
     "trend": 199,
     "licenses": [
@@ -19944,7 +19944,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8614011?_gl=1*14g5mqk*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzQ2ODcyODckbzI5JGcxJHQxNzc0Njg3MjkyJGo1NSRsMCRoMA.."
+        "booth": "https://booth.pm/downloadables/8645255?_gl=1*138imoo*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzUxMzEzMjQkbzkkZzEkdDE3NzUxMzEzNjIkajIyJGwwJGgw"
       },
       "install": [
         {
@@ -19955,17 +19955,17 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/v1.4/時間制御N.aux2",
+          "from": "{tmp}/v1.5/時間制御N.aux2",
           "to": "{pluginsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/v1.4/時間制御N.mod2",
+          "from": "{tmp}/v1.5/時間制御N.mod2",
           "to": "{scriptsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/v1.4/時間制御N.tra2",
+          "from": "{tmp}/v1.5/時間制御N.tra2",
           "to": "{scriptsDir}"
         }
       ],
@@ -20010,6 +20010,20 @@
           {
             "path": "{scriptsDir}/時間制御N.mod2",
             "XXH3_128": "74a205d43929159a0d7da10cfd57c2a5"
+          }
+        ]
+      },
+      {
+        "version": "v1.5",
+        "release_date": "2026-04-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/時間制御N.aux2",
+            "XXH3_128": "a8a1b548fb11f4024f684efe879efb0c"
+          },
+          {
+            "path": "{scriptsDir}/時間制御N.mod2",
+            "XXH3_128": "d8bf7ee3bdf9665919bd344e7eaa561d"
           }
         ]
       }
