@@ -860,7 +860,7 @@
   },
   {
     "id": "sigma-axis.tl_walkaround2",
-    "latest-version": "v1.22-for-beta26",
+    "latest-version": "v1.30-for-beta39",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_tl_walkaround2",
@@ -1560,7 +1560,7 @@
   },
   {
     "id": "KAZOON.KSA",
-    "latest-version": "v2.1.2",
+    "latest-version": "v2.1.3",
     "checkType": {
       "type": "GitHub",
       "repo": "cycloawaodorin/ksa",
@@ -2176,7 +2176,7 @@
   },
   {
     "id": "KAZOON.resize_ks",
-    "latest-version": "v0.0.2",
+    "latest-version": "v0.0.3",
     "checkType": {
       "type": "GitHub",
       "repo": "cycloawaodorin/resize_ks",
