@@ -15293,7 +15293,7 @@
     "description": "https://raw.githubusercontent.com/cycloawaodorin/ksa/refs/heads/main/USAGE.md",
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/ksa",
-    "latest-version": "v2.1.3",
+    "latest-version": "v2.1.4",
     "popularity": 201,
     "trend": 120,
     "licenses": [
@@ -15406,6 +15406,16 @@
           {
             "path": "{scriptsDir}/KSA/ksa_ext.mod2",
             "XXH3_128": "f323bf767fdc8c041dd1fa08aadf5b17"
+          }
+        ]
+      },
+      {
+        "version": "v2.1.4",
+        "release_date": "2026-04-03",
+        "file": [
+          {
+            "path": "{scriptsDir}/KSA/ksa_ext.mod2",
+            "XXH3_128": "d8488fadf0f301f37370f868ff85c8c9"
           }
         ]
       }
@@ -19051,7 +19061,7 @@
     "description": "https://raw.githubusercontent.com/cycloawaodorin/resize_ks/refs/heads/main/README.md",
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/resize_ks",
-    "latest-version": "v0.0.3",
+    "latest-version": "v0.0.4",
     "popularity": 93,
     "trend": 75,
     "licenses": [
@@ -19138,6 +19148,16 @@
           {
             "path": "{pluginsDir}/resize_ks.auf2",
             "XXH3_128": "9d4c30c768413229d9621558524ea154"
+          }
+        ]
+      },
+      {
+        "version": "v0.0.4",
+        "release_date": "2026-04-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/resize_ks.auf2",
+            "XXH3_128": "46601b053806624bc5a5a3ed7210935e"
           }
         ]
       }
