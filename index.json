@@ -20551,5 +20551,108 @@
         ]
       }
     ]
+  },
+  {
+    "id": "novenove.VRMToolkit",
+    "name": "VRM Toolkit for AviUtl2",
+    "type": "スクリプト",
+    "summary": "VRMモデルを3D配置して表示するカスタムオブジェクト（VRMA対応）",
+    "description": "https://raw.githubusercontent.com/nove-nove/aviutl2-vrm-toolkit/refs/heads/main/README.md",
+    "author": "novenove",
+    "repoURL": "https://github.com/nove-nove/aviutl2-vrm-toolkit",
+    "latest-version": "v0.1.3",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "novenove"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト",
+      "VRM"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "infoImg": [
+          "./image/novenove.VRMToolkit_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nove-nove",
+          "repo": "aviutl2-vrm-toolkit",
+          "pattern": "VRM-Toolkit-for-AviUtl2\\.au2pkg\\.zip"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/VRMToolkit/VRMToolkitExpressionEditor.aux2",
+          "to": "{pluginsDir}/VRMToolkit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/VRMToolkit/VRMToolkitBridge.mod2",
+          "to": "{scriptsDir}/VRMToolkit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/VRMToolkit/VRMToolkitModel.obj2",
+          "to": "{scriptsDir}/VRMToolkit"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VRMToolkit/VRMToolkitExpressionEditor.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/VRMToolkit/VRMToolkitBridge.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/VRMToolkit/VRMToolkitModel.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.3",
+        "release_date": "2026-04-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/VRMToolkit/VRMToolkitExpressionEditor.aux2",
+            "XXH3_128": "56d5d06e479f7545893d152f849b88cc"
+          },
+          {
+            "path": "{scriptsDir}/VRMToolkit/VRMToolkitBridge.mod2",
+            "XXH3_128": "878a41ed08e2acc7ade7eec3e8db640b"
+          },
+          {
+            "path": "{scriptsDir}/VRMToolkit/VRMToolkitModel.obj2",
+            "XXH3_128": "9259db6d6a43a142204a11c0beb44f0e"
+          }
+        ]
+      }
+    ]
   }
 ]
