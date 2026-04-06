@@ -2418,5 +2418,25 @@
         }
       ]
     }
+  },
+  {
+    "id": "Number-0621.easing-quick-setup",
+    "latest-version": "1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "NumberZero-0621/AviUtl2-easing-quick-setup",
+      "regex": "^easing_quick_setup.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "easing_quick_setup.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/easing_quick_setup.aux2"
+          ]
+        }
+      ]
+    }
   }
 ]
