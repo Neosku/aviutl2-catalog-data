@@ -20397,7 +20397,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_Border_S/refs/heads/master/README.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_Border_S",
-    "latest-version": "v1.00-for-beta39",
+    "latest-version": "v1.01-for-beta40a",
     "popularity": 179,
     "trend": 169,
     "licenses": [
@@ -20482,6 +20482,16 @@
           {
             "path": "{pluginsDir}/Border_S.aux2",
             "XXH3_128": "c917493c9971a95af01daea9a25a3096"
+          }
+        ]
+      },
+      {
+        "version": "v1.01-for-beta40a",
+        "release_date": "2026-04-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/Border_S.aux2",
+            "XXH3_128": "f2cf56a02ac41b4a2ea0a4a3b899dac0"
           }
         ]
       }
