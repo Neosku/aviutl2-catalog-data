@@ -1,7 +1,7 @@
 [
   {
     "id": "Kenkun.AviUtlExEdit2",
-    "latest-version": "beta40",
+    "latest-version": "beta40a",
     "checkType": {
       "type": "URL",
       "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
@@ -860,7 +860,7 @@
   },
   {
     "id": "sigma-axis.tl_walkaround2",
-    "latest-version": "v1.30-for-beta39",
+    "latest-version": "v1.40-for-beta40a",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_tl_walkaround2",
@@ -1381,7 +1381,7 @@
   },
   {
     "id": "Garech.DoubleBPMGrid",
-    "latest-version": "v2.3-aul2",
+    "latest-version": "v2.4-aul2",
     "checkType": {
       "type": "GitHub",
       "repo": "Garech-mas/DoubleBPMGrid",
@@ -1878,7 +1878,7 @@
   },
   {
     "id": "VRAMWIZ.Syncroh2",
-    "latest-version": "v2.2.0",
+    "latest-version": "v3.0.2",
     "checkType": {
       "type": "GitHub",
       "repo": "vramwiz/Syncroh2-site",
@@ -2337,7 +2337,7 @@
   },
   {
     "id": "Number-0621.SelectEasing",
-    "latest-version": "1.0.0",
+    "latest-version": "1.1.0",
     "checkType": {
       "type": "GitHub",
       "repo": "NumberZero-0621/AviUtl2-Plugin-SelectEasing",
@@ -2357,7 +2357,7 @@
   },
   {
     "id": "azurite.PointZoom",
-    "latest-version": "v1.0.1",
+    "latest-version": "v2.0.0",
     "checkType": {
       "type": "GitHub",
       "repo": "azurite581/AviUtl2-PointZoom",
