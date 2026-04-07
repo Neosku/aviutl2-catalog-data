@@ -16482,7 +16482,7 @@
     "description": "https://raw.githubusercontent.com/cycloawaodorin/wav_output_ks/refs/heads/main/README.md",
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/wav_output_ks",
-    "latest-version": "v0.0.1",
+    "latest-version": "v0.0.2",
     "popularity": 344,
     "trend": 91,
     "licenses": [
@@ -16543,6 +16543,16 @@
           {
             "path": "{pluginsDir}/wav_output_ks.auo2",
             "XXH3_128": "44d71a8de7651076978f0fe373cff960"
+          }
+        ]
+      },
+      {
+        "version": "v0.0.2",
+        "release_date": "2026-04-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/wav_output_ks.auo2",
+            "XXH3_128": "116c740fbbfaf68595dfd53a1381e8a6"
           }
         ]
       }
@@ -20457,7 +20467,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_Border_S/refs/heads/master/README.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_Border_S",
-    "latest-version": "v1.01-for-beta40a",
+    "latest-version": "v1.02-for-40a",
     "popularity": 179,
     "trend": 169,
     "licenses": [
@@ -20552,6 +20562,16 @@
           {
             "path": "{pluginsDir}/Border_S.aux2",
             "XXH3_128": "f2cf56a02ac41b4a2ea0a4a3b899dac0"
+          }
+        ]
+      },
+      {
+        "version": "v1.02-for-40a",
+        "release_date": "2026-04-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/Border_S.aux2",
+            "XXH3_128": "a4b614c91b29179a9eb19c7af273b840"
           }
         ]
       }
