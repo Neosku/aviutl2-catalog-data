@@ -10088,7 +10088,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_visual_font/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_visual_font",
-    "latest-version": "r4",
+    "latest-version": "r5",
     "popularity": 5648,
     "trend": 1464,
     "licenses": [
@@ -10204,6 +10204,16 @@
           {
             "path": "{pluginsDir}/al2/al2_visual_font.aui2",
             "XXH3_128": "31abf1c054858d87209c1945e7150a2a"
+          }
+        ]
+      },
+      {
+        "version": "r5",
+        "release_date": "2026-04-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_visual_font.aui2",
+            "XXH3_128": "48ad3887305d9251b7f44351192b44e6"
           }
         ]
       }
@@ -17589,7 +17599,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v3.0.2",
+    "latest-version": "v3.0.3",
     "popularity": 341,
     "trend": 201,
     "licenses": [
@@ -17796,6 +17806,16 @@
           {
             "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
             "XXH3_128": "57eaeab4431a52572caccc1a34ab4dab"
+          }
+        ]
+      },
+      {
+        "version": "v3.0.3",
+        "release_date": "2026-04-07",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "7a560218b37d363a7a6c86a19c6508c7"
           }
         ]
       }
