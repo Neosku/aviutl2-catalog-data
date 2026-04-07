@@ -16566,7 +16566,7 @@
     "description": "https://raw.githubusercontent.com/cycloawaodorin/fzgx_smr_ks/refs/heads/main/README.md",
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/fzgx_smr_ks",
-    "latest-version": "v2.0.3",
+    "latest-version": "v2.0.4",
     "popularity": 72,
     "trend": 11,
     "licenses": [
@@ -16649,6 +16649,16 @@
           {
             "path": "{pluginsDir}/fzgx_smr_ks.auo2",
             "XXH3_128": "6ede1729ff379282caad9d028179f1c3"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.4",
+        "release_date": "2026-04-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/fzgx_smr_ks.auo2",
+            "XXH3_128": "9e7e52b5df6020ef0428e52ec446484b"
           }
         ]
       }
