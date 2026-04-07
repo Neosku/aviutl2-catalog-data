@@ -20321,7 +20321,7 @@
     "description": "https://raw.githubusercontent.com/korarei/AviUtl2_Diffusion_K_Script/main/README.md",
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_Diffusion_K_Script",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.1.0",
     "popularity": 156,
     "trend": 156,
     "licenses": [
@@ -20384,6 +20384,16 @@
           {
             "path": "{scriptsDir}/Diffusion_K/@Diffusion_K.anm2",
             "XXH3_128": "8edafabc08eef0e8c9c005aa0dd3a54d"
+          }
+        ]
+      },
+      {
+        "version": "v1.1.0",
+        "release_date": "2026-04-07",
+        "file": [
+          {
+            "path": "{scriptsDir}/Diffusion_K/@Diffusion_K.anm2",
+            "XXH3_128": "7e6e80985a7d0d6d2c0350f7615ab726"
           }
         ]
       }
