@@ -9602,7 +9602,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_preset_adder/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_preset_adder",
-    "latest-version": "r4",
+    "latest-version": "r5",
     "popularity": 798,
     "trend": 212,
     "licenses": [
@@ -9717,6 +9717,16 @@
           {
             "path": "{pluginsDir}/al2/al2_preset_adder.aui2",
             "XXH3_128": "2fab78660f4bffada443c29571b332e7"
+          }
+        ]
+      },
+      {
+        "version": "r5",
+        "release_date": "2026-04-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_preset_adder.aui2",
+            "XXH3_128": "736641f383e5fdc5c3c0274fc8199c22"
           }
         ]
       }
@@ -13974,7 +13984,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_slimming/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_slimming",
-    "latest-version": "r3",
+    "latest-version": "r4",
     "popularity": 1111,
     "trend": 293,
     "licenses": [
@@ -14067,6 +14077,16 @@
           {
             "path": "{pluginsDir}/al2/al2_slimming.aui2",
             "XXH3_128": "d168619d0a3ad9a5c21af3921de4677b"
+          }
+        ]
+      },
+      {
+        "version": "r4",
+        "release_date": "2026-04-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_slimming.aui2",
+            "XXH3_128": "db37a03d23361f17599b41fae2c0a57d"
           }
         ]
       }
@@ -14938,7 +14958,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_ui_dressing/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_ui_dressing",
-    "latest-version": "r3",
+    "latest-version": "r4",
     "popularity": 1362,
     "trend": 390,
     "licenses": [
@@ -15036,6 +15056,16 @@
           {
             "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
             "XXH3_128": "c312b162f1729efba224c10f0735b89d"
+          }
+        ]
+      },
+      {
+        "version": "r4",
+        "release_date": "2026-04-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
+            "XXH3_128": "21b2090262c4b6e0c490b67a4b883e09"
           }
         ]
       }
