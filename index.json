@@ -20742,7 +20742,7 @@
     "description": "https://raw.githubusercontent.com/azurite581/AviUtl2-PointZoom/refs/heads/main/README.md",
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-PointZoom",
-    "latest-version": "v2.0.0",
+    "latest-version": "v2.0.1",
     "popularity": 196,
     "trend": 196,
     "licenses": [
@@ -20813,6 +20813,11 @@
             "XXH3_128": "b830f7d9f26fe38e03189a43ea4d9354"
           }
         ]
+      },
+      {
+        "version": "v2.0.1",
+        "release_date": "2026-04-08",
+        "file": []
       }
     ]
   },
