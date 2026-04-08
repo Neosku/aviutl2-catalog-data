@@ -15403,7 +15403,7 @@
     "description": "https://raw.githubusercontent.com/cycloawaodorin/ksa/refs/heads/main/USAGE.md",
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/ksa",
-    "latest-version": "v2.1.5",
+    "latest-version": "v2.1.6",
     "popularity": 223,
     "trend": 113,
     "licenses": [
@@ -15536,6 +15536,16 @@
           {
             "path": "{scriptsDir}/KSA/ksa_ext.mod2",
             "XXH3_128": "8a108277a7e56a4a9c0af0f5feed444a"
+          }
+        ]
+      },
+      {
+        "version": "v2.1.6",
+        "release_date": "2026-04-08",
+        "file": [
+          {
+            "path": "{scriptsDir}/KSA/ksa_ext.mod2",
+            "XXH3_128": "1554855a14b3525fa7b0981bde3e1f7d"
           }
         ]
       }
@@ -16586,7 +16596,7 @@
     "description": "https://raw.githubusercontent.com/cycloawaodorin/fzgx_smr_ks/refs/heads/main/README.md",
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/fzgx_smr_ks",
-    "latest-version": "v2.0.4",
+    "latest-version": "v2.0.5",
     "popularity": 74,
     "trend": 20,
     "licenses": [
@@ -16679,6 +16689,16 @@
           {
             "path": "{pluginsDir}/fzgx_smr_ks.auo2",
             "XXH3_128": "9e7e52b5df6020ef0428e52ec446484b"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.5",
+        "release_date": "2026-04-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/fzgx_smr_ks.auo2",
+            "XXH3_128": "add5de580bf7f833636a13bab8053a81"
           }
         ]
       }
@@ -19261,7 +19281,7 @@
     "description": "https://raw.githubusercontent.com/cycloawaodorin/resize_ks/refs/heads/main/README.md",
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/resize_ks",
-    "latest-version": "v0.0.5",
+    "latest-version": "v0.0.6",
     "popularity": 114,
     "trend": 79,
     "licenses": [
@@ -19368,6 +19388,16 @@
           {
             "path": "{pluginsDir}/resize_ks.auf2",
             "XXH3_128": "e1c5067a1e195b0bc26b55271eb48e03"
+          }
+        ]
+      },
+      {
+        "version": "v0.0.6",
+        "release_date": "2026-04-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/resize_ks.auf2",
+            "XXH3_128": "c3288e599a0d7686d392ac0a2fe8498c"
           }
         ]
       }
