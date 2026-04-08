@@ -20800,7 +20800,7 @@
         "github": {
           "owner": "azurite581",
           "repo": "AviUtl2-PointZoom",
-          "pattern": "^PointZoom-.*\\.zip$"
+          "pattern": "^PointZoom.*\\.zip$"
         }
       },
       "install": [
@@ -20847,7 +20847,12 @@
       {
         "version": "v2.0.1",
         "release_date": "2026-04-08",
-        "file": []
+        "file": [
+          {
+            "path": "{scriptsDir}/ポイントズーム.anm2",
+            "XXH3_128": "184d50b45245e2d829a065e9ed065756"
+          }
+        ]
       }
     ]
   },

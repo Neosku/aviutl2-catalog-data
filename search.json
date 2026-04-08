@@ -2361,12 +2361,12 @@
     "checkType": {
       "type": "GitHub",
       "repo": "azurite581/AviUtl2-PointZoom",
-      "regex": "^PointZoom_.*\\.zip$",
+      "regex": "^PointZoom.*\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
           "paths": [
-            "ポイントズーム.anm2"
+            "Script/ポイントズーム.anm2"
           ],
           "recordPaths": [
             "{scriptsDir}/ポイントズーム.anm2"
