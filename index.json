@@ -20071,7 +20071,7 @@
     "description": "https://raw.githubusercontent.com/nove-nove/aviutl2-karaoke-lyric-renderer/refs/heads/main/README.md",
     "author": "novenove",
     "repoURL": "https://github.com/nove-nove/aviutl2-karaoke-lyric-renderer",
-    "latest-version": "v1.1.1",
+    "latest-version": "v1.2.0",
     "popularity": 98,
     "trend": 84,
     "licenses": [
@@ -20141,6 +20141,16 @@
           {
             "path": "{pluginsDir}/AviUtl2KaraokeLyricRenderer.auf2",
             "XXH3_128": "f08607fa1e282645d5fcf6fb1e4e7d0d"
+          }
+        ]
+      },
+      {
+        "version": "v1.2.0",
+        "release_date": "2026-04-11",
+        "file": [
+          {
+            "path": "{pluginsDir}/AviUtl2KaraokeLyricRenderer.auf2",
+            "XXH3_128": "df4377defd098bd6a8a799ff3152a9b3"
           }
         ]
       }
