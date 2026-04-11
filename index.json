@@ -1738,7 +1738,7 @@
     "description": "./md/rigaya.QSVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/QSVEnc",
-    "latest-version": "8.08",
+    "latest-version": "8.09",
     "popularity": 379,
     "trend": 151,
     "licenses": [
@@ -1924,6 +1924,16 @@
           {
             "path": "{pluginsDir}/QSVEnc.auo2",
             "XXH3_128": "604f7fc61a8794f289a9019f4e0868c6"
+          }
+        ]
+      },
+      {
+        "version": "8.09",
+        "release_date": "2026-04-11",
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo2",
+            "XXH3_128": "e173d6057ea378aa628b71fbbad33dee"
           }
         ]
       }
@@ -17699,7 +17709,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v3.0.3",
+    "latest-version": "v3.0.4",
     "popularity": 366,
     "trend": 208,
     "licenses": [
@@ -17916,6 +17926,16 @@
           {
             "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
             "XXH3_128": "7a560218b37d363a7a6c86a19c6508c7"
+          }
+        ]
+      },
+      {
+        "version": "v3.0.4",
+        "release_date": "2026-04-11",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "0ab58b4d6defb40f7a20a9cfc4c75701"
           }
         ]
       }
