@@ -17719,7 +17719,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v3.0.4",
+    "latest-version": "v3.0.5",
     "popularity": 366,
     "trend": 208,
     "licenses": [
@@ -17946,6 +17946,16 @@
           {
             "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
             "XXH3_128": "0ab58b4d6defb40f7a20a9cfc4c75701"
+          }
+        ]
+      },
+      {
+        "version": "v3.0.5",
+        "release_date": "2026-04-12",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "281c12ddb7d993f7d0bc99066d7c6d63"
           }
         ]
       }
@@ -20515,7 +20525,7 @@
     "description": "https://raw.githubusercontent.com/korarei/AviUtl2_Diffusion_K_Script/main/README.md",
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_Diffusion_K_Script",
-    "latest-version": "v1.1.0",
+    "latest-version": "v1.2.0",
     "popularity": 229,
     "trend": 235,
     "licenses": [
@@ -20588,6 +20598,16 @@
           {
             "path": "{scriptsDir}/Diffusion_K/@Diffusion_K.anm2",
             "XXH3_128": "7e6e80985a7d0d6d2c0350f7615ab726"
+          }
+        ]
+      },
+      {
+        "version": "v1.2.0",
+        "release_date": "2026-04-12",
+        "file": [
+          {
+            "path": "{scriptsDir}/Diffusion_K/@Diffusion_K.anm2",
+            "XXH3_128": "733dfdbb0dd6e8c0808c0f1b6915d99c"
           }
         ]
       }
