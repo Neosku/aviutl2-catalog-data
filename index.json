@@ -20979,7 +20979,7 @@
     "description": "https://raw.githubusercontent.com/nove-nove/aviutl2-vrm-toolkit/refs/heads/main/README.md",
     "author": "novenove",
     "repoURL": "https://github.com/nove-nove/aviutl2-vrm-toolkit",
-    "latest-version": "v0.1.3",
+    "latest-version": "v0.2.0",
     "popularity": 63,
     "trend": 61,
     "licenses": [
@@ -21061,6 +21061,24 @@
           {
             "path": "{pluginsDir}/VRMToolkit/VRMToolkitExpressionEditor.aux2",
             "XXH3_128": "56d5d06e479f7545893d152f849b88cc"
+          }
+        ]
+      },
+      {
+        "version": "v0.2.0",
+        "release_date": "2026-04-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/VRMToolkit/VRMToolkitExpressionEditor.aux2",
+            "XXH3_128": "7779addd2ae21a8d488938d66b8fcf37"
+          },
+          {
+            "path": "{scriptsDir}/VRMToolkit/VRMToolkitBridge.mod2",
+            "XXH3_128": "ac4173139edfee4236b51f6bf9f16341"
+          },
+          {
+            "path": "{scriptsDir}/VRMToolkit/VRMToolkitModel.obj2",
+            "XXH3_128": "9259db6d6a43a142204a11c0beb44f0e"
           }
         ]
       }
