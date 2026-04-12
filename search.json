@@ -1,7 +1,7 @@
 [
   {
     "id": "Kenkun.AviUtlExEdit2",
-    "latest-version": "beta40a",
+    "latest-version": "beta41a",
     "checkType": {
       "type": "URL",
       "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
@@ -504,7 +504,7 @@
   },
   {
     "id": "Garech.SplitFilters",
-    "latest-version": "v1.06",
+    "latest-version": "v1.07",
     "checkType": {
       "type": "GitHub",
       "repo": "Garech-mas/AviUtl2_SplitFilters",
@@ -604,7 +604,7 @@
   },
   {
     "id": "amaii4.AviUtl2_Discord_RPC",
-    "latest-version": "1.2",
+    "latest-version": "1.3",
     "checkType": {
       "type": "GitHub",
       "repo": "amaii4/AviUtl2_Discord_RPC",
@@ -1878,7 +1878,7 @@
   },
   {
     "id": "VRAMWIZ.Syncroh2",
-    "latest-version": "v3.0.4",
+    "latest-version": "v3.0.5",
     "checkType": {
       "type": "GitHub",
       "repo": "vramwiz/Syncroh2-site",
@@ -2297,7 +2297,7 @@
   },
   {
     "id": "korarei.Diffusion_K",
-    "latest-version": "v1.1.0",
+    "latest-version": "v1.2.0",
     "checkType": {
       "type": "GitHub",
       "repo": "korarei/AviUtl2_Diffusion_K_Script",
@@ -2397,7 +2397,7 @@
   },
   {
     "id": "novenove.VRMToolkit",
-    "latest-version": "v0.1.3",
+    "latest-version": "v0.2.0",
     "checkType": {
       "type": "GitHub",
       "repo": "nove-nove/aviutl2-vrm-toolkit",
