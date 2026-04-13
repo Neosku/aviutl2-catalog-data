@@ -1158,26 +1158,6 @@
     }
   },
   {
-    "id": "sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut",
-    "latest-version": "0.23.0",
-    "checkType": {
-      "type": "GitHub",
-      "repo": "sevenc-nanashi/aviutl2-rs",
-      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
-      "hash-calc": [
-        {
-          "extract": "zip",
-          "paths": [
-            "Plugin/rusty_restart_shortcut.aux2"
-          ],
-          "recordPaths": [
-            "{pluginsDir}/rusty_restart_shortcut.aux2"
-          ]
-        }
-      ]
-    }
-  },
-  {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_scripts_search",
     "latest-version": "0.23.0",
     "checkType": {
@@ -2434,6 +2414,26 @@
           ],
           "recordPaths": [
             "{pluginsDir}/easing_quick_setup.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Pachira762.AnalogFuu",
+    "latest-version": "v1.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Pachira762/AnalogFuu",
+      "regex": "^AnalogFuu_.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "AnalogFuu/AnalogFuu.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/AnalogFuu.auf2"
           ]
         }
       ]
