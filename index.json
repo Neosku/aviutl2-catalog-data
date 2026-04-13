@@ -12755,11 +12755,11 @@
     "id": "sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut",
     "name": "Rusty Restart Shortcut Plugin",
     "type": "汎用プラグイン",
-    "summary": "AviUtl2を再起動する編集メニューを追加するプラグイン",
-    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/restart-shortcut-plugin/README.md",
+    "summary": "⚠️非推奨 AviUtl2を再起動する編集メニューを追加するプラグイン",
+    "description": "./md/sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-rs",
-    "latest-version": "0.23.0",
+    "latest-version": "0.22.0",
     "popularity": 629,
     "trend": 232,
     "licenses": [
@@ -12783,28 +12783,16 @@
     "images": [],
     "installer": {
       "source": {
-        "github": {
-          "owner": "sevenc-nanashi",
-          "repo": "aviutl2-rs",
-          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
-        }
+        "direct": "https://github.com/sevenc-nanashi/aviutl2-rs/releases/download/0.22.0/rusty_restart_shortcut.aux2"
       },
       "install": [
         {
           "action": "download"
         },
         {
-          "action": "extract"
-        },
-        {
           "action": "copy",
-          "from": "{tmp}/Plugin/rusty_restart_shortcut.aux2",
+          "from": "{tmp}/rusty_restart_shortcut.aux2",
           "to": "{pluginsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Language/English.rusty_restart_shortcut_plugin.aul2",
-          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -12976,16 +12964,6 @@
           {
             "path": "{pluginsDir}/rusty_restart_shortcut.aux2",
             "XXH3_128": "538947dd5c48de9567dd026a8c5c475d"
-          }
-        ]
-      },
-      {
-        "version": "0.23.0",
-        "release_date": "2026-04-13",
-        "file": [
-          {
-            "path": "{pluginsDir}/rusty_restart_shortcut.aux2",
-            "XXH3_128": ""
           }
         ]
       }
