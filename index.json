@@ -4712,8 +4712,8 @@
     "id": "sigma-axis.Basic_S",
     "name": "Basic_S",
     "type": "スクリプト",
-    "summary": "汎用的な基本効果や基本図形などをまとめたスクリプト集",
-    "description": "./md/sigma-axis.Basic_S.md",
+    "summary": "丸角矩形や回転操作の補助，傾斜変形など汎用的な基本効果のスクリプト集．",
+    "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Basic_S/refs/heads/main/README.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Basic_S",
     "latest-version": "v1.90-for-beta41a",
@@ -4725,7 +4725,7 @@
         "isCustom": false,
         "copyrights": [
           {
-            "years": "2025",
+            "years": "2025-2026",
             "holder": "sigma-axis"
           }
         ],
@@ -4739,10 +4739,28 @@
       "色調補正",
       "クリッピング",
       "縁取り",
-      "ぼかし"
+      "ぼかし",
+      "イージング",
+      "カスタムオブジェクト",
+      "スクリプト",
+      "リサイズ",
+      "移動",
+      "影",
+      "角丸",
+      "回転",
+      "色調整",
+      "切り抜き",
+      "配置"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/sigma-axis.Basic_S_thumbnail.webp",
+        "infoImg": [
+          "./image/sigma-axis.Basic_S_1.png"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -4760,18 +4778,28 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/@Basic_S.anm2",
+          "from": "{tmp}/Script/@Basic_S.anm2",
           "to": "{scriptsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/@Basic_S.obj2",
+          "from": "{tmp}/Script/@Basic_S.obj2",
           "to": "{scriptsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/@Basic_S.tra2",
+          "from": "{tmp}/Script/@Basic_S.tra2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Basic_S/LICENSE",
+          "to": "{scriptsDir}/Basic_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Basic_S/README.md",
+          "to": "{scriptsDir}/Basic_S"
         }
       ],
       "uninstall": [
@@ -4786,6 +4814,14 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/@Basic_S.tra2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Basic_S/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Basic_S/README.md"
         }
       ]
     },
