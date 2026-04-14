@@ -21700,5 +21700,87 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sevenc-nanashi.tex-auf2",
+    "name": "tex.auf2",
+    "type": "フィルタプラグイン",
+    "summary": "TeXを読み込むAviUtl2のカスタムオブジェクト",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/tex.auf2/refs/heads/main/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/tex.auf2",
+    "latest-version": "0.1.2",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT License\n\nCopyright (c) 2026 Nanashi. <sevenc7c.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+      }
+    ],
+    "tags": [
+      "文字"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/sevenc-nanashi.tex-auf2_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "tex.auf2",
+          "pattern": "^sevenc-nanashi\\.tex-auf2-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/tex.aux2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.tex.aul2",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/tex.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.tex.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.1.2",
+        "release_date": "2026-04-14",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.tex.aul2",
+            "XXH3_128": "28eab41928a10b449e4817d2253a056a"
+          },
+          {
+            "path": "{pluginsDir}/tex.aux2",
+            "XXH3_128": "cce0cc27bb2104e33ec4555e3576f838"
+          }
+        ]
+      }
+    ]
   }
 ]
