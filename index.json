@@ -21793,5 +21793,79 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Yuzuriha.LoudnessVisualExplorer",
+    "name": "ラウドネス視覚分析",
+    "type": "汎用プラグイン",
+    "summary": "AviUtl2用のラウドネスを可視化し調整できるプラグインです",
+    "description": "./md/Yuzuriha.LoudnessVisualExplorer.md",
+    "author": "ゆずりは",
+    "originalAuthor": "oov",
+    "repoURL": "https://drive.google.com/drive/folders/1scs7pYc-EUqhfItoDdPXlV1DKFZ9iYQf?usp=sharing",
+    "latest-version": "v0.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "音声",
+      "補正",
+      "調整"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/Yuzuriha.LoudnessVisualExplorer_thumbnail.png",
+        "infoImg": [
+          "./image/Yuzuriha.LoudnessVisualExplorer_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1obqjCNRBN2cyHWjmNfBWm20Wi0ZjC0Ua"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/LoudnessVisualExplorer.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/LoudnessVisualExplorer.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/LoudnessVisualExplorer.ini"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1",
+        "release_date": "2026-04-15",
+        "file": [
+          {
+            "path": "{pluginsDir}/LoudnessVisualExplorer.aux2",
+            "XXH3_128": "8a737ac0b902d6499877933c1eff92ef"
+          }
+        ]
+      }
+    ]
   }
 ]
