@@ -6669,10 +6669,18 @@
     ],
     "tags": [],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/amaii4.AviUtl2_Discord_RPC_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
-        "direct": "https://github.com/amaii4/AviUtl2_Discord_RPC/releases/download/1.2/DiscordRPC.aux2"
+        "github": {
+          "owner": "amaii4",
+          "repo": "AviUtl2_Discord_RPC",
+          "pattern": "^DiscordRPC.aux2$"
+        }
       },
       "install": [
         {
@@ -6723,6 +6731,16 @@
           {
             "path": "{pluginsDir}/DiscordRPC.aux2",
             "XXH3_128": "322ef8a989c1ec7dd0dcffe8060324bc"
+          }
+        ]
+      },
+      {
+        "version": "1.3",
+        "release_date": "2026-04-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/DiscordRPC.aux2",
+            "XXH3_128": "734e0c281e3e65627b1cf9d90e4ea2cc"
           }
         ]
       },
