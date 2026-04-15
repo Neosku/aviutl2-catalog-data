@@ -15512,21 +15512,21 @@
   },
   {
     "id": "CatWithNeko.ToneCurve",
-    "name": "トーンカーブ(時間制御)",
+    "name": "Tonecurve_C",
     "type": "スクリプト",
     "summary": "時間制御のカーブエディタを利用したトーンカーブスクリプト",
     "description": "./md/CatWithNeko.ToneCurve.md",
     "author": "こんにゃくねこ",
     "repoURL": "https://x.com/CatWithNeko/status/1972685066963960255",
-    "latest-version": "2025-11-02",
+    "latest-version": "2025.11.02",
     "popularity": 520,
     "trend": 52,
     "licenses": [
       {
-        "type": "不明",
-        "isCustom": true,
+        "type": "CC0-1.0",
+        "isCustom": false,
         "copyrights": [],
-        "licenseBody": ""
+        "licenseBody": null
       }
     ],
     "tags": [
@@ -15538,7 +15538,7 @@
     "images": [],
     "installer": {
       "source": {
-        "direct": "https://scrapbox.io/api/code/CatWithNeko/aviutl2_%E3%83%88%E3%83%BC%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%96(%E6%99%82%E9%96%93%E5%88%B6%E5%BE%A1)%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88/%E3%83%88%E3%83%BC%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%96(%E6%99%82%E9%96%93%E5%88%B6%E5%BE%A1).anm2"
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/Tonecurve_C.anm2"
       },
       "install": [
         {
@@ -15546,25 +15546,43 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/トーンカーブ(時間制御).anm2",
+          "from": "{tmp}/Tonecurve_C.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/トーンカーブ(時間制御).anm2"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/トーンカーブ(時間制御).anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Tonecurve_C.anm2"
         }
       ]
     },
     "version": [
       {
-        "version": "2025-11-02",
+        "version": "2025.11.02",
         "release_date": "2025-11-02",
         "file": [
           {
             "path": "{scriptsDir}/トーンカーブ(時間制御).anm2",
             "XXH3_128": "20179a871f9bc3430e0f0a6ec1390746"
+          }
+        ]
+      },
+      {
+        "version": "2025.11.02",
+        "release_date": "2025-11-02",
+        "file": [
+          {
+            "path": "{scriptsDir}/Tonecurve_C.anm2",
+            "XXH3_128": "f96d09e20cf0fe7fba722d23b7c2d20c"
           }
         ]
       }
@@ -21881,6 +21899,80 @@
           {
             "path": "{pluginsDir}/LoudnessVisualExplorer.aux2",
             "XXH3_128": "8a737ac0b902d6499877933c1eff92ef"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CatWithNeko.LongShadow",
+    "name": "LongShadow",
+    "type": "スクリプト",
+    "summary": "AviUtl2 ロングシャドー(&フラットシャドー)",
+    "description": "./md/CatWithNeko.LongShadow.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts",
+    "latest-version": "2026.04.15",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "グラデーション",
+      "影",
+      "縁取り"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/CatWithNeko.LongShadow_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/LongShadow.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/LongShadow.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/LongShadow.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.09.06",
+        "release_date": "2025-09-06",
+        "file": [
+          {
+            "path": "{scriptsDir}/LongShadow.anm2",
+            "XXH3_128": "8b83e9c6de758b38e67e49dea081e9ff"
+          }
+        ]
+      },
+      {
+        "version": "2026.04.15",
+        "release_date": "2026-04-15",
+        "file": [
+          {
+            "path": "{scriptsDir}/LongShadow.anm2",
+            "XXH3_128": "d0a9e65df52586b3a58ccd67249a2d3e"
           }
         ]
       }
