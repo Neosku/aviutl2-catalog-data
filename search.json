@@ -2438,5 +2438,27 @@
         }
       ]
     }
+  },
+  {
+    "id": "sevenc-nanashi.tex-auf2",
+    "latest-version": "0.1.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/tex.auf2",
+      "regex": "^sevenc-nanashi\\.tex-auf2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/tex.aux2",
+            "Language/English.tex.aul2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/tex.aux2",
+            "{dataDir}/Language/English.tex.aul2"
+          ]
+        }
+      ]
+    }
   }
 ]
