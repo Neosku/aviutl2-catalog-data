@@ -21885,5 +21885,79 @@
         ]
       }
     ]
+  },
+  {
+    "id": "CatWithNeko.LongShadow",
+    "name": "LongShadow",
+    "type": "スクリプト",
+    "summary": "AviUtl2 ロングシャドー(&フラットシャドー)",
+    "description": "./md/CatWithNeko.LongShadow.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts",
+    "latest-version": "2026.04.15",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "グラデーション",
+      "影",
+      "縁取り"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/CatWithNeko.LongShadow_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/LongShadow.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/LongShadow.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/LongShadow.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.09.06",
+        "release_date": "2025-09-06",
+        "file": [
+          {
+            "path": "{scriptsDir}/LongShadow.anm2",
+            "XXH3_128": "8b83e9c6de758b38e67e49dea081e9ff"
+          }
+        ]
+      },
+      {
+        "version": "2026.04.15",
+        "release_date": "2026-04-15",
+        "file": [
+          {
+            "path": "{scriptsDir}/LongShadow.anm2",
+            "XXH3_128": "d0a9e65df52586b3a58ccd67249a2d3e"
+          }
+        ]
+      }
+    ]
   }
 ]
