@@ -19784,7 +19784,7 @@
     "description": "https://raw.githubusercontent.com/Pachira762/vsr4aviutl/refs/heads/master/README.md",
     "author": "Pachira762",
     "repoURL": "https://github.com/Pachira762/vsr4aviutl",
-    "latest-version": "v1.0.1",
+    "latest-version": "v1.0.2",
     "popularity": 482,
     "trend": 99,
     "licenses": [
@@ -19866,6 +19866,16 @@
           {
             "path": "{pluginsDir}/vsr4aviutl.auf2",
             "XXH3_128": "8fd17ec9b070ecced8253923d573ebce"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.2",
+        "release_date": "2026-04-19",
+        "file": [
+          {
+            "path": "{pluginsDir}/vsr4aviutl.auf2",
+            "XXH3_128": "25c92bc3e1837b75e7a99e9a03687162"
           }
         ]
       }
