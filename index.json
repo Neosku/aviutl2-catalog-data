@@ -7870,7 +7870,7 @@
     "description": "./md/Karoterra.ColorVisionSimulation.md",
     "author": "かろてら",
     "repoURL": "https://github.com/karoterra/aviutl2-ColorVisionSimulation",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.1.1",
     "popularity": 214,
     "trend": 16,
     "licenses": [
@@ -7925,6 +7925,11 @@
             "XXH3_128": "8fb4d1d47e7e45936b51dd437d45bd67"
           }
         ]
+      },
+      {
+        "version": "v1.1.1",
+        "release_date": "2026-04-19",
+        "file": []
       }
     ]
   },
