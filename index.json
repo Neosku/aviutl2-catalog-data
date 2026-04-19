@@ -22244,5 +22244,92 @@
         ]
       }
     ]
+  },
+  {
+    "id": "azurite.AdjustPivot_A",
+    "name": "中心ずらし_A",
+    "type": "スクリプト",
+    "summary": "オブジェクトの中心座標を移動するスクリプト",
+    "description": "https://raw.githubusercontent.com/azurite581/AviUtl2-AdjustPivot_A/main/README.md",
+    "author": "azurite",
+    "repoURL": "https://github.com/azurite581/AviUtl2-AdjustPivot_A",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "azurite"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "移動"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/azurite.AdjustPivot_A_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "azurite581",
+          "repo": "AviUtl2-AdjustPivot_A",
+          "pattern": "^AdjustPivot_A-v.+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/中心ずらし_A.aux2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/中心ずらし_A.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/中心ずらし_A.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/中心ずらし_A.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/中心ずらし_A_settings.json"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-04-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/中心ずらし_A.anm2",
+            "XXH3_128": "e495353dd8d413b8fe4c1c9eb86d5f02"
+          }
+        ]
+      }
+    ]
   }
 ]
