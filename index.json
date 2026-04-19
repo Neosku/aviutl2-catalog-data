@@ -7724,6 +7724,7 @@
         "licenseBody": null
       }
     ],
+    "niconiCommonsId": "sm39051118",
     "tags": [
       "画像",
       "加工"
@@ -7735,10 +7736,14 @@
         "github": {
           "owner": "karoterra",
           "repo": "aviutl2-OilPainting",
-          "pattern": "^aviutl2-OilPainting_.*\\.zip$"
+          "pattern": "^Karoterra.OilPainting-v.*.au2pkg.zip$"
         }
       },
       "install": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/油絵KR.anm2"
+        },
         {
           "action": "download"
         },
@@ -7747,14 +7752,36 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/油絵KR.anm2",
-          "to": "{scriptsDir}"
+          "from": "{tmp}/Script/Karoterra.OilPainting/LICENSE",
+          "to": "{scriptsDir}/Karoterra.OilPainting"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Karoterra.OilPainting/README.md",
+          "to": "{scriptsDir}/Karoterra.OilPainting"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Karoterra.OilPainting/油絵KR.anm2",
+          "to": "{scriptsDir}/Karoterra.OilPainting"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/油絵KR.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Karoterra.OilPainting/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Karoterra.OilPainting/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Karoterra.OilPainting/油絵KR.anm2"
         }
       ]
     },
@@ -7772,7 +7799,12 @@
       {
         "version": "v1.1.0",
         "release_date": "2026-04-19",
-        "file": []
+        "file": [
+          {
+            "path": "{scriptsDir}/Karoterra.OilPainting/油絵KR.anm2",
+            "XXH3_128": "2259401869619166f2607cc0a1df7149"
+          }
+        ]
       }
     ]
   },
