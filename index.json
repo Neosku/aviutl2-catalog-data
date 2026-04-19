@@ -22170,7 +22170,7 @@
     "author": "ゆずりは",
     "originalAuthor": "oov",
     "repoURL": "https://drive.google.com/drive/folders/1scs7pYc-EUqhfItoDdPXlV1DKFZ9iYQf?usp=sharing",
-    "latest-version": "v0.1",
+    "latest-version": "v0.1.2",
     "popularity": 62,
     "trend": 77,
     "licenses": [
@@ -22224,12 +22224,12 @@
     },
     "version": [
       {
-        "version": "v0.1",
-        "release_date": "2026-04-15",
+        "version": "v0.1.2",
+        "release_date": "2026-04-20",
         "file": [
           {
             "path": "{pluginsDir}/LoudnessVisualExplorer.aux2",
-            "XXH3_128": "8a737ac0b902d6499877933c1eff92ef"
+            "XXH3_128": "43b8fea088829cf166361bc847cefd07"
           }
         ]
       }
