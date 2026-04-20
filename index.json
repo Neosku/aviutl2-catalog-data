@@ -21941,7 +21941,7 @@
     "description": "./md/Fuji.commons_material_extractor.md",
     "author": "Fuji",
     "repoURL": "https://www.nicovideo.jp/watch/sm46156601",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.2",
     "popularity": 124,
     "trend": 126,
     "licenses": [
@@ -21983,6 +21983,10 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/commons_material_extractor.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/commons_material_extractor_settings.json"
         }
       ]
     },
@@ -21994,6 +21998,16 @@
           {
             "path": "{pluginsDir}/commons_material_extractor.aux2",
             "XXH3_128": "0a0b7bdd32411200dcaf1f05eca7b7e3"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.2",
+        "release_date": "2026-04-20",
+        "file": [
+          {
+            "path": "{pluginsDir}/commons_material_extractor.aux2",
+            "XXH3_128": "94b679b8104a3951ea9e74f61dd077ba"
           }
         ]
       }
