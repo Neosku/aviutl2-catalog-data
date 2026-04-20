@@ -22224,12 +22224,12 @@
     },
     "version": [
       {
-        "version": "v0.1.2",
-        "release_date": "2026-04-20",
+        "version": "v0.1",
+        "release_date": "2026-04-15",
         "file": [
           {
             "path": "{pluginsDir}/LoudnessVisualExplorer.aux2",
-            "XXH3_128": "43b8fea088829cf166361bc847cefd07"
+            "XXH3_128": "8a737ac0b902d6499877933c1eff92ef"
           }
         ]
       },
@@ -22240,6 +22240,16 @@
           {
             "path": "{pluginsDir}/LoudnessVisualExplorer.aux2",
             "XXH3_128": "4e1e35f46df116be834bf6b0bd222a99"
+          }
+        ]
+      },
+      {
+        "version": "v0.1.2",
+        "release_date": "2026-04-20",
+        "file": [
+          {
+            "path": "{pluginsDir}/LoudnessVisualExplorer.aux2",
+            "XXH3_128": "43b8fea088829cf166361bc847cefd07"
           }
         ]
       }
