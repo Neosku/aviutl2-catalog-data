@@ -21941,7 +21941,7 @@
     "description": "./md/Fuji.commons_material_extractor.md",
     "author": "Fuji",
     "repoURL": "https://www.nicovideo.jp/watch/sm46156601",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 128,
     "trend": 129,
     "licenses": [
@@ -21962,7 +21962,11 @@
       "便利ツール"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/Fuji.commons_material_extractor_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "GoogleDrive": {
@@ -21983,6 +21987,10 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/commons_material_extractor.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/commons_material_extractor_settings.json"
         }
       ]
     },
@@ -21994,6 +22002,16 @@
           {
             "path": "{pluginsDir}/commons_material_extractor.aux2",
             "XXH3_128": "0a0b7bdd32411200dcaf1f05eca7b7e3"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-04-20",
+        "file": [
+          {
+            "path": "{pluginsDir}/commons_material_extractor.aux2",
+            "XXH3_128": "8318e08376c6ae0b80565c1d36a7bdf1"
           }
         ]
       }
