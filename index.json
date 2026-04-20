@@ -22224,6 +22224,16 @@
     },
     "version": [
       {
+        "version": "v0.1",
+        "release_date": "2026-04-15",
+        "file": [
+          {
+            "path": "{pluginsDir}/LoudnessVisualExplorer.aux2",
+            "XXH3_128": "8a737ac0b902d6499877933c1eff92ef"
+          }
+        ]
+      },
+      {
         "version": "v0.1.1",
         "release_date": "2026-04-20",
         "file": [
