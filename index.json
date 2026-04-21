@@ -22536,7 +22536,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/%E7%B8%A6%E5%8B%95%E7%94%BB%E3%82%AC%E3%82%A4%E3%83%89/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E7%B8%A6%E5%8B%95%E7%94%BB%E3%82%AC%E3%82%A4%E3%83%89/README.md",
-    "latest-version": "1.0",
+    "latest-version": "1.2",
     "popularity": 27,
     "trend": 27,
     "licenses": [
@@ -22586,6 +22586,16 @@
           {
             "path": "{scriptsDir}/縦動画ガイド.obj2",
             "XXH3_128": "07d2322e937365b5ab8b0d3f71a9a779"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "release_date": "2026-04-20",
+        "file": [
+          {
+            "path": "{scriptsDir}/縦動画ガイド.obj2",
+            "XXH3_128": "2362232375de97a3f9c4c095d16a4963"
           }
         ]
       }
