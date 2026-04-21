@@ -22580,5 +22580,70 @@
         ]
       }
     ]
+  },
+  {
+    "id": "aviutl2-community.aviutl2_community_translation_companion",
+    "name": "AviUtl2 Community Translation Companion",
+    "type": "言語ファイル",
+    "summary": "Pull translations from Crowdin",
+    "description": "https://raw.githubusercontent.com/aviutl2/aviutl2_community_translation/refs/heads/main/README.en.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/aviutl2/aviutl2-community-translation",
+    "latest-version": "0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT License\n\nCopyright (c) 2025 Nanashi. <sevenc7c.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+      }
+    ],
+    "tags": [
+      "UI"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "aviutl2",
+          "repo": "aviutl2-community-translation",
+          "pattern": "^aviutl2-community\\.aviutl2_community_translation_companion-v.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/aviutl2_community_translation_companion.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/aviutl2_community_translation_companion.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.1.0",
+        "release_date": "2026-04-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/aviutl2_community_translation_companion.aux2",
+            "XXH3_128": "2111e7a96a67c2f8df9f8c32a67d0d6f"
+          }
+        ]
+      }
+    ]
   }
 ]
