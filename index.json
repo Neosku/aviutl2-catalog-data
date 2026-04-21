@@ -22621,7 +22621,7 @@
     "description": "https://raw.githubusercontent.com/aviutl2/aviutl2_community_translation/refs/heads/main/README.en.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/aviutl2/aviutl2-community-translation",
-    "latest-version": "0.1.0",
+    "latest-version": "0.1.1",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -22673,6 +22673,16 @@
           {
             "path": "{pluginsDir}/aviutl2_community_translation_companion.aux2",
             "XXH3_128": "2111e7a96a67c2f8df9f8c32a67d0d6f"
+          }
+        ]
+      },
+      {
+        "version": "0.1.1",
+        "release_date": "2026-04-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/aviutl2_community_translation_companion.aux2",
+            "XXH3_128": "ded14b1c961b32deaae3a39453667370"
           }
         ]
       }
