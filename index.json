@@ -22667,5 +22667,69 @@
         ]
       }
     ]
+  },
+  {
+    "id": "CatWithNeko.Halftone",
+    "name": "Halftone",
+    "type": "スクリプト",
+    "summary": "なんちゃってハーフトーン",
+    "description": "./md/CatWithNeko.Halftone.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts",
+    "latest-version": "2025.08.17",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "加工",
+      "パターン"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/CatWithNeko.Halftone_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/Halftone.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Halftone.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Halftone.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.08.17",
+        "release_date": "2025-08-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/Halftone.anm2",
+            "XXH3_128": "5b9f531af8304ca1e3326a3d497c7f36"
+          }
+        ]
+      }
+    ]
   }
 ]
