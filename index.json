@@ -20583,7 +20583,7 @@
     "description": "./md/korarei.Constraint.md",
     "author": "Korarei",
     "repoURL": "https://gist.github.com/korarei/d5b089a69e0c8ba5903d641d677c89e8",
-    "latest-version": "v0.2.0",
+    "latest-version": "v0.3.0",
     "popularity": 441,
     "trend": 119,
     "licenses": [
@@ -20608,7 +20608,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://gist.githubusercontent.com/korarei/d5b089a69e0c8ba5903d641d677c89e8/raw/17465fec4af168b05b06d043419630f11a975e7d/Constraint.anm2"
+        "direct": "https://gist.githubusercontent.com/korarei/d5b089a69e0c8ba5903d641d677c89e8/raw/f94f8bd79a71cc2b073a926f961ba89a660bf16c/Constraint.anm2"
       },
       "install": [
         {
@@ -20639,6 +20639,16 @@
           {
             "path": "{scriptsDir}/Constraint/Constraint.anm2",
             "XXH3_128": "9436d73c3087c0a1eba6b3e61120f5d7"
+          }
+        ]
+      },
+      {
+        "version": "v0.3.0",
+        "release_date": "2026-04-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/Constraint/Constraint.anm2",
+            "XXH3_128": "7abdef83cf52feff6576831cb80a8831"
           }
         ]
       }
