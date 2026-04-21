@@ -2460,5 +2460,25 @@
         }
       ]
     }
+  },
+  {
+    "id": "aviutl2-community.aviutl2_community_translation_companion",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "aviutl2/aviutl2-community-translation",
+      "regex": "^aviutl2-community\\.aviutl2_community_translation_companion-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/aviutl2_community_translation_companion.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2_community_translation_companion.aux2"
+          ]
+        }
+      ]
+    }
   }
 ]
