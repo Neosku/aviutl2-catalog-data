@@ -2480,5 +2480,27 @@
         }
       ]
     }
+  },
+  {
+    "id": "azurite.AdjustPivot_A",
+    "latest-version": "v0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "azurite581/AviUtl2-AdjustPivot_A",
+      "regex": "^AdjustPivot_A-v.+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/中心ずらし_A.aux2",
+            "Script/中心ずらし_A.anm2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/中心ずらし_A.aux2",
+            "{scriptsDir}/中心ずらし_A.anm2"
+          ]
+        }
+      ]
+    }
   }
 ]

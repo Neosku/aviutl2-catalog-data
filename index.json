@@ -7325,7 +7325,7 @@
     "description": "./md/naltutyo.ScriptBrowserPlugin.md",
     "author": "Nao",
     "repoURL": "https://nao-kid.booth.pm/items/7684889",
-    "latest-version": "v3.12",
+    "latest-version": "v3.13",
     "popularity": 301,
     "trend": 106,
     "licenses": [
@@ -7348,7 +7348,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8645490?_gl=1*1yd8g85*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzUxMzEzMjQkbzkkZzEkdDE3NzUxMzI2MDEkajE4JGwwJGgw"
+        "booth": "https://booth.pm/downloadables/8763773?_gl=1*1piffs1*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzY4MTk1MzMkbzEyJGcxJHQxNzc2ODE5NTc4JGoxNSRsMCRoMA.."
       },
       "install": [
         {
@@ -7359,7 +7359,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/v3.12/SearchBrowserPlugin.aux2",
+          "from": "{tmp}/v3.13/SearchBrowserPlugin.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -7488,6 +7488,16 @@
           {
             "path": "{pluginsDir}/SearchBrowserPlugin.aux2",
             "XXH3_128": "5169c6a3309d13b7dc82e5c96df88fa2"
+          }
+        ]
+      },
+      {
+        "version": "v3.13",
+        "release_date": "2026-04-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/SearchBrowserPlugin.aux2",
+            "XXH3_128": "91abb5c71af3635af64a0930fd30a32f"
           }
         ]
       }
@@ -20593,7 +20603,7 @@
     "description": "./md/korarei.Constraint.md",
     "author": "Korarei",
     "repoURL": "https://gist.github.com/korarei/d5b089a69e0c8ba5903d641d677c89e8",
-    "latest-version": "v0.2.0",
+    "latest-version": "v0.3.0",
     "popularity": 441,
     "trend": 119,
     "licenses": [
@@ -20618,7 +20628,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://gist.githubusercontent.com/korarei/d5b089a69e0c8ba5903d641d677c89e8/raw/17465fec4af168b05b06d043419630f11a975e7d/Constraint.anm2"
+        "direct": "https://gist.githubusercontent.com/korarei/d5b089a69e0c8ba5903d641d677c89e8/raw/f94f8bd79a71cc2b073a926f961ba89a660bf16c/Constraint.anm2"
       },
       "install": [
         {
@@ -20649,6 +20659,16 @@
           {
             "path": "{scriptsDir}/Constraint/Constraint.anm2",
             "XXH3_128": "9436d73c3087c0a1eba6b3e61120f5d7"
+          }
+        ]
+      },
+      {
+        "version": "v0.3.0",
+        "release_date": "2026-04-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/Constraint/Constraint.anm2",
+            "XXH3_128": "7abdef83cf52feff6576831cb80a8831"
           }
         ]
       }
@@ -22397,7 +22417,7 @@
     "description": "https://raw.githubusercontent.com/azurite581/AviUtl2-AdjustPivot_A/main/README.md",
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-AdjustPivot_A",
-    "latest-version": "v0.1.0",
+    "latest-version": "v0.2.0",
     "popularity": 61,
     "trend": 61,
     "licenses": [
@@ -22414,7 +22434,8 @@
       }
     ],
     "tags": [
-      "移動"
+      "移動",
+      "配置"
     ],
     "dependencies": [],
     "images": [
@@ -22471,6 +22492,16 @@
           {
             "path": "{scriptsDir}/中心ずらし_A.anm2",
             "XXH3_128": "e495353dd8d413b8fe4c1c9eb86d5f02"
+          }
+        ]
+      },
+      {
+        "version": "v0.2.0",
+        "release_date": "2026-04-21",
+        "file": [
+          {
+            "path": "{scriptsDir}/中心ずらし_A.anm2",
+            "XXH3_128": "2acb9fe562d55092d1d79b2969fed31e"
           }
         ]
       }
