@@ -4787,7 +4787,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Basic_S/refs/heads/main/README.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Basic_S",
-    "latest-version": "v1.90-for-beta41a",
+    "latest-version": "v2.00-for-beta42",
     "popularity": 5821,
     "trend": 1746,
     "licenses": [
@@ -5054,6 +5054,16 @@
           {
             "path": "{scriptsDir}/@Basic_S.anm2",
             "XXH3_128": "4bf1551cbc66b00a9106419a24652199"
+          }
+        ]
+      },
+      {
+        "version": "v2.00-for-beta42",
+        "release_date": "2026-04-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Basic_S.anm2",
+            "XXH3_128": "67330419695eae0c2063b93fd362ac95"
           }
         ]
       }
@@ -20583,7 +20593,7 @@
     "description": "./md/korarei.Constraint.md",
     "author": "Korarei",
     "repoURL": "https://gist.github.com/korarei/d5b089a69e0c8ba5903d641d677c89e8",
-    "latest-version": "v0.2.0",
+    "latest-version": "v0.3.0",
     "popularity": 441,
     "trend": 119,
     "licenses": [
@@ -20608,7 +20618,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://gist.githubusercontent.com/korarei/d5b089a69e0c8ba5903d641d677c89e8/raw/17465fec4af168b05b06d043419630f11a975e7d/Constraint.anm2"
+        "direct": "https://gist.githubusercontent.com/korarei/d5b089a69e0c8ba5903d641d677c89e8/raw/f94f8bd79a71cc2b073a926f961ba89a660bf16c/Constraint.anm2"
       },
       "install": [
         {
@@ -20639,6 +20649,16 @@
           {
             "path": "{scriptsDir}/Constraint/Constraint.anm2",
             "XXH3_128": "9436d73c3087c0a1eba6b3e61120f5d7"
+          }
+        ]
+      },
+      {
+        "version": "v0.3.0",
+        "release_date": "2026-04-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/Constraint/Constraint.anm2",
+            "XXH3_128": "7abdef83cf52feff6576831cb80a8831"
           }
         ]
       }
