@@ -22843,5 +22843,68 @@
         ]
       }
     ]
+  },
+  {
+    "id": "CatWithNeko.Canny",
+    "name": "Canny",
+    "type": "スクリプト",
+    "summary": "勘で作ったCannyエッジ抽出",
+    "description": "./md/CatWithNeko.Canny.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts",
+    "latest-version": "2025.08.01",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "縁取り",
+      "加工"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/CatWithNeko.Canny_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/Canny.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Canny.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Canny.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.08.01",
+        "release_date": "2025-08-01",
+        "file": [
+          {
+            "path": "{scriptsDir}/Canny.anm2",
+            "XXH3_128": "1ff2266dfeedbbd6bbc44ba5c2d840e5"
+          }
+        ]
+      }
+    ]
   }
 ]
