@@ -40,12 +40,10 @@
           "action": "run",
           "path": "{download}",
           "args": [
-            "/VERYSILENT",
-            "/SP-",
-            "/SUPPRESSMSGBOXES",
-            "/DIR=\"{appDir}\"",
-            "/MERGETASKS=\"desktopicon",
-            "associatefile\""
+            "-F",
+            "-S",
+            "-I",
+            "\"{appDir}\""
           ],
           "elevate": true
         }
