@@ -5092,10 +5092,10 @@
     "name": "Path_S",
     "type": "スクリプト",
     "summary": "折れ線やベジェ曲線で図形を描画，フィルタ効果をかけるスクリプト",
-    "description": "./md/sigma-axis.Path_S.md",
+    "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Path_S/refs/heads/main/README.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Path_S/",
-    "latest-version": "v1.12-for-beta25",
+    "latest-version": "v1.20-for-beta43",
     "popularity": 1854,
     "trend": 139,
     "licenses": [
@@ -5104,19 +5104,28 @@
         "isCustom": false,
         "copyrights": [
           {
-            "years": "2025",
+            "years": "2025-2026",
             "holder": "sigma-axis"
           }
         ],
         "licenseBody": null
       }
     ],
-    "tags": [],
+    "niconiCommonsId": "sm45647149",
+    "tags": [
+      "クリッピング",
+      "パス",
+      "図形",
+      "配置"
+    ],
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "",
-        "infoImg": []
+        "thumbnail": "./image/sigma-axis.Path_S_thumbnail.webp",
+        "infoImg": [
+          "./image/sigma-axis.Path_S_1.png",
+          "./image/sigma-axis.Path_S_2.png"
+        ]
       }
     ],
     "installer": {
@@ -5136,18 +5145,28 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/@Path_S.anm2",
+          "from": "{tmp}/Script/@Path_S.anm2",
           "to": "{scriptsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/@Path_S.obj2",
+          "from": "{tmp}/Script/@Path_S.obj2",
           "to": "{scriptsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/Path_S.lua",
+          "from": "{tmp}/Script/Path_S.lua",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Path_S/LICENSE",
+          "to": "{scriptsDir}/Path_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Path_S/README.md",
+          "to": "{scriptsDir}/Path_S"
         }
       ],
       "uninstall": [
@@ -5162,6 +5181,14 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/Path_S.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Path_S/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Path_S/README.md"
         }
       ]
     },
@@ -5203,6 +5230,16 @@
           {
             "path": "{scriptsDir}/@Path_S.anm2",
             "XXH3_128": "c6a85adfb40092bc780c94fcb529c429"
+          }
+        ]
+      },
+      {
+        "version": "v1.20-for-beta43",
+        "release_date": "2026-04-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Path_S.anm2",
+            "XXH3_128": "6b1bc3ae8842082fe80050b80a30a7ba"
           }
         ]
       }
