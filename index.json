@@ -3184,7 +3184,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_AutoClipping_S/refs/heads/main/README.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_AutoClipping_S",
-    "latest-version": "v1.13-for-beta22",
+    "latest-version": "v1.14-for-beta43a",
     "popularity": 1280,
     "trend": 69,
     "licenses": [
@@ -3193,7 +3193,7 @@
         "isCustom": false,
         "copyrights": [
           {
-            "years": "2025",
+            "years": "2025-2026",
             "holder": "sigma-axis"
           }
         ],
@@ -3205,7 +3205,11 @@
       "リサイズ"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/sigma-axis.AutoClipping_S_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -3223,14 +3227,32 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/AutoClipping_S.anm2",
+          "from": "{tmp}/Script/AutoClipping_S.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/AutoClipping_S/LICENSE",
+          "to": "{scriptsDir}/AutoClipping_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/AutoClipping_S/README.md",
+          "to": "{scriptsDir}/AutoClipping_S"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/AutoClipping_S.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/AutoClipping_S/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/AutoClipping_S/README.md"
         }
       ]
     },
@@ -3282,6 +3304,16 @@
           {
             "path": "{scriptsDir}/AutoClipping_S.anm2",
             "XXH3_128": "59a47af0da79d3519acc4d3836937620"
+          }
+        ]
+      },
+      {
+        "version": "v1.14-for-beta43a",
+        "release_date": "2026-04-28",
+        "file": [
+          {
+            "path": "{scriptsDir}/AutoClipping_S.anm2",
+            "XXH3_128": "34a0049b56ce6ac63d67b45e912d45dc"
           }
         ]
       }
