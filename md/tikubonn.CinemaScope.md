@@ -1,1 +1,122 @@
-<br>シネマスコープスクリプト<br><br>&ensp;&ensp;洋画などで見られる上下の暗幕を表示します。<br>&ensp;&ensp;表示幅の自動計算機能が搭載されておりますので、<br>&ensp;&ensp;アスペクト比・縦横幅を与えるだけで適切に表示してくれます。<br><br>提供されるカスタムオブジェクト<br><br>&ensp;&ensp;シネマスコープ@シネマスコープv2<br><br>&ensp;&ensp;&ensp;&ensp;幅を指定して暗幕を描画します。<br><br>&ensp;&ensp;&ensp;&ensp;パラメータ<br><br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&#42;&ensp;表示幅<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&#91;しぼり&#93;の値が&ensp;0.0&ensp;の時の表示領域の縦幅です。<br><br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&#42;&ensp;しぼり<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;画面の表示量を表す&ensp;&#45;1.0&ensp;~&ensp;1.0&ensp;の範囲の数値です。<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;数値が&ensp;&#45;1.0&ensp;に近ければ近いほど、表示領域が広くなり<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;逆に数値が&ensp;1.0&ensp;に近ければ近いほど、表示領域が狭くなります。<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;本パラメータは&#91;表示幅&#93;の値を変更することなくアニメーションさせる目的で使用できます。<br><br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&#42;&ensp;color<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;暗幕の色です。<br><br>&ensp;&ensp;シネマスコープ(自動)@シネマスコープv2<br><br>&ensp;&ensp;&ensp;&ensp;アスペクト比から幅を自動計算し、暗幕を描画します。<br><br>&ensp;&ensp;&ensp;&ensp;パラメータ<br><br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&#42;&ensp;アスペクト比<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;表示幅を計算するために使われるアスペクト比です。<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;2.35:1&ensp;(2.35)&ensp;が初期値として設定されています。<br><br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&#42;&ensp;しぼり<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;画面の表示量を表す&ensp;&#45;1.0&ensp;~&ensp;1.0&ensp;の範囲の数値です。<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;数値が&ensp;&#45;1.0&ensp;に近ければ近いほど、表示領域が広くなり<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;逆に数値が&ensp;1.0&ensp;に近ければ近いほど、表示領域が狭くなります。<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;本パラメータは&#91;アスペクト比&#93;の値を変更することなくアニメーションさせる目的で使用できます。<br><br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&#42;&ensp;color<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;暗幕の色です。<br><br>&ensp;&ensp;シネマスコープ(自動XY)@シネマスコープv2<br><br>&ensp;&ensp;&ensp;&ensp;縦横幅からアスペクト比・幅を自動計算し、暗幕を描画します。<br><br>&ensp;&ensp;&ensp;&ensp;パラメータ<br><br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&#42;&ensp;Xサイズ<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;表示幅を計算するために使われる横幅です。<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;2.35:1&ensp;(2.35)&ensp;が初期値として設定されています。<br><br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&#42;&ensp;Yサイズ<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;表示幅を計算するために使われる縦幅です。<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;2.35:1&ensp;(1)&ensp;が初期値として設定されています。<br><br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&#42;&ensp;しぼり<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;画面の表示量を表す&ensp;&#45;1.0&ensp;~&ensp;1.0&ensp;の範囲の数値です。<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;数値が&ensp;&#45;1.0&ensp;に近ければ近いほど、表示領域が広くなり<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;逆に数値が&ensp;1.0&ensp;に近ければ近いほど、表示領域が狭くなります。<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;本パラメータは&#91;Xサイズ&#93;&#91;Yサイズ&#93;の値を変更することなくアニメーションさせる目的で使用できます。<br><br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&#42;&ensp;color<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;暗幕の色です。<br><br>対応環境<br><br>&ensp;&ensp;&#42;&ensp;AviUtl&ensp;ExEdit2&ensp;version&ensp;2.0&ensp;beta43a<br><br>Install<br><br>&ensp;&ensp;解凍された中にある&ensp;&#34;シネマスコープv2&#34;&ensp;フォルダをそのまま&ensp;&#34;Script&#34;&ensp;フォルダ内にコピーするだけです。<br><br>開発支援版&ensp;&&ensp;寄付のお願い<br><br>&ensp;&ensp;もし本ソフトウェアがお役立ちになりましたら、開発者を少額の寄付または、支援版の購入で支援することができます。<br>&ensp;&ensp;支援していただいたお金は書籍の購入費用や日々の支払いに使わせていただきます。<br>&ensp;&ensp;ただし、これは支援金額の多寡によって継続的な開発・サポートを保証するものではございません。<br>&ensp;&ensp;また、一度寄付・購入いただいた製品に対して返金は出来かねますのでご注意ください。<br><br>&ensp;&ensp;開発支援版:&ensp;https://tikubonn.booth.pm/items/8270797<br>&ensp;&ensp;寄付サイト:&ensp;https://buymeacoffee.com/tikubonn<br><br>License<br><br>&ensp;&ensp;©&ensp;2021&#45;2026&ensp;tikubonn<br><br>&ensp;&ensp;利用規約の詳細は同梱されている&ensp;&#34;LICENSE.txt&#34;&ensp;ファイル内に記載されています。<br><br>FAQ<br><br>&ensp;&ensp;&#42;&ensp;バグ報告したいんだけど<br>&ensp;&ensp;&ensp;&ensp;親しい間柄でない限りバグ報告は受け付けておりません。<br>&ensp;&ensp;&ensp;&ensp;それでも報告したい方はこれらの条件を読んだうえで報告してください。<br><br>&ensp;&ensp;&ensp;&ensp;受け付けるバグの条件は次のとおりです。<br>&ensp;&ensp;&ensp;&ensp;これらの条件を満たさないバグ報告は無視いたします。<br><br>&ensp;&ensp;&ensp;&ensp;&#45;&ensp;本スクリプトの最新版で発生したバグであること<br>&ensp;&ensp;&ensp;&ensp;&#45;&ensp;本スクリプトのみを導入した環境で再現できるバグであること<br>&ensp;&ensp;&ensp;&ensp;&#45;&ensp;本スクリプトの対応環境で発生したバグであること<br><br>&ensp;&ensp;&ensp;&ensp;報告をする際には必ずこれらの情報を提供してください。<br>&ensp;&ensp;&ensp;&ensp;<br>&ensp;&ensp;&ensp;&ensp;&#45;&ensp;具体的な症状<br>&ensp;&ensp;&ensp;&ensp;&#45;&ensp;発生する条件<br>&ensp;&ensp;&ensp;&ensp;&#45;&ensp;再現可能なプロジェクトファイル(外部ファイルを参照せずに、図形オブジェクトを使用したもの)<br>&ensp;&ensp;&ensp;&ensp;&#45;&ensp;使用している&ensp;AviUtl,&ensp;拡張編集&ensp;のバージョン<br><br>&ensp;&ensp;&ensp;&ensp;連絡先:&ensp;https://twitter.com/tikubonn<br>
+# シネマスコープスクリプト
+
+洋画などで見られる上下の暗幕を表示します。  
+表示幅の自動計算機能が搭載されておりますので、  
+アスペクト比・縦横幅を与えるだけで適切に表示してくれます。
+
+## 提供されるカスタムオブジェクト
+
+### シネマスコープ@シネマスコープv2
+
+幅を指定して暗幕を描画します。
+
+#### パラメータ
+
+- **表示幅**
+  [しぼり]の値が 0.0 の時の表示領域の縦幅です。
+
+- **しぼり**
+  画面の表示量を表す -1.0 ~ 1.0 の範囲の数値です。  
+  数値が -1.0 に近ければ近いほど、表示領域が広くなり  
+  逆に数値が 1.0 に近ければ近いほど、表示領域が狭くなります。  
+  本パラメータは[表示幅]の値を変更することなくアニメーションさせる目的で使用できます。
+
+- **color**
+  暗幕の色です。
+
+---
+
+### シネマスコープ(自動)@シネマスコープv2
+
+アスペクト比から幅を自動計算し、暗幕を描画します。
+
+#### パラメータ
+
+- **アスペクト比**
+  表示幅を計算するために使われるアスペクト比です。  
+  2.35:1 (2.35) が初期値として設定されています。
+
+- **しぼり**
+  画面の表示量を表す -1.0 ~ 1.0 の範囲の数値です。  
+  数値が -1.0 に近ければ近いほど、表示領域が広くなり  
+  逆に数値が 1.0 に近ければ近いほど、表示領域が狭くなります。  
+  本パラメータは[アスペクト比]の値を変更することなくアニメーションさせる目的で使用できます。
+
+- **color**
+  暗幕の色です。
+
+---
+
+### シネマスコープ(自動XY)@シネマスコープv2
+
+縦横幅からアスペクト比・幅を自動計算し、暗幕を描画します。
+
+#### パラメータ
+
+- **Xサイズ**
+  表示幅を計算するために使われる横幅です。  
+  2.35:1 (2.35) が初期値として設定されています。
+
+- **Yサイズ**
+  表示幅を計算するために使われる縦幅です。  
+  2.35:1 (1) が初期値として設定されています。
+
+- **しぼり**
+  画面の表示量を表す -1.0 ~ 1.0 の範囲の数値です。  
+  数値が -1.0 に近ければ近いほど、表示領域が広くなり  
+  逆に数値が 1.0 に近ければ近いほど、表示領域が狭くなります。  
+  本パラメータは[Xサイズ][Yサイズ]の値を変更することなくアニメーションさせる目的で使用できます。
+
+- **color**
+  暗幕の色です。
+
+---
+
+## 対応環境
+
+- AviUtl ExEdit2 version 2.0 beta43a
+
+---
+
+## 開発支援版 & 寄付のお願い
+
+もし本ソフトウェアがお役立ちになりましたら、開発者を少額の寄付または、支援版の購入で支援することができます。  
+支援していただいたお金は書籍の購入費用や日々の支払いに使わせていただきます。  
+ただし、これは支援金額の多寡によって継続的な開発・サポートを保証するものではございません。  
+また、一度寄付・購入いただいた製品に対して返金は出来かねますのでご注意ください。
+
+開発支援版: https://tikubonn.booth.pm/items/8270797  
+寄付サイト: https://buymeacoffee.com/tikubonn
+
+---
+
+## License
+
+© 2021-2026 tikubonn
+
+利用規約の詳細は同梱されている "LICENSE.txt" ファイル内に記載されています。
+
+---
+
+## FAQ
+
+### バグ報告したいんだけど
+
+親しい間柄でない限りバグ報告は受け付けておりません。  
+それでも報告したい方はこれらの条件を読んだうえで報告してください。
+
+受け付けるバグの条件は次のとおりです。  
+これらの条件を満たさないバグ報告は無視いたします。
+
+- 本スクリプトの最新版で発生したバグであること
+- 本スクリプトのみを導入した環境で再現できるバグであること
+- 本スクリプトの対応環境で発生したバグであること
+
+報告をする際には必ずこれらの情報を提供してください。
+
+- 具体的な症状
+- 発生する条件
+- 再現可能なプロジェクトファイル(外部ファイルを参照せずに、図形オブジェクトを使用したもの)
+- 使用している AviUtl, 拡張編集 のバージョン
+
+連絡先: [https://x.com/tikubonn](https://x.com/tikubonn)
