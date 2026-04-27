@@ -23235,5 +23235,78 @@
         ]
       }
     ]
+  },
+  {
+    "id": "tikubonn.CinemaScope",
+    "name": "シネマスコープ",
+    "type": "スクリプト",
+    "summary": "洋画などで見られる上下の暗幕を表示します。",
+    "description": "./md/tikubonn.CinemaScope.md",
+    "author": "ちくぼん",
+    "repoURL": "https://tikubonn.booth.pm/items/8270797",
+    "latest-version": "v2.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "Copyright © 2021-2026 tikubonn\n\nシネマスコープスクリプト(以降、本ソフトウェアと呼称する)を利用する際には、必ずこれらの規約を遵守してください。\n\n* 本ソフトウェアの改変を許可します。\n* 本ソフトウェアの改変の有無に関わらず、本ソフトウェアとその派生物の再配布を禁止します。\n* 本ソフトウェアの利用により生じた直接的・間接的な損害について、当方は一切の責任を負いません。\n  本ソフトウェアは現状有姿で提供され、その正確性や適合性を保証するものではありません。\n* 本ソフトウェアによって生成された成果物を商用・非商用に関わらず自由に配布することができます。\n* 本ソフトウェアによって生成された成果物を配布する際にクレジット表記をする必要はありません。\n* 本利用規約は予告なく変更される場合があります。"
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト",
+      "スクリプト",
+      "字幕"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "infoImg": [
+          "./image/tikubonn.CinemaScope_1.jpg"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/8799443"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/シネマスコープv2",
+          "to": "{scriptsDir}/シネマスコープv2"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/シネマスコープv2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v2.0.0",
+        "release_date": "2026-04-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/シネマスコープv2/@シネマスコープv2.obj2",
+            "XXH3_128": "3b5720b8ec628477b59630e94d692fba"
+          },
+          {
+            "path": "{scriptsDir}/シネマスコープv2/cinemascope_v2.lua",
+            "XXH3_128": "0296c82302e81b53e392fb9abcaa01d7"
+          }
+        ]
+      }
+    ]
   }
 ]
