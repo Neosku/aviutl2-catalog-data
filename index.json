@@ -23442,11 +23442,11 @@
     "id": "tikubonn.CinemaScope",
     "name": "シネマスコープ",
     "type": "スクリプト",
-    "summary": "洋画などで見られる上下の暗幕を表示します。",
+    "summary": "洋画などで見られる上下の暗幕を表示します。自動計算機能付き。",
     "description": "./md/tikubonn.CinemaScope.md",
     "author": "ちくぼん",
     "repoURL": "https://tikubonn.booth.pm/items/8270797",
-    "latest-version": "v2.0.0",
+    "latest-version": "v2.0.1",
     "popularity": 0,
     "trend": 1,
     "licenses": [
@@ -23465,6 +23465,7 @@
     "dependencies": [],
     "images": [
       {
+        "thumbnail": "./image/tikubonn.CinemaScope_thumbnail.jpg",
         "infoImg": [
           "./image/tikubonn.CinemaScope_1.jpg"
         ]
@@ -23472,7 +23473,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8799443"
+        "booth": "https://booth.pm/downloadables/8799716"
       },
       "install": [
         {
@@ -23506,6 +23507,20 @@
           {
             "path": "{scriptsDir}/シネマスコープv2/cinemascope_v2.lua",
             "XXH3_128": "0296c82302e81b53e392fb9abcaa01d7"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.1",
+        "release_date": "2026-04-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/シネマスコープv2/@シネマスコープv2.obj2",
+            "XXH3_128": "3b5720b8ec628477b59630e94d692fba"
+          },
+          {
+            "path": "{scriptsDir}/シネマスコープv2/cinemascope_v2.lua",
+            "XXH3_128": "f0431231d8a442ac12b71fd7b8fc306b"
           }
         ]
       }
