@@ -17737,7 +17737,7 @@
     "description": "https://raw.githubusercontent.com/rokujyushi/Variable-Font-Plug-ins/refs/heads/main/Plugin_README.md",
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/Variable-Font-Plug-ins",
-    "latest-version": "1.0.0",
+    "latest-version": "2.0.0",
     "popularity": 755,
     "trend": 92,
     "licenses": [
@@ -17815,6 +17815,16 @@
           {
             "path": "{pluginsDir}/VariableFont.auf2",
             "XXH3_128": "693a50231d5e32413c95c38a397c7eaf"
+          }
+        ]
+      },
+      {
+        "version": "2.0.0",
+        "release_date": "2026-04-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/VariableFont.auf2",
+            "XXH3_128": ""
           }
         ]
       }
