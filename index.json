@@ -51,11 +51,9 @@
       "uninstall": [
         {
           "action": "run",
-          "path": "{appDir}/unins000.exe",
+          "path": "{appDir}/aviutl2_setup.exe",
           "args": [
-            "/VERYSILENT",
-            "/SUPPRESSMSGBOXES",
-            "/NORESTART"
+            "-uninstall"
           ],
           "elevate": true
         }
