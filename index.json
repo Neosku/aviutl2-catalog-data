@@ -6184,7 +6184,7 @@
     "type": "スクリプト",
     "summary": "影を立体的に地面や壁，天井などへ落とすフィルタ効果．",
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_GroundShadow2_S/refs/heads/main/README.md",
-    "author": "sigma-axis",
+    "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S",
     "latest-version": "v1.20-for-beta43b",
     "popularity": 1308,
@@ -6339,7 +6339,7 @@
         "file": [
           {
             "path": "{scriptsDir}/GroundShadow2_S.anm2",
-            "XXH3_128": ""
+            "XXH3_128": "5bfcf0ebdea05cc63a92cd832cdb27d0"
           }
         ]
       }
