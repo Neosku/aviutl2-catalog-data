@@ -524,7 +524,7 @@
   },
   {
     "id": "sigma-axis.GroundShadow2_S",
-    "latest-version": "v1.10-for-beta43b",
+    "latest-version": "v1.20-for-beta43b",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_GroundShadow2_S",
@@ -1699,7 +1699,7 @@
   },
   {
     "id": "KuroNeko.VariableFont",
-    "latest-version": "1.0.0",
+    "latest-version": "2.0.0",
     "checkType": {
       "type": "GitHub",
       "repo": "rokujyushi/Variable-Font-Plug-ins",
@@ -1719,7 +1719,7 @@
   },
   {
     "id": "KuroNeko.FontPreview",
-    "latest-version": "1.0.0",
+    "latest-version": "1.1.0",
     "checkType": {
       "type": "GitHub",
       "repo": "rokujyushi/FontPreview",

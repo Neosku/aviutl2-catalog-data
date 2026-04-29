@@ -51,11 +51,9 @@
       "uninstall": [
         {
           "action": "run",
-          "path": "{appDir}/unins000.exe",
+          "path": "{appDir}/aviutl2_setup.exe",
           "args": [
-            "/VERYSILENT",
-            "/SUPPRESSMSGBOXES",
-            "/NORESTART"
+            "-uninstall"
           ],
           "elevate": true
         }
@@ -3212,7 +3210,8 @@
     ],
     "tags": [
       "クリッピング",
-      "リサイズ"
+      "リサイズ",
+      "座標補正"
     ],
     "dependencies": [],
     "images": [
@@ -6183,11 +6182,11 @@
     "id": "sigma-axis.GroundShadow2_S",
     "name": "GroundShadow2_S",
     "type": "スクリプト",
-    "summary": "影を立体的に平面へ落とすスクリプト",
-    "description": "./md/sigma-axis.GroundShadow2_S.md",
+    "summary": "影を立体的に地面や壁，天井などへ落とすフィルタ効果．",
+    "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_GroundShadow2_S/refs/heads/main/README.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S",
-    "latest-version": "v1.10-for-beta43b",
+    "latest-version": "v1.20-for-beta43b",
     "popularity": 1308,
     "trend": 80,
     "licenses": [
@@ -6196,13 +6195,14 @@
         "isCustom": false,
         "copyrights": [
           {
-            "years": "2025",
+            "years": "2025-2026",
             "holder": "sigma-axis"
           }
         ],
         "licenseBody": null
       }
     ],
+    "niconiCommonsId": "sm45275176",
     "tags": [
       "立体",
       "影"
@@ -6210,8 +6210,10 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "",
-        "infoImg": []
+        "thumbnail": "./image/sigma-axis.GroundShadow2_S_thumbnail.webp",
+        "infoImg": [
+          "./image/sigma-axis.GroundShadow2_S_1.png"
+        ]
       }
     ],
     "installer": {
@@ -6231,14 +6233,32 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/AviUtl2",
+          "from": "{tmp}/Script/GroundShadow2_S.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/GroundShadow2_S/LICENSE",
+          "to": "{scriptsDir}/GroundShadow2_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/GroundShadow2_S/README.md",
+          "to": "{scriptsDir}/GroundShadow2_S"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/GroundShadow2_S.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/GroundShadow2_S/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/GroundShadow2_S/README.md"
         }
       ]
     },
@@ -6305,6 +6325,16 @@
       },
       {
         "version": "v1.10-for-beta43b",
+        "release_date": "2026-04-29",
+        "file": [
+          {
+            "path": "{scriptsDir}/GroundShadow2_S.anm2",
+            "XXH3_128": "b16bd46ffc37130efd5210db976b5409"
+          }
+        ]
+      },
+      {
+        "version": "v1.20-for-beta43b",
         "release_date": "2026-04-29",
         "file": [
           {
@@ -17741,7 +17771,7 @@
     "description": "https://raw.githubusercontent.com/rokujyushi/Variable-Font-Plug-ins/refs/heads/main/Plugin_README.md",
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/Variable-Font-Plug-ins",
-    "latest-version": "1.0.0",
+    "latest-version": "2.0.0",
     "popularity": 755,
     "trend": 92,
     "licenses": [
@@ -17821,6 +17851,16 @@
             "XXH3_128": "693a50231d5e32413c95c38a397c7eaf"
           }
         ]
+      },
+      {
+        "version": "2.0.0",
+        "release_date": "2026-04-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/VariableFont.auf2",
+            "XXH3_128": ""
+          }
+        ]
       }
     ]
   },
@@ -17832,7 +17872,7 @@
     "description": "https://raw.githubusercontent.com/rokujyushi/FontPreview/refs/heads/main/README.md",
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/FontPreview",
-    "latest-version": "1.0.0",
+    "latest-version": "1.1.0",
     "popularity": 538,
     "trend": 68,
     "licenses": [
@@ -17901,6 +17941,16 @@
           {
             "path": "{pluginsDir}\\FontPreview.aux2",
             "XXH3_128": "c66622093873b9f4468e3dfcd9d9fbab"
+          }
+        ]
+      },
+      {
+        "version": "1.1.0",
+        "release_date": "2026-04-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/FontPreview.aux2",
+            "XXH3_128": "65a92252e928e64cdccfbb877b4668c0"
           }
         ]
       }
