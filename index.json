@@ -3212,7 +3212,8 @@
     ],
     "tags": [
       "クリッピング",
-      "リサイズ"
+      "リサイズ",
+      "座標補正"
     ],
     "dependencies": [],
     "images": [
@@ -6187,7 +6188,7 @@
     "description": "./md/sigma-axis.GroundShadow2_S.md",
     "author": "sigma-axis",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S",
-    "latest-version": "v1.10-for-beta43b",
+    "latest-version": "v1.05-for-beta25",
     "popularity": 1308,
     "trend": 80,
     "licenses": [
@@ -6300,16 +6301,6 @@
           {
             "path": "{scriptsDir}/GroundShadow2_S.anm2",
             "XXH3_128": "1aa26920d91169d641dfa435ae40e221"
-          }
-        ]
-      },
-      {
-        "version": "v1.10-for-beta43b",
-        "release_date": "2026-04-29",
-        "file": [
-          {
-            "path": "{scriptsDir}/GroundShadow2_S.anm2",
-            "XXH3_128": ""
           }
         ]
       }
