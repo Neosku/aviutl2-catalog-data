@@ -14926,7 +14926,11 @@
       "補正"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/sevenc-nanashi.aviutl2-scripts.targeted-scale-anm2_thumbnail.webp"
+      }
+    ],
     "installer": {
       "source": {
         "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/%E7%9B%AE%E6%A8%99%E6%8C%87%E5%AE%9A%E6%8B%A1%E5%A4%A7%E7%B8%AE%E5%B0%8F.anm2"
