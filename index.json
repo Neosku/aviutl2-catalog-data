@@ -14832,7 +14832,11 @@
       "変形"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/sevenc-nanashi.aviutl2-scripts.pixel-transform-anm2_thumbnail.webp"
+      }
+    ],
     "installer": {
       "source": {
         "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2.anm2"
