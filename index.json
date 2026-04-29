@@ -17737,7 +17737,7 @@
     "description": "https://raw.githubusercontent.com/rokujyushi/Variable-Font-Plug-ins/refs/heads/main/Plugin_README.md",
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/Variable-Font-Plug-ins",
-    "latest-version": "1.0.0",
+    "latest-version": "2.0.0",
     "popularity": 755,
     "trend": 92,
     "licenses": [
@@ -17775,6 +17775,10 @@
       },
       "install": [
         {
+          "action": "delete",
+          "path": "{pluginsDir}\\VariableFont.auf2"
+        },
+        {
           "action": "download"
         },
         {
@@ -17782,7 +17786,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}\\VariableFont.auf2",
+          "from": "{tmp}\\VariableFont.aux2",
           "to": "{pluginsDir}"
         },
         {
@@ -17794,16 +17798,30 @@
           "action": "copy",
           "from": "{tmp}\\Plugin_README.md",
           "to": "{pluginsDir}\\VariableFontDoc\\"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}\\VariableFontModule.mod2",
+          "to": "{scriptsDir}\\VariableFont\\"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}\\Variable Font Object.obj2",
+          "to": "{scriptsDir}\\VariableFont\\"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{pluginsDir}\\VariableFont.auf2"
+          "path": "{pluginsDir}\\VariableFontDoc\\"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}\\VariableFontDoc\\"
+          "path": "{scriptsDir}\\VariableFont\\"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}\\VariableFont.aux2"
         }
       ]
     },
@@ -17817,6 +17835,24 @@
             "XXH3_128": "693a50231d5e32413c95c38a397c7eaf"
           }
         ]
+      },
+      {
+        "version": "2.0.0",
+        "release_date": "2026-04-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/VariableFont.aux2",
+            "XXH3_128": "19465fcc1831db6e79782050692d0c4d"
+          },
+          {
+            "path": "{scriptsDir}\\VariableFont\\VariableFontModule.mod2",
+            "XXH3_128": "8ed8e12e1a893e92e6f095cd3941371a"
+          },
+          {
+            "path": "{scriptsDir}\\VariableFont\\Variable Font Object.obj2",
+            "XXH3_128": "fa8aa9c9d224e3e97960ee125c23851d"
+          }
+        ]
       }
     ]
   },
@@ -17828,7 +17864,7 @@
     "description": "https://raw.githubusercontent.com/rokujyushi/FontPreview/refs/heads/main/README.md",
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/FontPreview",
-    "latest-version": "1.1.0",
+    "latest-version": "1.0.0",
     "popularity": 538,
     "trend": 68,
     "licenses": [
@@ -17897,16 +17933,6 @@
           {
             "path": "{pluginsDir}\\FontPreview.aux2",
             "XXH3_128": "c66622093873b9f4468e3dfcd9d9fbab"
-          }
-        ]
-      },
-      {
-        "version": "1.1.0",
-        "release_date": "2026-04-29",
-        "file": [
-          {
-            "path": "{pluginsDir}/FontPreview.aux2",
-            "XXH3_128": "65a92252e928e64cdccfbb877b4668c0"
           }
         ]
       }
