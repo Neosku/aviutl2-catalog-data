@@ -23613,5 +23613,65 @@
         ]
       }
     ]
+  },
+  {
+    "id": "CatWithNeko.Composite",
+    "name": "Composite",
+    "type": "スクリプト",
+    "summary": "このフィルタ以降にかけたフィルタと、このエフェクト以前の画像を合成する",
+    "description": "./md/CatWithNeko.Composite.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts",
+    "latest-version": "2025.08.17",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/CatWithNeko.Composite_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/Composite.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Composite.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Composite.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.08.17",
+        "release_date": "2025-08-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/Composite.anm2",
+            "XXH3_128": "ce2ac1f09b2754f85e1ca970de3bbd6d"
+          }
+        ]
+      }
+    ]
   }
 ]
