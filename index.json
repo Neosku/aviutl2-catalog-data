@@ -3190,7 +3190,7 @@
     "type": "スクリプト",
     "summary": "オブジェクトの上下左右の透明領域をクリッピングするスクリプト",
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_AutoClipping_S/refs/heads/main/README.md",
-    "author": "sigma-axis",
+    "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_AutoClipping_S",
     "latest-version": "v1.14-for-beta43a",
     "popularity": 1296,
@@ -3334,7 +3334,7 @@
     "type": "スクリプト",
     "summary": "放射ブラー・回転ブラー・方向ブラーを組み合わせた複合ブラーのスクリプト",
     "description": "./md/sigma-axis.RadRotDirBlur_S.md",
-    "author": "sigma-axis",
+    "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_RadRotDirBlur_S",
     "latest-version": "v1.05-for-beta25",
     "popularity": 2478,
@@ -4844,7 +4844,7 @@
     "type": "スクリプト",
     "summary": "丸角矩形や回転操作の補助，傾斜変形など汎用的な基本効果のスクリプト集．",
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Basic_S/refs/heads/main/README.md",
-    "author": "sigma-axis",
+    "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Basic_S",
     "latest-version": "v2.01-for-beta42",
     "popularity": 6186,
@@ -5144,7 +5144,7 @@
     "type": "スクリプト",
     "summary": "折れ線やベジェ曲線で図形を描画，フィルタ効果をかけるスクリプト",
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Path_S/refs/heads/main/README.md",
-    "author": "sigma-axis",
+    "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Path_S/",
     "latest-version": "v1.20-for-beta43",
     "popularity": 1926,
@@ -5495,7 +5495,7 @@
     "type": "スクリプト",
     "summary": "オブジェクトの境界部分の色を引き延ばして縁取りをするスクリプト",
     "description": "./md/sigma-axis.ColoredCollar_S.md",
-    "author": "sigma-axis",
+    "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_ColoredCollar_S",
     "latest-version": "v1.00-for-beta5",
     "popularity": 649,
@@ -5513,6 +5513,7 @@
         "licenseBody": null
       }
     ],
+    "niconiCommonsId": "sm45257124",
     "tags": [
       "縁取り"
     ],
@@ -5565,7 +5566,7 @@
     "type": "スクリプト",
     "summary": "幾何学模様のタイルパターンを生成し、背景や装飾として利用できるスクリプト",
     "description": "./md/sigma-axis.Tile_S.md",
-    "author": "sigma-axis",
+    "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Tile_S",
     "latest-version": "v1.03-for-beta25",
     "popularity": 1489,
@@ -5583,6 +5584,7 @@
         "licenseBody": null
       }
     ],
+    "niconiCommonsId": "sm45311665",
     "tags": [
       "図形",
       "パターン",
@@ -5667,7 +5669,7 @@
     "type": "スクリプト",
     "summary": "拡大縮小のアルゴリズムを選べるリサイズフィルタ",
     "description": "./md/sigma-axis.Resize_S.md",
-    "author": "sigma-axis",
+    "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Resize_S",
     "latest-version": "v1.11-for-beta25",
     "popularity": 573,
@@ -5769,7 +5771,7 @@
     "type": "スクリプト",
     "summary": "小数点以下のピクセルずれで余計なボケが入るのを抑えるスクリプト",
     "description": "./md/sigma-axis.PixelSnap_S.md",
-    "author": "sigma-axis",
+    "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_PixelSnap_S",
     "latest-version": "v1.04-for-beta20",
     "popularity": 569,
@@ -5787,6 +5789,7 @@
         "licenseBody": null
       }
     ],
+    "niconiCommonsId": "sm45452975",
     "tags": [
       "座標補正",
       "補正"
@@ -5850,7 +5853,7 @@
     "type": "スクリプト",
     "summary": "ページを丸めるように画像を変形するスクリプト",
     "description": "./md/sigma-axis.PageRoll_S.md",
-    "author": "sigma-axis",
+    "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_PageRoll_S",
     "latest-version": "v1.12-for-beta25",
     "popularity": 597,
@@ -6351,7 +6354,7 @@
     "type": "スクリプト",
     "summary": "ヒストグラムを編集画面上に表示するスクリプト",
     "description": "./md/sigma-axis.Histogram_S.md",
-    "author": "sigma-axis",
+    "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Histogram_S",
     "latest-version": "v1.10-for-beta30a",
     "popularity": 302,
@@ -6369,6 +6372,7 @@
         "licenseBody": null
       }
     ],
+    "niconiCommonsId": "sm45695828",
     "tags": [
       "便利ツール"
     ],
@@ -8900,7 +8904,7 @@
     "type": "汎用プラグイン",
     "summary": "タイムライン操作のコマンドを追加するプラグイン",
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_tl_walkaround2/refs/heads/master/README.md",
-    "author": "sigma-axis",
+    "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_tl_walkaround2",
     "latest-version": "v1.41-for-beta40a",
     "popularity": 621,
@@ -10211,7 +10215,7 @@
     "type": "スクリプト",
     "summary": "ホワイトバランスや色温度を調整するスクリプト",
     "description": "./md/sigma-axis.WhiteBalance_S.md",
-    "author": "sigma-axis",
+    "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_WhiteBalance_S",
     "latest-version": "v1.00-for-beta29",
     "popularity": 882,
@@ -10229,6 +10233,7 @@
         "licenseBody": null
       }
     ],
+    "niconiCommonsId": "sm45861771",
     "tags": [
       "画像",
       "色調整"
@@ -21877,7 +21882,7 @@
     "type": "フィルタプラグイン",
     "summary": "縁取り・角丸め・アウトラインができるフィルタ集",
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_Border_S/refs/heads/master/README.md",
-    "author": "sigma-axis",
+    "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_Border_S",
     "latest-version": "v1.03-for-beta41a",
     "popularity": 482,
