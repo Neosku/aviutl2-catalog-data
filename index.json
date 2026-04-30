@@ -23545,6 +23545,7 @@
         "licenseBody": "Copyright © 2021-2026 tikubonn\n\nシネマスコープスクリプト(以降、本ソフトウェアと呼称する)を利用する際には、必ずこれらの規約を遵守してください。\n\n* 本ソフトウェアの改変を許可します。\n* 本ソフトウェアの改変の有無に関わらず、本ソフトウェアとその派生物の再配布を禁止します。\n* 本ソフトウェアの利用により生じた直接的・間接的な損害について、当方は一切の責任を負いません。\n  本ソフトウェアは現状有姿で提供され、その正確性や適合性を保証するものではありません。\n* 本ソフトウェアによって生成された成果物を商用・非商用に関わらず自由に配布することができます。\n* 本ソフトウェアによって生成された成果物を配布する際にクレジット表記をする必要はありません。\n* 本利用規約は予告なく変更される場合があります。"
       }
     ],
+    "niconiCommonsId": "sm46242370",
     "tags": [
       "カスタムオブジェクト",
       "スクリプト",
@@ -23609,6 +23610,66 @@
           {
             "path": "{scriptsDir}/シネマスコープv2/cinemascope_v2.lua",
             "XXH3_128": "f0431231d8a442ac12b71fd7b8fc306b"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CatWithNeko.Composite",
+    "name": "Composite",
+    "type": "スクリプト",
+    "summary": "このフィルタ以降にかけたフィルタと、このエフェクト以前の画像を合成する",
+    "description": "./md/CatWithNeko.Composite.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts",
+    "latest-version": "2025.08.17",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/CatWithNeko.Composite_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/Composite.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Composite.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Composite.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.08.17",
+        "release_date": "2025-08-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/Composite.anm2",
+            "XXH3_128": "ce2ac1f09b2754f85e1ca970de3bbd6d"
           }
         ]
       }
