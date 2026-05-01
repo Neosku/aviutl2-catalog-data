@@ -17981,7 +17981,7 @@
     "description": "https://raw.githubusercontent.com/rokujyushi/FontPreview/refs/heads/main/README.md",
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/FontPreview",
-    "latest-version": "1.0.0",
+    "latest-version": "1.1.0",
     "popularity": 549,
     "trend": 80,
     "licenses": [
@@ -18050,6 +18050,16 @@
           {
             "path": "{pluginsDir}\\FontPreview.aux2",
             "XXH3_128": "c66622093873b9f4468e3dfcd9d9fbab"
+          }
+        ]
+      },
+            {
+        "version": "1.1.0",
+        "release_date": "2026-04-29",
+        "file": [
+          {
+            "path": "{pluginsDir}\\FontPreview.aux2",
+            "XXH3_128": "65a92252e928e64cdccfbb877b4668c0"
           }
         ]
       }
@@ -24180,10 +24190,6 @@
           {
             "path": "{pluginsDir}/aviutl2_audio_rec.aux2",
             "XXH3_128": "507db7db1fdefb8e6392e6e8be1f3ab5"
-          },
-          {
-            "path": "{pluginsDir}/audio_rec_cli.exe",
-            "XXH3_128": "02a577fb29a496b5f4634510a04bbb74"
           }
         ]
       }
