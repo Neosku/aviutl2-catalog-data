@@ -23782,7 +23782,7 @@
     "description": "./md/tikubonn.IrisOut.md",
     "author": "ちくぼん",
     "repoURL": "https://tikubonn.booth.pm/items/8205637",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 0,
     "trend": 1,
     "licenses": [
@@ -23813,7 +23813,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8825536"
+        "booth": "https://booth.pm/downloadables/8825673"
       },
       "install": [
         {
@@ -23839,6 +23839,20 @@
       {
         "version": "v1.0.0",
         "release_date": "2026-04-30",
+        "file": [
+          {
+            "path": "{scriptsDir}/アイリスアウト/@アイリスアウト.obj2",
+            "XXH3_128": "2ed0879ca0e7fc67ac07b000a1f6b813"
+          },
+          {
+            "path": "{scriptsDir}/アイリスアウト/iris_out.lua",
+            "XXH3_128": "a32cd45bf9f32620909fb1b3026c79b2"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-05-01",
         "file": [
           {
             "path": "{scriptsDir}/アイリスアウト/@アイリスアウト.obj2",
