@@ -32,7 +32,7 @@
         {
           "extract": "zip",
           "paths": [
-            "al2_jd.aui2"
+            "Plugin/al2_jd.aui2"
           ],
           "recordPaths": [
             "{pluginsDir}/al2_jd.aui2"
@@ -214,7 +214,7 @@
         {
           "extract": "zip",
           "paths": [
-            "AutoClipping_S.anm2"
+            "Script/AutoClipping_S.anm2"
           ],
           "recordPaths": [
             "{scriptsDir}/AutoClipping_S.anm2"
@@ -293,7 +293,7 @@
         {
           "extract": "zip",
           "paths": [
-            "al2_memo.aux2"
+            "Plugin/al2_memo.aux2"
           ],
           "recordPaths": [
             "{pluginsDir}/al2_memo.aux2"
@@ -333,7 +333,7 @@
         {
           "extract": "zip",
           "paths": [
-            "@Basic_S.anm2"
+            "Script/@Basic_S.anm2"
           ],
           "recordPaths": [
             "{scriptsDir}/@Basic_S.anm2"
@@ -353,7 +353,7 @@
         {
           "extract": "zip",
           "paths": [
-            "@Path_S.anm2"
+            "Script/@Path_S.anm2"
           ],
           "recordPaths": [
             "{scriptsDir}/@Path_S.anm2"
@@ -533,7 +533,7 @@
         {
           "extract": "zip",
           "paths": [
-            "AviUtl2/GroundShadow2_S.anm2"
+            "Script/GroundShadow2_S.anm2"
           ],
           "recordPaths": [
             "{scriptsDir}/GroundShadow2_S.anm2"
@@ -729,10 +729,10 @@
         {
           "extract": "zip",
           "paths": [
-            "油絵KR.anm2"
+            "Script/Karoterra.OilPainting/油絵KR.anm2"
           ],
           "recordPaths": [
-            "{scriptsDir}/油絵KR.anm2"
+            "{scriptsDir}/Karoterra.OilPainting/油絵KR.anm2"
           ]
         }
       ]
@@ -749,7 +749,7 @@
         {
           "extract": "zip",
           "paths": [
-            "Plugin/@曲げKR.anm2"
+            "@曲げKR.anm2"
           ],
           "recordPaths": [
             "{scriptsDir}/@曲げKR.anm2"
@@ -769,10 +769,10 @@
         {
           "extract": "zip",
           "paths": [
-            "色覚シミュレーションKR.anm2"
+            "Script/Karoterra.ColorVisionSimulation/色覚シミュレーションKR.anm2"
           ],
           "recordPaths": [
-            "{scriptsDir}/色覚シミュレーションKR.anm2"
+            "{scriptsDir}/Karoterra.ColorVisionSimulation/色覚シミュレーションKR.anm2"
           ]
         }
       ]
@@ -849,7 +849,7 @@
         {
           "extract": "zip",
           "paths": [
-            "ColorLUT_K/ColorLUT_K.aux2"
+            "Plugin/ColorLUT_K/ColorLUT_K.aux2"
           ],
           "recordPaths": [
             "{pluginsDir}/ColorLUT_K/ColorLUT_K.aux2"
@@ -869,7 +869,7 @@
         {
           "extract": "zip",
           "paths": [
-            "tl_walkaround2.aux2"
+            "Plugin/tl_walkaround2.aux2"
           ],
           "recordPaths": [
             "{pluginsDir}/tl_walkaround2.aux2"
@@ -889,10 +889,10 @@
         {
           "extract": "zip",
           "paths": [
-            "SrtImporter.aux2"
+            "Plugin/SrtImporter/SrtImporter.aux2"
           ],
           "recordPaths": [
-            "{pluginsDir}/SrtImporter.aux2"
+            "{pluginsDir}/SrtImporter/SrtImporter.aux2"
           ]
         }
       ]
@@ -1408,8 +1408,9 @@
       "regex": "External_Audio_Processing2.aux2",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
-            "External_Audio_Processing2.aux2"
+            "Plugin/External_Audio_Processing2.aux2"
           ],
           "recordPaths": [
             "{pluginsDir}/External_Audio_Processing2.aux2"
@@ -1568,7 +1569,7 @@
       "hash-calc": [
         {
           "paths": [
-            "audio2obj\\.lua"
+            "audio2obj.lua"
           ],
           "recordPaths": [
             "{pluginsDir}/GCMZDrops/GCMZScript/audio2obj.lua"
@@ -1708,10 +1709,14 @@
         {
           "extract": "zip",
           "paths": [
-            "VariableFont.auf2"
+            "VariableFont.aux2",
+            "VariableFontModule.mod2",
+            "Variable Font Object.obj2"
           ],
           "recordPaths": [
-            "{pluginsDir}/VariableFont.auf2"
+            "{pluginsDir}/VariableFont.aux2",
+            "{scriptsDir}/VariableFont/VariableFontModule.mod2",
+            "{scriptsDir}/VariableFont/Variable Font Object.obj2"
           ]
         }
       ]
@@ -2125,10 +2130,12 @@
         {
           "extract": "zip",
           "paths": [
-            "Script/transform_specific_chars.anm2.anm2"
+            "Script/transform_specific_chars.anm2.anm2",
+            "Script/transform_specific_chars.mod2"
           ],
           "recordPaths": [
-            "{scriptsDir}/transform_specific_chars.anm2.anm2"
+            "{scriptsDir}/transform_specific_chars.anm2.anm2",
+            "{scriptsDir}/transform_specific_chars.mod2"
           ]
         }
       ]
@@ -2492,12 +2499,50 @@
         {
           "extract": "zip",
           "paths": [
-            "Plugin/中心ずらし_A.aux2",
             "Script/中心ずらし_A.anm2"
           ],
           "recordPaths": [
-            "{pluginsDir}/中心ずらし_A.aux2",
             "{scriptsDir}/中心ずらし_A.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "beive60.aviutl2-alias-inserter",
+    "latest-version": "v0.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "beive60/aviutl2-alias-inserter",
+      "regex": "^aviutl2-alias-inserter-v(?<version>\\d\\.\\d\\.\\d)\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "aviutl2_alias_inserter.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2_alias_inserter.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "beive60.aviutl2-audio-rec",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "beive60/aviutl2-audio-rec",
+      "regex": "^aviutl2-audio-rec-v(?<version>\\d\\.\\d\\.\\d)\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "aviutl2_audio_rec.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2_audio_rec.aux2"
           ]
         }
       ]
