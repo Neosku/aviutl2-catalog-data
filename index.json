@@ -24024,5 +24024,85 @@
         ]
       }
     ]
+  },
+  {
+    "id": "beive60.aviutl2-alias-inserter",
+    "name": "aviutl2-alias-inserter",
+    "type": "汎用プラグイン",
+    "summary": "Steam Deck などの外部デバイスから挿入できるようにする",
+    "description": "https://raw.githubusercontent.com/beive60/aviutl2-alias-inserter/refs/heads/main/README.md",
+    "author": "Beive60",
+    "repoURL": "https://github.com/beive60/aviutl2-alias-inserter",
+    "latest-version": "v0.0.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "Beive60"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "配置",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "beive60",
+          "repo": "aviutl2-alias-inserter",
+          "pattern": "^aviutl2-alias-inserter-v(?<version>\\d\\.\\d\\.\\d)\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/alias_inserter_cli.exe",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/aviutl2_alias_inserter.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/aviutl2_alias_inserter.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/alias_inserter_cli.exe"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.0.1",
+        "release_date": "2026-04-18",
+        "file": [
+          {
+            "path": "{pluginsDir}/aviutl2_alias_inserter.aux2",
+            "XXH3_128": "cb7f6b75a8c918f01f562ea4eff76eda"
+          }
+        ]
+      }
+    ]
   }
 ]
