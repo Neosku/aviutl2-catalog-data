@@ -24188,5 +24188,73 @@
         ]
       }
     ]
+  },
+  {
+    "id": "chihayuki.kokyuu",
+    "name": "自動呼吸アニメーション",
+    "type": "スクリプト",
+    "summary": "立ち絵に呼吸追加するアニメーション効果",
+    "description": "./md/chihayuki.kokyuu.md",
+    "author": "ちはユキ",
+    "repoURL": "https://www.nicovideo.jp/watch/sm37438844",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "ニコニ・コモンズ",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "利用条件\n利用許可範囲　インターネット全般\nニコニコ投稿時の親子登録　任意\n権利表記　任意\n動画配信サイトでの収益化　個人：OK、法人：OK\n営利利用　個人：OK、法人：OK\n上記条件にしたがってご利用ください"
+      }
+    ],
+    "niconiCommonsId": "sm37066079",
+    "tags": [
+      "アニメーション",
+      "変形"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "infoImg": [
+          "./image/chihayuki.kokyuu_1.jpg"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1dlS4DgCvJWRN-YrW3NWm2gM7UNA2ENm1"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}\\呼吸.anm",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}\\呼吸.anm"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2020-08-30",
+        "file": [
+          {
+            "path": "{scriptsDir}\\呼吸.anm",
+            "XXH3_128": "bf6a4dbe3218db1647d34632713ef4a8"
+          }
+        ]
+      }
+    ]
   }
 ]
