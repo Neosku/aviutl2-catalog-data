@@ -17600,7 +17600,7 @@
     "description": "https://raw.githubusercontent.com/cycloawaodorin/wav_output_ks/refs/heads/main/README.md",
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/wav_output_ks",
-    "latest-version": "v0.0.3",
+    "latest-version": "v0.0.2",
     "popularity": 432,
     "trend": 88,
     "licenses": [
@@ -17673,16 +17673,6 @@
             "XXH3_128": "116c740fbbfaf68595dfd53a1381e8a6"
           }
         ]
-      },
-      {
-        "version": "v0.0.3",
-        "release_date": "2026-05-01",
-        "file": [
-          {
-            "path": "{pluginsDir}/wav_output_ks.auo2",
-            "XXH3_128": "511d9200b9cb5bc63fdb1c75607dc523"
-          }
-        ]
       }
     ]
   },
@@ -17694,7 +17684,7 @@
     "description": "https://raw.githubusercontent.com/cycloawaodorin/fzgx_smr_ks/refs/heads/main/README.md",
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/fzgx_smr_ks",
-    "latest-version": "v2.0.6",
+    "latest-version": "v2.0.5",
     "popularity": 94,
     "trend": 20,
     "licenses": [
@@ -17797,16 +17787,6 @@
           {
             "path": "{pluginsDir}/fzgx_smr_ks.auo2",
             "XXH3_128": "add5de580bf7f833636a13bab8053a81"
-          }
-        ]
-      },
-      {
-        "version": "v2.0.6",
-        "release_date": "2026-05-01",
-        "file": [
-          {
-            "path": "{pluginsDir}/fzgx_smr_ks.auo2",
-            "XXH3_128": "62d48ef3a5dcc5a911aac9fd7d374f27"
           }
         ]
       }
@@ -23803,6 +23783,85 @@
           {
             "path": "{scriptsDir}/アイリスアウト/iris_out.lua",
             "XXH3_128": "a32cd45bf9f32620909fb1b3026c79b2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tikubonn.Alignment",
+    "name": "揃え",
+    "type": "スクリプト",
+    "summary": "オブジェクトの揃え位置を指定します。",
+    "description": "./md/tikubonn.Alignment.md",
+    "author": "ちくぼん",
+    "repoURL": "https://tikubonn.booth.pm/items/8250336",
+    "latest-version": "v2.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "Copyright © 2026 tikubonn\n\n揃えスクリプト(以降、本ソフトウェアと呼称する)を利用する際には、必ずこれらの規約を遵守してください。\n\n* 本ソフトウェアの改変を許可します。\n* 本ソフトウェアの改変の有無に関わらず、本ソフトウェアとその派生物の再配布を禁止します。\n* 本ソフトウェアの利用により生じた直接的・間接的な損害について、当方は一切の責任を負いません。\n  本ソフトウェアは現状有姿で提供され、その正確性や適合性を保証するものではありません。\n* 本ソフトウェアによって生成された成果物を商用・非商用に関わらず自由に配布することができます。\n* 本ソフトウェアによって生成された成果物を配布する際にクレジット表記をする必要はありません。\n* 本利用規約は予告なく変更される場合があります。"
+      }
+    ],
+    "niconiCommonsId": "sm46212949",
+    "tags": [
+      "オブジェクト操作",
+      "スクリプト",
+      "テキスト",
+      "移動",
+      "画像",
+      "図形",
+      "配置"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/tikubonn.Alignment_thumbnail.png",
+        "infoImg": [
+          "./image/tikubonn.Alignment_1.jpg"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/8831341"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/揃えv2",
+          "to": "{scriptsDir}/揃えv2"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/揃えv2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v2.0.0",
+        "release_date": "2026-05-01",
+        "file": [
+          {
+            "path": "{scriptsDir}/揃えv2/@揃えv2.anm2",
+            "XXH3_128": "5bcdd9095af76ff0deac02335d6c1bd5"
+          },
+          {
+            "path": "{scriptsDir}/揃えv2/alignment_v2.lua",
+            "XXH3_128": "9b6aa75544bc45783734a0bc9eb6235a"
           }
         ]
       }
