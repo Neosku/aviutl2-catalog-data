@@ -7496,7 +7496,7 @@
     "description": "./md/naltutyo.ScriptBrowserPlugin.md",
     "author": "Nao",
     "repoURL": "https://nao-kid.booth.pm/items/7684889",
-    "latest-version": "v3.13",
+    "latest-version": "v3.2",
     "popularity": 325,
     "trend": 155,
     "licenses": [
@@ -7519,7 +7519,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8763773?_gl=1*1piffs1*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzY4MTk1MzMkbzEyJGcxJHQxNzc2ODE5NTc4JGoxNSRsMCRoMA.."
+        "booth": "https://booth.pm/downloadables/8831619?_gl=1*njgtqg*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3Nzc2MjM5MzYkbzMyJGcxJHQxNzc3NjI1Njk2JGo0NCRsMCRoMA.."
       },
       "install": [
         {
@@ -7530,7 +7530,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/v3.13/SearchBrowserPlugin.aux2",
+          "from": "{tmp}/v3.2/SearchBrowserPlugin.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -7669,6 +7669,16 @@
           {
             "path": "{pluginsDir}/SearchBrowserPlugin.aux2",
             "XXH3_128": "91abb5c71af3635af64a0930fd30a32f"
+          }
+        ]
+      },
+      {
+        "version": "v3.2",
+        "release_date": "2026-05-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/SearchBrowserPlugin.aux2",
+            "XXH3_128": "c8d24cf5e45fd734a10d2275325ad22c"
           }
         ]
       }
@@ -8223,7 +8233,7 @@
     "author": "Nao",
     "originalAuthor": "aoytsk様",
     "repoURL": "https://nao-kid.booth.pm/items/7791311",
-    "latest-version": "v5.1",
+    "latest-version": "v5.2",
     "popularity": 442,
     "trend": 87,
     "licenses": [
@@ -8248,7 +8258,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8670243?_gl=1*jn1dff*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzU1MjE4MDkkbzI4JGcxJHQxNzc1NTIyMzE1JGoxMSRsMCRoMA.."
+        "booth": "https://booth.pm/downloadables/8831428?_gl=1*1l4vitg*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3Nzc2MjM5MzYkbzMyJGcxJHQxNzc3NjI0Mjg3JGoxNSRsMCRoMA.."
       },
       "install": [
         {
@@ -8259,7 +8269,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/v5.1/拡張ツールバー.aux2",
+          "from": "{tmp}/v5.2/拡張ツールバー.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -8458,6 +8468,16 @@
           {
             "path": "{pluginsDir}/拡張ツールバー.aux2",
             "XXH3_128": "0d78be69565c34fffadcfc72895e2cf9"
+          }
+        ]
+      },
+      {
+        "version": "v5.2",
+        "release_date": "2026-05-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/拡張ツールバー.aux2",
+            "XXH3_128": "aa8d66d04e3adc4ac6f8c34381573d49"
           }
         ]
       }
@@ -21535,7 +21555,7 @@
     "description": "./md/naltutyo.zikanseigyoN.md",
     "author": "Nao",
     "repoURL": "https://nao-kid.booth.pm/items/8121576",
-    "latest-version": "v1.7",
+    "latest-version": "v1.8",
     "popularity": 464,
     "trend": 260,
     "licenses": [
@@ -21559,7 +21579,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8769826?_gl=1*vczs81*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NzY5MDIwMDgkbzE1JGcxJHQxNzc2OTAyMDc4JGo1OSRsMCRoMA.."
+        "booth": "https://booth.pm/downloadables/8831439?_gl=1*2xntyu*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3Nzc2MjM5MzYkbzMyJGcxJHQxNzc3NjI0NDAwJGoyOSRsMCRoMA.."
       },
       "install": [
         {
@@ -21570,17 +21590,17 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/v1.7/時間制御N.aux2",
+          "from": "{tmp}/v1.8/時間制御N.aux2",
           "to": "{pluginsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/v1.7/時間制御N.mod2",
+          "from": "{tmp}/v1.8/時間制御N.mod2",
           "to": "{scriptsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/v1.7/時間制御N.tra2",
+          "from": "{tmp}/v1.8/時間制御N.tra2",
           "to": "{scriptsDir}"
         }
       ],
@@ -21667,6 +21687,20 @@
           {
             "path": "{scriptsDir}/時間制御N.mod2",
             "XXH3_128": "f9022607176e483cd74644f6a3145840"
+          }
+        ]
+      },
+      {
+        "version": "v1.8",
+        "release_date": "2026-05-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/時間制御N.aux2",
+            "XXH3_128": "dd821ede67b347bbcd118e10163e2d30"
+          },
+          {
+            "path": "{scriptsDir}/時間制御N.mod2",
+            "XXH3_128": "a75bb7bbdfde10271929abe573058a7f"
           }
         ]
       }
