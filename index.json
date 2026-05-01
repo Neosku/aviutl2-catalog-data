@@ -24104,5 +24104,89 @@
         ]
       }
     ]
+  },
+  {
+    "id": "beive60.aviutl2-audio-rec",
+    "name": "aviutl2-audio-rec",
+    "type": "汎用プラグイン",
+    "summary": "録音してwavファイルに保存してタイムラインに挿入",
+    "description": "https://raw.githubusercontent.com/beive60/aviutl2-audio-rec/refs/heads/main/README.md",
+    "author": "Beive60",
+    "originalAuthor": "Beive60",
+    "repoURL": "https://github.com/beive60/aviutl2-audio-rec",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "Beive60"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "音声"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "beive60",
+          "repo": "aviutl2-audio-rec",
+          "pattern": "^aviutl2-audio-rec-v(?<version>\\d\\.\\d\\.\\d)\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/aviutl2_audio_rec.aux2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/audio_rec_cli.exe",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/aviutl2_audio_rec.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/audio_rec_cli.exe"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-05-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/aviutl2_audio_rec.aux2",
+            "XXH3_128": "507db7db1fdefb8e6392e6e8be1f3ab5"
+          },
+          {
+            "path": "{pluginsDir}/audio_rec_cli.exe",
+            "XXH3_128": "02a577fb29a496b5f4634510a04bbb74"
+          }
+        ]
+      }
+    ]
   }
 ]
