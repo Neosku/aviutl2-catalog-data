@@ -23921,5 +23921,84 @@
         ]
       }
     ]
+  },
+  {
+    "id": "tikubonn.Alignment",
+    "name": "揃え",
+    "type": "スクリプト",
+    "summary": "オブジェクトの揃え位置を指定します。",
+    "description": "./md/tikubonn.Alignment.md",
+    "author": "ちくぼん",
+    "repoURL": "https://tikubonn.booth.pm/items/8250336",
+    "latest-version": "v2.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "Copyright © 2026 tikubonn\n\n揃えスクリプト(以降、本ソフトウェアと呼称する)を利用する際には、必ずこれらの規約を遵守してください。\n\n* 本ソフトウェアの改変を許可します。\n* 本ソフトウェアの改変の有無に関わらず、本ソフトウェアとその派生物の再配布を禁止します。\n* 本ソフトウェアの利用により生じた直接的・間接的な損害について、当方は一切の責任を負いません。\n  本ソフトウェアは現状有姿で提供され、その正確性や適合性を保証するものではありません。\n* 本ソフトウェアによって生成された成果物を商用・非商用に関わらず自由に配布することができます。\n* 本ソフトウェアによって生成された成果物を配布する際にクレジット表記をする必要はありません。\n* 本利用規約は予告なく変更される場合があります。"
+      }
+    ],
+    "niconiCommonsId": "sm46212949",
+    "tags": [
+      "オブジェクト操作",
+      "スクリプト",
+      "テキスト",
+      "移動",
+      "画像",
+      "図形",
+      "配置"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/tikubonn.Alignment_thumbnail.png",
+        "infoImg": [
+          "./image/tikubonn.Alignment_1.jpg"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/8831341"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/揃えv2",
+          "to": "{scriptsDir}/揃えv2"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/揃えv2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v2.0.0",
+        "release_date": "2026-05-01",
+        "file": [
+          {
+            "path": "{scriptsDir}/揃えv2/@揃えv2.anm2",
+            "XXH3_128": "5bcdd9095af76ff0deac02335d6c1bd5"
+          },
+          {
+            "path": "{scriptsDir}/揃えv2/alignment_v2.lua",
+            "XXH3_128": "9b6aa75544bc45783734a0bc9eb6235a"
+          }
+        ]
+      }
+    ]
   }
 ]
