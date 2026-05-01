@@ -23843,7 +23843,8 @@
       }
     ],
     "tags": [
-      "配置"
+      "配置",
+      "便利ツール"
     ],
     "dependencies": [],
     "images": [],
@@ -23887,7 +23888,7 @@
     "version": [
       {
         "version": "v0.0.1",
-        "release_date": "2026-05-01",
+        "release_date": "2026-04-18",
         "file": [
           {
             "path": "{pluginsDir}/aviutl2_alias_inserter.aux2",
