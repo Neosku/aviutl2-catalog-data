@@ -105,7 +105,7 @@
   },
   {
     "id": "rigaya.NVEnc",
-    "latest-version": "9.15",
+    "latest-version": "9.16",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/NVEnc",
@@ -324,7 +324,7 @@
   },
   {
     "id": "sigma-axis.Basic_S",
-    "latest-version": "v2.01-for-beta42",
+    "latest-version": "v2.02-for-beta43b",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_Basic_S",

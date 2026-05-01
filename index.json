@@ -1526,7 +1526,7 @@
     "description": "./md/rigaya.NVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/NVEnc",
-    "latest-version": "9.15",
+    "latest-version": "9.16",
     "popularity": 2462,
     "trend": 748,
     "licenses": [
@@ -1804,6 +1804,11 @@
             "XXH3_128": "7bf5b80b852825e9d0e8b2f081f0e9d2"
           }
         ]
+      },
+      {
+        "version": "9.16",
+        "release_date": "2026-05-01",
+        "file": []
       }
     ]
   },
@@ -4846,7 +4851,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Basic_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Basic_S",
-    "latest-version": "v2.01-for-beta42",
+    "latest-version": "v2.02-for-beta43b",
     "popularity": 6186,
     "trend": 2025,
     "licenses": [
@@ -5133,6 +5138,16 @@
           {
             "path": "{scriptsDir}/@Basic_S.anm2",
             "XXH3_128": "30fc49412bdad4eeb573be7f8134e104"
+          }
+        ]
+      },
+      {
+        "version": "v2.02-for-beta43b",
+        "release_date": "2026-05-01",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Basic_S.anm2",
+            "XXH3_128": "67eddc112be1c39006016a34437c2ea4"
           }
         ]
       }
