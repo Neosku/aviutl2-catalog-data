@@ -17433,10 +17433,10 @@
   },
   {
     "id": "azurite.GradientEditor",
-    "name": "GradientEditor",
+    "name": "Gradient Editor",
     "type": "汎用プラグイン",
     "summary": "グラデーションエディタプラグイン",
-    "description": "./md/azurite.GradientEditor.md",
+    "description": "https://raw.githubusercontent.com/azurite581/AviUtl2-GradientEditor/main/README.md",
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-GradientEditor",
     "latest-version": "v0.4.2",
@@ -17493,11 +17493,6 @@
           "action": "copy",
           "from": "{tmp}/Script",
           "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Language",
-          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -17508,14 +17503,6 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/@GradientEditor.anm2"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Language/English.GradientEditor.aul2"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Language/简体中文.GradientEditor.aul2"
         },
         {
           "action": "delete",
@@ -17656,7 +17643,7 @@
         "file": [
           {
             "path": "{pluginsDir}/GradientEditor.aux2",
-            "XXH3_128": "7b3a59d8572dfc0171b1831021400fc7"
+            "XXH3_128": "0516a152a8e00a574cef094cdcbe2c26"
           }
         ]
       }
