@@ -24339,5 +24339,102 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sigma-axis.translations_sigma-axis",
+    "name": "Language Files for Scripts and Filters by sigma-axis",
+    "type": "言語ファイル",
+    "summary": "Translation for sigma-axis packages",
+    "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_translations_sigma-axis/refs/heads/main/README.md",
+    "author": "σ軸",
+    "repoURL": "https://github.com/sigma-axis/aviutl2_translations_sigma-axis",
+    "latest-version": "r18",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "BSD-2-Clause",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "sigma-axis"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "UI"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sigma-axis",
+          "repo": "aviutl2_translations_sigma-axis",
+          "pattern": "^aviutl2_translations_sigma-axis.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.sigma-axis.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/sigma-axis/LICENSE",
+          "to": "{dataDir}/Language/sigma-axis"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/sigma-axis/README.md",
+          "to": "{dataDir}/Language/sigma-axis"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/简体中文.sigma-axis.aul2",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.sigma-axis.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/sigma-axis/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/sigma-axis/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/简体中文.sigma-axis.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r18",
+        "release_date": "2026-05-02",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.sigma-axis.aul2",
+            "XXH3_128": "cba2e877fb4268c9f22fdf8334112628"
+          }
+        ]
+      }
+    ]
   }
 ]
