@@ -18734,7 +18734,7 @@
     "description": "./md/AviUtl2_Language_kr.md",
     "author": "Victorique Bernkastel",
     "repoURL": "https://github.com/Victorique-Bernkastel/AviUtl2_Language",
-    "latest-version": "v4.3a",
+    "latest-version": "v4.4",
     "popularity": 64,
     "trend": 19,
     "licenses": [
@@ -18874,6 +18874,16 @@
           {
             "path": "{dataDir}/Language/Korean.language.aul2",
             "XXH3_128": "a1406af52ff26afd6899efa5b446d712"
+          }
+        ]
+      },
+      {
+        "version": "v4.4",
+        "release_date": "2026-05-05",
+        "file": [
+          {
+            "path": "{dataDir}/Language/Korean.language.aul2",
+            "XXH3_128": "e751cbd81af65a40a8d00fddb34c8b3c"
           }
         ]
       }
