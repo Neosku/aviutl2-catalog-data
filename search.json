@@ -2550,7 +2550,7 @@
   },
   {
     "id": "sigma-axis.translations_sigma-axis",
-    "latest-version": "r18",
+    "latest-version": "r19",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_translations_sigma-axis",
@@ -2570,7 +2570,7 @@
   },
   {
     "id": "Karoterra.Typst",
-    "latest-version": "0.1.0",
+    "latest-version": "v0.1.1",
     "checkType": {
       "type": "GitHub",
       "repo": "karoterra/aviutl2-typst",

@@ -24552,7 +24552,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_translations_sigma-axis/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_translations_sigma-axis",
-    "latest-version": "r18",
+    "latest-version": "r19",
     "popularity": 6,
     "trend": 5,
     "licenses": [
@@ -24638,6 +24638,16 @@
             "XXH3_128": "cba2e877fb4268c9f22fdf8334112628"
           }
         ]
+      },
+      {
+        "version": "r19",
+        "release_date": "2026-05-05",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.sigma-axis.aul2",
+            "XXH3_128": "6dd0d3bc61d37486e95f2e2a45cc2843"
+          }
+        ]
       }
     ]
   },
@@ -24649,7 +24659,7 @@
     "description": "./md/Karoterra.Typst.md",
     "author": "かろてら",
     "repoURL": "https://github.com/karoterra/aviutl2-typst",
-    "latest-version": "0.1.0",
+    "latest-version": "v0.1.1",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -24763,6 +24773,16 @@
           {
             "path": "{pluginsDir}/Karoterra.Typst/typst_kr.aux2",
             "XXH3_128": "7e214123797473b01b1d82ff885acefa"
+          }
+        ]
+      },
+      {
+        "version": "v0.1.1",
+        "release_date": "2026-05-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/Karoterra.Typst/typst_kr.aux2",
+            "XXH3_128": "29d3d99cf1643d16280dd23afb4b90da"
           }
         ]
       }
