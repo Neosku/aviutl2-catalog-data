@@ -24493,6 +24493,17 @@
           }
         ],
         "licenseBody": null
+      },
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "karoterra"
+          }
+        ],
+        "licenseBody": null
       }
     ],
     "tags": [
@@ -24579,26 +24590,6 @@
         "version": "0.1.0",
         "release_date": "2026-05-04",
         "file": [
-          {
-            "path": "{dataDir}/Language/English.typst_kr.aul2",
-            "XXH3_128": "5276c38d8b90a81440693f73c4e08850"
-          },
-          {
-            "path": "{pluginsDir}/Karoterra.Typst/LICENSE-APACHE",
-            "XXH3_128": "f7d202509dbd7bf1ca22194060685d6c"
-          },
-          {
-            "path": "{pluginsDir}/Karoterra.Typst/LICENSE-MIT",
-            "XXH3_128": "a957137dda67a87eca2b69cc5cd718ee"
-          },
-          {
-            "path": "{pluginsDir}/Karoterra.Typst/NOTICE.html",
-            "XXH3_128": "a3b3aa34aebc6c9b5dad99bdfa633b55"
-          },
-          {
-            "path": "{pluginsDir}/Karoterra.Typst/README.md",
-            "XXH3_128": "be3a4a532079f7227cd6e0af426f57f1"
-          },
           {
             "path": "{pluginsDir}/Karoterra.Typst/typst_kr.aux2",
             "XXH3_128": "7e214123797473b01b1d82ff885acefa"
