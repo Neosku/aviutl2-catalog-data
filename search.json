@@ -2547,5 +2547,45 @@
         }
       ]
     }
+  },
+  {
+    "id": "sigma-axis.translations_sigma-axis",
+    "latest-version": "r18",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_translations_sigma-axis",
+      "regex": "^aviutl2_translations_sigma-axis.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Language/English.sigma-axis.aul2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/English.sigma-axis.aul2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Karoterra.Typst",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "karoterra/aviutl2-typst",
+      "regex": "^Karoterra\\.Typst-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/Karoterra.Typst/typst_kr.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Karoterra.Typst/typst_kr.aux2"
+          ]
+        }
+      ]
+    }
   }
 ]
