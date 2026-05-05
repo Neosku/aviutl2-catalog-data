@@ -19154,7 +19154,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v3.0.8",
+    "latest-version": "v3.1.0",
     "popularity": 459,
     "trend": 213,
     "licenses": [
@@ -19421,6 +19421,16 @@
           {
             "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
             "XXH3_128": "c5bdf9501a6880825efbc44f0fa9839b"
+          }
+        ]
+      },
+      {
+        "version": "v3.1.0",
+        "release_date": "2026-05-05",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "6cb80ab0dc0709d8807d95f089a1d9d6"
           }
         ]
       }
@@ -24552,7 +24562,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_translations_sigma-axis/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_translations_sigma-axis",
-    "latest-version": "r19",
+    "latest-version": "r20",
     "popularity": 6,
     "trend": 5,
     "licenses": [
@@ -24646,6 +24656,16 @@
           {
             "path": "{dataDir}/Language/English.sigma-axis.aul2",
             "XXH3_128": "6dd0d3bc61d37486e95f2e2a45cc2843"
+          }
+        ]
+      },
+      {
+        "version": "r20",
+        "release_date": "2026-05-05",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.sigma-axis.aul2",
+            "XXH3_128": "f4f9fc331d7e359b03a6eae3c1f99db9"
           }
         ]
       }
