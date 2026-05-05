@@ -6944,7 +6944,7 @@
     "description": "./md/amaii4.AviUtl2_Discord_RPC.md",
     "author": "甘味",
     "repoURL": "https://github.com/amaii4/AviUtl2_Discord_RPC",
-    "latest-version": "1.3.1",
+    "latest-version": "1.3.2",
     "popularity": 995,
     "trend": 225,
     "licenses": [
@@ -7044,6 +7044,16 @@
           {
             "path": "{pluginsDir}/DiscordRPC.aux2",
             "XXH3_128": "7a1b4a7b9cc068161ce63adfee9fdd75"
+          }
+        ]
+      },
+      {
+        "version": "1.3.2",
+        "release_date": "2026-05-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/DiscordRPC.aux2",
+            "XXH3_128": "0a0ec9b9bd7aaf6c35d84b2f9705e16b"
           }
         ]
       }
