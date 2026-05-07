@@ -24930,5 +24930,74 @@
         ]
       }
     ]
+  },
+  {
+    "id": "teruyoshii.noiseTe",
+    "name": "ノイズ_Te",
+    "type": "スクリプト",
+    "summary": "一定時間/距離ごとにループできるカスタマイズ性が高いノイズスクリプト群",
+    "description": "https://raw.githubusercontent.com/teruyoshii/AviUtl2_Noise_Te/refs/heads/main/README.md",
+    "author": "てるよし",
+    "repoURL": "https://github.com/teruyoshii/AviUtl2_Noise_Te",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "teruyoshi"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "スクリプト",
+      "ノイズ",
+      "加工"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "teruyoshii",
+          "repo": "AviUtl2_Noise_Te",
+          "pattern": "^@noise_Te\\.anm2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@noise_Te.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@noise_Te.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-03-31",
+        "file": [
+          {
+            "path": "{scriptsDir}/@noise_Te.anm2",
+            "XXH3_128": "ee5cb9304eb16a7165f7cba9d3cb26e3"
+          }
+        ]
+      }
+    ]
   }
 ]
