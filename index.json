@@ -18978,7 +18978,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/filter_effect_toggle.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/filter_effect_toggle.aux2",
-    "latest-version": "0.1.5",
+    "latest-version": "0.1.6",
     "popularity": 217,
     "trend": 28,
     "licenses": [
@@ -19074,6 +19074,16 @@
           {
             "path": "{pluginsDir}/filter_effect_toggle.aux2",
             "XXH3_128": "5b12f0354ced5eab9fe03c56ea0d2b48"
+          }
+        ]
+      },
+      {
+        "version": "0.1.6",
+        "release_date": "2026-05-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/filter_effect_toggle.aux2",
+            "XXH3_128": "6cd06ed17ab3a09267c63cd98ba375e2"
           }
         ]
       }
