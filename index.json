@@ -25009,5 +25009,68 @@
         ]
       }
     ]
+  },
+  {
+    "id": "osakana4242.GifBayerDitherOutput",
+    "name": "GIFベイヤーディザ出力",
+    "type": "出力プラグイン",
+    "summary": "減色とベイヤーディザを適用した GIF を出力",
+    "description": "https://raw.githubusercontent.com/osakana4242/aviutl2_plugin/main/output/README.md",
+    "author": "三川おさかな",
+    "repoURL": "https://github.com/osakana4242/aviutl2_plugin/tree/main/output",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "0BSD",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "BSD Zero Clause License\n\nPermission to use, copy, modify, and/or distribute this software for any\npurpose with or without fee is hereby granted.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\nWITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\nANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\nACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\nOR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE."
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/osakana4242.GifBayerDitherOutput_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://github.com/osakana4242/aviutl2_plugin/releases/download/GifBayerDitherOutput-v1.0.0/GifBayerDitherOutput-v1.0.0.zip"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/GifBayerDitherOutput.auo2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/GifBayerDitherOutput.auo2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-05-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/GifBayerDitherOutput.auo2",
+            "XXH3_128": "cdb50c7023cad1bb9a3c9d9d9a2f17e2"
+          }
+        ]
+      }
+    ]
   }
 ]
