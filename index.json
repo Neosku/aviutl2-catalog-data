@@ -25038,11 +25038,7 @@
     ],
     "installer": {
       "source": {
-        "github": {
-          "owner": "osakana4242",
-          "repo": "aviutl2_plugin",
-          "pattern": "^GifBayerDitherOutput-v(.+).zip$"
-        }
+        "direct": "https://github.com/osakana4242/aviutl2_plugin/releases/download/GifBayerDitherOutput-v1.0.0/GifBayerDitherOutput-v1.0.0.zip"
       },
       "install": [
         {
