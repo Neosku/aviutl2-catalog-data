@@ -25092,5 +25092,136 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sevenc-nanashi.ported_tim",
+    "name": "ported_tim",
+    "type": "スクリプト",
+    "summary": "ティム氏のスクリプト一式（226個）",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/ported_tim/refs/heads/main/README.md",
+    "author": "Nanashi.",
+    "originalAuthor": "ティム",
+    "repoURL": "https://github.com/sevenc-nanashi/ported_tim/releases/latest",
+    "latest-version": "0.1.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT License\r\n\r\nCopyright (c) 2026 Nanashi. <sevenc7c.com>\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
+      }
+    ],
+    "tags": [
+      "スクリプト"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "ported_tim",
+          "pattern": "^sevenc-nanashi\\.ported_tim.*\\.au2pkg\\.zip"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@tim.anm2.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@tim.cam2.cam2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@tim.obj2.obj2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@tim.scn2.scn2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@tim.tra2.tra2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/tim2.mod2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/tim2.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@tim.tra2.tra2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@tim.scn2.scn2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@tim.obj2.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@tim.cam2.cam2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@tim.anm2.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.1.1",
+        "release_date": "2026-05-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/@tim.anm2.anm2",
+            "XXH3_128": "532e50b4447ef510060fe96d34251f1d"
+          },
+          {
+            "path": "{scriptsDir}/@tim.cam2.cam2",
+            "XXH3_128": "414e54dfef2726ac3ebb4dfba149708b"
+          },
+          {
+            "path": "{scriptsDir}/@tim.obj2.obj2",
+            "XXH3_128": "ffc3fb1da835eb6d1ed6be16b371ffd9"
+          },
+          {
+            "path": "{scriptsDir}/@tim.scn2.scn2",
+            "XXH3_128": "24b5ae24510b171e5d91b8c7e9ee1ce5"
+          },
+          {
+            "path": "{scriptsDir}/@tim.tra2.tra2",
+            "XXH3_128": "ef0c13a65d49dbc79c8f823a621e15dc"
+          },
+          {
+            "path": "{scriptsDir}/tim2.mod2",
+            "XXH3_128": "57ca748b36a90614b36539ab4a5b9bd3"
+          }
+        ]
+      }
+    ]
   }
 ]
