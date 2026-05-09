@@ -2587,5 +2587,54 @@
         }
       ]
     }
+  },
+  {
+    "id": "teruyoshii.noiseTe",
+    "latest-version": "v1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "teruyoshii/AviUtl2_Noise_Te",
+      "regex": "^@noise_Te\\.anm2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "@noise_Te.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@noise_Te.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.ported_tim",
+    "latest-version": "0.1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/ported_tim",
+      "regex": "^sevenc-nanashi\\.ported_tim.*\\.au2pkg\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@tim.anm2.anm2",
+            "Script/@tim.cam2.cam2",
+            "Script/@tim.obj2.obj2",
+            "Script/@tim.scn2.scn2",
+            "Script/@tim.tra2.tra2",
+            "Script/tim2.mod2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@tim.anm2.anm2",
+            "{scriptsDir}/@tim.cam2.cam2",
+            "{scriptsDir}/@tim.obj2.obj2",
+            "{scriptsDir}/@tim.scn2.scn2",
+            "{scriptsDir}/@tim.tra2.tra2",
+            "{scriptsDir}/tim2.mod2"
+          ]
+        }
+      ]
+    }
   }
 ]
