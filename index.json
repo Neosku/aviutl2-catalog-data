@@ -24476,7 +24476,7 @@
     "author": "Beive60",
     "originalAuthor": "Beive60",
     "repoURL": "https://github.com/beive60/aviutl2-audio-rec",
-    "latest-version": "v0.1.0",
+    "latest-version": "v0.2.0",
     "popularity": 31,
     "trend": 35,
     "licenses": [
@@ -24542,6 +24542,16 @@
           {
             "path": "{pluginsDir}/aviutl2_audio_rec.aux2",
             "XXH3_128": "507db7db1fdefb8e6392e6e8be1f3ab5"
+          }
+        ]
+      },
+      {
+        "version": "v0.2.0",
+        "release_date": "2026-05-09",
+        "file": [
+          {
+            "path": "{pluginsDir}/aviutl2_audio_rec.aux2",
+            "XXH3_128": "f1ed31ac0caa3dfa6b50be321c4ea5db"
           }
         ]
       }
