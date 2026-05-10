@@ -25542,7 +25542,11 @@
       "スクリプト"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/sevenc-nanashi.ported_tim_thumbnail.webp"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
