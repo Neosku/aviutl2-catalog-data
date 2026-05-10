@@ -205,7 +205,7 @@
   },
   {
     "id": "sigma-axis.AutoClipping_S",
-    "latest-version": "v1.14-for-beta43a",
+    "latest-version": "v1.15-for-beta45",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_AutoClipping_S",
@@ -959,7 +959,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_binaural",
-    "latest-version": "0.27.0",
+    "latest-version": "0.28.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -979,7 +979,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_chiptune",
-    "latest-version": "0.27.0",
+    "latest-version": "0.28.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -999,7 +999,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_equalizer",
-    "latest-version": "0.27.0",
+    "latest-version": "0.28.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1019,7 +1019,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_ffmpeg",
-    "latest-version": "0.27.0",
+    "latest-version": "0.28.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1039,7 +1039,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_input",
-    "latest-version": "0.27.0",
+    "latest-version": "0.28.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1059,7 +1059,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_output",
-    "latest-version": "0.27.0",
+    "latest-version": "0.28.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1079,7 +1079,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_local_alias_plugin",
-    "latest-version": "0.27.0",
+    "latest-version": "0.28.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1099,7 +1099,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_midi_player",
-    "latest-version": "0.27.0",
+    "latest-version": "0.28.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1119,7 +1119,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_pixelsort",
-    "latest-version": "0.27.0",
+    "latest-version": "0.28.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1139,7 +1139,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_random_color",
-    "latest-version": "0.27.0",
+    "latest-version": "0.28.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1159,7 +1159,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_scripts_search",
-    "latest-version": "0.27.0",
+    "latest-version": "0.28.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1179,7 +1179,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_srt_file",
-    "latest-version": "0.27.0",
+    "latest-version": "0.28.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1199,7 +1199,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_statistics",
-    "latest-version": "0.27.0",
+    "latest-version": "0.28.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1241,7 +1241,7 @@
   },
   {
     "id": "sevenc-nanashi.clipboard-aux2",
-    "latest-version": "0.2.4",
+    "latest-version": "0.2.5",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/clipboard.aux2",
@@ -1421,7 +1421,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_metronome_plugin",
-    "latest-version": "0.27.0",
+    "latest-version": "0.28.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1843,7 +1843,7 @@
   },
   {
     "id": "sevenc-nanashi.filter_effect_toggle-aux2",
-    "latest-version": "0.1.6",
+    "latest-version": "0.2.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/filter_effect_toggle.aux2",
@@ -1863,7 +1863,7 @@
   },
   {
     "id": "VRAMWIZ.Syncroh2",
-    "latest-version": "v3.1.4",
+    "latest-version": "v3.1.5",
     "checkType": {
       "type": "GitHub",
       "repo": "vramwiz/Syncroh2-site",
@@ -2061,7 +2061,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_single_image_output",
-    "latest-version": "0.27.0",
+    "latest-version": "0.28.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -2101,7 +2101,7 @@
   },
   {
     "id": "sevenc-nanashi.modify_group_num_layers-aux2",
-    "latest-version": "0.1.0",
+    "latest-version": "0.1.1",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/modify_group_num_layers.aux2",
