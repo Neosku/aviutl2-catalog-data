@@ -2608,6 +2608,26 @@
     }
   },
   {
+    "id": "osakana4242.GifBayerDitherOutput",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "osakana4242/aviutl2-gif-bayer-dither-output",
+      "regex": "^GifBayerDitherOutput-v(.+).zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "GifBayerDitherOutput.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GifBayerDitherOutput.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "sevenc-nanashi.ported_tim",
     "latest-version": "0.1.1",
     "checkType": {
