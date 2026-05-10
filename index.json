@@ -25065,9 +25065,9 @@
     "name": "GIFベイヤーディザ出力",
     "type": "出力プラグイン",
     "summary": "減色とベイヤーディザを適用した GIF を出力",
-    "description": "https://raw.githubusercontent.com/osakana4242/aviutl2_plugin/main/output/README.md",
+    "description": "https://raw.githubusercontent.com/osakana4242/aviutl2-gif-bayer-dither-output/main/README.md",
     "author": "三川おさかな",
-    "repoURL": "https://github.com/osakana4242/aviutl2_plugin/tree/main/output",
+    "repoURL": "https://github.com/osakana4242/aviutl2-gif-bayer-dither-output",
     "latest-version": "v1.0.0",
     "popularity": 13,
     "trend": 14,
@@ -25088,7 +25088,11 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://github.com/osakana4242/aviutl2_plugin/releases/download/GifBayerDitherOutput-v1.0.0/GifBayerDitherOutput-v1.0.0.zip"
+        "github": {
+          "owner": "osakana4242",
+          "repo": "aviutl2-gif-bayer-dither-output",
+          "pattern": "^GifBayerDitherOutput-v(.+).zip$"
+        }
       },
       "install": [
         {
