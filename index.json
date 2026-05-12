@@ -25774,5 +25774,88 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Book-0225.relink",
+    "name": "AviUtl2 relink",
+    "type": "汎用プラグイン",
+    "summary": ".aup2 が参照しているファイルのパスを確認・修正するツールです",
+    "description": "https://raw.githubusercontent.com/Book-0225/aviutl2_relink/refs/heads/master/README.md",
+    "author": "Book0225",
+    "repoURL": "https://github.com/Book-0225/aviutl2_relink",
+    "latest-version": "v0.0.5",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "Book-0225"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Book-0225",
+          "repo": "aviutl2_relink",
+          "pattern": "aviutl2_relink.au2pkg.zip"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/aviutl2_relink_launcher.aux2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/aviutl2_relink.exe",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/aviutl2_relink_launcher.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/aviutl2_relink.exe"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.0.5",
+        "release_date": "2026-05-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/aviutl2_relink_launcher.aux2",
+            "XXH3_128": "8da387ea803f04a126c6c50830ab37dd"
+          },
+          {
+            "path": "{pluginsDir}/aviutl2_relink.exe",
+            "XXH3_128": "beee8448145b0f74ae45cf3660c49f54"
+          }
+        ]
+      }
+    ]
   }
 ]
