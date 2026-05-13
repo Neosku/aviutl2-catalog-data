@@ -18208,7 +18208,7 @@
     "description": "https://raw.githubusercontent.com/cycloawaodorin/wav_output_ks/refs/heads/main/README.md",
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/wav_output_ks",
-    "latest-version": "v0.0.3",
+    "latest-version": "v0.0.4",
     "popularity": 465,
     "trend": 175,
     "licenses": [
@@ -18291,6 +18291,16 @@
             "XXH3_128": "511d9200b9cb5bc63fdb1c75607dc523"
           }
         ]
+      },
+      {
+        "version": "v0.0.4",
+        "release_date": "2026-05-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/wav_output_ks.auo2",
+            "XXH3_128": "f04f3a06dbeda848031f6d8c5bb7760c"
+          }
+        ]
       }
     ]
   },
@@ -18302,7 +18312,7 @@
     "description": "https://raw.githubusercontent.com/cycloawaodorin/fzgx_smr_ks/refs/heads/main/README.md",
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/fzgx_smr_ks",
-    "latest-version": "v2.0.6",
+    "latest-version": "v2.0.7",
     "popularity": 98,
     "trend": 41,
     "licenses": [
@@ -18415,6 +18425,16 @@
           {
             "path": "{pluginsDir}/fzgx_smr_ks.auo2",
             "XXH3_128": "62d48ef3a5dcc5a911aac9fd7d374f27"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.7",
+        "release_date": "2026-05-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/fzgx_smr_ks.auo2",
+            "XXH3_128": "69f1188fee38c0ecaa7738a69ea2c4ce"
           }
         ]
       }
