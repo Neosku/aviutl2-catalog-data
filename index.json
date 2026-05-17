@@ -7,7 +7,7 @@
     "description": "./md/Kenkun.AviUtlExEdit2.md",
     "author": "ＫＥＮくん",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-    "latest-version": "beta45",
+    "latest-version": "beta46",
     "popularity": 18802,
     "trend": 3559,
     "licenses": [
@@ -30,7 +30,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta45_setup.exe"
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta46_setup.exe"
       },
       "install": [
         {
@@ -667,6 +667,16 @@
           {
             "path": "{appDir}/aviutl2.exe",
             "XXH3_128": "5c84876a6e674a9d9686fceafa381127"
+          }
+        ]
+      },
+      {
+        "version": "beta46",
+        "release_date": "2026-05-17",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "9318b08eff1b6d866bf349ce86d28304"
           }
         ]
       }
@@ -18010,7 +18020,7 @@
     "description": "https://raw.githubusercontent.com/azurite581/AviUtl2-GradientEditor/main/README.md",
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-GradientEditor",
-    "latest-version": "v0.5.0",
+    "latest-version": "v0.5.1",
     "popularity": 1685,
     "trend": 658,
     "licenses": [
@@ -18235,6 +18245,16 @@
           {
             "path": "{pluginsDir}/GradientEditor.aux2",
             "XXH3_128": "a62f27eb5c249f52b052c6c8f8cf093e"
+          }
+        ]
+      },
+      {
+        "version": "v0.5.1",
+        "release_date": "2026-05-17",
+        "file": [
+          {
+            "path": "{pluginsDir}/GradientEditor.aux2",
+            "XXH3_128": "952957a2313963d58071691cc1e08121"
           }
         ]
       }

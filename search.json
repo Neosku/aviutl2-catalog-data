@@ -1,7 +1,7 @@
 [
   {
     "id": "Kenkun.AviUtlExEdit2",
-    "latest-version": "beta45",
+    "latest-version": "beta46",
     "checkType": {
       "type": "URL",
       "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
@@ -1640,7 +1640,7 @@
   },
   {
     "id": "azurite.GradientEditor",
-    "latest-version": "v0.5.0",
+    "latest-version": "v0.5.1",
     "checkType": {
       "type": "GitHub",
       "repo": "azurite581/AviUtl2-GradientEditor",
