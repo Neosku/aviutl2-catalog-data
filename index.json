@@ -18051,10 +18051,6 @@
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/GradientEditorPreset/gradient_editor_default_preset.json"
-        },
-        {
-          "action": "delete",
           "path": "{pluginsDir}/GradientEditorPreset/gradient_editor_history.json"
         },
         {
