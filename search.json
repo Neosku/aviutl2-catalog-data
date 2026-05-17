@@ -1405,7 +1405,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "Book-0225/aviutl2_External_Audio_Processing",
-      "regex": "External_Audio_Processing2.aux2",
+      "regex": "External_Audio_Processing2.au2pkg.zip",
       "hash-calc": [
         {
           "extract": "zip",
