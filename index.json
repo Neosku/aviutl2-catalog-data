@@ -15941,7 +15941,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/svg.aux2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/svg.aux2",
-    "latest-version": "0.4.0",
+    "latest-version": "0.5.0",
     "popularity": 398,
     "trend": 28,
     "licenses": [
@@ -16033,6 +16033,16 @@
           {
             "path": "{pluginsDir}/svg.aux2",
             "XXH3_128": "90ef52395f89371cf84ff1d4791f8bac"
+          }
+        ]
+      },
+      {
+        "version": "0.5.0",
+        "release_date": "2026-05-19",
+        "file": [
+          {
+            "path": "{pluginsDir}/svg.aux2",
+            "XXH3_128": "f1d4ed83f16f155bb18f89b4cb57e03e"
           }
         ]
       }
@@ -23942,7 +23952,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/tex.auf2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/tex.auf2",
-    "latest-version": "0.2.1",
+    "latest-version": "0.2.2",
     "popularity": 132,
     "trend": 82,
     "licenses": [
@@ -24036,6 +24046,20 @@
           {
             "path": "{pluginsDir}/tex.aux2",
             "XXH3_128": "48b892cddb8673fc66920938261275ae"
+          },
+          {
+            "path": "{dataDir}/Language/English.tex.aul2",
+            "XXH3_128": "28eab41928a10b449e4817d2253a056a"
+          }
+        ]
+      },
+      {
+        "version": "0.2.2",
+        "release_date": "2026-05-19",
+        "file": [
+          {
+            "path": "{pluginsDir}/tex.aux2",
+            "XXH3_128": "7c4e2f5977cdba3c19bf45dcf1dcda74"
           },
           {
             "path": "{dataDir}/Language/English.tex.aul2",
