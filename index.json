@@ -25254,7 +25254,14 @@
       "音声"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/beive60.aviutl2-audio-rec_thumbnail.png",
+        "infoImg": [
+          "./image/beive60.aviutl2-audio-rec_1.png"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
