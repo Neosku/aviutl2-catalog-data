@@ -25184,7 +25184,15 @@
       "便利ツール"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/beive60.aviutl2-alias-inserter_thumbnail.png",
+        "infoImg": [
+          "./image/beive60.aviutl2-alias-inserter_1.png",
+          "./image/beive60.aviutl2-alias-inserter_2.png"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
