@@ -2304,7 +2304,7 @@
   },
   {
     "id": "sigma-axis.Border_S",
-    "latest-version": "v1.05-for-beta44",
+    "latest-version": "v1.10-for-beta46",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_Border_S",
@@ -2550,7 +2550,7 @@
   },
   {
     "id": "sigma-axis.translations_sigma-axis",
-    "latest-version": "r22",
+    "latest-version": "r23",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_translations_sigma-axis",
