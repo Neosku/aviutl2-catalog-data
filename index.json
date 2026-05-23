@@ -1855,7 +1855,7 @@
     "description": "./md/rigaya.QSVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/QSVEnc",
-    "latest-version": "8.12",
+    "latest-version": "8.13",
     "popularity": 501,
     "trend": 139,
     "licenses": [
@@ -2081,6 +2081,16 @@
           {
             "path": "{pluginsDir}/QSVEnc.auo2",
             "XXH3_128": "1563e650238c819ff57a9ea1b49f0782"
+          }
+        ]
+      },
+      {
+        "version": "8.13",
+        "release_date": "2026-05-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo2",
+            "XXH3_128": "5b918645acfc1defd45478d8e1ca7632"
           }
         ]
       }
@@ -9902,7 +9912,7 @@
     "description": "./md/Rhapthorne_0.radialShift.md",
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1975320165941129277",
-    "latest-version": "2026.02.22",
+    "latest-version": "2026.04.27",
     "popularity": 612,
     "trend": 73,
     "licenses": [
@@ -9962,6 +9972,16 @@
             "XXH3_128": "7de1540aed39f0dc20ef9427ea6a59a6"
           }
         ]
+      },
+      {
+        "version": "2026.04.27",
+        "release_date": "2026-04-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/ラディアルシフト.anm2",
+            "XXH3_128": "881f995dfc66954e77e3a46549a2cc3a"
+          }
+        ]
       }
     ]
   },
@@ -9973,7 +9993,7 @@
     "description": "./md/Rhapthorne_0.basicDelay.md",
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1978378817640018296",
-    "latest-version": "2026.02.22",
+    "latest-version": "2026.04.27",
     "popularity": 1218,
     "trend": 136,
     "licenses": [
@@ -10032,6 +10052,16 @@
           {
             "path": "{scriptsDir}/基本効果(Delay).anm2",
             "XXH3_128": "394c88d2924713a7dc1ee83a22b1aa22"
+          }
+        ]
+      },
+      {
+        "version": "2026.04.27",
+        "release_date": "2026-04-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/基本効果(Delay).anm2",
+            "XXH3_128": "9dca125064c8148bd7884423865dd34d"
           }
         ]
       }
@@ -10704,7 +10734,7 @@
     "description": "./md/Rhapthorne_0.anchorControl_Rh.md",
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1996544042973409715",
-    "latest-version": "v1.0.1",
+    "latest-version": "2026.04.27",
     "popularity": 844,
     "trend": 87,
     "licenses": [
@@ -10774,6 +10804,16 @@
           {
             "path": "{scriptsDir}/個別アンカー操作_Rh.anm2",
             "XXH3_128": "8d1e0b99dfc9f234e2dabff9507839a8"
+          }
+        ]
+      },
+      {
+        "version": "2026.04.27",
+        "release_date": "2026-04-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/個別アンカー操作_Rh.anm2",
+            "XXH3_128": "2b93f2ea65d279d2da743a2268d1dd46"
           }
         ]
       }
@@ -26280,6 +26320,81 @@
           {
             "path": "{pluginsDir}/aviutl2_relink.exe",
             "XXH3_128": "944e6c281a84b11807e349c55e3b58c3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beive60.scene-lighting",
+    "name": "scene-lighting",
+    "type": "スクリプト",
+    "summary": "背景レイヤーの環境光を前景オブジェクト（キャラクターイラスト等）に反映",
+    "description": "https://raw.githubusercontent.com/beive60/aviutl2-scene-lighting/refs/heads/main/README.md",
+    "author": "Beive60",
+    "originalAuthor": "Beive60",
+    "repoURL": "https://github.com/beive60/aviutl2-scene-lighting",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "Beive60"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "色調補正"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/beive60.scene-lighting_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "beive60",
+          "repo": "aviutl2-scene-lighting",
+          "pattern": "^aviutl2-scene-lighting-v(?<version>\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Beive60/@scene_lighting.anm2",
+          "to": "{scriptsDir}/Beive60"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Beive60/@scene_lighting.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-05-22",
+        "file": [
+          {
+            "path": "C:\\ProgramData\\aviutl2\\Script\\Beive60\\@scene_lighting.anm2",
+            "XXH3_128": "f0f38ed4b147bcb4c0aad4d1c4736357"
           }
         ]
       }
