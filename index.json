@@ -26314,5 +26314,80 @@
         ]
       }
     ]
+  },
+  {
+    "id": "beive60.scene-lighting",
+    "name": "scene-lighting",
+    "type": "スクリプト",
+    "summary": "背景レイヤーの環境光を前景オブジェクト（キャラクターイラスト等）に反映",
+    "description": "https://raw.githubusercontent.com/beive60/aviutl2-scene-lighting/refs/heads/main/README.md",
+    "author": "Beive60",
+    "originalAuthor": "Beive60",
+    "repoURL": "https://github.com/beive60/aviutl2-scene-lighting",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "Beive60"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "色調補正"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/beive60.scene-lighting_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "beive60",
+          "repo": "aviutl2-scene-lighting",
+          "pattern": "^aviutl2-scene-lighting-v(?<version>\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Beive60/@scene_lighting.anm2",
+          "to": "{scriptsDir}/Beive60"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Beive60/@scene_lighting.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-05-22",
+        "file": [
+          {
+            "path": "C:\\ProgramData\\aviutl2\\Script\\Beive60\\@scene_lighting.anm2",
+            "XXH3_128": "f0f38ed4b147bcb4c0aad4d1c4736357"
+          }
+        ]
+      }
+    ]
   }
 ]
