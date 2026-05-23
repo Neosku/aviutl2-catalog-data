@@ -26314,7 +26314,11 @@
       "色調補正"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/beive60.scene-lighting_thumbnail.gif"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
