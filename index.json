@@ -7,7 +7,7 @@
     "description": "./md/Kenkun.AviUtlExEdit2.md",
     "author": "ＫＥＮくん",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-    "latest-version": "beta46",
+    "latest-version": "beta47",
     "popularity": 19622,
     "trend": 3568,
     "licenses": [
@@ -30,7 +30,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta46_setup.exe"
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta47_setup.exe"
       },
       "install": [
         {
@@ -677,6 +677,16 @@
           {
             "path": "{appDir}/aviutl2.exe",
             "XXH3_128": "9318b08eff1b6d866bf349ce86d28304"
+          }
+        ]
+      },
+      {
+        "version": "beta47",
+        "release_date": "2026-05-24",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "e8366c41806ee8d318a9bc7033d1e249"
           }
         ]
       }
