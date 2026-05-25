@@ -26611,7 +26611,7 @@
     "description": "https://raw.githubusercontent.com/zopty/osc4au2/refs/heads/main/README.md",
     "author": "zopty",
     "repoURL": "https://github.com/zopty/osc4au2",
-    "latest-version": "0.1.0",
+    "latest-version": "v0.2.0",
     "popularity": 7,
     "trend": 8,
     "licenses": [
@@ -26677,6 +26677,20 @@
           {
             "path": "{scriptsDir}/OSC4AU2.tra2",
             "XXH3_128": "28fc082ab7122da84930d1c684d46aaf"
+          }
+        ]
+      },
+      {
+        "version": "v0.2.0",
+        "release_date": "2026-05-25",
+        "file": [
+          {
+            "path": "{scriptsDir}/OSC4AU2.mod2",
+            "XXH3_128": "cac4897fe024c2d500acafbb595363a6"
+          },
+          {
+            "path": "{scriptsDir}/OSC4AU2.tra2",
+            "XXH3_128": "222b524347764cc00349a5ec2b4640cd"
           }
         ]
       }
