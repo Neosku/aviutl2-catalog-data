@@ -2656,5 +2656,89 @@
         }
       ]
     }
+  },
+  {
+    "id": "Book-0225.relink",
+    "latest-version": "v0.0.6",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Book-0225/aviutl2_relink",
+      "regex": "aviutl2_relink.au2pkg.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/aviutl2_relink_launcher.aux2",
+            "Plugin/aviutl2_relink.exe"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2_relink_launcher.aux2",
+            "{pluginsDir}/aviutl2_relink.exe"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "beive60.scene-lighting",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "beive60/aviutl2-scene-lighting",
+      "regex": "^aviutl2-scene-lighting-v(?<version>\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/Beive60/@scene_lighting.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Beive60/@scene_lighting.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "korarei.FlowType_K",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "korarei/AviUtl2_FlowType_K_Script",
+      "regex": "^FlowType_K.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/FlowType_K/@FlowType_K.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/FlowType_K/@FlowType_K.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "zopty.osc4au2",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "zopty/osc4au2",
+      "regex": "^osc4au2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/OSC4AU2.mod2",
+            "Script/OSC4AU2.tra2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/OSC4AU2.mod2",
+            "{scriptsDir}/OSC4AU2.tra2"
+          ]
+        }
+      ]
+    }
   }
 ]
