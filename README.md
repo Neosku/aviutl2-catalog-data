@@ -1,6 +1,6 @@
 # AviUtl2 カタログ用データベース
 
-AviUtl2 の「カテゴリ表示」に対応するパッケージ（プラグイン・スクリプトなど）のデータベースです。
+AviUtl2 カタログ で使用するパッケージ情報（プラグイン・スクリプトなど）のデータベースです。
 
 ## ファイル構成
 
@@ -24,3 +24,7 @@ AviUtl2 の「カテゴリ表示」に対応するパッケージ（プラグイ
 
 ## パッケージの登録方法
 本ソフトをダウンロードして、 [register-package.md](./register-package.md) に従って Pull Request を送信してください。
+
+## メンテナー
+[Neosku](https://github.com/Neosku)
+[Garech](https://github.com/Garech-mas)
