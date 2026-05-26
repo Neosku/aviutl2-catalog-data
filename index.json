@@ -26697,7 +26697,7 @@
     ]
   },
   {
-    "id": "Region_S.sigma-axis",
+    "id": "sigma-axis.Region_S",
     "name": "Region_S",
     "type": "スクリプト",
     "summary": "範囲を塗りつぶしたり一部分だけ透過したりパーツ分解できるスクリプト",
@@ -26727,13 +26727,13 @@
       "パーツ分解"
     ],
     "dependencies": [
-      "Border_S.sigma-axis"
+      "sigma-axis.Border_S"
     ],
     "images": [
       {
-        "thumbnail": "./image/Region_S.sigma-axis_thumbnail.webp",
+        "thumbnail": "./image/sigma-axis.Region_S_thumbnail.webp",
         "infoImg": [
-          "./image/Region_S.sigma-axis_1.png"
+          "./image/sigma-axis.Region_S_1.png"
         ]
       }
     ],
@@ -26784,11 +26784,7 @@
         },
         {
           "action": "delete",
-          "path": "{scriptsDir}/Region_S/LICENSE"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/Region_S/README.md"
+          "path": "{scriptsDir}/Region_S/"
         }
       ]
     },
