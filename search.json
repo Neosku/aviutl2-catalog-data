@@ -2740,5 +2740,25 @@
         }
       ]
     }
+  },
+  {
+    "id": "Region_S.sigma-axis",
+    "latest-version": "v1.00-for-beta47",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_Region_S",
+      "regex": "^aviutl2_script_Region_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@Region_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Region_S.anm2"
+          ]
+        }
+      ]
+    }
   }
 ]
