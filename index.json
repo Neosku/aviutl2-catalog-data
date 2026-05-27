@@ -26677,7 +26677,8 @@
       "配置",
       "文字",
       "変形",
-      "パーツ分解"
+      "パーツ分解",
+      "トランジション"
     ],
     "dependencies": [],
     "images": [
@@ -26732,6 +26733,16 @@
           "action": "copy",
           "from": "{tmp}/Script/FlowType_K/THIRD_PARTY_LICENSES.md",
           "to": "{scriptsDir}/FlowType_K"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Preset/Motion@FlowType_K.Factory.Lyric.preset",
+          "to": "{dataDir}/Preset"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Preset/Motion@FlowType_K.Factory.Stretch.preset",
+          "to": "{dataDir}/Preset"
         }
       ],
       "uninstall": [
@@ -26758,6 +26769,14 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/FlowType_K/THIRD_PARTY_LICENSES.md"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/Motion@FlowType_K.Factory.Lyric.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/Motion@FlowType_K.Factory.Stretch.preset"
         }
       ]
     },
