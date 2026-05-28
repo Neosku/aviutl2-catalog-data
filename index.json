@@ -27091,5 +27091,72 @@
         ]
       }
     ]
+  },
+  {
+    "id": "c30.midiinfoobject",
+    "name": "[Beta] MIDI Info Object",
+    "type": "オブジェクト",
+    "summary": "MIDIの情報を動画に出すプラグイン",
+    "description": "./md/c30.midiinfoobject.md",
+    "author": "c30 (zel9278 / fuji_midi)",
+    "repoURL": "https://c30.booth.pm/items/8420669",
+    "latest-version": "v0.0.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "MIDI",
+      "統計",
+      "カスタムオブジェクト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/c30.midiinfoobject_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/9010360"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/MidiInfoObject.auf2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/MidiInfoObject.auf2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.0.1",
+        "release_date": "2026-05-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/MidiInfoObject.auf2",
+            "XXH3_128": "d5eb4c48243992f496fa754e50bf6956"
+          }
+        ]
+      }
+    ]
   }
 ]
