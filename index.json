@@ -16045,7 +16045,7 @@
     "description": "https://raw.githubusercontent.com/Garech-mas/DoubleBPMGrid/refs/heads/master/README.md",
     "author": "Garech",
     "repoURL": "https://github.com/Garech-mas/DoubleBPMGrid",
-    "latest-version": "v2.4-aul2",
+    "latest-version": "v2.5-aul2",
     "popularity": 1795,
     "trend": 198,
     "licenses": [
@@ -16138,6 +16138,16 @@
           {
             "path": "{pluginsDir}/DoubleBPMGrid.aux2",
             "XXH3_128": "63d165d76b3edfeefc4ee69b15533659"
+          }
+        ]
+      },
+      {
+        "version": "v2.5-aul2",
+        "release_date": "2026-05-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/DoubleBPMGrid.aux2",
+            "XXH3_128": "3038d903b1b866c8c1cb6d443b36f0fc"
           }
         ]
       }
