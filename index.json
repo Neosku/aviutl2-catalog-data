@@ -27532,5 +27532,122 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.VW_Media_Input",
+    "name": "動画IN",
+    "type": "入力プラグイン",
+    "summary": "MP4、MP3などの映像や音声ファイルが再生可能になる超軽量プラグイン",
+    "description": "./md/VRAMWIZ.VW_Media_Input.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/VW_Media_Input/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "nc482954",
+    "tags": [
+      "入力",
+      "音声",
+      "ファイル"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.VW_Media_Input_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "VW_Media_Input",
+          "pattern": "^VW_Media_Input\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}\\VW_Media_Input\\VW_Media_Input.aui2",
+          "to": "{pluginsDir}\\VW_Media_Input\\"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}\\VW_Media_Input\\swscale-9.dll",
+          "to": "{pluginsDir}VW_Media_Input"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}\\VW_Media_Input\\avcodec-62.dll",
+          "to": "{pluginsDir}VW_Media_Input"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}\\VW_Media_Input\\avformat-62.dll",
+          "to": "{pluginsDir}VW_Media_Input"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}\\VW_Media_Input\\avutil-60.dll",
+          "to": "{pluginsDir}VW_Media_Input"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}\\VW_Media_Input\\swresample-6.dll",
+          "to": "{pluginsDir}VW_Media_Input"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}\\VW_Media_Input\\VW_Media_Input.aui2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}\\VW_Media_Input\\swscale-9.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}\\VW_Media_Input\\avcodec-62.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}\\VW_Media_Input\\avformat-62.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}\\VW_Media_Input\\avutil-60.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}\\VW_Media_Input\\swresample-6.dll"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-06-02",
+        "file": [
+          {
+            "path": "{pluginsDir}\\VW_Media_Input\\VW_Media_Input.aui2",
+            "XXH3_128": "64c396c9867fb0697a10d89b5344f926"
+          }
+        ]
+      }
+    ]
   }
 ]
