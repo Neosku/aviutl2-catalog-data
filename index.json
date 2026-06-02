@@ -27581,59 +27581,59 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}\\VW_Media_Input\\VW_Media_Input.aui2",
-          "to": "{pluginsDir}\\VW_Media_Input\\"
+          "from": "{tmp}/VW_Media_Input/VW_Media_Input.aui2",
+          "to": "{pluginsDir}/VW_Media_Input"
         },
         {
           "action": "copy",
-          "from": "{tmp}\\VW_Media_Input\\swscale-9.dll",
-          "to": "{pluginsDir}VW_Media_Input"
+          "from": "{tmp}/VW_Media_Input/swscale-9.dll",
+          "to": "{pluginsDir}/VW_Media_Input"
         },
         {
           "action": "copy",
-          "from": "{tmp}\\VW_Media_Input\\avcodec-62.dll",
-          "to": "{pluginsDir}VW_Media_Input"
+          "from": "{tmp}/VW_Media_Input/avcodec-62.dll",
+          "to": "{pluginsDir}/VW_Media_Input"
         },
         {
           "action": "copy",
-          "from": "{tmp}\\VW_Media_Input\\avformat-62.dll",
-          "to": "{pluginsDir}VW_Media_Input"
+          "from": "{tmp}/VW_Media_Input/avformat-62.dll",
+          "to": "{pluginsDir}/VW_Media_Input"
         },
         {
           "action": "copy",
-          "from": "{tmp}\\VW_Media_Input\\avutil-60.dll",
-          "to": "{pluginsDir}VW_Media_Input"
+          "from": "{tmp}/VW_Media_Input/avutil-60.dll",
+          "to": "{pluginsDir}/VW_Media_Input"
         },
         {
           "action": "copy",
-          "from": "{tmp}\\VW_Media_Input\\swresample-6.dll",
-          "to": "{pluginsDir}VW_Media_Input"
+          "from": "{tmp}/VW_Media_Input/swresample-6.dll",
+          "to": "{pluginsDir}/VW_Media_Input"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{pluginsDir}\\VW_Media_Input\\VW_Media_Input.aui2"
+          "path": "{pluginsDir}/VW_Media_Input/VW_Media_Input.aui2"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}\\VW_Media_Input\\swscale-9.dll"
+          "path": "{pluginsDir}/VW_Media_Input/swscale-9.dll"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}\\VW_Media_Input\\avcodec-62.dll"
+          "path": "{pluginsDir}/VW_Media_Input/avcodec-62.dll"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}\\VW_Media_Input\\avformat-62.dll"
+          "path": "{pluginsDir}/VW_Media_Input/avformat-62.dll"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}\\VW_Media_Input\\avutil-60.dll"
+          "path": "{pluginsDir}/VW_Media_Input/avutil-60.dll"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}\\VW_Media_Input\\swresample-6.dll"
+          "path": "{pluginsDir}/VW_Media_Input/swresample-6.dll"
         }
       ]
     },
@@ -27643,8 +27643,8 @@
         "release_date": "2026-06-02",
         "file": [
           {
-            "path": "{pluginsDir}\\VW_Media_Input\\VW_Media_Input.aui2",
-            "XXH3_128": "64c396c9867fb0697a10d89b5344f926"
+            "path": "{pluginsDir}/VW_Media_Input/VW_Media_Input.aui2",
+            "XXH3_128": "365d55af296f3d5190e58cd8b666e970"
           }
         ]
       }
