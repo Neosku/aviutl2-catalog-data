@@ -27649,5 +27649,143 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.VW_Media_Output",
+    "name": "動画OUT",
+    "type": "出力プラグイン",
+    "summary": "AviUtl2からMP4/H.264/AACで書き出す出力プラグイン",
+    "description": "./md/VRAMWIZ.VW_Media_Output.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/VW_Media_Output/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "nc483188",
+    "tags": [
+      "出力",
+      "音声",
+      "エンコード",
+      "ファイル",
+      "動画",
+      "mp4"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.VW_Media_Output_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "VW_Media_Output",
+          "pattern": "^VW_Media_Output.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/VW_Media_Output/VW_Media_Output.auo2",
+          "to": "{pluginsDir}/VW_Media_Output"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/VW_Media_Output/swscale-9.dll",
+          "to": "{pluginsDir}/VW_Media_Output"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/VW_Media_Output/avformat-62.dll",
+          "to": "{pluginsDir}/VW_Media_Output"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/VW_Media_Output/avcodec-62.dll",
+          "to": "{pluginsDir}/VW_Media_Output"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/VW_Media_Output/avutil-60.dll",
+          "to": "{pluginsDir}/VW_Media_Output"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/VW_Media_Output/swresample-6.dll",
+          "to": "{pluginsDir}/VW_Media_Output"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/VW_Media_Output/avdevice-62.dll",
+          "to": "{pluginsDir}/VW_Media_Output"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/VW_Media_Output/avfilter-11.dll",
+          "to": "{pluginsDir}/VW_Media_Output"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VW_Media_Output/VW_Media_Output.auo2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VW_Media_Output/swscale-9.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VW_Media_Output/avcodec-62.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VW_Media_Output/avformat-62.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VW_Media_Output/avutil-60.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VW_Media_Output/swresample-6.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VW_Media_Output/avdevice-62.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VW_Media_Output/avfilter-11.dll"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-06-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/VW_Media_Output/VW_Media_Output.auo2",
+            "XXH3_128": "de0f973856102972f89eb72171689e49"
+          }
+        ]
+      }
+    ]
   }
 ]
