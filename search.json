@@ -2760,5 +2760,65 @@
         }
       ]
     }
+  },
+  {
+    "id": "sigma-axis.Layback",
+    "latest-version": "v1.01-for-beta47",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_Layback",
+      "regex": "^aviutl2_script_Layback.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/最背面に配置.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/最背面に配置.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.VW_Media_Input",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/VW_Media_Input",
+      "regex": "^VW_Media_Input\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "VW_Media_Input/VW_Media_Input.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/VW_Media_Input/VW_Media_Input.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.VW_Media_Output",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/VW_Media_Output",
+      "regex": "^VW_Media_Output.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "VW_Media_Output/VW_Media_Output.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/VW_Media_Output/VW_Media_Output.auo2"
+          ]
+        }
+      ]
+    }
   }
 ]
