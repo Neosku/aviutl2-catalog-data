@@ -27443,6 +27443,10 @@
       },
       "install": [
         {
+          "action": "delete",
+          "path": "{pluginsDir}/MidiInfoObject.auf2"
+        },
+        {
           "action": "download"
         },
         {
@@ -27455,6 +27459,10 @@
         }
       ],
       "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/MidiInfoObject.auf2"
+        },
         {
           "action": "delete",
           "path": "{pluginsDir}/MidiInfoObject.aux2"
