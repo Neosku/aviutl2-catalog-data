@@ -27410,15 +27410,20 @@
     "description": "./md/c30.midiinfoobject.md",
     "author": "c30 (zel9278 / fuji_midi)",
     "repoURL": "https://c30.booth.pm/items/8420669",
-    "latest-version": "v0.0.1",
+    "latest-version": "v0.1.0",
     "popularity": 24,
     "trend": 25,
     "licenses": [
       {
-        "type": "不明",
-        "isCustom": true,
-        "copyrights": [],
-        "licenseBody": ""
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "c30 (zel9278)"
+          }
+        ],
+        "licenseBody": null
       }
     ],
     "tags": [
@@ -27429,14 +27434,18 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/c30.midiinfoobject_thumbnail.png"
+        "thumbnail": "./image/c30.midiinfoobject_thumbnail.gif"
       }
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/9010360"
+        "booth": "https://booth.pm/downloadables/9063129"
       },
       "install": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/MidiInfoObject.auf2"
+        },
         {
           "action": "download"
         },
@@ -27445,7 +27454,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/MidiInfoObject.auf2",
+          "from": "{tmp}/MidiInfoObject.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -27453,6 +27462,10 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/MidiInfoObject.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/MidiInfoObject.aux2"
         }
       ]
     },
@@ -27464,6 +27477,16 @@
           {
             "path": "{pluginsDir}/MidiInfoObject.auf2",
             "XXH3_128": "d5eb4c48243992f496fa754e50bf6956"
+          }
+        ]
+      },
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-06-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/MidiInfoObject.aux2",
+            "XXH3_128": "629632aa11c5d7f06f2c2844b1b8fb8c"
           }
         ]
       }
