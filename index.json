@@ -20235,7 +20235,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v3.2.8",
+    "latest-version": "v3.2.9",
     "popularity": 562,
     "trend": 224,
     "licenses": [
@@ -20692,6 +20692,16 @@
           {
             "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
             "XXH3_128": "230cba8ff19aa614e875565287457d04"
+          }
+        ]
+      },
+      {
+        "version": "v3.2.9",
+        "release_date": "2026-06-05",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "a6cd224777226071f6a16bf5bff2a194"
           }
         ]
       }
@@ -27564,7 +27574,7 @@
     "description": "./md/VRAMWIZ.VW_Media_Input.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/VW_Media_Input/",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 68,
     "trend": 69,
     "licenses": [
@@ -27668,6 +27678,16 @@
           {
             "path": "{pluginsDir}/VW_Media_Input/VW_Media_Input.aui2",
             "XXH3_128": "365d55af296f3d5190e58cd8b666e970"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-06-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/VW_Media_Input/VW_Media_Input.aui2",
+            "XXH3_128": "da2e86c7e7555f6f6be7816a950e8dfb"
           }
         ]
       }
