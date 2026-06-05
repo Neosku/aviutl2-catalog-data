@@ -728,8 +728,7 @@
     ],
     "niconiCommonsId": "sm46184276",
     "tags": [
-      "UI",
-      "ダークモード化"
+      "UI"
     ],
     "dependencies": [],
     "images": [],
@@ -1219,8 +1218,7 @@
     ],
     "niconiCommonsId": "sm40417801",
     "tags": [
-      "必須",
-      "エンコード"
+      "必須"
     ],
     "dependencies": [],
     "images": [
@@ -1423,8 +1421,7 @@
       }
     ],
     "tags": [
-      "必須",
-      "エンコード"
+      "必須"
     ],
     "dependencies": [],
     "images": [],
@@ -1592,9 +1589,7 @@
         "licenseBody": null
       }
     ],
-    "tags": [
-      "エンコード"
-    ],
+    "tags": [],
     "dependencies": [],
     "images": [],
     "installer": {
@@ -1891,9 +1886,7 @@
         "licenseBody": null
       }
     ],
-    "tags": [
-      "エンコード"
-    ],
+    "tags": [],
     "dependencies": [],
     "images": [],
     "installer": {
@@ -2150,9 +2143,7 @@
         "licenseBody": null
       }
     ],
-    "tags": [
-      "エンコード"
-    ],
+    "tags": [],
     "dependencies": [],
     "images": [],
     "installer": {
@@ -2309,9 +2300,7 @@
         "licenseBody": null
       }
     ],
-    "tags": [
-      "エンコード"
-    ],
+    "tags": [],
     "dependencies": [],
     "images": [],
     "installer": {
@@ -2468,9 +2457,7 @@
         "licenseBody": null
       }
     ],
-    "tags": [
-      "エンコード"
-    ],
+    "tags": [],
     "dependencies": [],
     "images": [],
     "installer": {
@@ -3563,7 +3550,9 @@
       }
     ],
     "niconiCommonsId": "sm45201781",
-    "tags": [],
+    "tags": [
+      "ぼかし"
+    ],
     "dependencies": [],
     "images": [],
     "installer": {
@@ -3678,7 +3667,6 @@
     ],
     "tags": [
       "立体",
-      "加工",
       "エフェクト"
     ],
     "dependencies": [],
@@ -3746,7 +3734,8 @@
       }
     ],
     "tags": [
-      "エフェクト"
+      "エフェクト",
+      "グラデーション"
     ],
     "dependencies": [],
     "images": [],
@@ -3926,7 +3915,8 @@
       }
     ],
     "tags": [
-      "振動"
+      "振動",
+      "BPM"
     ],
     "dependencies": [],
     "images": [],
@@ -4233,7 +4223,6 @@
     ],
     "tags": [
       "色調整",
-      "色調補正",
       "画像"
     ],
     "dependencies": [],
@@ -4634,7 +4623,7 @@
       }
     ],
     "tags": [
-      "メモ"
+      "便利ツール"
     ],
     "dependencies": [],
     "images": [],
@@ -4784,9 +4773,7 @@
         "licenseBody": null
       }
     ],
-    "tags": [
-      "アニメーション画像"
-    ],
+    "tags": [],
     "dependencies": [],
     "images": [
       {
@@ -4856,9 +4843,7 @@
         "licenseBody": null
       }
     ],
-    "tags": [
-      "アニメーション画像"
-    ],
+    "tags": [],
     "dependencies": [],
     "images": [
       {
@@ -4928,9 +4913,7 @@
         "licenseBody": null
       }
     ],
-    "tags": [
-      "アニメーション画像"
-    ],
+    "tags": [],
     "dependencies": [],
     "images": [
       {
@@ -5000,9 +4983,7 @@
         "licenseBody": null
       }
     ],
-    "tags": [
-      "アニメーション画像"
-    ],
+    "tags": [],
     "dependencies": [],
     "images": [
       {
@@ -5076,20 +5057,17 @@
     "tags": [
       "図形",
       "変形",
-      "色調補正",
-      "クリッピング",
+      "色調整",
+      "切り抜き",
       "縁取り",
       "ぼかし",
       "イージング",
       "カスタムオブジェクト",
-      "スクリプト",
       "リサイズ",
       "移動",
       "影",
       "角丸",
       "回転",
-      "色調整",
-      "切り抜き",
       "配置"
     ],
     "dependencies": [],
@@ -5563,7 +5541,6 @@
     "tags": [
       "グリッチ",
       "ピクセルソート",
-      "加工",
       "エフェクト",
       "ノイズ"
     ],
@@ -5650,14 +5627,13 @@
     "niconiCommonsId": "sm45655394",
     "tags": [
       "エフェクト",
-      "ぼかし",
       "テキスト",
-      "文字",
       "図形",
       "画像",
       "移動",
       "回転",
-      "変形"
+      "変形",
+      "モーションブラー"
     ],
     "dependencies": [],
     "images": [
@@ -6032,7 +6008,7 @@
     "niconiCommonsId": "sm45452975",
     "tags": [
       "座標補正",
-      "補正"
+      "色調整"
     ],
     "dependencies": [],
     "images": [],
@@ -6116,7 +6092,6 @@
       "変形",
       "画像",
       "立体",
-      "シーンチェンジ",
       "トランジション"
     ],
     "dependencies": [],
@@ -6698,7 +6673,9 @@
         "licenseBody": "BSD 3-Clause License\n\nCopyright (c) 2026, zopty\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
       }
     ],
-    "tags": [],
+    "tags": [
+      "クリッピング"
+    ],
     "dependencies": [],
     "images": [
       {
@@ -6766,7 +6743,6 @@
     ],
     "tags": [
       "エフェクト",
-      "加工",
       "パターン"
     ],
     "dependencies": [],
@@ -7234,7 +7210,8 @@
       }
     ],
     "tags": [
-      "便利ツール"
+      "便利ツール",
+      "テキスト"
     ],
     "dependencies": [],
     "images": [],
@@ -7306,7 +7283,8 @@
     ],
     "tags": [
       "便利ツール",
-      "オブジェクト操作"
+      "オブジェクト操作",
+      "テキスト"
     ],
     "dependencies": [],
     "images": [],
@@ -8178,8 +8156,7 @@
     ],
     "niconiCommonsId": "sm39051118",
     "tags": [
-      "画像",
-      "加工"
+      "画像"
     ],
     "dependencies": [],
     "images": [],
@@ -8287,7 +8264,6 @@
     "niconiCommonsId": "sm39711773",
     "tags": [
       "画像",
-      "加工",
       "曲げ"
     ],
     "dependencies": [],
@@ -8476,8 +8452,6 @@
       }
     ],
     "tags": [
-      "ツールバー",
-      "ツールボックス",
       "便利ツール",
       "UI"
     ],
@@ -8739,7 +8713,7 @@
       }
     ],
     "tags": [
-      "文字",
+      "テキスト",
       "アニメーション"
     ],
     "dependencies": [],
@@ -8954,7 +8928,6 @@
     ],
     "niconiCommonsId": "sm44606738",
     "tags": [
-      "加工",
       "画像",
       "パターン",
       "エフェクト"
@@ -9065,9 +9038,6 @@
       }
     ],
     "tags": [
-      "ファイル",
-      "補正",
-      "色調補正",
       "色調整",
       "エフェクト"
     ],
@@ -9392,8 +9362,7 @@
     ],
     "tags": [
       "フレームバッファ",
-      "エフェクト",
-      "スクリプト"
+      "エフェクト"
     ],
     "dependencies": [],
     "images": [
@@ -9590,7 +9559,6 @@
     ],
     "tags": [
       "エフェクト",
-      "加工",
       "変形"
     ],
     "dependencies": [],
@@ -10320,7 +10288,8 @@
       }
     ],
     "tags": [
-      "テキスト"
+      "テキスト",
+      "字幕"
     ],
     "dependencies": [],
     "images": [],
@@ -12066,9 +12035,7 @@
       }
     ],
     "niconiCommonsId": "sm45355531",
-    "tags": [
-      "エンコード"
-    ],
+    "tags": [],
     "dependencies": [],
     "images": [],
     "installer": {
@@ -12397,8 +12364,7 @@
     ],
     "niconiCommonsId": "sm45355531",
     "tags": [
-      "画像",
-      "入力"
+      "画像"
     ],
     "dependencies": [],
     "images": [],
@@ -14598,7 +14564,8 @@
     ],
     "niconiCommonsId": "sm45904404",
     "tags": [
-      "便利ツール"
+      "便利ツール",
+      "検索"
     ],
     "dependencies": [],
     "images": [
@@ -15704,9 +15671,7 @@
         "licenseBody": null
       }
     ],
-    "tags": [
-      "エンコード"
-    ],
+    "tags": [],
     "dependencies": [],
     "images": [],
     "installer": {
@@ -16069,7 +16034,7 @@
     "niconiCommonsId": "sm45904404",
     "tags": [
       "変形",
-      "補正"
+      "色調整"
     ],
     "dependencies": [],
     "images": [
@@ -16364,7 +16329,8 @@
     ],
     "niconiCommonsId": "sm46011415",
     "tags": [
-      "画像"
+      "画像",
+      "カスタムオブジェクト"
     ],
     "dependencies": [],
     "images": [],
@@ -16478,9 +16444,7 @@
         "licenseBody": ""
       }
     ],
-    "tags": [
-      "エンコード"
-    ],
+    "tags": [],
     "dependencies": [],
     "images": [
       {
@@ -16564,7 +16528,6 @@
     "tags": [
       "MIDI",
       "音声",
-      "加工",
       "エフェクト"
     ],
     "dependencies": [],
@@ -16716,8 +16679,7 @@
       }
     ],
     "tags": [
-      "色調整",
-      "加工"
+      "色調整"
     ],
     "dependencies": [],
     "images": [
@@ -17143,8 +17105,7 @@
       }
     ],
     "tags": [
-      "音声",
-      "加工"
+      "音声"
     ],
     "dependencies": [],
     "images": [],
@@ -17372,7 +17333,7 @@
     ],
     "niconiCommonsId": "sm39935396",
     "tags": [
-      "キーイング"
+      "切り抜き"
     ],
     "dependencies": [],
     "images": [],
@@ -17518,7 +17479,6 @@
     ],
     "tags": [
       "色調整",
-      "色調補正",
       "画像"
     ],
     "dependencies": [],
@@ -17597,10 +17557,7 @@
     ],
     "niconiCommonsId": "sm45723074",
     "tags": [
-      "キーイング",
-      "クリッピング",
       "画像",
-      "加工",
       "AI",
       "切り抜き",
       "便利ツール"
@@ -18081,9 +18038,6 @@
     ],
     "niconiCommonsId": "sm45931905",
     "tags": [
-      "キーイング",
-      "クリッピング",
-      "加工",
       "切り抜き",
       "便利ツール",
       "AI"
@@ -18296,8 +18250,6 @@
     ],
     "tags": [
       "便利ツール",
-      "入力",
-      "ファイル",
       "字幕"
     ],
     "dependencies": [],
@@ -18369,9 +18321,7 @@
       }
     ],
     "tags": [
-      "MIDI",
-      "ファイル",
-      "入力"
+      "MIDI"
     ],
     "dependencies": [],
     "images": [
@@ -18454,8 +18404,7 @@
       }
     ],
     "tags": [
-      "入力",
-      "ファイル"
+      "便利ツール"
     ],
     "dependencies": [],
     "images": [
@@ -18531,8 +18480,6 @@
     "tags": [
       "カスタムオブジェクト",
       "エフェクト",
-      "スクリプト",
-      "シーンチェンジ",
       "トランジション"
     ],
     "dependencies": [],
@@ -18638,7 +18585,6 @@
     ],
     "tags": [
       "グラデーション",
-      "加工",
       "色調整"
     ],
     "dependencies": [],
@@ -19155,8 +19101,7 @@
       }
     ],
     "tags": [
-      "必須",
-      "文字",
+      "テキスト",
       "便利ツール",
       "字幕"
     ],
@@ -19286,7 +19231,6 @@
       }
     ],
     "tags": [
-      "ファイル",
       "検索",
       "字幕",
       "テキスト",
@@ -19379,8 +19323,6 @@
     ],
     "tags": [
       "便利ツール",
-      "入力",
-      "ファイル",
       "画像"
     ],
     "dependencies": [],
@@ -19710,7 +19652,9 @@
       }
     ],
     "niconiCommonsId": "sm46011415",
-    "tags": [],
+    "tags": [
+      "便利ツール"
+    ],
     "dependencies": [],
     "images": [
       {
@@ -19813,8 +19757,7 @@
     ],
     "tags": [
       "言語ファイル",
-      "テキスト",
-      "ファイル"
+      "テキスト"
     ],
     "dependencies": [],
     "images": [],
@@ -20187,7 +20130,6 @@
     "niconiCommonsId": "sm45973331",
     "tags": [
       "オブジェクト操作",
-      "スクリプト",
       "配置"
     ],
     "dependencies": [],
@@ -20840,7 +20782,7 @@
     "tags": [
       "グリッチ",
       "エフェクト",
-      "加工"
+      "ノイズ"
     ],
     "dependencies": [],
     "images": [],
@@ -21014,7 +20956,9 @@
       }
     ],
     "niconiCommonsId": "sm46011415",
-    "tags": [],
+    "tags": [
+      "BPM"
+    ],
     "dependencies": [],
     "images": [
       {
@@ -21150,9 +21094,7 @@
         "licenseBody": "MIT No Attribution\n\nCopyright 2026 azurite\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
       }
     ],
-    "tags": [
-      "加工"
-    ],
+    "tags": [],
     "dependencies": [],
     "images": [
       {
@@ -21239,8 +21181,6 @@
     "tags": [
       "トランジション",
       "アニメーション",
-      "スクリプト",
-      "シーンチェンジ",
       "エフェクト",
       "ディレイ",
       "移動"
@@ -21333,7 +21273,6 @@
       "配置",
       "立体",
       "移動",
-      "スクリプト",
       "パターン"
     ],
     "dependencies": [],
@@ -21486,9 +21425,7 @@
         "licenseBody": "MIT License\n\nCopyright (c) 2025 Nanashi. <sevenc7c.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
       }
     ],
-    "tags": [
-      "出力"
-    ],
+    "tags": [],
     "dependencies": [],
     "images": [],
     "installer": {
@@ -21793,7 +21730,9 @@
         "licenseBody": null
       }
     ],
-    "tags": [],
+    "tags": [
+      "図形"
+    ],
     "dependencies": [],
     "images": [
       {
@@ -21947,8 +21886,7 @@
       }
     ],
     "tags": [
-      "テキスト",
-      "加工"
+      "テキスト"
     ],
     "dependencies": [],
     "images": [
@@ -22064,7 +22002,9 @@
       }
     ],
     "tags": [
-      "アニメーション"
+      "アニメーション",
+      "画像",
+      "パーツ分解"
     ],
     "dependencies": [],
     "images": [
@@ -22356,7 +22296,7 @@
     ],
     "tags": [
       "画質",
-      "補正",
+      "色調整",
       "AI"
     ],
     "dependencies": [],
@@ -22675,8 +22615,7 @@
     ],
     "tags": [
       "グリッチ",
-      "ノイズ",
-      "加工"
+      "ノイズ"
     ],
     "dependencies": [
       "Nagomiku.NagoEffect2.mod2"
@@ -22813,8 +22752,6 @@
       }
     ],
     "tags": [
-      "ファイル",
-      "入力",
       "テキスト",
       "音声",
       "便利ツール"
@@ -22883,7 +22820,6 @@
       }
     ],
     "tags": [
-      "スクリプト",
       "テキスト",
       "配置",
       "画像"
@@ -23384,7 +23320,7 @@
       }
     ],
     "tags": [
-      "文字"
+      "テキスト"
     ],
     "dependencies": [],
     "images": [
@@ -23493,13 +23429,9 @@
     ],
     "tags": [
       "エフェクト",
-      "スクリプト",
       "ぼかし",
-      "加工",
       "画像",
-      "色調整",
-      "色調補正",
-      "補正"
+      "色調整"
     ],
     "dependencies": [],
     "images": [
@@ -23625,8 +23557,7 @@
     "niconiCommonsId": "sm46116909",
     "tags": [
       "角丸",
-      "縁取り",
-      "加工"
+      "縁取り"
     ],
     "dependencies": [],
     "images": [
@@ -24316,8 +24247,7 @@
       }
     ],
     "tags": [
-      "音声",
-      "入力"
+      "音声"
     ],
     "dependencies": [],
     "images": [
@@ -24565,7 +24495,7 @@
     ],
     "niconiCommonsId": "ss46168501",
     "tags": [
-      "文字"
+      "テキスト"
     ],
     "dependencies": [],
     "images": [
@@ -24691,8 +24621,7 @@
     ],
     "tags": [
       "音声",
-      "補正",
-      "調整"
+      "色調整"
     ],
     "dependencies": [],
     "images": [
@@ -25030,8 +24959,7 @@
     ],
     "niconiCommonsId": "ss46199721",
     "tags": [
-      "カスタムオブジェクト",
-      "調整"
+      "カスタムオブジェクト"
     ],
     "dependencies": [],
     "images": [
@@ -25189,7 +25117,6 @@
     ],
     "tags": [
       "エフェクト",
-      "加工",
       "パターン"
     ],
     "dependencies": [],
@@ -25312,8 +25239,7 @@
       }
     ],
     "tags": [
-      "縁取り",
-      "加工"
+      "縁取り"
     ],
     "dependencies": [],
     "images": [
@@ -25377,7 +25303,6 @@
     "niconiCommonsId": "sm46242370",
     "tags": [
       "カスタムオブジェクト",
-      "スクリプト",
       "字幕"
     ],
     "dependencies": [],
@@ -25527,8 +25452,6 @@
     "tags": [
       "アニメーション",
       "カスタムオブジェクト",
-      "シーンチェンジ",
-      "スクリプト",
       "トランジション",
       "ブラインド"
     ],
@@ -25618,10 +25541,8 @@
     "tags": [
       "アニメーション",
       "テキスト",
-      "スクリプト",
       "画像",
       "振動",
-      "文字",
       "変形"
     ],
     "dependencies": [],
@@ -25688,7 +25609,6 @@
     "niconiCommonsId": "sm46212949",
     "tags": [
       "オブジェクト操作",
-      "スクリプト",
       "テキスト",
       "移動",
       "画像",
@@ -26232,7 +26152,7 @@
     ],
     "niconiCommonsId": "sm46274088",
     "tags": [
-      "文字",
+      "テキスト",
       "カスタムオブジェクト"
     ],
     "dependencies": [],
@@ -26354,10 +26274,8 @@
     ],
     "tags": [
       "アニメーション",
-      "スクリプト",
       "テキスト",
-      "移動",
-      "文字"
+      "移動"
     ],
     "dependencies": [],
     "images": [
@@ -26429,9 +26347,7 @@
       }
     ],
     "tags": [
-      "スクリプト",
-      "ノイズ",
-      "加工"
+      "ノイズ"
     ],
     "dependencies": [],
     "images": [],
@@ -26571,9 +26487,7 @@
       }
     ],
     "niconiCommonsId": "sm46290285",
-    "tags": [
-      "スクリプト"
-    ],
+    "tags": [],
     "dependencies": [],
     "images": [
       {
@@ -26921,7 +26835,7 @@
       }
     ],
     "tags": [
-      "色調補正"
+      "色調整"
     ],
     "dependencies": [],
     "images": [
@@ -26998,14 +26912,12 @@
     "tags": [
       "アニメーション",
       "エフェクト",
-      "スクリプト",
       "ディレイ",
       "テキスト",
       "モーションブラー",
       "移動",
       "回転",
       "配置",
-      "文字",
       "変形",
       "パーツ分解",
       "トランジション"
@@ -27153,8 +27065,7 @@
       }
     ],
     "tags": [
-      "時間制御",
-      "OSC"
+      "時間制御"
     ],
     "dependencies": [],
     "images": [],
@@ -27253,7 +27164,6 @@
     "niconiCommonsId": "sm46356972",
     "tags": [
       "塗りつぶし",
-      "透過",
       "パーツ分解"
     ],
     "dependencies": [
@@ -27597,9 +27507,7 @@
     ],
     "niconiCommonsId": "nc482954",
     "tags": [
-      "入力",
-      "音声",
-      "ファイル"
+      "音声"
     ],
     "dependencies": [],
     "images": [
@@ -27724,12 +27632,7 @@
     ],
     "niconiCommonsId": "nc483188",
     "tags": [
-      "出力",
-      "音声",
-      "エンコード",
-      "ファイル",
-      "動画",
-      "mp4"
+      "音声"
     ],
     "dependencies": [],
     "images": [
