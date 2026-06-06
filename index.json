@@ -27880,5 +27880,69 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-scripts.gpu_pixelsort-anm2",
+    "name": "GPUピクセルソート.anm2",
+    "type": "スクリプト",
+    "summary": "GPUを使用してピクセルソートを行うスクリプト",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/GPU%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88/README.md",
+    "author": "Nanashi.",
+    "originalAuthor": "るっちょ",
+    "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/GPU%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88/main.lua",
+    "latest-version": "1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "ピクセルソート"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/sevenc-nanashi.aviutl2-scripts.gpu_pixelsort-anm2_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/GPU%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88.anm2?type=script"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/GPUピクセルソート.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/GPUピクセルソート.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "1.0",
+        "release_date": "2026-06-01",
+        "file": [
+          {
+            "path": "{scriptsDir}/GPUピクセルソート.anm2",
+            "XXH3_128": "67582909fcbb2fd420e751277dca4890"
+          }
+        ]
+      }
+    ]
   }
 ]
