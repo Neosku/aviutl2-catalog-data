@@ -1200,7 +1200,7 @@
     "description": "./md/rigaya.x264guiEx.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x264guiEx",
-    "latest-version": "4.09",
+    "latest-version": "4.10",
     "popularity": 20478,
     "trend": 303,
     "licenses": [
@@ -1393,6 +1393,16 @@
             "XXH3_128": "fe6edfd80660db91f529f9a729fa4638"
           }
         ]
+      },
+      {
+        "version": "4.10",
+        "release_date": "2026-06-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/x264guiEx.auo2",
+            "XXH3_128": "f7b0c41bcb3960c73482595b61bf758c"
+          }
+        ]
       }
     ]
   },
@@ -1404,7 +1414,7 @@
     "description": "./md/rigaya.x265guiEx.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x265guiEx",
-    "latest-version": "5.06",
+    "latest-version": "5.07",
     "popularity": 3739,
     "trend": 239,
     "licenses": [
@@ -1560,6 +1570,16 @@
           {
             "path": "{pluginsDir}/x265guiEx.auo2",
             "XXH3_128": "63211685e2c99d81802042cb6c02daf8"
+          }
+        ]
+      },
+      {
+        "version": "5.07",
+        "release_date": "2026-06-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/x265guiEx.auo2",
+            "XXH3_128": "a177c13f7e8f3f7eb20f7d33f6474559"
           }
         ]
       }
@@ -2127,7 +2147,7 @@
     "description": "ffmpegOut は、ffmpegを使用してエンコードを行うAviutlの出力プラグインです。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/ffmpegOut",
-    "latest-version": "2.05",
+    "latest-version": "2.06",
     "popularity": 1608,
     "trend": 113,
     "licenses": [
@@ -2271,6 +2291,16 @@
           {
             "path": "{pluginsDir}/ffmpegOut.auo2",
             "XXH3_128": "eeae2a53bdf902aaf2e0b0a5db16572e"
+          }
+        ]
+      },
+      {
+        "version": "2.06",
+        "release_date": "2026-06-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/ffmpegOut.auo2",
+            "XXH3_128": "0734092b054e302904d8bf9d8ab6794c"
           }
         ]
       }
@@ -2441,7 +2471,7 @@
     "description": "拡張 SVT-AV1 出力(GUI) Ex (svtAV1guiEx) は、SVT-AV1を使用してエンコードを行うAviutlの出力プラグインです。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/svtAV1guiEx",
-    "latest-version": "2.09",
+    "latest-version": "2.10",
     "popularity": 385,
     "trend": 25,
     "licenses": [
@@ -2625,6 +2655,16 @@
           {
             "path": "{pluginsDir}/svtAV1guiEx.auo2",
             "XXH3_128": "a810bfaa05f549ffb9d5bae2fb864ed4"
+          }
+        ]
+      },
+      {
+        "version": "2.10",
+        "release_date": "2026-06-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/svtAV1guiEx.auo2",
+            "XXH3_128": "4ce8bd2b563f0bd16eb36ef4ebf7de79"
           }
         ]
       }
