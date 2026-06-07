@@ -19333,7 +19333,7 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/KuroNeko.VariableFont_thumbnail.png"
+        "thumbnail": "./image/KuroNeko.VariableFont_thumbnail.webp"
       }
     ],
     "installer": {
@@ -19341,14 +19341,10 @@
         "github": {
           "owner": "rokujyushi",
           "repo": "Variable-Font-Plug-ins",
-          "pattern": "VariableFont\\.zip"
+          "pattern": "^VariableFont-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
         }
       },
       "install": [
-        {
-          "action": "delete",
-          "path": "{pluginsDir}\\VariableFont.auf2"
-        },
         {
           "action": "download"
         },
@@ -19357,46 +19353,77 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}\\VariableFont.aux2",
-          "to": "{pluginsDir}"
+          "from": "{tmp}/Plugin/GCMZDrops/GCMZScript/VariableFont.ini",
+          "to": "{pluginsDir}/GCMZDrops/GCMZScript"
         },
         {
           "action": "copy",
-          "from": "{tmp}\\VARIABLE_FONT_AXES.md",
-          "to": "{pluginsDir}\\VariableFontDoc\\"
+          "from": "{tmp}/Plugin/GCMZDrops/GCMZScript/VariableFont.lua",
+          "to": "{pluginsDir}/GCMZDrops/GCMZScript"
         },
         {
           "action": "copy",
-          "from": "{tmp}\\Plugin_README.md",
-          "to": "{pluginsDir}\\VariableFontDoc\\"
+          "from": "{tmp}/Plugin/VariableFont/LICENSE",
+          "to": "{pluginsDir}/VariableFont"
         },
         {
           "action": "copy",
-          "from": "{tmp}\\VariableFontModule.mod2",
-          "to": "{scriptsDir}\\VariableFont\\"
+          "from": "{tmp}/Plugin/VariableFont/README.md",
+          "to": "{pluginsDir}/VariableFont"
         },
         {
           "action": "copy",
-          "from": "{tmp}\\Variable Font Object.obj2",
-          "to": "{scriptsDir}\\VariableFont\\"
+          "from": "{tmp}/Plugin/VariableFont/VariableFont.aux2",
+          "to": "{pluginsDir}/VariableFont"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/VariableFont/Variable Font Object.obj2",
+          "to": "{scriptsDir}/VariableFont"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/VariableFont/VariableFont.ini",
+          "to": "{scriptsDir}/VariableFont"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/VariableFont/VariableFontModule.mod2",
+          "to": "{scriptsDir}/VariableFont"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{pluginsDir}\\VariableFontDoc\\"
+          "path": "{pluginsDir}/GCMZDrops/GCMZScript/VariableFont.ini"
         },
         {
           "action": "delete",
-          "path": "{scriptsDir}\\VariableFont\\"
+          "path": "{pluginsDir}/GCMZDrops/GCMZScript/VariableFont.lua"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}\\VariableFont.aux2"
+          "path": "{pluginsDir}/VariableFont/LICENSE"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}\\VariableFont.auf2"
+          "path": "{pluginsDir}/VariableFont/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VariableFont/VariableFont.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/VariableFont/Variable Font Object.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/VariableFont/VariableFont.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/VariableFont/VariableFontModule.mod2"
         }
       ]
     },
@@ -19432,7 +19459,20 @@
       {
         "version": "3.0.0",
         "release_date": "2026-06-08",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/VariableFont/VariableFont.aux2",
+            "XXH3_128": "2cfc94420049cc8a039b680242ce7a9f"
+          },
+          {
+            "path": "{scriptsDir}/VariableFont/VariableFontModule.mod2",
+            "XXH3_128": "98f9d979f312e20d5536a988ebbac0fa"
+          },
+          {
+            "path": "{scriptsDir}/VariableFont/Variable Font Object.obj2",
+            "XXH3_128": "140c94fdfefbb30427139ecb25f2a9e4"
+          }
+        ]
       }
     ]
   },
@@ -19444,7 +19484,7 @@
     "description": "https://raw.githubusercontent.com/rokujyushi/FontPreview/refs/heads/main/README.md",
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/FontPreview",
-    "latest-version": "1.1.0",
+    "latest-version": "4.0.0",
     "popularity": 727,
     "trend": 106,
     "licenses": [
@@ -19471,8 +19511,8 @@
       {
         "thumbnail": "./image/KuroNeko.FontPreview_thumbnail.png",
         "infoImg": [
-          "./image/KuroNeko.FontPreview_1.png",
-          "./image/KuroNeko.FontPreview_2.png"
+          "./image/KuroNeko.FontPreview_1.jpg",
+          "./image/KuroNeko.FontPreview_2.jpg"
         ]
       }
     ],
@@ -19481,10 +19521,14 @@
         "github": {
           "owner": "rokujyushi",
           "repo": "FontPreview",
-          "pattern": "FontPreview\\.zip"
+          "pattern": "^FontPreview-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
         }
       },
       "install": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/FontPreview.aux2"
+        },
         {
           "action": "download"
         },
@@ -19493,14 +19537,24 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}\\FontPreview.aux2",
-          "to": "{pluginsDir}"
+          "from": "{tmp}/Plugin/FontPreview/FontPreview.aux2",
+          "to": "{pluginsDir}/FontPreview"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/FontPreview/LICENSE",
+          "to": "{pluginsDir}/FontPreview"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/FontPreview/README.md",
+          "to": "{pluginsDir}/FontPreview"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{pluginsDir}\\FontPreview.aux2"
+          "path": "{pluginsDir}/FontPreview"
         }
       ]
     },
@@ -19522,6 +19576,16 @@
           {
             "path": "{pluginsDir}\\FontPreview.aux2",
             "XXH3_128": "65a92252e928e64cdccfbb877b4668c0"
+          }
+        ]
+      },
+      {
+        "version": "4.0.0",
+        "release_date": "2026-06-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/FontPreview/FontPreview.aux2",
+            "XXH3_128": "48025c975ec823297cd80c3ffcf04dec"
           }
         ]
       }
