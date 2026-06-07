@@ -28085,7 +28085,7 @@
     "author": "Nanashi.",
     "originalAuthor": "るっちょ",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/GPU%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88/README.md",
-    "latest-version": "1.0",
+    "latest-version": "1.1",
     "popularity": 32,
     "trend": 33,
     "licenses": [
@@ -28139,6 +28139,16 @@
           {
             "path": "{scriptsDir}/GPUピクセルソート.anm2",
             "XXH3_128": "67582909fcbb2fd420e751277dca4890"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "release_date": "2026-06-08",
+        "file": [
+          {
+            "path": "{scriptsDir}/GPUピクセルソート.anm2",
+            "XXH3_128": "19c36de2eb3cbd197be44ad73ecdc798"
           }
         ]
       }
