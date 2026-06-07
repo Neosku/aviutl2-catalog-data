@@ -7,7 +7,7 @@
     "description": "./md/Kenkun.AviUtlExEdit2.md",
     "author": "ＫＥＮくん",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-    "latest-version": "beta48",
+    "latest-version": "beta49",
     "popularity": 21180,
     "trend": 3758,
     "licenses": [
@@ -30,7 +30,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta48_setup.exe"
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta49_setup.exe"
       },
       "install": [
         {
@@ -697,6 +697,16 @@
           {
             "path": "{appDir}/aviutl2.exe",
             "XXH3_128": "97a2d1b6f8db28e75e2835cf602da857"
+          }
+        ]
+      },
+      {
+        "version": "beta49",
+        "release_date": "2026-06-07",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "8751224f94fad20c86ba22edaca3e415"
           }
         ]
       }
@@ -1593,7 +1603,7 @@
     "description": "./md/rigaya.NVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/NVEnc",
-    "latest-version": "9.16",
+    "latest-version": "9.17",
     "popularity": 2934,
     "trend": 313,
     "licenses": [
@@ -1879,6 +1889,11 @@
             "XXH3_128": "7e50ceae188a6a34ab89c7d3e38cd93e"
           }
         ]
+      },
+      {
+        "version": "9.17",
+        "release_date": "2026-06-07",
+        "file": []
       }
     ]
   },
@@ -27918,7 +27933,10 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/sevenc-nanashi.aviutl2-scripts.gpu_pixelsort-anm2_thumbnail.webp"
+        "thumbnail": "./image/sevenc-nanashi.aviutl2-scripts.gpu_pixelsort-anm2_thumbnail.webp",
+        "infoImg": [
+          "./image/sevenc-nanashi.aviutl2-scripts.gpu_pixelsort-anm2_1.webp"
+        ]
       }
     ],
     "installer": {
