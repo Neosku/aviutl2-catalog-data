@@ -19309,7 +19309,7 @@
     "description": "https://raw.githubusercontent.com/rokujyushi/Variable-Font-Plug-ins/refs/heads/main/Plugin_README.md",
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/Variable-Font-Plug-ins",
-    "latest-version": "2.0.0",
+    "latest-version": "3.0.0",
     "popularity": 955,
     "trend": 117,
     "licenses": [
@@ -19428,6 +19428,11 @@
             "XXH3_128": "fa8aa9c9d224e3e97960ee125c23851d"
           }
         ]
+      },
+      {
+        "version": "3.0.0",
+        "release_date": "2026-06-08",
+        "file": []
       }
     ]
   },
