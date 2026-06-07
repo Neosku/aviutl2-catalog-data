@@ -27933,7 +27933,10 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/sevenc-nanashi.aviutl2-scripts.gpu_pixelsort-anm2_thumbnail.webp"
+        "thumbnail": "./image/sevenc-nanashi.aviutl2-scripts.gpu_pixelsort-anm2_thumbnail.webp",
+        "infoImg": [
+          "./image/sevenc-nanashi.aviutl2-scripts.gpu_pixelsort-anm2_1.webp"
+        ]
       }
     ],
     "installer": {
