@@ -19346,6 +19346,18 @@
       },
       "install": [
         {
+          "action": "delete",
+            "path": "{pluginsDir}/VariableFont.auf2"
+        },
+        {
+          "action": "delete",
+            "path": "{pluginsDir}/VariableFont.aux2"
+        },
+        {
+          "action": "delete",
+            "path": "{pluginsDir}/VariableFontDoc/"
+        },
+        {
           "action": "download"
         },
         {
@@ -19393,6 +19405,18 @@
         }
       ],
       "uninstall": [
+        {
+          "action": "delete",
+            "path": "{pluginsDir}/VariableFont.auf2"
+        },
+        {
+          "action": "delete",
+            "path": "{pluginsDir}/VariableFont.aux2"
+        },
+        {
+          "action": "delete",
+            "path": "{pluginsDir}/VariableFontDoc/"
+        },
         {
           "action": "delete",
           "path": "{pluginsDir}/GCMZDrops/GCMZScript/VariableFont.ini"
