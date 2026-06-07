@@ -1,7 +1,7 @@
 [
   {
     "id": "Kenkun.AviUtlExEdit2",
-    "latest-version": "beta48",
+    "latest-version": "beta49",
     "checkType": {
       "type": "URL",
       "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
@@ -105,7 +105,7 @@
   },
   {
     "id": "rigaya.NVEnc",
-    "latest-version": "9.16",
+    "latest-version": "9.17",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/NVEnc",
