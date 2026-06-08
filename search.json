@@ -1,7 +1,7 @@
 [
   {
     "id": "Kenkun.AviUtlExEdit2",
-    "latest-version": "beta48",
+    "latest-version": "beta49",
     "checkType": {
       "type": "URL",
       "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
@@ -959,7 +959,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_binaural",
-    "latest-version": "0.31.0",
+    "latest-version": "0.32.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -979,7 +979,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_chiptune",
-    "latest-version": "0.31.0",
+    "latest-version": "0.32.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -999,7 +999,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_equalizer",
-    "latest-version": "0.31.0",
+    "latest-version": "0.32.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1019,7 +1019,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_ffmpeg",
-    "latest-version": "0.31.0",
+    "latest-version": "0.32.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1039,7 +1039,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_input",
-    "latest-version": "0.31.0",
+    "latest-version": "0.32.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1059,7 +1059,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_output",
-    "latest-version": "0.31.0",
+    "latest-version": "0.32.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1079,7 +1079,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_local_alias_plugin",
-    "latest-version": "0.31.0",
+    "latest-version": "0.32.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1099,7 +1099,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_midi_player",
-    "latest-version": "0.31.0",
+    "latest-version": "0.32.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1119,7 +1119,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_pixelsort",
-    "latest-version": "0.31.0",
+    "latest-version": "0.32.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1139,7 +1139,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_random_color",
-    "latest-version": "0.31.0",
+    "latest-version": "0.32.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1159,7 +1159,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_scripts_search",
-    "latest-version": "0.31.0",
+    "latest-version": "0.32.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1179,7 +1179,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_srt_file",
-    "latest-version": "0.31.0",
+    "latest-version": "0.32.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1199,7 +1199,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_statistics",
-    "latest-version": "0.31.0",
+    "latest-version": "0.32.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1401,7 +1401,7 @@
   },
   {
     "id": "Book-0225.EAP2",
-    "latest-version": "v0.0.30",
+    "latest-version": "v0.0.31",
     "checkType": {
       "type": "GitHub",
       "repo": "Book-0225/aviutl2_External_Audio_Processing",
@@ -1421,7 +1421,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_metronome_plugin",
-    "latest-version": "0.31.0",
+    "latest-version": "0.32.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1700,7 +1700,7 @@
   },
   {
     "id": "KuroNeko.VariableFont",
-    "latest-version": "2.0.0",
+    "latest-version": "3.0.0",
     "checkType": {
       "type": "GitHub",
       "repo": "rokujyushi/Variable-Font-Plug-ins",
@@ -1724,7 +1724,7 @@
   },
   {
     "id": "KuroNeko.FontPreview",
-    "latest-version": "1.1.0",
+    "latest-version": "4.0.0",
     "checkType": {
       "type": "GitHub",
       "repo": "rokujyushi/FontPreview",
@@ -2061,7 +2061,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_single_image_output",
-    "latest-version": "0.31.0",
+    "latest-version": "0.32.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -2701,7 +2701,7 @@
   },
   {
     "id": "korarei.FlowType_K",
-    "latest-version": "v0.2.0",
+    "latest-version": "v0.3.0",
     "checkType": {
       "type": "GitHub",
       "repo": "korarei/AviUtl2_FlowType_K_Script",
