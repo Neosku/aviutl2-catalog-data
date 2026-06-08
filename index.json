@@ -28156,7 +28156,7 @@
   },
   {
     "id": "airiah7.plugin--picked-color-storage",
-    "name": "スポイトの色を保存@airiah7",
+    "name": "スポイトの色を保存",
     "type": "汎用プラグイン",
     "summary": "スポイトで取得した色を名前付きで保存して使いまわせるようにする",
     "description": "https://raw.githubusercontent.com/airiah7/airiah7--aviutl2--plugin--picked-color-storage/refs/heads/main/README.md",
@@ -28203,10 +28203,6 @@
       },
       "install": [
         {
-          "action": "delete",
-          "path": "{pluginsDir}/airiah7/airiah7__picked_color_storage.aux2"
-        },
-        {
           "action": "download"
         },
         {
@@ -28214,22 +28210,14 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/",
+          "from": "{tmp}/airiah7__picked_color_storage.aux2",
           "to": "{pluginsDir}/airiah7/"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/airiah7/airiah7--aviutl2--plugin--picked-color-storage-v.1.0.0.zip"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/airiah7/airiah7__picked_color_storage.aux2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/airiah7/airiah7--aviutl2--plugin--picked-color-storage-v.1.0.0.zip"
         }
       ]
     },
