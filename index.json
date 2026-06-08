@@ -19578,6 +19578,10 @@
       "uninstall": [
         {
           "action": "delete",
+          "path": "{pluginsDir}/FontPreview.aux2"
+        },
+        {
+          "action": "delete",
           "path": "{pluginsDir}/FontPreview"
         }
       ]
