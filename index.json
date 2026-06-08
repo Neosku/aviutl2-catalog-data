@@ -19535,8 +19535,8 @@
       {
         "thumbnail": "./image/KuroNeko.FontPreview_thumbnail.png",
         "infoImg": [
-          "./image/KuroNeko.FontPreview_1.png",
-          "./image/KuroNeko.FontPreview_2.png"
+          "./image/KuroNeko.FontPreview_1.jpg",
+          "./image/KuroNeko.FontPreview_2.jpg"
         ]
       }
     ],
@@ -19545,10 +19545,14 @@
         "github": {
           "owner": "rokujyushi",
           "repo": "FontPreview",
-          "pattern": "FontPreview\\.zip"
+          "pattern": "^FontPreview-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
         }
       },
       "install": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/FontPreview.aux2"
+        },
         {
           "action": "download"
         },
@@ -19557,14 +19561,28 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}\\FontPreview.aux2",
-          "to": "{pluginsDir}"
+          "from": "{tmp}/Plugin/FontPreview/FontPreview.aux2",
+          "to": "{pluginsDir}/FontPreview"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/FontPreview/LICENSE",
+          "to": "{pluginsDir}/FontPreview"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/FontPreview/README.md",
+          "to": "{pluginsDir}/FontPreview"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{pluginsDir}\\FontPreview.aux2"
+          "path": "{pluginsDir}/FontPreview.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/FontPreview"
         }
       ]
     },
@@ -19592,7 +19610,12 @@
       {
         "version": "4.0.0",
         "release_date": "2026-06-08",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/FontPreview/FontPreview.aux2",
+            "XXH3_128": "48025c975ec823297cd80c3ffcf04dec"
+          }
+        ]
       }
     ]
   },
