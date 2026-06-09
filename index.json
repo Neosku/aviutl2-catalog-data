@@ -21430,7 +21430,7 @@
     "description": "./md/azurite.Hex-Tiling.md",
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-Hex-Tiling",
-    "latest-version": "v0.1.0",
+    "latest-version": "v0.2.0",
     "popularity": 410,
     "trend": 36,
     "licenses": [
@@ -21496,6 +21496,16 @@
           {
             "path": "{scriptsDir}/Hex-Tiling.anm2",
             "XXH3_128": "761ca93163a980f44dd41cf99b70df86"
+          }
+        ]
+      },
+      {
+        "version": "v0.2.0",
+        "release_date": "2026-06-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/Hex-Tiling.anm2",
+            "XXH3_128": "8a4ad9f1f692d4459de43a491cf3acec"
           }
         ]
       }
