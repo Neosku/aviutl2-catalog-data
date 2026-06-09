@@ -21478,6 +21478,10 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/Hex-Tiling.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.Hex-Tiling.aul2"
         }
       ]
     },
