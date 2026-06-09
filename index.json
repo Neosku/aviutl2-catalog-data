@@ -28272,5 +28272,85 @@
         ]
       }
     ]
+  },
+  {
+    "id": "airiah7.plugin--picked-color-storage",
+    "name": "スポイトの色を保存",
+    "type": "汎用プラグイン",
+    "summary": "スポイトで取得した色を名前付きで保存して使いまわせるようにする",
+    "description": "https://raw.githubusercontent.com/airiah7/airiah7--aviutl2--plugin--picked-color-storage/refs/heads/main/README.md",
+    "author": "あいりあなな(airiah7)",
+    "repoURL": "https://github.com/airiah7/airiah7--aviutl2--plugin--picked-color-storage",
+    "latest-version": "v.1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "airiah7"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "sm46406346",
+    "tags": [
+      "UI",
+      "カラーパレット",
+      "色調整"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/airiah7.plugin--picked-color-storage_thumbnail.png",
+        "infoImg": [
+          "./image/airiah7.plugin--picked-color-storage_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "airiah7",
+          "repo": "airiah7--aviutl2--plugin--picked-color-storage",
+          "pattern": "^airiah7--aviutl2--plugin--picked-color-storage-v\\.(\\d+\\.\\d+\\.\\d+)\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/airiah7__picked_color_storage.aux2",
+          "to": "{pluginsDir}/airiah7/"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/airiah7/airiah7__picked_color_storage.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v.1.0.0",
+        "release_date": "2026-06-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/airiah7/airiah7__picked_color_storage.aux2",
+            "XXH3_128": "ddcc969d8555ffa2385aa3da40cfbc61"
+          }
+        ]
+      }
+    ]
   }
 ]
