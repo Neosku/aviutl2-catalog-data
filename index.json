@@ -1893,7 +1893,12 @@
       {
         "version": "9.17",
         "release_date": "2026-06-07",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "98c65ed6eabdaf12de00402ae2ab46d0"
+          }
+        ]
       }
     ]
   },
