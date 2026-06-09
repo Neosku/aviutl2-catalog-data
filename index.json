@@ -21470,11 +21470,6 @@
           "action": "copy",
           "from": "{tmp}/Script/Hex-Tiling.anm2",
           "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Language",
-          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
