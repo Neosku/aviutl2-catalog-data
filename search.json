@@ -1704,17 +1704,17 @@
     "checkType": {
       "type": "GitHub",
       "repo": "rokujyushi/Variable-Font-Plug-ins",
-      "regex": "VariableFont\\.zip",
+      "regex": "^VariableFont-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
           "paths": [
-            "VariableFont.aux2",
-            "VariableFontModule.mod2",
-            "Variable Font Object.obj2"
+            "Plugin/VariableFont/VariableFont.aux2",
+            "Script/VariableFont/VariableFontModule.mod2",
+            "Script/VariableFont/Variable Font Object.obj2"
           ],
           "recordPaths": [
-            "{pluginsDir}/VariableFont.aux2",
+            "{pluginsDir}/VariableFont/VariableFont.aux2",
             "{scriptsDir}/VariableFont/VariableFontModule.mod2",
             "{scriptsDir}/VariableFont/Variable Font Object.obj2"
           ]
@@ -1728,15 +1728,15 @@
     "checkType": {
       "type": "GitHub",
       "repo": "rokujyushi/FontPreview",
-      "regex": "FontPreview\\.zip",
+      "regex": "^FontPreview-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
           "paths": [
-            "FontPreview.aux2"
+            "Plugin/FontPreview/FontPreview.aux2"
           ],
           "recordPaths": [
-            "{pluginsDir}/FontPreview.aux2"
+            "{pluginsDir}/FontPreview/FontPreview.aux2"
           ]
         }
       ]
@@ -2638,6 +2638,7 @@
         {
           "extract": "zip",
           "paths": [
+            "Language/English.ported_tim.aul2",
             "Script/@tim.anm2.anm2",
             "Script/@tim.cam2.cam2",
             "Script/@tim.obj2.obj2",
@@ -2646,6 +2647,7 @@
             "Script/tim2.mod2"
           ],
           "recordPaths": [
+            "{dataDir}/Language/English.ported_tim.aul2",
             "{scriptsDir}/@tim.anm2.anm2",
             "{scriptsDir}/@tim.cam2.cam2",
             "{scriptsDir}/@tim.obj2.obj2",
@@ -2816,6 +2818,85 @@
           ],
           "recordPaths": [
             "{pluginsDir}/VW_Media_Output/VW_Media_Output.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Natadecoco.SoftAnchorBone",
+    "latest-version": "v1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Natadecoco2539/AviUtl2-SoftAnchorBone",
+      "regex": "SoftAnchorBone.anm2",
+      "hash-calc": [
+        {
+          "paths": [
+            "SoftAnchorBone.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/SoftAnchorBone.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "airiah7.plugin--picked-color-storage",
+    "latest-version": "v.1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "airiah7/airiah7--aviutl2--plugin--picked-color-storage",
+      "regex": "^airiah7--aviutl2--plugin--picked-color-storage-v\\.(\\d+\\.\\d+\\.\\d+)\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "airiah7__picked_color_storage.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/airiah7/airiah7__picked_color_storage.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "airiah7.widget--speed-preview",
+    "latest-version": "v.1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "airiah7/airiah7--aviutl2--widget--speed-preview",
+      "regex": "^airiah7--aviutl2--widget--speed-preview-v\\.(\\d+\\.\\d+\\.\\d+)\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "airiah7__speed_preview.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/airiah7/airiah7__speed_preview.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "airiah7.widget--drag-and-drop-objects",
+    "latest-version": "v.1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "airiah7/airiah7--aviutl2--widget--drag-and-drop-objects",
+      "regex": "^airiah7--aviutl2--widget--drag-and-drop-objects-v\\.(\\d+\\.\\d+\\.\\d+)\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "airiah7__drag_and_drop_objects.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/airiah7/airiah7__drag_and_drop_objects.aux2"
           ]
         }
       ]
