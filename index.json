@@ -28415,5 +28415,86 @@
         ]
       }
     ]
+  },
+  {
+    "id": "airiah7.widget--speed-preview",
+    "name": "倍速プレビュー",
+    "type": "汎用プラグイン",
+    "summary": "倍速プレビューできるようにするウィジェット",
+    "description": "https://raw.githubusercontent.com/airiah7/airiah7--aviutl2--widget--speed-preview/refs/heads/main/README.md",
+    "author": "あいりあなな(airiah7)",
+    "repoURL": "https://github.com/airiah7/airiah7--aviutl2--widget--speed-preview",
+    "latest-version": "v.1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "airiah7"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "sm46411944",
+    "tags": [
+      "UI",
+      "ウィジェット",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/airiah7.widget--speed-preview_thumbnail.png",
+        "infoImg": [
+          "./image/airiah7.widget--speed-preview_1.png",
+          "./image/airiah7.widget--speed-preview_2.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "airiah7",
+          "repo": "airiah7--aviutl2--widget--speed-preview",
+          "pattern": "^airiah7--aviutl2--widget--speed-preview-v\\.(\\d+\\.\\d+\\.\\d+)\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/airiah7__speed_preview.aux2",
+          "to": "{pluginsDir}/airiah7/"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/airiah7/airiah7__speed_preview.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v.1.0.0",
+        "release_date": "2026-06-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/airiah7/airiah7__speed_preview.aux2",
+            "XXH3_128": "1f7f2becaa775c1fa86038a2e9b761d9"
+          }
+        ]
+      }
+    ]
   }
 ]
