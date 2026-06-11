@@ -26873,7 +26873,7 @@
         "github": {
           "owner": "sevenc-nanashi",
           "repo": "ported_tim",
-          "pattern": "^sevenc-nanashi\\.ported_tim.*\\.au2pkg\\.zip"
+          "pattern": "^sevenc-nanashi\\.ported_tim-v[^/]+\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -26882,6 +26882,11 @@
         },
         {
           "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.ported_tim.aul2",
+          "to": "{dataDir}/Language"
         },
         {
           "action": "copy",
@@ -26938,6 +26943,10 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/@tim.anm2.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.ported_tim.aul2"
         }
       ]
     },
@@ -27004,8 +27013,12 @@
       },
       {
         "version": "0.1.3",
-        "release_date": "2026-06-11",
+        "release_date": "2026-06-10",
         "file": [
+          {
+            "path": "{dataDir}/Language/English.ported_tim.aul2",
+            "XXH3_128": "b5c3f7a1e76f15d9de8daa1085d0b06b"
+          },
           {
             "path": "{scriptsDir}/@tim.anm2.anm2",
             "XXH3_128": "0fdc7ca9b48bcf53643b466f55f8d65d"
