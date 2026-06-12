@@ -28354,7 +28354,7 @@
     "description": "https://raw.githubusercontent.com/airiah7/airiah7--aviutl2--plugin--picked-color-storage/refs/heads/main/README.md",
     "author": "あいりあなな(airiah7)",
     "repoURL": "https://github.com/airiah7/airiah7--aviutl2--plugin--picked-color-storage",
-    "latest-version": "v.1.0.0",
+    "latest-version": "v.1.1.0",
     "popularity": 55,
     "trend": 55,
     "licenses": [
@@ -28373,6 +28373,7 @@
     "niconiCommonsId": "sm46406346",
     "tags": [
       "UI",
+      "ウィジェット",
       "カラーパレット",
       "色調整"
     ],
@@ -28421,6 +28422,16 @@
           {
             "path": "{pluginsDir}/airiah7/airiah7__picked_color_storage.aux2",
             "XXH3_128": "ddcc969d8555ffa2385aa3da40cfbc61"
+          }
+        ]
+      },
+      {
+        "version": "v.1.1.0",
+        "release_date": "2026-06-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/airiah7/airiah7__picked_color_storage.aux2",
+            "XXH3_128": "23101ac11a3f266f24912f2f6c21c72e"
           }
         ]
       }
