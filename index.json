@@ -5191,6 +5191,11 @@
         },
         {
           "action": "copy",
+          "from": "{tmp}/Script/Basic_S.lua",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
           "from": "{tmp}/Script/Basic_S/LICENSE",
           "to": "{scriptsDir}/Basic_S"
         },
@@ -5212,6 +5217,10 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/@Basic_S.tra2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Basic_S.lua"
         },
         {
           "action": "delete",
