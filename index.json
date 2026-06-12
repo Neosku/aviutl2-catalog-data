@@ -20534,7 +20534,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v3.3.1",
+    "latest-version": "v3.3.2",
     "popularity": 593,
     "trend": 225,
     "licenses": [
@@ -21021,6 +21021,16 @@
           {
             "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
             "XXH3_128": "af6ad77fee9648cd81930774d3576a47"
+          }
+        ]
+      },
+      {
+        "version": "v3.3.2",
+        "release_date": "2026-06-12",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "d1351ea88a2963ff0b3e9db3d98df1d7"
           }
         ]
       }
@@ -28354,7 +28364,7 @@
     "description": "https://raw.githubusercontent.com/airiah7/airiah7--aviutl2--plugin--picked-color-storage/refs/heads/main/README.md",
     "author": "あいりあなな(airiah7)",
     "repoURL": "https://github.com/airiah7/airiah7--aviutl2--plugin--picked-color-storage",
-    "latest-version": "v.1.0.0",
+    "latest-version": "v.1.1.0",
     "popularity": 55,
     "trend": 55,
     "licenses": [
@@ -28421,6 +28431,16 @@
           {
             "path": "{pluginsDir}/airiah7/airiah7__picked_color_storage.aux2",
             "XXH3_128": "ddcc969d8555ffa2385aa3da40cfbc61"
+          }
+        ]
+      },
+      {
+        "version": "v.1.1.0",
+        "release_date": "2026-06-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/airiah7/airiah7__picked_color_storage.aux2",
+            "XXH3_128": "23101ac11a3f266f24912f2f6c21c72e"
           }
         ]
       }
