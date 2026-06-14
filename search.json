@@ -2901,5 +2901,25 @@
         }
       ]
     }
+  },
+  {
+    "id": "negi.RtAv2_AU2V",
+    "latest-version": "V1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "naerecnegi-spec/RtAv2_AU2V",
+      "regex": "^RtAv2_AU2V.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "RtAv2.lua"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/RtAv2.lua"
+          ]
+        }
+      ]
+    }
   }
 ]
