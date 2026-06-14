@@ -6469,12 +6469,12 @@
   {
     "id": "Garech.jp_akey.aul2",
     "name": "アクセスキー付き日本語リソース",
-    "type": "その他",
-    "summary": "AviUtl2のメニュー・一部ボタンにアクセスキーを加える言語ファイル",
+    "type": "言語ファイル",
+    "summary": "⚠️導入/更新時注意　AviUtl2のメニューにアクセスキーを追加",
     "description": "https://raw.githubusercontent.com/Garech-mas/jp_akey.aul2/refs/heads/main/README.md",
     "author": "Garech",
     "repoURL": "https://github.com/Garech-mas/jp_akey.aul2",
-    "latest-version": "v0.24",
+    "latest-version": "v0.50",
     "popularity": 430,
     "trend": 28,
     "licenses": [
@@ -6485,15 +6485,20 @@
         "licenseBody": null
       }
     ],
+    "niconiCommonsId": "sm45400553",
     "tags": [
       "UI",
       "言語ファイル"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/Garech.jp_akey.aul2_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
-        "direct": "https://raw.githubusercontent.com/Garech-mas/jp_akey.aul2/refs/tags/v0.24/%E6%97%A5%E6%9C%AC%E8%AA%9E(%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%82%AD%E3%83%BC%E4%BB%98%E3%81%8D).aul2"
+        "direct": "https://raw.githubusercontent.com/Garech-mas/jp_akey.aul2/refs/heads/main/日本語(アクセスキー付き).aul2"
       },
       "install": [
         {
@@ -6530,6 +6535,26 @@
           {
             "path": "{dataDir}/Language/日本語(アクセスキー付き).aul2",
             "XXH3_128": "80f4f3f07a576ae30d244ad79d6f0c47"
+          }
+        ]
+      },
+      {
+        "version": "v0.35",
+        "release_date": "2026-03-05",
+        "file": [
+          {
+            "path": "{dataDir}/Language/日本語(アクセスキー付き).org.aul2",
+            "XXH3_128": "b548b5581b66387a44eddf016957d127"
+          }
+        ]
+      },
+      {
+        "version": "v0.50",
+        "release_date": "2026-06-14",
+        "file": [
+          {
+            "path": "{dataDir}/Language/日本語(アクセスキー付き).aul2",
+            "XXH3_128": "8cb28540c4f3231b41f56054c8292d3e"
           }
         ]
       }
