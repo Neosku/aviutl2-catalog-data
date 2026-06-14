@@ -29047,5 +29047,126 @@
         ]
       }
     ]
+  },
+  {
+    "id": "negi.RtAv2_AU2V",
+    "name": "RtAv2_AU2V",
+    "type": "スクリプト",
+    "summary": "RtAv2の移植",
+    "description": "./md/negi.RtAv2_AU2V.md",
+    "author": "negi",
+    "originalAuthor": "Nagomiku",
+    "repoURL": "https://github.com/naerecnegi-spec/RtAv2_AU2V",
+    "latest-version": "V1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "AI",
+      "BPM",
+      "MIDI",
+      "アニメーション",
+      "エイリアス",
+      "移動",
+      "音MAD"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/negi.RtAv2_AU2V_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "naerecnegi-spec",
+          "repo": "RtAv2_AU2V",
+          "pattern": "^RtAv2_AU2V.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/RtAv2.lua",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/RtAv2Function.lua",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@RtAv2.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@RtAv2(エフェクト).anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@RtAv2(描画系).anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@RtAv2(読込系).anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/RtAv2.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/RtAv2Function.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@RtAv2.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@RtAv2(エフェクト).anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@RtAv2(描画系).anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@RtAv2(読込系).anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "V1.0.0",
+        "release_date": "2026-06-15",
+        "file": [
+          {
+            "path": "{scriptsDir}/RtAv2.lua",
+            "XXH3_128": "741423b794b75efdef831cf308c79b43"
+          }
+        ]
+      }
+    ]
   }
 ]
