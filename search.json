@@ -2921,5 +2921,25 @@
         }
       ]
     }
+  },
+  {
+    "id": "Garech.DateTime",
+    "latest-version": "v2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Garech-mas/AviUtl2_DateTime",
+      "regex": "^DateTime.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "日付と時刻.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/日付と時刻.obj2"
+          ]
+        }
+      ]
+    }
   }
 ]
