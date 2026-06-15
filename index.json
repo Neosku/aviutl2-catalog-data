@@ -9381,7 +9381,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_tl_walkaround2/refs/heads/master/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_tl_walkaround2",
-    "latest-version": "v1.50-for-beta47",
+    "latest-version": "v1.60-for-beta50",
     "popularity": 832,
     "trend": 203,
     "licenses": [
@@ -9555,6 +9555,16 @@
           {
             "path": "{pluginsDir}/tl_walkaround2.aux2",
             "XXH3_128": "bbcb1ddcbf11f197739f3abd2d31aaca"
+          }
+        ]
+      },
+      {
+        "version": "v1.60-for-beta50",
+        "release_date": "2026-06-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/tl_walkaround2.aux2",
+            "XXH3_128": "3d3b649c353ca07ace825f6debe1d37c"
           }
         ]
       }
