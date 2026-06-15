@@ -29198,5 +29198,85 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Garech.DateTime",
+    "name": "日付と時刻",
+    "type": "スクリプト",
+    "summary": "時間変化する日付と時刻を表示します。カウンターとしても使えます。",
+    "description": "https://raw.githubusercontent.com/Garech-mas/AviUtl2_DateTime/refs/heads/main/README.md",
+    "author": "Garech",
+    "originalAuthor": "連結歯車",
+    "repoURL": "https://www.nicovideo.jp/watch/sm36307237",
+    "latest-version": "v2.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "sm36307237",
+    "tags": [
+      "テキスト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/Garech.DateTime_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Garech-mas",
+          "repo": "AviUtl2_DateTime",
+          "pattern": "^DateTime.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/日付と時刻.obj2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/English.DateTime.aul2",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/日付と時刻.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.DateTime.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v2.0",
+        "release_date": "2026-06-16",
+        "file": [
+          {
+            "path": "{scriptsDir}/日付と時刻.obj2",
+            "XXH3_128": "bf8fa34c86d479bbc01cd41a60c8068b"
+          }
+        ]
+      }
+    ]
   }
 ]
