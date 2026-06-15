@@ -28849,7 +28849,7 @@
     "description": "https://raw.githubusercontent.com/airiah7/airiah7--aviutl2--widget--speed-preview/refs/heads/main/README.md",
     "author": "あいりあなな(airiah7)",
     "repoURL": "https://github.com/airiah7/airiah7--aviutl2--widget--speed-preview",
-    "latest-version": "v.1.0.0",
+    "latest-version": "v.1.1.0",
     "popularity": 85,
     "trend": 88,
     "licenses": [
@@ -28917,6 +28917,16 @@
           {
             "path": "{pluginsDir}/airiah7/airiah7__speed_preview.aux2",
             "XXH3_128": "1f7f2becaa775c1fa86038a2e9b761d9"
+          }
+        ]
+      },
+      {
+        "version": "v.1.1.0",
+        "release_date": "2026-06-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/airiah7/airiah7__speed_preview.aux2",
+            "XXH3_128": "85a59e7284dd65e77f7e6c1b35d3d211"
           }
         ]
       }
