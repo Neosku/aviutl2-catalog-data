@@ -225,7 +225,7 @@
   },
   {
     "id": "sigma-axis.RadRotDirBlur_S",
-    "latest-version": "v1.05-for-beta25",
+    "latest-version": "v1.10-for-beta50",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_RadRotDirBlur_S",
@@ -2550,7 +2550,7 @@
   },
   {
     "id": "sigma-axis.translations_sigma-axis",
-    "latest-version": "r29",
+    "latest-version": "r30",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_translations_sigma-axis",
