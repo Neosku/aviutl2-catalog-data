@@ -29196,39 +29196,210 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/RtAv2.lua",
+          "from": "{tmp}/Script/RtAv2.anm2",
           "to": "{scriptsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/RtAv2Function.lua",
+          "from": "{tmp}/Script/RtAv2.lua",
           "to": "{scriptsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/@RtAv2.anm2",
+          "from": "{tmp}/Script/RtAv2(エフェクト).anm2",
           "to": "{scriptsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/@RtAv2(エフェクト).anm2",
+          "from": "{tmp}/Script/RtAv2(読込系).anm2",
           "to": "{scriptsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/@RtAv2(描画系).anm2",
+          "from": "{tmp}/Script/RtAv2(描画系).anm2",
           "to": "{scriptsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/@RtAv2(読込系).anm2",
+          "from": "{tmp}/Script/RtAv2Function.lua",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/[動画]回転.object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/[動画]拡大率.object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/[動画]座標.object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/[動画]初期化_描画.object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/[動画]透明度.object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/[動画]反転_座標_回転_拡大率_透明度.object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/[動画]反転.object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/rpp読み込み.object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/回転.object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/拡大率.object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/座標.object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/初期化_描画.object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/透明度.object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/反転_座標_回転_拡大率_透明度.object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/反転.object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/複数描画(下から上に).object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/複数描画(拡大登場).object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/複数描画(順に回転).object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/複数描画(単調).object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Preset/rpp読み込み@RtAv2.RtAv2.rpp読み込み.preset",
+          "to": "{dataDir}/Preset"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Preset/rpp読み込み@RtAv2.RtAv2.初期化.preset",
+          "to": "{dataDir}/Preset"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Preset/rpp読み込み@RtAv2.RtAv2.動画読み込み.preset",
+          "to": "{dataDir}/Preset"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Preset/rpp読み込み@RtAv2.RtAv2.描画.preset",
+          "to": "{dataDir}/Preset"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Preset/回転@RtAv2(エフェクト).RtAv2.回転.preset",
+          "to": "{dataDir}/Preset"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Preset/拡大率@RtAv2(エフェクト).RtAv2.拡大率.preset",
+          "to": "{dataDir}/Preset"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Preset/座標@RtAv2(エフェクト).RtAv2.座標.preset",
+          "to": "{dataDir}/Preset"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Preset/透明度@RtAv2(エフェクト).RtAv2.透明度.preset",
+          "to": "{dataDir}/Preset"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Preset/反転@RtAv2(エフェクト).RtAv2.[反転]左右反転.preset",
+          "to": "{dataDir}/Preset"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Preset/反転@RtAv2(エフェクト).RtAv2.[反転]上下反転.preset",
+          "to": "{dataDir}/Preset"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Preset/複数描画@RtAv2(描画系).RtAv2.複数描画.preset",
+          "to": "{dataDir}/Preset"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Preset/両端クリッピング@RtAv2(描画系).RtAv2.両端クリッピング.preset",
+          "to": "{dataDir}/Preset"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
+          "path": "{scriptsDir}/RtAv2.anm2"
+        },
+        {
+          "action": "delete",
           "path": "{scriptsDir}/RtAv2.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/RtAv2(エフェクト).anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/RtAv2(読込系).anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/RtAv2(描画系).anm2"
         },
         {
           "action": "delete",
@@ -29236,19 +29407,127 @@
         },
         {
           "action": "delete",
-          "path": "{scriptsDir}/@RtAv2.anm2"
+          "path": "{dataDir}/Alias/[動画]回転.object"
         },
         {
           "action": "delete",
-          "path": "{scriptsDir}/@RtAv2(エフェクト).anm2"
+          "path": "{dataDir}/Alias/[動画]拡大率.object"
         },
         {
           "action": "delete",
-          "path": "{scriptsDir}/@RtAv2(描画系).anm2"
+          "path": "{dataDir}/Alias/[動画]座標.object"
         },
         {
           "action": "delete",
-          "path": "{scriptsDir}/@RtAv2(読込系).anm2"
+          "path": "{dataDir}/Alias/[動画]初期化_描画.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/[動画]透明度.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/[動画]反転_座標_回転_拡大率_透明度.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/[動画]反転.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/rpp読み込み.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/回転.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/拡大率.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/座標.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/初期化_描画.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/透明度.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/反転_座標_回転_拡大率_透明度.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/反転.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/複数描画(下から上に).object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/複数描画(拡大登場).object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/複数描画(順に回転).object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/複数描画(単調).object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/rpp読み込み@RtAv2.RtAv2.rpp読み込み.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/rpp読み込み@RtAv2.RtAv2.初期化.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/rpp読み込み@RtAv2.RtAv2.動画読み込み.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/rpp読み込み@RtAv2.RtAv2.描画.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/回転@RtAv2(エフェクト).RtAv2.回転.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/拡大率@RtAv2(エフェクト).RtAv2.拡大率.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/座標@RtAv2(エフェクト).RtAv2.座標.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/透明度@RtAv2(エフェクト).RtAv2.透明度.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/反転@RtAv2(エフェクト).RtAv2.[反転]左右反転.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/反転@RtAv2(エフェクト).RtAv2.[反転]上下反転.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/複数描画@RtAv2(描画系).RtAv2.複数描画.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/両端クリッピング@RtAv2(描画系).RtAv2.両端クリッピング.preset"
         }
       ]
     },
