@@ -3650,7 +3650,7 @@
     "name": "RadRotDirBlur_S",
     "type": "スクリプト",
     "summary": "放射ブラー・回転ブラー・方向ブラーを組み合わせた複合ブラーのスクリプト",
-    "description": "./md/sigma-axis.RadRotDirBlur_S.md",
+    "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_RadRotDirBlur_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_RadRotDirBlur_S",
     "latest-version": "v1.10-for-beta50",
@@ -3662,7 +3662,7 @@
         "isCustom": false,
         "copyrights": [
           {
-            "years": "2025",
+            "years": "2025-2026",
             "holder": "sigma-axis"
           }
         ],
@@ -3671,10 +3671,18 @@
     ],
     "niconiCommonsId": "sm45201781",
     "tags": [
-      "ぼかし"
+      "ぼかし",
+      "色収差"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/sigma-axis.RadRotDirBlur_S_thumbnail.webp",
+        "infoImg": [
+          "./image/sigma-axis.RadRotDirBlur_S_1.png"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -3692,14 +3700,32 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/RadRotDirBlur_S.anm2",
+          "from": "{tmp}/Script/RadRotDirBlur_S.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/RadRotDirBlur_S/LICENSE",
+          "to": "{scriptsDir}/RadRotDirBlur_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/RadRotDirBlur_S/README.md",
+          "to": "{scriptsDir}/RadRotDirBlur_S"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/RadRotDirBlur_S.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/RadRotDirBlur_S/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/RadRotDirBlur_S/README.md"
         }
       ]
     },
