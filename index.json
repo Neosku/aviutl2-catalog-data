@@ -3653,7 +3653,7 @@
     "description": "./md/sigma-axis.RadRotDirBlur_S.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_RadRotDirBlur_S",
-    "latest-version": "v1.05-for-beta25",
+    "latest-version": "v1.10-for-beta50",
     "popularity": 3014,
     "trend": 145,
     "licenses": [
@@ -3761,6 +3761,16 @@
           {
             "path": "{scriptsDir}/RadRotDirBlur_S.anm2",
             "XXH3_128": "fd8db5eb7b1d6d62572b7b703e5da026"
+          }
+        ]
+      },
+      {
+        "version": "v1.10-for-beta50",
+        "release_date": "2026-06-16",
+        "file": [
+          {
+            "path": "{scriptsDir}/RadRotDirBlur_S.anm2",
+            "XXH3_128": "41b32ea1b21748b47b06abbefe019361"
           }
         ]
       }
