@@ -11063,7 +11063,7 @@
     "description": "./md/Rhapthorne_0.anchorControl_Rh.md",
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1996544042973409715",
-    "latest-version": "2026.04.27",
+    "latest-version": "2026.06.07",
     "popularity": 945,
     "trend": 134,
     "licenses": [
@@ -11143,6 +11143,16 @@
           {
             "path": "{scriptsDir}/個別アンカー操作_Rh.anm2",
             "XXH3_128": "2b93f2ea65d279d2da743a2268d1dd46"
+          }
+        ]
+      },
+      {
+        "version": "2026.06.07",
+        "release_date": "2026-06-07",
+        "file": [
+          {
+            "path": "{scriptsDir}/個別アンカー操作_Rh.anm2",
+            "XXH3_128": "89b09fd30da9a88ce9611f24eef6b115"
           }
         ]
       }
