@@ -2200,7 +2200,12 @@
       {
         "version": "8.16",
         "release_date": "2026-06-17",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo2",
+            "XXH3_128": "623295ba2869abe9f8579901f2164734"
+          }
+        ]
       }
     ]
   },
