@@ -6015,8 +6015,8 @@
     "id": "sigma-axis.Tile_S",
     "name": "Tile_S",
     "type": "スクリプト",
-    "summary": "幾何学模様のタイルパターンを生成し、背景や装飾として利用できるスクリプト",
-    "description": "./md/sigma-axis.Tile_S.md",
+    "summary": "規則的なパターン模様を生成し、背景や装飾として利用できるスクリプト",
+    "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Tile_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Tile_S",
     "latest-version": "v1.10-for-beta50",
@@ -6028,7 +6028,7 @@
         "isCustom": false,
         "copyrights": [
           {
-            "years": "2025",
+            "years": "2025-2026",
             "holder": "sigma-axis"
           }
         ],
@@ -6039,10 +6039,18 @@
     "tags": [
       "図形",
       "パターン",
-      "背景素材"
+      "背景素材",
+      "角丸"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/sigma-axis.Tile_S_thumbnail.webp",
+        "infoImg": [
+          "./image/sigma-axis.Tile_S_1.png"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -6060,14 +6068,32 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/@Tile_S.obj2",
+          "from": "{tmp}/Script/@Tile_S.obj2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Tile_S/LICENSE",
+          "to": "{scriptsDir}/Tile_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Tile_S/README.md",
+          "to": "{scriptsDir}/Tile_S"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/@Tile_S.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Tile_S/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Tile_S/README.md"
         }
       ]
     },
