@@ -25286,7 +25286,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/tex.auf2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/tex.auf2",
-    "latest-version": "0.2.2",
+    "latest-version": "0.2.3",
     "popularity": 190,
     "trend": 38,
     "licenses": [
@@ -25394,6 +25394,20 @@
           {
             "path": "{pluginsDir}/tex.aux2",
             "XXH3_128": "7c4e2f5977cdba3c19bf45dcf1dcda74"
+          },
+          {
+            "path": "{dataDir}/Language/English.tex.aul2",
+            "XXH3_128": "28eab41928a10b449e4817d2253a056a"
+          }
+        ]
+      },
+      {
+        "version": "0.2.3",
+        "release_date": "2026-06-18",
+        "file": [
+          {
+            "path": "{pluginsDir}/tex.aux2",
+            "XXH3_128": "d0ef7a119aad3d449786b0f52e86231a"
           },
           {
             "path": "{dataDir}/Language/English.tex.aul2",
