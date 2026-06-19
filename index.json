@@ -29259,11 +29259,11 @@
     "name": "RtAv2_AU2V",
     "type": "スクリプト",
     "summary": "RtAv2の移植",
-    "description": "./md/negi.RtAv2_AU2V.md",
+    "description": "https://raw.githubusercontent.com/Neosku/aviutl2-catalog-data/main/md/negi.RtAv2_AU2V.md",
     "author": "negi",
     "originalAuthor": "Nagomiku",
     "repoURL": "https://github.com/naerecnegi-spec/RtAv2_AU2V",
-    "latest-version": "V1.1.0",
+    "latest-version": "V1.1.1",
     "popularity": 3,
     "trend": 6,
     "licenses": [
@@ -29286,7 +29286,7 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/negi.RtAv2_AU2V_thumbnail.png"
+        "thumbnail": "https://raw.githubusercontent.com/Neosku/aviutl2-catalog-data/main/image/negi.RtAv2_AU2V_thumbnail.png"
       }
     ],
     "installer": {
@@ -29294,7 +29294,7 @@
         "github": {
           "owner": "naerecnegi-spec",
           "repo": "RtAv2_AU2V",
-          "pattern": "^RtAv2_AU2V.*\\.zip$"
+          "pattern": "^RtAv2_AU2V\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -29303,36 +29303,6 @@
         },
         {
           "action": "extract"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/RtAv2.lua",
-          "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/RtAv2Function.lua",
-          "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/@RtAv2.anm2",
-          "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/@RtAv2(エフェクト).anm2",
-          "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/@RtAv2(描画系).anm2",
-          "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/@RtAv2(読込系).anm2",
-          "to": "{scriptsDir}"
         }
       ],
       "uninstall": [
@@ -29359,6 +29329,70 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/@RtAv2(読込系).anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/rpp読み込み@RtAv2.RtAv2.rpp読み込み.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/rpp読み込み@RtAv2.RtAv2.初期化.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/rpp読み込み@RtAv2.RtAv2.初期化.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/両端クリッピング@RtAv2(描画系).RtAv2.両端クリッピング.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/複数描画@RtAv2(描画系).RtAv2.複数描画.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/反転@RtAv2(エフェクト).RtAv2.反転.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/座標@RtAv2(エフェクト).RtAv2.座標.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/回転@RtAv2(エフェクト).RtAv2.回転.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/拡大率@RtAv2(エフェクト).RtAv2.拡大率.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/透明度@RtAv2(エフェクト).RtAv2.透明度.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/ラスター@RtAv2(エフェクト).RtAv2.ラスター.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/方向ブラー@RtAv2(エフェクト).RtAv2.方向ブラー.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/グロー@RtAv2(エフェクト).RtAv2.グロー.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/クリッピング@RtAv2(エフェクト).RtAv2.クリッピング.preset"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Preset/斜めクリッピング@RtAv2(エフェクト).RtAv2.斜めクリッピング.preset"
         }
       ]
     },
@@ -29380,6 +29414,16 @@
           {
             "path": "{scriptsDir}/RtAv2.lua",
             "XXH3_128": "b8eb4a781c6536a05c8f7cca2916d9ce"
+          }
+        ]
+      },
+      {
+        "version": "V1.1.1",
+        "release_date": "2026-06-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/RtAv2.lua",
+            "XXH3_128": "741423b794b75efdef831cf308c79b43"
           }
         ]
       }
