@@ -6267,7 +6267,7 @@
     "name": "PixelSnap_S",
     "type": "スクリプト",
     "summary": "小数点以下のピクセルずれで余計なボケが入るのを抑えるスクリプト",
-    "description": "./md/sigma-axis.PixelSnap_S.md",
+    "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_PixelSnap_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_PixelSnap_S",
     "latest-version": "v1.05-for-beta50",
@@ -6279,7 +6279,7 @@
         "isCustom": false,
         "copyrights": [
           {
-            "years": "2025",
+            "years": "2025-2026",
             "holder": "sigma-axis"
           }
         ],
@@ -6289,10 +6289,17 @@
     "niconiCommonsId": "sm45452975",
     "tags": [
       "座標補正",
-      "色調整"
+      "配置"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/sigma-axis.PixelSnap_S_thumbnail.webp",
+        "infoImg": [
+          "./image/sigma-axis.PixelSnap_S_1.png"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -6310,14 +6317,32 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/AviUtl2/PixelSnap_S.anm2",
+          "from": "{tmp}/Script/PixelSnap_S.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/PixelSnap_S/LICENSE",
+          "to": "{scriptsDir}/PixelSnap_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/PixelSnap_S/README.md",
+          "to": "{scriptsDir}/PixelSnap_S"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/PixelSnap_S.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PixelSnap_S/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PixelSnap_S/README.md"
         }
       ]
     },
@@ -6348,7 +6373,7 @@
         "file": [
           {
             "path": "{scriptsDir}/PixelSnap_S.anm2",
-            "XXH3_128": ""
+            "XXH3_128": "039ea4817ec9cd596015e332bf5844fc"
           }
         ]
       }
