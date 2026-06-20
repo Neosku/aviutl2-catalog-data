@@ -16728,7 +16728,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2#%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2anm2",
-    "latest-version": "v3.2",
+    "latest-version": "v3.3",
     "popularity": 930,
     "trend": 129,
     "licenses": [
@@ -16778,6 +16778,16 @@
           {
             "path": "{scriptsDir}/ドット絵変形.anm2",
             "XXH3_128": "8779524ecd4b2abdb1db8ede68e26204"
+          }
+        ]
+      },
+      {
+        "version": "v3.3",
+        "release_date": "2026-06-20",
+        "file": [
+          {
+            "path": "{scriptsDir}/ドット絵変形.anm2",
+            "XXH3_128": "8ec73f6e5d85a3b5f635438889301af0"
           }
         ]
       }
