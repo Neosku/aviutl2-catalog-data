@@ -29822,5 +29822,97 @@
         ]
       }
     ]
+  },
+  {
+    "id": "azurite.DepthMapFilter",
+    "name": "DepthMapFilter",
+    "type": "フィルタプラグイン",
+    "summary": "深度マップを生成するフィルタープラグイン",
+    "description": "https://raw.githubusercontent.com/azurite581/AviUtl2-DepthMapFilter/master/README.md",
+    "author": "azurite",
+    "repoURL": "https://github.com/azurite581/AviUtl2-DepthMapFilter",
+    "latest-version": "v1.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "azurite"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "AI"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/azurite.DepthMapFilter_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "azurite581",
+          "repo": "AviUtl2-DepthMapFilter",
+          "pattern": "^DepthMapFilter-v.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/DepthMapFilter/depth_anything_v2_vits.onnx",
+          "to": "{pluginsDir}/DepthMapFilter"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/DepthMapFilter/DepthMapFilter.auf2",
+          "to": "{pluginsDir}/DepthMapFilter"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/DepthMapFilter/onnxruntime.dll",
+          "to": "{pluginsDir}/DepthMapFilter"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/DepthMapFilter/depth_anything_v2_vits.onnx"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/DepthMapFilter/DepthMapFilter.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/DepthMapFilter/onnxruntime.dll"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.1.0",
+        "release_date": "2026-06-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/DepthMapFilter/DepthMapFilter.auf2",
+            "XXH3_128": "12b5e8170a684a851248a81255a1fb15"
+          }
+        ]
+      }
+    ]
   }
 ]
