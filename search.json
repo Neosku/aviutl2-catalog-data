@@ -234,7 +234,7 @@
         {
           "extract": "zip",
           "paths": [
-            "RadRotDirBlur_S.anm2"
+            "Script/RadRotDirBlur_S.anm2"
           ],
           "recordPaths": [
             "{scriptsDir}/RadRotDirBlur_S.anm2"
@@ -277,6 +277,45 @@
           ],
           "recordPaths": [
             "{dataDir}/Language/Japanese_Mod.aul2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "seilor0.roundedPolygonSl",
+    "latest-version": "v1.2.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "seilor0/roundedPolygon_sl",
+      "regex": "^roundedPolygon_sl\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "角丸正多角形_sl.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/角丸正多角形_sl.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "seilor0.twinkle_sl",
+    "latest-version": "v1.2.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "seilor0/twinkle_sl",
+      "regex": "^@twinkle_sl\\.obj2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "@twinkle_sl.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@twinkle_sl.obj2"
           ]
         }
       ]
@@ -433,7 +472,7 @@
         {
           "extract": "zip",
           "paths": [
-            "@Tile_S.obj2"
+            "Script/@Tile_S.obj2"
           ],
           "recordPaths": [
             "{scriptsDir}/@Tile_S.obj2"
@@ -473,7 +512,7 @@
         {
           "extract": "zip",
           "paths": [
-            "AviUtl2/PixelSnap_S.anm2"
+            "Script/PixelSnap_S.anm2"
           ],
           "recordPaths": [
             "{scriptsDir}/PixelSnap_S.anm2"
@@ -724,7 +763,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "karoterra/aviutl2-OilPainting",
-      "regex": "^aviutl2-OilPainting_.*\\.zip$",
+      "regex": "^Karoterra.OilPainting-v.*.au2pkg.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -764,7 +803,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "karoterra/aviutl2-ColorVisionSimulation",
-      "regex": "^aviutl2-ColorVisionSimulation_.*\\.zip$",
+      "regex": "^Karoterra.ColorVisionSimulation-v.*.au2pkg.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -899,6 +938,26 @@
     }
   },
   {
+    "id": "hebiiro.al2_preset_adder",
+    "latest-version": "r6",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_preset_adder",
+      "regex": "^al2_preset_adder.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/al2/al2_preset_adder.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_preset_adder.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "sigma-axis.WhiteBalance_S",
     "latest-version": "v1.01-for-beta51",
     "checkType": {
@@ -909,7 +968,7 @@
         {
           "extract": "zip",
           "paths": [
-            "AviUtl2/@WhiteBalance_S.anm2"
+            "Script/@WhiteBalance_S.anm2"
           ],
           "recordPaths": [
             "{scriptsDir}/@WhiteBalance_S.anm2"
@@ -919,39 +978,20 @@
     }
   },
   {
-    "id": "seilor0.roundedPolygonSl",
-    "latest-version": "v1.2.1",
+    "id": "hebiiro.al2_visual_font",
+    "latest-version": "r5",
     "checkType": {
       "type": "GitHub",
-      "repo": "seilor0/roundedPolygon_sl",
-      "regex": "^roundedPolygon_sl\\.zip$",
+      "repo": "hebiiro/al2_visual_font",
+      "regex": "^al2_visual_font.*\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
           "paths": [
-            "角丸正多角形_sl.obj2"
+            "Plugin/al2/al2_visual_font.aui2"
           ],
           "recordPaths": [
-            "{scriptsDir}/角丸正多角形_sl.obj2"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "seilor0.twinkle_sl",
-    "latest-version": "v1.2.1",
-    "checkType": {
-      "type": "GitHub",
-      "repo": "seilor0/twinkle_sl",
-      "regex": "^@twinkle_sl\\.obj2$",
-      "hash-calc": [
-        {
-          "paths": [
-            "@twinkle_sl.obj2"
-          ],
-          "recordPaths": [
-            "{scriptsDir}/@twinkle_sl.obj2"
+            "{pluginsDir}/al2/al2_visual_font.aui2"
           ]
         }
       ]
@@ -1300,66 +1340,6 @@
     }
   },
   {
-    "id": "hebiiro.al2_ui_dressing",
-    "latest-version": "r4",
-    "checkType": {
-      "type": "GitHub",
-      "repo": "hebiiro/al2_ui_dressing",
-      "regex": "^al2_ui_dressing.*\\.zip$",
-      "hash-calc": [
-        {
-          "extract": "zip",
-          "paths": [
-            "Plugin/al2/al2_ui_dressing.aui2"
-          ],
-          "recordPaths": [
-            "{pluginsDir}/al2/al2_ui_dressing.aui2"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "hebiiro.al2_preset_adder",
-    "latest-version": "r6",
-    "checkType": {
-      "type": "GitHub",
-      "repo": "hebiiro/al2_preset_adder",
-      "regex": "^al2_preset_adder.*\\.zip$",
-      "hash-calc": [
-        {
-          "extract": "zip",
-          "paths": [
-            "Plugin/al2/al2_preset_adder.aui2"
-          ],
-          "recordPaths": [
-            "{pluginsDir}/al2/al2_preset_adder.aui2"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "hebiiro.al2_visual_font",
-    "latest-version": "r5",
-    "checkType": {
-      "type": "GitHub",
-      "repo": "hebiiro/al2_visual_font",
-      "regex": "^al2_visual_font.*\\.zip$",
-      "hash-calc": [
-        {
-          "extract": "zip",
-          "paths": [
-            "Plugin/al2/al2_visual_font.aui2"
-          ],
-          "recordPaths": [
-            "{pluginsDir}/al2/al2_visual_font.aui2"
-          ]
-        }
-      ]
-    }
-  },
-  {
     "id": "Garech.DoubleBPMGrid",
     "latest-version": "v2.5-aul2",
     "checkType": {
@@ -1440,6 +1420,26 @@
     }
   },
   {
+    "id": "hebiiro.al2_ui_dressing",
+    "latest-version": "r4",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_ui_dressing",
+      "regex": "^al2_ui_dressing.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/al2/al2_ui_dressing.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_ui_dressing.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "mes51.Unmult",
     "latest-version": "v1.1.0",
     "checkType": {
@@ -1500,6 +1500,26 @@
     }
   },
   {
+    "id": "KAZOON.KSA",
+    "latest-version": "v2.1.9",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "cycloawaodorin/ksa",
+      "regex": "^ksa\\..*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/KSA/ksa_ext.mod2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/KSA/ksa_ext.mod2"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "sevenc-nanashi.tinted-aviutl2",
     "latest-version": "0.2.6",
     "checkType": {
@@ -1534,26 +1554,6 @@
           ],
           "recordPaths": [
             "{pluginsDir}/SAM3/sam3.aux2"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "KAZOON.KSA",
-    "latest-version": "v2.1.9",
-    "checkType": {
-      "type": "GitHub",
-      "repo": "cycloawaodorin/ksa",
-      "regex": "^ksa\\..*\\.au2pkg\\.zip$",
-      "hash-calc": [
-        {
-          "extract": "zip",
-          "paths": [
-            "Script/KSA/ksa_ext.mod2"
-          ],
-          "recordPaths": [
-            "{scriptsDir}/KSA/ksa_ext.mod2"
           ]
         }
       ]
@@ -1842,6 +1842,25 @@
     }
   },
   {
+    "id": "V.Bernkastel.AviUtl2_Language_kr",
+    "latest-version": "v5.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Victorique-Bernkastel/AviUtl2_Language",
+      "regex": "^Korean.*\\.aul2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "Korean.language.aul2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/Korean.language.aul2"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "sevenc-nanashi.filter_effect_toggle-aux2",
     "latest-version": "0.2.0",
     "checkType": {
@@ -1856,6 +1875,25 @@
           ],
           "recordPaths": [
             "{pluginsDir}/filter_effect_toggle.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "koisi0319.Duplicate_objects",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "koisi0319/Aviutl2-Duplicate-objects-at-equal-intervals",
+      "regex": "^Duplicate_objects*\\.aux2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "Duplicate_objects.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Duplicate_objects.aux2"
           ]
         }
       ]
@@ -1916,44 +1954,6 @@
           ],
           "recordPaths": [
             "{scriptsDir}/BlockNoise.anm2"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "koisi0319.Duplicate_objects",
-    "latest-version": "v1.0.0",
-    "checkType": {
-      "type": "GitHub",
-      "repo": "koisi0319/Aviutl2-Duplicate-objects-at-equal-intervals",
-      "regex": "^Duplicate_objects*\\.aux2$",
-      "hash-calc": [
-        {
-          "paths": [
-            "Duplicate_objects.aux2"
-          ],
-          "recordPaths": [
-            "{pluginsDir}/Duplicate_objects.aux2"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "V.Bernkastel.AviUtl2_Language_kr",
-    "latest-version": "v5.0",
-    "checkType": {
-      "type": "GitHub",
-      "repo": "Victorique-Bernkastel/AviUtl2_Language",
-      "regex": "^Korean.*\\.aul2$",
-      "hash-calc": [
-        {
-          "paths": [
-            "Korean.language.aul2"
-          ],
-          "recordPaths": [
-            "{dataDir}/Language/Korean.language.aul2"
           ]
         }
       ]
@@ -2130,10 +2130,12 @@
         {
           "extract": "zip",
           "paths": [
+            "Language/English.transform_specific_chars.aul2",
             "Script/transform_specific_chars.anm2.anm2",
             "Script/transform_specific_chars.mod2"
           ],
           "recordPaths": [
+            "{dataDir}/Language/English.transform_specific_chars.aul2",
             "{scriptsDir}/transform_specific_chars.anm2.anm2",
             "{scriptsDir}/transform_specific_chars.mod2"
           ]
@@ -2469,26 +2471,6 @@
     }
   },
   {
-    "id": "aviutl2-community.aviutl2_community_translation_companion",
-    "latest-version": "0.2.0",
-    "checkType": {
-      "type": "GitHub",
-      "repo": "aviutl2/aviutl2-community-translation",
-      "regex": "^aviutl2-community\\.aviutl2_community_translation_companion-v.*\\.au2pkg\\.zip$",
-      "hash-calc": [
-        {
-          "extract": "zip",
-          "paths": [
-            "Plugin/aviutl2_community_translation_companion.aux2"
-          ],
-          "recordPaths": [
-            "{pluginsDir}/aviutl2_community_translation_companion.aux2"
-          ]
-        }
-      ]
-    }
-  },
-  {
     "id": "azurite.AdjustPivot_A",
     "latest-version": "v0.2.0",
     "checkType": {
@@ -2503,6 +2485,26 @@
           ],
           "recordPaths": [
             "{scriptsDir}/中心ずらし_A.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "aviutl2-community.aviutl2_community_translation_companion",
+    "latest-version": "0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "aviutl2/aviutl2-community-translation",
+      "regex": "^aviutl2-community\\.aviutl2_community_translation_companion-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/aviutl2_community_translation_companion.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2_community_translation_companion.aux2"
           ]
         }
       ]
@@ -2937,6 +2939,26 @@
           ],
           "recordPaths": [
             "{scriptsDir}/日付と時刻.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "azurite.DepthMapFilter",
+    "latest-version": "v1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "azurite581/AviUtl2-DepthMapFilter",
+      "regex": "^DepthMapFilter-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/DepthMapFilter/DepthMapFilter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/DepthMapFilter/DepthMapFilter.auf2"
           ]
         }
       ]
