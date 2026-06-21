@@ -10898,7 +10898,7 @@
     "description": "./md/sigma-axis.WhiteBalance_S.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_WhiteBalance_S",
-    "latest-version": "v1.00-for-beta29",
+    "latest-version": "v1.01-for-beta51",
     "popularity": 1114,
     "trend": 52,
     "licenses": [
@@ -10957,6 +10957,16 @@
           {
             "path": "{scriptsDir}/@WhiteBalance_S.anm2",
             "XXH3_128": "f780b96fe3690838d1944726c517245c"
+          }
+        ]
+      },
+      {
+        "version": "v1.01-for-beta51",
+        "release_date": "2026-06-21",
+        "file": [
+          {
+            "path": "{scriptsDir}/@WhiteBalance_S.anm2",
+            "XXH3_128": ""
           }
         ]
       }
