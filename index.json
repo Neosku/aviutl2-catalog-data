@@ -3508,6 +3508,16 @@
             "XXH3_128": "156f26f8dc7a30b80210c94785c2747e"
           }
         ]
+      },
+      {
+        "version": "r1281",
+        "release_date": "2026-06-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "28948426049bcb2ad8671649f14a285f"
+          }
+        ]
       }
     ]
   },
@@ -10895,7 +10905,7 @@
     "name": "WhiteBalance_S",
     "type": "スクリプト",
     "summary": "ホワイトバランスや色温度を調整するスクリプト",
-    "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_WhiteBalance_S/refs/heads/main/README.md",
+    "description": "./md/sigma-axis.WhiteBalance_S.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_WhiteBalance_S",
     "latest-version": "v1.01-for-beta51",
@@ -10920,14 +10930,7 @@
       "色調整"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/sigma-axis.WhiteBalance_S_thumbnail.webp",
-        "infoImg": [
-          "./image/sigma-axis.WhiteBalance_S_1.png"
-        ]
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -10945,32 +10948,14 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Script/@WhiteBalance_S.anm2",
+          "from": "{tmp}/AviUtl2/@WhiteBalance_S.anm2",
           "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Script/WhiteBalance_S/LICENSE",
-          "to": "{scriptsDir}/WhiteBalance_S"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Script/WhiteBalance_S/README.md",
-          "to": "{scriptsDir}/WhiteBalance_S"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/@WhiteBalance_S.anm2"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/WhiteBalance_S/LICENSE"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/WhiteBalance_S/README.md"
         }
       ]
     },
@@ -10991,7 +10976,7 @@
         "file": [
           {
             "path": "{scriptsDir}/@WhiteBalance_S.anm2",
-            "XXH3_128": "1fecf5b5e9ba62d10714fb5dec7b9651"
+            "XXH3_128": ""
           }
         ]
       }
