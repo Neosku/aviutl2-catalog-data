@@ -29568,7 +29568,7 @@
       }
     ]
   },
-  {
+    {
     "id": "negi.RtAv2_AU2V",
     "name": "RtAv2_AU2V",
     "type": "スクリプト",
@@ -29620,59 +29620,23 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/RtAv2.lua",
-          "to": "{scriptsDir}"
+          "from": "{tmp}/Script/RtAv2",
+          "to": "{scriptsDir}/RtAv2"
         },
         {
           "action": "copy",
-          "from": "{tmp}/RtAv2Function.lua",
-          "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/@RtAv2.anm2",
-          "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/@RtAv2(エフェクト).anm2",
-          "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/@RtAv2(描画系).anm2",
-          "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/@RtAv2(読込系).anm2",
-          "to": "{scriptsDir}"
+          "from": "{tmp}/Alias/RtAv2",
+          "to": "{dataDir}/Alias/RtAv2"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{scriptsDir}/RtAv2.lua"
+          "path": "{scriptsDir}/RtAv2"
         },
         {
           "action": "delete",
-          "path": "{scriptsDir}/RtAv2Function.lua"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/@RtAv2.anm2"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/@RtAv2(エフェクト).anm2"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/@RtAv2(描画系).anm2"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/@RtAv2(読込系).anm2"
+          "path": "{dataDir}/Alias/RtAv2"
         }
       ]
     },
@@ -29712,13 +29676,13 @@
         "release_date": "2026-06-22",
         "file": [
           {
-            "path": "{scriptsDir}/RtAv2.lua",
-            "XXH3_128": "057075addfde9bdd21e5658a6a83db31"
+            "path": "{scriptsDir}/RtAv2/@RtAv2.anm2",
+            "XXH3_128": "14de6d0e2dd92b10d6564161080d42d5"
           }
         ]
       }
     ]
-  },
+  }
   {
     "id": "Garech.DateTime",
     "name": "日付と時刻",
