@@ -29904,5 +29904,136 @@
         ]
       }
     ]
+  },
+  {
+    "id": "eizo-gak.aviutl2-SourceMonitor",
+    "name": "AviUtl2 Source Monitor",
+    "type": "汎用プラグイン",
+    "summary": "動画ファイルのプレビュー、In/Out点指定、タイムラインへの投げ込み",
+    "description": "./md/eizo-gak.aviutl2-SourceMonitor.md",
+    "author": "映像学区",
+    "repoURL": "https://www.youtube.com/watch?v=2SjgBuMDvSM",
+    "latest-version": "v1.1.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "映像学区"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "ウィジェット",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "infoImg": [
+          "./image/eizo-gak.aviutl2-SourceMonitor_1.jpeg"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "aviutl2-sourcemonitor-bootstrapper.aux2",
+          "pattern": "^sevenc-nanashi.aviutl2_sourcemonitor_bootstrapper-aux2-.*\\.au2pkg.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/aviutl2-sourcemonitor/aviutl2-sourcemonitor-bootstrapper.aux2",
+          "to": "{pluginsDir}/aviutl2-sourcemonitor"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/aviutl2-sourcemonitor/dependencies/avcodec-62.dll",
+          "to": "{pluginsDir}/aviutl2-sourcemonitor/dependencies"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/aviutl2-sourcemonitor/dependencies/avformat-62.dll",
+          "to": "{pluginsDir}/aviutl2-sourcemonitor/dependencies"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/aviutl2-sourcemonitor/dependencies/avutil-60.dll",
+          "to": "{pluginsDir}/aviutl2-sourcemonitor/dependencies"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/aviutl2-sourcemonitor/dependencies/swresample-6.dll",
+          "to": "{pluginsDir}/aviutl2-sourcemonitor/dependencies"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/aviutl2-sourcemonitor/dependencies/swscale-9.dll",
+          "to": "{pluginsDir}/aviutl2-sourcemonitor/dependencies"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/aviutl2-sourcemonitor/SourceMonitor.aux2.dll",
+          "to": "{pluginsDir}/aviutl2-sourcemonitor"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/aviutl2-sourcemonitor/aviutl2-sourcemonitor-bootstrapper.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/aviutl2-sourcemonitor/dependencies/avcodec-62.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/aviutl2-sourcemonitor/dependencies/avformat-62.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/aviutl2-sourcemonitor/dependencies/avutil-60.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/aviutl2-sourcemonitor/dependencies/swresample-6.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/aviutl2-sourcemonitor/dependencies/swscale-9.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/aviutl2-sourcemonitor/SourceMonitor.aux2.dll"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.1.1",
+        "release_date": "2026-04-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/aviutl2-sourcemonitor/SourceMonitor.aux2.dll",
+            "XXH3_128": "f42245fdb161b61cd6c0558a003a1827"
+          }
+        ]
+      }
+    ]
   }
 ]
