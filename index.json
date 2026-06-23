@@ -1623,7 +1623,7 @@
     "description": "./md/rigaya.NVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/NVEnc",
-    "latest-version": "9.19",
+    "latest-version": "9.20",
     "popularity": 3119,
     "trend": 892,
     "licenses": [
@@ -1939,6 +1939,11 @@
             "XXH3_128": "e51541f12387a06ce660446dcc75a7ed"
           }
         ]
+      },
+      {
+        "version": "9.20",
+        "release_date": "2026-06-23",
+        "file": []
       }
     ]
   },
