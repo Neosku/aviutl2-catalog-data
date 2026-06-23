@@ -30035,5 +30035,79 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Fuji.voice_drop",
+    "name": "Voice Drop",
+    "type": "汎用プラグイン",
+    "summary": "音声ファイルをAviutl2上に自動でDropしてくれるプラグイン",
+    "description": "https://raw.githubusercontent.com/Fuji07-2525/voice-drop/main/README.md",
+    "author": "Fuji",
+    "repoURL": "https://github.com/Fuji07-2525/voice-drop",
+    "latest-version": "v0.1.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "Fuji"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "便利ツール"
+    ],
+    "dependencies": [
+      "oov.GCMZDrops2",
+      "oov.PSDToolKit2"
+    ],
+    "images": [
+      {
+        "thumbnail": "./image/Fuji.voice_drop_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Fuji07-2525",
+          "repo": "voice-drop",
+          "pattern": "voice_drop.aux2"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/voice_drop.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/voice_drop.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.1",
+        "release_date": "2026-05-15",
+        "file": [
+          {
+            "path": "{pluginsDir}/voice_drop.aux2",
+            "XXH3_128": "ee7cc0baa3298a375d8efe2c075e73a4"
+          }
+        ]
+      }
+    ]
   }
 ]
