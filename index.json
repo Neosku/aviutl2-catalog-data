@@ -29714,7 +29714,7 @@
         "github": {
           "owner": "naerecnegi-spec",
           "repo": "RtAv2_AU2V",
-          "pattern": "^RtAv2_AU2V.*\\.zip$"
+          "pattern": "^RtAv2_AU2V\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -29739,6 +29739,36 @@
     },
     "version": [
       {
+        "version": "V1.0.0",
+        "release_date": "2026-06-15",
+        "file": [
+          {
+            "path": "{scriptsDir}/RtAv2.lua",
+            "XXH3_128": "741423b794b75efdef831cf308c79b43"
+          }
+        ]
+      },
+      {
+        "version": "V1.1.0",
+        "release_date": "2026-06-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/RtAv2.lua",
+            "XXH3_128": "b8eb4a781c6536a05c8f7cca2916d9ce"
+          }
+        ]
+      },
+      {
+        "version": "V1.1.1",
+        "release_date": "2026-06-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/RtAv2.lua",
+            "XXH3_128": "b8eb4a781c6536a05c8f7cca2916d9ce"
+          }
+        ]
+      },
+      {
         "version": "V1.2.1",
         "release_date": "2026-06-22",
         "file": [
@@ -29753,8 +29783,8 @@
         "release_date": "2026-06-24",
         "file": [
           {
-            "path": "{scriptsDir}/RtAv2.lua",
-            "XXH3_128": "057075addfde9bdd21e5658a6a83db31"
+            "path": "{scriptsDir}/RtAv2/@RtAv2.anm2",
+            "XXH3_128": "7a7666573b86d44db37f9235e1ff5d4b"
           }
         ]
       }
