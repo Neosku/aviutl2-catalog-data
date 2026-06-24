@@ -28243,7 +28243,7 @@
     "description": "https://raw.githubusercontent.com/korarei/AviUtl2_FlowType_K_Script/refs/heads/main/README.md",
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_FlowType_K_Script",
-    "latest-version": "v0.3.1",
+    "latest-version": "v0.3.2",
     "popularity": 1146,
     "trend": 811,
     "licenses": [
@@ -28411,6 +28411,16 @@
           {
             "path": "{scriptsDir}/FlowType_K/@FlowType_K.anm2",
             "XXH3_128": "7d5420da96c9f5d9f1c6164c0bf4b5b8"
+          }
+        ]
+      },
+      {
+        "version": "v0.3.2",
+        "release_date": "2026-06-25",
+        "file": [
+          {
+            "path": "{scriptsDir}/FlowType_K/@FlowType_K.anm2",
+            "XXH3_128": "5b41d2516001546060678925bf4b9fbe"
           }
         ]
       }
