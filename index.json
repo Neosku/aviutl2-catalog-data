@@ -6454,7 +6454,7 @@
     "name": "PageRoll_S",
     "type": "スクリプト",
     "summary": "ページを丸めるように画像を変形するスクリプト",
-    "description": "./md/sigma-axis.PageRoll_S.md",
+    "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_PageRoll_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_PageRoll_S",
     "latest-version": "v1.20-for-beta51",
@@ -6466,7 +6466,7 @@
         "isCustom": false,
         "copyrights": [
           {
-            "years": "2025",
+            "years": "2025-2026",
             "holder": "sigma-axis"
           }
         ],
@@ -6481,7 +6481,14 @@
       "トランジション"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/sigma-axis.PageRoll_S_thumbnail.webp",
+        "infoImg": [
+          "./image/sigma-axis.PageRoll_S_1.png"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -6499,18 +6506,41 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/AviUtl2",
+          "from": "{tmp}/Script/PageRoll_S.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/PageRoll_S(シーンチェンジ).scn2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/PageRoll_S/LICENSE",
+          "to": "{scriptsDir}/PageRoll_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/PageRoll_S/README.md",
+          "to": "{scriptsDir}/PageRoll_S"
         }
       ],
       "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PageRoll_S.anm2"
+        },
         {
           "action": "delete",
           "path": "{scriptsDir}/PageRoll_S(シーンチェンジ).scn2"
         },
         {
           "action": "delete",
-          "path": "{scriptsDir}/PageRoll_S.anm2"
+          "path": "{scriptsDir}/PageRoll_S/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PageRoll_S/README.md"
         }
       ]
     },
@@ -6561,7 +6591,7 @@
         "file": [
           {
             "path": "{scriptsDir}/PageRoll_S.anm2",
-            "XXH3_128": ""
+            "XXH3_128": "61b91dc109ac3e096df7297a3cacc192"
           }
         ]
       }
