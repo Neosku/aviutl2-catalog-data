@@ -30134,5 +30134,187 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Rhapthorne_0.HueCycle_Rh",
+    "name": "彩cle_Rh",
+    "type": "スクリプト",
+    "summary": "イン/アウトで単色化し、滑らかに色を変化させるスクリプト",
+    "description": "./md/Rhapthorne_0.HueCycle_Rh.md",
+    "author": "ラプソーン",
+    "repoURL": "https://twitter.com/Rhapthorne_0/status/1985646515592061158",
+    "latest-version": "2026.04.27",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "色調整",
+      "塗りつぶし"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1i9pQmMb_fNYxsN08qiLAZQXYKGNNYhE3"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/彩cle_Rh.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/彩cle_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2026.04.27",
+        "release_date": "2026-04-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/彩cle_Rh.anm2",
+            "XXH3_128": "2bd46635b50254d3e46ed88796ec7317"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne_0.CompositionAsMultiObject_Rh",
+    "name": "個別化レイヤー_Rh",
+    "type": "スクリプト",
+    "summary": "画像合成(オブジェクト)を個別オブジェクトにするスクリプト",
+    "description": "./md/Rhapthorne_0.CompositionAsMultiObject_Rh.md",
+    "author": "ラプソーン",
+    "repoURL": "https://twitter.com/Rhapthorne_0/status/2063788101093208349",
+    "latest-version": "2026.06.16",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "オブジェクト操作"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1Bbqxfr3tGmZGmfwS4CS7vqH3bYHY3Qiv"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/個別化レイヤー_Rh.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/個別化レイヤー_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2026.06.16",
+        "release_date": "2026-06-16",
+        "file": [
+          {
+            "path": "{scriptsDir}/個別化レイヤー_Rh.anm2",
+            "XXH3_128": "8de802493e43f388a4318aa818b21e20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne_0.StatusLink_Rh",
+    "name": "ステータスリンク_Rh",
+    "type": "スクリプト",
+    "summary": "指定したオブジェクトの状態を別のオブジェクトに同期するスクリプト",
+    "description": "./md/Rhapthorne_0.StatusLink_Rh.md",
+    "author": "ラプソーン",
+    "repoURL": "https://twitter.com/Rhapthorne_0/status/2003616617566204199",
+    "latest-version": "2026.06.19",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "オブジェクト操作",
+      "配置"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1owzlK7Hd6RhaJlTpXyY-uZGHUr_JQh68"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/ステータスリンク_Rh.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ステータスリンク_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2026.06.19",
+        "release_date": "2026-06-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/ステータスリンク_Rh.anm2",
+            "XXH3_128": "679bcb6e5608b5b8c9cb9ba108bb4415"
+          }
+        ]
+      }
+    ]
   }
 ]
