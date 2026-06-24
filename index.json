@@ -29986,6 +29986,10 @@
       },
       "install": [
         {
+          "action": "delete",
+          "path": "{pluginsDir}/SourceMonitor/SourceMonitor.aux2"
+        },
+        {
           "action": "download"
         },
         {
