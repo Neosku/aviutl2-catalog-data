@@ -6457,7 +6457,7 @@
     "description": "./md/sigma-axis.PageRoll_S.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_PageRoll_S",
-    "latest-version": "v1.12-for-beta25",
+    "latest-version": "v1.20-for-beta51",
     "popularity": 727,
     "trend": 28,
     "licenses": [
@@ -6552,6 +6552,16 @@
           {
             "path": "{scriptsDir}/PageRoll_S.anm2",
             "XXH3_128": "93ff295982ee5790d6e563b9ded9ac3f"
+          }
+        ]
+      },
+      {
+        "version": "v1.20-for-beta51",
+        "release_date": "2026-06-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/PageRoll_S.anm2",
+            "XXH3_128": ""
           }
         ]
       }
