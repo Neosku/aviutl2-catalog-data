@@ -30134,5 +30134,614 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Rhapthorne_0.HueCycle_Rh",
+    "name": "彩cle_Rh",
+    "type": "スクリプト",
+    "summary": "イン/アウトで単色化し、滑らかに色を変化させるスクリプト",
+    "description": "./md/Rhapthorne_0.HueCycle_Rh.md",
+    "author": "ラプソーン",
+    "repoURL": "https://twitter.com/Rhapthorne_0/status/1985646515592061158",
+    "latest-version": "2026.04.27",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "色調整",
+      "塗りつぶし"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1i9pQmMb_fNYxsN08qiLAZQXYKGNNYhE3"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/彩cle_Rh.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/彩cle_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2026.04.27",
+        "release_date": "2026-04-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/彩cle_Rh.anm2",
+            "XXH3_128": "2bd46635b50254d3e46ed88796ec7317"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne_0.CompositionAsMultiObject_Rh",
+    "name": "個別化レイヤー_Rh",
+    "type": "スクリプト",
+    "summary": "画像合成(オブジェクト)を個別オブジェクトにするスクリプト",
+    "description": "./md/Rhapthorne_0.CompositionAsMultiObject_Rh.md",
+    "author": "ラプソーン",
+    "repoURL": "https://twitter.com/Rhapthorne_0/status/2063788101093208349",
+    "latest-version": "2026.06.16",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "オブジェクト操作"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1Bbqxfr3tGmZGmfwS4CS7vqH3bYHY3Qiv"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/個別化レイヤー_Rh.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/個別化レイヤー_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2026.06.16",
+        "release_date": "2026-06-16",
+        "file": [
+          {
+            "path": "{scriptsDir}/個別化レイヤー_Rh.anm2",
+            "XXH3_128": "8de802493e43f388a4318aa818b21e20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne_0.StatusLink_Rh",
+    "name": "ステータスリンク_Rh",
+    "type": "スクリプト",
+    "summary": "指定したオブジェクトの状態を別のオブジェクトに同期するスクリプト",
+    "description": "./md/Rhapthorne_0.StatusLink_Rh.md",
+    "author": "ラプソーン",
+    "repoURL": "https://twitter.com/Rhapthorne_0/status/2003616617566204199",
+    "latest-version": "2026.06.19",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "オブジェクト操作",
+      "配置"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1owzlK7Hd6RhaJlTpXyY-uZGHUr_JQh68"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/ステータスリンク_Rh.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ステータスリンク_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2026.06.19",
+        "release_date": "2026-06-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/ステータスリンク_Rh.anm2",
+            "XXH3_128": "679bcb6e5608b5b8c9cb9ba108bb4415"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne_0.Strobe_Rh",
+    "name": "ストロボ_Rh",
+    "type": "スクリプト",
+    "summary": "イン/アウトに点滅を適用するスクリプト",
+    "description": "./md/Rhapthorne_0.Strobe_Rh.md",
+    "author": "ラプソーン",
+    "repoURL": "https://twitter.com/Rhapthorne_0/status/1985646515592061158",
+    "latest-version": "2026.04.27",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "アニメーション"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1-1-eknS0LOex0itEx0MTVq8GwpSqAyZn"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/ストロボ_Rh.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ストロボ_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2026.04.27",
+        "release_date": "2026-04-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/ストロボ_Rh.anm2",
+            "XXH3_128": "b6b6a18996baf2dabcf2e21ae21d060c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne_0.ShowParameters_Rh",
+    "name": "パラメータ表示_Rh",
+    "type": "スクリプト",
+    "summary": "各種パラメータを表示できるスクリプト",
+    "description": "./md/Rhapthorne_0.ShowParameters_Rh.md",
+    "author": "ラプソーン",
+    "repoURL": "https://twitter.com/Rhapthorne_0/status/2040957660900544965",
+    "latest-version": "2026.04.05",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "便利ツール",
+      "オブジェクト操作"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1kgP1ZEu5HVTT5iWXDHy3j4jLuc4fWzUl"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/パラメータ表示_Rh.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/パラメータ表示_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2026.04.05",
+        "release_date": "2026-04-05",
+        "file": [
+          {
+            "path": "{scriptsDir}/パラメータ表示_Rh.anm2",
+            "XXH3_128": "1ea461a788317f68366787261e003b78"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne_0.IndividualBasicEffects",
+    "name": "基本効果(個別指定)",
+    "type": "スクリプト",
+    "summary": "個別オブジェクトに対してそれぞれ基本効果を指定するスクリプト",
+    "description": "./md/Rhapthorne_0.IndividualBasicEffects.md",
+    "author": "ラプソーン",
+    "repoURL": "https://twitter.com/Rhapthorne_0/status/1990342570116034832",
+    "latest-version": "2026.04.27",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "変形",
+      "配置",
+      "オブジェクト操作"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1atfFGLpDUuI1iIxRrJG_bLGbO-gnuFJM"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/基本効果(個別指定).anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/基本効果(個別指定).anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2026.04.27",
+        "release_date": "2026-04-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/基本効果(個別指定).anm2",
+            "XXH3_128": "d8be8c992e07674e9f15ddbf83c0c787"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne_0.RotationRaster_Rh",
+    "name": "回転ラスター_Rh",
+    "type": "スクリプト",
+    "summary": "回転ラスター効果を加えるスクリプト",
+    "description": "./md/Rhapthorne_0.RotationRaster_Rh.md",
+    "author": "ラプソーン",
+    "repoURL": "https://twitter.com/Rhapthorne_0/status/1988879507135094998",
+    "latest-version": "2026.01.28",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "変形",
+      "ぼかし"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1I01ILTGE20xYeY2aK0YyWgNCsPguxveG"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/回転ラスター_Rh.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/回転ラスター_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2026.01.28",
+        "release_date": "2026-01-28",
+        "file": [
+          {
+            "path": "{scriptsDir}/回転ラスター_Rh.anm2",
+            "XXH3_128": "95ff1ce39ab3054bd274ad3c92532ed6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne_0.TransformCoords_Rh",
+    "name": "座標の回転・拡大_Rh",
+    "type": "スクリプト",
+    "summary": "指定した中心を基準に、座標の回転・拡大を行うスクリプト",
+    "description": "./md/Rhapthorne_0.TransformCoords_Rh.md",
+    "author": "ラプソーン",
+    "repoURL": "https://twitter.com/Rhapthorne_0/status/2045698905698914323",
+    "latest-version": "2026.06.23",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "移動",
+      "配置"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1x6SakRqfNJve78Z7MVySQ6_sYhjCvEYV"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/座標の回転・拡大_Rh.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/座標の回転・拡大_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2026.06.23",
+        "release_date": "2026-06-23",
+        "file": [
+          {
+            "path": "{scriptsDir}/座標の回転・拡大_Rh.anm2",
+            "XXH3_128": "6cc47e474c8838686522205cbef32173"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne_0.RepeatedDraw_Rh",
+    "name": "描画リピーター_Rh",
+    "type": "スクリプト",
+    "summary": "描画（とパラメータ)を時間差で複製・配置するスクリプト",
+    "description": "./md/Rhapthorne_0.RepeatedDraw_Rh.md",
+    "author": "ラプソーン",
+    "repoURL": "https://twitter.com/Rhapthorne_0/status/2035884231889404163",
+    "latest-version": "2026.05.10",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "配置"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1os8y4Tz6AoCOxw-KfV92hFfjYDw7K3Dg"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/描画リピーター_Rh.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/描画リピーター_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2026.05.10",
+        "release_date": "2026-05-10",
+        "file": [
+          {
+            "path": "{scriptsDir}/描画リピーター_Rh.anm2",
+            "XXH3_128": "0ed815095e3745c024b2e5d546536c84"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne_0.TimeDelay_Rh",
+    "name": "TimeDelay_Rh",
+    "type": "スクリプト",
+    "summary": "後段のエフェクトをディレイさせるスクリプト",
+    "description": "./md/Rhapthorne_0.TimeDelay_Rh.md",
+    "author": "ラプソーン",
+    "repoURL": "https://twitter.com/Rhapthorne_0/status/2056177955601072592",
+    "latest-version": "2026.05.14",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "アニメーション",
+      "ディレイ"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "14zGgPj34MRVkEYplHfsQxmh1fYZfZe71"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/TimeDelay_Rh.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/TimeDelay_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2026.05.14",
+        "release_date": "2026-05-14",
+        "file": [
+          {
+            "path": "{scriptsDir}/TimeDelay_Rh.anm2",
+            "XXH3_128": "cef5a798744dba08168db2201ff743a7"
+          }
+        ]
+      }
+    ]
   }
 ]
