@@ -29617,7 +29617,7 @@
     "author": "negi",
     "originalAuthor": "Nagomiku",
     "repoURL": "https://github.com/naerecnegi-spec/RtAv2_AU2V",
-    "latest-version": "V1.2.1",
+    "latest-version": "V1.2.2",
     "popularity": 11,
     "trend": 9,
     "licenses": [
@@ -29675,6 +29675,16 @@
           {
             "path": "{scriptsDir}/RtAv2/@RtAv2.anm2",
             "XXH3_128": "14de6d0e2dd92b10d6564161080d42d5"
+          }
+        ]
+      },
+      {
+        "version": "V1.2.2",
+        "release_date": "2026-06-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/RtAv2.lua",
+            "XXH3_128": "057075addfde9bdd21e5658a6a83db31"
           }
         ]
       }
