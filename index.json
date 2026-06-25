@@ -30858,5 +30858,790 @@
         ]
       }
     ]
+  },
+  {
+    "id": "CatWithNeko.Gamma",
+    "name": "Gamma",
+    "type": "スクリプト",
+    "summary": "RGBまたは全体にかかるガンマ補正",
+    "description": "./md/CatWithNeko.Gamma.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts#gamma",
+    "latest-version": "2025.07.28",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/Gamma.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Gamma.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Gamma.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.07.28",
+        "release_date": "2025-07-28",
+        "file": [
+          {
+            "path": "{scriptsDir}/Gamma.anm2",
+            "XXH3_128": "ccfb8117bc5a4e4d6ea0f4dcab21de8a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CatWithNeko.Level",
+    "name": "Level",
+    "type": "スクリプト",
+    "summary": "レベル補正っぽいやつ",
+    "description": "./md/CatWithNeko.Level.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts#level",
+    "latest-version": "2025.07.28",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/Level.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Level.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Level.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.07.28",
+        "release_date": "2025-07-28",
+        "file": [
+          {
+            "path": "{scriptsDir}/Level.anm2",
+            "XXH3_128": "59f81000e619622301a1234269941fe0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CatWithNeko.Exposure",
+    "name": "Exposure",
+    "type": "スクリプト",
+    "summary": "露出・ガンマ・オフセットの補正をかける",
+    "description": "./md/CatWithNeko.Exposure.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts#exposure",
+    "latest-version": "2025.08.16",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/Exposure.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Exposure.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Exposure.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.08.16",
+        "release_date": "2025-08-16",
+        "file": [
+          {
+            "path": "{scriptsDir}/Exposure.anm2",
+            "XXH3_128": "67bda6742a53574a8f0c42ba064a2f35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CatWithNeko.Dither",
+    "name": "Dither",
+    "type": "スクリプト",
+    "summary": "閾値がランダム変化する二値化",
+    "description": "./md/CatWithNeko.Dither.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts#dither",
+    "latest-version": "2025.08.17",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/Dither.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Dither.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Dither.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.08.17",
+        "release_date": "2025-08-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/Dither.anm2",
+            "XXH3_128": "1c1512be42fc34611f930a0ae0daefdd"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CatWithNeko.Erosion",
+    "name": "Erosion",
+    "type": "スクリプト",
+    "summary": "輪郭を削るだけのシンプルなエフェクト 縁取りの逆",
+    "description": "./md/CatWithNeko.Erosion.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts#erosion",
+    "latest-version": "2025.08.01",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/Erosion.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Erosion.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Erosion.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.08.01",
+        "release_date": "2025-08-01",
+        "file": [
+          {
+            "path": "{scriptsDir}/Erosion.anm2",
+            "XXH3_128": "1912cc63f513f3acf0f919215cb0f328"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CatWithNeko.ChromaticAberration",
+    "name": "Chromatic Aberration",
+    "type": "スクリプト",
+    "summary": "簡易色収差",
+    "description": "./md/CatWithNeko.ChromaticAberration.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts#chromatic-aberration",
+    "latest-version": "2025.08.03",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/Chromatic%20Aberration.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Chromatic Aberration.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Chromatic Aberration.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.08.03",
+        "release_date": "2025-08-03",
+        "file": [
+          {
+            "path": "{scriptsDir}/Chromatic Aberration.anm2",
+            "XXH3_128": "23a52860a32b9810a300e510e4f1dfd8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CatWithNeko.Colorama",
+    "name": "Colorama",
+    "type": "スクリプト",
+    "summary": "簡易コロラマ",
+    "description": "./md/CatWithNeko.Colorama.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts#colorama",
+    "latest-version": "2025.09.07",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/Colorama.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Colorama.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Colorama.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.09.07",
+        "release_date": "2025-09-07",
+        "file": [
+          {
+            "path": "{scriptsDir}/Colorama.anm2",
+            "XXH3_128": "867595312acf7ea61ffb37787cd72574"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CatWithNeko.LeaveColor",
+    "name": "Leave Color",
+    "type": "スクリプト",
+    "summary": "色抜き",
+    "description": "./md/CatWithNeko.LeaveColor.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts#leave-color",
+    "latest-version": "2025.08.17",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/Leave%20Color.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Leave Color.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Leave Color.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.08.17",
+        "release_date": "2025-08-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/Leave Color.anm2",
+            "XXH3_128": "acb10e79703760714d170e9e6a38ea69"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CatWithNeko.Turbulent",
+    "name": "Turbulent",
+    "type": "スクリプト",
+    "summary": "簡易タービュレントディスプレイス",
+    "description": "./md/CatWithNeko.Turbulent.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts#turbulent",
+    "latest-version": "2025.08.18",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/Turbulent.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Turbulent.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Turbulent.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.08.18",
+        "release_date": "2025-08-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/Turbulent.anm2",
+            "XXH3_128": "6a5242cb200deb14c4a251924bedf1fe"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CatWithNeko.MaxMin",
+    "name": "MaxMin",
+    "type": "スクリプト",
+    "summary": "最大値・最小値フィルタ",
+    "description": "./md/CatWithNeko.MaxMin.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts#maxmin",
+    "latest-version": "2025.08.19",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/MaxMin.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/MaxMin.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/MaxMin.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.08.19",
+        "release_date": "2025-08-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/MaxMin.anm2",
+            "XXH3_128": "ece0896c3a8851f0dcf92f90289ebc8c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CatWithNeko.SelfDisplace",
+    "name": "SelfDisplace",
+    "type": "スクリプト",
+    "summary": "自身を基準にディスプレイスメントマップ(移動・回転・拡大)をかける",
+    "description": "./md/CatWithNeko.SelfDisplace.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts#selfdisplace",
+    "latest-version": "2025.08.25",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/SelfDisplace.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SelfDisplace.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/SelfDisplace.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.08.25",
+        "release_date": "2025-08-25",
+        "file": [
+          {
+            "path": "{scriptsDir}/SelfDisplace.anm2",
+            "XXH3_128": "707409cf811f990694a77415933b6aea"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CatWithNeko.WaveWarp",
+    "name": "Wave Warp",
+    "type": "スクリプト",
+    "summary": "角度と波形を指定できるラスター",
+    "description": "./md/CatWithNeko.WaveWarp.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts#wave-warp",
+    "latest-version": "2025.08.28",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/Wave%20Warp.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Wave Warp.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Wave Warp.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.08.28",
+        "release_date": "2025-08-28",
+        "file": [
+          {
+            "path": "{scriptsDir}/Wave Warp.anm2",
+            "XXH3_128": "713531b4fd7d5c2d871d5d808527eead"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CatWithNeko.Mosaic",
+    "name": "Mosaic_C",
+    "type": "スクリプト",
+    "summary": "シャープなモザイク",
+    "description": "./md/CatWithNeko.Mosaic.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts#mosaic_c",
+    "latest-version": "2026.04.16",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/Mosaic_C.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Mosaic_C.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Mosaic_C.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2026.04.16",
+        "release_date": "2026-04-16",
+        "file": [
+          {
+            "path": "{scriptsDir}/Mosaic_C.anm2",
+            "XXH3_128": "d6c276e95b7cf62bc3fa218a65af28c6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CatWithNeko.AlphaDither",
+    "name": "AlphaDither_C",
+    "type": "スクリプト",
+    "summary": "いわゆるディザ合成",
+    "description": "./md/CatWithNeko.AlphaDither.md",
+    "author": "こんにゃくねこ",
+    "repoURL": "https://github.com/CatWithNeko/aviutl2-scripts#alphadither_c",
+    "latest-version": "2026.04.18",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "CC0-1.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/AlphaDither.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/AlphaDither.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/AlphaDither.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2026.04.18",
+        "release_date": "2026-04-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/AlphaDither.anm2",
+            "XXH3_128": "73b0c5cbbaaf1264eadc25d7f66d1cf0"
+          }
+        ]
+      }
+    ]
   }
+]
 ]
