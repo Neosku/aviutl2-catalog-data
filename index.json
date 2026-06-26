@@ -6008,7 +6008,7 @@
     "description": "./md/sigma-axis.ColoredCollar_S.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_ColoredCollar_S",
-    "latest-version": "v1.00-for-beta5",
+    "latest-version": "v2.00-for-beta51",
     "popularity": 793,
     "trend": 31,
     "licenses": [
@@ -6066,6 +6066,16 @@
           {
             "path": "{scriptsDir}/ColoredCollar_S.anm2",
             "XXH3_128": "c6a22d366802bc08e2b30637c5011ab1"
+          }
+        ]
+      },
+      {
+        "version": "v2.00-for-beta51",
+        "release_date": "2026-06-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/ColoredCollar_S.anm2",
+            "XXH3_128": "b421cba6d3d06f369826d4da2ceb8905"
           }
         ]
       }
