@@ -443,7 +443,7 @@
   },
   {
     "id": "sigma-axis.ColoredCollar_S",
-    "latest-version": "v1.00-for-beta5",
+    "latest-version": "v2.00-for-beta51",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_ColoredCollar_S",
@@ -2552,7 +2552,7 @@
   },
   {
     "id": "sigma-axis.translations_sigma-axis",
-    "latest-version": "r32",
+    "latest-version": "r33",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_translations_sigma-axis",
