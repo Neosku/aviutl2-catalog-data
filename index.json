@@ -21326,7 +21326,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v3.3.6",
+    "latest-version": "v3.3.7",
     "popularity": 634,
     "trend": 222,
     "licenses": [
@@ -21863,6 +21863,16 @@
           {
             "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
             "XXH3_128": "91c53deae76c4d717d5107909e95a540"
+          }
+        ]
+      },
+      {
+        "version": "v3.3.7",
+        "release_date": "2026-06-27",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "7999f4c55520f062504b5576e4304c19"
           }
         ]
       }
