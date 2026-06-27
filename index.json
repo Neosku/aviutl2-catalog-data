@@ -1953,7 +1953,12 @@
       {
         "version": "9.21",
         "release_date": "2026-06-27",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "5136cb15968f28ef790678e6011922ec"
+          }
+        ]
       }
     ]
   },
