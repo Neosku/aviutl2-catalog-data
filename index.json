@@ -2444,7 +2444,7 @@
     "description": "./md/rigaya.VCEEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/VCEEnc",
-    "latest-version": "9.06",
+    "latest-version": "9.07",
     "popularity": 491,
     "trend": 163,
     "licenses": [
@@ -2598,6 +2598,16 @@
           {
             "path": "{pluginsDir}/VCEEnc.auo2",
             "XXH3_128": "91e8d992148d3536ac79426c1e262e94"
+          }
+        ]
+      },
+      {
+        "version": "9.07",
+        "release_date": "2026-06-28",
+        "file": [
+          {
+            "path": "{pluginsDir}/VCEEnc.auo2",
+            "XXH3_128": "40cc7c31be42554966b02fbf1dcd1fb6"
           }
         ]
       }
