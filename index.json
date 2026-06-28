@@ -27593,7 +27593,7 @@
     "description": "./md/Karoterra.Typst.md",
     "author": "かろてら",
     "repoURL": "https://github.com/karoterra/aviutl2-typst",
-    "latest-version": "v0.1.1",
+    "latest-version": "v0.2.0",
     "popularity": 111,
     "trend": 12,
     "licenses": [
@@ -27718,6 +27718,16 @@
           {
             "path": "{pluginsDir}/Karoterra.Typst/typst_kr.aux2",
             "XXH3_128": "29d3d99cf1643d16280dd23afb4b90da"
+          }
+        ]
+      },
+      {
+        "version": "v0.2.0",
+        "release_date": "2026-06-28",
+        "file": [
+          {
+            "path": "{pluginsDir}/Karoterra.Typst/typst_kr.aux2",
+            "XXH3_128": "ed54ceb387cd9d86d0a9eb6b09bfba19"
           }
         ]
       }
