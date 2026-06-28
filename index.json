@@ -1973,7 +1973,12 @@
       {
         "version": "9.22",
         "release_date": "2026-06-28",
-        "file": []
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "c545003e2136d15ffc7c949798fac7b8"
+          }
+        ]
       }
     ]
   },
