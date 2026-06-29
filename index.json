@@ -30006,12 +30006,21 @@
           "action": "copy",
           "from": "{tmp}/Script/RtAv2",
           "to": "{scriptsDir}/RtAv2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2",
+          "to": "{dataDir}/Alias/RtAv2"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/RtAv2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2"
         }
       ]
     },
@@ -30071,8 +30080,8 @@
         "release_date": "2026-06-29",
         "file": [
           {
-            "path": "{scriptsDir}/RtAv2.lua",
-            "XXH3_128": "485562fc73f875098425cb85d06cf2c6"
+            "path": "{scriptsDir}/RtAv2/@RtAv2.anm2",
+            "XXH3_128": "2aa8aaa6b84438dbae589cb1536f2def"
           }
         ]
       }
