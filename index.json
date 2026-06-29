@@ -9360,8 +9360,8 @@
     "id": "korarei.CameraTransform_K",
     "name": "CameraTransform_K",
     "type": "スクリプト",
-    "summary": "カメラ操作感を変更するスクリプト群",
-    "description": "./md/korarei.CameraTransform_K.md",
+    "summary": "AviUtl ExEdit2 向けカメラ調整用ツール",
+    "description": "https://raw.githubusercontent.com/korarei/AviUtl2_CameraTransform_K_Script/refs/heads/main/README.md",
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_CameraTransform_K_Script",
     "latest-version": "v2.0.0",
@@ -9380,38 +9380,25 @@
         "licenseBody": null
       }
     ],
+    "niconiCommonsId": "sm45278318",
     "tags": [
       "カメラ"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/korarei.CameraTransform_K_thumbnail.webp"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
           "owner": "korarei",
           "repo": "AviUtl2_CameraTransform_K_Script",
-          "pattern": "@CameraTransform_K.*\\.zip$"
+          "pattern": "CameraTransform_K.*\\.zip$"
         }
       },
       "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "extract"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/@CameraTransform_K/@CameraTransform_K.cam2",
-          "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/@CameraTransform_K/CameraTransform_K.mod2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/@CameraTransform_K.cam2"
@@ -9422,7 +9409,82 @@
         },
         {
           "action": "delete",
-          "path": "{scriptsDir}/CameraTransform_K.dill"
+          "path": "{scriptsDir}/CameraTransform_K.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@CameraTransform_K"
+        },
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/CameraTransform_K/@CameraTransform_K.anm2",
+          "to": "{scriptsDir}/CameraTransform_K"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/CameraTransform_K/@CameraTransform_K.cam2",
+          "to": "{scriptsDir}/CameraTransform_K"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/CameraTransform_K/CameraTransform_K.mod2",
+          "to": "{scriptsDir}/CameraTransform_K"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/CameraTransform_K/CHANGELOG.md",
+          "to": "{scriptsDir}/CameraTransform_K"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/CameraTransform_K/LICENSE",
+          "to": "{scriptsDir}/CameraTransform_K"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/CameraTransform_K/README.md",
+          "to": "{scriptsDir}/CameraTransform_K"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/CameraTransform_K/THIRD_PARTY_LICENSES.md",
+          "to": "{scriptsDir}/CameraTransform_K"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CameraTransform_K/@CameraTransform_K.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CameraTransform_K/@CameraTransform_K.cam2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CameraTransform_K/CameraTransform_K.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CameraTransform_K/CHANGELOG.md"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CameraTransform_K/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CameraTransform_K/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CameraTransform_K/THIRD_PARTY_LICENSES.md"
         }
       ]
     },
@@ -9490,7 +9552,12 @@
       {
         "version": "v2.0.0",
         "release_date": "2026-06-29",
-        "file": []
+        "file": [
+          {
+            "path": "{scriptsDir}/CameraTransform_K/@CameraTransform_K.cam2",
+            "XXH3_128": "2709c69ae2756e966eefc77fc684a46d"
+          }
+        ]
       }
     ]
   },
