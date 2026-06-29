@@ -9364,7 +9364,7 @@
     "description": "./md/korarei.CameraTransform_K.md",
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_CameraTransform_K_Script",
-    "latest-version": "v1.0.5",
+    "latest-version": "v2.0.0",
     "popularity": 1344,
     "trend": 73,
     "licenses": [
@@ -9486,6 +9486,11 @@
             "XXH3_128": "98c956f70097029dc3367050c14abf77"
           }
         ]
+      },
+      {
+        "version": "v2.0.0",
+        "release_date": "2026-06-29",
+        "file": []
       }
     ]
   },
