@@ -29955,7 +29955,7 @@
     "author": "negi",
     "originalAuthor": "Nagomiku",
     "repoURL": "https://github.com/naerecnegi-spec/RtAv2_AU2V",
-    "latest-version": "V1.2.2",
+    "latest-version": "V2.0.0",
     "popularity": 34,
     "trend": 39,
     "licenses": [
@@ -29994,14 +29994,230 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Script/RtAv2",
+          "from": "{tmp}/Script/RtAv2/@RtAv2.anm2",
           "to": "{scriptsDir}/RtAv2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/RtAv2/@RtAv2(エフェクト).anm2",
+          "to": "{scriptsDir}/RtAv2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/RtAv2/@RtAv2(読込系).anm2",
+          "to": "{scriptsDir}/RtAv2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/RtAv2/@RtAv2(描画系).anm2",
+          "to": "{scriptsDir}/RtAv2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/RtAv2/RtAv2.lua",
+          "to": "{scriptsDir}/RtAv2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/RtAv2/RtAv2Function.lua",
+          "to": "{scriptsDir}/RtAv2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2/rpp読み込み.object",
+          "to": "{dataDir}/Alias/RtAv2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2/回転.object",
+          "to": "{dataDir}/Alias/RtAv2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2/拡大率.object",
+          "to": "{dataDir}/Alias/RtAv2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2/座標.object",
+          "to": "{dataDir}/Alias/RtAv2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2/初期化_描画.object",
+          "to": "{dataDir}/Alias/RtAv2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2/透明度.object",
+          "to": "{dataDir}/Alias/RtAv2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2/動画/回転.object",
+          "to": "{dataDir}/Alias/RtAv2/動画"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2/動画/拡大率.object",
+          "to": "{dataDir}/Alias/RtAv2/動画"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2/動画/座標.object",
+          "to": "{dataDir}/Alias/RtAv2/動画"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2/動画/初期化_描画.object",
+          "to": "{dataDir}/Alias/RtAv2/動画"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2/動画/透明度.object",
+          "to": "{dataDir}/Alias/RtAv2/動画"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2/動画/反転_座標_回転_拡大率_透明度.object",
+          "to": "{dataDir}/Alias/RtAv2/動画"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2/動画/反転.object",
+          "to": "{dataDir}/Alias/RtAv2/動画"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2/反転_座標_回転_拡大率_透明度.object",
+          "to": "{dataDir}/Alias/RtAv2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2/反転.object",
+          "to": "{dataDir}/Alias/RtAv2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2/複数描画(下から上に).object",
+          "to": "{dataDir}/Alias/RtAv2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2/複数描画(拡大登場).object",
+          "to": "{dataDir}/Alias/RtAv2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2/複数描画(順に回転).object",
+          "to": "{dataDir}/Alias/RtAv2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/RtAv2/複数描画(単調).object",
+          "to": "{dataDir}/Alias/RtAv2"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{scriptsDir}/RtAv2"
+          "path": "{scriptsDir}/RtAv2/@RtAv2.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/RtAv2/@RtAv2(エフェクト).anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/RtAv2/@RtAv2(読込系).anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/RtAv2/@RtAv2(描画系).anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/RtAv2/RtAv2.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/RtAv2/RtAv2Function.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2/rpp読み込み.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2/回転.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2/拡大率.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2/座標.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2/初期化_描画.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2/透明度.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2/動画/回転.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2/動画/拡大率.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2/動画/座標.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2/動画/初期化_描画.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2/動画/透明度.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2/動画/反転_座標_回転_拡大率_透明度.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2/動画/反転.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2/反転_座標_回転_拡大率_透明度.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2/反転.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2/複数描画(下から上に).object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2/複数描画(拡大登場).object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2/複数描画(順に回転).object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/RtAv2/複数描画(単調).object"
         }
       ]
     },
@@ -30053,6 +30269,16 @@
           {
             "path": "{scriptsDir}/RtAv2/@RtAv2.anm2",
             "XXH3_128": "7a7666573b86d44db37f9235e1ff5d4b"
+          }
+        ]
+      },
+      {
+        "version": "V2.0.0",
+        "release_date": "2026-06-29",
+        "file": [
+          {
+            "path": "{scriptsDir}/RtAv2/@RtAv2.anm2",
+            "XXH3_128": "2aa8aaa6b84438dbae589cb1536f2def"
           }
         ]
       }
