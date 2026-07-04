@@ -27678,7 +27678,11 @@
       "UI"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/sigma-axis.translations_sigma-axis_thumbnail.webp"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
