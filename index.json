@@ -23,11 +23,7 @@
       "必須"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/Kenkun.AviUtlExEdit2_thumbnail.png"
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta53_setup.exe"
