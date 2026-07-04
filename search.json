@@ -383,7 +383,7 @@
   },
   {
     "id": "sigma-axis.Path_S",
-    "latest-version": "v1.20-for-beta43",
+    "latest-version": "v2.00-for-beta52",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_Path_S",
@@ -2552,7 +2552,7 @@
   },
   {
     "id": "sigma-axis.translations_sigma-axis",
-    "latest-version": "r34",
+    "latest-version": "r35",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_translations_sigma-axis",
