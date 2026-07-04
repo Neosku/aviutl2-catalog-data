@@ -5368,7 +5368,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Basic_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Basic_S",
-    "latest-version": "v2.41-for-beta52",
+    "latest-version": "v2.43-for-beta53",
     "popularity": 8420,
     "trend": 2266,
     "licenses": [
@@ -5781,6 +5781,16 @@
           {
             "path": "{scriptsDir}/@Basic_S.anm2",
             "XXH3_128": "b7bf309f6fb4cc200d8686fdcf057fa3"
+          }
+        ]
+      },
+      {
+        "version": "v2.43-for-beta53",
+        "release_date": "2026-07-05",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Basic_S.anm2",
+            "XXH3_128": "f85068a83dd32600f8b08ff48dabd870"
           }
         ]
       }
