@@ -32977,5 +32977,75 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sevenc-nanashi.import_midi_tempos-aux2",
+    "name": "import_midi_tempos.aux2",
+    "type": "汎用プラグイン",
+    "summary": "MIDIファイルからBPMを取得し、タイムラインに反映するプラグイン",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/import_midi_tempos.aux2/refs/heads/main/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/import_midi_tempos.aux2",
+    "latest-version": "0.2.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT License\r\n\r\nCopyright (c) 2026 Nanashi. <sevenc7c.com>\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
+      }
+    ],
+    "tags": [
+      "BPM",
+      "MIDI"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/sevenc-nanashi.import_midi_tempos-aux2_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "import_midi_tempos.aux2",
+          "pattern": "^sevenc-nanashi\\.import_midi_tempos-aux2-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/import_midi_tempos.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/import_midi_tempos.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.2.0",
+        "release_date": "2026-07-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/import_midi_tempos.aux2",
+            "XXH3_128": "40ef65ff466a400267a3b7ffe071ff2b"
+          }
+        ]
+      }
+    ]
   }
 ]
