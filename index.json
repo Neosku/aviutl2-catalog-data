@@ -29290,7 +29290,7 @@
     "description": "https://raw.githubusercontent.com/Book-0225/aviutl2_relink/refs/heads/master/README.md",
     "author": "Book0225",
     "repoURL": "https://github.com/Book-0225/aviutl2_relink",
-    "latest-version": "v0.0.7",
+    "latest-version": "v0.0.8",
     "popularity": 205,
     "trend": 143,
     "licenses": [
@@ -29388,6 +29388,20 @@
           {
             "path": "{pluginsDir}/aviutl2_relink.exe",
             "XXH3_128": "1d3b092e6c87786279075a211b5dfdc7"
+          }
+        ]
+      },
+      {
+        "version": "v0.0.8",
+        "release_date": "2026-07-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/aviutl2_relink_launcher.aux2",
+            "XXH3_128": "3add1ea5eda10b611df9e9209638524d"
+          },
+          {
+            "path": "{pluginsDir}/aviutl2_relink.exe",
+            "XXH3_128": "08274bf24e7907c3335f4cdd96967351"
           }
         ]
       }
