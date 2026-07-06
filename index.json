@@ -3663,6 +3663,16 @@
             "XXH3_128": "e6c11cbbbc992d4931479a72c9f81a34"
           }
         ]
+      },
+      {
+        "version": "r1281",
+        "release_date": "2026-07-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "d02400b8de2d74d58c94f00aecea2cc5"
+          }
+        ]
       }
     ]
   },
@@ -33057,106 +33067,6 @@
           {
             "path": "{pluginsDir}/import_midi_tempos.aux2",
             "XXH3_128": "40ef65ff466a400267a3b7ffe071ff2b"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "Gohankaiju.rich-audio-spectrum",
-    "name": "リッチな音声波形_Gk",
-    "type": "スクリプト",
-    "summary": "音声に反応するちょっとリッチなビジュアライザー",
-    "description": "./md/Gohankaiju.rich-audio-spectrum.md",
-    "author": "Gohankaiju",
-    "repoURL": "https://github.com/Gohankaiju/aviutl2-rich-audio-spectrum",
-    "latest-version": "v1.0.0",
-    "popularity": 0,
-    "trend": 0,
-    "licenses": [
-      {
-        "type": "MIT",
-        "isCustom": false,
-        "copyrights": [
-          {
-            "years": "2026",
-            "holder": "Gohankaiju"
-          }
-        ],
-        "licenseBody": null
-      }
-    ],
-    "tags": [
-      "カスタムオブジェクト",
-      "音声",
-      "スペクトラム"
-    ],
-    "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/Gohankaiju.rich-audio-spectrum_thumbnail.gif",
-        "infoImg": [
-          "./image/Gohankaiju.rich-audio-spectrum_1.png",
-          "./image/Gohankaiju.rich-audio-spectrum_2.png"
-        ]
-      }
-    ],
-    "installer": {
-      "source": {
-        "github": {
-          "owner": "Gohankaiju",
-          "repo": "aviutl2-rich-audio-spectrum",
-          "pattern": "^rich-audio-spectrum_v.*\\.zip$"
-        }
-      },
-      "install": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/rich-audio-spectrum"
-        },
-        {
-          "action": "download"
-        },
-        {
-          "action": "extract"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/rich-audio-spectrum",
-          "to": "{scriptsDir}/rich-audio-spectrum"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/rich-audio-spectrum"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v1.0.0",
-        "release_date": "2026-07-06",
-        "file": [
-          {
-            "path": "{scriptsDir}/rich-audio-spectrum/rich-audio-spectrum.obj2",
-            "XXH3_128": "540fe00e12c5b8456da466c971d42113"
-          },
-          {
-            "path": "{scriptsDir}/rich-audio-spectrum/ras_core.lua",
-            "XXH3_128": "5f79d3032210a132cf2e4bf3949f788f"
-          },
-          {
-            "path": "{scriptsDir}/rich-audio-spectrum/ras_draw.lua",
-            "XXH3_128": "1b6b6f0714a458f1257729a0a3a25e36"
-          },
-          {
-            "path": "{scriptsDir}/rich-audio-spectrum/ras_engine.lua",
-            "XXH3_128": "9733f551052e3214c7f48804f9305451"
-          },
-          {
-            "path": "{scriptsDir}/rich-audio-spectrum/ras_presets.lua",
-            "XXH3_128": "d4f813f2934d0c9d8d650930684a109d"
           }
         ]
       }
