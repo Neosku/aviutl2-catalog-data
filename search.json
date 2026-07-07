@@ -1,13 +1,13 @@
 [
   {
     "id": "Kenkun.AviUtlExEdit2",
-    "latest-version": "beta53a",
+    "latest-version": "v2.0.54",
     "checkType": {
       "type": "URL",
       "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
-      "regex": "aviutl2(beta[^.]+)\\.zip$",
-      "version_extract": "beta[^.]+",
-      "directTemplate": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2[version_extract]_setup.exe",
+      "regex": "aviutl2_(v[0-9.]+)\\.zip",
+      "version_extract": "v[0-9.]+",
+      "directTemplate": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2_[version_extract]_setup.exe",
       "hash-calc": [
         {
           "extract": "zip",
