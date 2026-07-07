@@ -30,7 +30,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta53a_setup.exe"
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2_v2.0.54_setup.exe"
       },
       "install": [
         {
@@ -757,6 +757,16 @@
           {
             "path": "{appDir}/aviutl2.exe",
             "XXH3_128": "c46926700ff0fb9f664017e1ba2f233e"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.54 ",
+        "release_date": "2026-07-07",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "a93b82b7e7e8480f7378c1912fcf34be"
           }
         ]
       }
