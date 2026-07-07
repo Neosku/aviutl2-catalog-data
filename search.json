@@ -5,8 +5,8 @@
     "checkType": {
       "type": "URL",
       "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
-      "regex": "aviutl2_(v[0-9.]+)\\.zip",
-      "version_extract": "v[0-9.]+",
+      "regex": "aviutl2_(v[0-9]+(?:\\.[0-9]+)+)\\.zip",
+      "version_extract": "v[0-9]+(?:\\.[0-9]+)+",
       "directTemplate": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2_[version_extract]_setup.exe",
       "hash-calc": [
         {
