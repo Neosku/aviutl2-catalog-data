@@ -33371,5 +33371,82 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.AudioFilter",
+    "name": "AudioFilter",
+    "type": "フィルタプラグイン",
+    "summary": "音声にエフェクト、電話風、無線風、反響、こもり、ナレーション補正が可能",
+    "description": "./md/VRAMWIZ.AudioFilter.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/Aul2AudioFilter",
+    "latest-version": "v0.0.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "nc490017",
+    "tags": [
+      "エフェクト",
+      "ノイズ",
+      "音声"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.AudioFilter_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "Aul2AudioFilter",
+          "pattern": "^Aul2AudioFilter\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Aul2AudioFilter/Aul2AudioFilter.auf2",
+          "to": "{pluginsDir}/Aul2AudioFilter"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Aul2AudioFilter/Aul2AudioFilter.auf2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.0.1",
+        "release_date": "2026-07-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/Aul2AudioFilter/Aul2AudioFilter.auf2",
+            "XXH3_128": "0aeaa6b03a4245af7bc207720005a545"
+          }
+        ]
+      }
+    ]
   }
 ]
