@@ -33459,5 +33459,111 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Karoterra.WaveformPreview",
+    "name": "Waveform Preview",
+    "type": "汎用プラグイン",
+    "summary": "AviUtl2 で編集中の音声波形を確認するためのプラグイン",
+    "description": "./md/Karoterra.WaveformPreview.md",
+    "author": "かろてら",
+    "repoURL": "https://github.com/karoterra/aviutl2-waveform-preview",
+    "latest-version": "0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "karoterra"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "音声"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "karoterra",
+          "repo": "aviutl2-waveform-preview",
+          "pattern": "^Karoterra\\.WaveformPreview-v.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Karoterra.WaveformPreview/LICENSE",
+          "to": "{pluginsDir}/Karoterra.WaveformPreview"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Karoterra.WaveformPreview/README.md",
+          "to": "{pluginsDir}/Karoterra.WaveformPreview"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Karoterra.WaveformPreview/THIRD-PARTY-LICENSES.html",
+          "to": "{pluginsDir}/Karoterra.WaveformPreview"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Karoterra.WaveformPreview/waveformpreview.aux2",
+          "to": "{pluginsDir}/Karoterra.WaveformPreview"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.waveformpreview.aul2",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Karoterra.WaveformPreview/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Karoterra.WaveformPreview/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Karoterra.WaveformPreview/THIRD-PARTY-LICENSES.html"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Karoterra.WaveformPreview/waveformpreview.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.waveformpreview.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.1.0",
+        "release_date": "2026-07-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/Karoterra.WaveformPreview/waveformpreview.aux2",
+            "XXH3_128": "308daf7cffd87d4ba13449b0b308c0a3"
+          }
+        ]
+      }
+    ]
   }
 ]
