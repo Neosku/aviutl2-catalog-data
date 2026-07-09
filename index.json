@@ -33483,5 +33483,73 @@
         ]
       }
     ]
+  },
+  {
+    "id": "nkopikaso.AviUtl2-WhisperAutoSub",
+    "name": "AviUtl2-WhisperAutoSub",
+    "type": "汎用プラグイン",
+    "summary": "Whisperを使用して動画・音声から自動で字幕を生成するプラグイン",
+    "description": "https://raw.githubusercontent.com/nkopikaso/AviUtl2-WhisperAutoSub/refs/heads/main/README.md",
+    "author": "nkopikaso",
+    "repoURL": "https://github.com/nkopikaso/AviUtl2-WhisperAutoSub",
+    "latest-version": "v2.8",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "nkopikaso"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "AI",
+      "字幕"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nkopikaso",
+          "repo": "AviUtl2-WhisperAutoSub",
+          "pattern": "whisper_subtitle.aux2"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/whisper_subtitle.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/whisper_subtitle.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v2.8",
+        "release_date": "2026-04-09",
+        "file": [
+          {
+            "path": "{pluginsDir}/whisper_subtitle.aux2",
+            "XXH3_128": "3a08017d72f2da695e323c9be958885d"
+          }
+        ]
+      }
+    ]
   }
 ]
