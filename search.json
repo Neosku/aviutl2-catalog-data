@@ -2966,7 +2966,7 @@
   },
   {
     "id": "eizo-gak.aviutl2-SourceMonitor",
-    "latest-version": "v1.1.1",
+    "latest-version": "1.1.1.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-sourcemonitor-bootstrapper.aux2",
@@ -3053,7 +3053,7 @@
   },
   {
     "id": "VRAMWIZ.AudioFilter",
-    "latest-version": "v0.0.1",
+    "latest-version": "v0.0.2",
     "checkType": {
       "type": "GitHub",
       "repo": "vramwiz/Aul2AudioFilter",

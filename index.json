@@ -31535,7 +31535,7 @@
     "description": "./md/eizo-gak.aviutl2-SourceMonitor.md",
     "author": "映像学区",
     "repoURL": "https://www.youtube.com/watch?v=2SjgBuMDvSM",
-    "latest-version": "v1.1.1",
+    "latest-version": "1.1.1.0",
     "popularity": 141,
     "trend": 116,
     "licenses": [
@@ -31653,6 +31653,16 @@
       {
         "version": "v1.1.1",
         "release_date": "2026-04-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/aviutl2-sourcemonitor/SourceMonitor.aux2.dll",
+            "XXH3_128": "f42245fdb161b61cd6c0558a003a1827"
+          }
+        ]
+      },
+      {
+        "version": "1.1.1.0",
+        "release_date": "2026-07-09",
         "file": [
           {
             "path": "{pluginsDir}/aviutl2-sourcemonitor/SourceMonitor.aux2.dll",
@@ -33401,7 +33411,7 @@
     "description": "./md/VRAMWIZ.AudioFilter.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/Aul2AudioFilter",
-    "latest-version": "v0.0.1",
+    "latest-version": "v0.0.2",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -33465,6 +33475,16 @@
           {
             "path": "{pluginsDir}/Aul2AudioFilter/Aul2AudioFilter.auf2",
             "XXH3_128": "0aeaa6b03a4245af7bc207720005a545"
+          }
+        ]
+      },
+      {
+        "version": "v0.0.2",
+        "release_date": "2026-07-09",
+        "file": [
+          {
+            "path": "{pluginsDir}/Aul2AudioFilter/Aul2AudioFilter.auf2",
+            "XXH3_128": "56c7e4556be2d4dd635e12a4953b27bd"
           }
         ]
       }
