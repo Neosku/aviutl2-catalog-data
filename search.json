@@ -452,7 +452,7 @@
         {
           "extract": "zip",
           "paths": [
-            "ColoredCollar_S.anm2"
+            "Script/ColoredCollar_S.anm2"
           ],
           "recordPaths": [
             "{scriptsDir}/ColoredCollar_S.anm2"
@@ -532,7 +532,7 @@
         {
           "extract": "zip",
           "paths": [
-            "AviUtl2/PageRoll_S.anm2"
+            "Script/PageRoll_S.anm2"
           ],
           "recordPaths": [
             "{scriptsDir}/PageRoll_S.anm2"
@@ -843,15 +843,15 @@
     "checkType": {
       "type": "GitHub",
       "repo": "korarei/AviUtl2_CameraTransform_K_Script",
-      "regex": "@CameraTransform_K.*\\.zip$",
+      "regex": "CameraTransform_K.*\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
           "paths": [
-            "@CameraTransform_K/@CameraTransform_K.cam2"
+            "Script/CameraTransform_K/@CameraTransform_K.cam2"
           ],
           "recordPaths": [
-            "{scriptsDir}/@CameraTransform_K.cam2"
+            "{scriptsDir}/CameraTransform_K/@CameraTransform_K.cam2"
           ]
         }
       ]
@@ -2910,15 +2910,15 @@
     "checkType": {
       "type": "GitHub",
       "repo": "naerecnegi-spec/RtAv2_AU2V",
-      "regex": "^RtAv2_AU2V.*\\.zip$",
+      "regex": "^RtAv2_AU2V\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
           "paths": [
-            "RtAv2.lua"
+            "Script/RtAv2/@RtAv2.anm2"
           ],
           "recordPaths": [
-            "{scriptsDir}/RtAv2.lua"
+            "{scriptsDir}/RtAv2/@RtAv2.anm2"
           ]
         }
       ]
@@ -2959,6 +2959,133 @@
           ],
           "recordPaths": [
             "{pluginsDir}/DepthMapFilter/DepthMapFilter.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "eizo-gak.aviutl2-SourceMonitor",
+    "latest-version": "v1.1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-sourcemonitor-bootstrapper.aux2",
+      "regex": "^sevenc-nanashi.aviutl2_sourcemonitor_bootstrapper-aux2-.*\\.au2pkg.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/aviutl2-sourcemonitor/SourceMonitor.aux2.dll"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2-sourcemonitor/SourceMonitor.aux2.dll"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Fuji.voice_drop",
+    "latest-version": "v0.1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Fuji07-2525/voice-drop",
+      "regex": "voice_drop.aux2",
+      "hash-calc": [
+        {
+          "paths": [
+            "voice_drop.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/voice_drop.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.import_midi_tempos-aux2",
+    "latest-version": "0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/import_midi_tempos.aux2",
+      "regex": "^sevenc-nanashi\\.import_midi_tempos-aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/import_midi_tempos.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/import_midi_tempos.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Gohankaiju.rich-audio-spectrum",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Gohankaiju/aviutl2-rich-audio-spectrum",
+      "regex": "^rich-audio-spectrum_v.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "rich-audio-spectrum/rich-audio-spectrum.obj2",
+            "rich-audio-spectrum/ras_core.lua",
+            "rich-audio-spectrum/ras_draw.lua",
+            "rich-audio-spectrum/ras_engine.lua",
+            "rich-audio-spectrum/ras_presets.lua"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/rich-audio-spectrum/rich-audio-spectrum.obj2",
+            "{scriptsDir}/rich-audio-spectrum/ras_core.lua",
+            "{scriptsDir}/rich-audio-spectrum/ras_draw.lua",
+            "{scriptsDir}/rich-audio-spectrum/ras_engine.lua",
+            "{scriptsDir}/rich-audio-spectrum/ras_presets.lua"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.AudioFilter",
+    "latest-version": "v0.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/Aul2AudioFilter",
+      "regex": "^Aul2AudioFilter\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Aul2AudioFilter/Aul2AudioFilter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Aul2AudioFilter/Aul2AudioFilter.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Karoterra.WaveformPreview",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "karoterra/aviutl2-waveform-preview",
+      "regex": "^Karoterra\\.WaveformPreview-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/Karoterra.WaveformPreview/waveformpreview.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Karoterra.WaveformPreview/waveformpreview.aux2"
           ]
         }
       ]
