@@ -9713,7 +9713,12 @@
       {
         "version": "v2.0.1",
         "release_date": "2026-07-04",
-        "file": []
+        "file": [
+          {
+            "path": "{scriptsDir}/CameraTransform_K/@CameraTransform_K.cam2",
+            "XXH3_128": "41b8570ea356fb11ac426c8e5bbaaa4e"
+          }
+        ]
       }
     ]
   },
