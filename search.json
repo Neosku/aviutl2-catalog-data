@@ -2905,26 +2905,6 @@
     }
   },
   {
-    "id": "negi.RtAv2_AU2V",
-    "latest-version": "V2.0.0",
-    "checkType": {
-      "type": "GitHub",
-      "repo": "naerecnegi-spec/RtAv2_AU2V",
-      "regex": "^RtAv2_AU2V\\.au2pkg\\.zip$",
-      "hash-calc": [
-        {
-          "extract": "zip",
-          "paths": [
-            "Script/RtAv2/@RtAv2.anm2"
-          ],
-          "recordPaths": [
-            "{scriptsDir}/RtAv2/@RtAv2.anm2"
-          ]
-        }
-      ]
-    }
-  },
-  {
     "id": "Garech.DateTime",
     "latest-version": "v2.0",
     "checkType": {
