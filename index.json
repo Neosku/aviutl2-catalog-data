@@ -24371,7 +24371,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/modify_group_num_layers.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/modify_group_num_layers.aux2",
-    "latest-version": "0.1.1",
+    "latest-version": "0.2.0",
     "popularity": 364,
     "trend": 36,
     "licenses": [
@@ -24451,6 +24451,16 @@
           {
             "path": "{pluginsDir}/modify_group_num_layers.aux2",
             "XXH3_128": "9c6f8e6ebe4fbce8aa70195e6d6423ac"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0",
+        "release_date": "2026-07-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/modify_group_num_layers.aux2",
+            "XXH3_128": "b6a1b4a9ff69b74ae7dcfa2e5e2bd2a4"
           }
         ]
       }
