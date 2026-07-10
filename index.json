@@ -33521,5 +33521,117 @@
         ]
       }
     ]
+  },
+  {
+    "id": "UndoFish.Easing2020",
+    "name": "トラックバー対応イージングスクリプト 2020版",
+    "type": "スクリプト",
+    "summary": "Tweenな感じのイージングスクリプトトラックバー対応版です。",
+    "description": "./md/UndoFish.Easing2020.md",
+    "author": "UndoFish",
+    "repoURL": "https://www.nicovideo.jp/watch/sm37721332",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "niconiCommonsId": "sm37721332",
+    "tags": [
+      "イージング",
+      "トラックバー"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/UndoFish.Easing2020_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://www.dropbox.com/s/clvaltohynpzmm9/easing_tra_2020.zip?dl=1"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@uf_easing.anm",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@uf_easing.tra",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/easing_aviutl2020.lua",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/easing.lua",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/easing.png",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/uf_easing.obj",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@uf_easing.anm"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@uf_easing.tra"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/easing_aviutl2020.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/easing.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/easing.png"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/uf_easing.obj"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2020-10-25",
+        "file": [
+          {
+            "path": "{scriptsDir}/@uf_easing.anm",
+            "XXH3_128": "5385d0a4a34d7d95dd39c666a8679501"
+          }
+        ]
+      }
+    ]
   }
 ]
