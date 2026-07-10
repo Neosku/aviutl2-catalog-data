@@ -33342,6 +33342,16 @@
           "action": "copy",
           "from": "{tmp}/Aul2AudioFilter/Aul2AudioMonitor.aux2",
           "to": "{pluginsDir}/Aul2AudioFilter"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Aul2AudioFilter/Aul2AudioBaseInput.aui2",
+          "to": "{pluginsDir}/Aul2AudioFilter"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Aul2AudioFilter/Aul2AudioView.auf2",
+          "to": "{pluginsDir}/Aul2AudioFilter"
         }
       ],
       "uninstall": [
@@ -33352,6 +33362,14 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/Aul2AudioFilter/Aul2AudioMonitor.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Aul2AudioFilter/Aul2AudioBaseInput.aui2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Aul2AudioFilter/Aul2AudioView.auf2"
         }
       ]
     },
