@@ -6522,7 +6522,7 @@
     "name": "Resize_S",
     "type": "スクリプト",
     "summary": "拡大縮小のアルゴリズムを選べるリサイズフィルタ",
-    "description": "./md/sigma-axis.Resize_S.md",
+    "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Resize_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Resize_S",
     "latest-version": "v1.20",
@@ -6534,7 +6534,7 @@
         "isCustom": false,
         "copyrights": [
           {
-            "years": "2025",
+            "years": "2025-2026",
             "holder": "sigma-axis"
           }
         ],
@@ -6547,7 +6547,14 @@
       "変形"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/sigma-axis.Resize_S_thumbnail.webp",
+        "infoImg": [
+          "./image/sigma-axis.Resize_S_1.png"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -6565,14 +6572,41 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/@Resize_S.anm2",
+          "from": "{tmp}/Script/@Resize_S.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Resize_S/LICENSE",
+          "to": "{scriptsDir}/Resize_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Resize_S/README.md",
+          "to": "{scriptsDir}/Resize_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.Resize_S.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/@Resize_S.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Resize_S/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Resize_S/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.Resize_S.aul2"
         }
       ]
     },
