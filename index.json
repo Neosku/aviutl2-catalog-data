@@ -33795,5 +33795,76 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Natadecoco.TextBackplate",
+    "name": "TextBackplate",
+    "type": "スクリプト",
+    "summary": "テキストの背面に図形を追加するスクリプト",
+    "description": "https://raw.githubusercontent.com/Natadecoco2539/AviUtl2-TextBackplate/refs/heads/main/README.md",
+    "author": "なたのこ",
+    "repoURL": "https://github.com/Natadecoco2539/AviUtl2-TextBackplate",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "なたのこ"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "テキスト",
+      "図形",
+      "アニメーション",
+      "配置",
+      "角丸"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Natadecoco2539",
+          "repo": "AviUtl2-TextBackplate",
+          "pattern": "TextBackplate.anm2"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/TextBackplate.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/TextBackplate.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-07-12",
+        "file": [
+          {
+            "path": "{scriptsDir}/TextBackplate.anm2",
+            "XXH3_128": "47a52eadb93f2dd4fe090438b76c8703"
+          }
+        ]
+      }
+    ]
   }
 ]
