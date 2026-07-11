@@ -2030,7 +2030,7 @@
     "description": "./md/rigaya.QSVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/QSVEnc",
-    "latest-version": "8.20",
+    "latest-version": "8.21",
     "popularity": 619,
     "trend": 187,
     "licenses": [
@@ -2334,6 +2334,16 @@
           {
             "path": "{pluginsDir}/QSVEnc.auo2",
             "XXH3_128": "a49ccd546d2a80a36781acee7599ff91"
+          }
+        ]
+      },
+      {
+        "version": "8.21",
+        "release_date": "2026-07-11",
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo2",
+            "XXH3_128": "2aa99dcc711f8c717690797de9f7ebc3"
           }
         ]
       }
