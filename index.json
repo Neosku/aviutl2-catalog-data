@@ -20335,7 +20335,7 @@
     "author": "Nanashi.",
     "originalAuthor": "Tinted Theming",
     "repoURL": "https://github.com/sevenc-nanashi/tinted-aviutl2",
-    "latest-version": "0.2.6",
+    "latest-version": "0.3.0",
     "popularity": 403,
     "trend": 37,
     "licenses": [
@@ -20464,6 +20464,16 @@
           {
             "path": "{pluginsDir}/tinted-aviutl2.aux2",
             "XXH3_128": "c12e749025b3905bddc1b83668001865"
+          }
+        ]
+      },
+      {
+        "version": "0.3.0",
+        "release_date": "2026-07-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/tinted-aviutl2.aux2",
+            "XXH3_128": "68a78004e27f15700306c49944963aa3"
           }
         ]
       }
@@ -23720,7 +23730,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/quantizer.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/quantizer.aux2",
-    "latest-version": "0.2.0",
+    "latest-version": "0.2.1",
     "popularity": 1701,
     "trend": 474,
     "licenses": [
@@ -23856,6 +23866,16 @@
           {
             "path": "{pluginsDir}/quantizer.aux2",
             "XXH3_128": "f3711cf0b4475c7b06c02ef73863b3f3"
+          }
+        ]
+      },
+      {
+        "version": "0.2.1",
+        "release_date": "2026-07-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/quantizer.aux2",
+            "XXH3_128": "1967601a75dc1306cdf5349ef80da01b"
           }
         ]
       }
