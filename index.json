@@ -30892,7 +30892,7 @@
     "description": "./md/VRAMWIZ.VW_Media_Output.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/VW_Media_Output/",
-    "latest-version": "v1.0.3",
+    "latest-version": "v1.0.4",
     "popularity": 207,
     "trend": 72,
     "licenses": [
@@ -31042,6 +31042,16 @@
           {
             "path": "{pluginsDir}/VW_Media_Output/VW_Media_Output.auo2",
             "XXH3_128": "9a21e1cc137de5868f7cf693bad69710"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.4",
+        "release_date": "2026-07-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/VW_Media_Output/VW_Media_Output.auo2",
+            "XXH3_128": "cc7d6fc278a95ec4c99f373f80f20c82"
           }
         ]
       }
