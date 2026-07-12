@@ -6535,7 +6535,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Resize_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Resize_S",
-    "latest-version": "v1.31",
+    "latest-version": "v1.32",
     "popularity": 723,
     "trend": 26,
     "licenses": [
@@ -6688,6 +6688,16 @@
           {
             "path": "{scriptsDir}/@Resize_S.anm2",
             "XXH3_128": "1ee2ad51d2c5abad920b0b243c1f8394"
+          }
+        ]
+      },
+      {
+        "version": "v1.32",
+        "release_date": "2026-07-12",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Resize_S.anm2",
+            "XXH3_128": "331d6b459d770beba6e2a0992865d20f"
           }
         ]
       }
