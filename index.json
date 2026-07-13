@@ -11956,7 +11956,11 @@
       "UI"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/hebiiro.al2_visual_font_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -19755,7 +19759,11 @@
       "UI"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/hebiiro.al2_ui_dressing_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
