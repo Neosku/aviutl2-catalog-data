@@ -11393,7 +11393,11 @@
       "UI"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/hebiiro.al2_preset_adder_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
