@@ -34107,7 +34107,7 @@
     "description": "https://raw.githubusercontent.com/nkopikaso/AviUtl2-WhisperAutoSub/refs/heads/main/README.md",
     "author": "nkopikaso",
     "repoURL": "https://github.com/nkopikaso/AviUtl2-WhisperAutoSub",
-    "latest-version": "v2.8",
+    "latest-version": "v2.8.1",
     "popularity": 34,
     "trend": 30,
     "licenses": [
@@ -34134,16 +34134,20 @@
         "github": {
           "owner": "nkopikaso",
           "repo": "AviUtl2-WhisperAutoSub",
-          "pattern": "whisper_subtitle.aux2"
+          "pattern": "WhisperAutoSub.aux2"
         }
       },
       "install": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/whisper_subtitle.aux2"
+        },
         {
           "action": "download"
         },
         {
           "action": "copy",
-          "from": "{tmp}/whisper_subtitle.aux2",
+          "from": "{tmp}/WhisperAutoSub.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -34151,6 +34155,10 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/whisper_subtitle.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/WhisperAutoSub.aux2"
         }
       ]
     },
@@ -34162,6 +34170,16 @@
           {
             "path": "{pluginsDir}/whisper_subtitle.aux2",
             "XXH3_128": "3a08017d72f2da695e323c9be958885d"
+          }
+        ]
+      },
+      {
+        "version": "v2.8.1",
+        "release_date": "2026-07-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/WhisperAutoSub.aux2",
+            "XXH3_128": "789bd0497a7f10c0534e93d6183e5562"
           }
         ]
       }
