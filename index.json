@@ -34375,5 +34375,85 @@
         ]
       }
     ]
+  },
+  {
+    "id": "tsts4767.RepetitiveMovementPlus",
+    "name": "反復移動プラス",
+    "type": "スクリプト",
+    "summary": "標準の反復移動に待機時間や2次ベジェ曲線などの機能を追加したスクリプト",
+    "description": "./md/tsts4767.RepetitiveMovementPlus.md",
+    "author": "テステス",
+    "repoURL": "https://www.nicovideo.jp/watch/sm36246269",
+    "latest-version": "v2.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "・このスクリプトの2次配布は禁止です。\n・このスクリプトを使用によって、発生した損害や問題については、製作者は、一切責任を負わないものとします。\n・このスクリプトの改造や参考にして頂いても構いませんが、サポートや動作保証はできません。"
+      }
+    ],
+    "niconiCommonsId": "sm36246269",
+    "tags": [
+      "トラックバー",
+      "カスタムオブジェクト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/tsts4767.RepetitiveMovementPlus_thumbnail.png",
+        "infoImg": [
+          "./image/tsts4767.RepetitiveMovementPlus_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "14szhQeVJgAYgUlb2fFVAciJe16mdlXsy"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}\\反復移動プラス_Ver2.00\\AviUtl2向け",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}\\反復移動プラス.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}\\反復移動プラス.tra2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v2.0.0",
+        "release_date": "2025-07-13",
+        "file": [
+          {
+            "path": "{scriptsDir}\\反復移動プラス.obj2",
+            "XXH3_128": "468c61f280e98922a5c78ffafb851591"
+          },
+          {
+            "path": "{scriptsDir}\\反復移動プラス.tra2",
+            "XXH3_128": "a69ac1d95c8452dce081472a4bb18798"
+          }
+        ]
+      }
+    ]
   }
 ]
