@@ -34120,6 +34120,10 @@
       },
       "install": [
         {
+          "action": "delete",
+          "path": "{pluginsDir}/whisper_subtitle.aux2"
+        },
+        {
           "action": "download"
         },
         {
@@ -34129,6 +34133,10 @@
         }
       ],
       "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/whisper_subtitle.aux2"
+        },
         {
           "action": "delete",
           "path": "{pluginsDir}/WhisperAutoSub.aux2"
