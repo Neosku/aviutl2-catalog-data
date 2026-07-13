@@ -34176,5 +34176,76 @@
         ]
       }
     ]
+  },
+  {
+    "id": "tsts4767.LoopPortionOfFrames",
+    "name": "特定フレームループ",
+    "type": "スクリプト",
+    "summary": "アニメーションのmp4やgifで特定のフレームをループさせるスクリプト",
+    "description": "./md/tsts4767.LoopPortionOfFrames.md",
+    "author": "テステス",
+    "repoURL": "https://www.nicovideo.jp/watch/sm45249838",
+    "latest-version": "V2.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "・このスクリプトの2次配布は禁止です。\n・このスクリプトを使用によって、発生した損害や問題については、製作者は、一切責任を負わないものとします。\n・このスクリプトの改造や参考にして頂いても構いませんが、サポートや動作保証はできません。"
+      }
+    ],
+    "niconiCommonsId": "sm45249838",
+    "tags": [
+      "カスタムオブジェクト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/tsts4767.LoopPortionOfFrames_thumbnail.png",
+        "infoImg": [
+          "./image/tsts4767.LoopPortionOfFrames_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1sezs3VTd64wmdfxmtLkkuS6FaE0ra5jo"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}\\特定フレームループ_Ver2.00\\AviUtl2向け",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}\\特定フレームループ.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "V2.0.0",
+        "release_date": "2025-07-15",
+        "file": [
+          {
+            "path": "{scriptsDir}\\特定フレームループ.obj2",
+            "XXH3_128": "0e0393eebf7262ce88344de6026f3114"
+          }
+        ]
+      }
+    ]
   }
 ]
