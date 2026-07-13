@@ -7355,6 +7355,11 @@
           "action": "copy",
           "from": "{tmp}/Script/GroundShadow2_S/README.md",
           "to": "{scriptsDir}/GroundShadow2_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.GroundShadow2_S.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -7369,6 +7374,10 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/GroundShadow2_S/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.GroundShadow2_S.aul2"
         }
       ]
     },
