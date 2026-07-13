@@ -2938,7 +2938,7 @@
     "description": "./md/Mr-Ojii.L-SMASH-Works.md",
     "author": "Mr-Ojii",
     "repoURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds",
-    "latest-version": "r1281",
+    "latest-version": "r1282",
     "popularity": 26075,
     "trend": 1343,
     "licenses": [
@@ -3726,6 +3726,16 @@
           {
             "path": "{pluginsDir}/lwinput.aui2",
             "XXH3_128": "b69bcf1f0b7fc3bf8249c4f1d1b5394f"
+          }
+        ]
+      },
+      {
+        "version": "r1282",
+        "release_date": "2026-07-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "eff48e26ec61eaddecf301c3822af473"
           }
         ]
       }
