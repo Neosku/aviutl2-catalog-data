@@ -1660,7 +1660,7 @@
   },
   {
     "id": "KAZOON.wav_output_ks",
-    "latest-version": "v0.0.4",
+    "latest-version": "v0.0.5",
     "checkType": {
       "type": "GitHub",
       "repo": "cycloawaodorin/wav_output_ks",
@@ -1680,7 +1680,7 @@
   },
   {
     "id": "KAZOON.fzgx_smr_ks",
-    "latest-version": "v2.0.7",
+    "latest-version": "v2.0.8",
     "checkType": {
       "type": "GitHub",
       "repo": "cycloawaodorin/fzgx_smr_ks",
@@ -2165,7 +2165,7 @@
   },
   {
     "id": "KAZOON.resize_ks",
-    "latest-version": "v0.0.8",
+    "latest-version": "v0.0.9",
     "checkType": {
       "type": "GitHub",
       "repo": "cycloawaodorin/resize_ks",

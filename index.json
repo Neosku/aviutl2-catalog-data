@@ -21465,7 +21465,7 @@
     "description": "https://raw.githubusercontent.com/cycloawaodorin/wav_output_ks/refs/heads/main/README.md",
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/wav_output_ks",
-    "latest-version": "v0.0.4",
+    "latest-version": "v0.0.5",
     "popularity": 721,
     "trend": 67,
     "licenses": [
@@ -21558,6 +21558,16 @@
             "XXH3_128": "f04f3a06dbeda848031f6d8c5bb7760c"
           }
         ]
+      },
+      {
+        "version": "v0.0.5",
+        "release_date": "2026-07-14",
+        "file": [
+          {
+            "path": "{pluginsDir}/wav_output_ks.auo2",
+            "XXH3_128": "9d0bd690e2b2d4a3ef3914b552cc13d5"
+          }
+        ]
       }
     ]
   },
@@ -21569,7 +21579,7 @@
     "description": "https://raw.githubusercontent.com/cycloawaodorin/fzgx_smr_ks/refs/heads/main/README.md",
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/fzgx_smr_ks",
-    "latest-version": "v2.0.7",
+    "latest-version": "v2.0.8",
     "popularity": 134,
     "trend": 8,
     "licenses": [
@@ -21692,6 +21702,16 @@
           {
             "path": "{pluginsDir}/fzgx_smr_ks.auo2",
             "XXH3_128": "69f1188fee38c0ecaa7738a69ea2c4ce"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.8",
+        "release_date": "2026-07-14",
+        "file": [
+          {
+            "path": "{pluginsDir}/fzgx_smr_ks.auo2",
+            "XXH3_128": "93a8cc7c100b89e143b18a0874243953"
           }
         ]
       }
@@ -25133,7 +25153,7 @@
     "description": "https://raw.githubusercontent.com/cycloawaodorin/resize_ks/refs/heads/main/README.md",
     "author": "KAZOON",
     "repoURL": "https://github.com/cycloawaodorin/resize_ks",
-    "latest-version": "v0.0.8",
+    "latest-version": "v0.0.9",
     "popularity": 227,
     "trend": 17,
     "licenses": [
@@ -25270,6 +25290,16 @@
           {
             "path": "{pluginsDir}/resize_ks.auf2",
             "XXH3_128": "4dab724164dc6ba62585f2c795321c08"
+          }
+        ]
+      },
+      {
+        "version": "v0.0.9",
+        "release_date": "2026-07-14",
+        "file": [
+          {
+            "path": "{pluginsDir}/resize_ks.auf2",
+            "XXH3_128": "8ce788f34a3a71feb9c393fa6aac0f2a"
           }
         ]
       }
