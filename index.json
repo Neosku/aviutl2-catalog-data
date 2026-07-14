@@ -5464,7 +5464,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Basic_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Basic_S",
-    "latest-version": "v2.60",
+    "latest-version": "v2.61",
     "popularity": 8812,
     "trend": 2493,
     "licenses": [
@@ -5926,6 +5926,16 @@
           {
             "path": "{scriptsDir}/@Basic_S.anm2",
             "XXH3_128": "640d61c163f41d35423a89a8ccaf39b5"
+          }
+        ]
+      },
+      {
+        "version": "v2.61",
+        "release_date": "2026-07-14",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Basic_S.anm2",
+            "XXH3_128": "51a0da698c0520d170f9edb71c205119"
           }
         ]
       }
@@ -7296,7 +7306,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_GroundShadow2_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S",
-    "latest-version": "v1.30",
+    "latest-version": "v1.31",
     "popularity": 2142,
     "trend": 196,
     "licenses": [
@@ -7469,6 +7479,16 @@
           {
             "path": "{scriptsDir}/GroundShadow2_S.anm2",
             "XXH3_128": "d3dd4133cea32bce75016a778d501d06"
+          }
+        ]
+      },
+      {
+        "version": "v1.31",
+        "release_date": "2026-07-14",
+        "file": [
+          {
+            "path": "{scriptsDir}/GroundShadow2_S.anm2",
+            "XXH3_128": "d1284e83860a8a0eafa261033fa11856"
           }
         ]
       }
