@@ -34561,7 +34561,7 @@
     "description": "https://raw.githubusercontent.com/samuelladoco/aviutl2-script-seisa/refs/heads/main/README.md",
     "author": "SLDC",
     "repoURL": "https://github.com/samuelladoco/aviutl2-script-seisa",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -34601,11 +34601,20 @@
         },
         {
           "action": "copy",
+          "from": "{tmp}/Script/SeiSa/README.pdf",
+          "to": "{scriptsDir}/SeiSa"
+        },
+        {
+          "action": "copy",
           "from": "{tmp}/Script/SeiSa/SeiSa-Total.obj2",
           "to": "{scriptsDir}/SeiSa"
         }
       ],
       "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/SeiSa/README.pdf"
+        },
         {
           "action": "delete",
           "path": "{scriptsDir}/SeiSa/SeiSa-Total.obj2"
@@ -34620,6 +34629,16 @@
           {
             "path": "{scriptsDir}/SeiSa/SeiSa-Total.obj2",
             "XXH3_128": "7439174051e21ad2f7d36b415a61f06f"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-07-14",
+        "file": [
+          {
+            "path": "{scriptsDir}/SeiSa/SeiSa-Total.obj2",
+            "XXH3_128": "7739d0c88451af6da0c5f442c6c95d01"
           }
         ]
       }
