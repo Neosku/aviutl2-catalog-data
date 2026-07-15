@@ -34827,6 +34827,98 @@
     ]
   },
   {
+    "id": "Estelle.AviUtl2-LaTeX",
+    "name": "AviUtl2-LaTeX",
+    "type": "汎用プラグイン",
+    "summary": "LaTeXの描画を行うメディアオブジェクトプラグインです。",
+    "description": "./md/Estelle.AviUtl2-LaTeX.md",
+    "author": "Estelle",
+    "repoURL": "https://github.com/Estellellet/AviUtl2-LaTeX",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "Estellellet"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/Estelle.AviUtl2-LaTeX_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Estellellet",
+          "repo": "AviUtl2-LaTeX",
+          "pattern": "^AviUtl2LaTeX-v[0-9]+\\.[0-9]+\\.[0-9]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/AviUtl2LaTeX/AviUtl2LaTeX.auf2",
+          "to": "{pluginsDir}/AviUtl2LaTeX"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/AviUtl2LaTeX/README.md",
+          "to": "{pluginsDir}/AviUtl2LaTeX"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/AviUtl2LaTeX/LICENSE",
+          "to": "{pluginsDir}/AviUtl2LaTeX"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/AviUtl2LaTeX/THIRD_PARTY_NOTICES.md",
+          "to": "{pluginsDir}/AviUtl2LaTeX"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/AviUtl2LaTeX/CHANGELOG.md",
+          "to": "{pluginsDir}/AviUtl2LaTeX"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/AviUtl2LaTeX"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-07-15",
+        "file": [
+          {
+            "path": "{pluginsDir}/AviUtl2LaTeX/AviUtl2LaTeX.auf2",
+            "XXH3_128": "115b1586e8ddf5307888b26a75962ddc"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "teruyoshii.4corner",
     "name": "四隅に配置",
     "type": "スクリプト",
