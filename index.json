@@ -29663,7 +29663,7 @@
     "description": "https://raw.githubusercontent.com/teruyoshii/AviUtl2_Noise_Te/refs/heads/main/README.md",
     "author": "てるよし",
     "repoURL": "https://github.com/teruyoshii/AviUtl2_Noise_Te",
-    "latest-version": "1.0",
+    "latest-version": "1.2",
     "popularity": 373,
     "trend": 38,
     "licenses": [
@@ -29727,6 +29727,16 @@
           {
             "path": "{scriptsDir}/@noise_Te.anm2",
             "XXH3_128": "ee5cb9304eb16a7165f7cba9d3cb26e3"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "release_date": "2026-07-16",
+        "file": [
+          {
+            "path": "{scriptsDir}/@noise_Te.anm2",
+            "XXH3_128": "59ae5e27f04b42843eede76a9bd93241"
           }
         ]
       }
