@@ -6477,6 +6477,11 @@
           "action": "copy",
           "from": "{tmp}/Script/Tile_S/README.md",
           "to": "{scriptsDir}/Tile_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.Tile_S.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -6491,6 +6496,10 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/Tile_S/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.Tile_S.aul2"
         }
       ]
     },
