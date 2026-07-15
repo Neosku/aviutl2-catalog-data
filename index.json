@@ -33825,7 +33825,7 @@
     "description": "./md/VRAMWIZ.AudioFilter.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/Aul2AudioFilter",
-    "latest-version": "v1.0.2",
+    "latest-version": "v1.0.3",
     "popularity": 210,
     "trend": 216,
     "licenses": [
@@ -33887,6 +33887,11 @@
           "action": "copy",
           "from": "{tmp}/Aul2AudioFilter/Aul2AudioView.auf2",
           "to": "{pluginsDir}/Aul2AudioFilter"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Aul2AudioFilter/Aul2AudioController.aux2",
+          "to": "{pluginsDir}/Aul2AudioFilter"
         }
       ],
       "uninstall": [
@@ -33905,6 +33910,10 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/Aul2AudioFilter/Aul2AudioView.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Aul2AudioFilter/Aul2AudioController.aux2"
         }
       ]
     },
@@ -33966,6 +33975,16 @@
           {
             "path": "{pluginsDir}/Aul2AudioFilter/Aul2AudioFilter.auf2",
             "XXH3_128": "1648964d58af42842b131df463e5f918"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.3",
+        "release_date": "2026-07-15",
+        "file": [
+          {
+            "path": "{pluginsDir}/Aul2AudioFilter/Aul2AudioFilter.auf2",
+            "XXH3_128": "bbdb8bd14f970447e67bc6f92ab10a8d"
           }
         ]
       }
