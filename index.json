@@ -18234,7 +18234,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/clipboard.aux2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/clipboard.aux2",
-    "latest-version": "0.2.5",
+    "latest-version": "0.3.0",
     "popularity": 3394,
     "trend": 317,
     "licenses": [
@@ -18324,6 +18324,16 @@
           {
             "path": "{pluginsDir}/clipboard.aux2",
             "XXH3_128": "96ba34d8304631e4451a440fc71de2c7"
+          }
+        ]
+      },
+      {
+        "version": "0.3.0",
+        "release_date": "2026-07-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/clipboard.aux2",
+            "XXH3_128": "12eb0bb4e17b58536321e3aebd59fd29"
           }
         ]
       }
