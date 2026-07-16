@@ -22112,10 +22112,6 @@
       },
       "install": [
         {
-          "action": "delete",
-          "path": "{pluginsDir}/FontPreview.aux2"
-        },
-        {
           "action": "download"
         },
         {
@@ -22135,16 +22131,22 @@
           "action": "copy",
           "from": "{tmp}/Plugin/FontPreview/README.md",
           "to": "{pluginsDir}/FontPreview"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.FontPreview.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/简体中文.FontPreview.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{pluginsDir}/FontPreview.aux2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/FontPreview"
+          "path": "{pluginsDir}/FontPreview/"
         }
       ]
     },
@@ -22176,16 +22178,6 @@
           {
             "path": "{pluginsDir}/FontPreview/FontPreview.aux2",
             "XXH3_128": "48025c975ec823297cd80c3ffcf04dec"
-          }
-        ]
-      },
-      {
-        "version": "4.0.1",
-        "release_date": "2026-07-03",
-        "file": [
-          {
-            "path": "{pluginsDir}/FontPreview/FontPreview.aux2",
-            "XXH3_128": "7aa51f92930cff2dd4ad29d52afd80ba"
           }
         ]
       },
@@ -23889,7 +23881,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/insert.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/insert.aux2",
-    "latest-version": "0.2.1",
+    "latest-version": "0.2.0",
     "popularity": 442,
     "trend": 29,
     "licenses": [
@@ -23995,16 +23987,6 @@
           {
             "path": "{pluginsDir}/insert.aux2",
             "XXH3_128": "287d75bbd0f3d57faab53b82a34f1f6a"
-          }
-        ]
-      },
-      {
-        "version": "0.2.1",
-        "release_date": "2026-07-16",
-        "file": [
-          {
-            "path": "{pluginsDir}/insert.aux2",
-            "XXH3_128": "a14333a2d756afd826d12b3a1a18be5f"
           }
         ]
       }
