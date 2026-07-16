@@ -34940,7 +34940,7 @@
     "description": "./md/Estelle.AviUtl2-LaTeX.md",
     "author": "Estelle",
     "repoURL": "https://github.com/Estellellet/AviUtl2-LaTeX",
-    "latest-version": "v0.1.0",
+    "latest-version": "v0.1.1",
     "popularity": 10,
     "trend": 10,
     "licenses": [
@@ -35019,6 +35019,16 @@
           {
             "path": "{pluginsDir}/AviUtl2LaTeX/AviUtl2LaTeX.auf2",
             "XXH3_128": "115b1586e8ddf5307888b26a75962ddc"
+          }
+        ]
+      },
+      {
+        "version": "v0.1.1",
+        "release_date": "2026-07-17",
+        "file": [
+          {
+            "path": "{pluginsDir}/AviUtl2LaTeX/AviUtl2LaTeX.auf2",
+            "XXH3_128": "f1053a7d92ed5ab9c107f75e3430778c"
           }
         ]
       }
