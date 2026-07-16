@@ -1,0 +1,1 @@
+ffmpegOut は、ffmpegを使用してエンコードを行うAviutlの出力プラグインです。

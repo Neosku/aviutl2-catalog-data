@@ -1,12 +1,11 @@
-*.md
-# !README.md
-!legacy-input/md/**/*.md
+# genetated files
+/.pnpm-store/
+/.tmp/
+/publish-preview/
 
-
-.pnpm-store/
-.tmp/
-archive/
+# dependencies
 node_modules/
-publish-preview/
-# packages
+
+/.workspace/
 # legacy-input
+# packages
