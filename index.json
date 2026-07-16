@@ -22070,7 +22070,7 @@
     "description": "https://raw.githubusercontent.com/rokujyushi/FontPreview/refs/heads/main/README.md",
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/FontPreview",
-    "latest-version": "4.0.1",
+    "latest-version": "4.2.0",
     "popularity": 880,
     "trend": 324,
     "licenses": [
@@ -22186,6 +22186,16 @@
           {
             "path": "{pluginsDir}/FontPreview/FontPreview.aux2",
             "XXH3_128": "7aa51f92930cff2dd4ad29d52afd80ba"
+          }
+        ]
+      },
+      {
+        "version": "4.2.0",
+        "release_date": "2026-07-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/FontPreview/FontPreview.aux2",
+            "XXH3_128": "6c64a844dfe0f951e72a80fbbdf39e26"
           }
         ]
       }
@@ -23879,7 +23889,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/insert.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/insert.aux2",
-    "latest-version": "0.2.0",
+    "latest-version": "0.2.1",
     "popularity": 442,
     "trend": 29,
     "licenses": [
@@ -23985,6 +23995,16 @@
           {
             "path": "{pluginsDir}/insert.aux2",
             "XXH3_128": "287d75bbd0f3d57faab53b82a34f1f6a"
+          }
+        ]
+      },
+      {
+        "version": "0.2.1",
+        "release_date": "2026-07-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/insert.aux2",
+            "XXH3_128": "a14333a2d756afd826d12b3a1a18be5f"
           }
         ]
       }
