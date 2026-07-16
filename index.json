@@ -21830,7 +21830,7 @@
   {
     "id": "KuroNeko.VariableFont",
     "name": "VariableFont",
-    "type": "その他",
+    "type": "スクリプト",
     "summary": "可変フォント対応の文字を影や縁取り付きで表示するプラグイン",
     "description": "https://raw.githubusercontent.com/rokujyushi/Variable-Font-Plug-ins/refs/heads/main/Plugin_README.md",
     "author": "黒猫大福",
@@ -21941,18 +21941,6 @@
         }
       ],
       "uninstall": [
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/VariableFont.auf2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/VariableFont.aux2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/VariableFontDoc/"
-        },
         {
           "action": "delete",
           "path": "{pluginsDir}/GCMZDrops/GCMZScript/VariableFont.ini"
