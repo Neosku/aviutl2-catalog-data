@@ -492,7 +492,7 @@
         {
           "extract": "zip",
           "paths": [
-            "@Resize_S.anm2"
+            "Script/@Resize_S.anm2"
           ],
           "recordPaths": [
             "{scriptsDir}/@Resize_S.anm2"
@@ -647,7 +647,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "amaii4/AviUtl2_Discord_RPC",
-      "regex": "^DiscordRPC\\.aux2$",
+      "regex": "^DiscordRPC.aux2$",
       "hash-calc": [
         {
           "paths": [
@@ -822,7 +822,7 @@
     "latest-version": "v1.0.1",
     "checkType": {
       "type": "GitHub",
-      "repo": "korarei/AviUtl2_AutoLyricAnimation_K_Script",
+      "repo": "Korarei/AviUtl2_AutoLyricAnimation_K_Script",
       "regex": "^AutoLyricAnimation_K_.*\\.zip$",
       "hash-calc": [
         {
@@ -1572,7 +1572,7 @@
             "audio2obj.lua"
           ],
           "recordPaths": [
-            "{pluginsDir}/GCMZDrops/GCMZScript/audio2obj.lua"
+            "{pluginsDir}\\GCMZDrops\\GCMZScript\\audio2obj.lua"
           ]
         }
       ]
@@ -1612,7 +1612,7 @@
             "HariboteReader.aui2"
           ],
           "recordPaths": [
-            "{pluginsDir}/HariboteReader.aui2"
+            "{pluginsDir}\\HariboteReader.aui2"
           ]
         }
       ]
@@ -2635,7 +2635,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/ported_tim",
-      "regex": "^sevenc-nanashi\\.ported_tim.*\\.au2pkg\\.zip",
+      "regex": "^sevenc-nanashi\\.ported_tim-v[^/]+\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -3066,6 +3066,128 @@
           ],
           "recordPaths": [
             "{pluginsDir}/Karoterra.WaveformPreview/waveformpreview.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "nkopikaso.AviUtl2-WhisperAutoSub",
+    "latest-version": "v2.8.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nkopikaso/AviUtl2-WhisperAutoSub",
+      "regex": "WhisperAutoSub.aux2",
+      "hash-calc": [
+        {
+          "paths": [
+            "WhisperAutoSub.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/WhisperAutoSub.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Natadecoco.TextBackplate",
+    "latest-version": "v1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Natadecoco2539/AviUtl2-TextBackplate",
+      "regex": "TextBackplate.anm2",
+      "hash-calc": [
+        {
+          "paths": [
+            "TextBackplate.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/TextBackplate.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebiiro.al2_dialog_resizer",
+    "latest-version": "r1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_dialog_resizer",
+      "regex": "^al2_dialog_resizer.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/al2/al2_dialog_resizer.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_dialog_resizer.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "SLDC.SeiSa",
+    "latest-version": "v1.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "samuelladoco/aviutl2-script-seisa",
+      "regex": "SeiSa.au2pkg.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/SeiSa/SeiSa-Total.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/SeiSa/SeiSa-Total.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.void-auf2",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/void.auf2",
+      "regex": "^sevenc-nanashi\\.void-auf2-v.*\\.au2pkg\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Language/Default.void-auf2.aul2",
+            "Language/English.void-auf2.aul2",
+            "Plugin/void.auf2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/Default.void-auf2.aul2",
+            "{dataDir}/Language/English.void-auf2.aul2",
+            "{pluginsDir}/void.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Estelle.AviUtl2-LaTeX",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Estellellet/AviUtl2-LaTeX",
+      "regex": "^AviUtl2LaTeX-v[0-9]+\\.[0-9]+\\.[0-9]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "AviUtl2LaTeX/AviUtl2LaTeX.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/AviUtl2LaTeX/AviUtl2LaTeX.auf2"
           ]
         }
       ]
