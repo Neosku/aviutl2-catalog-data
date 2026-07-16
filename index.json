@@ -23917,7 +23917,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/English.insert.aul2",
+          "from": "{tmp}/Language/English.insert.aul2",
           "to": "{dataDir}/Language"
         },
         {
