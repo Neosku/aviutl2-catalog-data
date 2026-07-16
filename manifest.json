@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 2,
+  "locales": [
+    "ja",
+    "en",
+    "ko",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "paths": {
+    "list": {
+      "ja": {
+        "updatedAt": "2026-07-16T15:32:36.782Z",
+        "json": {
+          "path": "./catalog-list/ja.json",
+          "sha256": "f7cae8efec05b4edf8bcabf3ea2b961cabf13583685f07403c3a5767ceead2e3"
+        },
+        "zstd": {
+          "path": "./catalog-list/ja.json.zst",
+          "sha256": "44109a0856981b4e688f696779b34177c7c46f0a42d1b3946402622972edac80"
+        }
+      },
+      "en": {
+        "updatedAt": "2026-07-16T15:32:36.782Z",
+        "json": {
+          "path": "./catalog-list/en.json",
+          "sha256": "f743b8bf213e9754f1d924886e07e1bbeeff7f33cce8e15f7a3a27f553854e44"
+        },
+        "zstd": {
+          "path": "./catalog-list/en.json.zst",
+          "sha256": "ee6f584ad79d2f3b320183eb605d44af10147ce346d10898768c68e2559ad0d0"
+        }
+      },
+      "ko": {
+        "updatedAt": "2026-07-16T15:32:36.782Z",
+        "json": {
+          "path": "./catalog-list/ko.json",
+          "sha256": "6e6add6e4b8e5f43edd9336acfcb313725eae983ac3528e1acaed67b97d3f3c7"
+        },
+        "zstd": {
+          "path": "./catalog-list/ko.json.zst",
+          "sha256": "2e3394075e4d1fd2fca7247ee8d5212a40f4f869e8d19879a252479a1a38f1da"
+        }
+      },
+      "zh-CN": {
+        "updatedAt": "2026-07-16T15:32:36.782Z",
+        "json": {
+          "path": "./catalog-list/zh-CN.json",
+          "sha256": "cb5e5a179b03479295bb5d34bcff5dc05b0b2b312b563c72eac029574cda68a2"
+        },
+        "zstd": {
+          "path": "./catalog-list/zh-CN.json.zst",
+          "sha256": "9e8b219d8b2e048199b12d98993babe34681dfe7723a6ba4f8480d33c19eac28"
+        }
+      },
+      "zh-TW": {
+        "updatedAt": "2026-07-16T15:32:36.782Z",
+        "json": {
+          "path": "./catalog-list/zh-TW.json",
+          "sha256": "f6205e735f99fbed84a9f8eecfface597238b85fbc6a20348fea1187073541b0"
+        },
+        "zstd": {
+          "path": "./catalog-list/zh-TW.json.zst",
+          "sha256": "6162c24d6afb73a9b08d28d5e90b7aaf239a02b59e461ee6faf6c9df99d41ffb"
+        }
+      }
+    },
+    "versions": {
+      "updatedAt": "2026-07-16T15:32:36.782Z",
+      "json": {
+        "path": "./catalog-versions.json",
+        "sha256": "2c36f94c3e680e4b89548a02b936b9761f16f3ae92a863346d2c6fd00b485d44"
+      },
+      "zstd": {
+        "path": "./catalog-versions.json.zst",
+        "sha256": "a57c6ab1636ad9ec41aceb507cef0d18cbd785f5f58bab7c9ac66d8acfc62431"
+      }
+    },
+    "popularity": {
+      "updatedAt": "2026-07-16T15:32:36.782Z",
+      "json": {
+        "path": "./catalog-popularity.json",
+        "sha256": "f5291d87b9d3a9b85fbb2314968a481ff9fcfd21ea8dd4997c8ea218dcfef0e8"
+      },
+      "zstd": {
+        "path": "./catalog-popularity.json.zst",
+        "sha256": "89f2ce769c4d5d2b58bdc7047e158143ed49d32563a277b1727b4840d3895f7c"
+      }
+    },
+    "install": {
+      "updatedAt": "2026-07-16T15:32:36.782Z",
+      "json": {
+        "path": "./catalog-install.json",
+        "sha256": "697aa0a39211613fd4f51eaf4e4982eb806dd5eaa41c9299be442dcdf1cf3e99"
+      },
+      "zstd": {
+        "path": "./catalog-install.json.zst",
+        "sha256": "4f7667d540e183781a716d9173d665b82e6b196852a5319ecf0ebcf0c9b3fbc1"
+      }
+    },
+    "updateCheck": {
+      "updatedAt": "2026-07-16T15:32:36.782Z",
+      "json": {
+        "path": "./catalog-update-check.json",
+        "sha256": "92de97536e13da5c6192541c8964ff2fe0cfad164d5befb02c579e02f2444044"
+      },
+      "zstd": {
+        "path": "./catalog-update-check.json.zst",
+        "sha256": "054b57dd5ab337de4c0057c1f38efc8eda15d73799217e177d83a1f624adad78"
+      }
+    },
+    "detail": {
+      "ja": {
+        "updatedAt": "2026-07-16T15:32:36.782Z",
+        "json": {
+          "path": "./catalog-detail/ja.json",
+          "sha256": "159a405c5a660302fc749119acc4bb8c2941c30d35500a3ab95fae945e1031bc"
+        },
+        "zstd": {
+          "path": "./catalog-detail/ja.json.zst",
+          "sha256": "ca4da5a527584269f0581a1e5104eb571bb54003da68b7367aee2c16cb0164d7"
+        }
+      },
+      "en": {
+        "updatedAt": "2026-07-16T15:32:36.782Z",
+        "json": {
+          "path": "./catalog-detail/en.json",
+          "sha256": "1e136afad3f3b905d32b100ead6366036a00ba57f07797ec9e4e6382135d47ca"
+        },
+        "zstd": {
+          "path": "./catalog-detail/en.json.zst",
+          "sha256": "c3d42053ec8324c53573a0d7c8c06ceaa0e55c339f7ef80e7dcd693cde34e3da"
+        }
+      },
+      "ko": {
+        "updatedAt": "2026-07-16T15:32:36.782Z",
+        "json": {
+          "path": "./catalog-detail/ko.json",
+          "sha256": "11c9d4e561cd55914158ef37c4d78530c636b236e67a74b6a23416e775ddbe6d"
+        },
+        "zstd": {
+          "path": "./catalog-detail/ko.json.zst",
+          "sha256": "4d6aa5da7a265714613c8cc0ef9a790879c4a0b1304d7f857f2f4b38501b8f38"
+        }
+      },
+      "zh-CN": {
+        "updatedAt": "2026-07-16T15:32:36.782Z",
+        "json": {
+          "path": "./catalog-detail/zh-CN.json",
+          "sha256": "d4961d73ad55fec0fcc186fa5efb299b72f271702ac01c7176382d7e2c468865"
+        },
+        "zstd": {
+          "path": "./catalog-detail/zh-CN.json.zst",
+          "sha256": "684798564710b6cbf07dddcb56c837d535d4ae2eec6f4403c8a180c306f2b7c9"
+        }
+      },
+      "zh-TW": {
+        "updatedAt": "2026-07-16T15:32:36.782Z",
+        "json": {
+          "path": "./catalog-detail/zh-TW.json",
+          "sha256": "dbe7a147b46239239db1377ddf8d4e274c06d07743d9b3f222c7532712e96866"
+        },
+        "zstd": {
+          "path": "./catalog-detail/zh-TW.json.zst",
+          "sha256": "02d279a885675aede08f2fb69400f5b1487c80f384d7ec563f82c06eaeaff3cd"
+        }
+      }
+    }
+  },
+  "updatedAt": "2026-07-16T15:32:36.782Z"
+}

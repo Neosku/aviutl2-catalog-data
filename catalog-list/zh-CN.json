@@ -1,0 +1,4203 @@
+{
+  "schemaVersion": 2,
+  "locale": "zh-CN",
+  "packages": [
+    {
+      "id": "hebiiro.al2-jd",
+      "legacyId": "hebiiro.al2_jd",
+      "packageType": "mod",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-12",
+      "name": "⚠️【非推奨】ダークモード化MOD",
+      "author": "蛇色",
+      "tags": [
+        "UI"
+      ],
+      "summary": "AviUtl2を完全にダークモード化するプラグイン",
+      "niconiCommonsId": "sm46184276"
+    },
+    {
+      "id": "kenkun.aviutlexedit2",
+      "legacyId": "Kenkun.AviUtlExEdit2",
+      "packageType": "core",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-12",
+      "name": "AviUtl ExEdit2",
+      "author": "ＫＥＮくん",
+      "tags": [
+        "必須"
+      ],
+      "summary": "AviUtl2本体",
+      "niconiCommonsId": "nc422952",
+      "images": {
+        "thumbnail": "../assets/kenkun/aviutlexedit2/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "mr-ojii.l-smash-works",
+      "legacyId": "Mr-Ojii.L-SMASH-Works",
+      "packageType": "inputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-12",
+      "name": "L-SMASH-Works",
+      "author": "Mr-Ojii",
+      "tags": [
+        "必須"
+      ],
+      "summary": "幅広い形式の動画・音声ファイルを読み込めるようにする入力プラグイン",
+      "niconiCommonsId": "sm42848506"
+    },
+    {
+      "id": "rigaya.x264guiex",
+      "legacyId": "rigaya.x264guiEx",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-12",
+      "name": "x264guiEx",
+      "author": "rigaya",
+      "tags": [
+        "必須"
+      ],
+      "summary": "x264を使用してエンコードを行うAviutlの出力プラグインです。",
+      "niconiCommonsId": "sm40417801",
+      "images": {
+        "thumbnail": "../assets/rigaya/x264guiex/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "rigaya.x265guiex",
+      "legacyId": "rigaya.x265guiEx",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-12",
+      "name": "x265guiEx",
+      "author": "rigaya",
+      "tags": [
+        "必須"
+      ],
+      "summary": "x265を使用してエンコードを行うAviutlの出力プラグインです。"
+    },
+    {
+      "id": "hebiiro.al2-wav-saver",
+      "legacyId": "hebiiro.al2_wav_saver",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-13",
+      "name": "WAVファイル出力",
+      "author": "蛇色",
+      "tags": [
+        "音声"
+      ],
+      "summary": "WAVファイルを出力するプラグイン"
+    },
+    {
+      "id": "rigaya.ffmpegout",
+      "legacyId": "rigaya.ffmpegOut",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-13",
+      "name": "ffmpegOut",
+      "author": "rigaya",
+      "tags": [],
+      "summary": "Aviutlのffmpegを使用した出力プラグイン"
+    },
+    {
+      "id": "rigaya.nvenc",
+      "legacyId": "rigaya.NVEnc",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-13",
+      "name": "NVEnc",
+      "author": "rigaya",
+      "tags": [],
+      "summary": "NVENCによる高速エンコードの性能実験"
+    },
+    {
+      "id": "rigaya.qsvenc",
+      "legacyId": "rigaya.QSVEnc",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-13",
+      "name": "QSVEnc",
+      "author": "rigaya",
+      "tags": [],
+      "summary": "QSVによる高速エンコードの性能実験"
+    },
+    {
+      "id": "rigaya.svtav1guiex",
+      "legacyId": "rigaya.svtAV1guiEx",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-13",
+      "name": "svtAV1guiEx",
+      "author": "rigaya",
+      "tags": [],
+      "summary": "拡張 SVT-AV1 出力(GUI) Ex"
+    },
+    {
+      "id": "rigaya.vceenc",
+      "legacyId": "rigaya.VCEEnc",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-13",
+      "name": "VCEEnc",
+      "author": "rigaya",
+      "tags": [],
+      "summary": "VCEによる高速エンコードの性能実験"
+    },
+    {
+      "id": "gometh.3dconv-g",
+      "legacyId": "gometh.3dconv_g",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-18",
+      "name": "立体化(g)",
+      "author": "gometh",
+      "tags": [
+        "立体",
+        "エフェクト"
+      ],
+      "summary": "オブジェクトを“立体的”に表示するためのスクリプト",
+      "images": {
+        "thumbnail": "../assets/gometh/3dconv-g/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "korarei.stylize-k",
+      "legacyId": "korarei.Stylize_K",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-19",
+      "name": "@Stylize_K",
+      "author": "Korarei",
+      "tags": [
+        "色調整",
+        "画像"
+      ],
+      "summary": "AviUtl ExEdit2で画像の見た目を変えるスクリプト群"
+    },
+    {
+      "id": "momo-neeeko.bpm-shake",
+      "legacyId": "momo_neeeko.bpm_shake",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-19",
+      "name": "BPMカクカク振動",
+      "author": "もも猫",
+      "tags": [
+        "振動",
+        "BPM"
+      ],
+      "summary": "BPMカクカク振動"
+    },
+    {
+      "id": "momo-neeeko.fold",
+      "legacyId": "momo_neeeko.fold",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-19",
+      "name": "折りたたむ",
+      "author": "もも猫",
+      "tags": [
+        "変形"
+      ],
+      "summary": "オブジェクトを折りたたむスクリプト"
+    },
+    {
+      "id": "momo-neeeko.rainbow-grad",
+      "legacyId": "momo_neeeko.rainbow_grad",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-19",
+      "name": "虹色グラデーション",
+      "author": "もも猫",
+      "tags": [
+        "エフェクト",
+        "グラデーション"
+      ],
+      "summary": "虹色グラデーションを作成するエフェクト"
+    },
+    {
+      "id": "momo-neeeko.rounded-rect-layout",
+      "legacyId": "momo_neeeko.rounded_rect_layout",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-19",
+      "name": "角丸長方形配置",
+      "author": "もも猫",
+      "tags": [
+        "配置"
+      ],
+      "summary": "角丸長方形配置状に個別オブジェクトを配置する"
+    },
+    {
+      "id": "momo-neeeko.squash-resize",
+      "legacyId": "momo_neeeko.squash_resize",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-19",
+      "name": "潰す",
+      "author": "もも猫",
+      "tags": [
+        "リサイズ"
+      ],
+      "summary": "いい感じに縦と横のリサイズを行います"
+    },
+    {
+      "id": "nagomiku.shape-by-value",
+      "legacyId": "Nagomiku.shape_by_value",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-19",
+      "name": "値で図形",
+      "author": "Nagomiku",
+      "tags": [
+        "図形"
+      ],
+      "summary": "xyサイズを指定して図形を描画するスクリプト"
+    },
+    {
+      "id": "sigma-axis.autoclipping-s",
+      "legacyId": "sigma-axis.AutoClipping_S",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-19",
+      "name": "AutoClipping_S",
+      "author": "σ軸",
+      "tags": [
+        "クリッピング",
+        "リサイズ",
+        "座標補正"
+      ],
+      "summary": "オブジェクトの上下左右の透明領域をクリッピングするスクリプト",
+      "images": {
+        "thumbnail": "../assets/sigma-axis/autoclipping-s/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "sigma-axis.radrotdirblur-s",
+      "legacyId": "sigma-axis.RadRotDirBlur_S",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-19",
+      "name": "RadRotDirBlur_S",
+      "author": "σ軸",
+      "tags": [
+        "ぼかし",
+        "色収差"
+      ],
+      "summary": "放射ブラー・回転ブラー・方向ブラーを組み合わせた複合ブラーのスクリプト",
+      "niconiCommonsId": "sm45201781",
+      "images": {
+        "thumbnail": "../assets/sigma-axis/radrotdirblur-s/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "tt-xiaop.fold",
+      "legacyId": "tt_xiaop.fold",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-19",
+      "name": "折り畳み",
+      "author": "テツ",
+      "tags": [
+        "変形"
+      ],
+      "summary": "画像や映像を折りたたんだり広げたりするスクリプト"
+    },
+    {
+      "id": "tt-xiaop.ougi-blind",
+      "legacyId": "tt_xiaop.ougi_blind",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-09-19",
+      "name": "扇ブラインド",
+      "author": "テツ",
+      "tags": [
+        "図形",
+        "ブラインド"
+      ],
+      "summary": "扇型のブラインドを作成するスクリプト"
+    },
+    {
+      "id": "reindex-ot.reindex-aviutl2-language",
+      "legacyId": "reindex-ot.reindex_AviUtl2_Language",
+      "packageType": "custom",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-10-15",
+      "name": "非公式言語ファイル(Japanese_Mod)",
+      "author": "Re*Index. (ot_inc)",
+      "typeLabel": "その他",
+      "tags": [
+        "UI",
+        "言語ファイル"
+      ],
+      "summary": "修正した AviUtl2 の日本語の言語ファイル。"
+    },
+    {
+      "id": "seilor0.roundedpolygonsl",
+      "legacyId": "seilor0.roundedPolygonSl",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-11-09",
+      "name": "角丸正多角形_sl",
+      "author": "セイル",
+      "tags": [
+        "図形"
+      ],
+      "summary": "角丸や星形にもできる正多角形のカスタムオブジェクト",
+      "images": {
+        "thumbnail": "../assets/seilor0/roundedpolygonsl/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "seilor0.twinkle-sl",
+      "legacyId": "seilor0.twinkle_sl",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-11-11",
+      "name": "twinkle_sl",
+      "author": "セイル",
+      "tags": [
+        "図形"
+      ],
+      "summary": "✨を作れるカスタムオブジェクト",
+      "images": {
+        "thumbnail": "../assets/seilor0/twinkle-sl/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "hebiiro.al2-memo",
+      "legacyId": "hebiiro.al2_memo",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-11-16",
+      "name": "メモ帳プラグイン",
+      "author": "蛇色",
+      "tags": [
+        "便利ツール"
+      ],
+      "summary": "メモ帳代わりに使用できるウィンドウを追加するプラグイン"
+    },
+    {
+      "id": "mr-ojii.webpfilereader-plugin",
+      "legacyId": "Mr-Ojii.WebPFileReader-Plugin",
+      "packageType": "inputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-11-17",
+      "name": "WebPFileReader-Plugin",
+      "author": "Mr-Ojii",
+      "tags": [],
+      "summary": "Animated WebP を読み込むために開発した AviUtl ExEdit2 用入力プラグイン"
+    },
+    {
+      "id": "yu7400ki.anmimoutput-apng",
+      "legacyId": "yu7400ki.anmImOutput-apng",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-11-17",
+      "name": "APNG出力プラグイン",
+      "author": "yu7400ki",
+      "tags": [],
+      "summary": "AviUtl ExEdit2で動画をアニメーション画像（APNG）として出力するプラグイン"
+    },
+    {
+      "id": "yu7400ki.anmimoutput-avif",
+      "legacyId": "yu7400ki.anmImOutput-avif",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-11-17",
+      "name": "AVIF出力プラグイン",
+      "author": "yu7400ki",
+      "tags": [],
+      "summary": "AviUtl ExEdit2で動画をアニメーション画像（AVIF）として出力するプラグイン"
+    },
+    {
+      "id": "yu7400ki.anmimoutput-gif",
+      "legacyId": "yu7400ki.anmImOutput-gif",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-11-17",
+      "name": "GIF出力プラグイン",
+      "author": "yu7400ki",
+      "tags": [],
+      "summary": "AviUtl ExEdit2で動画をアニメーション画像（GIF）として出力するプラグイン"
+    },
+    {
+      "id": "yu7400ki.anmimoutput-webp",
+      "legacyId": "yu7400ki.anmImOutput-webp",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-11-17",
+      "name": "WebP出力プラグイン",
+      "author": "yu7400ki",
+      "tags": [],
+      "summary": "AviUtl ExEdit2で動画をアニメーション画像（WebP）として出力するプラグイン"
+    },
+    {
+      "id": "korarei.objectmotionblur-lk",
+      "legacyId": "korarei.ObjectMotionBlur_LK",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-11-25",
+      "name": "ObjectMotionBlur_LK",
+      "author": "Korarei",
+      "tags": [
+        "エフェクト",
+        "テキスト",
+        "図形",
+        "画像",
+        "移動",
+        "回転",
+        "変形",
+        "モーションブラー"
+      ],
+      "summary": "モーションブラーをかけるスクリプト",
+      "niconiCommonsId": "sm45655394",
+      "images": {
+        "thumbnail": "../assets/korarei/objectmotionblur-lk/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "korarei.pixelsorter-k",
+      "legacyId": "korarei.PixelSorter_K",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-11-25",
+      "name": "PixelSorter_K",
+      "author": "Korarei",
+      "tags": [
+        "グリッチ",
+        "ピクセルソート",
+        "エフェクト",
+        "ノイズ"
+      ],
+      "summary": "範囲とソート対象を指定できるピクセルソートスクリプト",
+      "images": {
+        "thumbnail": "../assets/korarei/pixelsorter-k/images/thumbnail.jpg"
+      }
+    },
+    {
+      "id": "sigma-axis.basic-s",
+      "legacyId": "sigma-axis.Basic_S",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-11-25",
+      "name": "Basic_S",
+      "author": "σ軸",
+      "tags": [
+        "図形",
+        "変形",
+        "色調整",
+        "切り抜き",
+        "縁取り",
+        "ぼかし",
+        "イージング",
+        "カスタムオブジェクト",
+        "リサイズ",
+        "移動",
+        "影",
+        "角丸",
+        "回転",
+        "配置"
+      ],
+      "summary": "丸角矩形や回転操作の補助，傾斜変形など汎用的な基本効果のスクリプト集．",
+      "niconiCommonsId": "sm45523651",
+      "images": {
+        "thumbnail": "../assets/sigma-axis/basic-s/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "sigma-axis.path-s",
+      "legacyId": "sigma-axis.Path_S",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-11-25",
+      "name": "Path_S",
+      "author": "σ軸",
+      "tags": [
+        "クリッピング",
+        "パス",
+        "図形",
+        "配置",
+        "切り抜き"
+      ],
+      "summary": "折れ線やベジェ曲線で図形を描画，フィルタ効果をかけるスクリプト",
+      "niconiCommonsId": "sm45647149",
+      "images": {
+        "thumbnail": "../assets/sigma-axis/path-s/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "sigma-axis.coloredcollar-s",
+      "legacyId": "sigma-axis.ColoredCollar_S",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-11-29",
+      "name": "ColoredCollar_S",
+      "author": "σ軸",
+      "tags": [
+        "縁取り",
+        "グラデーション"
+      ],
+      "summary": "オブジェクトの境界部分の色を引き伸ばして縁取りをするスクリプト",
+      "niconiCommonsId": "sm45257124",
+      "images": {
+        "thumbnail": "../assets/sigma-axis/coloredcollar-s/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "sigma-axis.pageroll-s",
+      "legacyId": "sigma-axis.PageRoll_S",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-11-29",
+      "name": "PageRoll_S",
+      "author": "σ軸",
+      "tags": [
+        "変形",
+        "画像",
+        "立体",
+        "トランジション"
+      ],
+      "summary": "ページを丸めるように画像を変形するスクリプト",
+      "niconiCommonsId": "sm45441228",
+      "images": {
+        "thumbnail": "../assets/sigma-axis/pageroll-s/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "sigma-axis.pixelsnap-s",
+      "legacyId": "sigma-axis.PixelSnap_S",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-11-29",
+      "name": "PixelSnap_S",
+      "author": "σ軸",
+      "tags": [
+        "座標補正",
+        "配置"
+      ],
+      "summary": "小数点以下のピクセルずれで余計なボケが入るのを抑えるスクリプト",
+      "niconiCommonsId": "sm45452975",
+      "images": {
+        "thumbnail": "../assets/sigma-axis/pixelsnap-s/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "sigma-axis.resize-s",
+      "legacyId": "sigma-axis.Resize_S",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-11-29",
+      "name": "Resize_S",
+      "author": "σ軸",
+      "tags": [
+        "画質",
+        "変形"
+      ],
+      "summary": "拡大縮小のアルゴリズムを選べるリサイズフィルタ",
+      "niconiCommonsId": "sm45220623",
+      "images": {
+        "thumbnail": "../assets/sigma-axis/resize-s/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "sigma-axis.tile-s",
+      "legacyId": "sigma-axis.Tile_S",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-11-29",
+      "name": "Tile_S",
+      "author": "σ軸",
+      "tags": [
+        "図形",
+        "パターン",
+        "背景素材",
+        "角丸"
+      ],
+      "summary": "規則的なパターン模様を生成し、背景や装飾として利用できるスクリプト",
+      "niconiCommonsId": "sm45311665",
+      "images": {
+        "thumbnail": "../assets/sigma-axis/tile-s/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "garech.jp-akey-aul2",
+      "legacyId": "Garech.jp_akey.aul2",
+      "packageType": "custom",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-12-01",
+      "name": "アクセスキー付き日本語リソース",
+      "author": "Garech",
+      "typeLabel": "言語ファイル",
+      "tags": [
+        "UI",
+        "言語ファイル"
+      ],
+      "summary": "⚠️導入/更新時注意　AviUtl2のメニューにアクセスキーを追加",
+      "niconiCommonsId": "sm45400553",
+      "images": {
+        "thumbnail": "../assets/garech/jp-akey-aul2/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "garech.splitfilters",
+      "legacyId": "Garech.SplitFilters",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-12-01",
+      "name": "フィルタ分離",
+      "author": "Garech",
+      "tags": [
+        "オブジェクト操作"
+      ],
+      "summary": "オブジェクト上のフィルタ効果群を個別オブジェクト化するプラグイン",
+      "niconiCommonsId": "sm45951475"
+    },
+    {
+      "id": "natadecoco.texteditor",
+      "legacyId": "Natadecoco.TextEditor",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-12-02",
+      "name": "TextEditor",
+      "author": "なたのこ",
+      "tags": [
+        "便利ツール",
+        "テキスト"
+      ],
+      "summary": "テキストの文字ごとにサイズ・フォント・色などを個別に設定できるエディタ"
+    },
+    {
+      "id": "natadecoco.textsplitter",
+      "legacyId": "Natadecoco.TextSplitter",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-12-02",
+      "name": "TextSplitter",
+      "author": "なたのこ",
+      "tags": [
+        "便利ツール",
+        "オブジェクト操作",
+        "テキスト"
+      ],
+      "summary": "テキストオブジェクトを1文字ずつのオブジェクトに一括分割するプラグイン"
+    },
+    {
+      "id": "sigma-axis.groundshadow2-s",
+      "legacyId": "sigma-axis.GroundShadow2_S",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-12-05",
+      "name": "GroundShadow2_S",
+      "author": "σ軸",
+      "tags": [
+        "立体",
+        "影"
+      ],
+      "summary": "影を立体的に地面や壁，天井などへ落とすフィルタ効果．",
+      "niconiCommonsId": "sm45275176",
+      "images": {
+        "thumbnail": "../assets/sigma-axis/groundshadow2-s/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "sigma-axis.histogram-s",
+      "legacyId": "sigma-axis.Histogram_S",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-12-05",
+      "name": "Histogram_S",
+      "author": "σ軸",
+      "tags": [
+        "便利ツール"
+      ],
+      "summary": "ヒストグラムを編集画面上に表示するスクリプト",
+      "niconiCommonsId": "sm45695828"
+    },
+    {
+      "id": "zopty.blindloop",
+      "legacyId": "zopty.BlindLoop",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-12-05",
+      "name": "ブラインドループ",
+      "author": "zopty",
+      "tags": [
+        "クリッピング"
+      ],
+      "summary": "斜めクリッピングを連続して並べたような効果を追加します。"
+    },
+    {
+      "id": "azurite.colorhalftone",
+      "legacyId": "azurite.ColorHalftone",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-12-07",
+      "name": "ColorHalftone",
+      "author": "azurite",
+      "tags": [
+        "エフェクト",
+        "パターン"
+      ],
+      "summary": "カラーハーフトーン加工をするスクリプト",
+      "images": {
+        "thumbnail": "../assets/azurite/colorhalftone/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "oov.gcmzdrops2",
+      "legacyId": "oov.GCMZDrops2",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-12-14",
+      "name": "GCMZDrops2",
+      "author": "おおぶ",
+      "tags": [
+        "便利ツール"
+      ],
+      "summary": "ファイルドロップを拡張するプラグイン（ごちゃまぜドロップス2）"
+    },
+    {
+      "id": "amaii4.aviutl2-discord-rpc",
+      "legacyId": "amaii4.AviUtl2_Discord_RPC",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2025-12-15",
+      "name": "AviUtl2_Discord_RPC",
+      "author": "甘味",
+      "tags": [],
+      "summary": "Discordにプレイ中を表示させるAviUtl2のプラグイン",
+      "images": {
+        "thumbnail": "../assets/amaii4/aviutl2-discord-rpc/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "natadecoco.myassetmanager",
+      "legacyId": "Natadecoco.MyAssetManager",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-04",
+      "name": "MyAssetManager",
+      "author": "なたのこ",
+      "tags": [
+        "UI",
+        "便利ツール"
+      ],
+      "summary": "画像や動画素材、オブジェクトの構成を管理するためのプラグイン"
+    },
+    {
+      "id": "azurite.gradientplus",
+      "legacyId": "azurite.GradientPlus",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-08",
+      "name": "グラデーション+",
+      "author": "azurite",
+      "tags": [
+        "グラデーション"
+      ],
+      "summary": "sRGB以外の色空間でグラデーションさせるスクリプト"
+    },
+    {
+      "id": "naltutyo.fuchidorigurade",
+      "legacyId": "naltutyo.fuchidorigurade",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-10",
+      "name": "縁取りグラデーション",
+      "author": "Nao",
+      "tags": [
+        "便利ツール",
+        "縁取り",
+        "グラデーション"
+      ],
+      "summary": "縁取りにグラデーションをかけることのできるソフトです",
+      "images": {
+        "thumbnail": "../assets/naltutyo/fuchidorigurade/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "naltutyo.scriptbrowserplugin",
+      "legacyId": "naltutyo.ScriptBrowserPlugin",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-10",
+      "name": "ScriptBrowserPlugin",
+      "author": "Nao",
+      "tags": [
+        "便利ツール",
+        "検索"
+      ],
+      "summary": "多くの効果を検索し、付与や追加等ができるPluginです",
+      "images": {
+        "thumbnail": "../assets/naltutyo/scriptbrowserplugin/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "namarium.toaster",
+      "legacyId": "namarium.toaster",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-11",
+      "name": "出力先トースト通知プラグイン",
+      "author": "namarium",
+      "tags": [
+        "UI"
+      ],
+      "summary": "出力先を開くボタン付きのトースト通知を表示するプラグイン"
+    },
+    {
+      "id": "oov.psdtoolkit2",
+      "legacyId": "oov.PSDToolKit2",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-13",
+      "name": "PSDToolKit2",
+      "author": "おおぶ",
+      "tags": [
+        "PSD"
+      ],
+      "summary": "PSD ファイルを扱うためのプラグイン",
+      "niconiCommonsId": "nc458876"
+    },
+    {
+      "id": "karoterra.bend",
+      "legacyId": "Karoterra.Bend",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-14",
+      "name": "曲げKR",
+      "author": "かろてら",
+      "tags": [
+        "画像",
+        "曲げ"
+      ],
+      "summary": "画像を曲線に沿って曲げるスクリプト",
+      "niconiCommonsId": "sm39711773"
+    },
+    {
+      "id": "karoterra.colorvisionsimulation",
+      "legacyId": "Karoterra.ColorVisionSimulation",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-14",
+      "name": "色覚シミュレーションKR",
+      "author": "かろてら",
+      "tags": [
+        "画像",
+        "色調整"
+      ],
+      "summary": "色覚を持つ人の見え方をシミュレーションするスクリプト",
+      "niconiCommonsId": "sm44847041"
+    },
+    {
+      "id": "karoterra.oilpainting",
+      "legacyId": "Karoterra.OilPainting",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-14",
+      "name": "油絵KR",
+      "author": "かろてら",
+      "tags": [
+        "画像"
+      ],
+      "summary": "油絵風の加工を施すスクリプト",
+      "niconiCommonsId": "sm39051118"
+    },
+    {
+      "id": "korarei.autolyricanimation-k",
+      "legacyId": "korarei.AutoLyricAnimation_K",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-16",
+      "name": "AutoLyricAnimation_K",
+      "author": "Korarei",
+      "tags": [
+        "テキスト",
+        "アニメーション"
+      ],
+      "summary": "リリックモーションを行うためのスクリプト"
+    },
+    {
+      "id": "naltutyo.kakutyo-tsu-ruba",
+      "legacyId": "naltutyo.kakutyo-tsu-ruba-",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-16",
+      "name": "Nao式ツールボックス",
+      "author": "Nao",
+      "tags": [
+        "便利ツール",
+        "UI"
+      ],
+      "summary": "元祖拡張ツールバーをAviutl2用にオマージュしたものです",
+      "images": {
+        "thumbnail": "../assets/naltutyo/kakutyo-tsu-ruba/images/thumbnail.jpg"
+      }
+    },
+    {
+      "id": "korarei.cameratransform-k",
+      "legacyId": "korarei.CameraTransform_K",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-17",
+      "name": "CameraTransform_K",
+      "author": "Korarei",
+      "tags": [
+        "カメラ"
+      ],
+      "summary": "AviUtl ExEdit2 向けカメラ調整用ツール",
+      "niconiCommonsId": "sm45278318",
+      "images": {
+        "thumbnail": "../assets/korarei/cameratransform-k/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "korarei.colorlut-k",
+      "legacyId": "korarei.ColorLUT_K",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-17",
+      "name": "ColorLUT_K",
+      "author": "Korarei",
+      "tags": [
+        "色調整",
+        "エフェクト"
+      ],
+      "summary": "LUTファイルを扱えるようにするプラグイン",
+      "images": {
+        "thumbnail": "../assets/korarei/colorlut-k/images/thumbnail.jpg"
+      }
+    },
+    {
+      "id": "korarei.kaleidoscope-k",
+      "legacyId": "korarei.Kaleidoscope_K",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-17",
+      "name": "Kaleidoscope_K",
+      "author": "Korarei",
+      "tags": [
+        "画像",
+        "パターン",
+        "エフェクト"
+      ],
+      "summary": "画像を万華鏡風に加工するスクリプト",
+      "niconiCommonsId": "sm44606738",
+      "images": {
+        "thumbnail": "../assets/korarei/kaleidoscope-k/images/thumbnail.jpg"
+      }
+    },
+    {
+      "id": "sigma-axis.tl-walkaround2",
+      "legacyId": "sigma-axis.tl_walkaround2",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-17",
+      "name": "TLショトカ移動2",
+      "author": "σ軸",
+      "tags": [
+        "便利ツール",
+        "ショートカット"
+      ],
+      "summary": "タイムライン操作のコマンドを追加するプラグイン",
+      "niconiCommonsId": "sm45743089",
+      "images": {
+        "thumbnail": "../assets/sigma-axis/tl-walkaround2/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "zopty.dokodemobuffer",
+      "legacyId": "zopty.DokodemoBuffer",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-19",
+      "name": "どこでもバッファ",
+      "author": "zopty",
+      "tags": [
+        "フレームバッファ",
+        "エフェクト"
+      ],
+      "summary": "転送可能なフレームバッファ",
+      "images": {
+        "thumbnail": "../assets/zopty/dokodemobuffer/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "rhapthorne-0.blockglitch-rh",
+      "legacyId": "Rhapthorne_0.BlockGlitch_Rh",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-20",
+      "name": "BlockGlitch_Rh",
+      "author": "ラプソーン",
+      "tags": [
+        "グリッチ",
+        "ノイズ",
+        "色ずれ"
+      ],
+      "summary": "ブロック状にずれるグリッチエフェクト"
+    },
+    {
+      "id": "rhapthorne-0.bpmeffecttoggle",
+      "legacyId": "Rhapthorne_0.BPMEffectToggle",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-20",
+      "name": "BPMエフェクトトグル",
+      "author": "ラプソーン",
+      "tags": [
+        "BPM",
+        "エフェクト"
+      ],
+      "summary": "BPMに合わせてエフェクトをオンオフするスクリプト"
+    },
+    {
+      "id": "rhapthorne-0.radialraster-rh",
+      "legacyId": "Rhapthorne_0.RadialRaster_Rh",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-20",
+      "name": "放射ラスター_Rh",
+      "author": "ラプソーン",
+      "tags": [
+        "エフェクト",
+        "変形"
+      ],
+      "summary": "画像などを放射状に変形するエフェクト"
+    },
+    {
+      "id": "rhapthorne-0.textskin",
+      "legacyId": "Rhapthorne_0.TextSkin",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-20",
+      "name": "Textスキン",
+      "author": "ラプソーン",
+      "tags": [
+        "テキスト",
+        "図形",
+        "画像"
+      ],
+      "summary": "テキストを図形や画像、動画に置き換えるスクリプト"
+    },
+    {
+      "id": "rhapthorne-0.unifytext",
+      "legacyId": "Rhapthorne_0.unifyText",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-20",
+      "name": "テキスト一枚化",
+      "author": "ラプソーン",
+      "tags": [
+        "テキスト"
+      ],
+      "summary": "テキストを一つのオブジェクトのように扱えるスクリプト"
+    },
+    {
+      "id": "rhapthorne-0.basicdelay",
+      "legacyId": "Rhapthorne_0.basicDelay",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-21",
+      "name": "基本効果(Delay)",
+      "author": "ラプソーン",
+      "tags": [
+        "ディレイ",
+        "テキスト",
+        "アニメーション"
+      ],
+      "summary": "基本効果をオブジェクトごとに時間差で適用するスクリプト"
+    },
+    {
+      "id": "rhapthorne-0.radialshift",
+      "legacyId": "Rhapthorne_0.radialShift",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-21",
+      "name": "ラディアルシフト",
+      "author": "ラプソーン",
+      "tags": [
+        "テキスト",
+        "アニメーション"
+      ],
+      "summary": "複数オブジェクトを放射状に配置し、回転やディレイを付けられるスクリプト"
+    },
+    {
+      "id": "rhapthorne-0.solidcolormosaic",
+      "legacyId": "Rhapthorne_0.SolidColorMosaic",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-21",
+      "name": "単色不透明化+モザイク",
+      "author": "ラプソーン",
+      "tags": [
+        "モザイク"
+      ],
+      "summary": "モザイク後不透明な部分を指定色で塗りつぶすスクリプト"
+    },
+    {
+      "id": "rhapthorne-0.textautowrap",
+      "legacyId": "Rhapthorne_0.TextAutoWrap",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-21",
+      "name": "テキスト自動改行",
+      "author": "ラプソーン",
+      "tags": [
+        "テキスト"
+      ],
+      "summary": "テキストを自動改行するスクリプト"
+    },
+    {
+      "id": "teruyoshii.noisegradation",
+      "legacyId": "teruyoshii.noiseGradation",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-22",
+      "name": "ノイズグラデーション",
+      "author": "てるよし",
+      "tags": [
+        "エフェクト",
+        "グラデーション",
+        "ノイズ"
+      ],
+      "summary": "時間制御カーブで自由に調整できるノイズグラデーション",
+      "images": {
+        "thumbnail": "../assets/teruyoshii/noisegradation/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "teruyoshii.pathgradation",
+      "legacyId": "teruyoshii.pathGradation",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-22",
+      "name": "パスグラデーション",
+      "author": "てるよし",
+      "tags": [
+        "エフェクト",
+        "グラデーション",
+        "パス"
+      ],
+      "summary": "パスでグラデーションを掛けられるスクリプト",
+      "images": {
+        "thumbnail": "../assets/teruyoshii/pathgradation/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "hebiiro.al2-preset-adder",
+      "legacyId": "hebiiro.al2_preset_adder",
+      "packageType": "mod",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-24",
+      "name": "プリセット追加MOD",
+      "author": "蛇色",
+      "tags": [
+        "UI"
+      ],
+      "summary": "一部のダイアログにプリセットを追加するプラグイン",
+      "niconiCommonsId": "ss46548628",
+      "images": {
+        "thumbnail": "../assets/hebiiro/al2-preset-adder/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "shyachi.srtimporter",
+      "legacyId": "shyachi.SrtImporter",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-24",
+      "name": "SrtImporter",
+      "author": "shyachi",
+      "tags": [
+        "テキスト",
+        "字幕"
+      ],
+      "summary": "SRT字幕ファイルをインポートするプラグイン"
+    },
+    {
+      "id": "sigma-axis.whitebalance-s",
+      "legacyId": "sigma-axis.WhiteBalance_S",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-24",
+      "name": "WhiteBalance_S",
+      "author": "σ軸",
+      "tags": [
+        "画像",
+        "色調整"
+      ],
+      "summary": "ホワイトバランスや色温度を調整するスクリプト",
+      "niconiCommonsId": "sm45861771",
+      "images": {
+        "thumbnail": "../assets/sigma-axis/whitebalance-s/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "ar-ca-na.connection-line",
+      "legacyId": "ar-ca-na.connection_line",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-25",
+      "name": "connection_line",
+      "author": "arcana",
+      "tags": [],
+      "summary": "指定した2つのオブジェクトの中心を実線または点線で繋ぐスクリプト"
+    },
+    {
+      "id": "rhapthorne-0.lineglitch-rh",
+      "legacyId": "Rhapthorne_0.lineGlitch_Rh",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-27",
+      "name": "LineGlitch_Rh",
+      "author": "ラプソーン",
+      "tags": [
+        "グリッチ",
+        "ノイズ",
+        "色ずれ"
+      ],
+      "summary": "帯状に画面をランダムずらし色ズレも出すグリッチスクリプト"
+    },
+    {
+      "id": "rhapthorne-0.roundcornerrh",
+      "legacyId": "Rhapthorne_0.roundCornerRh",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-27",
+      "name": "角丸補正_Rh",
+      "author": "ラプソーン",
+      "tags": [
+        "図形",
+        "角丸"
+      ],
+      "summary": "角を丸めるスクリプト"
+    },
+    {
+      "id": "hebiiro.al2-visual-font",
+      "legacyId": "hebiiro.al2_visual_font",
+      "packageType": "mod",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-28",
+      "name": "フォント視覚化MOD",
+      "author": "蛇色",
+      "tags": [
+        "UI"
+      ],
+      "summary": "フォントを選ぶ際にプレビューを表示するプラグイン",
+      "niconiCommonsId": "sm45986876",
+      "images": {
+        "thumbnail": "../assets/hebiiro/al2-visual-font/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "rhapthorne-0.anchorcontrol-rh",
+      "legacyId": "Rhapthorne_0.anchorControl_Rh",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-28",
+      "name": "個別アンカー操作_Rh",
+      "author": "ラプソーン",
+      "tags": [
+        "アニメーション",
+        "移動",
+        "回転",
+        "テキスト"
+      ],
+      "summary": "アンカーを用いて文字ごとの移動・回転・拡大を直感操作できるスクリプト"
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-binaural",
+      "legacyId": "sevenc-nanashi.aviutl2-rs.rusty_binaural",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-30",
+      "name": "Rusty Binaural Filter",
+      "author": "Nanashi.",
+      "tags": [
+        "音声",
+        "エフェクト"
+      ],
+      "summary": "バイノーラルな感じの音を再現できるプラグイン",
+      "niconiCommonsId": "sm45904404"
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-chiptune",
+      "legacyId": "sevenc-nanashi.aviutl2-rs.rusty_chiptune",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-30",
+      "name": "Rusty Chiptune Filter",
+      "author": "Nanashi.",
+      "tags": [
+        "音声",
+        "エフェクト"
+      ],
+      "summary": "チップチューンで使われるような音を実装するプラグイン",
+      "niconiCommonsId": "sm45904404"
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-equalizer",
+      "legacyId": "sevenc-nanashi.aviutl2-rs.rusty_equalizer",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-30",
+      "name": "Rusty Equalizer Filter",
+      "author": "Nanashi.",
+      "tags": [
+        "音声",
+        "エフェクト"
+      ],
+      "summary": "イコライザーを実装するプラグイン",
+      "niconiCommonsId": "sm45904404"
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-ffmpeg",
+      "legacyId": "sevenc-nanashi.aviutl2-rs.rusty_ffmpeg",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-30",
+      "name": "Rusty FFmpeg Output",
+      "author": "Nanashi.",
+      "tags": [],
+      "summary": "FFmpegを使用して動画を出力するプラグイン",
+      "niconiCommonsId": "sm45355531"
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-image-rs-input",
+      "legacyId": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_input",
+      "packageType": "inputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-30",
+      "name": "Rusty Image Input",
+      "author": "Nanashi.",
+      "tags": [
+        "画像"
+      ],
+      "summary": "様々な画像（アニメーション画像を含む）を読み込むプラグイン",
+      "niconiCommonsId": "sm45355531"
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-image-rs-output",
+      "legacyId": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_output",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-30",
+      "name": "Rusty Image Output",
+      "author": "Nanashi.",
+      "tags": [
+        "連番画像"
+      ],
+      "summary": "画像を連番で出力するプラグイン",
+      "niconiCommonsId": "sm45355531"
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-local-alias-plugin",
+      "legacyId": "sevenc-nanashi.aviutl2-rs.rusty_local_alias_plugin",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-30",
+      "name": "Rusty Local Alias Plugin",
+      "author": "Nanashi.",
+      "tags": [
+        "エイリアス"
+      ],
+      "summary": "プロジェクトファイル内にエイリアスを登録できるようにするプラグイン",
+      "niconiCommonsId": "sm45904404"
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-midi-player",
+      "legacyId": "sevenc-nanashi.aviutl2-rs.rusty_midi_player",
+      "packageType": "inputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-30",
+      "name": "Rusty Piano Midi Player Input",
+      "author": "Nanashi.",
+      "tags": [
+        "MIDI",
+        "音声"
+      ],
+      "summary": "MIDIを読み込みピアノ音源で再生するプラグイン",
+      "niconiCommonsId": "sm45355531"
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-pixelsort",
+      "legacyId": "sevenc-nanashi.aviutl2-rs.rusty_pixelsort",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-30",
+      "name": "Rusty Pixel Sort Filter",
+      "author": "Nanashi.",
+      "tags": [
+        "ピクセルソート",
+        "グリッチ"
+      ],
+      "summary": "ピクセルソートを行うプラグイン",
+      "niconiCommonsId": "sm45904404"
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-random-color",
+      "legacyId": "sevenc-nanashi.aviutl2-rs.rusty_random_color",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-30",
+      "name": "Rusty Random Color Filter",
+      "author": "Nanashi.",
+      "tags": [
+        "カスタムオブジェクト"
+      ],
+      "summary": "ランダムな色の正方形のカスタムオブジェクトを作成するプラグイン",
+      "niconiCommonsId": "sm45904404"
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-restart-shortcut",
+      "legacyId": "sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-30",
+      "name": "Rusty Restart Shortcut Plugin",
+      "author": "Nanashi.",
+      "tags": [
+        "便利ツール"
+      ],
+      "summary": "⚠️非推奨 AviUtl2を再起動する編集メニューを追加するプラグイン",
+      "niconiCommonsId": "sm45904404"
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-scripts-search",
+      "legacyId": "sevenc-nanashi.aviutl2-rs.rusty_scripts_search",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-30",
+      "name": "Rusty Scripts Search Plugin",
+      "author": "Nanashi.",
+      "tags": [
+        "便利ツール",
+        "検索"
+      ],
+      "summary": "オブジェクト・エフェクトを検索してタイムラインに配置するプラグイン",
+      "niconiCommonsId": "sm45904404",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/aviutl2-rs-rusty-scripts-search/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-srt-file",
+      "legacyId": "sevenc-nanashi.aviutl2-rs.rusty_srt_file",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-30",
+      "name": "Rusty SRT File Plugin",
+      "author": "Nanashi.",
+      "tags": [
+        "字幕"
+      ],
+      "summary": "SRTファイル(字幕)のインポート/エクスポートを行うプラグイン",
+      "niconiCommonsId": "sm45904404"
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-statistics",
+      "legacyId": "sevenc-nanashi.aviutl2-rs.rusty_statistics",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-30",
+      "name": "Rusty Statistics Output",
+      "author": "Nanashi.",
+      "tags": [
+        "統計"
+      ],
+      "summary": "フレームを描画するのにかかった時間を表示するプラグイン",
+      "niconiCommonsId": "sm45355531"
+    },
+    {
+      "id": "sevenc-nanashi.ntsc-rs",
+      "legacyId": "sevenc-nanashi.ntsc-rs",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-01-30",
+      "name": "ntsc-rs.anm2",
+      "author": "Nanashi.",
+      "tags": [
+        "ノイズ"
+      ],
+      "summary": "ntsc.rs を使ってVHS風のエフェクトを追加するプラグイン。",
+      "niconiCommonsId": "sm45904404",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/ntsc-rs/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "hebiiro.al2-slimming",
+      "legacyId": "hebiiro.al2_slimming",
+      "packageType": "mod",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-03",
+      "name": "スリム化MOD",
+      "author": "蛇色",
+      "tags": [
+        "UI"
+      ],
+      "summary": "タイトルバーとメニューバーを一体化してスリム化するMOD"
+    },
+    {
+      "id": "sagami121.audioenc",
+      "legacyId": "sagami121.AudioEnc",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-03",
+      "name": "AudioEnc",
+      "author": "3aGaM1",
+      "tags": [],
+      "summary": "Aviutl2で音声を出力するプラグイン"
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-scripts-pixel-transform-anm2",
+      "legacyId": "sevenc-nanashi.aviutl2-scripts.pixel-transform-anm2",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-03",
+      "name": "ドット絵変形.anm2",
+      "author": "Nanashi.",
+      "tags": [
+        "変形"
+      ],
+      "summary": "ドット絵の拡大縮小・回転を行うスクリプト",
+      "niconiCommonsId": "sm45904404",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/aviutl2-scripts-pixel-transform-anm2/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-scripts-targeted-scale-anm2",
+      "legacyId": "sevenc-nanashi.aviutl2-scripts.targeted-scale-anm2",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-03",
+      "name": "目標指定拡大縮小.anm2",
+      "author": "Nanashi.",
+      "tags": [
+        "変形",
+        "色調整"
+      ],
+      "summary": "目標のピクセル数を指定し拡大縮小を行うスクリプト",
+      "niconiCommonsId": "sm45904404",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/aviutl2-scripts-targeted-scale-anm2/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "sevenc-nanashi.clipboard-aux2",
+      "legacyId": "sevenc-nanashi.clipboard-aux2",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-03",
+      "name": "clipboard.aux2",
+      "author": "Nanashi.",
+      "tags": [],
+      "summary": "ファイル・画像・テキストをクリップボードから直接貼り付けるプラグイン",
+      "niconiCommonsId": "sm45904404"
+    },
+    {
+      "id": "sevenc-nanashi.vintage-auf2",
+      "legacyId": "sevenc-nanashi.vintage-auf2",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-03",
+      "name": "vintage.auf2",
+      "author": "Nanashi.",
+      "tags": [
+        "ノイズ"
+      ],
+      "summary": "音声を昔のビデオっぽくするAviUtl2のフィルタプラグイン",
+      "niconiCommonsId": "sm45904404"
+    },
+    {
+      "id": "esgo.mp4exporter",
+      "legacyId": "Esgo.MP4Exporter",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-04",
+      "name": "MP4Exporter",
+      "author": "えすご",
+      "tags": [],
+      "summary": "MP4ファイルを出力するプラグイン",
+      "images": {
+        "thumbnail": "../assets/esgo/mp4exporter/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "garech.doublebpmgrid",
+      "legacyId": "Garech.DoubleBPMGrid",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-04",
+      "name": "BPMグリッド倍化",
+      "author": "Garech",
+      "tags": [
+        "BPM",
+        "便利ツール",
+        "ショートカット"
+      ],
+      "summary": "グリッドの設定のBPM値を倍々に変化&BPM測定"
+    },
+    {
+      "id": "sevenc-nanashi.svg-aux2",
+      "legacyId": "sevenc-nanashi.svg-aux2",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-04",
+      "name": "svg.aux2",
+      "author": "Nanashi.",
+      "tags": [
+        "画像",
+        "カスタムオブジェクト"
+      ],
+      "summary": "SVGファイルを読み込むカスタムオブジェクト",
+      "niconiCommonsId": "sm46011415"
+    },
+    {
+      "id": "chihayuki.obj",
+      "legacyId": "ChihaYuki.obj",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-06",
+      "name": "補助線",
+      "author": "ちはユキ",
+      "tags": [
+        "便利ツール"
+      ],
+      "summary": "三分割構図を配置できる",
+      "niconiCommonsId": "sm37066079",
+      "images": {
+        "thumbnail": "../assets/chihayuki/obj/images/thumbnail.jpg"
+      }
+    },
+    {
+      "id": "ngw.anm2",
+      "legacyId": "ngw.anm2",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-06",
+      "name": "二色化",
+      "author": "ngw",
+      "tags": [
+        "色調整"
+      ],
+      "summary": "オブジェクトが2色のみに加工される",
+      "images": {
+        "thumbnail": "../assets/ngw/anm2/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-metronome-plugin",
+      "legacyId": "sevenc-nanashi.aviutl2-rs.rusty_metronome_plugin",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-06",
+      "name": "Rusty Metronome Plugin",
+      "author": "Nanashi.",
+      "tags": [
+        "音声"
+      ],
+      "summary": "BPMを合わせるためのボタンとメトロノームを追加するプラグイン",
+      "niconiCommonsId": "sm45904404"
+    },
+    {
+      "id": "hebiiro.al2-ui-dressing",
+      "legacyId": "hebiiro.al2_ui_dressing",
+      "packageType": "mod",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-09",
+      "name": "UIドレッシングMOD",
+      "author": "蛇色",
+      "tags": [
+        "UI"
+      ],
+      "summary": "AviUtl2の見た目を統一するMOD",
+      "niconiCommonsId": "sm45993807",
+      "images": {
+        "thumbnail": "../assets/hebiiro/al2-ui-dressing/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "book-0225.eap2",
+      "legacyId": "Book-0225.EAP2",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-10",
+      "name": "External Audio Processing 2",
+      "author": "Book0225",
+      "tags": [
+        "MIDI",
+        "音声",
+        "エフェクト"
+      ],
+      "summary": "VST 3 / CLAP を利用可能にするためのフィルタプラグイン",
+      "images": {
+        "thumbnail": "../assets/book-0225/eap2/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "utsbox.audioeffect",
+      "legacyId": "Utsbox.AudioEffect",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-10",
+      "name": "Utsbox Audio Effect",
+      "author": "うつぼかずら",
+      "tags": [
+        "音声"
+      ],
+      "summary": "音声に対してさまざまな加工を行うプラグイン"
+    },
+    {
+      "id": "mes51.unmult",
+      "legacyId": "mes51.Unmult",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-11",
+      "name": "Unmult",
+      "author": "mes51",
+      "tags": [
+        "切り抜き"
+      ],
+      "summary": "黒背景または白背景に重ねられた素材を復元するスクリプト",
+      "niconiCommonsId": "sm39935396"
+    },
+    {
+      "id": "sagami121.calculator",
+      "legacyId": "sagami121.Calculator",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-11",
+      "name": "Aviutl2-Calculator",
+      "author": "3aGaM1",
+      "tags": [
+        "便利ツール"
+      ],
+      "summary": "AviUtl2上で計算ができるプラグイン"
+    },
+    {
+      "id": "catwithneko.tonecurve",
+      "legacyId": "CatWithNeko.ToneCurve",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-12",
+      "name": "Tonecurve_C",
+      "author": "こんにゃくねこ",
+      "tags": [
+        "色調整",
+        "画像"
+      ],
+      "summary": "時間制御のカーブエディタを利用したトーンカーブスクリプト"
+    },
+    {
+      "id": "cleaning.sam-frame-export-filter",
+      "legacyId": "cleaning.sam_frame_export_filter",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-13",
+      "name": "1クリック物体切り抜き（静止画）",
+      "author": "クリーニング",
+      "tags": [
+        "画像",
+        "AI",
+        "切り抜き",
+        "便利ツール"
+      ],
+      "summary": "1クリックで背景を消す(初回導入にあたってはGithubを読んで)",
+      "niconiCommonsId": "sm45723074",
+      "images": {
+        "thumbnail": "../assets/cleaning/sam-frame-export-filter/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "cleaning.sam3-bb-gb-generator",
+      "legacyId": "cleaning.sam3_bb_gb_generator",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-13",
+      "name": "1クリック動画切り抜き",
+      "author": "クリーニング",
+      "tags": [
+        "切り抜き",
+        "便利ツール",
+        "AI"
+      ],
+      "summary": "動画背景を消す(初回導入にあたってはGithubを読んで)",
+      "niconiCommonsId": "sm45931905",
+      "images": {
+        "thumbnail": "../assets/cleaning/sam3-bb-gb-generator/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "kazoon.ksa",
+      "legacyId": "KAZOON.KSA",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-13",
+      "name": "KSA",
+      "author": "KAZOON",
+      "tags": [
+        "カスタムオブジェクト",
+        "リサイズ",
+        "インターレース解除"
+      ],
+      "summary": "リサイズやインターレース解除を含むスクリプト集",
+      "images": {
+        "thumbnail": "../assets/kazoon/ksa/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "sevenc-nanashi.tinted-aviutl2",
+      "legacyId": "sevenc-nanashi.tinted-aviutl2",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-13",
+      "name": "Tinted AviUtl2",
+      "author": "Nanashi.",
+      "tags": [
+        "UI"
+      ],
+      "summary": "tinted-theming をAviUtl2で使うプラグイン。",
+      "niconiCommonsId": "sm45904404",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/tinted-aviutl2/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "zopty.oklchpalette",
+      "legacyId": "zopty.OKLCHpalette",
+      "packageType": "custom",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-13",
+      "name": "OKLCH パレット",
+      "author": "zopty",
+      "typeLabel": "その他",
+      "tags": [
+        "カラーパレット"
+      ],
+      "summary": "OKLCH に基づいて設計されたカラーパレット",
+      "images": {
+        "thumbnail": "../assets/zopty/oklchpalette/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "kuroneko.audio2obj",
+      "legacyId": "KuroNeko.audio2obj",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-15",
+      "name": "audio2obj",
+      "author": "黒猫大福",
+      "tags": [
+        "便利ツール",
+        "字幕"
+      ],
+      "summary": "音声ファイル名からオブジェクト生成",
+      "images": {
+        "thumbnail": "../assets/kuroneko/audio2obj/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "kuroneko.haribote",
+      "legacyId": "KuroNeko.Haribote",
+      "packageType": "inputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-15",
+      "name": "HariboteReader",
+      "author": "黒猫大福",
+      "tags": [
+        "便利ツール"
+      ],
+      "summary": "GCMZDrops2でメディアファイル以外をD&Dするためのプラグイン",
+      "images": {
+        "thumbnail": "../assets/kuroneko/haribote/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "kuroneko.midi2eap2",
+      "legacyId": "KuroNeko.midi2EAP2",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-15",
+      "name": "midi2EAP2",
+      "author": "黒猫大福",
+      "tags": [
+        "MIDI"
+      ],
+      "summary": "EAP2 MIDI Visualizerのハンドラースクリプト",
+      "images": {
+        "thumbnail": "../assets/kuroneko/midi2eap2/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "sotentsumugu.baseease",
+      "legacyId": "SotenTsumugu.BaseEase",
+      "packageType": "custom",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-15",
+      "name": "キホンイーズ",
+      "author": "蒼天つむぐ",
+      "typeLabel": "その他",
+      "tags": [
+        "イージング",
+        "移動"
+      ],
+      "summary": "時間制御編集からイージングを設定できるプリセット"
+    },
+    {
+      "id": "azurite.gradienteditor",
+      "legacyId": "azurite.GradientEditor",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-17",
+      "name": "Gradient Editor",
+      "author": "azurite",
+      "tags": [
+        "グラデーション",
+        "色調整"
+      ],
+      "summary": "グラデーションエディタプラグイン",
+      "images": {
+        "thumbnail": "../assets/azurite/gradienteditor/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "kazoon.fzgx-smr-ks",
+      "legacyId": "KAZOON.fzgx_smr_ks",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-17",
+      "name": "SMR for F-ZERO GX",
+      "author": "KAZOON",
+      "tags": [],
+      "summary": "F-ZERO GX のスピードメータ指示値をテキスト化するプラグイン",
+      "images": {
+        "thumbnail": "../assets/kazoon/fzgx-smr-ks/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "kazoon.wav-output-ks",
+      "legacyId": "KAZOON.wav_output_ks",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-17",
+      "name": "WAVファイル出力",
+      "author": "KAZOON",
+      "tags": [
+        "音声"
+      ],
+      "summary": "モノラル/ステレオで出力できるWAVファイル出力プラグイン"
+    },
+    {
+      "id": "kuroneko.fontpreview",
+      "legacyId": "KuroNeko.FontPreview",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-17",
+      "name": "FontPreview",
+      "author": "黒猫大福",
+      "tags": [
+        "検索",
+        "字幕",
+        "テキスト",
+        "便利ツール"
+      ],
+      "summary": "フォント一覧検索およびVFの補助プラグイン",
+      "images": {
+        "thumbnail": "../assets/kuroneko/fontpreview/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "kuroneko.variablefont",
+      "legacyId": "KuroNeko.VariableFont",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-17",
+      "name": "VariableFont",
+      "author": "黒猫大福",
+      "tags": [
+        "テキスト",
+        "便利ツール",
+        "字幕"
+      ],
+      "summary": "可変フォント対応の文字を影や縁取り付きで表示するプラグイン",
+      "images": {
+        "thumbnail": "../assets/kuroneko/variablefont/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "neac.cinemascope",
+      "legacyId": "NeAc.CinemaScope",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-17",
+      "name": "シネマスコープ",
+      "author": "猫愛",
+      "tags": [
+        "カスタムオブジェクト",
+        "エフェクト",
+        "トランジション"
+      ],
+      "summary": "シネマスコープ風の黒帯を描画するスクリプト",
+      "images": {
+        "thumbnail": "../assets/neac/cinemascope/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "kuroneko.svg2obj",
+      "legacyId": "KuroNeko.svg2obj",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-18",
+      "name": "svg2obj",
+      "author": "黒猫大福",
+      "tags": [
+        "便利ツール",
+        "画像"
+      ],
+      "summary": "SVGファイルをD&Dで利用できるようになるスクリプト（svg.aux2が必要）",
+      "images": {
+        "thumbnail": "../assets/kuroneko/svg2obj/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "neac.bezierpath",
+      "legacyId": "NeAc.BezierPath",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-18",
+      "name": "BezierPath",
+      "author": "猫愛",
+      "tags": [
+        "エフェクト",
+        "テキスト",
+        "配置",
+        "アニメーション",
+        "オブジェクト操作",
+        "パス",
+        "移動"
+      ],
+      "summary": "ベジェ曲線としてパスを描き、それに沿っての移動や配置が可能なスクリプト",
+      "images": {
+        "thumbnail": "../assets/neac/bezierpath/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "neac.egasumi",
+      "legacyId": "NeAc.Egasumi",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-18",
+      "name": "エ霞(えがすみ)",
+      "author": "猫愛",
+      "tags": [
+        "カスタムオブジェクト",
+        "図形"
+      ],
+      "summary": "和柄の雲を作成可能なカスタムオブジェクト",
+      "images": {
+        "thumbnail": "../assets/neac/egasumi/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "neac.screenaspect",
+      "legacyId": "NeAc.ScreenAspect",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-18",
+      "name": "画面アスペクト",
+      "author": "猫愛",
+      "tags": [
+        "カスタムオブジェクト",
+        "図形"
+      ],
+      "summary": "画面アスペクト比を指定してサイズ確認等をできるようにするスクリプト",
+      "images": {
+        "thumbnail": "../assets/neac/screenaspect/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "sevenc-nanashi.open-project-directory-aux2",
+      "legacyId": "sevenc-nanashi.open_project_directory-aux2",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-18",
+      "name": "open_project_directory.aux2",
+      "author": "Nanashi.",
+      "tags": [
+        "便利ツール"
+      ],
+      "summary": "「プロジェクトファイルのフォルダを開く」ボタンを追加する汎用プラグイン",
+      "niconiCommonsId": "sm46011415",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/open-project-directory-aux2/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "zopty.opticalflowmotionblur",
+      "legacyId": "zopty.OpticalFlowMotionBlur",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-20",
+      "name": "光学モーションブラー",
+      "author": "zopty",
+      "tags": [
+        "エフェクト",
+        "モーションブラー"
+      ],
+      "summary": "オプティカルフローを使った疑似モーションブラー",
+      "images": {
+        "thumbnail": "../assets/zopty/opticalflowmotionblur/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "koisi0319.duplicate-objects",
+      "legacyId": "koisi0319.Duplicate_objects",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-21",
+      "name": "オブジェクト行複製",
+      "author": "koisi0319",
+      "tags": [
+        "オブジェクト操作",
+        "配置"
+      ],
+      "summary": "選択したオブジェクトをそのレイヤーに複製するスクリプト",
+      "niconiCommonsId": "sm45973331",
+      "images": {
+        "thumbnail": "../assets/koisi0319/duplicate-objects/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "vramwiz.syncroh2",
+      "legacyId": "VRAMWIZ.Syncroh2",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-21",
+      "name": "新旧朗2",
+      "author": "VRAMの魔術師",
+      "tags": [
+        "MIDI",
+        "PSD",
+        "アニメーション",
+        "オブジェクト操作",
+        "便利ツール"
+      ],
+      "summary": "PSD立ち絵表示・セリフ挿入・音楽関連ツールをまとめたプラグイン",
+      "niconiCommonsId": "nc443168",
+      "images": {
+        "thumbnail": "../assets/vramwiz/syncroh2/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "kuroneko.copyalias",
+      "legacyId": "KuroNeko.CopyAlias",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-22",
+      "name": "CopyAlias",
+      "author": "黒猫大福",
+      "tags": [
+        "便利ツール",
+        "エイリアス"
+      ],
+      "summary": "選択オブジェクトのエイリアスをクリップボードにコピーするプラグイン",
+      "images": {
+        "thumbnail": "../assets/kuroneko/copyalias/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "sagami121.blocknoise",
+      "legacyId": "sagami121.BlockNoise",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-22",
+      "name": "BlockNoise",
+      "author": "3aGaM1",
+      "tags": [
+        "グリッチ",
+        "エフェクト",
+        "ノイズ"
+      ],
+      "summary": "Aviutl2でブロックノイズをかけるスクリプト"
+    },
+    {
+      "id": "sevenc-nanashi.insert-aux2",
+      "legacyId": "sevenc-nanashi.insert-aux2",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-23",
+      "name": "insert.aux2",
+      "author": "Nanashi.",
+      "tags": [
+        "便利ツール"
+      ],
+      "summary": "「メディアを挿入」編集メニューを追加する汎用プラグイン",
+      "niconiCommonsId": "sm46011415",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/insert-aux2/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "azurite.hex-tiling",
+      "legacyId": "azurite.Hex-Tiling",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-24",
+      "name": "Hex-Tiling",
+      "author": "azurite",
+      "tags": [
+        "パターン"
+      ],
+      "summary": "テクスチャの繰り返しを目立ちにくくするスクリプト",
+      "images": {
+        "thumbnail": "../assets/azurite/hex-tiling/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "sevenc-nanashi.filter-effect-toggle-aux2",
+      "legacyId": "sevenc-nanashi.filter_effect_toggle-aux2",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-24",
+      "name": "filter_effect_toggle.aux2",
+      "author": "Nanashi.",
+      "tags": [
+        "オブジェクト操作"
+      ],
+      "summary": "フィルタ効果とフィルタオブジェクトを切り替える機能を追加するプラグイン",
+      "niconiCommonsId": "sm46011415",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/filter-effect-toggle-aux2/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "sevenc-nanashi.quantizer-aux2",
+      "legacyId": "sevenc-nanashi.quantizer-aux2",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-24",
+      "name": "quantizer.aux2",
+      "author": "Nanashi.",
+      "tags": [
+        "BPM"
+      ],
+      "summary": "BPMグリッドから少しズレているオブジェクトを補正するプラグイン",
+      "niconiCommonsId": "sm46011415",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/quantizer-aux2/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "v-bernkastel.aviutl2-language-kr",
+      "legacyId": "V.Bernkastel.AviUtl2_Language_kr",
+      "packageType": "custom",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-24",
+      "name": "Korean (한국어)",
+      "author": "Victorique Bernkastel",
+      "typeLabel": "その他",
+      "tags": [
+        "言語ファイル",
+        "テキスト"
+      ],
+      "summary": "AviUtl2 한국어 번역 파일 \n 韓国語言語ファイル"
+    },
+    {
+      "id": "neac.loop",
+      "legacyId": "NeAc.Loop",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-28",
+      "name": "Loop",
+      "author": "猫愛",
+      "tags": [
+        "配置",
+        "立体",
+        "移動",
+        "パターン"
+      ],
+      "summary": "個別オブジェクト化、Z方向ループ対応の高度な画像ループ系スクリプト",
+      "images": {
+        "thumbnail": "../assets/neac/loop/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "neac.lyricmotion",
+      "legacyId": "NeAc.LyricMotioN",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-02-28",
+      "name": "LyricMotioN",
+      "author": "猫愛",
+      "tags": [
+        "トランジション",
+        "アニメーション",
+        "エフェクト",
+        "ディレイ",
+        "移動"
+      ],
+      "summary": "リリックモーションを簡単に作成できるスクリプト",
+      "images": {
+        "thumbnail": "../assets/neac/lyricmotion/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "naltutyo.sagyouroga-n",
+      "legacyId": "naltutyo.sagyouroga-N",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-01",
+      "name": "作業ロガーN",
+      "author": "Nao",
+      "tags": [
+        "便利ツール"
+      ],
+      "summary": "自分の作業を記録しXに投稿したり、作業時間を見直すプラグイン"
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-single-image-output",
+      "legacyId": "sevenc-nanashi.aviutl2-rs.rusty_single_image_output",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-02",
+      "name": "Rusty Single Image Output",
+      "author": "Nanashi.",
+      "tags": [],
+      "summary": "静止画を出力するプラグイン"
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-scripts-camera-frame-obj2",
+      "legacyId": "sevenc-nanashi.aviutl2-scripts.camera_frame-obj2",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-03",
+      "name": "カメラフレーム.obj2",
+      "author": "Nanashi.",
+      "tags": [
+        "図形"
+      ],
+      "summary": "カメラフレームっぽい図形を描画するスクリプト",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/aviutl2-scripts-camera-frame-obj2/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "sevenc-nanashi.discord-activity-aux2",
+      "legacyId": "sevenc-nanashi.discord_activity-aux2",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-03",
+      "name": "discord_activity.aux2",
+      "author": "Nanashi.",
+      "tags": [],
+      "summary": "編集中にDiscordのアクティビティを更新するプラグイン"
+    },
+    {
+      "id": "kazoon.resize-ks",
+      "legacyId": "KAZOON.resize_ks",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-05",
+      "name": "Lanczos3 / 画素平均法リサイズ",
+      "author": "KAZOON",
+      "tags": [
+        "リサイズ"
+      ],
+      "summary": "Lanczos3 または画素平均法でリサイズするフィルタプラグイン"
+    },
+    {
+      "id": "sevenc-nanashi.disassembler-anm2",
+      "legacyId": "sevenc-nanashi.disassembler-anm2",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-05",
+      "name": "disassembler.anm2",
+      "author": "Nanashi.",
+      "tags": [
+        "アニメーション",
+        "画像",
+        "パーツ分解"
+      ],
+      "summary": "画像のパーツを分解して個別オブジェクトにするスクリプト",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/disassembler-anm2/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "sevenc-nanashi.modify-group-num-layers-aux2",
+      "legacyId": "sevenc-nanashi.modify_group_num_layers-aux2",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-05",
+      "name": "modify_group_num_layers.aux2",
+      "author": "Nanashi.",
+      "tags": [
+        "ショートカット"
+      ],
+      "summary": "対象レイヤー数をショートカットキーから変更できるようにするプラグイン",
+      "niconiCommonsId": "ss46206008",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/modify-group-num-layers-aux2/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "sevenc-nanashi.transform-specific-chars-anm2",
+      "legacyId": "sevenc-nanashi.transform_specific_chars-anm2",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-05",
+      "name": "transform_specific_chars.anm2",
+      "author": "Nanashi.",
+      "tags": [
+        "テキスト"
+      ],
+      "summary": "指定した文字のみに加工を行うスクリプト",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/transform-specific-chars-anm2/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "pachira762.vsr4aviutl",
+      "legacyId": "Pachira762.vsr4aviutl",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-07",
+      "name": "vsr4aviutl",
+      "author": "Pachira762",
+      "tags": [
+        "画質",
+        "色調整",
+        "AI"
+      ],
+      "summary": "RTX VSRを使用したデノイズ、アップスケーリングを行う",
+      "images": {
+        "thumbnail": "../assets/pachira762/vsr4aviutl/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "nakano000.nkn-zoom-lines",
+      "legacyId": "nakano000.nkn_zoom_lines",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-09",
+      "name": "NKN集中線",
+      "author": "nakano000",
+      "tags": [
+        "カスタムオブジェクト"
+      ],
+      "summary": "漫画のような集中線スクリプト",
+      "niconiCommonsId": "sm45167975",
+      "images": {
+        "thumbnail": "../assets/nakano000/nkn-zoom-lines/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "azurite.imagecropexport",
+      "legacyId": "azurite.ImageCropExport",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-14",
+      "name": "ImageCropExport",
+      "author": "azurite",
+      "tags": [
+        "画像",
+        "切り抜き"
+      ],
+      "summary": "現在フレームの一部を切り抜いて画像として出力する出力プラグイン",
+      "images": {
+        "thumbnail": "../assets/azurite/imagecropexport/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "kuroneko.ttsfilerename",
+      "legacyId": "KuroNeko.TTSFileRename",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-17",
+      "name": "TTSFileRename",
+      "author": "黒猫大福",
+      "tags": [
+        "テキスト",
+        "音声",
+        "便利ツール"
+      ],
+      "summary": "音声合成ソフトから出力されたファイルのリネームスクリプト",
+      "images": {
+        "thumbnail": "../assets/kuroneko/ttsfilerename/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "nagomiku.crushpng",
+      "legacyId": "Nagomiku.CrushPNG",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-17",
+      "name": "CrushPNG",
+      "author": "Nagomiku",
+      "tags": [
+        "グリッチ",
+        "ノイズ"
+      ],
+      "summary": "⚠️説明文要確認　PNGのフィルタ方式で画像をグリッチするスクリプト"
+    },
+    {
+      "id": "nagomiku.nagoeffect2-mod2",
+      "legacyId": "Nagomiku.NagoEffect2.mod2",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-17",
+      "name": "NagoEffect2.mod2",
+      "author": "Nagomiku",
+      "tags": [],
+      "summary": "Nagomiku氏が作成する一部スクリプトに必須なスクリプトモジュール"
+    },
+    {
+      "id": "teruyoshii.trackbaraudiosync",
+      "legacyId": "teruyoshii.TrackbarAudioSync",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-17",
+      "name": "トラックバー音声同期",
+      "author": "てるよし",
+      "tags": [
+        "トラックバー",
+        "音声",
+        "エフェクト"
+      ],
+      "summary": "プロジェクトの音量に応じてパラメータを変化させるトラックバースクリプト"
+    },
+    {
+      "id": "arcana.connection-line",
+      "legacyId": "arcana.connection_line",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-18",
+      "name": "連結ライン",
+      "author": "arcana",
+      "tags": [
+        "パス",
+        "配置"
+      ],
+      "summary": "指定した2つのオブジェクトを、実線または点線で繋ぎます。",
+      "images": {
+        "thumbnail": "../assets/arcana/connection-line/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "korarei.constraint",
+      "legacyId": "korarei.Constraint",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-18",
+      "name": "Constraint",
+      "author": "Korarei",
+      "tags": [
+        "テキスト",
+        "配置",
+        "画像"
+      ],
+      "summary": "テキストの横にアイコン画像を表示",
+      "images": {
+        "thumbnail": "../assets/korarei/constraint/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "novenove.karaokelyricrenderer",
+      "legacyId": "novenove.KaraokeLyricRenderer",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-26",
+      "name": "Karaoke Lyric Renderer",
+      "author": "novenove",
+      "tags": [
+        "カスタムオブジェクト",
+        "字幕",
+        "テキスト"
+      ],
+      "summary": "タイムタグ付き歌詞をカスタムオブジェクトとして表示する（ルビ対応）",
+      "niconiCommonsId": "sm46085639"
+    },
+    {
+      "id": "momo-neeeko.waveclipping",
+      "legacyId": "momo_neeeko.WaveClipping",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-27",
+      "name": "ウェーブクリッピング",
+      "author": "もも猫",
+      "tags": [
+        "クリッピング"
+      ],
+      "summary": "様々な波の形で斜めクリッピング",
+      "images": {
+        "thumbnail": "../assets/momo-neeeko/waveclipping/images/thumbnail.gif"
+      }
+    },
+    {
+      "id": "naltutyo.zikanseigyon",
+      "legacyId": "naltutyo.zikanseigyoN",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-27",
+      "name": "時間制御N",
+      "author": "Nao",
+      "tags": [
+        "UI",
+        "イージング",
+        "便利ツール"
+      ],
+      "summary": "独自のイージングエディタを追加するPluginです",
+      "images": {
+        "thumbnail": "../assets/naltutyo/zikanseigyon/images/thumbnail.jpg"
+      }
+    },
+    {
+      "id": "korarei.diffusion-k",
+      "legacyId": "korarei.Diffusion_K",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-30",
+      "name": "Diffusion_K",
+      "author": "Korarei",
+      "tags": [
+        "エフェクト",
+        "ぼかし",
+        "画像",
+        "色調整"
+      ],
+      "summary": "オートン効果をかけるスクリプト",
+      "images": {
+        "thumbnail": "../assets/korarei/diffusion-k/images/thumbnail.jpg"
+      }
+    },
+    {
+      "id": "sevenc-nanashi.budoux-obj2",
+      "legacyId": "sevenc-nanashi.budoux-obj2",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-30",
+      "name": "budoux.obj2",
+      "author": "Nanashi.",
+      "tags": [
+        "テキスト"
+      ],
+      "summary": "横幅を指定してテキストを折り返すスクリプト",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/budoux-obj2/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "sigma-axis.border-s",
+      "legacyId": "sigma-axis.Border_S",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-03-31",
+      "name": "Border_S",
+      "author": "σ軸",
+      "tags": [
+        "角丸",
+        "縁取り"
+      ],
+      "summary": "縁取り・角丸め・アウトラインができるフィルタ集",
+      "niconiCommonsId": "sm46116909",
+      "images": {
+        "thumbnail": "../assets/sigma-axis/border-s/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "azurite.pointzoom",
+      "legacyId": "azurite.PointZoom",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-04-02",
+      "name": "ポイントズーム",
+      "author": "azurite",
+      "tags": [],
+      "summary": "指定したポイントにズームするスクリプト",
+      "images": {
+        "thumbnail": "../assets/azurite/pointzoom/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "number-0621.selecteasing",
+      "legacyId": "Number-0621.SelectEasing",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-04-03",
+      "name": "SelectEasing",
+      "author": "No.0",
+      "tags": [
+        "イージング",
+        "便利ツール"
+      ],
+      "summary": "AviUtl(無印)用の「イージング簡単選択」の移植版",
+      "images": {
+        "thumbnail": "../assets/number-0621/selecteasing/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "fu-majime.aviutl2-polygonmorph-f",
+      "legacyId": "Fu-Majime.AviUtl2_PolygonMorph_F",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-04-05",
+      "name": "多角形モーフ_F",
+      "author": "フマジメ",
+      "tags": [
+        "図形",
+        "変形"
+      ],
+      "summary": "モーフィング機能を備えた角丸正多角形・星型図形スクリプト",
+      "images": {
+        "thumbnail": "../assets/fu-majime/aviutl2-polygonmorph-f/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "novenove.vrmtoolkit",
+      "legacyId": "novenove.VRMToolkit",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-04-05",
+      "name": "VRM Toolkit for AviUtl2",
+      "author": "novenove",
+      "tags": [
+        "カスタムオブジェクト",
+        "VRM"
+      ],
+      "summary": "VRMモデルを3D配置して表示するカスタムオブジェクト（VRMA対応）"
+    },
+    {
+      "id": "momo-neeeko.scallopedcircle",
+      "legacyId": "momo_neeeko.ScallopedCircle",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-04-06",
+      "name": "スカラップ円",
+      "author": "もも猫",
+      "tags": [
+        "カスタムオブジェクト",
+        "図形"
+      ],
+      "summary": "スカラップ円のカスタムオブジェクト",
+      "images": {
+        "thumbnail": "../assets/momo-neeeko/scallopedcircle/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "number-0621.easing-quick-setup",
+      "legacyId": "Number-0621.easing-quick-setup",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-04-06",
+      "name": "Easing Quick Setup",
+      "author": "No.0",
+      "tags": [
+        "イージング"
+      ],
+      "summary": "AviUtl(無印)用の「イージング設定時短プラグイン」の移植版",
+      "images": {
+        "thumbnail": "../assets/number-0621/easing-quick-setup/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "yuzuriha.simplerecorder",
+      "legacyId": "Yuzuriha.SimpleRecorder",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-04-09",
+      "name": "シンプルレコーダー",
+      "author": "ゆずりは",
+      "tags": [
+        "音声"
+      ],
+      "summary": "Aviutl内でシンプルに録音できるプラグインです。",
+      "images": {
+        "thumbnail": "../assets/yuzuriha/simplerecorder/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "fuji.commons-material-extractor",
+      "legacyId": "Fuji.commons_material_extractor",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-04-11",
+      "name": "ニコニ・コモンズ作品ID一覧出力プラグイン",
+      "author": "Fuji",
+      "tags": [
+        "便利ツール"
+      ],
+      "summary": "ニコニ・コモンズで親作品登録を容易にするプラグインです",
+      "niconiCommonsId": "sm46156601",
+      "images": {
+        "thumbnail": "../assets/fuji/commons-material-extractor/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "pachira762.analogfuu",
+      "legacyId": "Pachira762.AnalogFuu",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-04-12",
+      "name": "アナログ風",
+      "author": "Pachira762",
+      "tags": [
+        "画質",
+        "ノイズ",
+        "グリッチ"
+      ],
+      "summary": "アナログテレビ風のエフェクトプラグイン",
+      "images": {
+        "thumbnail": "../assets/pachira762/analogfuu/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "sevenc-nanashi.tex-auf2",
+      "legacyId": "sevenc-nanashi.tex-auf2",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-04-14",
+      "name": "tex.auf2",
+      "author": "Nanashi.",
+      "tags": [
+        "テキスト"
+      ],
+      "summary": "TeXを読み込むAviUtl2のカスタムオブジェクト",
+      "niconiCommonsId": "ss46168501",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/tex-auf2/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "catwithneko.longshadow",
+      "legacyId": "CatWithNeko.LongShadow",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-04-15",
+      "name": "LongShadow",
+      "author": "こんにゃくねこ",
+      "tags": [
+        "グラデーション",
+        "影",
+        "縁取り"
+      ],
+      "summary": "AviUtl2 ロングシャドー(&フラットシャドー)",
+      "images": {
+        "thumbnail": "../assets/catwithneko/longshadow/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "yuzuriha.loudnessvisualexplorer",
+      "legacyId": "Yuzuriha.LoudnessVisualExplorer",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-04-15",
+      "name": "ラウドネス視覚分析",
+      "author": "ゆずりは",
+      "tags": [
+        "音声",
+        "色調整"
+      ],
+      "summary": "AviUtl2用のラウドネスを可視化し調整できるプラグインです",
+      "images": {
+        "thumbnail": "../assets/yuzuriha/loudnessvisualexplorer/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "azurite.adjustpivot-a",
+      "legacyId": "azurite.AdjustPivot_A",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-04-19",
+      "name": "中心ずらし_A",
+      "author": "azurite",
+      "tags": [
+        "移動",
+        "配置"
+      ],
+      "summary": "オブジェクトの中心座標を移動するスクリプト",
+      "images": {
+        "thumbnail": "../assets/azurite/adjustpivot-a/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "catwithneko.lens",
+      "legacyId": "CatWithNeko.Lens",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-04-19",
+      "name": "Lens",
+      "author": "こんにゃくねこ",
+      "tags": [
+        "レンズ補正",
+        "変形",
+        "曲げ"
+      ],
+      "summary": "レンズディストーションっぽいやつ",
+      "images": {
+        "thumbnail": "../assets/catwithneko/lens/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "asu.twostepslyricmotion",
+      "legacyId": "Asu.TwoStepsLyricmotion",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-05",
+      "name": "2段階リリックモーション",
+      "author": "アス",
+      "tags": [
+        "アニメーション",
+        "テキスト",
+        "移動"
+      ],
+      "summary": "2回に分けてテキストが動くリリックモーションを簡単に作成できます。",
+      "images": {
+        "thumbnail": "../assets/asu/twostepslyricmotion/images/thumbnail.gif"
+      }
+    },
+    {
+      "id": "asu.likehandwriting",
+      "legacyId": "Asu.LikeHandWriting",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-06",
+      "name": "手書き風カクカク振動",
+      "author": "アス",
+      "tags": [
+        "アニメーション",
+        "テキスト",
+        "画像",
+        "振動",
+        "変形"
+      ],
+      "summary": "手書き風にイラストやテキストをカクカク動かすことのできるスクリプトです",
+      "images": {
+        "thumbnail": "../assets/asu/likehandwriting/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "aviutl2-community.aviutl2-community-translation-companion",
+      "legacyId": "aviutl2-community.aviutl2_community_translation_companion",
+      "packageType": "custom",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-06",
+      "name": "AviUtl2 Community Translation Companion",
+      "author": "Nanashi.",
+      "typeLabel": "言語ファイル",
+      "tags": [
+        "UI"
+      ],
+      "summary": "Pull translations from Crowdin"
+    },
+    {
+      "id": "beive60.aviutl2-alias-inserter",
+      "legacyId": "beive60.aviutl2-alias-inserter",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-06",
+      "name": "aviutl2-alias-inserter",
+      "author": "Beive60",
+      "tags": [
+        "配置",
+        "便利ツール"
+      ],
+      "summary": "Steam Deck などの外部デバイスから挿入できるようにする",
+      "images": {
+        "thumbnail": "../assets/beive60/aviutl2-alias-inserter/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "beive60.aviutl2-audio-rec",
+      "legacyId": "beive60.aviutl2-audio-rec",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-06",
+      "name": "aviutl2-audio-rec",
+      "author": "Beive60",
+      "tags": [
+        "音声"
+      ],
+      "summary": "録音してwavファイルに保存してタイムラインに挿入",
+      "images": {
+        "thumbnail": "../assets/beive60/aviutl2-audio-rec/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "catwithneko.canny",
+      "legacyId": "CatWithNeko.Canny",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-06",
+      "name": "Canny",
+      "author": "こんにゃくねこ",
+      "tags": [
+        "縁取り"
+      ],
+      "summary": "ノイズを抑えて輪郭を細くきれいに出すCanny風エッジ抽出スクリプト",
+      "images": {
+        "thumbnail": "../assets/catwithneko/canny/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "catwithneko.composite",
+      "legacyId": "CatWithNeko.Composite",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-06",
+      "name": "Composite",
+      "author": "こんにゃくねこ",
+      "tags": [],
+      "summary": "このフィルタ以降にかけたフィルタと、このエフェクト以前の画像を合成する",
+      "images": {
+        "thumbnail": "../assets/catwithneko/composite/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "catwithneko.halftone",
+      "legacyId": "CatWithNeko.Halftone",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-06",
+      "name": "Halftone",
+      "author": "こんにゃくねこ",
+      "tags": [
+        "エフェクト",
+        "パターン"
+      ],
+      "summary": "なんちゃってハーフトーン",
+      "images": {
+        "thumbnail": "../assets/catwithneko/halftone/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "chihayuki.kokyuu",
+      "legacyId": "chihayuki.kokyuu",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-06",
+      "name": "自動呼吸アニメーション",
+      "author": "ちはユキ",
+      "tags": [
+        "アニメーション",
+        "変形"
+      ],
+      "summary": "立ち絵に呼吸追加するアニメーション効果",
+      "niconiCommonsId": "sm37066079"
+    },
+    {
+      "id": "karoterra.typst",
+      "legacyId": "Karoterra.Typst",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-06",
+      "name": "Typst for AviUtl2",
+      "author": "かろてら",
+      "tags": [
+        "テキスト",
+        "カスタムオブジェクト"
+      ],
+      "summary": "AviUtl2 で Typst を使えるようにするプラグイン",
+      "niconiCommonsId": "sm46274088"
+    },
+    {
+      "id": "sagyou.opticscompensation-s-for-aviutl2",
+      "legacyId": "Sagyou.OpticsCompensation_s_for_AviUtl2",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-06",
+      "name": "OpticsCompensation_s_for_AviUtl2",
+      "author": "サ行",
+      "tags": [
+        "変形",
+        "レンズ補正"
+      ],
+      "summary": "レンズの収差（樽型/糸巻き型）をシミュレートするスクリプト。"
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-scripts-vertical-video-obj2",
+      "legacyId": "sevenc-nanashi.aviutl2-scripts.vertical-video-obj2",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-06",
+      "name": "縦動画ガイド.obj2",
+      "author": "Nanashi.",
+      "tags": [
+        "カスタムオブジェクト"
+      ],
+      "summary": "ニコニコショートのUIで隠れる部分を表示するためのスクリプト",
+      "niconiCommonsId": "ss46199721",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/aviutl2-scripts-vertical-video-obj2/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "sigma-axis.translations-sigma-axis",
+      "legacyId": "sigma-axis.translations_sigma-axis",
+      "packageType": "custom",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-06",
+      "name": "Language Files for Scripts and Filters by sigma-axis",
+      "author": "σ軸",
+      "typeLabel": "言語ファイル",
+      "tags": [
+        "UI"
+      ],
+      "summary": "Translation for sigma-axis packages",
+      "images": {
+        "thumbnail": "../assets/sigma-axis/translations-sigma-axis/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "teruyoshii.noisete",
+      "legacyId": "teruyoshii.noiseTe",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-06",
+      "name": "ノイズ_Te",
+      "author": "てるよし",
+      "tags": [
+        "ノイズ"
+      ],
+      "summary": "一定時間/距離ごとにループできるカスタマイズ性が高いノイズスクリプト群"
+    },
+    {
+      "id": "tikubonn.alignment",
+      "legacyId": "tikubonn.Alignment",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-06",
+      "name": "揃え",
+      "author": "ちくぼん",
+      "tags": [
+        "オブジェクト操作",
+        "テキスト",
+        "移動",
+        "画像",
+        "図形",
+        "配置"
+      ],
+      "summary": "オブジェクトの揃え位置を指定します。",
+      "niconiCommonsId": "sm46212949",
+      "images": {
+        "thumbnail": "../assets/tikubonn/alignment/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "tikubonn.cinemascope",
+      "legacyId": "tikubonn.CinemaScope",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-06",
+      "name": "シネマスコープ",
+      "author": "ちくぼん",
+      "tags": [
+        "カスタムオブジェクト",
+        "字幕"
+      ],
+      "summary": "洋画などで見られる上下の暗幕を表示します。自動計算機能付き。",
+      "niconiCommonsId": "sm46242370",
+      "images": {
+        "thumbnail": "../assets/tikubonn/cinemascope/images/thumbnail.jpg"
+      }
+    },
+    {
+      "id": "tikubonn.irisout",
+      "legacyId": "tikubonn.IrisOut",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-06",
+      "name": "アイリスアウト",
+      "author": "ちくぼん",
+      "tags": [
+        "アニメーション",
+        "カスタムオブジェクト",
+        "トランジション",
+        "ブラインド"
+      ],
+      "summary": "画面端から丸い領域が縮小していく演出機能を提供します。",
+      "niconiCommonsId": "sm46180570",
+      "images": {
+        "thumbnail": "../assets/tikubonn/irisout/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "osakana4242.gifbayerditheroutput",
+      "legacyId": "osakana4242.GifBayerDitherOutput",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-08",
+      "name": "GIFベイヤーディザ出力",
+      "author": "三川おさかな",
+      "tags": [],
+      "summary": "減色とベイヤーディザを適用した GIF を出力",
+      "images": {
+        "thumbnail": "../assets/osakana4242/gifbayerditheroutput/images/thumbnail.gif"
+      }
+    },
+    {
+      "id": "sevenc-nanashi.ported-tim",
+      "legacyId": "sevenc-nanashi.ported_tim",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-09",
+      "name": "ported_tim",
+      "author": "Nanashi.",
+      "tags": [],
+      "summary": "ティム氏のスクリプト一式（226個）",
+      "niconiCommonsId": "sm46290285",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/ported-tim/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "momo-neeeko.rasterm",
+      "legacyId": "momo_neeeko.RasterM",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-10",
+      "name": "ラスターM",
+      "author": "もも猫",
+      "tags": [
+        "変形"
+      ],
+      "summary": "様々な波形で向きが指定できるラスター",
+      "images": {
+        "thumbnail": "../assets/momo-neeeko/rasterm/images/thumbnail.gif"
+      }
+    },
+    {
+      "id": "book-0225.relink",
+      "legacyId": "Book-0225.relink",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-12",
+      "name": "AviUtl2 relink",
+      "author": "Book0225",
+      "tags": [
+        "便利ツール"
+      ],
+      "summary": ".aup2 が参照しているファイルのパスを確認・修正するツールです"
+    },
+    {
+      "id": "beive60.scene-lighting",
+      "legacyId": "beive60.scene-lighting",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-23",
+      "name": "scene-lighting",
+      "author": "Beive60",
+      "tags": [
+        "色調整"
+      ],
+      "summary": "背景レイヤーの環境光を前景オブジェクト（キャラクターイラスト等）に反映",
+      "images": {
+        "thumbnail": "../assets/beive60/scene-lighting/images/thumbnail.gif"
+      }
+    },
+    {
+      "id": "korarei.flowtype-k",
+      "legacyId": "korarei.FlowType_K",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-23",
+      "name": "FlowType_K",
+      "author": "Korarei",
+      "tags": [
+        "アニメーション",
+        "エフェクト",
+        "ディレイ",
+        "テキスト",
+        "モーションブラー",
+        "移動",
+        "回転",
+        "配置",
+        "変形",
+        "パーツ分解",
+        "トランジション"
+      ],
+      "summary": "超全自動リリックモーション",
+      "niconiCommonsId": "sm46345725",
+      "images": {
+        "thumbnail": "../assets/korarei/flowtype-k/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "zopty.osc4au2",
+      "legacyId": "zopty.osc4au2",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-24",
+      "name": "OSC4AU2",
+      "author": "zopty",
+      "tags": [
+        "時間制御"
+      ],
+      "summary": "OSCを使って AviUtl2 のパラメーターを変化させる時間制御"
+    },
+    {
+      "id": "sigma-axis.region-s",
+      "legacyId": "sigma-axis.Region_S",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-26",
+      "name": "Region_S",
+      "author": "σ軸",
+      "tags": [
+        "塗りつぶし",
+        "パーツ分解"
+      ],
+      "summary": "範囲を塗りつぶしたり一部分だけ透過したりパーツ分解できるスクリプト",
+      "niconiCommonsId": "sm46356972",
+      "images": {
+        "thumbnail": "../assets/sigma-axis/region-s/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "c30.midiinfoobject",
+      "legacyId": "c30.midiinfoobject",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-28",
+      "name": "[Beta] MIDI Info Object",
+      "author": "c30 (zel9278 / fuji_midi)",
+      "tags": [
+        "MIDI",
+        "統計",
+        "カスタムオブジェクト"
+      ],
+      "summary": "MIDIの情報を動画に出すプラグイン",
+      "images": {
+        "thumbnail": "../assets/c30/midiinfoobject/images/thumbnail.gif"
+      }
+    },
+    {
+      "id": "sigma-axis.layback",
+      "legacyId": "sigma-axis.Layback",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-05-28",
+      "name": "最背面に配置",
+      "author": "σ軸",
+      "tags": [
+        "配置",
+        "レイヤー"
+      ],
+      "summary": "下のレイヤーでもフレームの最背面に配置して描画するスクリプト",
+      "images": {
+        "thumbnail": "../assets/sigma-axis/layback/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-scripts-crt-display-anm2",
+      "legacyId": "sevenc-nanashi.aviutl2-scripts.crt-display.anm2",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-01",
+      "name": "CRTディスプレイ風.anm2",
+      "author": "Nanashi.",
+      "tags": [
+        "エフェクト",
+        "色調整"
+      ],
+      "summary": "CRTディスプレイ風のエフェクト",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/aviutl2-scripts-crt-display-anm2/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "vramwiz.vw-media-input",
+      "legacyId": "VRAMWIZ.VW_Media_Input",
+      "packageType": "inputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-02",
+      "name": "動画IN",
+      "author": "VRAMの魔術師",
+      "tags": [
+        "音声"
+      ],
+      "summary": "MP4、MP3などの映像や音声ファイルが再生可能になる超軽量プラグイン",
+      "niconiCommonsId": "nc482954",
+      "images": {
+        "thumbnail": "../assets/vramwiz/vw-media-input/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "vramwiz.vw-media-output",
+      "legacyId": "VRAMWIZ.VW_Media_Output",
+      "packageType": "outputPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-03",
+      "name": "動画OUT",
+      "author": "VRAMの魔術師",
+      "tags": [
+        "音声"
+      ],
+      "summary": "AviUtl2からMP4/H.264/AACで書き出す出力プラグイン",
+      "niconiCommonsId": "nc483188",
+      "images": {
+        "thumbnail": "../assets/vramwiz/vw-media-output/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "natadecoco.softanchorbone",
+      "legacyId": "Natadecoco.SoftAnchorBone",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-04",
+      "name": "SoftAnchorBone",
+      "author": "なたのこ",
+      "tags": [
+        "アニメーション"
+      ],
+      "summary": "AviUtl2用の、3点アンカーで髪や服を揺らす軽量ボーン風スクリプト"
+    },
+    {
+      "id": "airiah7.plugin-picked-color-storage",
+      "legacyId": "airiah7.plugin--picked-color-storage",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-07",
+      "name": "スポイトの色を保存",
+      "author": "あいりあなな(airiah7)",
+      "tags": [
+        "UI",
+        "ウィジェット",
+        "カラーパレット",
+        "色調整"
+      ],
+      "summary": "スポイトで取得した色を名前付きで保存して使いまわせるようにする",
+      "niconiCommonsId": "sm46406346",
+      "images": {
+        "thumbnail": "../assets/airiah7/plugin-picked-color-storage/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-scripts-gpu-pixelsort-anm2",
+      "legacyId": "sevenc-nanashi.aviutl2-scripts.gpu_pixelsort-anm2",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-07",
+      "name": "GPUピクセルソート.anm2",
+      "author": "Nanashi.",
+      "tags": [
+        "エフェクト",
+        "ピクセルソート"
+      ],
+      "summary": "GPUを使用してピクセルソートを行うスクリプト",
+      "niconiCommonsId": "ss46409250",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/aviutl2-scripts-gpu-pixelsort-anm2/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "airiah7.widget-drag-and-drop-objects",
+      "legacyId": "airiah7.widget--drag-and-drop-objects",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-11",
+      "name": "ドラッグ&ドロップでタイムラインに配置",
+      "author": "あいりあなな(airiah7)",
+      "tags": [
+        "UI",
+        "ウィジェット",
+        "便利ツール",
+        "字幕"
+      ],
+      "summary": "ドラッグ&ドロップでオブジェクトを配置できるようにするウィジェット",
+      "niconiCommonsId": "sm46414080",
+      "images": {
+        "thumbnail": "../assets/airiah7/widget-drag-and-drop-objects/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "airiah7.widget-speed-preview",
+      "legacyId": "airiah7.widget--speed-preview",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-11",
+      "name": "倍速プレビュー",
+      "author": "あいりあなな(airiah7)",
+      "tags": [
+        "UI",
+        "ウィジェット",
+        "便利ツール"
+      ],
+      "summary": "倍速プレビューできるようにするウィジェット",
+      "niconiCommonsId": "sm46411944",
+      "images": {
+        "thumbnail": "../assets/airiah7/widget-speed-preview/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "saluf.sumidamari",
+      "legacyId": "saluf.SumiDamari",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-12",
+      "name": "墨だまり",
+      "author": "saluf",
+      "tags": [
+        "テキスト",
+        "塗りつぶし",
+        "変形",
+        "エフェクト",
+        "角丸"
+      ],
+      "summary": "墨だまり加工を追加するスクリプト",
+      "images": {
+        "thumbnail": "../assets/saluf/sumidamari/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "garech.datetime",
+      "legacyId": "Garech.DateTime",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-16",
+      "name": "日付と時刻",
+      "author": "Garech",
+      "tags": [
+        "テキスト"
+      ],
+      "summary": "時間変化する日付と時刻を表示します。カウンターとしても使えます。",
+      "niconiCommonsId": "sm36307237",
+      "images": {
+        "thumbnail": "../assets/garech/datetime/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "teruyoshii.stepgradation",
+      "legacyId": "teruyoshii.stepGradation",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-21",
+      "name": "段階グラデーション",
+      "author": "てるよし",
+      "tags": [
+        "グラデーション",
+        "エフェクト"
+      ],
+      "summary": "時間制御カーブで自由に調整できる段階グラデーション",
+      "images": {
+        "thumbnail": "../assets/teruyoshii/stepgradation/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "azurite.depthmapfilter",
+      "legacyId": "azurite.DepthMapFilter",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-22",
+      "name": "DepthMapFilter",
+      "author": "azurite",
+      "tags": [
+        "AI"
+      ],
+      "summary": "深度マップを生成するフィルタープラグイン",
+      "images": {
+        "thumbnail": "../assets/azurite/depthmapfilter/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "eizo-gak.aviutl2-sourcemonitor",
+      "legacyId": "eizo-gak.aviutl2-SourceMonitor",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-22",
+      "name": "AviUtl2 Source Monitor",
+      "author": "映像学区",
+      "tags": [
+        "ウィジェット",
+        "便利ツール"
+      ],
+      "summary": "動画ファイルのプレビュー、In/Out点指定、タイムラインへの投げ込み"
+    },
+    {
+      "id": "fuji.voice-drop",
+      "legacyId": "Fuji.voice_drop",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-24",
+      "name": "Voice Drop",
+      "author": "Fuji",
+      "tags": [
+        "便利ツール"
+      ],
+      "summary": "音声ファイルをAviutl2上に自動でDropしてくれるプラグイン",
+      "niconiCommonsId": "sm46474483",
+      "images": {
+        "thumbnail": "../assets/fuji/voice-drop/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "rhapthorne-0.compositionasmultiobject-rh",
+      "legacyId": "Rhapthorne_0.CompositionAsMultiObject_Rh",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-24",
+      "name": "個別化レイヤー_Rh",
+      "author": "ラプソーン",
+      "tags": [
+        "オブジェクト操作"
+      ],
+      "summary": "画像合成(オブジェクト)を個別オブジェクトにするスクリプト"
+    },
+    {
+      "id": "rhapthorne-0.huecycle-rh",
+      "legacyId": "Rhapthorne_0.HueCycle_Rh",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-24",
+      "name": "彩cle_Rh",
+      "author": "ラプソーン",
+      "tags": [
+        "色調整",
+        "塗りつぶし"
+      ],
+      "summary": "イン/アウトで単色化し、滑らかに色を変化させるスクリプト"
+    },
+    {
+      "id": "rhapthorne-0.individualbasiceffects",
+      "legacyId": "Rhapthorne_0.IndividualBasicEffects",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-24",
+      "name": "基本効果(個別指定)",
+      "author": "ラプソーン",
+      "tags": [
+        "変形",
+        "配置",
+        "オブジェクト操作"
+      ],
+      "summary": "個別オブジェクトに対してそれぞれ基本効果を指定するスクリプト"
+    },
+    {
+      "id": "rhapthorne-0.repeateddraw-rh",
+      "legacyId": "Rhapthorne_0.RepeatedDraw_Rh",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-24",
+      "name": "描画リピーター_Rh",
+      "author": "ラプソーン",
+      "tags": [
+        "配置"
+      ],
+      "summary": "描画（とパラメータ)を時間差で複製・配置するスクリプト"
+    },
+    {
+      "id": "rhapthorne-0.rotationraster-rh",
+      "legacyId": "Rhapthorne_0.RotationRaster_Rh",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-24",
+      "name": "回転ラスター_Rh",
+      "author": "ラプソーン",
+      "tags": [
+        "変形",
+        "ぼかし"
+      ],
+      "summary": "回転ラスター効果を加えるスクリプト"
+    },
+    {
+      "id": "rhapthorne-0.showparameters-rh",
+      "legacyId": "Rhapthorne_0.ShowParameters_Rh",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-24",
+      "name": "パラメータ表示_Rh",
+      "author": "ラプソーン",
+      "tags": [
+        "便利ツール",
+        "オブジェクト操作"
+      ],
+      "summary": "各種パラメータを表示できるスクリプト"
+    },
+    {
+      "id": "rhapthorne-0.statuslink-rh",
+      "legacyId": "Rhapthorne_0.StatusLink_Rh",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-24",
+      "name": "ステータスリンク_Rh",
+      "author": "ラプソーン",
+      "tags": [
+        "オブジェクト操作",
+        "配置"
+      ],
+      "summary": "指定したオブジェクトの状態を別のオブジェクトに同期するスクリプト"
+    },
+    {
+      "id": "rhapthorne-0.strobe-rh",
+      "legacyId": "Rhapthorne_0.Strobe_Rh",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-24",
+      "name": "ストロボ_Rh",
+      "author": "ラプソーン",
+      "tags": [
+        "エフェクト",
+        "アニメーション"
+      ],
+      "summary": "イン/アウトに点滅を適用するスクリプト"
+    },
+    {
+      "id": "rhapthorne-0.timedelay-rh",
+      "legacyId": "Rhapthorne_0.TimeDelay_Rh",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-24",
+      "name": "TimeDelay_Rh",
+      "author": "ラプソーン",
+      "tags": [
+        "アニメーション",
+        "ディレイ"
+      ],
+      "summary": "後段のエフェクトをディレイさせるスクリプト"
+    },
+    {
+      "id": "rhapthorne-0.transformcoords-rh",
+      "legacyId": "Rhapthorne_0.TransformCoords_Rh",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-24",
+      "name": "座標の回転・拡大_Rh",
+      "author": "ラプソーン",
+      "tags": [
+        "移動",
+        "配置"
+      ],
+      "summary": "指定した中心を基準に、座標の回転・拡大を行うスクリプト"
+    },
+    {
+      "id": "catwithneko.alphadither",
+      "legacyId": "CatWithNeko.AlphaDither",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-27",
+      "name": "AlphaDither_C",
+      "author": "こんにゃくねこ",
+      "tags": [
+        "色調整"
+      ],
+      "summary": "いわゆるディザ合成"
+    },
+    {
+      "id": "catwithneko.chromaticaberration",
+      "legacyId": "CatWithNeko.ChromaticAberration",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-27",
+      "name": "Chromatic Aberration",
+      "author": "こんにゃくねこ",
+      "tags": [
+        "色収差",
+        "色ずれ"
+      ],
+      "summary": "簡易色収差"
+    },
+    {
+      "id": "catwithneko.colorama",
+      "legacyId": "CatWithNeko.Colorama",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-27",
+      "name": "Colorama",
+      "author": "こんにゃくねこ",
+      "tags": [
+        "塗りつぶし"
+      ],
+      "summary": "簡易コロラマ"
+    },
+    {
+      "id": "catwithneko.dither",
+      "legacyId": "CatWithNeko.Dither",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-27",
+      "name": "Dither",
+      "author": "こんにゃくねこ",
+      "tags": [
+        "色調整"
+      ],
+      "summary": "閾値がランダム変化する二値化"
+    },
+    {
+      "id": "catwithneko.erosion",
+      "legacyId": "CatWithNeko.Erosion",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-27",
+      "name": "Erosion",
+      "author": "こんにゃくねこ",
+      "tags": [
+        "縁取り",
+        "塗りつぶし"
+      ],
+      "summary": "輪郭を削るだけのシンプルなエフェクト 縁取りの逆"
+    },
+    {
+      "id": "catwithneko.exposure",
+      "legacyId": "CatWithNeko.Exposure",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-27",
+      "name": "Exposure",
+      "author": "こんにゃくねこ",
+      "tags": [
+        "色調整"
+      ],
+      "summary": "露出・ガンマ・オフセットの補正をかける"
+    },
+    {
+      "id": "catwithneko.gamma",
+      "legacyId": "CatWithNeko.Gamma",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-27",
+      "name": "Gamma",
+      "author": "こんにゃくねこ",
+      "tags": [
+        "色調整"
+      ],
+      "summary": "RGBまたは全体にかかるガンマ補正"
+    },
+    {
+      "id": "catwithneko.leavecolor",
+      "legacyId": "CatWithNeko.LeaveColor",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-27",
+      "name": "Leave Color",
+      "author": "こんにゃくねこ",
+      "tags": [
+        "色調整"
+      ],
+      "summary": "色抜き"
+    },
+    {
+      "id": "catwithneko.level",
+      "legacyId": "CatWithNeko.Level",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-27",
+      "name": "Level",
+      "author": "こんにゃくねこ",
+      "tags": [
+        "色調整"
+      ],
+      "summary": "レベル補正っぽいやつ"
+    },
+    {
+      "id": "catwithneko.maxmin",
+      "legacyId": "CatWithNeko.MaxMin",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-27",
+      "name": "MaxMin",
+      "author": "こんにゃくねこ",
+      "tags": [
+        "色調整"
+      ],
+      "summary": "最大値・最小値フィルタ"
+    },
+    {
+      "id": "catwithneko.mosaic",
+      "legacyId": "CatWithNeko.Mosaic",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-27",
+      "name": "Mosaic_C",
+      "author": "こんにゃくねこ",
+      "tags": [
+        "モザイク"
+      ],
+      "summary": "シャープなモザイク"
+    },
+    {
+      "id": "catwithneko.selfdisplace",
+      "legacyId": "CatWithNeko.SelfDisplace",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-27",
+      "name": "SelfDisplace",
+      "author": "こんにゃくねこ",
+      "tags": [
+        "変形",
+        "色ずれ"
+      ],
+      "summary": "自身を基準にディスプレイスメントマップ(移動・回転・拡大)をかける"
+    },
+    {
+      "id": "catwithneko.turbulent",
+      "legacyId": "CatWithNeko.Turbulent",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-27",
+      "name": "Turbulent",
+      "author": "こんにゃくねこ",
+      "tags": [
+        "変形"
+      ],
+      "summary": "簡易タービュレントディスプレイス"
+    },
+    {
+      "id": "catwithneko.wavewarp",
+      "legacyId": "CatWithNeko.WaveWarp",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-06-27",
+      "name": "Wave Warp",
+      "author": "こんにゃくねこ",
+      "tags": [
+        "変形"
+      ],
+      "summary": "角度と波形を指定できるラスター"
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-scripts-hide-on-export-anm2",
+      "legacyId": "sevenc-nanashi.aviutl2-scripts.hide_on_export-anm2",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-07-05",
+      "name": "出力時に非表示.anm2",
+      "author": "Nanashi.",
+      "tags": [
+        "便利ツール"
+      ],
+      "summary": "出力時に非表示にするスクリプト",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/aviutl2-scripts-hide-on-export-anm2/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "sevenc-nanashi.import-midi-tempos-aux2",
+      "legacyId": "sevenc-nanashi.import_midi_tempos-aux2",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-07-05",
+      "name": "import_midi_tempos.aux2",
+      "author": "Nanashi.",
+      "tags": [
+        "BPM",
+        "MIDI"
+      ],
+      "summary": "MIDIファイルからBPMを取得し、タイムラインに反映するプラグイン",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/import-midi-tempos-aux2/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "gohankaiju.rich-audio-spectrum",
+      "legacyId": "Gohankaiju.rich-audio-spectrum",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-07-06",
+      "name": "リッチな音声波形_Gk",
+      "author": "Gohankaiju",
+      "tags": [
+        "カスタムオブジェクト",
+        "音声",
+        "スペクトラム"
+      ],
+      "summary": "音声に反応するちょっとリッチなビジュアライザー",
+      "images": {
+        "thumbnail": "../assets/gohankaiju/rich-audio-spectrum/images/thumbnail.gif"
+      }
+    },
+    {
+      "id": "vramwiz.audiofilter",
+      "legacyId": "VRAMWIZ.AudioFilter",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-07-07",
+      "name": "AudioFilter",
+      "author": "VRAMの魔術師",
+      "tags": [
+        "エフェクト",
+        "ノイズ",
+        "音声"
+      ],
+      "summary": "音声にエフェクト、電話風、無線風、反響、こもり、ナレーション補正が可能",
+      "niconiCommonsId": "nc490017",
+      "images": {
+        "thumbnail": "../assets/vramwiz/audiofilter/images/thumbnail.gif"
+      }
+    },
+    {
+      "id": "karoterra.waveformpreview",
+      "legacyId": "Karoterra.WaveformPreview",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-07-09",
+      "name": "Waveform Preview",
+      "author": "かろてら",
+      "tags": [
+        "音声"
+      ],
+      "summary": "AviUtl2 で編集中の音声波形を確認するためのプラグイン"
+    },
+    {
+      "id": "nkopikaso.aviutl2-whisperautosub",
+      "legacyId": "nkopikaso.AviUtl2-WhisperAutoSub",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-07-09",
+      "name": "AviUtl2-WhisperAutoSub",
+      "author": "nkopikaso",
+      "tags": [
+        "AI",
+        "字幕"
+      ],
+      "summary": "Whisperを使用して動画・音声から自動で字幕を生成するプラグイン"
+    },
+    {
+      "id": "undofish.easing2020",
+      "legacyId": "UndoFish.Easing2020",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-07-10",
+      "name": "トラックバー対応イージングスクリプト 2020版",
+      "author": "UndoFish",
+      "tags": [
+        "イージング",
+        "トラックバー"
+      ],
+      "summary": "Tweenな感じのイージングスクリプトトラックバー対応版です。",
+      "niconiCommonsId": "sm37721332",
+      "images": {
+        "thumbnail": "../assets/undofish/easing2020/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "natadecoco.textbackplate",
+      "legacyId": "Natadecoco.TextBackplate",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-07-12",
+      "name": "TextBackplate",
+      "author": "なたのこ",
+      "tags": [
+        "テキスト",
+        "図形",
+        "アニメーション",
+        "配置",
+        "角丸"
+      ],
+      "summary": "テキストの背面に図形を追加するスクリプト"
+    },
+    {
+      "id": "hebiiro.al2-dialog-resizer",
+      "legacyId": "hebiiro.al2_dialog_resizer",
+      "packageType": "mod",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-07-13",
+      "name": "ダイアログサイズ変更MOD",
+      "author": "蛇色",
+      "tags": [
+        "UI"
+      ],
+      "summary": "AviUtl2のダイアログをリサイズ可能にするプラグイン",
+      "niconiCommonsId": "ss46530688"
+    },
+    {
+      "id": "tsts4767.loopportionofframes",
+      "legacyId": "tsts4767.LoopPortionOfFrames",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-07-13",
+      "name": "特定フレームループ",
+      "author": "テステス",
+      "tags": [
+        "カスタムオブジェクト"
+      ],
+      "summary": "アニメーションのmp4やgifで特定のフレームをループさせるスクリプト",
+      "niconiCommonsId": "sm45249838",
+      "images": {
+        "thumbnail": "../assets/tsts4767/loopportionofframes/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "sldc.seisa",
+      "legacyId": "SLDC.SeiSa",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-07-14",
+      "name": "SeiSa",
+      "author": "SLDC",
+      "tags": [
+        "カスタムオブジェクト",
+        "テキスト",
+        "便利ツール"
+      ],
+      "summary": "簡単な操作で動画にRTAタイマーを追加できるようにするもの"
+    },
+    {
+      "id": "tsts4767.repetitivemovementplus",
+      "legacyId": "tsts4767.RepetitiveMovementPlus",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-07-14",
+      "name": "反復移動プラス",
+      "author": "テステス",
+      "tags": [
+        "トラックバー",
+        "カスタムオブジェクト"
+      ],
+      "summary": "標準の反復移動に待機時間や2次ベジェ曲線などの機能を追加したスクリプト",
+      "niconiCommonsId": "sm36246269",
+      "images": {
+        "thumbnail": "../assets/tsts4767/repetitivemovementplus/images/thumbnail.png"
+      }
+    },
+    {
+      "id": "estelle.aviutl2-latex",
+      "legacyId": "Estelle.AviUtl2-LaTeX",
+      "packageType": "generalPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-07-15",
+      "name": "AviUtl2-LaTeX",
+      "author": "Estelle",
+      "tags": [],
+      "summary": "LaTeXの描画を行うメディアオブジェクトプラグインです。",
+      "images": {
+        "thumbnail": "../assets/estelle/aviutl2-latex/images/thumbnail.gif"
+      }
+    },
+    {
+      "id": "sevenc-nanashi.void-auf2",
+      "legacyId": "sevenc-nanashi.void-auf2",
+      "packageType": "filterPlugin",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-07-15",
+      "name": "void.auf2",
+      "author": "Nanashi.",
+      "tags": [],
+      "summary": "「無」の画像・音声を出力するカスタムオブジェクト",
+      "images": {
+        "thumbnail": "../assets/sevenc-nanashi/void-auf2/images/thumbnail.webp"
+      }
+    },
+    {
+      "id": "teruyoshii.4corner",
+      "legacyId": "teruyoshii.4corner",
+      "packageType": "script",
+      "packageRole": "primaryPackage",
+      "addedAt": "2026-07-16",
+      "name": "四隅に配置",
+      "author": "てるよし",
+      "tags": [
+        "配置"
+      ],
+      "summary": "対象を画面の四隅に複製配置。余白調整,個別回転,反転,拡縮,透明化可能",
+      "images": {
+        "thumbnail": "../assets/teruyoshii/4corner/images/thumbnail.gif"
+      }
+    }
+  ]
+}

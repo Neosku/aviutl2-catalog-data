@@ -1,0 +1,3214 @@
+{
+  "schemaVersion": 2,
+  "packages": [
+    {
+      "id": "hebiiro.al2-jd",
+      "source": {
+        "type": "githubRelease",
+        "owner": "hebiiro",
+        "repo": "al2_jd",
+        "pattern": "^al2_jd_r\\d+\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/al2_jd.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2_jd.aui2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kenkun.aviutlexedit2",
+      "source": {
+        "type": "webPage",
+        "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
+        "assetPattern": "aviutl2_(v[0-9]+(?:\\.[0-9]+)+)\\.zip",
+        "versionExtractPattern": "v[0-9]+(?:\\.[0-9]+)+",
+        "downloadUrlTemplate": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2_[version_extract]_setup.exe"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "aviutl2.exe"
+          ],
+          "recordPaths": [
+            "{appDir}/aviutl2.exe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rigaya.x264guiex",
+      "source": {
+        "type": "githubRelease",
+        "owner": "rigaya",
+        "repo": "x264guiEx",
+        "pattern": "^Aviutl2_x264guiEx.*install\\.exe$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "7zip",
+          "sourcePaths": [
+            "Plugin/x264guiEx.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/x264guiEx.auo2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rigaya.x265guiex",
+      "source": {
+        "type": "githubRelease",
+        "owner": "rigaya",
+        "repo": "x265guiEx",
+        "pattern": "^Aviutl2_x265guiEx.*install\\.exe$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "7zip",
+          "sourcePaths": [
+            "Plugin/x265guiEx.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/x265guiEx.auo2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hebiiro.al2-wav-saver",
+      "source": {
+        "type": "githubRelease",
+        "owner": "hebiiro",
+        "repo": "al2_wav_saver",
+        "pattern": "^al2_wav_saver_r.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "al2_wav_saver_s16.auo2",
+            "al2_wav_saver_f32.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2_wav_saver_s16.auo2",
+            "{pluginsDir}/al2_wav_saver_f32.auo2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rigaya.ffmpegout",
+      "source": {
+        "type": "githubRelease",
+        "owner": "rigaya",
+        "repo": "ffmpegOut",
+        "pattern": "^Aviutl2_ffmpegOut.*install\\.exe$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "7zip",
+          "sourcePaths": [
+            "Plugin/ffmpegOut.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/ffmpegOut.auo2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rigaya.nvenc",
+      "source": {
+        "type": "githubRelease",
+        "owner": "rigaya",
+        "repo": "NVEnc",
+        "pattern": "^Aviutl2_NVEnc_.*install\\.exe$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "7zip",
+          "sourcePaths": [
+            "Plugin/NVEnc.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/NVEnc.auo2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rigaya.qsvenc",
+      "source": {
+        "type": "githubRelease",
+        "owner": "rigaya",
+        "repo": "QSVEnc",
+        "pattern": "^Aviutl2_QSVEnc.*install\\.exe$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "7zip",
+          "sourcePaths": [
+            "Plugin/QSVEnc.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/QSVEnc.auo2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rigaya.svtav1guiex",
+      "source": {
+        "type": "githubRelease",
+        "owner": "rigaya",
+        "repo": "svtAV1guiEx",
+        "pattern": "^Aviutl2_svtAV1guiEx.*install\\.exe$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "7zip",
+          "sourcePaths": [
+            "Plugin/svtAV1guiEx.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/svtAV1guiEx.auo2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rigaya.vceenc",
+      "source": {
+        "type": "githubRelease",
+        "owner": "rigaya",
+        "repo": "VCEEnc",
+        "pattern": "^Aviutl2_VCEEnc.*install\\.exe$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "7zip",
+          "sourcePaths": [
+            "Plugin/VCEEnc.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/VCEEnc.auo2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "korarei.stylize-k",
+      "source": {
+        "type": "githubRelease",
+        "owner": "korarei",
+        "repo": "AviUtl2_Stylize_K_Script",
+        "pattern": "^@Stylize_K.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "@Stylize_K/@Stylize_K.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Stylize_K.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigma-axis.autoclipping-s",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sigma-axis",
+        "repo": "aviutl2_script_AutoClipping_S",
+        "pattern": "^aviutl2_script_AutoClipping_S-.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/AutoClipping_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/AutoClipping_S.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigma-axis.radrotdirblur-s",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sigma-axis",
+        "repo": "aviutl2_script_RadRotDirBlur_S",
+        "pattern": "^aviutl2_script_RadRotDirBlur_S-.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/RadRotDirBlur_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/RadRotDirBlur_S.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reindex-ot.reindex-aviutl2-language",
+      "source": {
+        "type": "githubRelease",
+        "owner": "reindex-ot",
+        "repo": "reindex_AviUtl2_Language",
+        "pattern": "Japanese_Mod.aul2"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "none",
+          "sourcePaths": [
+            "Japanese_Mod.aul2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/Japanese_Mod.aul2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seilor0.roundedpolygonsl",
+      "source": {
+        "type": "githubRelease",
+        "owner": "seilor0",
+        "repo": "roundedPolygon_sl",
+        "pattern": "^roundedPolygon_sl\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "角丸正多角形_sl.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/角丸正多角形_sl.obj2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seilor0.twinkle-sl",
+      "source": {
+        "type": "githubRelease",
+        "owner": "seilor0",
+        "repo": "twinkle_sl",
+        "pattern": "^@twinkle_sl\\.obj2$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "none",
+          "sourcePaths": [
+            "@twinkle_sl.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@twinkle_sl.obj2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hebiiro.al2-memo",
+      "source": {
+        "type": "githubRelease",
+        "owner": "hebiiro",
+        "repo": "al2_memo",
+        "pattern": "^al2_memo_r\\d+\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/al2_memo.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2_memo.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mr-ojii.webpfilereader-plugin",
+      "source": {
+        "type": "githubRelease",
+        "owner": "Mr-Ojii",
+        "repo": "AviUtl2-WebPFileReader-Plugin",
+        "pattern": "^webpinput\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "webpinput.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/webpinput.aui2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "korarei.objectmotionblur-lk",
+      "source": {
+        "type": "githubRelease",
+        "owner": "korarei",
+        "repo": "AviUtl2_ObjectMotionBlur_LK_Script",
+        "pattern": "^ObjectMotionBlur_LK\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "ObjectMotionBlur_LK/ObjectMotionBlur_LK.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ObjectMotionBlur_LK.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "korarei.pixelsorter-k",
+      "source": {
+        "type": "githubRelease",
+        "owner": "korarei",
+        "repo": "AviUtl2_PixelSorter_K_Script",
+        "pattern": "^PixelSorter_K\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "PixelSorter_K/PixelSorter_K.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/PixelSorter_K.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigma-axis.basic-s",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sigma-axis",
+        "repo": "aviutl2_script_Basic_S",
+        "pattern": "^aviutl2_script_Basic_S.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/@Basic_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Basic_S.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigma-axis.path-s",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sigma-axis",
+        "repo": "aviutl2_script_Path_S",
+        "pattern": "^aviutl2_script_Path_S.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/@Path_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Path_S.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigma-axis.coloredcollar-s",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sigma-axis",
+        "repo": "aviutl2_script_ColoredCollar_S",
+        "pattern": "^aviutl2_script_ColoredCollar_S.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/ColoredCollar_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ColoredCollar_S.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigma-axis.pageroll-s",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sigma-axis",
+        "repo": "aviutl2_script_PageRoll_S",
+        "pattern": "^aviutl2_script_PageRoll_S.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/PageRoll_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/PageRoll_S.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigma-axis.pixelsnap-s",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sigma-axis",
+        "repo": "aviutl2_script_PixelSnap_S",
+        "pattern": "^aviutl2_script_PixelSnap_S.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/PixelSnap_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/PixelSnap_S.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigma-axis.resize-s",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sigma-axis",
+        "repo": "aviutl2_script_Resize_S",
+        "pattern": "^aviutl2_script_Resize_S.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/@Resize_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Resize_S.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigma-axis.tile-s",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sigma-axis",
+        "repo": "aviutl2_script_Tile_S",
+        "pattern": "^aviutl2_script_Tile_S.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/@Tile_S.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Tile_S.obj2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "garech.splitfilters",
+      "source": {
+        "type": "githubRelease",
+        "owner": "Garech-mas",
+        "repo": "AviUtl2_SplitFilters",
+        "pattern": "^SplitFilters-.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "SplitFilters.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SplitFilters.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "natadecoco.texteditor",
+      "source": {
+        "type": "githubRelease",
+        "owner": "Natadecoco2539",
+        "repo": "AviUtl2-TextEditor",
+        "pattern": "TextEditor.aux2"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "none",
+          "sourcePaths": [
+            "TextEditor.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/TextEditor.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "natadecoco.textsplitter",
+      "source": {
+        "type": "githubRelease",
+        "owner": "Natadecoco2539",
+        "repo": "AviUtl2-TextSplitter",
+        "pattern": "TextSplitter.aux2"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "none",
+          "sourcePaths": [
+            "TextSplitter.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/TextSplitter.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigma-axis.groundshadow2-s",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sigma-axis",
+        "repo": "aviutl2_script_GroundShadow2_S",
+        "pattern": "^aviutl2_script_GroundShadow2.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/GroundShadow2_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/GroundShadow2_S.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigma-axis.histogram-s",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sigma-axis",
+        "repo": "aviutl2_script_Histogram_S",
+        "pattern": "^aviutl2_script_Histogram_S.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Histogram_S.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Histogram_S.obj2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "azurite.colorhalftone",
+      "source": {
+        "type": "githubRelease",
+        "owner": "azurite581",
+        "repo": "AviUtl2-ColorHalftone",
+        "pattern": "^.*ColorHalftone.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/ColorHalftone.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ColorHalftone.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oov.gcmzdrops2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "oov",
+        "repo": "aviutl2_gcmzdrops2",
+        "pattern": "^gcmzdrops.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/GCMZDrops/GCMZDrops.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GCMZDrops/GCMZDrops.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amaii4.aviutl2-discord-rpc",
+      "source": {
+        "type": "githubRelease",
+        "owner": "amaii4",
+        "repo": "AviUtl2_Discord_RPC",
+        "pattern": "^DiscordRPC.aux2$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "none",
+          "sourcePaths": [
+            "DiscordRPC.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/DiscordRPC.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "natadecoco.myassetmanager",
+      "source": {
+        "type": "githubRelease",
+        "owner": "Natadecoco2539",
+        "repo": "AviUtl2-MyAssetManager",
+        "pattern": "MyAssetManager.aux2"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "none",
+          "sourcePaths": [
+            "MyAssetManager.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/MyAssetManager.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "azurite.gradientplus",
+      "source": {
+        "type": "githubRelease",
+        "owner": "azurite581",
+        "repo": "AviUtl2-GradientPlus",
+        "pattern": "^GradientPlus_v[\\d.]+\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "グラデーション+.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/グラデーション+.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oov.psdtoolkit2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "oov",
+        "repo": "aviutl2_psdtoolkit2",
+        "pattern": "^psdtoolkit_.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/PSDToolKit/PSDToolKit.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/PSDToolKit/PSDToolKit.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "karoterra.bend",
+      "source": {
+        "type": "githubRelease",
+        "owner": "karoterra",
+        "repo": "aviutl2-Bend",
+        "pattern": "^aviutl2-Bend_.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "@曲げKR.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@曲げKR.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "karoterra.colorvisionsimulation",
+      "source": {
+        "type": "githubRelease",
+        "owner": "karoterra",
+        "repo": "aviutl2-ColorVisionSimulation",
+        "pattern": "^Karoterra.ColorVisionSimulation-v.*.au2pkg.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/Karoterra.ColorVisionSimulation/色覚シミュレーションKR.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Karoterra.ColorVisionSimulation/色覚シミュレーションKR.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "karoterra.oilpainting",
+      "source": {
+        "type": "githubRelease",
+        "owner": "karoterra",
+        "repo": "aviutl2-OilPainting",
+        "pattern": "^Karoterra.OilPainting-v.*.au2pkg.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/Karoterra.OilPainting/油絵KR.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Karoterra.OilPainting/油絵KR.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "korarei.autolyricanimation-k",
+      "source": {
+        "type": "githubRelease",
+        "owner": "Korarei",
+        "repo": "AviUtl2_AutoLyricAnimation_K_Script",
+        "pattern": "^AutoLyricAnimation_K_.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "script/AutoLyricAnimation_K.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/AutoLyricAnimation_K.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "korarei.cameratransform-k",
+      "source": {
+        "type": "githubRelease",
+        "owner": "korarei",
+        "repo": "AviUtl2_CameraTransform_K_Script",
+        "pattern": "CameraTransform_K.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/CameraTransform_K/@CameraTransform_K.cam2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/CameraTransform_K/@CameraTransform_K.cam2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "korarei.colorlut-k",
+      "source": {
+        "type": "githubRelease",
+        "owner": "korarei",
+        "repo": "AviUtl2_ColorLUT_K_Plugin",
+        "pattern": "^ColorLUT_K.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/ColorLUT_K/ColorLUT_K.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/ColorLUT_K/ColorLUT_K.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "korarei.kaleidoscope-k",
+      "source": {
+        "type": "githubRelease",
+        "owner": "korarei",
+        "repo": "AviUtl2_Kaleidoscope_K_Script",
+        "pattern": "^Kaleidoscope_K.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Kaleidoscope_K/Kaleidoscope_K.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Kaleidoscope_K.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigma-axis.tl-walkaround2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sigma-axis",
+        "repo": "aviutl2_tl_walkaround2",
+        "pattern": "^aviutl2_tl_walkaround2.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/tl_walkaround2.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/tl_walkaround2.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hebiiro.al2-preset-adder",
+      "source": {
+        "type": "githubRelease",
+        "owner": "hebiiro",
+        "repo": "al2_preset_adder",
+        "pattern": "^al2_preset_adder.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/al2/al2_preset_adder.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_preset_adder.aui2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shyachi.srtimporter",
+      "source": {
+        "type": "githubRelease",
+        "owner": "shyachi",
+        "repo": "AviUtl2_SrtImporter",
+        "pattern": "^SrtImporter.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/SrtImporter/SrtImporter.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SrtImporter/SrtImporter.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigma-axis.whitebalance-s",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sigma-axis",
+        "repo": "aviutl2_script_WhiteBalance_S",
+        "pattern": "^aviutl2_script_WhiteBalance_S.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/@WhiteBalance_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@WhiteBalance_S.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hebiiro.al2-visual-font",
+      "source": {
+        "type": "githubRelease",
+        "owner": "hebiiro",
+        "repo": "al2_visual_font",
+        "pattern": "^al2_visual_font.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/al2/al2_visual_font.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_visual_font.aui2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-binaural",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "aviutl2-rs",
+        "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/rusty_binaural.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_binaural.auf2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-chiptune",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "aviutl2-rs",
+        "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/rusty_chiptune.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_chiptune.auf2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-equalizer",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "aviutl2-rs",
+        "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/rusty_equalizer.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_equalizer.auf2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-ffmpeg",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "aviutl2-rs",
+        "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/rusty_ffmpeg.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_ffmpeg.auo2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-image-rs-input",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "aviutl2-rs",
+        "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/rusty_image_rs.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_image_rs.aui2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-image-rs-output",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "aviutl2-rs",
+        "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/rusty_image_rs.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_image_rs.auo2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-local-alias-plugin",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "aviutl2-rs",
+        "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/rusty_local_alias.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_local_alias.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-midi-player",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "aviutl2-rs",
+        "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/rusty_midi_player.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_midi_player.aui2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-pixelsort",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "aviutl2-rs",
+        "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/rusty_pixelsort.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_pixelsort.auf2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-random-color",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "aviutl2-rs",
+        "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/rusty_random_color.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_random_color.auf2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-scripts-search",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "aviutl2-rs",
+        "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/rusty_scripts_search.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_scripts_search.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-srt-file",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "aviutl2-rs",
+        "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/rusty_srt_file.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_srt_file.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-statistics",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "aviutl2-rs",
+        "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/rusty_statistics.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_statistics.auo2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.ntsc-rs",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "ntsc-rs.anm2",
+        "pattern": "^sevenc-nanashi\\.ntsc-rs-anm2.*\\.au2pkg\\.zip"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/ntsc-rs.anm2",
+            "Script/ntsc-rs.mod2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ntsc-rs.anm2",
+            "{scriptsDir}/ntsc-rs.mod2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hebiiro.al2-slimming",
+      "source": {
+        "type": "githubRelease",
+        "owner": "hebiiro",
+        "repo": "al2_slimming",
+        "pattern": "^al2_slimming.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/al2/al2_slimming.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_slimming.aui2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.clipboard-aux2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "clipboard.aux2",
+        "pattern": "^sevenc-nanashi\\.clipboard-aux2-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/clipboard.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/clipboard.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.vintage-auf2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "vintage.auf2",
+        "pattern": "^.*vintage-.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/vintage.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/vintage.auf2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "garech.doublebpmgrid",
+      "source": {
+        "type": "githubRelease",
+        "owner": "Garech-mas",
+        "repo": "DoubleBPMGrid",
+        "pattern": "^DoubleBPMGrid-.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "AviUtl2/DoubleBPMGrid.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/DoubleBPMGrid.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.svg-aux2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "svg.aux2",
+        "pattern": "^.*svg-aux2-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/svg.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/svg.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-metronome-plugin",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "aviutl2-rs",
+        "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/rusty_metronome.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_metronome.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hebiiro.al2-ui-dressing",
+      "source": {
+        "type": "githubRelease",
+        "owner": "hebiiro",
+        "repo": "al2_ui_dressing",
+        "pattern": "^al2_ui_dressing.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/al2/al2_ui_dressing.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_ui_dressing.aui2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "book-0225.eap2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "Book-0225",
+        "repo": "aviutl2_External_Audio_Processing",
+        "pattern": "External_Audio_Processing2.au2pkg.zip"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/External_Audio_Processing2.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/External_Audio_Processing2.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mes51.unmult",
+      "source": {
+        "type": "githubRelease",
+        "owner": "mes51",
+        "repo": "AVIUtl2_Unmult",
+        "pattern": ".*Unmult_.*\\.zip"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "AVIUtl2_Unmult/Unmult.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Unmult.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sagami121.calculator",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sagami121",
+        "repo": "Aviutl2-Calculator",
+        "pattern": "^aviutl2_calc.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "aviutl2_calc.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2_calc.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cleaning.sam-frame-export-filter",
+      "source": {
+        "type": "githubRelease",
+        "owner": "clean262",
+        "repo": "sam_frame_export_filter",
+        "pattern": "^sam_frame_export_filter-windows-x64\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "sam_frame_export_filter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/sam_frame_export_filter.auf2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cleaning.sam3-bb-gb-generator",
+      "source": {
+        "type": "githubRelease",
+        "owner": "clean262",
+        "repo": "sam3_bb_gb_generator",
+        "pattern": "^SAM3_win64\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "SAM3_win64/aviutl2/Plugin/SAM3/sam3.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SAM3/sam3.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kazoon.ksa",
+      "source": {
+        "type": "githubRelease",
+        "owner": "cycloawaodorin",
+        "repo": "ksa",
+        "pattern": "^ksa\\..*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/KSA/ksa_ext.mod2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/KSA/ksa_ext.mod2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.tinted-aviutl2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "tinted-aviutl2",
+        "pattern": "^.*tinted-aviutl2-v[^/]+\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/tinted-aviutl2.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/tinted-aviutl2.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kuroneko.audio2obj",
+      "source": {
+        "type": "githubRelease",
+        "owner": "rokujyushi",
+        "repo": "GCMZScripts",
+        "pattern": "audio2obj\\.lua"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "none",
+          "sourcePaths": [
+            "audio2obj.lua"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GCMZDrops/GCMZScript/audio2obj.lua"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kuroneko.haribote",
+      "source": {
+        "type": "githubRelease",
+        "owner": "rokujyushi",
+        "repo": "Haribote",
+        "pattern": "HariboteReader\\.zip"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "HariboteReader.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/HariboteReader.aui2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kuroneko.midi2eap2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "rokujyushi",
+        "repo": "GCMZScripts",
+        "pattern": "midi2EAP2\\.zip"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "midi2EAP2/midi2EAP2.lua"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GCMZDrops/GCMZScript/midi2EAP2.lua"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "azurite.gradienteditor",
+      "source": {
+        "type": "githubRelease",
+        "owner": "azurite581",
+        "repo": "AviUtl2-GradientEditor",
+        "pattern": "^GradientEditor-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/GradientEditor.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GradientEditor.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kazoon.fzgx-smr-ks",
+      "source": {
+        "type": "githubRelease",
+        "owner": "cycloawaodorin",
+        "repo": "fzgx_smr_ks",
+        "pattern": "^fzgx_smr_ks\\.2.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "fzgx_smr_ks.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/fzgx_smr_ks.auo2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kazoon.wav-output-ks",
+      "source": {
+        "type": "githubRelease",
+        "owner": "cycloawaodorin",
+        "repo": "wav_output_ks",
+        "pattern": "^wav_output_ks\\..*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "wav_output_ks.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/wav_output_ks.auo2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kuroneko.fontpreview",
+      "source": {
+        "type": "githubRelease",
+        "owner": "rokujyushi",
+        "repo": "FontPreview",
+        "pattern": "^FontPreview-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/FontPreview/FontPreview.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/FontPreview/FontPreview.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kuroneko.variablefont",
+      "source": {
+        "type": "githubRelease",
+        "owner": "rokujyushi",
+        "repo": "Variable-Font-Plug-ins",
+        "pattern": "^VariableFont-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/VariableFont/VariableFont.aux2",
+            "Script/VariableFont/VariableFontModule.mod2",
+            "Script/VariableFont/Variable Font Object.obj2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/VariableFont/VariableFont.aux2",
+            "{scriptsDir}/VariableFont/VariableFontModule.mod2",
+            "{scriptsDir}/VariableFont/Variable Font Object.obj2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neac.cinemascope",
+      "source": {
+        "type": "githubRelease",
+        "owner": "nea-c",
+        "repo": "aviutl2_script_CinemaScope",
+        "pattern": "^CinemaScope\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "シネマスコープ.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/シネマスコープ.obj2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kuroneko.svg2obj",
+      "source": {
+        "type": "githubRelease",
+        "owner": "rokujyushi",
+        "repo": "GCMZScripts",
+        "pattern": "svg2obj\\.lua"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "none",
+          "sourcePaths": [
+            "svg2obj.lua"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GCMZDrops/GCMZScript/svg2obj.lua"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neac.bezierpath",
+      "source": {
+        "type": "githubRelease",
+        "owner": "nea-c",
+        "repo": "aviutl2_script_BezierPath",
+        "pattern": "^BezierPath\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "BezierPath.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/BezierPath.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neac.egasumi",
+      "source": {
+        "type": "githubRelease",
+        "owner": "nea-c",
+        "repo": "aviutl2_script_Egasumi",
+        "pattern": "^Egasumi\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "エ霞.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/エ霞.obj2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neac.screenaspect",
+      "source": {
+        "type": "githubRelease",
+        "owner": "nea-c",
+        "repo": "aviutl2_script_ScreenAspect",
+        "pattern": "^ScreenAspect\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "画面アスペクト.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/画面アスペクト.obj2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.open-project-directory-aux2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "open_project_directory.aux2",
+        "pattern": "^.*open_project_directory-v[^/]+\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/open_project_directory.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/open_project_directory.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "koisi0319.duplicate-objects",
+      "source": {
+        "type": "githubRelease",
+        "owner": "koisi0319",
+        "repo": "Aviutl2-Duplicate-objects-at-equal-intervals",
+        "pattern": "^Duplicate_objects*\\.aux2$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "none",
+          "sourcePaths": [
+            "Duplicate_objects.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Duplicate_objects.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vramwiz.syncroh2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "vramwiz",
+        "repo": "Syncroh2-site",
+        "pattern": "^Syncroh2_Desktop.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/@Syncroh2_Script.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kuroneko.copyalias",
+      "source": {
+        "type": "githubRelease",
+        "owner": "rokujyushi",
+        "repo": "Copy_alias",
+        "pattern": "KuroNeko\\.CopyAlias.*\\.au2pkg\\.zip"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/CopyAlias.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/CopyAlias.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sagami121.blocknoise",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sagami121",
+        "repo": "Aviutl2-BlockNoise",
+        "pattern": "^BlockNoise.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "BlockNoise.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/BlockNoise.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.insert-aux2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "insert.aux2",
+        "pattern": "^sevenc-nanashi\\.insert-aux2-v[^/]+\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/insert.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/insert.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "azurite.hex-tiling",
+      "source": {
+        "type": "githubRelease",
+        "owner": "azurite581",
+        "repo": "AviUtl2-Hex-Tiling",
+        "pattern": "^.*Hex-Tiling.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/Hex-Tiling.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Hex-Tiling.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.filter-effect-toggle-aux2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "filter_effect_toggle.aux2",
+        "pattern": "^sevenc-nanashi\\.filter_effect_toggle-aux2.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/filter_effect_toggle.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/filter_effect_toggle.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.quantizer-aux2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "quantizer.aux2",
+        "pattern": "^sevenc-nanashi\\.quantizer-aux2-v[^/]+\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/quantizer.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/quantizer.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v-bernkastel.aviutl2-language-kr",
+      "source": {
+        "type": "githubRelease",
+        "owner": "Victorique-Bernkastel",
+        "repo": "AviUtl2_Language",
+        "pattern": "^Korean.*\\.aul2$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "none",
+          "sourcePaths": [
+            "Korean.language.aul2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/Korean.language.aul2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neac.loop",
+      "source": {
+        "type": "githubRelease",
+        "owner": "nea-c",
+        "repo": "aviutl2_script_Loop",
+        "pattern": "^Loop\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Loop.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Loop.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neac.lyricmotion",
+      "source": {
+        "type": "githubRelease",
+        "owner": "nea-c",
+        "repo": "aviutl2_script_LyricMotioN",
+        "pattern": "^LyricMotioN\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "LyricMotioN.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/LyricMotioN.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.aviutl2-rs-rusty-single-image-output",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "aviutl2-rs",
+        "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/rusty_image_rs_single.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_image_rs_single.auo2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.discord-activity-aux2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "discord_activity.aux2",
+        "pattern": "^sevenc-nanashi\\.discord_activity-aux2-v[^/]+\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/discord_activity_aux2.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/discord_activity_aux2.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kazoon.resize-ks",
+      "source": {
+        "type": "githubRelease",
+        "owner": "cycloawaodorin",
+        "repo": "resize_ks",
+        "pattern": "^resize_ks\\..*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "resize_ks.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/resize_ks.auf2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.disassembler-anm2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "disassembler.anm2",
+        "pattern": "^sevenc-nanashi\\.disassembler-anm2-v[^/]+\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/disassembler.anm2.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/disassembler.anm2.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.modify-group-num-layers-aux2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "modify_group_num_layers.aux2",
+        "pattern": "^sevenc-nanashi\\.modify_group_num_layers-aux2-v[^/]+\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/modify_group_num_layers.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/modify_group_num_layers.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.transform-specific-chars-anm2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "transform_specific_chars.anm2",
+        "pattern": "^sevenc-nanashi\\.transform_specific_chars-anm2-v[^/]+\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Language/English.transform_specific_chars.aul2",
+            "Script/transform_specific_chars.anm2.anm2",
+            "Script/transform_specific_chars.mod2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/English.transform_specific_chars.aul2",
+            "{scriptsDir}/transform_specific_chars.anm2.anm2",
+            "{scriptsDir}/transform_specific_chars.mod2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pachira762.vsr4aviutl",
+      "source": {
+        "type": "githubRelease",
+        "owner": "Pachira762",
+        "repo": "vsr4aviutl",
+        "pattern": "^vsr4aviutl_.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "vsr4aviutl/vsr4aviutl.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/vsr4aviutl.auf2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "azurite.imagecropexport",
+      "source": {
+        "type": "githubRelease",
+        "owner": "azurite581",
+        "repo": "AviUtl2-ImageCropExport",
+        "pattern": "^ImageCropExport-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/ImageCropExport.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/ImageCropExport.auo2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kuroneko.ttsfilerename",
+      "source": {
+        "type": "githubRelease",
+        "owner": "rokujyushi",
+        "repo": "GCMZScripts",
+        "pattern": "TTSFileRename\\.lua"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "none",
+          "sourcePaths": [
+            "TTSFileRename.lua"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GCMZDrops/GCMZScript/TTSFileRename.lua"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "novenove.karaokelyricrenderer",
+      "source": {
+        "type": "githubRelease",
+        "owner": "nove-nove",
+        "repo": "aviutl2-karaoke-lyric-renderer",
+        "pattern": "aviutl2-karaoke-lyric-renderer.zip"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "AviUtl2KaraokeLyricRenderer.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/AviUtl2KaraokeLyricRenderer.auf2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "korarei.diffusion-k",
+      "source": {
+        "type": "githubRelease",
+        "owner": "korarei",
+        "repo": "AviUtl2_Diffusion_K_Script",
+        "pattern": "^Diffusion_K.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/Diffusion_K/@Diffusion_K.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Diffusion_K/@Diffusion_K.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.budoux-obj2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "budoux.obj2",
+        "pattern": "^sevenc-nanashi\\.budoux-obj2-v[^/]+\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/budoux.mod2",
+            "Script/budoux.obj2.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/budoux.mod2",
+            "{scriptsDir}/budoux.obj2.obj2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigma-axis.border-s",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sigma-axis",
+        "repo": "aviutl2_Border_S",
+        "pattern": "^aviutl2_Border_S.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/Border_S.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Border_S.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "azurite.pointzoom",
+      "source": {
+        "type": "githubRelease",
+        "owner": "azurite581",
+        "repo": "AviUtl2-PointZoom",
+        "pattern": "^PointZoom.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/ポイントズーム.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ポイントズーム.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "number-0621.selecteasing",
+      "source": {
+        "type": "githubRelease",
+        "owner": "NumberZero-0621",
+        "repo": "AviUtl2-Plugin-SelectEasing",
+        "pattern": "^SelectEasing_AviUtl2.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "SelectEasing_AviUtl2/SelectEasing.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SelectEasing.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fu-majime.aviutl2-polygonmorph-f",
+      "source": {
+        "type": "githubRelease",
+        "owner": "fu-majime",
+        "repo": "AviUtl2_PolygonMorph_F",
+        "pattern": "^PolygonMorph_F.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/多角形モーフ_F.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/多角形モーフ_F.obj2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "novenove.vrmtoolkit",
+      "source": {
+        "type": "githubRelease",
+        "owner": "nove-nove",
+        "repo": "aviutl2-vrm-toolkit",
+        "pattern": "VRM-Toolkit-for-AviUtl2\\.au2pkg\\.zip"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/VRMToolkit/VRMToolkitExpressionEditor.aux2",
+            "Script/VRMToolkit/VRMToolkitBridge.mod2",
+            "Script/VRMToolkit/VRMToolkitModel.obj2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/VRMToolkit/VRMToolkitExpressionEditor.aux2",
+            "{scriptsDir}/VRMToolkit/VRMToolkitBridge.mod2",
+            "{scriptsDir}/VRMToolkit/VRMToolkitModel.obj2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "number-0621.easing-quick-setup",
+      "source": {
+        "type": "githubRelease",
+        "owner": "NumberZero-0621",
+        "repo": "AviUtl2-easing-quick-setup",
+        "pattern": "^easing_quick_setup.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "easing_quick_setup.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/easing_quick_setup.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pachira762.analogfuu",
+      "source": {
+        "type": "githubRelease",
+        "owner": "Pachira762",
+        "repo": "AnalogFuu",
+        "pattern": "^AnalogFuu_.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "AnalogFuu/AnalogFuu.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/AnalogFuu.auf2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.tex-auf2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "tex.auf2",
+        "pattern": "^sevenc-nanashi\\.tex-auf2-v[^/]+\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/tex.aux2",
+            "Language/English.tex.aul2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/tex.aux2",
+            "{dataDir}/Language/English.tex.aul2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "azurite.adjustpivot-a",
+      "source": {
+        "type": "githubRelease",
+        "owner": "azurite581",
+        "repo": "AviUtl2-AdjustPivot_A",
+        "pattern": "^AdjustPivot_A-v.+\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/中心ずらし_A.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/中心ずらし_A.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aviutl2-community.aviutl2-community-translation-companion",
+      "source": {
+        "type": "githubRelease",
+        "owner": "aviutl2",
+        "repo": "aviutl2-community-translation",
+        "pattern": "^aviutl2-community\\.aviutl2_community_translation_companion-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/aviutl2_community_translation_companion.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2_community_translation_companion.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beive60.aviutl2-alias-inserter",
+      "source": {
+        "type": "githubRelease",
+        "owner": "beive60",
+        "repo": "aviutl2-alias-inserter",
+        "pattern": "^aviutl2-alias-inserter-v(?<version>\\d\\.\\d\\.\\d)\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "aviutl2_alias_inserter.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2_alias_inserter.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beive60.aviutl2-audio-rec",
+      "source": {
+        "type": "githubRelease",
+        "owner": "beive60",
+        "repo": "aviutl2-audio-rec",
+        "pattern": "^aviutl2-audio-rec-v(?<version>\\d\\.\\d\\.\\d)\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "aviutl2_audio_rec.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2_audio_rec.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "karoterra.typst",
+      "source": {
+        "type": "githubRelease",
+        "owner": "karoterra",
+        "repo": "aviutl2-typst",
+        "pattern": "^Karoterra\\.Typst-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/Karoterra.Typst/typst_kr.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Karoterra.Typst/typst_kr.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigma-axis.translations-sigma-axis",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sigma-axis",
+        "repo": "aviutl2_translations_sigma-axis",
+        "pattern": "^aviutl2_translations_sigma-axis.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Language/English.sigma-axis.aul2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/English.sigma-axis.aul2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teruyoshii.noisete",
+      "source": {
+        "type": "githubRelease",
+        "owner": "teruyoshii",
+        "repo": "AviUtl2_Noise_Te",
+        "pattern": "^@noise_Te\\.anm2$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "none",
+          "sourcePaths": [
+            "@noise_Te.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@noise_Te.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "osakana4242.gifbayerditheroutput",
+      "source": {
+        "type": "githubRelease",
+        "owner": "osakana4242",
+        "repo": "aviutl2-gif-bayer-dither-output",
+        "pattern": "^GifBayerDitherOutput-v(.+).zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "GifBayerDitherOutput.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GifBayerDitherOutput.auo2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.ported-tim",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "ported_tim",
+        "pattern": "^sevenc-nanashi\\.ported_tim-v[^/]+\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Language/English.ported_tim.aul2",
+            "Script/@tim.anm2.anm2",
+            "Script/@tim.cam2.cam2",
+            "Script/@tim.obj2.obj2",
+            "Script/@tim.scn2.scn2",
+            "Script/@tim.tra2.tra2",
+            "Script/tim2.mod2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/English.ported_tim.aul2",
+            "{scriptsDir}/@tim.anm2.anm2",
+            "{scriptsDir}/@tim.cam2.cam2",
+            "{scriptsDir}/@tim.obj2.obj2",
+            "{scriptsDir}/@tim.scn2.scn2",
+            "{scriptsDir}/@tim.tra2.tra2",
+            "{scriptsDir}/tim2.mod2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "book-0225.relink",
+      "source": {
+        "type": "githubRelease",
+        "owner": "Book-0225",
+        "repo": "aviutl2_relink",
+        "pattern": "aviutl2_relink.au2pkg.zip"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/aviutl2_relink_launcher.aux2",
+            "Plugin/aviutl2_relink.exe"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2_relink_launcher.aux2",
+            "{pluginsDir}/aviutl2_relink.exe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beive60.scene-lighting",
+      "source": {
+        "type": "githubRelease",
+        "owner": "beive60",
+        "repo": "aviutl2-scene-lighting",
+        "pattern": "^aviutl2-scene-lighting-v(?<version>\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/Beive60/@scene_lighting.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Beive60/@scene_lighting.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "korarei.flowtype-k",
+      "source": {
+        "type": "githubRelease",
+        "owner": "korarei",
+        "repo": "AviUtl2_FlowType_K_Script",
+        "pattern": "^FlowType_K.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/FlowType_K/@FlowType_K.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/FlowType_K/@FlowType_K.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zopty.osc4au2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "zopty",
+        "repo": "osc4au2",
+        "pattern": "^osc4au2-v[^/]+\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/OSC4AU2.mod2",
+            "Script/OSC4AU2.tra2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/OSC4AU2.mod2",
+            "{scriptsDir}/OSC4AU2.tra2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigma-axis.region-s",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sigma-axis",
+        "repo": "aviutl2_script_Region_S",
+        "pattern": "^aviutl2_script_Region_S.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/@Region_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Region_S.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigma-axis.layback",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sigma-axis",
+        "repo": "aviutl2_script_Layback",
+        "pattern": "^aviutl2_script_Layback.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/最背面に配置.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/最背面に配置.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vramwiz.vw-media-input",
+      "source": {
+        "type": "githubRelease",
+        "owner": "vramwiz",
+        "repo": "VW_Media_Input",
+        "pattern": "^VW_Media_Input\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "VW_Media_Input/VW_Media_Input.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/VW_Media_Input/VW_Media_Input.aui2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vramwiz.vw-media-output",
+      "source": {
+        "type": "githubRelease",
+        "owner": "vramwiz",
+        "repo": "VW_Media_Output",
+        "pattern": "^VW_Media_Output.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "VW_Media_Output/VW_Media_Output.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/VW_Media_Output/VW_Media_Output.auo2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "natadecoco.softanchorbone",
+      "source": {
+        "type": "githubRelease",
+        "owner": "Natadecoco2539",
+        "repo": "AviUtl2-SoftAnchorBone",
+        "pattern": "SoftAnchorBone.anm2"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "none",
+          "sourcePaths": [
+            "SoftAnchorBone.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/SoftAnchorBone.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "airiah7.plugin-picked-color-storage",
+      "source": {
+        "type": "githubRelease",
+        "owner": "airiah7",
+        "repo": "airiah7--aviutl2--plugin--picked-color-storage",
+        "pattern": "^airiah7--aviutl2--plugin--picked-color-storage-v\\.(\\d+\\.\\d+\\.\\d+)\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "airiah7__picked_color_storage.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/airiah7/airiah7__picked_color_storage.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "airiah7.widget-drag-and-drop-objects",
+      "source": {
+        "type": "githubRelease",
+        "owner": "airiah7",
+        "repo": "airiah7--aviutl2--widget--drag-and-drop-objects",
+        "pattern": "^airiah7--aviutl2--widget--drag-and-drop-objects-v\\.(\\d+\\.\\d+\\.\\d+)\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "airiah7__drag_and_drop_objects.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/airiah7/airiah7__drag_and_drop_objects.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "airiah7.widget-speed-preview",
+      "source": {
+        "type": "githubRelease",
+        "owner": "airiah7",
+        "repo": "airiah7--aviutl2--widget--speed-preview",
+        "pattern": "^airiah7--aviutl2--widget--speed-preview-v\\.(\\d+\\.\\d+\\.\\d+)\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "airiah7__speed_preview.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/airiah7/airiah7__speed_preview.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "garech.datetime",
+      "source": {
+        "type": "githubRelease",
+        "owner": "Garech-mas",
+        "repo": "AviUtl2_DateTime",
+        "pattern": "^DateTime.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "日付と時刻.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/日付と時刻.obj2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "azurite.depthmapfilter",
+      "source": {
+        "type": "githubRelease",
+        "owner": "azurite581",
+        "repo": "AviUtl2-DepthMapFilter",
+        "pattern": "^DepthMapFilter-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/DepthMapFilter/DepthMapFilter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/DepthMapFilter/DepthMapFilter.auf2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eizo-gak.aviutl2-sourcemonitor",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "aviutl2-sourcemonitor-bootstrapper.aux2",
+        "pattern": "^sevenc-nanashi.aviutl2_sourcemonitor_bootstrapper-aux2-.*\\.au2pkg.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/aviutl2-sourcemonitor/SourceMonitor.aux2.dll"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2-sourcemonitor/SourceMonitor.aux2.dll"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fuji.voice-drop",
+      "source": {
+        "type": "githubRelease",
+        "owner": "Fuji07-2525",
+        "repo": "voice-drop",
+        "pattern": "voice_drop.aux2"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "none",
+          "sourcePaths": [
+            "voice_drop.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/voice_drop.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.import-midi-tempos-aux2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "import_midi_tempos.aux2",
+        "pattern": "^sevenc-nanashi\\.import_midi_tempos-aux2-v[^/]+\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/import_midi_tempos.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/import_midi_tempos.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gohankaiju.rich-audio-spectrum",
+      "source": {
+        "type": "githubRelease",
+        "owner": "Gohankaiju",
+        "repo": "aviutl2-rich-audio-spectrum",
+        "pattern": "^rich-audio-spectrum_v.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "rich-audio-spectrum/rich-audio-spectrum.obj2",
+            "rich-audio-spectrum/ras_core.lua",
+            "rich-audio-spectrum/ras_draw.lua",
+            "rich-audio-spectrum/ras_engine.lua",
+            "rich-audio-spectrum/ras_presets.lua"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/rich-audio-spectrum/rich-audio-spectrum.obj2",
+            "{scriptsDir}/rich-audio-spectrum/ras_core.lua",
+            "{scriptsDir}/rich-audio-spectrum/ras_draw.lua",
+            "{scriptsDir}/rich-audio-spectrum/ras_engine.lua",
+            "{scriptsDir}/rich-audio-spectrum/ras_presets.lua"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vramwiz.audiofilter",
+      "source": {
+        "type": "githubRelease",
+        "owner": "vramwiz",
+        "repo": "Aul2AudioFilter",
+        "pattern": "^Aul2AudioFilter\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Aul2AudioFilter/Aul2AudioFilter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Aul2AudioFilter/Aul2AudioFilter.auf2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "karoterra.waveformpreview",
+      "source": {
+        "type": "githubRelease",
+        "owner": "karoterra",
+        "repo": "aviutl2-waveform-preview",
+        "pattern": "^Karoterra\\.WaveformPreview-v.*\\.au2pkg\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/Karoterra.WaveformPreview/waveformpreview.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Karoterra.WaveformPreview/waveformpreview.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nkopikaso.aviutl2-whisperautosub",
+      "source": {
+        "type": "githubRelease",
+        "owner": "nkopikaso",
+        "repo": "AviUtl2-WhisperAutoSub",
+        "pattern": "WhisperAutoSub.aux2"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "none",
+          "sourcePaths": [
+            "WhisperAutoSub.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/WhisperAutoSub.aux2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "natadecoco.textbackplate",
+      "source": {
+        "type": "githubRelease",
+        "owner": "Natadecoco2539",
+        "repo": "AviUtl2-TextBackplate",
+        "pattern": "TextBackplate.anm2"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "none",
+          "sourcePaths": [
+            "TextBackplate.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/TextBackplate.anm2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hebiiro.al2-dialog-resizer",
+      "source": {
+        "type": "githubRelease",
+        "owner": "hebiiro",
+        "repo": "al2_dialog_resizer",
+        "pattern": "^al2_dialog_resizer.*\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Plugin/al2/al2_dialog_resizer.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_dialog_resizer.aui2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sldc.seisa",
+      "source": {
+        "type": "githubRelease",
+        "owner": "samuelladoco",
+        "repo": "aviutl2-script-seisa",
+        "pattern": "SeiSa.au2pkg.zip"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Script/SeiSa/SeiSa-Total.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/SeiSa/SeiSa-Total.obj2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "estelle.aviutl2-latex",
+      "source": {
+        "type": "githubRelease",
+        "owner": "Estellellet",
+        "repo": "AviUtl2-LaTeX",
+        "pattern": "^AviUtl2LaTeX-v[0-9]+\\.[0-9]+\\.[0-9]+\\.zip$"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "AviUtl2LaTeX/AviUtl2LaTeX.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/AviUtl2LaTeX/AviUtl2LaTeX.auf2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevenc-nanashi.void-auf2",
+      "source": {
+        "type": "githubRelease",
+        "owner": "sevenc-nanashi",
+        "repo": "void.auf2",
+        "pattern": "^sevenc-nanashi\\.void-auf2-v.*\\.au2pkg\\.zip"
+      },
+      "hashTargets": [
+        {
+          "archiveFormat": "zip",
+          "sourcePaths": [
+            "Language/Default.void-auf2.aul2",
+            "Language/English.void-auf2.aul2",
+            "Plugin/void.auf2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/Default.void-auf2.aul2",
+            "{dataDir}/Language/English.void-auf2.aul2",
+            "{pluginsDir}/void.auf2"
+          ]
+        }
+      ]
+    }
+  ]
+}
