@@ -28019,7 +28019,7 @@
     "description": "https://raw.githubusercontent.com/azurite581/AviUtl2-AdjustPivot_A/main/README.md",
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-AdjustPivot_A",
-    "latest-version": "v0.2.0",
+    "latest-version": "v0.3.0",
     "popularity": 673,
     "trend": 75,
     "licenses": [
@@ -28104,6 +28104,16 @@
           {
             "path": "{scriptsDir}/中心ずらし_A.anm2",
             "XXH3_128": "2acb9fe562d55092d1d79b2969fed31e"
+          }
+        ]
+      },
+      {
+        "version": "v0.3.0",
+        "release_date": "2026-07-16",
+        "file": [
+          {
+            "path": "{scriptsDir}/中心ずらし_A.anm2",
+            "XXH3_128": "3b1c3e835a3e1a051ce75d576fc9bbe9"
           }
         ]
       }
