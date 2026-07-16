@@ -1,0 +1,12 @@
+*.md
+# !README.md
+!legacy-input/md/**/*.md
+
+
+.pnpm-store/
+.tmp/
+archive/
+node_modules/
+publish-preview/
+# packages
+# legacy-input

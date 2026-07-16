@@ -1,0 +1,32 @@
+{
+  "name": "aviutl2-catalog-data",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.12.0"
+  },
+  "scripts": {
+    "fmt": "oxfmt scripts catalog-schema",
+    "fmt:check": "oxfmt --check scripts catalog-schema",
+    "lint": "oxlint scripts catalog-schema",
+    "lint:fix": "oxlint --fix scripts catalog-schema",
+    "migration:audit": "node scripts/migration/audit.ts",
+    "migration:run": "node scripts/migration/migrate.ts",
+    "source:validate": "node scripts/source/validate.ts",
+    "build:package-list": "node scripts/distribution/generate-package-md.ts",
+    "build": "node scripts/distribution/build.ts && pnpm build:package-list",
+    "build:validate": "node scripts/distribution/validate.ts",
+    "legacy:build": "node scripts/legacy-export/build-index.ts",
+    "typecheck": "tsc --project tsconfig.json",
+    "migration": "pnpm typecheck && pnpm migration:audit && pnpm migration:run && pnpm source:validate",
+    "refresh": "pnpm typecheck && pnpm source:validate && pnpm build && pnpm build:validate"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "oxfmt": "^0.58.0",
+    "oxlint": "^1.73.0",
+    "typescript": "^7.0.2",
+    "zod": "^4.4.3"
+  }
+}
