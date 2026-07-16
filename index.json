@@ -21928,6 +21928,16 @@
           "action": "copy",
           "from": "{tmp}/Script/VariableFont/VariableFontModule.mod2",
           "to": "{scriptsDir}/VariableFont"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.VariableFont.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/简体中文.VariableFont.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -21974,6 +21984,14 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/VariableFont/VariableFontModule.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.VariableFont.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/简体中文.VariableFont.aul2"
         }
       ]
     },
