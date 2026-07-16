@@ -1,0 +1,94 @@
+{
+  "versions": [
+    {
+      "version": "1.14",
+      "releaseDate": "2025-07-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/ffmpegOut.auo",
+          "xxh128": "034938a1acc97454805073fcb40d6292"
+        }
+      ]
+    },
+    {
+      "version": "1.15",
+      "releaseDate": "2025-07-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/ffmpegOut.auo",
+          "xxh128": "2d80a5cc6ea84cfa072ac6efd23d2a96"
+        }
+      ]
+    },
+    {
+      "version": "2.00",
+      "releaseDate": "2025-08-17",
+      "files": [
+        {
+          "path": "{pluginsDir}/ffmpegOut.auo2",
+          "xxh128": "a1569680a84888a184028a5e39ee8897"
+        }
+      ]
+    },
+    {
+      "version": "2.01",
+      "releaseDate": "2025-08-19",
+      "files": [
+        {
+          "path": "{pluginsDir}/ffmpegOut.auo2",
+          "xxh128": "70c0de112d08aa70b0ed92c7d1b00955"
+        }
+      ]
+    },
+    {
+      "version": "2.02",
+      "releaseDate": "2025-08-31",
+      "files": [
+        {
+          "path": "{pluginsDir}/ffmpegOut.auo2",
+          "xxh128": "3ccfd53c9155f086b118dca2ff4c4a39"
+        }
+      ]
+    },
+    {
+      "version": "2.03",
+      "releaseDate": "2025-09-15",
+      "files": [
+        {
+          "path": "{pluginsDir}/ffmpegOut.auo2",
+          "xxh128": "ce2c553e5860c69b14e0ae34f2ddf440"
+        }
+      ]
+    },
+    {
+      "version": "2.04",
+      "releaseDate": "2025-12-27",
+      "files": [
+        {
+          "path": "{pluginsDir}/ffmpegOut.auo2",
+          "xxh128": "11bff1b1b1fb258297e899f99147af74"
+        }
+      ]
+    },
+    {
+      "version": "2.05",
+      "releaseDate": "2025-12-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/ffmpegOut.auo2",
+          "xxh128": "eeae2a53bdf902aaf2e0b0a5db16572e"
+        }
+      ]
+    },
+    {
+      "version": "2.06",
+      "releaseDate": "2026-06-06",
+      "files": [
+        {
+          "path": "{pluginsDir}/ffmpegOut.auo2",
+          "xxh128": "0734092b054e302904d8bf9d8ab6794c"
+        }
+      ]
+    }
+  ]
+}

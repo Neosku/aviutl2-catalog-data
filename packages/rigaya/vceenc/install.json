@@ -1,0 +1,48 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "rigaya",
+      "repo": "VCEEnc",
+      "pattern": "^Aviutl2_VCEEnc.*install\\.exe$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extractSfx"
+      },
+      {
+        "action": "runAuoSetup",
+        "path": "{tmp}/Plugin/exe_files/auo_setup2.exe"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VCEEnc.auo2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VCEEnc.conf"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VCEEnc.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VCEEnc.en.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VCEEnc.zh.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VCEEnc_stg/"
+      }
+    ]
+  }
+}

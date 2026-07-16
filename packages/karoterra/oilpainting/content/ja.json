@@ -1,0 +1,23 @@
+{
+  "name": "油絵KR",
+  "author": "かろてら",
+  "originalAuthor": "高橋直哉",
+  "tags": [
+    "画像"
+  ],
+  "description": {
+    "summary": "油絵風の加工を施すスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "karoterra"
+        }
+      ]
+    }
+  ]
+}

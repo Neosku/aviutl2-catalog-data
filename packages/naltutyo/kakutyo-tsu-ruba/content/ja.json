@@ -1,0 +1,22 @@
+{
+  "name": "Nao式ツールボックス",
+  "author": "Nao",
+  "originalAuthor": "aoytsk様",
+  "tags": [
+    "便利ツール",
+    "UI"
+  ],
+  "description": {
+    "summary": "元祖拡張ツールバーをAviutl2用にオマージュしたものです",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "unknown",
+      "name": "不明"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.jpg"
+  }
+}

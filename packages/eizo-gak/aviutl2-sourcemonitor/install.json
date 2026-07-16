@@ -1,0 +1,87 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sevenc-nanashi",
+      "repo": "aviutl2-sourcemonitor-bootstrapper.aux2",
+      "pattern": "^sevenc-nanashi.aviutl2_sourcemonitor_bootstrapper-aux2-.*\\.au2pkg.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/SourceMonitor/SourceMonitor.aux2"
+      },
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/aviutl2-sourcemonitor/aviutl2-sourcemonitor-bootstrapper.aux2",
+        "to": "{pluginsDir}/aviutl2-sourcemonitor"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/aviutl2-sourcemonitor/dependencies/avcodec-62.dll",
+        "to": "{pluginsDir}/aviutl2-sourcemonitor/dependencies"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/aviutl2-sourcemonitor/dependencies/avformat-62.dll",
+        "to": "{pluginsDir}/aviutl2-sourcemonitor/dependencies"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/aviutl2-sourcemonitor/dependencies/avutil-60.dll",
+        "to": "{pluginsDir}/aviutl2-sourcemonitor/dependencies"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/aviutl2-sourcemonitor/dependencies/swresample-6.dll",
+        "to": "{pluginsDir}/aviutl2-sourcemonitor/dependencies"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/aviutl2-sourcemonitor/dependencies/swscale-9.dll",
+        "to": "{pluginsDir}/aviutl2-sourcemonitor/dependencies"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/aviutl2-sourcemonitor/SourceMonitor.aux2.dll",
+        "to": "{pluginsDir}/aviutl2-sourcemonitor"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/aviutl2-sourcemonitor/aviutl2-sourcemonitor-bootstrapper.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/aviutl2-sourcemonitor/dependencies/avcodec-62.dll"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/aviutl2-sourcemonitor/dependencies/avformat-62.dll"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/aviutl2-sourcemonitor/dependencies/avutil-60.dll"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/aviutl2-sourcemonitor/dependencies/swresample-6.dll"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/aviutl2-sourcemonitor/dependencies/swscale-9.dll"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/aviutl2-sourcemonitor/SourceMonitor.aux2.dll"
+      }
+    ]
+  }
+}

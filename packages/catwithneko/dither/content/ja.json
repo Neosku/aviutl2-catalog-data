@@ -1,0 +1,16 @@
+{
+  "name": "Dither",
+  "author": "こんにゃくねこ",
+  "tags": [
+    "色調整"
+  ],
+  "description": {
+    "summary": "閾値がランダム変化する二値化",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ]
+}

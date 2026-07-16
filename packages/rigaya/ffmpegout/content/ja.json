@@ -1,0 +1,14 @@
+{
+  "name": "ffmpegOut",
+  "author": "rigaya",
+  "tags": [],
+  "description": {
+    "summary": "Aviutlのffmpegを使用した出力プラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}

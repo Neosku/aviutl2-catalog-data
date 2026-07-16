@@ -1,0 +1,24 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/LongShadow.anm2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/LongShadow.anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/LongShadow.anm2"
+      }
+    ]
+  }
+}

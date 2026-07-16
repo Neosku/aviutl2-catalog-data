@@ -1,0 +1,16 @@
+{
+  "name": "AlphaDither_C",
+  "author": "こんにゃくねこ",
+  "tags": [
+    "色調整"
+  ],
+  "description": {
+    "summary": "いわゆるディザ合成",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ]
+}

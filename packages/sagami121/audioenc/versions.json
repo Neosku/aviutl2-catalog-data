@@ -1,0 +1,54 @@
+{
+  "versions": [
+    {
+      "version": "v1.0",
+      "releaseDate": "2026-01-25",
+      "files": [
+        {
+          "path": "{pluginsDir}/AudioEnc.auo2",
+          "xxh128": "711656211ad67e51a72fa97c930e182e"
+        }
+      ]
+    },
+    {
+      "version": "v1.1",
+      "releaseDate": "2026-02-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/AudioEnc.auo2",
+          "xxh128": "711656211ad67e51a72fa97c930e182e"
+        }
+      ]
+    },
+    {
+      "version": "v1.2",
+      "releaseDate": "2026-02-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/AudioEnc.auo2",
+          "xxh128": "a8386e0953f9cb57d3cc9612f759d461"
+        }
+      ]
+    },
+    {
+      "version": "v1.3",
+      "releaseDate": "2026-02-20",
+      "files": [
+        {
+          "path": "{pluginsDir}/AudioEnc.auo2",
+          "xxh128": "4de81657c6cb29f4e36474d697936303"
+        }
+      ]
+    },
+    {
+      "version": "v1.4",
+      "releaseDate": "2026-06-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/AudioEnc.auo2",
+          "xxh128": "4fe985ef6aa8a270b4b2e69e0a51d823"
+        }
+      ]
+    }
+  ]
+}

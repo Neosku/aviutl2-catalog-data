@@ -1,0 +1,17 @@
+{
+  "name": "値で図形",
+  "author": "Nagomiku",
+  "tags": [
+    "図形"
+  ],
+  "description": {
+    "summary": "xyサイズを指定して図形を描画するスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "unknown",
+      "name": "不明"
+    }
+  ]
+}

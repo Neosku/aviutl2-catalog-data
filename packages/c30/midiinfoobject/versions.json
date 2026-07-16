@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v0.0.1",
+      "releaseDate": "2026-05-27",
+      "files": [
+        {
+          "path": "{pluginsDir}/MidiInfoObject.auf2",
+          "xxh128": "d5eb4c48243992f496fa754e50bf6956"
+        }
+      ]
+    },
+    {
+      "version": "v0.1.0",
+      "releaseDate": "2026-06-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/MidiInfoObject.aux2",
+          "xxh128": "629632aa11c5d7f06f2c2844b1b8fb8c"
+        }
+      ]
+    }
+  ]
+}

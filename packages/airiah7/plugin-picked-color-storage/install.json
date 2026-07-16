@@ -1,0 +1,29 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "airiah7",
+      "repo": "airiah7--aviutl2--plugin--picked-color-storage",
+      "pattern": "^airiah7--aviutl2--plugin--picked-color-storage-v\\.(\\d+\\.\\d+\\.\\d+)\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/airiah7__picked_color_storage.aux2",
+        "to": "{pluginsDir}/airiah7/"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/airiah7/airiah7__picked_color_storage.aux2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Lanczos3 / 画素平均法リサイズ",
+  "author": "KAZOON",
+  "tags": [
+    "リサイズ"
+  ],
+  "description": {
+    "summary": "Lanczos3 または画素平均法でリサイズするフィルタプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/cycloawaodorin/resize_ks/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "KAZOON"
+        }
+      ]
+    }
+  ]
+}

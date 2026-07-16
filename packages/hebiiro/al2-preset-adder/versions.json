@@ -1,0 +1,64 @@
+{
+  "versions": [
+    {
+      "version": "r1",
+      "releaseDate": "2026-01-23",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2_preset_adder.aux2",
+          "xxh128": "15f1f9a96b2a35f7658a7b318e5accb5"
+        }
+      ]
+    },
+    {
+      "version": "r2",
+      "releaseDate": "2026-01-26",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2/al2_preset_adder.aux2",
+          "xxh128": "89f784ad8649cb8a38e03cf265833ba4"
+        }
+      ]
+    },
+    {
+      "version": "r3",
+      "releaseDate": "2026-02-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2/al2_preset_adder.aui2",
+          "xxh128": "0a0cb620a6420d3082603ef567a82b01"
+        }
+      ]
+    },
+    {
+      "version": "r4",
+      "releaseDate": "2026-03-16",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2/al2_preset_adder.aui2",
+          "xxh128": "2fab78660f4bffada443c29571b332e7"
+        }
+      ]
+    },
+    {
+      "version": "r5",
+      "releaseDate": "2026-04-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2/al2_preset_adder.aui2",
+          "xxh128": "736641f383e5fdc5c3c0274fc8199c22"
+        }
+      ]
+    },
+    {
+      "version": "r6",
+      "releaseDate": "2026-05-11",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2/al2_preset_adder.aui2",
+          "xxh128": "0274bdff4924192fb9d5368cf966d6d4"
+        }
+      ]
+    }
+  ]
+}

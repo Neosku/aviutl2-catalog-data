@@ -1,0 +1,20 @@
+{
+  "name": "基本効果(個別指定)",
+  "author": "ラプソーン",
+  "tags": [
+    "変形",
+    "配置",
+    "オブジェクト操作"
+  ],
+  "description": {
+    "summary": "個別オブジェクトに対してそれぞれ基本効果を指定するスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "custom",
+      "name": "カスタムライセンス",
+      "licenseBody": "改変再配布等基本自由です"
+    }
+  ]
+}

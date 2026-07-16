@@ -1,0 +1,17 @@
+{
+  "name": "Erosion",
+  "author": "こんにゃくねこ",
+  "tags": [
+    "縁取り",
+    "塗りつぶし"
+  ],
+  "description": {
+    "summary": "輪郭を削るだけのシンプルなエフェクト 縁取りの逆",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ]
+}

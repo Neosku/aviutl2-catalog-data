@@ -1,0 +1,27 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://apps.esugo.net/aviutl2-mp4exporter/releases/MP4Exporter_1.0.1.zip"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/MP4Exporter.auo2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/MP4Exporter.auo2"
+      }
+    ]
+  }
+}

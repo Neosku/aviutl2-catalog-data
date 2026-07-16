@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "rigaya",
+    "repo": "x264guiEx",
+    "pattern": "^Aviutl2_x264guiEx.*install\\.exe$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "7zip",
+      "sourcePaths": [
+        "Plugin/x264guiEx.auo2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/x264guiEx.auo2"
+      ]
+    }
+  ]
+}

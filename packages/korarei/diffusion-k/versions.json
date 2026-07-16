@@ -1,0 +1,64 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2026-03-30",
+      "files": [
+        {
+          "path": "{scriptsDir}/Diffusion_K/@Diffusion_K.anm2",
+          "xxh128": "8edafabc08eef0e8c9c005aa0dd3a54d"
+        }
+      ]
+    },
+    {
+      "version": "v1.1.0",
+      "releaseDate": "2026-04-07",
+      "files": [
+        {
+          "path": "{scriptsDir}/Diffusion_K/@Diffusion_K.anm2",
+          "xxh128": "7e6e80985a7d0d6d2c0350f7615ab726"
+        }
+      ]
+    },
+    {
+      "version": "v1.2.0",
+      "releaseDate": "2026-04-12",
+      "files": [
+        {
+          "path": "{scriptsDir}/Diffusion_K/@Diffusion_K.anm2",
+          "xxh128": "733dfdbb0dd6e8c0808c0f1b6915d99c"
+        }
+      ]
+    },
+    {
+      "version": "v1.2.1",
+      "releaseDate": "2026-04-17",
+      "files": [
+        {
+          "path": "{scriptsDir}/Diffusion_K/@Diffusion_K.anm2",
+          "xxh128": "b65932df69692160e6aaf3d275ad8c97"
+        }
+      ]
+    },
+    {
+      "version": "v1.2.2",
+      "releaseDate": "2026-04-17",
+      "files": [
+        {
+          "path": "{scriptsDir}/Diffusion_K/@Diffusion_K.anm2",
+          "xxh128": "9ffb9ff342cc5a1f16918246224e07a1"
+        }
+      ]
+    },
+    {
+      "version": "v1.2.3",
+      "releaseDate": "2026-05-03",
+      "files": [
+        {
+          "path": "{scriptsDir}/Diffusion_K/@Diffusion_K.anm2",
+          "xxh128": "3f37adb9a2923f7ca4561b7f0cc8b652"
+        }
+      ]
+    }
+  ]
+}

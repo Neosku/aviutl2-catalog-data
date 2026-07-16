@@ -1,0 +1,48 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "rigaya",
+      "repo": "x264guiEx",
+      "pattern": "^Aviutl2_x264guiEx.*install\\.exe$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extractSfx"
+      },
+      {
+        "action": "runAuoSetup",
+        "path": "{tmp}/Plugin/exe_files/auo_setup2.exe"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/x264guiEx.auo2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/x264guiEx.conf"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/x264guiEx.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/x264guiEx.en.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/x264guiEx.zh.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/x264guiEx_stg/"
+      }
+    ]
+  }
+}

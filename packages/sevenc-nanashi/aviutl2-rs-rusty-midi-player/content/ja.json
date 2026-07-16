@@ -1,0 +1,23 @@
+{
+  "name": "Rusty Piano Midi Player Input",
+  "author": "Nanashi.",
+  "tags": [
+    "MIDI",
+    "音声"
+  ],
+  "description": {
+    "summary": "MIDIを読み込みピアノ音源で再生するプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/midi-player-input/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Nanashi. <sevenc7c.com>"
+        }
+      ]
+    }
+  ]
+}

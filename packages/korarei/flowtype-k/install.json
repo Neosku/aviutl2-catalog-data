@@ -1,0 +1,92 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "korarei",
+      "repo": "AviUtl2_FlowType_K_Script",
+      "pattern": "^FlowType_K.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/FlowType_K/FlowType_K.aux2",
+        "to": "{pluginsDir}/FlowType_K"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/FlowType_K/@FlowType_K.anm2",
+        "to": "{scriptsDir}/FlowType_K"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/FlowType_K/CHANGELOG.md",
+        "to": "{scriptsDir}/FlowType_K"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/FlowType_K/LICENSE",
+        "to": "{scriptsDir}/FlowType_K"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/FlowType_K/README.md",
+        "to": "{scriptsDir}/FlowType_K"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/FlowType_K/THIRD_PARTY_LICENSES.md",
+        "to": "{scriptsDir}/FlowType_K"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Preset/Motion@FlowType_K.Factory.Lyric.preset",
+        "to": "{dataDir}/Preset"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Preset/Motion@FlowType_K.Factory.Stretch.preset",
+        "to": "{dataDir}/Preset"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/FlowType_K/FlowType_K.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/FlowType_K/@FlowType_K.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/FlowType_K/CHANGELOG.md"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/FlowType_K/LICENSE"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/FlowType_K/README.md"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/FlowType_K/THIRD_PARTY_LICENSES.md"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Preset/Motion@FlowType_K.Factory.Lyric.preset"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Preset/Motion@FlowType_K.Factory.Stretch.preset"
+      }
+    ]
+  }
+}

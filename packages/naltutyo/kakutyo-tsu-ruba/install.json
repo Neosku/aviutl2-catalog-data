@@ -1,0 +1,27 @@
+{
+  "installation": {
+    "source": {
+      "type": "booth",
+      "url": "https://booth.pm/downloadables/8831428?_gl=1*1l4vitg*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3Nzc2MjM5MzYkbzMyJGcxJHQxNzc3NjI0Mjg3JGoxNSRsMCRoMA.."
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/v5.2/拡張ツールバー.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/拡張ツールバー.aux2"
+      }
+    ]
+  }
+}

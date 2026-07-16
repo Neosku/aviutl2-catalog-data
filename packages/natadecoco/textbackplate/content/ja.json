@@ -1,0 +1,26 @@
+{
+  "name": "TextBackplate",
+  "author": "なたのこ",
+  "tags": [
+    "テキスト",
+    "図形",
+    "アニメーション",
+    "配置",
+    "角丸"
+  ],
+  "description": {
+    "summary": "テキストの背面に図形を追加するスクリプト",
+    "markdownSource": "https://raw.githubusercontent.com/Natadecoco2539/AviUtl2-TextBackplate/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "なたのこ"
+        }
+      ]
+    }
+  ]
+}

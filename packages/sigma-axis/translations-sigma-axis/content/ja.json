@@ -1,0 +1,26 @@
+{
+  "name": "Language Files for Scripts and Filters by sigma-axis",
+  "author": "σ軸",
+  "typeLabel": "言語ファイル",
+  "tags": [
+    "UI"
+  ],
+  "description": {
+    "summary": "Translation for sigma-axis packages",
+    "markdownSource": "https://raw.githubusercontent.com/sigma-axis/aviutl2_translations_sigma-axis/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "BSD-2-Clause",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "sigma-axis"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp"
+  }
+}

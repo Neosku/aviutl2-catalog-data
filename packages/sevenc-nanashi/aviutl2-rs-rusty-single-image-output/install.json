@@ -1,0 +1,29 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sevenc-nanashi",
+      "repo": "aviutl2-rs",
+      "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/rusty_image_rs_single.auo2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/rusty_image_rs_single.auo2"
+      }
+    ]
+  }
+}

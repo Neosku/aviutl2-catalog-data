@@ -1,0 +1,16 @@
+{
+  "name": "MaxMin",
+  "author": "こんにゃくねこ",
+  "tags": [
+    "色調整"
+  ],
+  "description": {
+    "summary": "最大値・最小値フィルタ",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ]
+}

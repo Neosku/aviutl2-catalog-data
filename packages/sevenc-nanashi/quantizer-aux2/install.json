@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sevenc-nanashi",
+      "repo": "quantizer.aux2",
+      "pattern": "^sevenc-nanashi\\.quantizer-aux2-v[^/]+\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/English.quantizer_aux2.aul2",
+        "to": "{dataDir}/Language"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/quantizer.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/quantizer.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.quantizer_aux2.aul2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v.1.0.0",
+      "releaseDate": "2026-06-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/airiah7/airiah7__picked_color_storage.aux2",
+          "xxh128": "ddcc969d8555ffa2385aa3da40cfbc61"
+        }
+      ]
+    },
+    {
+      "version": "v.1.1.0",
+      "releaseDate": "2026-06-12",
+      "files": [
+        {
+          "path": "{pluginsDir}/airiah7/airiah7__picked_color_storage.aux2",
+          "xxh128": "23101ac11a3f266f24912f2f6c21c72e"
+        }
+      ]
+    }
+  ]
+}

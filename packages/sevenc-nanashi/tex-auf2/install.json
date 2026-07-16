@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sevenc-nanashi",
+      "repo": "tex.auf2",
+      "pattern": "^sevenc-nanashi\\.tex-auf2-v[^/]+\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/tex.aux2",
+        "to": "{pluginsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/English.tex.aul2",
+        "to": "{dataDir}/Language"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/tex.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.tex.aul2"
+      }
+    ]
+  }
+}

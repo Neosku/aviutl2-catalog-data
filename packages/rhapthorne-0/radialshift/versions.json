@@ -1,0 +1,34 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.3",
+      "releaseDate": "2025-12-01",
+      "files": [
+        {
+          "path": "{scriptsDir}/ラディアルシフト.anm2",
+          "xxh128": "585fda4a2c8b8be91bb09dbeb5f9824a"
+        }
+      ]
+    },
+    {
+      "version": "2026.02.22",
+      "releaseDate": "2026-02-22",
+      "files": [
+        {
+          "path": "{scriptsDir}/ラディアルシフト.anm2",
+          "xxh128": "7de1540aed39f0dc20ef9427ea6a59a6"
+        }
+      ]
+    },
+    {
+      "version": "2026.04.27",
+      "releaseDate": "2026-04-27",
+      "files": [
+        {
+          "path": "{scriptsDir}/ラディアルシフト.anm2",
+          "xxh128": "881f995dfc66954e77e3a46549a2cc3a"
+        }
+      ]
+    }
+  ]
+}

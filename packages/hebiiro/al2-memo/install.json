@@ -1,0 +1,37 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "hebiiro",
+      "repo": "al2_memo",
+      "pattern": "^al2_memo_r\\d+\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2_memo.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2/config/al2_memo.json"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2/config/sharing_note.txt"
+      }
+    ]
+  }
+}

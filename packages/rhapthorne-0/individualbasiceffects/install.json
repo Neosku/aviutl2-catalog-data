@@ -1,0 +1,24 @@
+{
+  "installation": {
+    "source": {
+      "type": "googleDrive",
+      "id": "1atfFGLpDUuI1iIxRrJG_bLGbO-gnuFJM"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/基本効果(個別指定).anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/基本効果(個別指定).anm2"
+      }
+    ]
+  }
+}

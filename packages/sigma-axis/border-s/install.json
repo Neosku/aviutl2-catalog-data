@@ -1,0 +1,47 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sigma-axis",
+      "repo": "aviutl2_Border_S",
+      "pattern": "^aviutl2_Border_S.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/Border_S.aux2",
+        "to": "{pluginsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/Border_S/LICENSE",
+        "to": "{pluginsDir}/Border_S"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/Border_S/README.md",
+        "to": "{pluginsDir}/Border_S"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/Border_S.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/Border_S/LICENSE"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/Border_S/README.md"
+      }
+    ]
+  }
+}

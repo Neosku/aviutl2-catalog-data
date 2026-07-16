@@ -1,0 +1,364 @@
+{
+  "versions": [
+    {
+      "version": "0.12.2",
+      "releaseDate": "2026-01-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "52ddbe68132466a2c4a2e417d20d7f05"
+        }
+      ]
+    },
+    {
+      "version": "0.13.0",
+      "releaseDate": "2026-01-31",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "f751295f96c825219081292391b6526b"
+        }
+      ]
+    },
+    {
+      "version": "0.14.0",
+      "releaseDate": "2026-02-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "7f1f7dfa67a34f899d8954e03f6fa572"
+        }
+      ]
+    },
+    {
+      "version": "0.15.0",
+      "releaseDate": "2026-02-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "37652ccc492d4c2db730cc2f65d09c56"
+        }
+      ]
+    },
+    {
+      "version": "0.15.1",
+      "releaseDate": "2026-02-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "915e398e401690e7129f2c33a808a3c1"
+        }
+      ]
+    },
+    {
+      "version": "0.16.0",
+      "releaseDate": "2026-02-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "c67a9d2dd91f03f3838391bd718d432f"
+        }
+      ]
+    },
+    {
+      "version": "0.17.0",
+      "releaseDate": "2026-02-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "629486af36bd12fbbc349dd47a90d6d0"
+        }
+      ]
+    },
+    {
+      "version": "0.18.0",
+      "releaseDate": "2026-02-23",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "04346ab366b6a22c4e1c4490af57c679"
+        }
+      ]
+    },
+    {
+      "version": "0.18.1",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "bc194887d2143aa80688574ed00fad4e"
+        }
+      ]
+    },
+    {
+      "version": "0.19.0",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "f8b895a1a4039e7330cebaa21c3d84b5"
+        }
+      ]
+    },
+    {
+      "version": "0.20.0",
+      "releaseDate": "2026-03-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "5d7178c7bba10933222a4a03a5ea2425"
+        }
+      ]
+    },
+    {
+      "version": "0.20.1",
+      "releaseDate": "2026-03-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "7bb23a4bb6cd8c058e6b067689f5791c"
+        }
+      ]
+    },
+    {
+      "version": "0.20.2",
+      "releaseDate": "2026-03-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "ba03719975e12198b99bce72b8ce9d2e"
+        }
+      ]
+    },
+    {
+      "version": "0.20.3",
+      "releaseDate": "2026-03-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "e5cbec8e351f86ec7e8a11bd98698cfb"
+        }
+      ]
+    },
+    {
+      "version": "0.21.0",
+      "releaseDate": "2026-03-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "42f81b0d7f1fa50ad9297b0fe1751fc8"
+        }
+      ]
+    },
+    {
+      "version": "0.22.0",
+      "releaseDate": "2026-03-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "8015b24eb9e0d20e03038809921d22c3"
+        }
+      ]
+    },
+    {
+      "version": "0.23.0",
+      "releaseDate": "2026-04-13",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "1942005d039f6460b5375b7241323127"
+        }
+      ]
+    },
+    {
+      "version": "0.24.0",
+      "releaseDate": "2026-04-19",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "c7519b08774311168ffa6a909a7a57f7"
+        }
+      ]
+    },
+    {
+      "version": "0.25.0",
+      "releaseDate": "2026-04-26",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "bb9a364b3d1700bf10db7ab51693ef3b"
+        }
+      ]
+    },
+    {
+      "version": "0.26.0",
+      "releaseDate": "2026-04-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "f79ff3341b71bf209322943f3286067f"
+        }
+      ]
+    },
+    {
+      "version": "0.27.0",
+      "releaseDate": "2026-05-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "e5b1391892f949449c877d06ab28d49d"
+        }
+      ]
+    },
+    {
+      "version": "0.28.0",
+      "releaseDate": "2026-05-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "ae75037d439f7874044547232b511ada"
+        }
+      ]
+    },
+    {
+      "version": "0.28.1",
+      "releaseDate": "2026-05-11",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "8cea887758d8711c96cbef38a6f54472"
+        }
+      ]
+    },
+    {
+      "version": "0.29.0",
+      "releaseDate": "2026-05-18",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "62fed8072ce2dc5e2e21f89c9f9cd0b6"
+        }
+      ]
+    },
+    {
+      "version": "0.30.0",
+      "releaseDate": "2026-05-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "41ddfd3d4ff2874ea13c186f307f6ca2"
+        }
+      ]
+    },
+    {
+      "version": "0.31.0",
+      "releaseDate": "2026-06-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "e8096e2cc3f508ead4561f30ba0cc1fb"
+        }
+      ]
+    },
+    {
+      "version": "0.32.0",
+      "releaseDate": "2026-06-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "53c60721186503092542313625028886"
+        }
+      ]
+    },
+    {
+      "version": "0.33.0",
+      "releaseDate": "2026-06-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "654b5010571119c568366114599f8f85"
+        }
+      ]
+    },
+    {
+      "version": "0.34.0",
+      "releaseDate": "2026-06-20",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "d9e6cfdef9f9fda7bcd362c6d6708bfd"
+        }
+      ]
+    },
+    {
+      "version": "0.35.0",
+      "releaseDate": "2026-07-03",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "a8c526211ea8771f6f7d1a47fa16bb64"
+        }
+      ]
+    },
+    {
+      "version": "0.36.0",
+      "releaseDate": "2026-07-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "32596a7fb38fdd211b139ea2201f9b60"
+        }
+      ]
+    },
+    {
+      "version": "0.37.0",
+      "releaseDate": "2026-07-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "f8b975e086cf2ba832996c58e664531a"
+        }
+      ]
+    },
+    {
+      "version": "0.38.0",
+      "releaseDate": "2026-07-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "e75939788c1861495ac5b736d0f52a41"
+        }
+      ]
+    },
+    {
+      "version": "0.38.1",
+      "releaseDate": "2026-07-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "ca45028903bfe26721e11444a5a4be09"
+        }
+      ]
+    },
+    {
+      "version": "0.38.2",
+      "releaseDate": "2026-07-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "9fa18e53ae7a067d0295e88f30a1c61c"
+        }
+      ]
+    },
+    {
+      "version": "0.39.0",
+      "releaseDate": "2026-07-12",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_ffmpeg.auo2",
+          "xxh128": "ac369a375a7dee7eff2f46f2c8d454d6"
+        }
+      ]
+    }
+  ]
+}

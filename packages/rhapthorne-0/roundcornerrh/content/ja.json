@@ -1,0 +1,19 @@
+{
+  "name": "角丸補正_Rh",
+  "author": "ラプソーン",
+  "tags": [
+    "図形",
+    "角丸"
+  ],
+  "description": {
+    "summary": "角を丸めるスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "custom",
+      "name": "カスタムライセンス",
+      "licenseBody": "改変再配布等基本自由です"
+    }
+  ]
+}

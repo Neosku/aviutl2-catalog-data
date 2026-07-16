@@ -1,0 +1,104 @@
+{
+  "versions": [
+    {
+      "version": "4.22",
+      "releaseDate": "2025-07-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/x265guiEx.auo",
+          "xxh128": "7f1fd4e90afb5d5111a8f71f2309aa29"
+        }
+      ]
+    },
+    {
+      "version": "4.23",
+      "releaseDate": "2025-07-13",
+      "files": [
+        {
+          "path": "{pluginsDir}/x265guiEx.auo",
+          "xxh128": "3f8e7d2be58bf1c14a8b31a550876930"
+        }
+      ]
+    },
+    {
+      "version": "5.00",
+      "releaseDate": "2025-08-19",
+      "files": [
+        {
+          "path": "{pluginsDir}/x265guiEx.auo2",
+          "xxh128": "dfa9440a753ffa6be44443fd902a9f83"
+        }
+      ]
+    },
+    {
+      "version": "5.01",
+      "releaseDate": "2025-08-25",
+      "files": [
+        {
+          "path": "{pluginsDir}/x265guiEx.auo2",
+          "xxh128": "75641a331cf279d91b90bf54defb1dd7"
+        }
+      ]
+    },
+    {
+      "version": "5.02",
+      "releaseDate": "2025-09-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/x265guiEx.auo2",
+          "xxh128": "94d4a52b1bf314ea4350f09c1006dd17"
+        }
+      ]
+    },
+    {
+      "version": "5.03",
+      "releaseDate": "2025-09-15",
+      "files": [
+        {
+          "path": "{pluginsDir}/x265guiEx.auo2",
+          "xxh128": "75986046f6922871922983d21b60c543"
+        }
+      ]
+    },
+    {
+      "version": "5.04",
+      "releaseDate": "2025-10-16",
+      "files": [
+        {
+          "path": "{pluginsDir}/x265guiEx.auo2",
+          "xxh128": "a1a3043279cebbeba624cd7f21ced9d5"
+        }
+      ]
+    },
+    {
+      "version": "5.05",
+      "releaseDate": "2025-12-27",
+      "files": [
+        {
+          "path": "{pluginsDir}/x265guiEx.auo2",
+          "xxh128": "c4775f85484bbdaa11d71e3e125e389e"
+        }
+      ]
+    },
+    {
+      "version": "5.06",
+      "releaseDate": "2025-12-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/x265guiEx.auo2",
+          "xxh128": "63211685e2c99d81802042cb6c02daf8"
+        }
+      ]
+    },
+    {
+      "version": "5.07",
+      "releaseDate": "2026-06-06",
+      "files": [
+        {
+          "path": "{pluginsDir}/x265guiEx.auo2",
+          "xxh128": "a177c13f7e8f3f7eb20f7d33f6474559"
+        }
+      ]
+    }
+  ]
+}

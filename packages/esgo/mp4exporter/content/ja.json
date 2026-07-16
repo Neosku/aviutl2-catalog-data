@@ -1,0 +1,22 @@
+{
+  "name": "MP4Exporter",
+  "author": "えすご",
+  "originalAuthor": "えすご",
+  "tags": [],
+  "description": {
+    "summary": "MP4ファイルを出力するプラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "unknown",
+      "name": "不明"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

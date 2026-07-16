@@ -1,0 +1,24 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/Colorama.anm2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Colorama.anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/Colorama.anm2"
+      }
+    ]
+  }
+}

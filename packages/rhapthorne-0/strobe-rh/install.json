@@ -1,0 +1,24 @@
+{
+  "installation": {
+    "source": {
+      "type": "googleDrive",
+      "id": "1-1-eknS0LOex0itEx0MTVq8GwpSqAyZn"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/ストロボ_Rh.anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/ストロボ_Rh.anm2"
+      }
+    ]
+  }
+}

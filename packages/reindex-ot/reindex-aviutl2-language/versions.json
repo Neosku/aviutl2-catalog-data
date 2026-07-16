@@ -1,0 +1,34 @@
+{
+  "versions": [
+    {
+      "version": "for Beta 14",
+      "releaseDate": "2025-10-06",
+      "files": [
+        {
+          "path": "{dataDir}/Language/Japanese_Mod.aul2",
+          "xxh128": "154837afe1dddf917227231fb3389972"
+        }
+      ]
+    },
+    {
+      "version": "for Beta 18b",
+      "releaseDate": "2025-11-03",
+      "files": [
+        {
+          "path": "{dataDir}/Language/Japanese_Mod.aul2",
+          "xxh128": "5b17d4f8d08b154881e320a4e398353b"
+        }
+      ]
+    },
+    {
+      "version": "Beta29",
+      "releaseDate": "2026-01-20",
+      "files": [
+        {
+          "path": "{dataDir}/Language/Japanese_Mod.aul2",
+          "xxh128": "67343a7444f2cedad0d94d56dd8b3464"
+        }
+      ]
+    }
+  ]
+}

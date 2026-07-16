@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "korarei",
+    "repo": "AviUtl2_PixelSorter_K_Script",
+    "pattern": "^PixelSorter_K\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "PixelSorter_K/PixelSorter_K.anm2"
+      ],
+      "recordPaths": [
+        "{scriptsDir}/PixelSorter_K.anm2"
+      ]
+    }
+  ]
+}

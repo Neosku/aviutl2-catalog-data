@@ -1,0 +1,35 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "vramwiz",
+      "repo": "Syncroh2-site",
+      "pattern": "^Syncroh2_Setup.*\\.exe$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "run",
+        "path": "{tmp}/Syncroh2_Setup.exe",
+        "args": [
+          "/VERYSILENT",
+          "/catalog=1"
+        ],
+        "elevate": true
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "run",
+        "path": "{pluginsDir}/Syncroh2/unins000.exe",
+        "args": [
+          "/VERYSILENT",
+          "/catalog=1"
+        ],
+        "elevate": true
+      }
+    ]
+  }
+}

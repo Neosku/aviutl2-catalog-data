@@ -1,0 +1,44 @@
+{
+  "versions": [
+    {
+      "version": "r1",
+      "releaseDate": "2026-02-18",
+      "files": [
+        {
+          "path": "{scriptsDir}/BezierPath.anm2",
+          "xxh128": "d7aadfa3011bce1805d4eb71789d9622"
+        }
+      ]
+    },
+    {
+      "version": "r2",
+      "releaseDate": "2026-02-18",
+      "files": [
+        {
+          "path": "{scriptsDir}/BezierPath.anm2",
+          "xxh128": "12d98cf32d8617c0f80997009a7551b9"
+        }
+      ]
+    },
+    {
+      "version": "r3",
+      "releaseDate": "2026-02-27",
+      "files": [
+        {
+          "path": "{scriptsDir}/BezierPath.anm2",
+          "xxh128": "45600b471aba051970f9345926faeca4"
+        }
+      ]
+    },
+    {
+      "version": "r3",
+      "releaseDate": "2026-02-27",
+      "files": [
+        {
+          "path": "{scriptsDir}/BezierPath.anm2",
+          "xxh128": "45600b471aba051970f9345926faeca4"
+        }
+      ]
+    }
+  ]
+}

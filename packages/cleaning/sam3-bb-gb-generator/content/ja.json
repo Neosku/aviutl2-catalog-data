@@ -1,0 +1,30 @@
+{
+  "name": "1クリック動画切り抜き",
+  "author": "クリーニング",
+  "tags": [
+    "切り抜き",
+    "便利ツール",
+    "AI"
+  ],
+  "description": {
+    "summary": "動画背景を消す(初回導入にあたってはGithubを読んで)",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "cleaning"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

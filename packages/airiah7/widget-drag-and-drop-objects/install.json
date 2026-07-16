@@ -1,0 +1,29 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "airiah7",
+      "repo": "airiah7--aviutl2--widget--drag-and-drop-objects",
+      "pattern": "^airiah7--aviutl2--widget--drag-and-drop-objects-v\\.(\\d+\\.\\d+\\.\\d+)\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/airiah7__drag_and_drop_objects.aux2",
+        "to": "{pluginsDir}/airiah7/"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/airiah7/airiah7__drag_and_drop_objects.aux2"
+      }
+    ]
+  }
+}

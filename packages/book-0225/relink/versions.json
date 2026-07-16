@@ -1,0 +1,60 @@
+{
+  "versions": [
+    {
+      "version": "v0.0.5",
+      "releaseDate": "2026-05-12",
+      "files": [
+        {
+          "path": "{pluginsDir}/aviutl2_relink_launcher.aux2",
+          "xxh128": "8da387ea803f04a126c6c50830ab37dd"
+        },
+        {
+          "path": "{pluginsDir}/aviutl2_relink.exe",
+          "xxh128": "beee8448145b0f74ae45cf3660c49f54"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.6",
+      "releaseDate": "2026-05-21",
+      "files": [
+        {
+          "path": "{pluginsDir}/aviutl2_relink_launcher.aux2",
+          "xxh128": "1cf3dd489f16716bf42413d2cfb15cef"
+        },
+        {
+          "path": "{pluginsDir}/aviutl2_relink.exe",
+          "xxh128": "944e6c281a84b11807e349c55e3b58c3"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.7",
+      "releaseDate": "2026-06-21",
+      "files": [
+        {
+          "path": "{pluginsDir}/aviutl2_relink_launcher.aux2",
+          "xxh128": "a68ecd53f8088f1774ac2e5626d9e1ea"
+        },
+        {
+          "path": "{pluginsDir}/aviutl2_relink.exe",
+          "xxh128": "1d3b092e6c87786279075a211b5dfdc7"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.8",
+      "releaseDate": "2026-07-06",
+      "files": [
+        {
+          "path": "{pluginsDir}/aviutl2_relink_launcher.aux2",
+          "xxh128": "3add1ea5eda10b611df9e9209638524d"
+        },
+        {
+          "path": "{pluginsDir}/aviutl2_relink.exe",
+          "xxh128": "08274bf24e7907c3335f4cdd96967351"
+        }
+      ]
+    }
+  ]
+}

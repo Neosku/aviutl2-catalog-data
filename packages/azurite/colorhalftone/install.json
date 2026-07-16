@@ -1,0 +1,46 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "azurite581",
+      "repo": "AviUtl2-ColorHalftone",
+      "pattern": "^.*ColorHalftone.*\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/カラーハーフトーン.anm2"
+      },
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language",
+        "to": "{dataDir}/Language"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/カラーハーフトーン.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/ColorHalftone.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.ColorHalftone.aul2"
+      }
+    ]
+  }
+}

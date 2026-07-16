@@ -1,0 +1,20 @@
+{
+  "name": "二色化",
+  "author": "ngw",
+  "tags": [
+    "色調整"
+  ],
+  "description": {
+    "summary": "オブジェクトが2色のみに加工される",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "unknown",
+      "name": "不明"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

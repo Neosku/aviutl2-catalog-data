@@ -1,0 +1,16 @@
+{
+  "name": "Colorama",
+  "author": "こんにゃくねこ",
+  "tags": [
+    "塗りつぶし"
+  ],
+  "description": {
+    "summary": "簡易コロラマ",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ]
+}

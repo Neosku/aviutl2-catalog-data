@@ -1,0 +1,24 @@
+{
+  "installation": {
+    "source": {
+      "type": "googleDrive",
+      "id": "1GmkTiLEUu_ftQoIME_klxfwc-9F2Scj4"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/SimpleRecorder.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/SimpleRecorder.aux2"
+      }
+    ]
+  }
+}

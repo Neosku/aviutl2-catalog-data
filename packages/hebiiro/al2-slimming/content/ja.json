@@ -1,0 +1,22 @@
+{
+  "name": "スリム化MOD",
+  "author": "蛇色",
+  "tags": [
+    "UI"
+  ],
+  "description": {
+    "summary": "タイトルバーとメニューバーを一体化してスリム化するMOD",
+    "markdownSource": "https://raw.githubusercontent.com/hebiiro/al2_slimming/refs/heads/master/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "hebiiro"
+        }
+      ]
+    }
+  ]
+}

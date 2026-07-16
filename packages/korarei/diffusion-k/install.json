@@ -1,0 +1,29 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "korarei",
+      "repo": "AviUtl2_Diffusion_K_Script",
+      "pattern": "^Diffusion_K.*\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/Diffusion_K",
+        "to": "{scriptsDir}/Diffusion_K"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/Diffusion_K/"
+      }
+    ]
+  }
+}

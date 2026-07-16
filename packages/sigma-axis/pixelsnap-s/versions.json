@@ -1,0 +1,34 @@
+{
+  "versions": [
+    {
+      "version": "v1.03-for-beta13",
+      "releaseDate": "2025-09-29",
+      "files": [
+        {
+          "path": "{scriptsDir}/PixelSnap_S.anm2",
+          "xxh128": "b957d5f56fbe0b918eb86d9b14f4aad0"
+        }
+      ]
+    },
+    {
+      "version": "v1.04-for-beta20",
+      "releaseDate": "2025-11-16",
+      "files": [
+        {
+          "path": "{scriptsDir}/PixelSnap_S.anm2",
+          "xxh128": "88c5188b2eb8f7a59ed9e830dab055ef"
+        }
+      ]
+    },
+    {
+      "version": "v1.05-for-beta50",
+      "releaseDate": "2026-06-19",
+      "files": [
+        {
+          "path": "{scriptsDir}/PixelSnap_S.anm2",
+          "xxh128": "039ea4817ec9cd596015e332bf5844fc"
+        }
+      ]
+    }
+  ]
+}

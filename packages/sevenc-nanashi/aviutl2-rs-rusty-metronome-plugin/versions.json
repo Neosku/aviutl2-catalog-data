@@ -1,0 +1,334 @@
+{
+  "versions": [
+    {
+      "version": "v0.15.1",
+      "releaseDate": "2026-02-06",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "12e1a0eb2b8bcee982411af8f0c0b0cc"
+        }
+      ]
+    },
+    {
+      "version": "0.15.1",
+      "releaseDate": "2026-02-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "12e1a0eb2b8bcee982411af8f0c0b0cc"
+        }
+      ]
+    },
+    {
+      "version": "0.16.0",
+      "releaseDate": "2026-02-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "3fd0a9ba2d0e5ea187ae6ac222fab6e0"
+        }
+      ]
+    },
+    {
+      "version": "0.17.0",
+      "releaseDate": "2026-02-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "4b3171547bd368498f6500196bd10220"
+        }
+      ]
+    },
+    {
+      "version": "0.18.0",
+      "releaseDate": "2026-02-23",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "f3b182b6006d47f4e0efedbb7430badb"
+        }
+      ]
+    },
+    {
+      "version": "0.18.1",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "354600e8a683d2bc14e2b11b257e3a3c"
+        }
+      ]
+    },
+    {
+      "version": "0.19.0",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "952459e73fe25c03272ce94b09642b74"
+        }
+      ]
+    },
+    {
+      "version": "0.20.0",
+      "releaseDate": "2026-03-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "0841cccbe873bd7327a02417c627a243"
+        }
+      ]
+    },
+    {
+      "version": "0.20.1",
+      "releaseDate": "2026-03-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "bfd473b34031689d41d504b8944481d1"
+        }
+      ]
+    },
+    {
+      "version": "0.20.2",
+      "releaseDate": "2026-03-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "2f71dd80b64c29129567d973547cd642"
+        }
+      ]
+    },
+    {
+      "version": "0.20.3",
+      "releaseDate": "2026-03-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "0a0d4da89b3a1016c26d9997e28dd328"
+        }
+      ]
+    },
+    {
+      "version": "0.21.0",
+      "releaseDate": "2026-03-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "5a150f69b04d78c266f976e9b9cf73b2"
+        }
+      ]
+    },
+    {
+      "version": "0.22.0",
+      "releaseDate": "2026-03-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "01e94e721b7adfcadfffd09ec1f908f5"
+        }
+      ]
+    },
+    {
+      "version": "0.23.0",
+      "releaseDate": "2026-04-13",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "3af89dd1ebf5122e14993e8a0a00de97"
+        }
+      ]
+    },
+    {
+      "version": "0.24.0",
+      "releaseDate": "2026-04-19",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "7789e9fc0646022cf1ccdf61a59f08b8"
+        }
+      ]
+    },
+    {
+      "version": "0.25.0",
+      "releaseDate": "2026-04-26",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "aa4d3d1a9ecad7294af5821ccdfcfac9"
+        }
+      ]
+    },
+    {
+      "version": "0.26.0",
+      "releaseDate": "2026-04-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "4597e3a1045eb69762849da2e0b8e3f7"
+        }
+      ]
+    },
+    {
+      "version": "0.27.0",
+      "releaseDate": "2026-05-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "64240fcccf21416c3989243a97a5f8d2"
+        }
+      ]
+    },
+    {
+      "version": "0.28.0",
+      "releaseDate": "2026-05-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "f34a701a4860e797b33288cdeb071ead"
+        }
+      ]
+    },
+    {
+      "version": "0.28.1",
+      "releaseDate": "2026-05-11",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "bd09a2775714e482f0bb95ca96801ae9"
+        }
+      ]
+    },
+    {
+      "version": "0.29.0",
+      "releaseDate": "2026-05-18",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "925fbb27c6bdf2d139bded93795aa064"
+        }
+      ]
+    },
+    {
+      "version": "0.30.0",
+      "releaseDate": "2026-05-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "7336c2c590c64bfd23c7096e4a31ef8e"
+        }
+      ]
+    },
+    {
+      "version": "0.31.0",
+      "releaseDate": "2026-06-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "346499258cc096e703e5118649864b25"
+        }
+      ]
+    },
+    {
+      "version": "0.32.0",
+      "releaseDate": "2026-06-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "768141901a5c9f8ba833966ea503b2a5"
+        }
+      ]
+    },
+    {
+      "version": "0.33.0",
+      "releaseDate": "2026-06-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "2dab28f0e9a54cf45e0b4a8e77cf9dd5"
+        }
+      ]
+    },
+    {
+      "version": "0.34.0",
+      "releaseDate": "2026-06-20",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "d72424945dec7a6ef860f11ed020e28d"
+        }
+      ]
+    },
+    {
+      "version": "0.35.0",
+      "releaseDate": "2026-07-03",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "46e3619845b5a2da01aa126b98eac64b"
+        }
+      ]
+    },
+    {
+      "version": "0.36.0",
+      "releaseDate": "2026-07-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "c41fa7a0e1c421bc6130151cfe776151"
+        }
+      ]
+    },
+    {
+      "version": "0.37.0",
+      "releaseDate": "2026-07-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "0414a0c5ef4b80b80ebf6491be7af61e"
+        }
+      ]
+    },
+    {
+      "version": "0.38.0",
+      "releaseDate": "2026-07-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "cfbc39505c0a813cbca0867de375a86d"
+        }
+      ]
+    },
+    {
+      "version": "0.38.1",
+      "releaseDate": "2026-07-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "2450853ec0f1779a85adc0a15d6cfdce"
+        }
+      ]
+    },
+    {
+      "version": "0.38.2",
+      "releaseDate": "2026-07-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "8eb4a044fbc196b1538b83b5a0b30155"
+        }
+      ]
+    },
+    {
+      "version": "0.39.0",
+      "releaseDate": "2026-07-12",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_metronome.aux2",
+          "xxh128": "96b0b8c71e33fd5bcc7623c039607c76"
+        }
+      ]
+    }
+  ]
+}

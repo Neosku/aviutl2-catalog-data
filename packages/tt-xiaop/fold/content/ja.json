@@ -1,0 +1,17 @@
+{
+  "name": "折り畳み",
+  "author": "テツ",
+  "tags": [
+    "変形"
+  ],
+  "description": {
+    "summary": "画像や映像を折りたたんだり広げたりするスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "unknown",
+      "name": "不明"
+    }
+  ]
+}

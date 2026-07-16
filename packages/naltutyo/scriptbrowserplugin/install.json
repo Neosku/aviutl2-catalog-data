@@ -1,0 +1,27 @@
+{
+  "installation": {
+    "source": {
+      "type": "booth",
+      "url": "https://booth.pm/downloadables/8831619?_gl=1*njgtqg*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3Nzc2MjM5MzYkbzMyJGcxJHQxNzc3NjI1Njk2JGo0NCRsMCRoMA.."
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/v3.2/SearchBrowserPlugin.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/SearchBrowserPlugin.aux2"
+      }
+    ]
+  }
+}

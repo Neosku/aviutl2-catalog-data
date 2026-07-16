@@ -1,0 +1,47 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sevenc-nanashi",
+      "repo": "budoux.obj2",
+      "pattern": "^sevenc-nanashi\\.budoux-obj2-v[^/]+\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/English.budoux-obj2.aul2",
+        "to": "{dataDir}/Language"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/budoux.mod2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/budoux.obj2.obj2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/budoux.obj2.obj2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/budoux.mod2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.budoux-obj2.aul2"
+      }
+    ]
+  }
+}

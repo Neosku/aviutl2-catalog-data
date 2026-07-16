@@ -1,0 +1,47 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "nove-nove",
+      "repo": "aviutl2-vrm-toolkit",
+      "pattern": "VRM-Toolkit-for-AviUtl2\\.au2pkg\\.zip"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/VRMToolkit/VRMToolkitExpressionEditor.aux2",
+        "to": "{pluginsDir}/VRMToolkit"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/VRMToolkit/VRMToolkitBridge.mod2",
+        "to": "{scriptsDir}/VRMToolkit"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/VRMToolkit/VRMToolkitModel.obj2",
+        "to": "{scriptsDir}/VRMToolkit"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VRMToolkit/VRMToolkitExpressionEditor.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/VRMToolkit/VRMToolkitBridge.mod2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/VRMToolkit/VRMToolkitModel.obj2"
+      }
+    ]
+  }
+}

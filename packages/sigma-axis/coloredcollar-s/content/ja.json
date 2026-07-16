@@ -1,0 +1,29 @@
+{
+  "name": "ColoredCollar_S",
+  "author": "σ軸",
+  "tags": [
+    "縁取り",
+    "グラデーション"
+  ],
+  "description": {
+    "summary": "オブジェクトの境界部分の色を引き伸ばして縁取りをするスクリプト",
+    "markdownSource": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_ColoredCollar_S/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025-2026",
+          "holder": "sigma-axis"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

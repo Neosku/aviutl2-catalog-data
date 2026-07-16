@@ -1,0 +1,29 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "NumberZero-0621",
+      "repo": "AviUtl2-easing-quick-setup",
+      "pattern": "^easing_quick_setup.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/easing_quick_setup.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/easing_quick_setup.aux2"
+      }
+    ]
+  }
+}

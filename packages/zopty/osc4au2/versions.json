@@ -1,0 +1,32 @@
+{
+  "versions": [
+    {
+      "version": "0.1.0",
+      "releaseDate": "2026-05-24",
+      "files": [
+        {
+          "path": "{scriptsDir}/OSC4AU2.mod2",
+          "xxh128": "2cab0fdc61f75b553a4b57e1193f9229"
+        },
+        {
+          "path": "{scriptsDir}/OSC4AU2.tra2",
+          "xxh128": "28fc082ab7122da84930d1c684d46aaf"
+        }
+      ]
+    },
+    {
+      "version": "v0.2.0",
+      "releaseDate": "2026-05-25",
+      "files": [
+        {
+          "path": "{scriptsDir}/OSC4AU2.mod2",
+          "xxh128": "cac4897fe024c2d500acafbb595363a6"
+        },
+        {
+          "path": "{scriptsDir}/OSC4AU2.tra2",
+          "xxh128": "222b524347764cc00349a5ec2b4640cd"
+        }
+      ]
+    }
+  ]
+}

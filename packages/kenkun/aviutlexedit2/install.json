@@ -1,0 +1,34 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2_v2.1.0_setup.exe"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "run",
+        "path": "{download}",
+        "args": [
+          "-F",
+          "-S",
+          "-I",
+          "\"{appDir}\""
+        ],
+        "elevate": true
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "run",
+        "path": "{appDir}/aviutl2_setup.exe",
+        "args": [
+          "-uninstall"
+        ],
+        "elevate": true
+      }
+    ]
+  }
+}

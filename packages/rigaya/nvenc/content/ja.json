@@ -1,0 +1,20 @@
+{
+  "name": "NVEnc",
+  "author": "rigaya",
+  "tags": [],
+  "description": {
+    "summary": "NVENCによる高速エンコードの性能実験",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2011-2022",
+          "holder": "rigaya"
+        }
+      ]
+    }
+  ]
+}

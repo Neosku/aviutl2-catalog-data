@@ -1,0 +1,25 @@
+{
+  "name": "BlockNoise",
+  "author": "3aGaM1",
+  "originalAuthor": "プリンカ",
+  "tags": [
+    "グリッチ",
+    "エフェクト",
+    "ノイズ"
+  ],
+  "description": {
+    "summary": "Aviutl2でブロックノイズをかけるスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "3aGaM1"
+        }
+      ]
+    }
+  ]
+}

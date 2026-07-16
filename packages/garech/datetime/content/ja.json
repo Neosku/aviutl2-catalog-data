@@ -1,0 +1,20 @@
+{
+  "name": "日付と時刻",
+  "author": "Garech",
+  "originalAuthor": "連結歯車",
+  "tags": [
+    "テキスト"
+  ],
+  "description": {
+    "summary": "時間変化する日付と時刻を表示します。カウンターとしても使えます。",
+    "markdownSource": "https://raw.githubusercontent.com/Garech-mas/AviUtl2_DateTime/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Halftone",
+  "author": "こんにゃくねこ",
+  "tags": [
+    "エフェクト",
+    "パターン"
+  ],
+  "description": {
+    "summary": "なんちゃってハーフトーン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "sevenc-nanashi",
+    "repo": "ported_tim",
+    "pattern": "^sevenc-nanashi\\.ported_tim-v[^/]+\\.au2pkg\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Language/English.ported_tim.aul2",
+        "Script/@tim.anm2.anm2",
+        "Script/@tim.cam2.cam2",
+        "Script/@tim.obj2.obj2",
+        "Script/@tim.scn2.scn2",
+        "Script/@tim.tra2.tra2",
+        "Script/tim2.mod2"
+      ],
+      "recordPaths": [
+        "{dataDir}/Language/English.ported_tim.aul2",
+        "{scriptsDir}/@tim.anm2.anm2",
+        "{scriptsDir}/@tim.cam2.cam2",
+        "{scriptsDir}/@tim.obj2.obj2",
+        "{scriptsDir}/@tim.scn2.scn2",
+        "{scriptsDir}/@tim.tra2.tra2",
+        "{scriptsDir}/tim2.mod2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "versions": [
+    {
+      "version": "0.1.0",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/quantizer.aux2",
+          "xxh128": "d5b7b2d9f9a12ae52080755b53881508"
+        }
+      ]
+    },
+    {
+      "version": "0.1.4",
+      "releaseDate": "2026-02-25",
+      "files": [
+        {
+          "path": "{pluginsDir}/quantizer.aux2",
+          "xxh128": "7ecf862dbd5adba7d3a66e96fae2b19a"
+        }
+      ]
+    },
+    {
+      "version": "0.1.5",
+      "releaseDate": "2026-03-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/quantizer.aux2",
+          "xxh128": "6c3162a7ffbbfae0608ae1a0e1089996"
+        }
+      ]
+    },
+    {
+      "version": "0.1.6",
+      "releaseDate": "2026-03-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/quantizer.aux2",
+          "xxh128": "b93bd1e4f8b371f23f033fddbc44422a"
+        }
+      ]
+    },
+    {
+      "version": "0.1.8",
+      "releaseDate": "2026-03-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/quantizer.aux2",
+          "xxh128": "376d4f61e4c4d44fab38ddd90205f2aa"
+        }
+      ]
+    },
+    {
+      "version": "0.1.9",
+      "releaseDate": "2026-03-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/quantizer.aux2",
+          "xxh128": "7f5a79a3fac7f2fe7d88ffcc3140af1f"
+        }
+      ]
+    },
+    {
+      "version": "0.1.10",
+      "releaseDate": "2026-03-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/quantizer.aux2",
+          "xxh128": "222849f52fc25150165b34340fedcf8f"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "releaseDate": "2026-07-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/quantizer.aux2",
+          "xxh128": "f3711cf0b4475c7b06c02ef73863b3f3"
+        }
+      ]
+    },
+    {
+      "version": "0.2.1",
+      "releaseDate": "2026-07-12",
+      "files": [
+        {
+          "path": "{pluginsDir}/quantizer.aux2",
+          "xxh128": "1967601a75dc1306cdf5349ef80da01b"
+        }
+      ]
+    }
+  ]
+}

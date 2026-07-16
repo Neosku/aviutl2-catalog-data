@@ -1,0 +1,28 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://github.com/yu7400ki/aviutl2-animated-image-output/releases/download/avif-v1.1.3/avif_output.auo2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/avif_output.auo2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/avif_output.auo2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/avif_output.ini"
+      }
+    ]
+  }
+}

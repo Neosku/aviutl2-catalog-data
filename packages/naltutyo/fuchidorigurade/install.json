@@ -1,0 +1,27 @@
+{
+  "installation": {
+    "source": {
+      "type": "booth",
+      "url": "https://booth.pm/downloadables/8068164?_gl=1*53fx5y*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3NjgwNDgwMjckbzEwJGcxJHQxNzY4MDUwMDM5JGo1NiRsMCRoMA.."
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/縁取りグラデーション/縁取りグラデーション.anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/縁取りグラデーション.anm2"
+      }
+    ]
+  }
+}

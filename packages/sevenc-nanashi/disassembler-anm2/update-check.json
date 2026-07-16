@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "sevenc-nanashi",
+    "repo": "disassembler.anm2",
+    "pattern": "^sevenc-nanashi\\.disassembler-anm2-v[^/]+\\.au2pkg\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Script/disassembler.anm2.anm2"
+      ],
+      "recordPaths": [
+        "{scriptsDir}/disassembler.anm2.anm2"
+      ]
+    }
+  ]
+}

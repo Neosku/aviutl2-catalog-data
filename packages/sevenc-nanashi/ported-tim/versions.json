@@ -1,0 +1,98 @@
+{
+  "versions": [
+    {
+      "version": "0.1.1",
+      "releaseDate": "2026-05-09",
+      "files": [
+        {
+          "path": "{scriptsDir}/@tim.anm2.anm2",
+          "xxh128": "532e50b4447ef510060fe96d34251f1d"
+        },
+        {
+          "path": "{scriptsDir}/@tim.cam2.cam2",
+          "xxh128": "414e54dfef2726ac3ebb4dfba149708b"
+        },
+        {
+          "path": "{scriptsDir}/@tim.obj2.obj2",
+          "xxh128": "ffc3fb1da835eb6d1ed6be16b371ffd9"
+        },
+        {
+          "path": "{scriptsDir}/@tim.scn2.scn2",
+          "xxh128": "24b5ae24510b171e5d91b8c7e9ee1ce5"
+        },
+        {
+          "path": "{scriptsDir}/@tim.tra2.tra2",
+          "xxh128": "ef0c13a65d49dbc79c8f823a621e15dc"
+        },
+        {
+          "path": "{scriptsDir}/tim2.mod2",
+          "xxh128": "57ca748b36a90614b36539ab4a5b9bd3"
+        }
+      ]
+    },
+    {
+      "version": "0.1.2",
+      "releaseDate": "2026-05-11",
+      "files": [
+        {
+          "path": "{scriptsDir}/@tim.anm2.anm2",
+          "xxh128": "0fdc7ca9b48bcf53643b466f55f8d65d"
+        },
+        {
+          "path": "{scriptsDir}/@tim.cam2.cam2",
+          "xxh128": "414e54dfef2726ac3ebb4dfba149708b"
+        },
+        {
+          "path": "{scriptsDir}/@tim.obj2.obj2",
+          "xxh128": "bf9f24bf57386aa3762645f9a830fe99"
+        },
+        {
+          "path": "{scriptsDir}/@tim.scn2.scn2",
+          "xxh128": "24b5ae24510b171e5d91b8c7e9ee1ce5"
+        },
+        {
+          "path": "{scriptsDir}/@tim.tra2.tra2",
+          "xxh128": "ef0c13a65d49dbc79c8f823a621e15dc"
+        },
+        {
+          "path": "{scriptsDir}/tim2.mod2",
+          "xxh128": "56e24900d5f6371e28db59c4b3bd9164"
+        }
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "releaseDate": "2026-06-10",
+      "files": [
+        {
+          "path": "{dataDir}/Language/English.ported_tim.aul2",
+          "xxh128": "b5c3f7a1e76f15d9de8daa1085d0b06b"
+        },
+        {
+          "path": "{scriptsDir}/@tim.anm2.anm2",
+          "xxh128": "0fdc7ca9b48bcf53643b466f55f8d65d"
+        },
+        {
+          "path": "{scriptsDir}/@tim.cam2.cam2",
+          "xxh128": "414e54dfef2726ac3ebb4dfba149708b"
+        },
+        {
+          "path": "{scriptsDir}/@tim.obj2.obj2",
+          "xxh128": "4681b689861e44b3913919f7dacf6e1f"
+        },
+        {
+          "path": "{scriptsDir}/@tim.scn2.scn2",
+          "xxh128": "24b5ae24510b171e5d91b8c7e9ee1ce5"
+        },
+        {
+          "path": "{scriptsDir}/@tim.tra2.tra2",
+          "xxh128": "ef0c13a65d49dbc79c8f823a621e15dc"
+        },
+        {
+          "path": "{scriptsDir}/tim2.mod2",
+          "xxh128": "09de9bec442906534e1e1ff2d5c34491"
+        }
+      ]
+    }
+  ]
+}

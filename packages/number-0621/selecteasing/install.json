@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "NumberZero-0621",
+      "repo": "AviUtl2-Plugin-SelectEasing",
+      "pattern": "^SelectEasing_AviUtl2.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/SelectEasing_AviUtl2/SelectEasing.aux2",
+        "to": "{pluginsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/SelectEasing_AviUtl2/SelectEasing",
+        "to": "{pluginsDir}/SelectEasing"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/SelectEasing.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/SelectEasing"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "beive60",
+      "repo": "aviutl2-scene-lighting",
+      "pattern": "^aviutl2-scene-lighting-v(?<version>\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/Beive60/@scene_lighting.anm2",
+        "to": "{scriptsDir}/Beive60"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/Beive60/@scene_lighting.anm2"
+      }
+    ]
+  }
+}

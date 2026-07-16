@@ -1,0 +1,27 @@
+{
+  "installation": {
+    "source": {
+      "type": "booth",
+      "url": "https://booth.pm/downloadables/7255466"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/二値化_250728/二値化.anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/二値化.anm2"
+      }
+    ]
+  }
+}

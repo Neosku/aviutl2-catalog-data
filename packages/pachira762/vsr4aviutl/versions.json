@@ -1,0 +1,34 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2025-10-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/vsr4aviutl.auf2",
+          "xxh128": "aead8cc9ddc6446d5a21708ddc0effc1"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.1",
+      "releaseDate": "2026-03-06",
+      "files": [
+        {
+          "path": "{pluginsDir}/vsr4aviutl.auf2",
+          "xxh128": "8fd17ec9b070ecced8253923d573ebce"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.2",
+      "releaseDate": "2026-04-19",
+      "files": [
+        {
+          "path": "{pluginsDir}/vsr4aviutl.auf2",
+          "xxh128": "25c92bc3e1837b75e7a99e9a03687162"
+        }
+      ]
+    }
+  ]
+}

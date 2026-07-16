@@ -1,0 +1,24 @@
+{
+  "installation": {
+    "source": {
+      "type": "googleDrive",
+      "id": "1O6FMBXLgT7a4CneP-dX9GKF73nSge4PL"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/手書き風カクカク振動.anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/手書き風カクカク振動.anm2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v0.10",
+      "releaseDate": "2025-12-22",
+      "files": [
+        {
+          "path": "{pluginsDir}/SrtImporter.aux2",
+          "xxh128": "285d82c160d8cc54eb491841f0bb4f43"
+        }
+      ]
+    },
+    {
+      "version": "v0.11",
+      "releaseDate": "2026-02-20",
+      "files": [
+        {
+          "path": "{pluginsDir}/SrtImporter/SrtImporter.aux2",
+          "xxh128": "936fa738ed39b2ed83dd727f7d07eed9"
+        }
+      ]
+    }
+  ]
+}

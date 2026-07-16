@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "Garech-mas",
+      "repo": "AviUtl2_SplitFilters",
+      "pattern": "^SplitFilters-.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/SplitFilters.aux2",
+        "to": "{pluginsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/English.SplitFilters.aul2",
+        "to": "{dataDir}/Language"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/SplitFilters.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.SplitFilters.aul2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "versions": [
+    {
+      "version": "r1",
+      "releaseDate": "2026-01-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2/al2_slimming.aui2",
+          "xxh128": "7bf4279dbf6a8eea0260cc67a6f078c9"
+        }
+      ]
+    },
+    {
+      "version": "r2",
+      "releaseDate": "2026-02-03",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2/al2_slimming.aui2",
+          "xxh128": "dda9903cba2b1ab145cc4736d9644a8b"
+        }
+      ]
+    },
+    {
+      "version": "r3",
+      "releaseDate": "2026-03-16",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2/al2_slimming.aui2",
+          "xxh128": "d168619d0a3ad9a5c21af3921de4677b"
+        }
+      ]
+    },
+    {
+      "version": "r4",
+      "releaseDate": "2026-04-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2/al2_slimming.aui2",
+          "xxh128": "db37a03d23361f17599b41fae2c0a57d"
+        }
+      ]
+    }
+  ]
+}

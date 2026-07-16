@@ -1,0 +1,34 @@
+{
+  "versions": [
+    {
+      "version": "v0.1",
+      "releaseDate": "2026-04-15",
+      "files": [
+        {
+          "path": "{pluginsDir}/LoudnessVisualExplorer.aux2",
+          "xxh128": "8a737ac0b902d6499877933c1eff92ef"
+        }
+      ]
+    },
+    {
+      "version": "v0.1.1",
+      "releaseDate": "2026-04-20",
+      "files": [
+        {
+          "path": "{pluginsDir}/LoudnessVisualExplorer.aux2",
+          "xxh128": "4e1e35f46df116be834bf6b0bd222a99"
+        }
+      ]
+    },
+    {
+      "version": "v0.1.2",
+      "releaseDate": "2026-04-20",
+      "files": [
+        {
+          "path": "{pluginsDir}/LoudnessVisualExplorer.aux2",
+          "xxh128": "43b8fea088829cf166361bc847cefd07"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "versions": [
+    {
+      "version": "r1",
+      "releaseDate": "2026-01-31",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
+          "xxh128": "03cc38026863d4c5b813ca64701678cb"
+        }
+      ]
+    },
+    {
+      "version": "r2",
+      "releaseDate": "2026-02-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
+          "xxh128": "aac1461f2afe1880830dd3403aee2a44"
+        }
+      ]
+    },
+    {
+      "version": "r3",
+      "releaseDate": "2026-03-16",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
+          "xxh128": "c312b162f1729efba224c10f0735b89d"
+        }
+      ]
+    },
+    {
+      "version": "r4",
+      "releaseDate": "2026-04-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
+          "xxh128": "21b2090262c4b6e0c490b67a4b883e09"
+        }
+      ]
+    }
+  ]
+}

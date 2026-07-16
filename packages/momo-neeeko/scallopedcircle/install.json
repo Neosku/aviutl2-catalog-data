@@ -1,0 +1,24 @@
+{
+  "installation": {
+    "source": {
+      "type": "googleDrive",
+      "id": "1td6Z2AXKIubQIOnLjzQgzR-hoUdHOIP5"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/スカラップ円.obj2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/スカラップ円.obj2"
+      }
+    ]
+  }
+}

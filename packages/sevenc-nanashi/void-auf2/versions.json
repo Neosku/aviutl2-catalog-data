@@ -1,0 +1,22 @@
+{
+  "versions": [
+    {
+      "version": "0.1.0",
+      "releaseDate": "2026-07-15",
+      "files": [
+        {
+          "path": "{dataDir}/Language/Default.void-auf2.aul2",
+          "xxh128": "3ec2593b9a38e381fc68f78dc05cf115"
+        },
+        {
+          "path": "{dataDir}/Language/English.void-auf2.aul2",
+          "xxh128": "c286016adddf99147e5dafbe4822b83d"
+        },
+        {
+          "path": "{pluginsDir}/void.auf2",
+          "xxh128": "edaced7fe1cac53c97424dbc15ce9590"
+        }
+      ]
+    }
+  ]
+}

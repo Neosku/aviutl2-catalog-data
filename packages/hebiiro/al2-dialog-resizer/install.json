@@ -1,0 +1,33 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "hebiiro",
+      "repo": "al2_dialog_resizer",
+      "pattern": "^al2_dialog_resizer.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2/al2_dialog_resizer.aui2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2/al2_dialog_resizer"
+      }
+    ]
+  }
+}

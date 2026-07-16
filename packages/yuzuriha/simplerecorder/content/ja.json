@@ -1,0 +1,21 @@
+{
+  "name": "シンプルレコーダー",
+  "author": "ゆずりは",
+  "originalAuthor": "aoytsk",
+  "tags": [
+    "音声"
+  ],
+  "description": {
+    "summary": "Aviutl内でシンプルに録音できるプラグインです。",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "unknown",
+      "name": "不明"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

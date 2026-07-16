@@ -1,0 +1,44 @@
+{
+  "versions": [
+    {
+      "version": "ver1.0",
+      "releaseDate": "2026-03-27",
+      "files": [
+        {
+          "path": "{scriptsDir}/ウェーブクリッピング.anm2",
+          "xxh128": "fc603613bf445e16a9b209ff1fd12a98"
+        }
+      ]
+    },
+    {
+      "version": "ver2.0",
+      "releaseDate": "2026-04-05",
+      "files": [
+        {
+          "path": "{scriptsDir}/ウェーブクリッピング.anm2",
+          "xxh128": "6cc995973023977679fd6aea17732190"
+        }
+      ]
+    },
+    {
+      "version": "ver3.0",
+      "releaseDate": "2026-05-10",
+      "files": [
+        {
+          "path": "{scriptsDir}/ウェーブクリッピング.anm2",
+          "xxh128": "1e2143ab502196b360ef3d14eeb16a3b"
+        }
+      ]
+    },
+    {
+      "version": "ver4.0",
+      "releaseDate": "2026-06-10",
+      "files": [
+        {
+          "path": "{scriptsDir}/ウェーブクリッピング.anm2",
+          "xxh128": "8301a77daa8bcdcb901276d9d3297b42"
+        }
+      ]
+    }
+  ]
+}

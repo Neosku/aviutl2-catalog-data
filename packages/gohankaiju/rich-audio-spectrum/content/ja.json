@@ -1,0 +1,31 @@
+{
+  "name": "リッチな音声波形_Gk",
+  "author": "Gohankaiju",
+  "tags": [
+    "カスタムオブジェクト",
+    "音声",
+    "スペクトラム"
+  ],
+  "description": {
+    "summary": "音声に反応するちょっとリッチなビジュアライザー",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "Gohankaiju"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.gif",
+    "detailImages": [
+      "./images/details1.png",
+      "./images/details2.png"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "versions": [
+    {
+      "version": "r2",
+      "releaseDate": "2026-02-16",
+      "files": [
+        {
+          "path": "{scriptsDir}/シネマスコープ.obj2",
+          "xxh128": "4d6c4027059de068266d3488b436319f"
+        }
+      ]
+    },
+    {
+      "version": "r3",
+      "releaseDate": "2026-02-17",
+      "files": [
+        {
+          "path": "{scriptsDir}/シネマスコープ.obj2",
+          "xxh128": "fe1412b53b88b0b26fe8a5779823711e"
+        }
+      ]
+    },
+    {
+      "version": "r4",
+      "releaseDate": "2026-02-17",
+      "files": [
+        {
+          "path": "{scriptsDir}/シネマスコープ.obj2",
+          "xxh128": "1db2ca94e9cd9e648ebdb199d140bfb0"
+        }
+      ]
+    },
+    {
+      "version": "r5",
+      "releaseDate": "2026-02-26",
+      "files": [
+        {
+          "path": "{scriptsDir}/シネマスコープ.obj2",
+          "xxh128": "4acbae0dcea6f865827e2d025bde1d6c"
+        }
+      ]
+    }
+  ]
+}

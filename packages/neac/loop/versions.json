@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "r2",
+      "releaseDate": "2026-02-28",
+      "files": [
+        {
+          "path": "{scriptsDir}/Loop.anm2",
+          "xxh128": "00c4207ef0f68d5348bc339d4770ee97"
+        }
+      ]
+    },
+    {
+      "version": "r3",
+      "releaseDate": "2026-03-08",
+      "files": [
+        {
+          "path": "{scriptsDir}/Loop.anm2",
+          "xxh128": "f457f41872507e9a08d183fdacd53498"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "versions": [
+    {
+      "version": "v1.00-for-beta7",
+      "releaseDate": "2025-08-20",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Tile_S.obj2",
+          "xxh128": "6cb404ba7235e7f02353d3466b05581a"
+        }
+      ]
+    },
+    {
+      "version": "v1.01-for-beta7",
+      "releaseDate": "2025-08-21",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Tile_S.obj2",
+          "xxh128": "523c94fabf799a17dc928bc2d28572a4"
+        }
+      ]
+    },
+    {
+      "version": "v1.02-for-beta22a",
+      "releaseDate": "2025-12-06",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Tile_S.obj2",
+          "xxh128": "44c98d3ae5265cb15c5155b26017c8de"
+        }
+      ]
+    },
+    {
+      "version": "v1.03-for-beta25",
+      "releaseDate": "2025-12-22",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Tile_S.obj2",
+          "xxh128": "601f15c123fcc1d5d378dd485ef0c975"
+        }
+      ]
+    },
+    {
+      "version": "v1.10-for-beta50",
+      "releaseDate": "2026-06-19",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Tile_S.obj2",
+          "xxh128": "280dbf2e84b5e8203cf31ff9d1fedd69"
+        }
+      ]
+    },
+    {
+      "version": "v1.11-for-beta50",
+      "releaseDate": "2026-06-19",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Tile_S.obj2",
+          "xxh128": "9a2e4c80f6a6d468170ccef20ac38a1d"
+        }
+      ]
+    },
+    {
+      "version": "v1.20-for-beta51",
+      "releaseDate": "2026-06-21",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Tile_S.obj2",
+          "xxh128": "f4de876f95c18a51ecd7b28039a12b28"
+        }
+      ]
+    },
+    {
+      "version": "v1.21-for-beta52",
+      "releaseDate": "2026-06-29",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Tile_S.obj2",
+          "xxh128": "9d048d82aa54982db5bdb1b26520c160"
+        }
+      ]
+    },
+    {
+      "version": "v1.23-for-beta52",
+      "releaseDate": "2026-06-29",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Tile_S.obj2",
+          "xxh128": "91eaf00c0cbc3059d6e17ab2a7911533"
+        }
+      ]
+    },
+    {
+      "version": "v1.30",
+      "releaseDate": "2026-07-15",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Tile_S.obj2",
+          "xxh128": "f0b04503b8b1d2a25aee6a17700756c7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "NKN集中線",
+  "author": "nakano000",
+  "tags": [
+    "カスタムオブジェクト"
+  ],
+  "description": {
+    "summary": "漫画のような集中線スクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "unknown",
+      "name": "不明"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

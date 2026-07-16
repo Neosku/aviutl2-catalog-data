@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "vramwiz",
+    "repo": "VW_Media_Output",
+    "pattern": "^VW_Media_Output.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "VW_Media_Output/VW_Media_Output.auo2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/VW_Media_Output/VW_Media_Output.auo2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sigma-axis",
+      "repo": "aviutl2_translations_sigma-axis",
+      "pattern": "^aviutl2_translations_sigma-axis.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/English.sigma-axis.aul2",
+        "to": "{dataDir}/Language"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/sigma-axis/LICENSE",
+        "to": "{dataDir}/Language/sigma-axis"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/sigma-axis/README.md",
+        "to": "{dataDir}/Language/sigma-axis"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/简体中文.sigma-axis.aul2",
+        "to": "{dataDir}/Language"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.sigma-axis.aul2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/sigma-axis/LICENSE"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/sigma-axis/README.md"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/简体中文.sigma-axis.aul2"
+      }
+    ]
+  }
+}

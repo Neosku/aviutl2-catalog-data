@@ -1,0 +1,27 @@
+{
+  "name": "パスグラデーション",
+  "author": "てるよし",
+  "tags": [
+    "エフェクト",
+    "グラデーション",
+    "パス"
+  ],
+  "description": {
+    "summary": "パスでグラデーションを掛けられるスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "teruyoshi"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

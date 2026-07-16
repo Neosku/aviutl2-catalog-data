@@ -1,0 +1,28 @@
+{
+  "name": "AutoClipping_S",
+  "author": "σ軸",
+  "originalAuthor": "Mr-Ojii",
+  "tags": [
+    "クリッピング",
+    "リサイズ",
+    "座標補正"
+  ],
+  "description": {
+    "summary": "オブジェクトの上下左右の透明領域をクリッピングするスクリプト",
+    "markdownSource": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_AutoClipping_S/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025-2026",
+          "holder": "sigma-axis"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

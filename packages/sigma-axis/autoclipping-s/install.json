@@ -1,0 +1,47 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sigma-axis",
+      "repo": "aviutl2_script_AutoClipping_S",
+      "pattern": "^aviutl2_script_AutoClipping_S-.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/AutoClipping_S.anm2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/AutoClipping_S/LICENSE",
+        "to": "{scriptsDir}/AutoClipping_S"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/AutoClipping_S/README.md",
+        "to": "{scriptsDir}/AutoClipping_S"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/AutoClipping_S.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/AutoClipping_S/LICENSE"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/AutoClipping_S/README.md"
+      }
+    ]
+  }
+}

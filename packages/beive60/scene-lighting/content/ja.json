@@ -1,0 +1,26 @@
+{
+  "name": "scene-lighting",
+  "author": "Beive60",
+  "originalAuthor": "Beive60",
+  "tags": [
+    "色調整"
+  ],
+  "description": {
+    "summary": "背景レイヤーの環境光を前景オブジェクト（キャラクターイラスト等）に反映",
+    "markdownSource": "https://raw.githubusercontent.com/beive60/aviutl2-scene-lighting/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "Beive60"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.gif"
+  }
+}

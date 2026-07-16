@@ -1,0 +1,29 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "aviutl2",
+      "repo": "aviutl2-community-translation",
+      "pattern": "^aviutl2-community\\.aviutl2_community_translation_companion-v.*\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/aviutl2_community_translation_companion.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/aviutl2_community_translation_companion.aux2"
+      }
+    ]
+  }
+}

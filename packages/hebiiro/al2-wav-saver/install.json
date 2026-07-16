@@ -1,0 +1,42 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "hebiiro",
+      "repo": "al2_wav_saver",
+      "pattern": "^al2_wav_saver_r.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/al2_wav_saver_s16.auo2",
+        "to": "{pluginsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/al2_wav_saver_f32.auo2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2_wav_saver_s16.auo2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2_wav_saver_f32.auo2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/raw_wav_saver.auo2"
+      }
+    ]
+  }
+}

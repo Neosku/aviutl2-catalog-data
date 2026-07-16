@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "zopty",
+      "repo": "osc4au2",
+      "pattern": "^osc4au2-v[^/]+\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/OSC4AU2.mod2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/OSC4AU2.tra2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/OSC4AU2.mod2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/OSC4AU2.tra2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "rokujyushi",
+    "repo": "Variable-Font-Plug-ins",
+    "pattern": "^VariableFont-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Plugin/VariableFont/VariableFont.aux2",
+        "Script/VariableFont/VariableFontModule.mod2",
+        "Script/VariableFont/Variable Font Object.obj2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/VariableFont/VariableFont.aux2",
+        "{scriptsDir}/VariableFont/VariableFontModule.mod2",
+        "{scriptsDir}/VariableFont/Variable Font Object.obj2"
+      ]
+    }
+  ]
+}

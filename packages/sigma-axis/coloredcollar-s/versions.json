@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v1.00-for-beta5",
+      "releaseDate": "2025-08-04",
+      "files": [
+        {
+          "path": "{scriptsDir}/ColoredCollar_S.anm2",
+          "xxh128": "c6a22d366802bc08e2b30637c5011ab1"
+        }
+      ]
+    },
+    {
+      "version": "v2.00-for-beta51",
+      "releaseDate": "2026-06-26",
+      "files": [
+        {
+          "path": "{scriptsDir}/ColoredCollar_S.anm2",
+          "xxh128": "b421cba6d3d06f369826d4da2ceb8905"
+        }
+      ]
+    }
+  ]
+}

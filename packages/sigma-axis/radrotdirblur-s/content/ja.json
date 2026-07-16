@@ -1,0 +1,29 @@
+{
+  "name": "RadRotDirBlur_S",
+  "author": "σ軸",
+  "tags": [
+    "ぼかし",
+    "色収差"
+  ],
+  "description": {
+    "summary": "放射ブラー・回転ブラー・方向ブラーを組み合わせた複合ブラーのスクリプト",
+    "markdownSource": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_RadRotDirBlur_S/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025-2026",
+          "holder": "sigma-axis"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

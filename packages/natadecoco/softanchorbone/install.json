@@ -1,0 +1,26 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "Natadecoco2539",
+      "repo": "AviUtl2-SoftAnchorBone",
+      "pattern": "SoftAnchorBone.anm2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/SoftAnchorBone.anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/SoftAnchorBone.anm2"
+      }
+    ]
+  }
+}

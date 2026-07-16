@@ -1,0 +1,16 @@
+{
+  "name": "Level",
+  "author": "こんにゃくねこ",
+  "tags": [
+    "色調整"
+  ],
+  "description": {
+    "summary": "レベル補正っぽいやつ",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ]
+}

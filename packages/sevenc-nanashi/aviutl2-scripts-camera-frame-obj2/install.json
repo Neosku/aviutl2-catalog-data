@@ -1,0 +1,24 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://aviutl2-scripts-download.sevenc7c.workers.dev/%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0.obj2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/カメラフレーム.obj2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/カメラフレーム.obj2"
+      }
+    ]
+  }
+}

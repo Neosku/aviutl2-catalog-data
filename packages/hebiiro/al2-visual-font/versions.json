@@ -1,0 +1,64 @@
+{
+  "versions": [
+    {
+      "version": "r1",
+      "releaseDate": "2026-01-25",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2/al2_visual_font.aux2",
+          "xxh128": "c1184243c942c5ed70e9b9652fcb150b"
+        }
+      ]
+    },
+    {
+      "version": "r2",
+      "releaseDate": "2026-01-27",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2/al2_visual_font.aux2",
+          "xxh128": "8db8ead9a746940f3b59e2eecbc086e3"
+        }
+      ]
+    },
+    {
+      "version": "r3",
+      "releaseDate": "2026-02-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2/al2_visual_font.aui2",
+          "xxh128": "099aa5adc42266f75c6733ec67052926"
+        }
+      ]
+    },
+    {
+      "version": "r4",
+      "releaseDate": "2026-03-15",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2/al2_visual_font.aui2",
+          "xxh128": "31abf1c054858d87209c1945e7150a2a"
+        }
+      ]
+    },
+    {
+      "version": "r5",
+      "releaseDate": "2026-04-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2/al2_visual_font.aui2",
+          "xxh128": "48ad3887305d9251b7f44351192b44e6"
+        }
+      ]
+    },
+    {
+      "version": "r6",
+      "releaseDate": "2026-07-13",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2/al2_visual_font.aui2",
+          "xxh128": "cbade3e6609d5cbd02465bb6daf77aeb"
+        }
+      ]
+    }
+  ]
+}

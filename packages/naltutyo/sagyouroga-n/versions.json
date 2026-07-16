@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v1.0",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/作業ロガーN.aux2",
+          "xxh128": "35465e3fc606f04fe3ecb63d49e3b753"
+        }
+      ]
+    },
+    {
+      "version": "v1.1",
+      "releaseDate": "2026-04-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/作業ロガーN.aux2",
+          "xxh128": "d2ce85c3d421f59b393b4a121e431a17"
+        }
+      ]
+    }
+  ]
+}

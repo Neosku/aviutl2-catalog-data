@@ -1,0 +1,27 @@
+{
+  "name": "KSA",
+  "author": "KAZOON",
+  "tags": [
+    "カスタムオブジェクト",
+    "リサイズ",
+    "インターレース解除"
+  ],
+  "description": {
+    "summary": "リサイズやインターレース解除を含むスクリプト集",
+    "markdownSource": "https://raw.githubusercontent.com/cycloawaodorin/ksa/refs/heads/main/USAGE.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "KAZOON"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

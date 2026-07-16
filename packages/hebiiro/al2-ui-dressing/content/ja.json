@@ -1,0 +1,25 @@
+{
+  "name": "UIドレッシングMOD",
+  "author": "蛇色",
+  "tags": [
+    "UI"
+  ],
+  "description": {
+    "summary": "AviUtl2の見た目を統一するMOD",
+    "markdownSource": "https://raw.githubusercontent.com/hebiiro/al2_ui_dressing/refs/heads/master/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "hebiiro"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

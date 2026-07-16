@@ -1,0 +1,20 @@
+{
+  "name": "Textスキン",
+  "author": "ラプソーン",
+  "tags": [
+    "テキスト",
+    "図形",
+    "画像"
+  ],
+  "description": {
+    "summary": "テキストを図形や画像、動画に置き換えるスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "custom",
+      "name": "カスタムライセンス",
+      "licenseBody": "改変再配布等基本自由です"
+    }
+  ]
+}

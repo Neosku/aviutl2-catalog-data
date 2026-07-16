@@ -1,0 +1,304 @@
+{
+  "versions": [
+    {
+      "version": "8.07",
+      "releaseDate": "2025-06-23",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo",
+          "xxh128": "696be816e76e6374faefb8df1f32ede6"
+        }
+      ]
+    },
+    {
+      "version": "8.08",
+      "releaseDate": "2025-07-16",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo",
+          "xxh128": "0eaf63dbf46a3f66d142f3b3bcec8425"
+        }
+      ]
+    },
+    {
+      "version": "8.09",
+      "releaseDate": "2025-07-16",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo",
+          "xxh128": "56bea3f4a0a13b513c9315d07479964b"
+        }
+      ]
+    },
+    {
+      "version": "8.10",
+      "releaseDate": "2025-07-31",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo",
+          "xxh128": "a36d3232a7c826aa6ee4731f1a8abf4a"
+        }
+      ]
+    },
+    {
+      "version": "8.11",
+      "releaseDate": "2025-08-13",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo",
+          "xxh128": "b16095e08a3b6ad9fd4b4e9242c99692"
+        }
+      ]
+    },
+    {
+      "version": "9.00",
+      "releaseDate": "2025-08-30",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "11ab67ec93fdde245141d74317a33101"
+        }
+      ]
+    },
+    {
+      "version": "9.01",
+      "releaseDate": "2025-09-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "c4cbea78c94d7b24e298444c935cd07f"
+        }
+      ]
+    },
+    {
+      "version": "9.02",
+      "releaseDate": "2025-09-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "e12bfa60e8be7ad03dc064bc5753eeb9"
+        }
+      ]
+    },
+    {
+      "version": "9.03",
+      "releaseDate": "2025-09-15",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "47599d10221d288a5888717d3808e86d"
+        }
+      ]
+    },
+    {
+      "version": "9.04",
+      "releaseDate": "2025-09-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "f5a743e0fe0198020d80182a6c9d4392"
+        }
+      ]
+    },
+    {
+      "version": "9.05",
+      "releaseDate": "2025-10-22",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "bcac701f320dc8f080ee1728bdf8da54"
+        }
+      ]
+    },
+    {
+      "version": "9.06",
+      "releaseDate": "2025-10-31",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "747c5346a852d8a09ab1548d59cd40f9"
+        }
+      ]
+    },
+    {
+      "version": "9.07",
+      "releaseDate": "2025-11-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "594a17bbd766cc9b97defcd34f265f25"
+        }
+      ]
+    },
+    {
+      "version": "9.08",
+      "releaseDate": "2025-11-27",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "fd1fdbb534428bee9523aab136c98bf8"
+        }
+      ]
+    },
+    {
+      "version": "9.09",
+      "releaseDate": "2026-01-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "f17099edbc3744db97b57e6b6d69d017"
+        }
+      ]
+    },
+    {
+      "version": "9.10",
+      "releaseDate": "2026-01-15",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "0a13067f50132433eeff0d356ff8df90"
+        }
+      ]
+    },
+    {
+      "version": "9.11",
+      "releaseDate": "2026-03-12",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "570b8c8a73296af087a9f01a56e080ea"
+        }
+      ]
+    },
+    {
+      "version": "9.12",
+      "releaseDate": "2026-03-15",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "3185440e89285dce5b2c471b8822b43c"
+        }
+      ]
+    },
+    {
+      "version": "9.13",
+      "releaseDate": "2026-03-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "f0942ecee75956c1cc787351b695e730"
+        }
+      ]
+    },
+    {
+      "version": "9.14",
+      "releaseDate": "2026-04-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "54949a3b756427640196288ecbb6b4fd"
+        }
+      ]
+    },
+    {
+      "version": "9.15",
+      "releaseDate": "2026-04-21",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "7bf5b80b852825e9d0e8b2f081f0e9d2"
+        }
+      ]
+    },
+    {
+      "version": "9.16",
+      "releaseDate": "2026-05-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "7e50ceae188a6a34ab89c7d3e38cd93e"
+        }
+      ]
+    },
+    {
+      "version": "9.17",
+      "releaseDate": "2026-06-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "98c65ed6eabdaf12de00402ae2ab46d0"
+        }
+      ]
+    },
+    {
+      "version": "9.18",
+      "releaseDate": "2026-06-13",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "b6f1af72160fe42557058821330ce380"
+        }
+      ]
+    },
+    {
+      "version": "9.19",
+      "releaseDate": "2026-06-15",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "e51541f12387a06ce660446dcc75a7ed"
+        }
+      ]
+    },
+    {
+      "version": "9.20",
+      "releaseDate": "2026-06-23",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "670cf9765958c441e7fc7b8f1f1641b7"
+        }
+      ]
+    },
+    {
+      "version": "9.21",
+      "releaseDate": "2026-06-27",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "5136cb15968f28ef790678e6011922ec"
+        }
+      ]
+    },
+    {
+      "version": "9.22",
+      "releaseDate": "2026-06-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "c545003e2136d15ffc7c949798fac7b8"
+        }
+      ]
+    },
+    {
+      "version": "9.23",
+      "releaseDate": "2026-07-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "7c07676da0e4c7b5c2b41dcf3b16e2e7"
+        }
+      ]
+    },
+    {
+      "version": "9.24",
+      "releaseDate": "2026-07-11",
+      "files": [
+        {
+          "path": "{pluginsDir}/NVEnc.auo2",
+          "xxh128": "2e33acf1e9fbad5781264a053c74dea1"
+        }
+      ]
+    }
+  ]
+}

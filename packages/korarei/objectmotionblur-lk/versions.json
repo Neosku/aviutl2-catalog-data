@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v1.1.0",
+      "releaseDate": "2025-11-23",
+      "files": [
+        {
+          "path": "{scriptsDir}/ObjectMotionBlur_LK.anm2",
+          "xxh128": "f65b2416c8a87265d81561ffefc6685b"
+        }
+      ]
+    },
+    {
+      "version": "v1.1.1",
+      "releaseDate": "2025-12-01",
+      "files": [
+        {
+          "path": "{scriptsDir}/ObjectMotionBlur_LK.anm2",
+          "xxh128": "4770408326df69dd28e6a8e2a7806b1d"
+        }
+      ]
+    }
+  ]
+}

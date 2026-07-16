@@ -1,0 +1,354 @@
+{
+  "versions": [
+    {
+      "version": "v1.00-for-beta15",
+      "releaseDate": "2025-10-16",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "e63c8addda7faf391291344a97beec76"
+        }
+      ]
+    },
+    {
+      "version": "v1.10-for-beta19a",
+      "releaseDate": "2025-11-14",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "de73b94a160cad1195df6cad6dcd04c3"
+        }
+      ]
+    },
+    {
+      "version": "v1.11-for-beta20",
+      "releaseDate": "2025-11-16",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "dd587e794ff896537d10362813f4133f"
+        }
+      ]
+    },
+    {
+      "version": "v1.30-for-beta21",
+      "releaseDate": "2025-11-22",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "1f5b14763d4ce3a91a53281b33adfff0"
+        }
+      ]
+    },
+    {
+      "version": "v1.40-for-beta21",
+      "releaseDate": "2025-11-28",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "f6491cdb1d2a784ad1bed8218476c74e"
+        }
+      ]
+    },
+    {
+      "version": "v1.51-for-beta22",
+      "releaseDate": "2025-12-01",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "2fb47bca98decd779a7eec675db5939b"
+        }
+      ]
+    },
+    {
+      "version": "v1.60-for-beta25",
+      "releaseDate": "2025-12-23",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "e28c28eb75b99bc335d04183154d7a62"
+        }
+      ]
+    },
+    {
+      "version": "v1.70-for-beta26",
+      "releaseDate": "2025-12-27",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "3fe5515208093c3a6dca790c11970364"
+        }
+      ]
+    },
+    {
+      "version": "v1.71-for-beta26",
+      "releaseDate": "2025-12-27",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "972211c6ede95a1cf0e16c495fd0698e"
+        }
+      ]
+    },
+    {
+      "version": "v1.72-for-beta26",
+      "releaseDate": "2025-12-29",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "1e8c9150c5cb669eb78868fb90607487"
+        }
+      ]
+    },
+    {
+      "version": "v1.73-for-beta28a",
+      "releaseDate": "2026-01-13",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "f1474b3c9797eae6e8e5a50190b00238"
+        }
+      ]
+    },
+    {
+      "version": "v1.74-for-beta28a",
+      "releaseDate": "2026-01-14",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "08e3450fc4af2ba30b7a5f8814d07acf"
+        }
+      ]
+    },
+    {
+      "version": "v1.75-for-beta28a",
+      "releaseDate": "2026-01-15",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "8eb061c7a997770fb7d4fc3522bd984d"
+        }
+      ]
+    },
+    {
+      "version": "v1.76-for-beta28a",
+      "releaseDate": "2026-01-16",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "b44fec0773671379c2728c6fda31d889"
+        }
+      ]
+    },
+    {
+      "version": "v1.80-for-beta29",
+      "releaseDate": "2026-01-25",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "3398ed84646e57352f850bb1aa27808c"
+        }
+      ]
+    },
+    {
+      "version": "v1.90-for-beta41a",
+      "releaseDate": "2026-04-13",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "4bf1551cbc66b00a9106419a24652199"
+        }
+      ]
+    },
+    {
+      "version": "v2.00-for-beta42",
+      "releaseDate": "2026-04-22",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "67330419695eae0c2063b93fd362ac95"
+        }
+      ]
+    },
+    {
+      "version": "v2.01-for-beta42",
+      "releaseDate": "2026-04-23",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "30fc49412bdad4eeb573be7f8134e104"
+        }
+      ]
+    },
+    {
+      "version": "v2.02-for-beta43b",
+      "releaseDate": "2026-05-01",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "67eddc112be1c39006016a34437c2ea4"
+        }
+      ]
+    },
+    {
+      "version": "v2.03-for-beta43b",
+      "releaseDate": "2026-05-02",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "761afbb446076122d2e99fb75fd11eb5"
+        }
+      ]
+    },
+    {
+      "version": "v2.10-for-beta43b",
+      "releaseDate": "2026-05-02",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "957b0934c2d38a7cf534fcd614508cf0"
+        }
+      ]
+    },
+    {
+      "version": "v2.20-for-beta49",
+      "releaseDate": "2026-06-13",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "c10b365e7dc97282fe18696186a236bc"
+        }
+      ]
+    },
+    {
+      "version": "v2.21-for-beta49",
+      "releaseDate": "2026-06-13",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "2aa07b605b790c383f76af2181614c69"
+        }
+      ]
+    },
+    {
+      "version": "v2.22-for-beta49",
+      "releaseDate": "2026-06-13",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "554cda8ee6c01af0715ddc7c411b73de"
+        }
+      ]
+    },
+    {
+      "version": "v2.30-for-beta50",
+      "releaseDate": "2026-06-14",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "5714564afe33f0cc826d1e50862da7bf"
+        }
+      ]
+    },
+    {
+      "version": "v2.31-for-beta50",
+      "releaseDate": "2026-06-15",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "819bd36950f14ffe12be821dcaae76fc"
+        }
+      ]
+    },
+    {
+      "version": "v2.32-for-beta50",
+      "releaseDate": "2026-06-15",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "437a219515db47956b2b12cfd4479ade"
+        }
+      ]
+    },
+    {
+      "version": "v2.33-for-beta51",
+      "releaseDate": "2026-06-22",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "a3f238977700f9fcf6d2ebc2f0702661"
+        }
+      ]
+    },
+    {
+      "version": "v2.40-for-beta52",
+      "releaseDate": "2026-06-28",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "c3eb9bced3d248a1db835f6409ba2d7f"
+        }
+      ]
+    },
+    {
+      "version": "v2.41-for-beta52",
+      "releaseDate": "2026-07-04",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "b7bf309f6fb4cc200d8686fdcf057fa3"
+        }
+      ]
+    },
+    {
+      "version": "v2.43-for-beta53",
+      "releaseDate": "2026-07-05",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "f85068a83dd32600f8b08ff48dabd870"
+        }
+      ]
+    },
+    {
+      "version": "v2.44-for-beta53a",
+      "releaseDate": "2026-07-05",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "56ba4af4c4b8077f8bb3a58e264b2fb5"
+        }
+      ]
+    },
+    {
+      "version": "v2.50",
+      "releaseDate": "2026-07-12",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "99388bd0c07c0db5ecf3ecf44d2e5c8b"
+        }
+      ]
+    },
+    {
+      "version": "v2.60",
+      "releaseDate": "2026-07-12",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "640d61c163f41d35423a89a8ccaf39b5"
+        }
+      ]
+    },
+    {
+      "version": "v2.61",
+      "releaseDate": "2026-07-14",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Basic_S.anm2",
+          "xxh128": "51a0da698c0520d170f9edb71c205119"
+        }
+      ]
+    }
+  ]
+}

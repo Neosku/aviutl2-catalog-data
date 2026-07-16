@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "korarei",
+      "repo": "AviUtl2_ObjectMotionBlur_LK_Script",
+      "pattern": "^ObjectMotionBlur_LK\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/ObjectMotionBlur_LK/ObjectMotionBlur_LK.anm2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/ObjectMotionBlur_LK/ObjectMotionBlur_LK.mod2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/ObjectMotionBlur_LK.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/ObjectMotionBlur_LK.mod2"
+      }
+    ]
+  }
+}

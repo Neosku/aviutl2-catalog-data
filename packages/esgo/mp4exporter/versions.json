@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2025-07-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/MP4Exporter.auo2",
+          "xxh128": "a94f7e7b2539785639ac0f166bd66719"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.1",
+      "releaseDate": "2025-07-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/MP4Exporter.auo2",
+          "xxh128": "0cb0285678d34acad3ab8082056c9a17"
+        }
+      ]
+    }
+  ]
+}

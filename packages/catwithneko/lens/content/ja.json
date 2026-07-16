@@ -1,0 +1,21 @@
+{
+  "name": "Lens",
+  "author": "こんにゃくねこ",
+  "tags": [
+    "レンズ補正",
+    "変形",
+    "曲げ"
+  ],
+  "description": {
+    "summary": "レンズディストーションっぽいやつ",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

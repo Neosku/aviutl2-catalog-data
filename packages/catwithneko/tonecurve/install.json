@@ -1,0 +1,28 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://raw.githubusercontent.com/CatWithNeko/aviutl2-scripts/refs/heads/main/script/Tonecurve_C.anm2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Tonecurve_C.anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/トーンカーブ(時間制御).anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/Tonecurve_C.anm2"
+      }
+    ]
+  }
+}

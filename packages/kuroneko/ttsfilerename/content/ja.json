@@ -1,0 +1,27 @@
+{
+  "name": "TTSFileRename",
+  "author": "黒猫大福",
+  "tags": [
+    "テキスト",
+    "音声",
+    "便利ツール"
+  ],
+  "description": {
+    "summary": "音声合成ソフトから出力されたファイルのリネームスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "rokujyushi"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

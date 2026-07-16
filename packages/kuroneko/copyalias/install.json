@@ -1,0 +1,29 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "rokujyushi",
+      "repo": "Copy_alias",
+      "pattern": "KuroNeko\\.CopyAlias.*\\.au2pkg\\.zip"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/CopyAlias.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/CopyAlias.aux2"
+      }
+    ]
+  }
+}

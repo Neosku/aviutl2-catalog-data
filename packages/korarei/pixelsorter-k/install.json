@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "korarei",
+      "repo": "AviUtl2_PixelSorter_K_Script",
+      "pattern": "^PixelSorter_K\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/PixelSorter_K/PixelSorter_K.anm2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/PixelSorter_K/PixelSorter_K.mod2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/PixelSorter_K.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/PixelSorter_K.mod2"
+      }
+    ]
+  }
+}

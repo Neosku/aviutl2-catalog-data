@@ -1,0 +1,38 @@
+{
+  "versions": [
+    {
+      "version": "0.1.0",
+      "releaseDate": "2026-03-04",
+      "files": [
+        {
+          "path": "{dataDir}/Language/English.modify_group_num_layers.aul2",
+          "xxh128": "95c2cc09e6a9166e252306a54919fdbc"
+        },
+        {
+          "path": "{pluginsDir}/modify_group_num_layers.aux2",
+          "xxh128": "b4480c62754d1d96b7a96c8528bbc3fe"
+        }
+      ]
+    },
+    {
+      "version": "0.1.1",
+      "releaseDate": "2026-05-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/modify_group_num_layers.aux2",
+          "xxh128": "9c6f8e6ebe4fbce8aa70195e6d6423ac"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "releaseDate": "2026-07-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/modify_group_num_layers.aux2",
+          "xxh128": "b6a1b4a9ff69b74ae7dcfa2e5e2bd2a4"
+        }
+      ]
+    }
+  ]
+}

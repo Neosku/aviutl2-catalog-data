@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "samuelladoco",
+      "repo": "aviutl2-script-seisa",
+      "pattern": "SeiSa.au2pkg.zip"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/SeiSa/README.pdf",
+        "to": "{scriptsDir}/SeiSa"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/SeiSa/SeiSa-Total.obj2",
+        "to": "{scriptsDir}/SeiSa"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/SeiSa/README.pdf"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/SeiSa/SeiSa-Total.obj2"
+      }
+    ]
+  }
+}

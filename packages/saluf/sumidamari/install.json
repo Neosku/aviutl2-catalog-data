@@ -1,0 +1,24 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://raw.githubusercontent.com/5qlufz-1536/AviUtl2_SumiDamari/refs/heads/main/%E5%A2%A8%E3%81%A0%E3%81%BE%E3%82%8A.anm2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/墨だまり.anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/墨だまり.anm2"
+      }
+    ]
+  }
+}

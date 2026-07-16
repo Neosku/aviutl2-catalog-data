@@ -1,0 +1,24 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://raw.githubusercontent.com/ar-ca-na/connection_line/refs/heads/main/%E9%80%A3%E7%B5%90%E3%83%A9%E3%82%A4%E3%83%B3.obj2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/連結ライン.obj2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/連結ライン.obj2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "Natadecoco2539",
+      "repo": "AviUtl2-TextEditor",
+      "pattern": "TextEditor.aux2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/TextEditor.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/TextEditor.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{appDir}/TextEditor.ini"
+      }
+    ]
+  }
+}

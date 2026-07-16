@@ -1,0 +1,74 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "vramwiz",
+      "repo": "VW_Media_Input",
+      "pattern": "^VW_Media_Input\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/VW_Media_Input/VW_Media_Input.aui2",
+        "to": "{pluginsDir}/VW_Media_Input"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/VW_Media_Input/swscale-9.dll",
+        "to": "{pluginsDir}/VW_Media_Input"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/VW_Media_Input/avcodec-62.dll",
+        "to": "{pluginsDir}/VW_Media_Input"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/VW_Media_Input/avformat-62.dll",
+        "to": "{pluginsDir}/VW_Media_Input"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/VW_Media_Input/avutil-60.dll",
+        "to": "{pluginsDir}/VW_Media_Input"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/VW_Media_Input/swresample-6.dll",
+        "to": "{pluginsDir}/VW_Media_Input"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VW_Media_Input/VW_Media_Input.aui2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VW_Media_Input/swscale-9.dll"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VW_Media_Input/avcodec-62.dll"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VW_Media_Input/avformat-62.dll"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VW_Media_Input/avutil-60.dll"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VW_Media_Input/swresample-6.dll"
+      }
+    ]
+  }
+}

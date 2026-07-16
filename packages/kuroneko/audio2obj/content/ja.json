@@ -1,0 +1,26 @@
+{
+  "name": "audio2obj",
+  "author": "黒猫大福",
+  "tags": [
+    "便利ツール",
+    "字幕"
+  ],
+  "description": {
+    "summary": "音声ファイル名からオブジェクト生成",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "rokujyushi"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

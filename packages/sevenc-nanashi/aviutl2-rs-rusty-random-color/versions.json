@@ -1,0 +1,364 @@
+{
+  "versions": [
+    {
+      "version": "0.12.2",
+      "releaseDate": "2026-01-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "06186acb1773ad30e70fd5edf528f003"
+        }
+      ]
+    },
+    {
+      "version": "0.13.0",
+      "releaseDate": "2026-01-31",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "f222ec2d8e079354c942c6c2e5de70cb"
+        }
+      ]
+    },
+    {
+      "version": "0.14.0",
+      "releaseDate": "2026-02-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "cb4117301712abb2b8d75933047d5b79"
+        }
+      ]
+    },
+    {
+      "version": "0.15.0",
+      "releaseDate": "2026-02-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "5ec5dc0452b88dfdd41d3aaa293f46cd"
+        }
+      ]
+    },
+    {
+      "version": "0.15.1",
+      "releaseDate": "2026-02-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "77fdb592cec37323274cd8feb7bae41e"
+        }
+      ]
+    },
+    {
+      "version": "0.16.0",
+      "releaseDate": "2026-02-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "ed40388db4d3f791187418bad210121f"
+        }
+      ]
+    },
+    {
+      "version": "0.17.0",
+      "releaseDate": "2026-02-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "5078236d34e9be03228c264acffbe282"
+        }
+      ]
+    },
+    {
+      "version": "0.18.0",
+      "releaseDate": "2026-02-23",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "8f4ca2febfba631421a3d0b6c479d287"
+        }
+      ]
+    },
+    {
+      "version": "0.18.1",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "b5d86edd534ad173ba5b164949d47ea5"
+        }
+      ]
+    },
+    {
+      "version": "0.19.0",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "277ec7a633c091076e94759e4d15b758"
+        }
+      ]
+    },
+    {
+      "version": "0.20.0",
+      "releaseDate": "2026-03-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "ef35ee778f9e4316c700561b15099c14"
+        }
+      ]
+    },
+    {
+      "version": "0.20.1",
+      "releaseDate": "2026-03-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "b410535ca5f145d7df8a4fb5e2c80c9e"
+        }
+      ]
+    },
+    {
+      "version": "0.20.2",
+      "releaseDate": "2026-03-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "b4dd695ee14d26132556b50265463210"
+        }
+      ]
+    },
+    {
+      "version": "0.20.3",
+      "releaseDate": "2026-03-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "02783fab9096022262e6fa3d87829a6a"
+        }
+      ]
+    },
+    {
+      "version": "0.21.0",
+      "releaseDate": "2026-03-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "53a937c71b5ede82152d5afe006f3bff"
+        }
+      ]
+    },
+    {
+      "version": "0.22.0",
+      "releaseDate": "2026-03-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "76bf0275f2761cde3f38469ece777b7d"
+        }
+      ]
+    },
+    {
+      "version": "0.23.0",
+      "releaseDate": "2026-04-13",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "02181f523dcffbea4401e3a68c786c6a"
+        }
+      ]
+    },
+    {
+      "version": "0.24.0",
+      "releaseDate": "2026-04-19",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "c3f6b56c240d97f2d98a66c3d5e9575b"
+        }
+      ]
+    },
+    {
+      "version": "0.25.0",
+      "releaseDate": "2026-04-26",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "0c4bc14c5a8c36006603130ab8aa7e92"
+        }
+      ]
+    },
+    {
+      "version": "0.26.0",
+      "releaseDate": "2026-04-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "2128e34f8468406f58b469b21fd7a875"
+        }
+      ]
+    },
+    {
+      "version": "0.27.0",
+      "releaseDate": "2026-05-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "489e6d20a60024c9ab6a77d9ab5b6f64"
+        }
+      ]
+    },
+    {
+      "version": "0.28.0",
+      "releaseDate": "2026-05-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "9eee89685ea560e9ab0c74407e2d13dc"
+        }
+      ]
+    },
+    {
+      "version": "0.28.1",
+      "releaseDate": "2026-05-11",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "e59cee2f3f120fe21b6a50c9dd29bf45"
+        }
+      ]
+    },
+    {
+      "version": "0.29.0",
+      "releaseDate": "2026-05-18",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "4caa600ee5c0e27bdcad5693cc8677f2"
+        }
+      ]
+    },
+    {
+      "version": "0.30.0",
+      "releaseDate": "2026-05-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "f30b61d42dfba21a7d68f469540faf61"
+        }
+      ]
+    },
+    {
+      "version": "0.31.0",
+      "releaseDate": "2026-06-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "b61623c5817378b7c5a3e02faaf2ed2e"
+        }
+      ]
+    },
+    {
+      "version": "0.32.0",
+      "releaseDate": "2026-06-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "1845342dd0eab8e0fcb0d5a784325638"
+        }
+      ]
+    },
+    {
+      "version": "0.33.0",
+      "releaseDate": "2026-06-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "27a6159eae7ba04006cdba747c5552a1"
+        }
+      ]
+    },
+    {
+      "version": "0.34.0",
+      "releaseDate": "2026-06-20",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "66d5eb4af77b5766e1874a13975ef0a0"
+        }
+      ]
+    },
+    {
+      "version": "0.35.0",
+      "releaseDate": "2026-07-03",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "11d2bd76d3e1b681a79b0e39120b5e1a"
+        }
+      ]
+    },
+    {
+      "version": "0.36.0",
+      "releaseDate": "2026-07-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "220553afb859bb723eeb1d8e92237dd5"
+        }
+      ]
+    },
+    {
+      "version": "0.37.0",
+      "releaseDate": "2026-07-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "e9500d14219a3e969d3bd3f7bb640008"
+        }
+      ]
+    },
+    {
+      "version": "0.38.0",
+      "releaseDate": "2026-07-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "74d1ecc51c61c39dcbdcbe69398b0040"
+        }
+      ]
+    },
+    {
+      "version": "0.38.1",
+      "releaseDate": "2026-07-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "b17641e86ccc2a29c666b1bd5be8583f"
+        }
+      ]
+    },
+    {
+      "version": "0.38.2",
+      "releaseDate": "2026-07-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "98469d267cb5ba7d8490143b3f672db3"
+        }
+      ]
+    },
+    {
+      "version": "0.39.0",
+      "releaseDate": "2026-07-12",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_random_color.auf2",
+          "xxh128": "8af4e0cc3f8874fcab5e5a3c176c4802"
+        }
+      ]
+    }
+  ]
+}

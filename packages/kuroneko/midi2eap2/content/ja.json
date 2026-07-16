@@ -1,0 +1,25 @@
+{
+  "name": "midi2EAP2",
+  "author": "黒猫大福",
+  "tags": [
+    "MIDI"
+  ],
+  "description": {
+    "summary": "EAP2 MIDI Visualizerのハンドラースクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "rokujyushi"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "BlockGlitch_Rh",
+  "author": "ラプソーン",
+  "tags": [
+    "グリッチ",
+    "ノイズ",
+    "色ずれ"
+  ],
+  "description": {
+    "summary": "ブロック状にずれるグリッチエフェクト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "custom",
+      "name": "カスタムライセンス",
+      "licenseBody": "改変再配布等基本自由です"
+    }
+  ]
+}

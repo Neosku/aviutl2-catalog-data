@@ -1,0 +1,19 @@
+{
+  "name": "動画OUT",
+  "author": "VRAMの魔術師",
+  "tags": [
+    "音声"
+  ],
+  "description": {
+    "summary": "AviUtl2からMP4/H.264/AACで書き出す出力プラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "GPL-3.0"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

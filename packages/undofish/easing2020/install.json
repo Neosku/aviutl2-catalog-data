@@ -1,0 +1,72 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://www.dropbox.com/s/clvaltohynpzmm9/easing_tra_2020.zip?dl=1"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/@uf_easing.anm",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/@uf_easing.tra",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/easing_aviutl2020.lua",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/easing.lua",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/easing.png",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/uf_easing.obj",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/@uf_easing.anm"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/@uf_easing.tra"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/easing_aviutl2020.lua"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/easing.lua"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/easing.png"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/uf_easing.obj"
+      }
+    ]
+  }
+}

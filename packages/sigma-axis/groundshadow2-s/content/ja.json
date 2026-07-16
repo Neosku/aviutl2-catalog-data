@@ -1,0 +1,29 @@
+{
+  "name": "GroundShadow2_S",
+  "author": "σ軸",
+  "tags": [
+    "立体",
+    "影"
+  ],
+  "description": {
+    "summary": "影を立体的に地面や壁，天井などへ落とすフィルタ効果．",
+    "markdownSource": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_GroundShadow2_S/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025-2026",
+          "holder": "sigma-axis"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

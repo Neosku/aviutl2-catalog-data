@@ -1,0 +1,20 @@
+{
+  "name": "基本効果(Delay)",
+  "author": "ラプソーン",
+  "tags": [
+    "ディレイ",
+    "テキスト",
+    "アニメーション"
+  ],
+  "description": {
+    "summary": "基本効果をオブジェクトごとに時間差で適用するスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "custom",
+      "name": "カスタムライセンス",
+      "licenseBody": "改変再配布等基本自由です"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "SrtImporter",
+  "author": "shyachi",
+  "tags": [
+    "テキスト",
+    "字幕"
+  ],
+  "description": {
+    "summary": "SRT字幕ファイルをインポートするプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/shyachi/AviUtl2_SrtImporter/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "shyachi"
+        }
+      ]
+    }
+  ]
+}

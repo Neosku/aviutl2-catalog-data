@@ -1,0 +1,25 @@
+{
+  "name": "ラウドネス視覚分析",
+  "author": "ゆずりは",
+  "originalAuthor": "oov",
+  "tags": [
+    "音声",
+    "色調整"
+  ],
+  "description": {
+    "summary": "AviUtl2用のラウドネスを可視化し調整できるプラグインです",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "unknown",
+      "name": "不明"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

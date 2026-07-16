@@ -1,0 +1,19 @@
+{
+  "name": "彩cle_Rh",
+  "author": "ラプソーン",
+  "tags": [
+    "色調整",
+    "塗りつぶし"
+  ],
+  "description": {
+    "summary": "イン/アウトで単色化し、滑らかに色を変化させるスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "custom",
+      "name": "カスタムライセンス",
+      "licenseBody": "改変再配布等基本自由です"
+    }
+  ]
+}

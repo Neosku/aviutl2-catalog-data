@@ -1,0 +1,29 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "Mr-Ojii",
+      "repo": "L-SMASH-Works-Auto-Builds",
+      "pattern": "^L-SMASH-Works_r\\d+_Mr-Ojii_Mr-Ojii\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/AviUtl2/lwinput.aui2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/lwinput.aui2"
+      }
+    ]
+  }
+}

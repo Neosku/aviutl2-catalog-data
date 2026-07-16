@@ -1,0 +1,21 @@
+{
+  "name": "LongShadow",
+  "author": "こんにゃくねこ",
+  "tags": [
+    "グラデーション",
+    "影",
+    "縁取り"
+  ],
+  "description": {
+    "summary": "AviUtl2 ロングシャドー(&フラットシャドー)",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

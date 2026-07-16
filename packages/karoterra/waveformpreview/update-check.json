@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "karoterra",
+    "repo": "aviutl2-waveform-preview",
+    "pattern": "^Karoterra\\.WaveformPreview-v.*\\.au2pkg\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Plugin/Karoterra.WaveformPreview/waveformpreview.aux2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/Karoterra.WaveformPreview/waveformpreview.aux2"
+      ]
+    }
+  ]
+}

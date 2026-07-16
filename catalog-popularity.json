@@ -1,0 +1,1077 @@
+{
+  "schemaVersion": 2,
+  "packages": {
+    "kenkun.aviutlexedit2": {
+      "popularity": 26318,
+      "trend": 4423
+    },
+    "hebiiro.al2-jd": {
+      "popularity": 1526,
+      "trend": 61
+    },
+    "hebiiro.al2-wav-saver": {
+      "popularity": 4741,
+      "trend": 330
+    },
+    "rigaya.x264guiex": {
+      "popularity": 25574,
+      "trend": 1524
+    },
+    "rigaya.x265guiex": {
+      "popularity": 4617,
+      "trend": 587
+    },
+    "rigaya.nvenc": {
+      "popularity": 3398,
+      "trend": 1027
+    },
+    "rigaya.qsvenc": {
+      "popularity": 633,
+      "trend": 209
+    },
+    "rigaya.ffmpegout": {
+      "popularity": 1932,
+      "trend": 210
+    },
+    "rigaya.vceenc": {
+      "popularity": 542,
+      "trend": 188
+    },
+    "rigaya.svtav1guiex": {
+      "popularity": 449,
+      "trend": 45
+    },
+    "mr-ojii.l-smash-works": {
+      "popularity": 26537,
+      "trend": 2684
+    },
+    "sigma-axis.autoclipping-s": {
+      "popularity": 2407,
+      "trend": 919
+    },
+    "sigma-axis.radrotdirblur-s": {
+      "popularity": 3556,
+      "trend": 556
+    },
+    "gometh.3dconv-g": {
+      "popularity": 3138,
+      "trend": 169
+    },
+    "momo-neeeko.rainbow-grad": {
+      "popularity": 2059,
+      "trend": 81
+    },
+    "momo-neeeko.squash-resize": {
+      "popularity": 1988,
+      "trend": 70
+    },
+    "momo-neeeko.rounded-rect-layout": {
+      "popularity": 1115,
+      "trend": 38
+    },
+    "momo-neeeko.bpm-shake": {
+      "popularity": 2445,
+      "trend": 126
+    },
+    "nagomiku.shape-by-value": {
+      "popularity": 807,
+      "trend": 25
+    },
+    "tt-xiaop.ougi-blind": {
+      "popularity": 1512,
+      "trend": 52
+    },
+    "tt-xiaop.fold": {
+      "popularity": 1066,
+      "trend": 34
+    },
+    "momo-neeeko.fold": {
+      "popularity": 740,
+      "trend": 16
+    },
+    "korarei.stylize-k": {
+      "popularity": 1284,
+      "trend": 68
+    },
+    "reindex-ot.reindex-aviutl2-language": {
+      "popularity": 961,
+      "trend": 32
+    },
+    "seilor0.roundedpolygonsl": {
+      "popularity": 2373,
+      "trend": 135
+    },
+    "seilor0.twinkle-sl": {
+      "popularity": 2835,
+      "trend": 158
+    },
+    "hebiiro.al2-memo": {
+      "popularity": 1219,
+      "trend": 60
+    },
+    "mr-ojii.webpfilereader-plugin": {
+      "popularity": 1269,
+      "trend": 64
+    },
+    "yu7400ki.anmimoutput-apng": {
+      "popularity": 1397,
+      "trend": 65
+    },
+    "yu7400ki.anmimoutput-gif": {
+      "popularity": 5111,
+      "trend": 335
+    },
+    "yu7400ki.anmimoutput-webp": {
+      "popularity": 806,
+      "trend": 41
+    },
+    "yu7400ki.anmimoutput-avif": {
+      "popularity": 372,
+      "trend": 17
+    },
+    "sigma-axis.basic-s": {
+      "popularity": 8954,
+      "trend": 2608
+    },
+    "sigma-axis.path-s": {
+      "popularity": 3192,
+      "trend": 1126
+    },
+    "korarei.pixelsorter-k": {
+      "popularity": 2235,
+      "trend": 174
+    },
+    "korarei.objectmotionblur-lk": {
+      "popularity": 7433,
+      "trend": 551
+    },
+    "sigma-axis.coloredcollar-s": {
+      "popularity": 866,
+      "trend": 197
+    },
+    "sigma-axis.tile-s": {
+      "popularity": 2041,
+      "trend": 588
+    },
+    "sigma-axis.resize-s": {
+      "popularity": 736,
+      "trend": 181
+    },
+    "sigma-axis.pixelsnap-s": {
+      "popularity": 772,
+      "trend": 130
+    },
+    "sigma-axis.pageroll-s": {
+      "popularity": 896,
+      "trend": 223
+    },
+    "garech.splitfilters": {
+      "popularity": 2360,
+      "trend": 183
+    },
+    "garech.jp-akey-aul2": {
+      "popularity": 468,
+      "trend": 150
+    },
+    "sigma-axis.groundshadow2-s": {
+      "popularity": 2179,
+      "trend": 463
+    },
+    "sigma-axis.histogram-s": {
+      "popularity": 379,
+      "trend": 19
+    },
+    "zopty.blindloop": {
+      "popularity": 1554,
+      "trend": 76
+    },
+    "azurite.colorhalftone": {
+      "popularity": 2061,
+      "trend": 121
+    },
+    "oov.gcmzdrops2": {
+      "popularity": 7278,
+      "trend": 488
+    },
+    "amaii4.aviutl2-discord-rpc": {
+      "popularity": 1509,
+      "trend": 169
+    },
+    "natadecoco.texteditor": {
+      "popularity": 8659,
+      "trend": 593
+    },
+    "natadecoco.textsplitter": {
+      "popularity": 3807,
+      "trend": 247
+    },
+    "natadecoco.myassetmanager": {
+      "popularity": 2351,
+      "trend": 303
+    },
+    "azurite.gradientplus": {
+      "popularity": 977,
+      "trend": 37
+    },
+    "naltutyo.fuchidorigurade": {
+      "popularity": 1448,
+      "trend": 85
+    },
+    "naltutyo.scriptbrowserplugin": {
+      "popularity": 502,
+      "trend": 34
+    },
+    "namarium.toaster": {
+      "popularity": 237,
+      "trend": 11
+    },
+    "oov.psdtoolkit2": {
+      "popularity": 5052,
+      "trend": 359
+    },
+    "karoterra.oilpainting": {
+      "popularity": 1385,
+      "trend": 92
+    },
+    "karoterra.bend": {
+      "popularity": 1160,
+      "trend": 52
+    },
+    "karoterra.colorvisionsimulation": {
+      "popularity": 288,
+      "trend": 19
+    },
+    "naltutyo.kakutyo-tsu-ruba": {
+      "popularity": 765,
+      "trend": 112
+    },
+    "korarei.autolyricanimation-k": {
+      "popularity": 4270,
+      "trend": 216
+    },
+    "korarei.cameratransform-k": {
+      "popularity": 1529,
+      "trend": 570
+    },
+    "korarei.kaleidoscope-k": {
+      "popularity": 1115,
+      "trend": 61
+    },
+    "korarei.colorlut-k": {
+      "popularity": 648,
+      "trend": 147
+    },
+    "sigma-axis.tl-walkaround2": {
+      "popularity": 966,
+      "trend": 347
+    },
+    "zopty.dokodemobuffer": {
+      "popularity": 1160,
+      "trend": 55
+    },
+    "rhapthorne-0.blockglitch-rh": {
+      "popularity": 3210,
+      "trend": 174
+    },
+    "rhapthorne-0.radialraster-rh": {
+      "popularity": 796,
+      "trend": 26
+    },
+    "rhapthorne-0.textskin": {
+      "popularity": 808,
+      "trend": 28
+    },
+    "rhapthorne-0.bpmeffecttoggle": {
+      "popularity": 1512,
+      "trend": 64
+    },
+    "rhapthorne-0.unifytext": {
+      "popularity": 1150,
+      "trend": 50
+    },
+    "rhapthorne-0.textautowrap": {
+      "popularity": 1168,
+      "trend": 40
+    },
+    "rhapthorne-0.solidcolormosaic": {
+      "popularity": 741,
+      "trend": 26
+    },
+    "rhapthorne-0.radialshift": {
+      "popularity": 733,
+      "trend": 45
+    },
+    "rhapthorne-0.basicdelay": {
+      "popularity": 1483,
+      "trend": 113
+    },
+    "teruyoshii.noisegradation": {
+      "popularity": 2894,
+      "trend": 178
+    },
+    "teruyoshii.pathgradation": {
+      "popularity": 918,
+      "trend": 36
+    },
+    "shyachi.srtimporter": {
+      "popularity": 337,
+      "trend": 19
+    },
+    "hebiiro.al2-preset-adder": {
+      "popularity": 1298,
+      "trend": 129
+    },
+    "sigma-axis.whitebalance-s": {
+      "popularity": 1307,
+      "trend": 241
+    },
+    "ar-ca-na.connection-line": {
+      "popularity": 822,
+      "trend": 19
+    },
+    "rhapthorne-0.roundcornerrh": {
+      "popularity": 1905,
+      "trend": 79
+    },
+    "rhapthorne-0.lineglitch-rh": {
+      "popularity": 2070,
+      "trend": 128
+    },
+    "rhapthorne-0.anchorcontrol-rh": {
+      "popularity": 1034,
+      "trend": 118
+    },
+    "hebiiro.al2-visual-font": {
+      "popularity": 10825,
+      "trend": 1886
+    },
+    "sevenc-nanashi.aviutl2-rs-rusty-binaural": {
+      "popularity": 682,
+      "trend": 231
+    },
+    "sevenc-nanashi.aviutl2-rs-rusty-chiptune": {
+      "popularity": 478,
+      "trend": 184
+    },
+    "sevenc-nanashi.aviutl2-rs-rusty-equalizer": {
+      "popularity": 1045,
+      "trend": 321
+    },
+    "sevenc-nanashi.aviutl2-rs-rusty-ffmpeg": {
+      "popularity": 427,
+      "trend": 141
+    },
+    "sevenc-nanashi.aviutl2-rs-rusty-image-rs-input": {
+      "popularity": 3612,
+      "trend": 1051
+    },
+    "sevenc-nanashi.aviutl2-rs-rusty-image-rs-output": {
+      "popularity": 653,
+      "trend": 199
+    },
+    "sevenc-nanashi.aviutl2-rs-rusty-local-alias-plugin": {
+      "popularity": 298,
+      "trend": 117
+    },
+    "sevenc-nanashi.aviutl2-rs-rusty-midi-player": {
+      "popularity": 613,
+      "trend": 202
+    },
+    "sevenc-nanashi.aviutl2-rs-rusty-pixelsort": {
+      "popularity": 829,
+      "trend": 324
+    },
+    "sevenc-nanashi.aviutl2-rs-rusty-random-color": {
+      "popularity": 531,
+      "trend": 193
+    },
+    "sevenc-nanashi.aviutl2-rs-rusty-restart-shortcut": {
+      "popularity": 631,
+      "trend": 19
+    },
+    "sevenc-nanashi.aviutl2-rs-rusty-scripts-search": {
+      "popularity": 2064,
+      "trend": 731
+    },
+    "sevenc-nanashi.aviutl2-rs-rusty-srt-file": {
+      "popularity": 467,
+      "trend": 169
+    },
+    "sevenc-nanashi.aviutl2-rs-rusty-statistics": {
+      "popularity": 337,
+      "trend": 118
+    },
+    "sevenc-nanashi.ntsc-rs": {
+      "popularity": 4150,
+      "trend": 292
+    },
+    "sagami121.audioenc": {
+      "popularity": 1127,
+      "trend": 135
+    },
+    "sevenc-nanashi.clipboard-aux2": {
+      "popularity": 3408,
+      "trend": 401
+    },
+    "sevenc-nanashi.vintage-auf2": {
+      "popularity": 1821,
+      "trend": 86
+    },
+    "sevenc-nanashi.aviutl2-scripts-pixel-transform-anm2": {
+      "popularity": 1098,
+      "trend": 213
+    },
+    "sevenc-nanashi.aviutl2-scripts-targeted-scale-anm2": {
+      "popularity": 596,
+      "trend": 58
+    },
+    "hebiiro.al2-slimming": {
+      "popularity": 1782,
+      "trend": 127
+    },
+    "garech.doublebpmgrid": {
+      "popularity": 2267,
+      "trend": 640
+    },
+    "sevenc-nanashi.svg-aux2": {
+      "popularity": 505,
+      "trend": 40
+    },
+    "esgo.mp4exporter": {
+      "popularity": 11748,
+      "trend": 779
+    },
+    "book-0225.eap2": {
+      "popularity": 728,
+      "trend": 275
+    },
+    "ngw.anm2": {
+      "popularity": 1036,
+      "trend": 51
+    },
+    "chihayuki.obj": {
+      "popularity": 874,
+      "trend": 35
+    },
+    "sevenc-nanashi.aviutl2-rs-rusty-metronome-plugin": {
+      "popularity": 797,
+      "trend": 273
+    },
+    "utsbox.audioeffect": {
+      "popularity": 3253,
+      "trend": 266
+    },
+    "hebiiro.al2-ui-dressing": {
+      "popularity": 2456,
+      "trend": 264
+    },
+    "mes51.unmult": {
+      "popularity": 347,
+      "trend": 15
+    },
+    "sagami121.calculator": {
+      "popularity": 285,
+      "trend": 20
+    },
+    "catwithneko.tonecurve": {
+      "popularity": 747,
+      "trend": 33
+    },
+    "cleaning.sam-frame-export-filter": {
+      "popularity": 2159,
+      "trend": 154
+    },
+    "kazoon.ksa": {
+      "popularity": 342,
+      "trend": 79
+    },
+    "sevenc-nanashi.tinted-aviutl2": {
+      "popularity": 416,
+      "trend": 124
+    },
+    "zopty.oklchpalette": {
+      "popularity": 1142,
+      "trend": 59
+    },
+    "cleaning.sam3-bb-gb-generator": {
+      "popularity": 1877,
+      "trend": 94
+    },
+    "sotentsumugu.baseease": {
+      "popularity": 1973,
+      "trend": 123
+    },
+    "kuroneko.audio2obj": {
+      "popularity": 310,
+      "trend": 18
+    },
+    "kuroneko.midi2eap2": {
+      "popularity": 226,
+      "trend": 13
+    },
+    "kuroneko.haribote": {
+      "popularity": 448,
+      "trend": 33
+    },
+    "neac.cinemascope": {
+      "popularity": 2889,
+      "trend": 272
+    },
+    "azurite.gradienteditor": {
+      "popularity": 2664,
+      "trend": 827
+    },
+    "kazoon.wav-output-ks": {
+      "popularity": 730,
+      "trend": 135
+    },
+    "kazoon.fzgx-smr-ks": {
+      "popularity": 136,
+      "trend": 30
+    },
+    "kuroneko.variablefont": {
+      "popularity": 1213,
+      "trend": 404
+    },
+    "kuroneko.fontpreview": {
+      "popularity": 883,
+      "trend": 334
+    },
+    "kuroneko.svg2obj": {
+      "popularity": 270,
+      "trend": 19
+    },
+    "neac.screenaspect": {
+      "popularity": 1531,
+      "trend": 104
+    },
+    "neac.egasumi": {
+      "popularity": 910,
+      "trend": 53
+    },
+    "neac.bezierpath": {
+      "popularity": 3451,
+      "trend": 317
+    },
+    "sevenc-nanashi.open-project-directory-aux2": {
+      "popularity": 509,
+      "trend": 79
+    },
+    "v-bernkastel.aviutl2-language-kr": {
+      "popularity": 109,
+      "trend": 26
+    },
+    "zopty.opticalflowmotionblur": {
+      "popularity": 956,
+      "trend": 44
+    },
+    "sevenc-nanashi.filter-effect-toggle-aux2": {
+      "popularity": 305,
+      "trend": 24
+    },
+    "koisi0319.duplicate-objects": {
+      "popularity": 268,
+      "trend": 19
+    },
+    "vramwiz.syncroh2": {
+      "popularity": 706,
+      "trend": 249
+    },
+    "kuroneko.copyalias": {
+      "popularity": 285,
+      "trend": 21
+    },
+    "sagami121.blocknoise": {
+      "popularity": 1110,
+      "trend": 78
+    },
+    "sevenc-nanashi.insert-aux2": {
+      "popularity": 446,
+      "trend": 54
+    },
+    "sevenc-nanashi.quantizer-aux2": {
+      "popularity": 1760,
+      "trend": 594
+    },
+    "azurite.hex-tiling": {
+      "popularity": 467,
+      "trend": 57
+    },
+    "neac.lyricmotion": {
+      "popularity": 6660,
+      "trend": 663
+    },
+    "neac.loop": {
+      "popularity": 861,
+      "trend": 55
+    },
+    "naltutyo.sagyouroga-n": {
+      "popularity": 232,
+      "trend": 19
+    },
+    "sevenc-nanashi.aviutl2-rs-rusty-single-image-output": {
+      "popularity": 687,
+      "trend": 266
+    },
+    "sevenc-nanashi.discord-activity-aux2": {
+      "popularity": 235,
+      "trend": 20
+    },
+    "sevenc-nanashi.aviutl2-scripts-camera-frame-obj2": {
+      "popularity": 1142,
+      "trend": 111
+    },
+    "sevenc-nanashi.modify-group-num-layers-aux2": {
+      "popularity": 380,
+      "trend": 157
+    },
+    "sevenc-nanashi.transform-specific-chars-anm2": {
+      "popularity": 1735,
+      "trend": 128
+    },
+    "sevenc-nanashi.disassembler-anm2": {
+      "popularity": 1851,
+      "trend": 136
+    },
+    "kazoon.resize-ks": {
+      "popularity": 229,
+      "trend": 62
+    },
+    "pachira762.vsr4aviutl": {
+      "popularity": 913,
+      "trend": 74
+    },
+    "nakano000.nkn-zoom-lines": {
+      "popularity": 2016,
+      "trend": 175
+    },
+    "azurite.imagecropexport": {
+      "popularity": 736,
+      "trend": 66
+    },
+    "teruyoshii.trackbaraudiosync": {
+      "popularity": 420,
+      "trend": 26
+    },
+    "nagomiku.crushpng": {
+      "popularity": 596,
+      "trend": 45
+    },
+    "nagomiku.nagoeffect2-mod2": {
+      "popularity": 645,
+      "trend": 50
+    },
+    "kuroneko.ttsfilerename": {
+      "popularity": 150,
+      "trend": 10
+    },
+    "korarei.constraint": {
+      "popularity": 944,
+      "trend": 86
+    },
+    "arcana.connection-line": {
+      "popularity": 852,
+      "trend": 55
+    },
+    "novenove.karaokelyricrenderer": {
+      "popularity": 305,
+      "trend": 40
+    },
+    "momo-neeeko.waveclipping": {
+      "popularity": 1087,
+      "trend": 181
+    },
+    "naltutyo.zikanseigyon": {
+      "popularity": 936,
+      "trend": 103
+    },
+    "sevenc-nanashi.budoux-obj2": {
+      "popularity": 652,
+      "trend": 40
+    },
+    "korarei.diffusion-k": {
+      "popularity": 838,
+      "trend": 91
+    },
+    "sigma-axis.border-s": {
+      "popularity": 1304,
+      "trend": 270
+    },
+    "number-0621.selecteasing": {
+      "popularity": 2309,
+      "trend": 383
+    },
+    "azurite.pointzoom": {
+      "popularity": 2180,
+      "trend": 317
+    },
+    "fu-majime.aviutl2-polygonmorph-f": {
+      "popularity": 912,
+      "trend": 91
+    },
+    "novenove.vrmtoolkit": {
+      "popularity": 295,
+      "trend": 34
+    },
+    "momo-neeeko.scallopedcircle": {
+      "popularity": 455,
+      "trend": 32
+    },
+    "number-0621.easing-quick-setup": {
+      "popularity": 522,
+      "trend": 56
+    },
+    "yuzuriha.simplerecorder": {
+      "popularity": 334,
+      "trend": 33
+    },
+    "fuji.commons-material-extractor": {
+      "popularity": 535,
+      "trend": 77
+    },
+    "pachira762.analogfuu": {
+      "popularity": 1804,
+      "trend": 249
+    },
+    "sevenc-nanashi.tex-auf2": {
+      "popularity": 235,
+      "trend": 51
+    },
+    "yuzuriha.loudnessvisualexplorer": {
+      "popularity": 413,
+      "trend": 65
+    },
+    "catwithneko.longshadow": {
+      "popularity": 1027,
+      "trend": 114
+    },
+    "azurite.adjustpivot-a": {
+      "popularity": 682,
+      "trend": 97
+    },
+    "catwithneko.lens": {
+      "popularity": 837,
+      "trend": 95
+    },
+    "sevenc-nanashi.aviutl2-scripts-vertical-video-obj2": {
+      "popularity": 442,
+      "trend": 61
+    },
+    "aviutl2-community.aviutl2-community-translation-companion": {
+      "popularity": 102,
+      "trend": 23
+    },
+    "catwithneko.halftone": {
+      "popularity": 989,
+      "trend": 126
+    },
+    "sagyou.opticscompensation-s-for-aviutl2": {
+      "popularity": 326,
+      "trend": 29
+    },
+    "catwithneko.canny": {
+      "popularity": 900,
+      "trend": 124
+    },
+    "tikubonn.cinemascope": {
+      "popularity": 437,
+      "trend": 59
+    },
+    "catwithneko.composite": {
+      "popularity": 369,
+      "trend": 40
+    },
+    "tikubonn.irisout": {
+      "popularity": 414,
+      "trend": 54
+    },
+    "asu.likehandwriting": {
+      "popularity": 1639,
+      "trend": 278
+    },
+    "tikubonn.alignment": {
+      "popularity": 348,
+      "trend": 40
+    },
+    "beive60.aviutl2-alias-inserter": {
+      "popularity": 119,
+      "trend": 19
+    },
+    "beive60.aviutl2-audio-rec": {
+      "popularity": 134,
+      "trend": 22
+    },
+    "chihayuki.kokyuu": {
+      "popularity": 677,
+      "trend": 100
+    },
+    "sigma-axis.translations-sigma-axis": {
+      "popularity": 86,
+      "trend": 50
+    },
+    "karoterra.typst": {
+      "popularity": 130,
+      "trend": 39
+    },
+    "asu.twostepslyricmotion": {
+      "popularity": 1909,
+      "trend": 324
+    },
+    "teruyoshii.noisete": {
+      "popularity": 378,
+      "trend": 87
+    },
+    "osakana4242.gifbayerditheroutput": {
+      "popularity": 124,
+      "trend": 17
+    },
+    "sevenc-nanashi.ported-tim": {
+      "popularity": 1903,
+      "trend": 450
+    },
+    "momo-neeeko.rasterm": {
+      "popularity": 507,
+      "trend": 61
+    },
+    "book-0225.relink": {
+      "popularity": 236,
+      "trend": 161
+    },
+    "beive60.scene-lighting": {
+      "popularity": 694,
+      "trend": 135
+    },
+    "korarei.flowtype-k": {
+      "popularity": 1808,
+      "trend": 679
+    },
+    "zopty.osc4au2": {
+      "popularity": 72,
+      "trend": 12
+    },
+    "sigma-axis.region-s": {
+      "popularity": 763,
+      "trend": 165
+    },
+    "sigma-axis.layback": {
+      "popularity": 318,
+      "trend": 165
+    },
+    "c30.midiinfoobject": {
+      "popularity": 108,
+      "trend": 24
+    },
+    "sevenc-nanashi.aviutl2-scripts-crt-display-anm2": {
+      "popularity": 278,
+      "trend": 51
+    },
+    "vramwiz.vw-media-input": {
+      "popularity": 613,
+      "trend": 232
+    },
+    "vramwiz.vw-media-output": {
+      "popularity": 236,
+      "trend": 126
+    },
+    "natadecoco.softanchorbone": {
+      "popularity": 350,
+      "trend": 63
+    },
+    "sevenc-nanashi.aviutl2-scripts-gpu-pixelsort-anm2": {
+      "popularity": 332,
+      "trend": 72
+    },
+    "airiah7.plugin-picked-color-storage": {
+      "popularity": 335,
+      "trend": 96
+    },
+    "airiah7.widget-speed-preview": {
+      "popularity": 292,
+      "trend": 87
+    },
+    "airiah7.widget-drag-and-drop-objects": {
+      "popularity": 290,
+      "trend": 85
+    },
+    "saluf.sumidamari": {
+      "popularity": 464,
+      "trend": 123
+    },
+    "garech.datetime": {
+      "popularity": 304,
+      "trend": 100
+    },
+    "teruyoshii.stepgradation": {
+      "popularity": 182,
+      "trend": 67
+    },
+    "azurite.depthmapfilter": {
+      "popularity": 241,
+      "trend": 112
+    },
+    "eizo-gak.aviutl2-sourcemonitor": {
+      "popularity": 227,
+      "trend": 119
+    },
+    "fuji.voice-drop": {
+      "popularity": 147,
+      "trend": 79
+    },
+    "rhapthorne-0.huecycle-rh": {
+      "popularity": 181,
+      "trend": 61
+    },
+    "rhapthorne-0.compositionasmultiobject-rh": {
+      "popularity": 93,
+      "trend": 33
+    },
+    "rhapthorne-0.statuslink-rh": {
+      "popularity": 143,
+      "trend": 50
+    },
+    "rhapthorne-0.strobe-rh": {
+      "popularity": 218,
+      "trend": 77
+    },
+    "rhapthorne-0.showparameters-rh": {
+      "popularity": 98,
+      "trend": 32
+    },
+    "rhapthorne-0.individualbasiceffects": {
+      "popularity": 169,
+      "trend": 62
+    },
+    "rhapthorne-0.rotationraster-rh": {
+      "popularity": 196,
+      "trend": 62
+    },
+    "rhapthorne-0.transformcoords-rh": {
+      "popularity": 161,
+      "trend": 70
+    },
+    "rhapthorne-0.repeateddraw-rh": {
+      "popularity": 167,
+      "trend": 63
+    },
+    "rhapthorne-0.timedelay-rh": {
+      "popularity": 128,
+      "trend": 42
+    },
+    "catwithneko.gamma": {
+      "popularity": 142,
+      "trend": 41
+    },
+    "catwithneko.level": {
+      "popularity": 125,
+      "trend": 35
+    },
+    "catwithneko.exposure": {
+      "popularity": 145,
+      "trend": 48
+    },
+    "catwithneko.dither": {
+      "popularity": 147,
+      "trend": 36
+    },
+    "catwithneko.erosion": {
+      "popularity": 167,
+      "trend": 63
+    },
+    "catwithneko.chromaticaberration": {
+      "popularity": 149,
+      "trend": 51
+    },
+    "catwithneko.colorama": {
+      "popularity": 130,
+      "trend": 38
+    },
+    "catwithneko.leavecolor": {
+      "popularity": 142,
+      "trend": 45
+    },
+    "catwithneko.turbulent": {
+      "popularity": 131,
+      "trend": 34
+    },
+    "catwithneko.maxmin": {
+      "popularity": 110,
+      "trend": 24
+    },
+    "catwithneko.selfdisplace": {
+      "popularity": 124,
+      "trend": 33
+    },
+    "catwithneko.wavewarp": {
+      "popularity": 129,
+      "trend": 39
+    },
+    "catwithneko.mosaic": {
+      "popularity": 139,
+      "trend": 63
+    },
+    "catwithneko.alphadither": {
+      "popularity": 104,
+      "trend": 40
+    },
+    "sevenc-nanashi.aviutl2-scripts-hide-on-export-anm2": {
+      "popularity": 66,
+      "trend": 67
+    },
+    "sevenc-nanashi.import-midi-tempos-aux2": {
+      "popularity": 95,
+      "trend": 96
+    },
+    "gohankaiju.rich-audio-spectrum": {
+      "popularity": 309,
+      "trend": 308
+    },
+    "vramwiz.audiofilter": {
+      "popularity": 239,
+      "trend": 249
+    },
+    "karoterra.waveformpreview": {
+      "popularity": 103,
+      "trend": 105
+    },
+    "undofish.easing2020": {
+      "popularity": 149,
+      "trend": 90
+    },
+    "nkopikaso.aviutl2-whisperautosub": {
+      "popularity": 80,
+      "trend": 74
+    },
+    "natadecoco.textbackplate": {
+      "popularity": 102,
+      "trend": 106
+    },
+    "tsts4767.loopportionofframes": {
+      "popularity": 59,
+      "trend": 56
+    },
+    "hebiiro.al2-dialog-resizer": {
+      "popularity": 33,
+      "trend": 34
+    },
+    "tsts4767.repetitivemovementplus": {
+      "popularity": 32,
+      "trend": 34
+    },
+    "sldc.seisa": {
+      "popularity": 24,
+      "trend": 24
+    },
+    "sevenc-nanashi.void-auf2": {
+      "popularity": 20,
+      "trend": 21
+    },
+    "estelle.aviutl2-latex": {
+      "popularity": 10,
+      "trend": 10
+    },
+    "teruyoshii.4corner": {
+      "popularity": 32,
+      "trend": 32
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sevenc-nanashi",
+      "repo": "svg.aux2",
+      "pattern": "^.*svg-aux2-v.*\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/svg.aux2",
+        "to": "{pluginsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/English.svg.aul2",
+        "to": "{dataDir}/Language"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.svg.aul2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/svg.aux2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sevenc-nanashi",
+      "repo": "ntsc-rs.anm2",
+      "pattern": "^sevenc-nanashi\\.ntsc-rs-anm2.*\\.au2pkg\\.zip"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/ntsc-rs.anm2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/ntsc-rs.mod2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/ntsc-rs.mod2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/ntsc-rs.anm2"
+      }
+    ]
+  }
+}

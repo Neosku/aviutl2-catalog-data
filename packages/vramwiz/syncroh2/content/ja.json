@@ -1,0 +1,25 @@
+{
+  "name": "新旧朗2",
+  "author": "VRAMの魔術師",
+  "tags": [
+    "MIDI",
+    "PSD",
+    "アニメーション",
+    "オブジェクト操作",
+    "便利ツール"
+  ],
+  "description": {
+    "summary": "PSD立ち絵表示・セリフ挿入・音楽関連ツールをまとめたプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md"
+  },
+  "licenses": [
+    {
+      "type": "custom",
+      "name": "カスタムライセンス",
+      "licenseBody": "本ソフトウェアは無償で使用・改変・再配布・商用利用が可能です。\n\n再配布する場合は、原作者「VRAMの魔術師」のクレジットを明記してください。\n改変版を配布する場合も同様に原作者名を表示してください。\n\n本ソフトウェアは現状のまま提供され、いかなる保証もありません。\n本ソフトウェアの使用によって生じたいかなる損害についても、\n作者は一切の責任を負いません。"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

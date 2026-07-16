@@ -1,0 +1,22 @@
+{
+  "name": "Rusty Restart Shortcut Plugin",
+  "author": "Nanashi.",
+  "tags": [
+    "便利ツール"
+  ],
+  "description": {
+    "summary": "⚠️非推奨 AviUtl2を再起動する編集メニューを追加するプラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Nanashi. <sevenc7c.com>"
+        }
+      ]
+    }
+  ]
+}

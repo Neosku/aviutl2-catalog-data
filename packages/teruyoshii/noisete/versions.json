@@ -1,0 +1,34 @@
+{
+  "versions": [
+    {
+      "version": "v1.0",
+      "releaseDate": "2026-03-31",
+      "files": [
+        {
+          "path": "{scriptsDir}/@noise_Te.anm2",
+          "xxh128": "ee5cb9304eb16a7165f7cba9d3cb26e3"
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "releaseDate": "2026-05-10",
+      "files": [
+        {
+          "path": "{scriptsDir}/@noise_Te.anm2",
+          "xxh128": "ee5cb9304eb16a7165f7cba9d3cb26e3"
+        }
+      ]
+    },
+    {
+      "version": "1.2",
+      "releaseDate": "2026-07-16",
+      "files": [
+        {
+          "path": "{scriptsDir}/@noise_Te.anm2",
+          "xxh128": "59ae5e27f04b42843eede76a9bd93241"
+        }
+      ]
+    }
+  ]
+}

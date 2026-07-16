@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "Garech-mas",
+      "repo": "AviUtl2_DateTime",
+      "pattern": "^DateTime.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/日付と時刻.obj2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/English.DateTime.aul2",
+        "to": "{dataDir}/Language"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/日付と時刻.obj2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.DateTime.aul2"
+      }
+    ]
+  }
+}

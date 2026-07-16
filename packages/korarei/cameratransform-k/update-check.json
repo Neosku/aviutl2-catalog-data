@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "korarei",
+    "repo": "AviUtl2_CameraTransform_K_Script",
+    "pattern": "CameraTransform_K.*\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Script/CameraTransform_K/@CameraTransform_K.cam2"
+      ],
+      "recordPaths": [
+        "{scriptsDir}/CameraTransform_K/@CameraTransform_K.cam2"
+      ]
+    }
+  ]
+}

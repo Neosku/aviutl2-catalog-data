@@ -1,0 +1,26 @@
+{
+  "name": "画面アスペクト",
+  "author": "猫愛",
+  "tags": [
+    "カスタムオブジェクト",
+    "図形"
+  ],
+  "description": {
+    "summary": "画面アスペクト比を指定してサイズ確認等をできるようにするスクリプト",
+    "markdownSource": "https://raw.githubusercontent.com/nea-c/aviutl2_script_ScreenAspect/refs/heads/master/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "NeAc"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

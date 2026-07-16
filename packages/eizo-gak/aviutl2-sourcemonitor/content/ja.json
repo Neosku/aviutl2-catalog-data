@@ -1,0 +1,28 @@
+{
+  "name": "AviUtl2 Source Monitor",
+  "author": "映像学区",
+  "tags": [
+    "ウィジェット",
+    "便利ツール"
+  ],
+  "description": {
+    "summary": "動画ファイルのプレビュー、In/Out点指定、タイムラインへの投げ込み",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "映像学区"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "detailImages": [
+      "./images/details1.jpeg"
+    ]
+  }
+}

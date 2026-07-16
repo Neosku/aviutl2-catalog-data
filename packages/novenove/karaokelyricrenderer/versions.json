@@ -1,0 +1,34 @@
+{
+  "versions": [
+    {
+      "version": "v1.1.0",
+      "releaseDate": "2026-03-22",
+      "files": [
+        {
+          "path": "{pluginsDir}/AviUtl2KaraokeLyricRenderer.auf2",
+          "xxh128": "d288dfc00f17b1be648fab3717c1a155"
+        }
+      ]
+    },
+    {
+      "version": "v1.1.1",
+      "releaseDate": "2026-03-23",
+      "files": [
+        {
+          "path": "{pluginsDir}/AviUtl2KaraokeLyricRenderer.auf2",
+          "xxh128": "f08607fa1e282645d5fcf6fb1e4e7d0d"
+        }
+      ]
+    },
+    {
+      "version": "v1.2.0",
+      "releaseDate": "2026-04-11",
+      "files": [
+        {
+          "path": "{pluginsDir}/AviUtl2KaraokeLyricRenderer.auf2",
+          "xxh128": "df4377defd098bd6a8a799ff3152a9b3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "seilor0",
+      "repo": "twinkle_sl",
+      "pattern": "^@twinkle_sl\\.obj2$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/@twinkle_sl.obj2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/@twinkle_sl.obj2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "sevenc-nanashi",
+    "repo": "aviutl2-sourcemonitor-bootstrapper.aux2",
+    "pattern": "^sevenc-nanashi.aviutl2_sourcemonitor_bootstrapper-aux2-.*\\.au2pkg.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Plugin/aviutl2-sourcemonitor/SourceMonitor.aux2.dll"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/aviutl2-sourcemonitor/SourceMonitor.aux2.dll"
+      ]
+    }
+  ]
+}

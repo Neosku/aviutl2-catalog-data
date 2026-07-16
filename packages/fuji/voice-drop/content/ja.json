@@ -1,0 +1,25 @@
+{
+  "name": "Voice Drop",
+  "author": "Fuji",
+  "tags": [
+    "便利ツール"
+  ],
+  "description": {
+    "summary": "音声ファイルをAviutl2上に自動でDropしてくれるプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/Fuji07-2525/voice-drop/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "Fuji"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

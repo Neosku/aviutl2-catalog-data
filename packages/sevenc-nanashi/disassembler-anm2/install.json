@@ -1,0 +1,47 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sevenc-nanashi",
+      "repo": "disassembler.anm2",
+      "pattern": "^sevenc-nanashi\\.disassembler-anm2-v[^/]+\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/English.disassembler-anm2.aul2",
+        "to": "{dataDir}/Language"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/disassembler.anm2.anm2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/disassembler.mod2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/disassembler.mod2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/disassembler.anm2.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.disassembler-anm2.aul2"
+      }
+    ]
+  }
+}

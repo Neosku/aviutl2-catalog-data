@@ -1,0 +1,364 @@
+{
+  "versions": [
+    {
+      "version": "0.12.2",
+      "releaseDate": "2026-01-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "0862e8f0a156795f9bd38749d5539bdf"
+        }
+      ]
+    },
+    {
+      "version": "0.13.0",
+      "releaseDate": "2026-01-31",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "fb64bf81cfd4afe3a76143f5c0d3ba99"
+        }
+      ]
+    },
+    {
+      "version": "0.14.0",
+      "releaseDate": "2026-02-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "070ba93b8a2faa6b8dfb9448ebf3f492"
+        }
+      ]
+    },
+    {
+      "version": "0.15.0",
+      "releaseDate": "2026-02-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "00e00abdfe28cfb24c3b246a0b2696c1"
+        }
+      ]
+    },
+    {
+      "version": "0.15.1",
+      "releaseDate": "2026-02-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "3a1253b2c60f2c0613f386657fc2df47"
+        }
+      ]
+    },
+    {
+      "version": "0.16.0",
+      "releaseDate": "2026-02-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "40dc4fc1efe5213255ae4a71edffcead"
+        }
+      ]
+    },
+    {
+      "version": "0.17.0",
+      "releaseDate": "2026-02-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "84c63f9656b7626e4e32423a8140521b"
+        }
+      ]
+    },
+    {
+      "version": "0.18.0",
+      "releaseDate": "2026-02-23",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "be8428ea3bc01a4dffc1e6e963b8c7f5"
+        }
+      ]
+    },
+    {
+      "version": "0.18.1",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "159c891e9ccc2dbd451416c5a12378d6"
+        }
+      ]
+    },
+    {
+      "version": "0.19.0",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "4cd838ff80a445b81a92f7b94a59a7d6"
+        }
+      ]
+    },
+    {
+      "version": "0.20.0",
+      "releaseDate": "2026-03-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "f351c3921dcd294e25bc23dd015da48f"
+        }
+      ]
+    },
+    {
+      "version": "0.20.1",
+      "releaseDate": "2026-03-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "d571e87a3d6e1cc31444955ea671bfc3"
+        }
+      ]
+    },
+    {
+      "version": "0.20.2",
+      "releaseDate": "2026-03-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "13b5f7bdc0fe61ce0e82db106c32a25f"
+        }
+      ]
+    },
+    {
+      "version": "0.20.3",
+      "releaseDate": "2026-03-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "0976467bfbd6c287d1bb00f7e087ae73"
+        }
+      ]
+    },
+    {
+      "version": "0.21.0",
+      "releaseDate": "2026-03-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "6fe8805073a02991873d23337df1da2e"
+        }
+      ]
+    },
+    {
+      "version": "0.22.0",
+      "releaseDate": "2026-03-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "8a4ceb04daf5598a2c7db3045434358a"
+        }
+      ]
+    },
+    {
+      "version": "0.23.0",
+      "releaseDate": "2026-04-13",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "11dc401b044a838553df177ab8b09e4d"
+        }
+      ]
+    },
+    {
+      "version": "0.24.0",
+      "releaseDate": "2026-04-19",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "c56b2bf928427da7bd6eb37ef3e22020"
+        }
+      ]
+    },
+    {
+      "version": "0.25.0",
+      "releaseDate": "2026-04-26",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "807147dbb0bdbd1fb9fac6bec7a8ce0b"
+        }
+      ]
+    },
+    {
+      "version": "0.26.0",
+      "releaseDate": "2026-04-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "c8aefc455816b3ddc29149e015f1300b"
+        }
+      ]
+    },
+    {
+      "version": "0.27.0",
+      "releaseDate": "2026-05-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "28d600430df401f0ba41c37a6fa43bdd"
+        }
+      ]
+    },
+    {
+      "version": "0.28.0",
+      "releaseDate": "2026-05-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "8bb67b471579d93f8e0282708db2bcbb"
+        }
+      ]
+    },
+    {
+      "version": "0.28.1",
+      "releaseDate": "2026-05-11",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "063dcf84e20367beec2aee8c39f72779"
+        }
+      ]
+    },
+    {
+      "version": "0.29.0",
+      "releaseDate": "2026-05-18",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "183a4be9c9edd3346503ecf5664ac9f1"
+        }
+      ]
+    },
+    {
+      "version": "0.30.0",
+      "releaseDate": "2026-05-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "ad894f76555baac4c548eb663ea8261d"
+        }
+      ]
+    },
+    {
+      "version": "0.31.0",
+      "releaseDate": "2026-06-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "b485f0684f22f1bb1aaae31958f75760"
+        }
+      ]
+    },
+    {
+      "version": "0.32.0",
+      "releaseDate": "2026-06-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "369b7f53baa6a3f3afbd192ead4f2972"
+        }
+      ]
+    },
+    {
+      "version": "0.33.0",
+      "releaseDate": "2026-06-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "04b851cc3341b1d1e8edcae6be2a680e"
+        }
+      ]
+    },
+    {
+      "version": "0.34.0",
+      "releaseDate": "2026-06-20",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "5e6983677188593a837165b160804bd7"
+        }
+      ]
+    },
+    {
+      "version": "0.35.0",
+      "releaseDate": "2026-07-03",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "f69626eb1b369761d5e7e18c02627d60"
+        }
+      ]
+    },
+    {
+      "version": "0.36.0",
+      "releaseDate": "2026-07-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "12aa6e13181473db42078f79314988ba"
+        }
+      ]
+    },
+    {
+      "version": "0.37.0",
+      "releaseDate": "2026-07-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "89d3477b0d232013731f0a44f8eb4d18"
+        }
+      ]
+    },
+    {
+      "version": "0.38.0",
+      "releaseDate": "2026-07-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "ca0a7d156f2eb58c38ea50d87388dd2a"
+        }
+      ]
+    },
+    {
+      "version": "0.38.1",
+      "releaseDate": "2026-07-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "0bee239866484e1a179a9450bb4c0f09"
+        }
+      ]
+    },
+    {
+      "version": "0.38.2",
+      "releaseDate": "2026-07-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "9cda6764fc75f81667886421ba502c2b"
+        }
+      ]
+    },
+    {
+      "version": "0.39.0",
+      "releaseDate": "2026-07-12",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_local_alias.aux2",
+          "xxh128": "4a8efc724cb6a6ddc618a9a6f7695257"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "versions": [
+    {
+      "version": "v0.2.0",
+      "releaseDate": "2026-03-18",
+      "files": [
+        {
+          "path": "{scriptsDir}/Constraint/Constraint.anm2",
+          "xxh128": "9436d73c3087c0a1eba6b3e61120f5d7"
+        }
+      ]
+    },
+    {
+      "version": "v0.3.0",
+      "releaseDate": "2026-04-22",
+      "files": [
+        {
+          "path": "{scriptsDir}/Constraint/Constraint.anm2",
+          "xxh128": "7abdef83cf52feff6576831cb80a8831"
+        }
+      ]
+    },
+    {
+      "version": "v0.4.0",
+      "releaseDate": "2026-04-26",
+      "files": [
+        {
+          "path": "{scriptsDir}/Constraint/Constraint.anm2",
+          "xxh128": "582cb27e72460a31d927334830fd3ebd"
+        }
+      ]
+    }
+  ]
+}

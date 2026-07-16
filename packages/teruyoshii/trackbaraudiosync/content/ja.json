@@ -1,0 +1,24 @@
+{
+  "name": "トラックバー音声同期",
+  "author": "てるよし",
+  "tags": [
+    "トラックバー",
+    "音声",
+    "エフェクト"
+  ],
+  "description": {
+    "summary": "プロジェクトの音量に応じてパラメータを変化させるトラックバースクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "teruyoshi"
+        }
+      ]
+    }
+  ]
+}

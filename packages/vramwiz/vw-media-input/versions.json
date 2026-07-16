@@ -1,0 +1,44 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2026-06-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/VW_Media_Input/VW_Media_Input.aui2",
+          "xxh128": "365d55af296f3d5190e58cd8b666e970"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.1",
+      "releaseDate": "2026-06-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/VW_Media_Input/VW_Media_Input.aui2",
+          "xxh128": "da2e86c7e7555f6f6be7816a950e8dfb"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.2",
+      "releaseDate": "2026-06-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/VW_Media_Input/VW_Media_Input.aui2",
+          "xxh128": "bfdbd48fdc978c541b6aeeb5ebbc0d13"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.3",
+      "releaseDate": "2026-06-17",
+      "files": [
+        {
+          "path": "{pluginsDir}/VW_Media_Input/VW_Media_Input.aui2",
+          "xxh128": "8344b40cbd56fd9a5b3eae1b532a2cb4"
+        }
+      ]
+    }
+  ]
+}

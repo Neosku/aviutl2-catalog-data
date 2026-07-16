@@ -1,0 +1,30 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2026-07-06",
+      "files": [
+        {
+          "path": "{scriptsDir}/rich-audio-spectrum/rich-audio-spectrum.obj2",
+          "xxh128": "540fe00e12c5b8456da466c971d42113"
+        },
+        {
+          "path": "{scriptsDir}/rich-audio-spectrum/ras_core.lua",
+          "xxh128": "5f79d3032210a132cf2e4bf3949f788f"
+        },
+        {
+          "path": "{scriptsDir}/rich-audio-spectrum/ras_draw.lua",
+          "xxh128": "1b6b6f0714a458f1257729a0a3a25e36"
+        },
+        {
+          "path": "{scriptsDir}/rich-audio-spectrum/ras_engine.lua",
+          "xxh128": "9733f551052e3214c7f48804f9305451"
+        },
+        {
+          "path": "{scriptsDir}/rich-audio-spectrum/ras_presets.lua",
+          "xxh128": "d4f813f2934d0c9d8d650930684a109d"
+        }
+      ]
+    }
+  ]
+}

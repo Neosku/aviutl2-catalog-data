@@ -1,0 +1,49 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "rokujyushi",
+      "repo": "FontPreview",
+      "pattern": "^FontPreview-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/FontPreview/FontPreview.aux2",
+        "to": "{pluginsDir}/FontPreview"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/FontPreview/LICENSE",
+        "to": "{pluginsDir}/FontPreview"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/FontPreview/README.md",
+        "to": "{pluginsDir}/FontPreview"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/English.FontPreview.aul2",
+        "to": "{dataDir}/Language"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/简体中文.FontPreview.aul2",
+        "to": "{dataDir}/Language"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/FontPreview/"
+      }
+    ]
+  }
+}

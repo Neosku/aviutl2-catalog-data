@@ -1,0 +1,22 @@
+{
+  "name": "Rusty Image Output",
+  "author": "Nanashi.",
+  "tags": [
+    "連番画像"
+  ],
+  "description": {
+    "summary": "画像を連番で出力するプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/image-rs-output/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Nanashi. <sevenc7c.com>"
+        }
+      ]
+    }
+  ]
+}

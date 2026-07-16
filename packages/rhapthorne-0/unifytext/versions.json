@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.3",
+      "releaseDate": "2025-12-01",
+      "files": [
+        {
+          "path": "{scriptsDir}/テキスト一枚化っぽい.anm2",
+          "xxh128": "511c18fb9925da7fc20dce482aa86186"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.3",
+      "releaseDate": "2026-01-29",
+      "files": [
+        {
+          "path": "{scriptsDir}/テキスト一枚化っぽい.anm2",
+          "xxh128": "2f5859314588203e6fce91265dced451"
+        }
+      ]
+    }
+  ]
+}

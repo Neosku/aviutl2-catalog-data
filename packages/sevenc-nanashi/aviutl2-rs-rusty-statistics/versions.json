@@ -1,0 +1,364 @@
+{
+  "versions": [
+    {
+      "version": "0.12.2",
+      "releaseDate": "2026-01-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "8421bb86f6b0881c6dc2fe7d9a29b684"
+        }
+      ]
+    },
+    {
+      "version": "0.13.0",
+      "releaseDate": "2026-01-31",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "1302bfee089fcfc095fdfa69d559666f"
+        }
+      ]
+    },
+    {
+      "version": "0.14.0",
+      "releaseDate": "2026-02-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "767cb9868a4d2a47a2e806cb55300e45"
+        }
+      ]
+    },
+    {
+      "version": "0.15.0",
+      "releaseDate": "2026-02-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "9dda3ad046aa0391f79babdb41e183a8"
+        }
+      ]
+    },
+    {
+      "version": "0.15.1",
+      "releaseDate": "2026-02-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "4d6629e7ff4489a27185e3f9f4f4155e"
+        }
+      ]
+    },
+    {
+      "version": "0.16.0",
+      "releaseDate": "2026-02-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "1d85f14cc536131e59387bea2f8ecb31"
+        }
+      ]
+    },
+    {
+      "version": "0.17.0",
+      "releaseDate": "2026-02-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "be5f92f3e3f5db17846cc92c45825790"
+        }
+      ]
+    },
+    {
+      "version": "0.18.0",
+      "releaseDate": "2026-02-23",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "4768592f95552dd94441fddb9c3e626c"
+        }
+      ]
+    },
+    {
+      "version": "0.18.1",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "21f6a61d571d98cdfcbb1c0a1c36ea40"
+        }
+      ]
+    },
+    {
+      "version": "0.19.0",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "a4b6054e3c8b04213ccfec90d402aedd"
+        }
+      ]
+    },
+    {
+      "version": "0.20.0",
+      "releaseDate": "2026-03-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "634af8e731699b2ad96948f6a0588331"
+        }
+      ]
+    },
+    {
+      "version": "0.20.1",
+      "releaseDate": "2026-03-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "0d62710bb142e641c02f1dd3a4dfa014"
+        }
+      ]
+    },
+    {
+      "version": "0.20.2",
+      "releaseDate": "2026-03-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "ac92470585be11680b413aa7e30853e4"
+        }
+      ]
+    },
+    {
+      "version": "0.20.3",
+      "releaseDate": "2026-03-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "dffe67a0f3397a360d3802a4ed3c3b8f"
+        }
+      ]
+    },
+    {
+      "version": "0.21.0",
+      "releaseDate": "2026-03-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "90a9d14c90f1804b2b55229fdc6f7507"
+        }
+      ]
+    },
+    {
+      "version": "0.22.0",
+      "releaseDate": "2026-03-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "26782b132dcb217603fa6ef0ef3ad8cd"
+        }
+      ]
+    },
+    {
+      "version": "0.23.0",
+      "releaseDate": "2026-04-13",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "2a6164461978e659dbecd4c2f339fdb0"
+        }
+      ]
+    },
+    {
+      "version": "0.24.0",
+      "releaseDate": "2026-04-19",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "e24b4c435a42a02620314774f7df82f0"
+        }
+      ]
+    },
+    {
+      "version": "0.25.0",
+      "releaseDate": "2026-04-26",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "2af07a9ed0a07504c1de6ae3a8bc48ab"
+        }
+      ]
+    },
+    {
+      "version": "0.26.0",
+      "releaseDate": "2026-04-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "27ce092fac5ef915556f33ef67d9d2d5"
+        }
+      ]
+    },
+    {
+      "version": "0.27.0",
+      "releaseDate": "2026-05-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "d56c50763d983607102d6fd2983633c7"
+        }
+      ]
+    },
+    {
+      "version": "0.28.0",
+      "releaseDate": "2026-05-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "fc445616851767f3997a10687bc71a10"
+        }
+      ]
+    },
+    {
+      "version": "0.28.1",
+      "releaseDate": "2026-05-11",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "bbc9695e3de4a0551b60d3c006a9a520"
+        }
+      ]
+    },
+    {
+      "version": "0.29.0",
+      "releaseDate": "2026-05-18",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "9b9d953409a189705a703199e7b94ed5"
+        }
+      ]
+    },
+    {
+      "version": "0.30.0",
+      "releaseDate": "2026-05-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "8054cd10842b8993d5359f0d029ccb2f"
+        }
+      ]
+    },
+    {
+      "version": "0.31.0",
+      "releaseDate": "2026-06-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "af9ddbaeb30b628c1771ca59d405ea38"
+        }
+      ]
+    },
+    {
+      "version": "0.32.0",
+      "releaseDate": "2026-06-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "db379de5a1af73ad7e0a72d29ba94ffb"
+        }
+      ]
+    },
+    {
+      "version": "0.33.0",
+      "releaseDate": "2026-06-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "a7a5ac202dc41730d3baaa60ee2a671c"
+        }
+      ]
+    },
+    {
+      "version": "0.34.0",
+      "releaseDate": "2026-06-20",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "4af021268b64a81f106d1b8a7aebff0f"
+        }
+      ]
+    },
+    {
+      "version": "0.35.0",
+      "releaseDate": "2026-07-03",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "72f0e4193e4083ed1c04c3f40c41401e"
+        }
+      ]
+    },
+    {
+      "version": "0.36.0",
+      "releaseDate": "2026-07-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "84f03f32518efe5e614d15d596a76eb0"
+        }
+      ]
+    },
+    {
+      "version": "0.37.0",
+      "releaseDate": "2026-07-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "16b76a36866b7e3da00782b94df19d6a"
+        }
+      ]
+    },
+    {
+      "version": "0.38.0",
+      "releaseDate": "2026-07-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "3d0ac2741a39f645fa7b55d009e346ff"
+        }
+      ]
+    },
+    {
+      "version": "0.38.1",
+      "releaseDate": "2026-07-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "cbab9680aad144d4a8c0c05f7a599770"
+        }
+      ]
+    },
+    {
+      "version": "0.38.2",
+      "releaseDate": "2026-07-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "772b55c9a0ac67aae54df4a3a13c187d"
+        }
+      ]
+    },
+    {
+      "version": "0.39.0",
+      "releaseDate": "2026-07-12",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_statistics.auo2",
+          "xxh128": "af2ced4f95f80244302bbe77b0d5d063"
+        }
+      ]
+    }
+  ]
+}

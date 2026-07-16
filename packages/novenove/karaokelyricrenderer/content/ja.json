@@ -1,0 +1,24 @@
+{
+  "name": "Karaoke Lyric Renderer",
+  "author": "novenove",
+  "tags": [
+    "カスタムオブジェクト",
+    "字幕",
+    "テキスト"
+  ],
+  "description": {
+    "summary": "タイムタグ付き歌詞をカスタムオブジェクトとして表示する（ルビ対応）",
+    "markdownSource": "https://raw.githubusercontent.com/nove-nove/aviutl2-karaoke-lyric-renderer/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "novenove"
+        }
+      ]
+    }
+  ]
+}

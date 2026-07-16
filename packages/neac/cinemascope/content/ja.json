@@ -1,0 +1,27 @@
+{
+  "name": "シネマスコープ",
+  "author": "猫愛",
+  "tags": [
+    "カスタムオブジェクト",
+    "エフェクト",
+    "トランジション"
+  ],
+  "description": {
+    "summary": "シネマスコープ風の黒帯を描画するスクリプト",
+    "markdownSource": "https://raw.githubusercontent.com/nea-c/aviutl2_script_CinemaScope/refs/heads/master/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "NeAc"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

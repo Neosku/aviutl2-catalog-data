@@ -1,0 +1,48 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "rigaya",
+      "repo": "NVEnc",
+      "pattern": "^Aviutl2_NVEnc_.*install\\.exe$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extractSfx"
+      },
+      {
+        "action": "runAuoSetup",
+        "path": "{tmp}/Plugin/exe_files/auo_setup2.exe"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/NVEnc.auo2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/NVEnc.conf"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/NVEnc.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/NVEnc.en.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/NVEnc.zh.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/NVEnc_stg/"
+      }
+    ]
+  }
+}

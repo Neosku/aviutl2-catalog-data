@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "rigaya",
+    "repo": "ffmpegOut",
+    "pattern": "^Aviutl2_ffmpegOut.*install\\.exe$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "7zip",
+      "sourcePaths": [
+        "Plugin/ffmpegOut.auo2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/ffmpegOut.auo2"
+      ]
+    }
+  ]
+}

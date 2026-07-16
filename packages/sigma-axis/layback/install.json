@@ -1,0 +1,47 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sigma-axis",
+      "repo": "aviutl2_script_Layback",
+      "pattern": "^aviutl2_script_Layback.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/sigma-axis.Layback/LICENSE",
+        "to": "{scriptsDir}/sigma-axis.Layback"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/sigma-axis.Layback/README.md",
+        "to": "{scriptsDir}/sigma-axis.Layback"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/最背面に配置.anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/sigma-axis.Layback/LICENSE"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/sigma-axis.Layback/README.md"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/最背面に配置.anm2"
+      }
+    ]
+  }
+}

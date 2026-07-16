@@ -1,0 +1,24 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://raw.githubusercontent.com/Garech-mas/jp_akey.aul2/refs/heads/main/日本語(アクセスキー付き).aul2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/日本語(アクセスキー付き).aul2",
+        "to": "{dataDir}/Language"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/日本語(アクセスキー付き).aul2"
+      }
+    ]
+  }
+}

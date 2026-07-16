@@ -1,0 +1,20 @@
+{
+  "name": "Rusty FFmpeg Output",
+  "author": "Nanashi.",
+  "tags": [],
+  "description": {
+    "summary": "FFmpegを使用して動画を出力するプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/ffmpeg-output/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Nanashi. <sevenc7c.com>"
+        }
+      ]
+    }
+  ]
+}

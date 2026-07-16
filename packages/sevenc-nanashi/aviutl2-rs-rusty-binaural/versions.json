@@ -1,0 +1,364 @@
+{
+  "versions": [
+    {
+      "version": "0.12.2",
+      "releaseDate": "2026-01-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "5f64839b98e7b6c999011a9449a746e0"
+        }
+      ]
+    },
+    {
+      "version": "0.13.0",
+      "releaseDate": "2026-01-31",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "1c7adaaa9548d6468e7347baa4ea0ab2"
+        }
+      ]
+    },
+    {
+      "version": "0.14.0",
+      "releaseDate": "2026-02-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "9a741e4431443e8e14fcaffd8bae5191"
+        }
+      ]
+    },
+    {
+      "version": "0.15.0",
+      "releaseDate": "2026-02-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "53f339d405bbb6e512ae4c126055a211"
+        }
+      ]
+    },
+    {
+      "version": "0.15.1",
+      "releaseDate": "2026-02-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "dac79798c6cc34444d52c6c866d380bb"
+        }
+      ]
+    },
+    {
+      "version": "0.16.0",
+      "releaseDate": "2026-02-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "e454900ebd6d94bd1a66902f9ea19a39"
+        }
+      ]
+    },
+    {
+      "version": "0.17.0",
+      "releaseDate": "2026-02-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "f1082d4e9d6d2355419961f36a2370fb"
+        }
+      ]
+    },
+    {
+      "version": "0.18.0",
+      "releaseDate": "2026-02-23",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "703574c80748999eccf09fd5ac27fd5d"
+        }
+      ]
+    },
+    {
+      "version": "0.18.1",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "03591ecfa0a0806c4c5c90bf7cc8444d"
+        }
+      ]
+    },
+    {
+      "version": "0.19.0",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "c1266608878b54d1f4475a6f2a6306aa"
+        }
+      ]
+    },
+    {
+      "version": "0.20.0",
+      "releaseDate": "2026-03-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "be796aca3178e63b36e36e84b984fefc"
+        }
+      ]
+    },
+    {
+      "version": "0.20.1",
+      "releaseDate": "2026-03-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "21134eeba0f88d9ad63da754f4011883"
+        }
+      ]
+    },
+    {
+      "version": "0.20.2",
+      "releaseDate": "2026-03-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "ea7514673faec93ccef0c3863ca4d1da"
+        }
+      ]
+    },
+    {
+      "version": "0.20.3",
+      "releaseDate": "2026-03-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "b895f94d93993f59ca67bb90fd0a29ef"
+        }
+      ]
+    },
+    {
+      "version": "0.21.0",
+      "releaseDate": "2026-03-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "9954291b12f1d249b54f69872d8beb39"
+        }
+      ]
+    },
+    {
+      "version": "0.22.0",
+      "releaseDate": "2026-03-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "1f5e443ab10018eea7b6fc5e53134587"
+        }
+      ]
+    },
+    {
+      "version": "0.23.0",
+      "releaseDate": "2026-04-13",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "7171767e6777bc12a84677bdaa3f9886"
+        }
+      ]
+    },
+    {
+      "version": "0.24.0",
+      "releaseDate": "2026-04-19",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "318c6db767347b1cc151bc8fd54d4f21"
+        }
+      ]
+    },
+    {
+      "version": "0.25.0",
+      "releaseDate": "2026-04-26",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "949c98a535e9c0f3494caf624f66fe37"
+        }
+      ]
+    },
+    {
+      "version": "0.26.0",
+      "releaseDate": "2026-04-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "2e964361fab717b8e6e7ff57af3667f6"
+        }
+      ]
+    },
+    {
+      "version": "0.27.0",
+      "releaseDate": "2026-05-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "5ced66d6e4cfdc7abba7617b2e04e2cf"
+        }
+      ]
+    },
+    {
+      "version": "0.28.0",
+      "releaseDate": "2026-05-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "df7f3eb978fb09f05bdf2c863b158745"
+        }
+      ]
+    },
+    {
+      "version": "0.28.1",
+      "releaseDate": "2026-05-11",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "76deb7dbd6f316bde98fdfd6f94a35ad"
+        }
+      ]
+    },
+    {
+      "version": "0.29.0",
+      "releaseDate": "2026-05-18",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "e647c1301dbb6aaf9733879f75f9680a"
+        }
+      ]
+    },
+    {
+      "version": "0.30.0",
+      "releaseDate": "2026-05-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "854a837e97caaa2452e6c65ec93aa3b1"
+        }
+      ]
+    },
+    {
+      "version": "0.31.0",
+      "releaseDate": "2026-06-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "6c45631cb845e3fa97fc321701a5755c"
+        }
+      ]
+    },
+    {
+      "version": "0.32.0",
+      "releaseDate": "2026-06-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "6abdc480802da0e9600ba7e095497626"
+        }
+      ]
+    },
+    {
+      "version": "0.33.0",
+      "releaseDate": "2026-06-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "88225f7c28b1aebdedf8d435b716fdd7"
+        }
+      ]
+    },
+    {
+      "version": "0.34.0",
+      "releaseDate": "2026-06-20",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "1fb2f5f3231dcc4a2d3bf526444d9986"
+        }
+      ]
+    },
+    {
+      "version": "0.35.0",
+      "releaseDate": "2026-07-03",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "d97785f54c48149cc3ef625a87aa9830"
+        }
+      ]
+    },
+    {
+      "version": "0.36.0",
+      "releaseDate": "2026-07-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "1c6f65514ffc7f73b49b83cf60083de4"
+        }
+      ]
+    },
+    {
+      "version": "0.37.0",
+      "releaseDate": "2026-07-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "680cb5ef7e225d4e8cfb2b7b8d8e90f5"
+        }
+      ]
+    },
+    {
+      "version": "0.38.0",
+      "releaseDate": "2026-07-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "f733674844d9f1af3e9058393c366b91"
+        }
+      ]
+    },
+    {
+      "version": "0.38.1",
+      "releaseDate": "2026-07-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "94a891cdb52dee7416f5fa5d51fd047e"
+        }
+      ]
+    },
+    {
+      "version": "0.38.2",
+      "releaseDate": "2026-07-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "ef1f8b98bd911674d7661eff6631f8ac"
+        }
+      ]
+    },
+    {
+      "version": "0.39.0",
+      "releaseDate": "2026-07-12",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_binaural.auf2",
+          "xxh128": "5cdf4d88938e003b49ed3f48dfa781c4"
+        }
+      ]
+    }
+  ]
+}

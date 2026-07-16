@@ -1,0 +1,27 @@
+{
+  "name": "VariableFont",
+  "author": "黒猫大福",
+  "tags": [
+    "テキスト",
+    "便利ツール",
+    "字幕"
+  ],
+  "description": {
+    "summary": "可変フォント対応の文字を影や縁取り付きで表示するプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/rokujyushi/Variable-Font-Plug-ins/refs/heads/main/Plugin_README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "rokujyushi"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp"
+  }
+}

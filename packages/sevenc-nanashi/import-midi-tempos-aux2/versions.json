@@ -1,0 +1,14 @@
+{
+  "versions": [
+    {
+      "version": "0.2.0",
+      "releaseDate": "2026-07-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/import_midi_tempos.aux2",
+          "xxh128": "40ef65ff466a400267a3b7ffe071ff2b"
+        }
+      ]
+    }
+  ]
+}

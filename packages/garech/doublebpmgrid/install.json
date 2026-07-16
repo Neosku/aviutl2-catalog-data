@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "Garech-mas",
+      "repo": "DoubleBPMGrid",
+      "pattern": "^DoubleBPMGrid-.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/AviUtl2/DoubleBPMGrid.aux2",
+        "to": "{pluginsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/AviUtl2/English.DoubleBPMGrid.aul2",
+        "to": "{dataDir}/Language"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/DoubleBPMGrid.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.DoubleBPMGrid.aul2"
+      }
+    ]
+  }
+}

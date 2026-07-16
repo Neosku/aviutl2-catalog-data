@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2025-12-15",
+      "files": [
+        {
+          "path": "{scriptsDir}/BlockGlitch_Rh.anm2",
+          "xxh128": "ed71fb1729cd4924d0505f3ccf59ea9e"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2026-01-29",
+      "files": [
+        {
+          "path": "{scriptsDir}/BlockGlitch_Rh.anm2",
+          "xxh128": "69bfc400364e5d9a36f69e32a3d1624f"
+        }
+      ]
+    }
+  ]
+}

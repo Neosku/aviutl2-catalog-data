@@ -1,0 +1,19 @@
+{
+  "name": "TimeDelay_Rh",
+  "author": "ラプソーン",
+  "tags": [
+    "アニメーション",
+    "ディレイ"
+  ],
+  "description": {
+    "summary": "後段のエフェクトをディレイさせるスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "custom",
+      "name": "カスタムライセンス",
+      "licenseBody": "改変再配布等基本自由です"
+    }
+  ]
+}

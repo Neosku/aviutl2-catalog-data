@@ -1,0 +1,24 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://raw.githubusercontent.com/SagyouDarui900/OpticsCompensation_s_for_AviUtl2/refs/heads/main/OpticsCompensation_s.anm2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/OpticsCompensation_s.anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/OpticsCompensation_s.anm2"
+      }
+    ]
+  }
+}

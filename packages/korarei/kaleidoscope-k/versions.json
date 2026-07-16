@@ -1,0 +1,44 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2025-07-26",
+      "files": [
+        {
+          "path": "{scriptsDir}/Kaleidoscope_K.anm2",
+          "xxh128": "3daa930cbec19887e673c291856c6e01"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.1",
+      "releaseDate": "2025-08-13",
+      "files": [
+        {
+          "path": "{scriptsDir}/Kaleidoscope_K.anm2",
+          "xxh128": "74875c9f9d63e08f2208406e1a05e962"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.2",
+      "releaseDate": "2025-11-02",
+      "files": [
+        {
+          "path": "{scriptsDir}/Kaleidoscope_K.anm2",
+          "xxh128": "af35e2d7b8240ff5ecd6b4dd8ae757d4"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.3",
+      "releaseDate": "2025-11-09",
+      "files": [
+        {
+          "path": "{scriptsDir}/Kaleidoscope_K.anm2",
+          "xxh128": "78a1757cb671d529f4e07205a1edcb70"
+        }
+      ]
+    }
+  ]
+}

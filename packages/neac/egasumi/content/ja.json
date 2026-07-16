@@ -1,0 +1,26 @@
+{
+  "name": "エ霞(えがすみ)",
+  "author": "猫愛",
+  "tags": [
+    "カスタムオブジェクト",
+    "図形"
+  ],
+  "description": {
+    "summary": "和柄の雲を作成可能なカスタムオブジェクト",
+    "markdownSource": "https://raw.githubusercontent.com/nea-c/aviutl2_script_Egasumi/refs/heads/master/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "NeAc"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

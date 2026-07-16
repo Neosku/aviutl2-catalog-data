@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v1.00-for-beta47",
+      "releaseDate": "2026-05-26",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Region_S.anm2",
+          "xxh128": "cfd7b6d90086afd45dd77940ed0c941f"
+        }
+      ]
+    },
+    {
+      "version": "v1.01-for-beta50",
+      "releaseDate": "2026-06-15",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Region_S.anm2",
+          "xxh128": "cbbdb05672dd8f65920b003cc69eef42"
+        }
+      ]
+    }
+  ]
+}

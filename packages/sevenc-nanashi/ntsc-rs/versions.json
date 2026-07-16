@@ -1,0 +1,46 @@
+{
+  "versions": [
+    {
+      "version": "0.1.3",
+      "releaseDate": "2026-01-25",
+      "files": [
+        {
+          "path": "{scriptsDir}/ntsc-rs.anm2",
+          "xxh128": "dd1ef383f1c0b21e2015e113271c12f3"
+        },
+        {
+          "path": "{scriptsDir}/ntsc-rs.mod2",
+          "xxh128": "0e16f9e64a673f54659a6d534a620a2e"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "releaseDate": "2026-02-03",
+      "files": [
+        {
+          "path": "{scriptsDir}/ntsc-rs.anm2",
+          "xxh128": "f88330c700595cf8324f13e11999a432"
+        },
+        {
+          "path": "{scriptsDir}/ntsc-rs.mod2",
+          "xxh128": "cd5ede6558e41bddbdd96bfad3377167"
+        }
+      ]
+    },
+    {
+      "version": "0.2.1",
+      "releaseDate": "2026-03-02",
+      "files": [
+        {
+          "path": "{scriptsDir}/ntsc-rs.anm2",
+          "xxh128": "5fbe3ce13f627962037d90c0a5cc2538"
+        },
+        {
+          "path": "{scriptsDir}/ntsc-rs.mod2",
+          "xxh128": "baf3625723dfcd32abaa13e4ab6a816c"
+        }
+      ]
+    }
+  ]
+}

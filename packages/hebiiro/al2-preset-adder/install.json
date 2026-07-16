@@ -1,0 +1,57 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "hebiiro",
+      "repo": "al2_preset_adder",
+      "pattern": "^al2_preset_adder.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2_jd.aui2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/DarkenWindow.aul"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2/assets/al2_jd.json"
+      },
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2_preset_adder.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2/assets/al2_preset_adder"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2/al2_preset_adder.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2/al2_preset_adder.aui2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2/al2_preset_adder"
+      }
+    ]
+  }
+}

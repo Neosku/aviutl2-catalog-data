@@ -1,0 +1,47 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sevenc-nanashi",
+      "repo": "void.auf2",
+      "pattern": "^sevenc-nanashi\\.void-auf2-v.*\\.au2pkg\\.zip"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/Default.void-auf2.aul2",
+        "to": "{dataDir}/Language"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/English.void-auf2.aul2",
+        "to": "{dataDir}/Language"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/void.auf2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/void.auf2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.void-auf2.aul2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/Default.void-auf2.aul2"
+      }
+    ]
+  }
+}

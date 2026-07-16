@@ -1,0 +1,34 @@
+{
+  "versions": [
+    {
+      "version": "1.0",
+      "releaseDate": "2026-04-20",
+      "files": [
+        {
+          "path": "{scriptsDir}/縦動画ガイド.obj2",
+          "xxh128": "07d2322e937365b5ab8b0d3f71a9a779"
+        }
+      ]
+    },
+    {
+      "version": "1.2",
+      "releaseDate": "2026-04-20",
+      "files": [
+        {
+          "path": "{scriptsDir}/縦動画ガイド.obj2",
+          "xxh128": "2362232375de97a3f9c4c095d16a4963"
+        }
+      ]
+    },
+    {
+      "version": "1.3",
+      "releaseDate": "2026-04-21",
+      "files": [
+        {
+          "path": "{scriptsDir}/縦動画ガイド.obj2",
+          "xxh128": "dce62ff7baff2729c350b89749a87dc2"
+        }
+      ]
+    }
+  ]
+}

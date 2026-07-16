@@ -1,0 +1,42 @@
+{
+  "versions": [
+    {
+      "version": "r1",
+      "releaseDate": "2025-07-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/raw_wav_saver.auo2",
+          "xxh128": "fb6342095321c06af8d2b1aab4b60a94"
+        }
+      ]
+    },
+    {
+      "version": "r2",
+      "releaseDate": "2025-07-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2_wav_saver_s16.auo2",
+          "xxh128": "87656b66dbf171c4f097e1c0486e5c72"
+        },
+        {
+          "path": "{pluginsDir}/al2_wav_saver_f32.auo2",
+          "xxh128": "0e5164304ec901da4671df365deb49a6"
+        }
+      ]
+    },
+    {
+      "version": "r3",
+      "releaseDate": "2025-07-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/al2_wav_saver_s16.auo2",
+          "xxh128": "5b2e57836c99028cf7338f89ff511fc5"
+        },
+        {
+          "path": "{pluginsDir}/al2_wav_saver_f32.auo2",
+          "xxh128": "10359b527a54e414b4b5eafb5111794e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "sevenc-nanashi",
+    "repo": "void.auf2",
+    "pattern": "^sevenc-nanashi\\.void-auf2-v.*\\.au2pkg\\.zip"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Language/Default.void-auf2.aul2",
+        "Language/English.void-auf2.aul2",
+        "Plugin/void.auf2"
+      ],
+      "recordPaths": [
+        "{dataDir}/Language/Default.void-auf2.aul2",
+        "{dataDir}/Language/English.void-auf2.aul2",
+        "{pluginsDir}/void.auf2"
+      ]
+    }
+  ]
+}

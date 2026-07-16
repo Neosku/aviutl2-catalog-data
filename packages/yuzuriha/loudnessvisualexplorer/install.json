@@ -1,0 +1,28 @@
+{
+  "installation": {
+    "source": {
+      "type": "googleDrive",
+      "id": "1obqjCNRBN2cyHWjmNfBWm20Wi0ZjC0Ua"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/LoudnessVisualExplorer.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/LoudnessVisualExplorer.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/LoudnessVisualExplorer.ini"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "Korarei",
+      "repo": "AviUtl2_AutoLyricAnimation_K_Script",
+      "pattern": "^AutoLyricAnimation_K_.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/script/AutoLyricAnimation_K.anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/AutoLyricAnimation_K.anm2"
+      }
+    ]
+  }
+}

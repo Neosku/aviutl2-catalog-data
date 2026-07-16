@@ -1,0 +1,92 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "vramwiz",
+      "repo": "VW_Media_Output",
+      "pattern": "^VW_Media_Output.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/VW_Media_Output/VW_Media_Output.auo2",
+        "to": "{pluginsDir}/VW_Media_Output"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/VW_Media_Output/swscale-9.dll",
+        "to": "{pluginsDir}/VW_Media_Output"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/VW_Media_Output/avformat-62.dll",
+        "to": "{pluginsDir}/VW_Media_Output"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/VW_Media_Output/avcodec-62.dll",
+        "to": "{pluginsDir}/VW_Media_Output"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/VW_Media_Output/avutil-60.dll",
+        "to": "{pluginsDir}/VW_Media_Output"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/VW_Media_Output/swresample-6.dll",
+        "to": "{pluginsDir}/VW_Media_Output"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/VW_Media_Output/avdevice-62.dll",
+        "to": "{pluginsDir}/VW_Media_Output"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/VW_Media_Output/avfilter-11.dll",
+        "to": "{pluginsDir}/VW_Media_Output"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VW_Media_Output/VW_Media_Output.auo2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VW_Media_Output/swscale-9.dll"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VW_Media_Output/avcodec-62.dll"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VW_Media_Output/avformat-62.dll"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VW_Media_Output/avutil-60.dll"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VW_Media_Output/swresample-6.dll"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VW_Media_Output/avdevice-62.dll"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VW_Media_Output/avfilter-11.dll"
+      }
+    ]
+  }
+}

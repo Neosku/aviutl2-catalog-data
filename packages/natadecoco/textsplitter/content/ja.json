@@ -1,0 +1,24 @@
+{
+  "name": "TextSplitter",
+  "author": "なたのこ",
+  "tags": [
+    "便利ツール",
+    "オブジェクト操作",
+    "テキスト"
+  ],
+  "description": {
+    "summary": "テキストオブジェクトを1文字ずつのオブジェクトに一括分割するプラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "なたのこ"
+        }
+      ]
+    }
+  ]
+}

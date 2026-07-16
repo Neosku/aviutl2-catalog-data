@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "Pachira762",
+      "repo": "vsr4aviutl",
+      "pattern": "^vsr4aviutl_.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/vsr4aviutl/nvngx_vsr.dll",
+        "to": "{pluginsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/vsr4aviutl/vsr4aviutl.auf2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/nvngx_vsr.dll"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/vsr4aviutl.auf2"
+      }
+    ]
+  }
+}

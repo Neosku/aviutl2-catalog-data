@@ -1,0 +1,25 @@
+{
+  "name": "twinkle_sl",
+  "author": "セイル",
+  "tags": [
+    "図形"
+  ],
+  "description": {
+    "summary": "✨を作れるカスタムオブジェクト",
+    "markdownSource": "https://raw.githubusercontent.com/seilor0/twinkle_sl/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "seilor0"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

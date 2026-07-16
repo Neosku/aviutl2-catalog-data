@@ -1,0 +1,20 @@
+{
+  "name": "connection_line",
+  "author": "arcana",
+  "tags": [],
+  "description": {
+    "summary": "指定した2つのオブジェクトの中心を実線または点線で繋ぐスクリプト",
+    "markdownSource": "https://raw.githubusercontent.com/ar-ca-na/connection_line/refs/heads/main/readme.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "arcana"
+        }
+      ]
+    }
+  ]
+}

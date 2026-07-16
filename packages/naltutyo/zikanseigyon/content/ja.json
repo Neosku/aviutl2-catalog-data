@@ -1,0 +1,22 @@
+{
+  "name": "時間制御N",
+  "author": "Nao",
+  "tags": [
+    "UI",
+    "イージング",
+    "便利ツール"
+  ],
+  "description": {
+    "summary": "独自のイージングエディタを追加するPluginです",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "unknown",
+      "name": "不明"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.jpg"
+  }
+}

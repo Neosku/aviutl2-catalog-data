@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v1.1.1",
+      "releaseDate": "2026-04-12",
+      "files": [
+        {
+          "path": "{pluginsDir}/aviutl2-sourcemonitor/SourceMonitor.aux2.dll",
+          "xxh128": "f42245fdb161b61cd6c0558a003a1827"
+        }
+      ]
+    },
+    {
+      "version": "1.1.1.0",
+      "releaseDate": "2026-07-09",
+      "files": [
+        {
+          "path": "{pluginsDir}/aviutl2-sourcemonitor/SourceMonitor.aux2.dll",
+          "xxh128": "f42245fdb161b61cd6c0558a003a1827"
+        }
+      ]
+    }
+  ]
+}

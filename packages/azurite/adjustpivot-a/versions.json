@@ -1,0 +1,34 @@
+{
+  "versions": [
+    {
+      "version": "v0.1.0",
+      "releaseDate": "2026-04-19",
+      "files": [
+        {
+          "path": "{scriptsDir}/中心ずらし_A.anm2",
+          "xxh128": "e495353dd8d413b8fe4c1c9eb86d5f02"
+        }
+      ]
+    },
+    {
+      "version": "v0.2.0",
+      "releaseDate": "2026-04-21",
+      "files": [
+        {
+          "path": "{scriptsDir}/中心ずらし_A.anm2",
+          "xxh128": "2acb9fe562d55092d1d79b2969fed31e"
+        }
+      ]
+    },
+    {
+      "version": "v0.3.0",
+      "releaseDate": "2026-07-16",
+      "files": [
+        {
+          "path": "{scriptsDir}/中心ずらし_A.anm2",
+          "xxh128": "3b1c3e835a3e1a051ce75d576fc9bbe9"
+        }
+      ]
+    }
+  ]
+}

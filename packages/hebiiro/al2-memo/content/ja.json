@@ -1,0 +1,22 @@
+{
+  "name": "メモ帳プラグイン",
+  "author": "蛇色",
+  "tags": [
+    "便利ツール"
+  ],
+  "description": {
+    "summary": "メモ帳代わりに使用できるウィンドウを追加するプラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "hebiiro"
+        }
+      ]
+    }
+  ]
+}

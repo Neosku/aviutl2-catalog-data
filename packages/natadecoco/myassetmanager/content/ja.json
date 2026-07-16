@@ -1,0 +1,23 @@
+{
+  "name": "MyAssetManager",
+  "author": "なたのこ",
+  "tags": [
+    "UI",
+    "便利ツール"
+  ],
+  "description": {
+    "summary": "画像や動画素材、オブジェクトの構成を管理するためのプラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "なたのこ"
+        }
+      ]
+    }
+  ]
+}

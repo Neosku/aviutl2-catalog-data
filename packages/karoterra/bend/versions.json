@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2025-07-09",
+      "files": [
+        {
+          "path": "{scriptsDir}/@曲げKR.anm2",
+          "xxh128": "ff8adbd03f91509fda48cbda67584bdd"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.1",
+      "releaseDate": "2025-08-19",
+      "files": [
+        {
+          "path": "{scriptsDir}/@曲げKR.anm2",
+          "xxh128": "070d1328c8c3d37e8071e96296dd696d"
+        }
+      ]
+    }
+  ]
+}

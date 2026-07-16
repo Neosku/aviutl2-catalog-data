@@ -1,0 +1,20 @@
+{
+  "name": "VCEEnc",
+  "author": "rigaya",
+  "tags": [],
+  "description": {
+    "summary": "VCEによる高速エンコードの性能実験",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2014-2017",
+          "holder": "rigaya"
+        }
+      ]
+    }
+  ]
+}

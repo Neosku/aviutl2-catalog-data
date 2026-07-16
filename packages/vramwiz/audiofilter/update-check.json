@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "vramwiz",
+    "repo": "Aul2AudioFilter",
+    "pattern": "^Aul2AudioFilter\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Aul2AudioFilter/Aul2AudioFilter.auf2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/Aul2AudioFilter/Aul2AudioFilter.auf2"
+      ]
+    }
+  ]
+}

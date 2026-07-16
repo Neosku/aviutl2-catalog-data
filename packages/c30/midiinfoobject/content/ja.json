@@ -1,0 +1,27 @@
+{
+  "name": "[Beta] MIDI Info Object",
+  "author": "c30 (zel9278 / fuji_midi)",
+  "tags": [
+    "MIDI",
+    "統計",
+    "カスタムオブジェクト"
+  ],
+  "description": {
+    "summary": "MIDIの情報を動画に出すプラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "c30 (zel9278)"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.gif"
+  }
+}

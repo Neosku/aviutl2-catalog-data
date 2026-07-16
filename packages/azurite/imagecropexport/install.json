@@ -1,0 +1,42 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "azurite581",
+      "repo": "AviUtl2-ImageCropExport",
+      "pattern": "^ImageCropExport-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/ImageCropExport.auo2",
+        "to": "{pluginsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/English.ImageCropExport.aul2",
+        "to": "{dataDir}/Language"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/ImageCropExport.auo2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.ImageCropExport.aul2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/ImageCropExport.ini"
+      }
+    ]
+  }
+}

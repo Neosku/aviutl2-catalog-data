@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "rokujyushi",
+    "repo": "GCMZScripts",
+    "pattern": "midi2EAP2\\.zip"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "midi2EAP2/midi2EAP2.lua"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/GCMZDrops/GCMZScript/midi2EAP2.lua"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Typst for AviUtl2",
+  "author": "かろてら",
+  "tags": [
+    "テキスト",
+    "カスタムオブジェクト"
+  ],
+  "description": {
+    "summary": "AviUtl2 で Typst を使えるようにするプラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "karoterra"
+        }
+      ]
+    },
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "karoterra"
+        }
+      ]
+    }
+  ]
+}

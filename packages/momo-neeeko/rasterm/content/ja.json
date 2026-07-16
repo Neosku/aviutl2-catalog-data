@@ -1,0 +1,28 @@
+{
+  "name": "ラスターM",
+  "author": "もも猫",
+  "tags": [
+    "変形"
+  ],
+  "description": {
+    "summary": "様々な波形で向きが指定できるラスター",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "もも猫"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.gif",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

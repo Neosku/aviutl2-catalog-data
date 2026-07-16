@@ -1,0 +1,44 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "oov",
+      "repo": "aviutl2_gcmzdrops2",
+      "pattern": "^gcmzdrops_.*\\.exe$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "run",
+        "path": "{download}",
+        "args": [
+          "/VERYSILENT",
+          "/SP-",
+          "/SUPPRESSMSGBOXES",
+          "/DIR=\"{pluginsDir}\""
+        ],
+        "elevate": false
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "run",
+        "path": "{pluginsDir}/GCMZDrops/unins000.exe",
+        "args": [
+          "/VERYSILENT",
+          "/SUPPRESSMSGBOXES"
+        ]
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/GCMZDrops.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/GCMZScript"
+      }
+    ]
+  }
+}

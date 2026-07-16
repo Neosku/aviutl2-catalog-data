@@ -1,0 +1,17 @@
+{
+  "name": "作業ロガーN",
+  "author": "Nao",
+  "tags": [
+    "便利ツール"
+  ],
+  "description": {
+    "summary": "自分の作業を記録しXに投稿したり、作業時間を見直すプラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "unknown",
+      "name": "不明"
+    }
+  ]
+}

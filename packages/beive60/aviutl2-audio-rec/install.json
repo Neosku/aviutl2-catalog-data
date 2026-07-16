@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "beive60",
+      "repo": "aviutl2-audio-rec",
+      "pattern": "^aviutl2-audio-rec-v(?<version>\\d\\.\\d\\.\\d)\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/aviutl2_audio_rec.aux2",
+        "to": "{pluginsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/audio_rec_cli.exe",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/aviutl2_audio_rec.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/audio_rec_cli.exe"
+      }
+    ]
+  }
+}

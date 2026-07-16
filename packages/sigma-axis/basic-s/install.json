@@ -1,0 +1,83 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sigma-axis",
+      "repo": "aviutl2_script_Basic_S",
+      "pattern": "^aviutl2_script_Basic_S.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/@Basic_S.anm2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/@Basic_S.obj2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/@Basic_S.tra2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/Basic_S.lua",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/Basic_S/LICENSE",
+        "to": "{scriptsDir}/Basic_S"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/Basic_S/README.md",
+        "to": "{scriptsDir}/Basic_S"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/Default.Basic_S.aul2",
+        "to": "{dataDir}/Language"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/@Basic_S.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/@Basic_S.obj2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/@Basic_S.tra2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/Basic_S.lua"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/Basic_S/LICENSE"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/Basic_S/README.md"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/Default.Basic_S.aul2"
+      }
+    ]
+  }
+}

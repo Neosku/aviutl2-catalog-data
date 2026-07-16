@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "rigaya",
+    "repo": "QSVEnc",
+    "pattern": "^Aviutl2_QSVEnc.*install\\.exe$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "7zip",
+      "sourcePaths": [
+        "Plugin/QSVEnc.auo2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/QSVEnc.auo2"
+      ]
+    }
+  ]
+}

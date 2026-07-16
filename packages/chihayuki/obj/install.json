@@ -1,0 +1,27 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://github.com/chihayuki/additionalLine/archive/refs/tags/1.1.zip"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/additionalLine-1.1/補助線.obj",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/補助線.obj"
+      }
+    ]
+  }
+}

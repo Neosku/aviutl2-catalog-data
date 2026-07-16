@@ -1,0 +1,64 @@
+{
+  "versions": [
+    {
+      "version": "1.0",
+      "releaseDate": "2025-07-31",
+      "files": [
+        {
+          "path": "{pluginsDir}/DiscordRPC.aui2",
+          "xxh128": "f54b3d46a0eb6f9036fb782729aab6fa"
+        }
+      ]
+    },
+    {
+      "version": "1.1",
+      "releaseDate": "2025-08-03",
+      "files": [
+        {
+          "path": "{pluginsDir}/DiscordRPC.aui2",
+          "xxh128": "d3a523529f1e4de24bfb4913b7be218a"
+        }
+      ]
+    },
+    {
+      "version": "1.2",
+      "releaseDate": "2025-11-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/DiscordRPC.aux2",
+          "xxh128": "322ef8a989c1ec7dd0dcffe8060324bc"
+        }
+      ]
+    },
+    {
+      "version": "1.3",
+      "releaseDate": "2026-04-12",
+      "files": [
+        {
+          "path": "{pluginsDir}/DiscordRPC.aux2",
+          "xxh128": "734e0c281e3e65627b1cf9d90e4ea2cc"
+        }
+      ]
+    },
+    {
+      "version": "1.3.1",
+      "releaseDate": "2026-04-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/DiscordRPC.aux2",
+          "xxh128": "7a1b4a7b9cc068161ce63adfee9fdd75"
+        }
+      ]
+    },
+    {
+      "version": "1.3.2",
+      "releaseDate": "2026-05-06",
+      "files": [
+        {
+          "path": "{pluginsDir}/DiscordRPC.aux2",
+          "xxh128": "0a0ec9b9bd7aaf6c35d84b2f9705e16b"
+        }
+      ]
+    }
+  ]
+}

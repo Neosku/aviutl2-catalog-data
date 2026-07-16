@@ -1,0 +1,29 @@
+{
+  "name": "Gradient Editor",
+  "author": "azurite",
+  "tags": [
+    "グラデーション",
+    "色調整"
+  ],
+  "description": {
+    "summary": "グラデーションエディタプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/azurite581/AviUtl2-GradientEditor/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "azurite"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "CameraTransform_K",
+  "author": "Korarei",
+  "tags": [
+    "カメラ"
+  ],
+  "description": {
+    "summary": "AviUtl ExEdit2 向けカメラ調整用ツール",
+    "markdownSource": "https://raw.githubusercontent.com/korarei/AviUtl2_CameraTransform_K_Script/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Korarei"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp"
+  }
+}

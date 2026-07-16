@@ -1,0 +1,22 @@
+{
+  "name": "Histogram_S",
+  "author": "σ軸",
+  "tags": [
+    "便利ツール"
+  ],
+  "description": {
+    "summary": "ヒストグラムを編集画面上に表示するスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "sigma-axis"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "BezierPath",
+  "author": "猫愛",
+  "tags": [
+    "エフェクト",
+    "テキスト",
+    "配置",
+    "アニメーション",
+    "オブジェクト操作",
+    "パス",
+    "移動"
+  ],
+  "description": {
+    "summary": "ベジェ曲線としてパスを描き、それに沿っての移動や配置が可能なスクリプト",
+    "markdownSource": "https://raw.githubusercontent.com/nea-c/aviutl2_script_BezierPath/refs/heads/master/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "NeAc"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png",
+    "detailImages": [
+      "./images/details1.webp"
+    ]
+  }
+}

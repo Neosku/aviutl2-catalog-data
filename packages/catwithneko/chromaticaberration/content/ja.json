@@ -1,0 +1,17 @@
+{
+  "name": "Chromatic Aberration",
+  "author": "こんにゃくねこ",
+  "tags": [
+    "色収差",
+    "色ずれ"
+  ],
+  "description": {
+    "summary": "簡易色収差",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ]
+}

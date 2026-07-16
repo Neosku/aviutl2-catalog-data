@@ -1,0 +1,33 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "cycloawaodorin",
+      "repo": "fzgx_smr_ks",
+      "pattern": "^fzgx_smr_ks\\.2.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/fzgx_smr_ks.auo2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/fzgx_smr_ks.auo2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/fzgx_smr_ks.config"
+      }
+    ]
+  }
+}

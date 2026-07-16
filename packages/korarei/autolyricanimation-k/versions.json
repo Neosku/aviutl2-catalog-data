@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2025-07-09",
+      "files": [
+        {
+          "path": "{scriptsDir}/AutoLyricAnimation_K.anm2",
+          "xxh128": "643e9fec084843a11fed7e884f6f31f8"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.1",
+      "releaseDate": "2025-07-24",
+      "files": [
+        {
+          "path": "{scriptsDir}/AutoLyricAnimation_K.anm2",
+          "xxh128": "4d28669219495c4b24e7111d02502ef4"
+        }
+      ]
+    }
+  ]
+}

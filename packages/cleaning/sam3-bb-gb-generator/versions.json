@@ -1,0 +1,64 @@
+{
+  "versions": [
+    {
+      "version": "v0.0.5",
+      "releaseDate": "2026-02-13",
+      "files": [
+        {
+          "path": "{pluginsDir}/SAM3/sam3.aux2",
+          "xxh128": "b43303e97f0ead363a1d843d8ac7a22a"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.6",
+      "releaseDate": "2026-02-15",
+      "files": [
+        {
+          "path": "{pluginsDir}/SAM3/sam3.aux2",
+          "xxh128": "4c1e9640f2c15fc268c12393e3c630e2"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.7",
+      "releaseDate": "2026-02-19",
+      "files": [
+        {
+          "path": "{pluginsDir}/SAM3/sam3.aux2",
+          "xxh128": "d1991b9d397816c5cfaab40a8e232711"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.8",
+      "releaseDate": "2026-03-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/SAM3/sam3.aux2",
+          "xxh128": "945675f81950fa42077baacda318a5ef"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.9",
+      "releaseDate": "2026-04-18",
+      "files": [
+        {
+          "path": "{pluginsDir}/SAM3/sam3.aux2",
+          "xxh128": "82f979796ee70bf91ed4c70470b125cb"
+        }
+      ]
+    },
+    {
+      "version": "v0.1.0",
+      "releaseDate": "2026-04-26",
+      "files": [
+        {
+          "path": "{pluginsDir}/SAM3/sam3.aux2",
+          "xxh128": "aa031546d904927995a584e45ec487f5"
+        }
+      ]
+    }
+  ]
+}

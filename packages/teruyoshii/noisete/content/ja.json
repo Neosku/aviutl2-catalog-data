@@ -1,0 +1,22 @@
+{
+  "name": "ノイズ_Te",
+  "author": "てるよし",
+  "tags": [
+    "ノイズ"
+  ],
+  "description": {
+    "summary": "一定時間/距離ごとにループできるカスタマイズ性が高いノイズスクリプト群",
+    "markdownSource": "https://raw.githubusercontent.com/teruyoshii/AviUtl2_Noise_Te/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "teruyoshi"
+        }
+      ]
+    }
+  ]
+}

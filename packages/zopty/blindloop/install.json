@@ -1,0 +1,24 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://gist.githubusercontent.com/zopty/ff3439d79fe609c7714d6db4ef1a39a6/raw/60d78451f26f9505c8addb816a099fced4b4981c/BlindLoop.anm2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/BlindLoop.anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/BlindLoop.anm2"
+      }
+    ]
+  }
+}

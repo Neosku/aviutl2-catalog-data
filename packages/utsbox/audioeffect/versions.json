@@ -1,0 +1,54 @@
+{
+  "versions": [
+    {
+      "version": "0.1β",
+      "releaseDate": "2025-11-11",
+      "files": [
+        {
+          "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxChorus.auf2",
+          "xxh128": "259caf40fb65a1afb9e2be10253e1437"
+        },
+        {
+          "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxCompressor.auf2",
+          "xxh128": "89edccb3023033603e8baa98346c4672"
+        },
+        {
+          "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxDelay.auf2",
+          "xxh128": "bb0baa7fec2c934947cb59acc31dde23"
+        },
+        {
+          "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxEqualizer.auf2",
+          "xxh128": "3f2051d42b77135fdacf166f55a5be93"
+        },
+        {
+          "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxFilter.auf2",
+          "xxh128": "214a4fe1ff3fd55662406ba41a59bb7b"
+        },
+        {
+          "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxModulator.auf2",
+          "xxh128": "b78e9ae8f7de826dd784c038182cbae5"
+        },
+        {
+          "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxPhaser.auf2",
+          "xxh128": "71418f443fc730664e687bb9cbc043f1"
+        },
+        {
+          "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxPitchShifter.auf2",
+          "xxh128": "66affbd17ea4de2ea03648e3162e6e80"
+        },
+        {
+          "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxReverb.auf2",
+          "xxh128": "86f842825ebdf9bc4113ab7a95583bd7"
+        },
+        {
+          "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxTremolo.auf2",
+          "xxh128": "ead74b28a759b0feb38b7587364fcad7"
+        },
+        {
+          "path": "{pluginsDir}/UtsboxAudioEffectForAviUtl2/UtsboxWah.auf2",
+          "xxh128": "e10751202e720c8776201a083d15458e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "versions": [
+    {
+      "version": "0.1.0",
+      "releaseDate": "2026-02-23",
+      "files": [
+        {
+          "path": "{pluginsDir}/insert.aux2",
+          "xxh128": "fb8aad5e16da38cd0a9dc77385f23241"
+        }
+      ]
+    },
+    {
+      "version": "0.1.4",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/insert.aux2",
+          "xxh128": "912b792026d04397708b641d54b8db90"
+        }
+      ]
+    },
+    {
+      "version": "0.1.6",
+      "releaseDate": "2026-03-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/insert.aux2",
+          "xxh128": "a75a3867cc394b34c32d9d0111881203"
+        }
+      ]
+    },
+    {
+      "version": "0.1.7",
+      "releaseDate": "2026-03-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/insert.aux2",
+          "xxh128": "d5c4711ac18f61706a428222936f9da6"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "releaseDate": "2026-07-16",
+      "files": [
+        {
+          "path": "{pluginsDir}/insert.aux2",
+          "xxh128": "287d75bbd0f3d57faab53b82a34f1f6a"
+        }
+      ]
+    },
+    {
+      "version": "0.2.1",
+      "releaseDate": "2026-07-16",
+      "files": [
+        {
+          "path": "{pluginsDir}/insert.aux2",
+          "xxh128": "a14333a2d756afd826d12b3a1a18be5f"
+        }
+      ]
+    }
+  ]
+}

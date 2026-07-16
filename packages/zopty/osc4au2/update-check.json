@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "zopty",
+    "repo": "osc4au2",
+    "pattern": "^osc4au2-v[^/]+\\.au2pkg\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Script/OSC4AU2.mod2",
+        "Script/OSC4AU2.tra2"
+      ],
+      "recordPaths": [
+        "{scriptsDir}/OSC4AU2.mod2",
+        "{scriptsDir}/OSC4AU2.tra2"
+      ]
+    }
+  ]
+}

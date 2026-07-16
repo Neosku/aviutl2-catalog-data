@@ -1,0 +1,24 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://raw.githubusercontent.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/refs/heads/main/%E9%9F%B3%E5%A3%B0%E5%90%8C%E6%9C%9F.tra2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/音声同期.tra2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/音声同期.tra2"
+      }
+    ]
+  }
+}

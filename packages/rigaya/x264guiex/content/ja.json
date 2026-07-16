@@ -1,0 +1,25 @@
+{
+  "name": "x264guiEx",
+  "author": "rigaya",
+  "tags": [
+    "必須"
+  ],
+  "description": {
+    "summary": "x264を使用してエンコードを行うAviutlの出力プラグインです。",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2010-2022",
+          "holder": "rigaya"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

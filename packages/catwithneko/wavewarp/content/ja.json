@@ -1,0 +1,16 @@
+{
+  "name": "Wave Warp",
+  "author": "こんにゃくねこ",
+  "tags": [
+    "変形"
+  ],
+  "description": {
+    "summary": "角度と波形を指定できるラスター",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ]
+}

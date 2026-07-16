@@ -1,0 +1,26 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "rokujyushi",
+      "repo": "GCMZScripts",
+      "pattern": "svg2obj\\.lua"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/svg2obj.lua",
+        "to": "{pluginsDir}\\GCMZDrops\\GCMZScript"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}\\GCMZDrops\\GCMZScript\\svg2obj.lua"
+      }
+    ]
+  }
+}

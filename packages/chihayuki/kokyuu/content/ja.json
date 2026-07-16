@@ -1,0 +1,24 @@
+{
+  "name": "自動呼吸アニメーション",
+  "author": "ちはユキ",
+  "tags": [
+    "アニメーション",
+    "変形"
+  ],
+  "description": {
+    "summary": "立ち絵に呼吸追加するアニメーション効果",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "custom",
+      "name": "ニコニ・コモンズ",
+      "licenseBody": "利用条件\n利用許可範囲　インターネット全般\nニコニコ投稿時の親子登録　任意\n権利表記　任意\n動画配信サイトでの収益化　個人：OK、法人：OK\n営利利用　個人：OK、法人：OK\n上記条件にしたがってご利用ください"
+    }
+  ],
+  "images": {
+    "detailImages": [
+      "./images/details1.jpg"
+    ]
+  }
+}

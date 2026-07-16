@@ -1,0 +1,27 @@
+{
+  "name": "vsr4aviutl",
+  "author": "Pachira762",
+  "tags": [
+    "画質",
+    "色調整",
+    "AI"
+  ],
+  "description": {
+    "summary": "RTX VSRを使用したデノイズ、アップスケーリングを行う",
+    "markdownSource": "https://raw.githubusercontent.com/Pachira762/vsr4aviutl/refs/heads/master/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Pachira762"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

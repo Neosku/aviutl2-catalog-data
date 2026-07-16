@@ -1,0 +1,23 @@
+{
+  "name": "@Stylize_K",
+  "author": "Korarei",
+  "tags": [
+    "色調整",
+    "画像"
+  ],
+  "description": {
+    "summary": "AviUtl ExEdit2で画像の見た目を変えるスクリプト群",
+    "markdownSource": "https://raw.githubusercontent.com/korarei/AviUtl2_Stylize_K_Script/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Korarei"
+        }
+      ]
+    }
+  ]
+}

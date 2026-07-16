@@ -1,0 +1,32 @@
+{
+  "relations": {
+    "requires": [
+      "oov.gcmzdrops2",
+      "oov.psdtoolkit2"
+    ]
+  },
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "Fuji07-2525",
+      "repo": "voice-drop",
+      "pattern": "voice_drop.aux2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/voice_drop.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/voice_drop.aux2"
+      }
+    ]
+  }
+}

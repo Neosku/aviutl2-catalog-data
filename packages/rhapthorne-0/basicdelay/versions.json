@@ -1,0 +1,34 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.1",
+      "releaseDate": "2025-12-01",
+      "files": [
+        {
+          "path": "{scriptsDir}/基本効果(Delay).anm2",
+          "xxh128": "acaa6a83289c5bd75a5f9366baaee2b6"
+        }
+      ]
+    },
+    {
+      "version": "2026.02.22",
+      "releaseDate": "2026-02-22",
+      "files": [
+        {
+          "path": "{scriptsDir}/基本効果(Delay).anm2",
+          "xxh128": "394c88d2924713a7dc1ee83a22b1aa22"
+        }
+      ]
+    },
+    {
+      "version": "2026.04.27",
+      "releaseDate": "2026-04-27",
+      "files": [
+        {
+          "path": "{scriptsDir}/基本効果(Delay).anm2",
+          "xxh128": "9dca125064c8148bd7884423865dd34d"
+        }
+      ]
+    }
+  ]
+}

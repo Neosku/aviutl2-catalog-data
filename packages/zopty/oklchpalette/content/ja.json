@@ -1,0 +1,21 @@
+{
+  "name": "OKLCH パレット",
+  "author": "zopty",
+  "typeLabel": "その他",
+  "tags": [
+    "カラーパレット"
+  ],
+  "description": {
+    "summary": "OKLCH に基づいて設計されたカラーパレット",
+    "markdownSource": "https://gist.githubusercontent.com/zopty/46b16b7d5f90ec772274e67015117a91/raw/75195d968386793ecb99bc98d9d2db9ed8595644/README.md"
+  },
+  "licenses": [
+    {
+      "type": "unknown",
+      "name": "不明"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

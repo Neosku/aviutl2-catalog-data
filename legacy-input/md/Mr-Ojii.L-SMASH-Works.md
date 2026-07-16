@@ -1,0 +1,1 @@
+VFR-maniac氏によるL-SMASH Worksの派生版であり、Mr-Ojii氏が提供する自動ビルド版。AviUtlおよびAviUtl ExEdit2向けに最適化されており、多種多様なメディア形式の入力に対応した入力プラグインです。

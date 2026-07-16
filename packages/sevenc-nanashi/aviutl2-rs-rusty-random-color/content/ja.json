@@ -1,0 +1,22 @@
+{
+  "name": "Rusty Random Color Filter",
+  "author": "Nanashi.",
+  "tags": [
+    "カスタムオブジェクト"
+  ],
+  "description": {
+    "summary": "ランダムな色の正方形のカスタムオブジェクトを作成するプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/random-color-filter/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Nanashi. <sevenc7c.com>"
+        }
+      ]
+    }
+  ]
+}

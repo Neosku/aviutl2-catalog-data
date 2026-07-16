@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v1.01-for-beta47",
+      "releaseDate": "2026-05-27",
+      "files": [
+        {
+          "path": "{scriptsDir}/最背面に配置.anm2",
+          "xxh128": "26ecc2644abb0f2f492dbca2e31fc6e6"
+        }
+      ]
+    },
+    {
+      "version": "v1.10",
+      "releaseDate": "2026-07-12",
+      "files": [
+        {
+          "path": "{scriptsDir}/最背面に配置.anm2",
+          "xxh128": "f59d8326a01a542aba4f3738966252dd"
+        }
+      ]
+    }
+  ]
+}

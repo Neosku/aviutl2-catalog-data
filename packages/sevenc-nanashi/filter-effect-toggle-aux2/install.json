@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sevenc-nanashi",
+      "repo": "filter_effect_toggle.aux2",
+      "pattern": "^sevenc-nanashi\\.filter_effect_toggle-aux2.*\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/English.filter_effect_toggle.aul2",
+        "to": "{dataDir}/Language"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/filter_effect_toggle.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/filter_effect_toggle.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.filter_effect_toggle.aul2"
+      }
+    ]
+  }
+}

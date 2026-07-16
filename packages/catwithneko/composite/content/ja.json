@@ -1,0 +1,17 @@
+{
+  "name": "Composite",
+  "author": "こんにゃくねこ",
+  "tags": [],
+  "description": {
+    "summary": "このフィルタ以降にかけたフィルタと、このエフェクト以前の画像を合成する",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp"
+  }
+}

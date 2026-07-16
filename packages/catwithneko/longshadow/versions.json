@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "2025.09.06",
+      "releaseDate": "2025-09-06",
+      "files": [
+        {
+          "path": "{scriptsDir}/LongShadow.anm2",
+          "xxh128": "8b83e9c6de758b38e67e49dea081e9ff"
+        }
+      ]
+    },
+    {
+      "version": "2026.04.15",
+      "releaseDate": "2026-04-15",
+      "files": [
+        {
+          "path": "{scriptsDir}/LongShadow.anm2",
+          "xxh128": "d0a9e65df52586b3a58ccd67249a2d3e"
+        }
+      ]
+    }
+  ]
+}

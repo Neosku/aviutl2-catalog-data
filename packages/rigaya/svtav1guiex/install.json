@@ -1,0 +1,48 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "rigaya",
+      "repo": "svtAV1guiEx",
+      "pattern": "^Aviutl2_svtAV1guiEx.*install\\.exe$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extractSfx"
+      },
+      {
+        "action": "runAuoSetup",
+        "path": "{tmp}/Plugin/exe_files/auo_setup2.exe"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/svtAV1guiEx.auo2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/svtAV1guiEx.conf"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/svtAV1guiEx.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/svtAV1guiEx.en.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/svtAV1guiEx.zh.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/svtAV1guiEx_stg/"
+      }
+    ]
+  }
+}

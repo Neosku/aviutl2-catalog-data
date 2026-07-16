@@ -1,0 +1,24 @@
+{
+  "name": "特定フレームループ",
+  "author": "テステス",
+  "tags": [
+    "カスタムオブジェクト"
+  ],
+  "description": {
+    "summary": "アニメーションのmp4やgifで特定のフレームをループさせるスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "custom",
+      "name": "カスタムライセンス",
+      "licenseBody": "・このスクリプトの2次配布は禁止です。\n・このスクリプトを使用によって、発生した損害や問題については、製作者は、一切責任を負わないものとします。\n・このスクリプトの改造や参考にして頂いても構いませんが、サポートや動作保証はできません。"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

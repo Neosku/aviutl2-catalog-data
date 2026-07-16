@@ -1,0 +1,47 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sevenc-nanashi",
+      "repo": "transform_specific_chars.anm2",
+      "pattern": "^sevenc-nanashi\\.transform_specific_chars-anm2-v[^/]+\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/English.transform_specific_chars.aul2",
+        "to": "{dataDir}/Language"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/transform_specific_chars.anm2.anm2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/transform_specific_chars.mod2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/transform_specific_chars.mod2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/transform_specific_chars.anm2.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.transform_specific_chars.aul2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "段階グラデーション",
+  "author": "てるよし",
+  "tags": [
+    "グラデーション",
+    "エフェクト"
+  ],
+  "description": {
+    "summary": "時間制御カーブで自由に調整できる段階グラデーション",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "teruyoshi"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

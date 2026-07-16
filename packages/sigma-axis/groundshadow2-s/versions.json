@@ -1,0 +1,104 @@
+{
+  "versions": [
+    {
+      "version": "v1.00-for-beta5",
+      "releaseDate": "2025-08-10",
+      "files": [
+        {
+          "path": "{scriptsDir}/GroundShadow2_S.anm2",
+          "xxh128": "88fbf187c69dbc64ccd84a9ebe7f3e27"
+        }
+      ]
+    },
+    {
+      "version": "v1.01-for-beta11a",
+      "releaseDate": "2025-09-20",
+      "files": [
+        {
+          "path": "{scriptsDir}/GroundShadow2_S.anm2",
+          "xxh128": "3c891e801ce3fe53628d32cd92be5484"
+        }
+      ]
+    },
+    {
+      "version": "v1.02-for-beta12",
+      "releaseDate": "2025-09-25",
+      "files": [
+        {
+          "path": "{scriptsDir}/GroundShadow2_S.anm2",
+          "xxh128": "4178ebdb7ded8e84c5c7414d1d3d0c5f"
+        }
+      ]
+    },
+    {
+      "version": "v1.03-for-beta20",
+      "releaseDate": "2025-11-17",
+      "files": [
+        {
+          "path": "{scriptsDir}/GroundShadow2_S.anm2",
+          "xxh128": "8873bf4c28d430342e6db51653af35d5"
+        }
+      ]
+    },
+    {
+      "version": "v1.04-for-beta22a",
+      "releaseDate": "2025-12-05",
+      "files": [
+        {
+          "path": "{scriptsDir}/GroundShadow2_S.anm2",
+          "xxh128": "5823af5e8adfc4546c81306945c64fd6"
+        }
+      ]
+    },
+    {
+      "version": "v1.05-for-beta25",
+      "releaseDate": "2025-12-22",
+      "files": [
+        {
+          "path": "{scriptsDir}/GroundShadow2_S.anm2",
+          "xxh128": "1aa26920d91169d641dfa435ae40e221"
+        }
+      ]
+    },
+    {
+      "version": "v1.10-for-beta43b",
+      "releaseDate": "2026-04-29",
+      "files": [
+        {
+          "path": "{scriptsDir}/GroundShadow2_S.anm2",
+          "xxh128": "b16bd46ffc37130efd5210db976b5409"
+        }
+      ]
+    },
+    {
+      "version": "v1.20-for-beta43b",
+      "releaseDate": "2026-04-29",
+      "files": [
+        {
+          "path": "{scriptsDir}/GroundShadow2_S.anm2",
+          "xxh128": "5bfcf0ebdea05cc63a92cd832cdb27d0"
+        }
+      ]
+    },
+    {
+      "version": "v1.30",
+      "releaseDate": "2026-07-14",
+      "files": [
+        {
+          "path": "{scriptsDir}/GroundShadow2_S.anm2",
+          "xxh128": "d3dd4133cea32bce75016a778d501d06"
+        }
+      ]
+    },
+    {
+      "version": "v1.31",
+      "releaseDate": "2026-07-14",
+      "files": [
+        {
+          "path": "{scriptsDir}/GroundShadow2_S.anm2",
+          "xxh128": "d1284e83860a8a0eafa261033fa11856"
+        }
+      ]
+    }
+  ]
+}

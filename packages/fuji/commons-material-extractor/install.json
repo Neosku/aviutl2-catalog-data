@@ -1,0 +1,28 @@
+{
+  "installation": {
+    "source": {
+      "type": "googleDrive",
+      "id": "1zMS8G5BB3BGy7nKac35Kece2muIzyeDD"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/commons_material_extractor.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/commons_material_extractor.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/commons_material_extractor_settings.json"
+      }
+    ]
+  }
+}

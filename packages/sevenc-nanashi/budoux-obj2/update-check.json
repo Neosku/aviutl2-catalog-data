@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "sevenc-nanashi",
+    "repo": "budoux.obj2",
+    "pattern": "^sevenc-nanashi\\.budoux-obj2-v[^/]+\\.au2pkg\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Script/budoux.mod2",
+        "Script/budoux.obj2.obj2"
+      ],
+      "recordPaths": [
+        "{scriptsDir}/budoux.mod2",
+        "{scriptsDir}/budoux.obj2.obj2"
+      ]
+    }
+  ]
+}

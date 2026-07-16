@@ -1,0 +1,154 @@
+{
+  "versions": [
+    {
+      "version": "v1.00-for-beta24a",
+      "releaseDate": "2025-12-19",
+      "files": [
+        {
+          "path": "{pluginsDir}/tl_walkaround2.aux2",
+          "xxh128": "059ff502e695afb64a4414ae6997dee6"
+        }
+      ]
+    },
+    {
+      "version": "v1.10-for-beta25",
+      "releaseDate": "2025-12-20",
+      "files": [
+        {
+          "path": "{pluginsDir}/tl_walkaround2.aux2",
+          "xxh128": "bfbb10fa69e05f37dc86934c4de16402"
+        }
+      ]
+    },
+    {
+      "version": "v1.20-for-beta25",
+      "releaseDate": "2025-12-21",
+      "files": [
+        {
+          "path": "{pluginsDir}/tl_walkaround2.aux2",
+          "xxh128": "2f2efed82e56f2cd42f294ff9d67fd7f"
+        }
+      ]
+    },
+    {
+      "version": "v1.21-for-beta25",
+      "releaseDate": "2025-12-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/tl_walkaround2.aux2",
+          "xxh128": "0060ca9297beba638480958f699950f3"
+        }
+      ]
+    },
+    {
+      "version": "v1.22-for-beta26",
+      "releaseDate": "2025-12-27",
+      "files": [
+        {
+          "path": "{pluginsDir}/tl_walkaround2.aux2",
+          "xxh128": "c5a917a476208fbb147618c94b23eef7"
+        }
+      ]
+    },
+    {
+      "version": "v1.30-for-beta39",
+      "releaseDate": "2026-04-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/tl_walkaround2.aux2",
+          "xxh128": "fc8eda88d6f5144586fa0616cfc4f3a3"
+        }
+      ]
+    },
+    {
+      "version": "v1.40-for-beta40a",
+      "releaseDate": "2026-04-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/tl_walkaround2.aux2",
+          "xxh128": "0b42519170657668d7ad3c75f5b27b73"
+        }
+      ]
+    },
+    {
+      "version": "v1.41-for-beta40a",
+      "releaseDate": "2026-04-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/tl_walkaround2.aux2",
+          "xxh128": "fb31c9d356ef81c92e92edba8ca33b7f"
+        }
+      ]
+    },
+    {
+      "version": "v1.42-for-beta47",
+      "releaseDate": "2026-05-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/tl_walkaround2.aux2",
+          "xxh128": "c29ebfe64e183618d69866b2a99bae8f"
+        }
+      ]
+    },
+    {
+      "version": "v1.50-for-beta47",
+      "releaseDate": "2026-05-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/tl_walkaround2.aux2",
+          "xxh128": "bbcb1ddcbf11f197739f3abd2d31aaca"
+        }
+      ]
+    },
+    {
+      "version": "v1.60-for-beta50",
+      "releaseDate": "2026-06-16",
+      "files": [
+        {
+          "path": "{pluginsDir}/tl_walkaround2.aux2",
+          "xxh128": "3d3b649c353ca07ace825f6debe1d37c"
+        }
+      ]
+    },
+    {
+      "version": "v1.70-for-beta53a",
+      "releaseDate": "2026-07-06",
+      "files": [
+        {
+          "path": "{pluginsDir}/tl_walkaround2.aux2",
+          "xxh128": "0438901ecae0e14d86fcacb13d6325d9"
+        }
+      ]
+    },
+    {
+      "version": "v1.80",
+      "releaseDate": "2026-07-15",
+      "files": [
+        {
+          "path": "{pluginsDir}/tl_walkaround2.aux2",
+          "xxh128": "0964b630cb4d6ebf54af18b2d9fc32ad"
+        }
+      ]
+    },
+    {
+      "version": "v1.81",
+      "releaseDate": "2026-07-15",
+      "files": [
+        {
+          "path": "{pluginsDir}/tl_walkaround2.aux2",
+          "xxh128": "2485c545e7cca36222766a9f55002ea5"
+        }
+      ]
+    },
+    {
+      "version": "v1.82",
+      "releaseDate": "2026-07-16",
+      "files": [
+        {
+          "path": "{pluginsDir}/tl_walkaround2.aux2",
+          "xxh128": "56d2f41e16452948dfcc602433546e30"
+        }
+      ]
+    }
+  ]
+}

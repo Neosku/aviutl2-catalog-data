@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "Book-0225",
+    "repo": "aviutl2_relink",
+    "pattern": "aviutl2_relink.au2pkg.zip"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Plugin/aviutl2_relink_launcher.aux2",
+        "Plugin/aviutl2_relink.exe"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/aviutl2_relink_launcher.aux2",
+        "{pluginsDir}/aviutl2_relink.exe"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v1.00-for-beta29",
+      "releaseDate": "2026-01-21",
+      "files": [
+        {
+          "path": "{scriptsDir}/@WhiteBalance_S.anm2",
+          "xxh128": "f780b96fe3690838d1944726c517245c"
+        }
+      ]
+    },
+    {
+      "version": "v1.01-for-beta51",
+      "releaseDate": "2026-06-21",
+      "files": [
+        {
+          "path": "{scriptsDir}/@WhiteBalance_S.anm2",
+          "xxh128": "1fecf5b5e9ba62d10714fb5dec7b9651"
+        }
+      ]
+    }
+  ]
+}

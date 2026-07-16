@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2025-07-12",
+      "files": [
+        {
+          "path": "{scriptsDir}/油絵KR.anm2",
+          "xxh128": "ccea6dfc64fbadbf489544beec698f57"
+        }
+      ]
+    },
+    {
+      "version": "v1.1.0",
+      "releaseDate": "2026-04-19",
+      "files": [
+        {
+          "path": "{scriptsDir}/Karoterra.OilPainting/油絵KR.anm2",
+          "xxh128": "2259401869619166f2607cc0a1df7149"
+        }
+      ]
+    }
+  ]
+}

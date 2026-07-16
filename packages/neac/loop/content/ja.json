@@ -1,0 +1,31 @@
+{
+  "name": "Loop",
+  "author": "猫愛",
+  "tags": [
+    "配置",
+    "立体",
+    "移動",
+    "パターン"
+  ],
+  "description": {
+    "summary": "個別オブジェクト化、Z方向ループ対応の高度な画像ループ系スクリプト",
+    "markdownSource": "https://raw.githubusercontent.com/nea-c/aviutl2_script_Loop/refs/heads/master/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "NeAc"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

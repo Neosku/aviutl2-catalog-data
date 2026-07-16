@@ -1,0 +1,49 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "hebiiro",
+      "repo": "al2_ui_dressing",
+      "pattern": "^al2_ui_dressing.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2_jd.aui2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/DarkenWindow.aul"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2/assets/al2_jd.json"
+      },
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2/al2_ui_dressing.aui2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2/al2_ui_dressing"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/Template/al2_ui_dressing.aul2"
+      }
+    ]
+  }
+}

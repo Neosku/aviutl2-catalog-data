@@ -1,0 +1,30 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "Victorique-Bernkastel",
+      "repo": "AviUtl2_Language",
+      "pattern": "^Korean.*\\.aul2$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}",
+        "to": "{dataDir}/Language"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/Korean.v3.3.aul2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/Korean.language.aul2"
+      }
+    ]
+  }
+}

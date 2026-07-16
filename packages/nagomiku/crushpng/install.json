@@ -1,0 +1,29 @@
+{
+  "relations": {
+    "requires": [
+      "nagomiku.nagoeffect2-mod2"
+    ]
+  },
+  "installation": {
+    "source": {
+      "type": "googleDrive",
+      "id": "1-Gwp52NHMAS_CW5CJ4cKpU6V90dlA_OB"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/CrushPNG.anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/CrushPNG.anm2"
+      }
+    ]
+  }
+}

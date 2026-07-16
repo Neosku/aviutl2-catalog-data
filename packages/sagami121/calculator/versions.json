@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "0.1",
+      "releaseDate": "2026-02-11",
+      "files": [
+        {
+          "path": "{pluginsDir}/aviutl2_calc.aux2",
+          "xxh128": "6a21912b3f08384b47837c88b43e1be0"
+        }
+      ]
+    },
+    {
+      "version": "0.2",
+      "releaseDate": "2026-02-11",
+      "files": [
+        {
+          "path": "{pluginsDir}/aviutl2_calc.aux2",
+          "xxh128": "5a788772aa35e8a3f82d63a047f5b75b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "karoterra",
+      "repo": "aviutl2-ColorVisionSimulation",
+      "pattern": "^Karoterra.ColorVisionSimulation-v.*.au2pkg.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/色覚シミュレーションKR.anm2"
+      },
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/Karoterra.ColorVisionSimulation/LICENSE",
+        "to": "{scriptsDir}/Karoterra.ColorVisionSimulation"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/Karoterra.ColorVisionSimulation/README.md",
+        "to": "{scriptsDir}/Karoterra.ColorVisionSimulation"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/Karoterra.ColorVisionSimulation/色覚シミュレーションKR.anm2",
+        "to": "{scriptsDir}/Karoterra.ColorVisionSimulation"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/色覚シミュレーションKR.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/Karoterra.ColorVisionSimulation/LICENSE"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/Karoterra.ColorVisionSimulation/README.md"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/Karoterra.ColorVisionSimulation/色覚シミュレーションKR.anm2"
+      }
+    ]
+  }
+}

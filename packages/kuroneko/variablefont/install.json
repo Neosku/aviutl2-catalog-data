@@ -1,0 +1,122 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "rokujyushi",
+      "repo": "Variable-Font-Plug-ins",
+      "pattern": "^VariableFont-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VariableFont.auf2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VariableFont.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VariableFontDoc/"
+      },
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/GCMZDrops/GCMZScript/VariableFont.ini",
+        "to": "{pluginsDir}/GCMZDrops/GCMZScript"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/GCMZDrops/GCMZScript/VariableFont.lua",
+        "to": "{pluginsDir}/GCMZDrops/GCMZScript"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/VariableFont/LICENSE",
+        "to": "{pluginsDir}/VariableFont"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/VariableFont/README.md",
+        "to": "{pluginsDir}/VariableFont"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/VariableFont/VariableFont.aux2",
+        "to": "{pluginsDir}/VariableFont"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/VariableFont/Variable Font Object.obj2",
+        "to": "{scriptsDir}/VariableFont"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/VariableFont/VariableFont.ini",
+        "to": "{scriptsDir}/VariableFont"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/VariableFont/VariableFontModule.mod2",
+        "to": "{scriptsDir}/VariableFont"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/English.VariableFont.aul2",
+        "to": "{dataDir}/Language"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/简体中文.VariableFont.aul2",
+        "to": "{dataDir}/Language"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/GCMZDrops/GCMZScript/VariableFont.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/GCMZDrops/GCMZScript/VariableFont.lua"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VariableFont/LICENSE"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VariableFont/README.md"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/VariableFont/VariableFont.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/VariableFont/Variable Font Object.obj2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/VariableFont/VariableFont.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/VariableFont/VariableFontModule.mod2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.VariableFont.aul2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/简体中文.VariableFont.aul2"
+      }
+    ]
+  }
+}

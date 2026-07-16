@@ -1,0 +1,104 @@
+{
+  "versions": [
+    {
+      "version": "v0.0.0",
+      "releaseDate": "2026-03-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/resize_ks.auf2",
+          "xxh128": "11b90bff9c91a495bf0535786d32c3f0"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.1",
+      "releaseDate": "2026-03-17",
+      "files": [
+        {
+          "path": "{pluginsDir}/resize_ks.auf2",
+          "xxh128": "fb30b6c7b359ef5e7b9333c7c1e9aa27"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.2",
+      "releaseDate": "2026-03-23",
+      "files": [
+        {
+          "path": "{pluginsDir}/resize_ks.auf2",
+          "xxh128": "41f32bbfb4e3fee862ff2cbd22e1fff6"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.3",
+      "releaseDate": "2026-04-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/resize_ks.auf2",
+          "xxh128": "9d4c30c768413229d9621558524ea154"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.4",
+      "releaseDate": "2026-04-03",
+      "files": [
+        {
+          "path": "{pluginsDir}/resize_ks.auf2",
+          "xxh128": "46601b053806624bc5a5a3ed7210935e"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.5",
+      "releaseDate": "2026-04-03",
+      "files": [
+        {
+          "path": "{pluginsDir}/resize_ks.auf2",
+          "xxh128": "e1c5067a1e195b0bc26b55271eb48e03"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.6",
+      "releaseDate": "2026-04-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/resize_ks.auf2",
+          "xxh128": "c3288e599a0d7686d392ac0a2fe8498c"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.7",
+      "releaseDate": "2026-04-22",
+      "files": [
+        {
+          "path": "{pluginsDir}/resize_ks.auf2",
+          "xxh128": "ebd269422bd6811489445b71ddbfaa16"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.8",
+      "releaseDate": "2026-05-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/resize_ks.auf2",
+          "xxh128": "4dab724164dc6ba62585f2c795321c08"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.9",
+      "releaseDate": "2026-07-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/resize_ks.auf2",
+          "xxh128": "8ce788f34a3a71feb9c393fa6aac0f2a"
+        }
+      ]
+    }
+  ]
+}

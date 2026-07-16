@@ -1,0 +1,23 @@
+{
+  "name": "TextEditor",
+  "author": "なたのこ",
+  "tags": [
+    "便利ツール",
+    "テキスト"
+  ],
+  "description": {
+    "summary": "テキストの文字ごとにサイズ・フォント・色などを個別に設定できるエディタ",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "なたのこ"
+        }
+      ]
+    }
+  ]
+}

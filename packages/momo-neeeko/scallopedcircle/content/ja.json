@@ -1,0 +1,29 @@
+{
+  "name": "スカラップ円",
+  "author": "もも猫",
+  "tags": [
+    "カスタムオブジェクト",
+    "図形"
+  ],
+  "description": {
+    "summary": "スカラップ円のカスタムオブジェクト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "もも猫"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

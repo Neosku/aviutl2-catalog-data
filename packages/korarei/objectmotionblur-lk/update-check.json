@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "korarei",
+    "repo": "AviUtl2_ObjectMotionBlur_LK_Script",
+    "pattern": "^ObjectMotionBlur_LK\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "ObjectMotionBlur_LK/ObjectMotionBlur_LK.anm2"
+      ],
+      "recordPaths": [
+        "{scriptsDir}/ObjectMotionBlur_LK.anm2"
+      ]
+    }
+  ]
+}

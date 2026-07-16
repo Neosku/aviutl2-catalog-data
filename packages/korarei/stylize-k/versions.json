@@ -1,0 +1,44 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2025-07-21",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Stylize_K.anm2",
+          "xxh128": "aabf01998d239db7b1eb855e58f6e44a"
+        }
+      ]
+    },
+    {
+      "version": "v1.1.0",
+      "releaseDate": "2025-07-24",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Stylize_K.anm2",
+          "xxh128": "382f090d8a37d6a144511c9a587247b0"
+        }
+      ]
+    },
+    {
+      "version": "v1.2.0",
+      "releaseDate": "2025-08-19",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Stylize_K.anm2",
+          "xxh128": "2f2af77784fda2835620c3a9bee2eeaa"
+        }
+      ]
+    },
+    {
+      "version": "v1.2.1",
+      "releaseDate": "2026-01-29",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Stylize_K.anm2",
+          "xxh128": "e8a961840190111b67f17151b7fd0370"
+        }
+      ]
+    }
+  ]
+}

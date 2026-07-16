@@ -1,0 +1,84 @@
+{
+  "versions": [
+    {
+      "version": "v2.0.1",
+      "releaseDate": "2026-02-12",
+      "files": [
+        {
+          "path": "{pluginsDir}/fzgx_smr_ks.auo2",
+          "xxh128": "35b0796445208b13bd3f1a71567d1600"
+        }
+      ]
+    },
+    {
+      "version": "v2.0.2",
+      "releaseDate": "2026-03-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/fzgx_smr_ks.auo2",
+          "xxh128": "54315a9f8eaac4efc1b7d4940197537b"
+        }
+      ]
+    },
+    {
+      "version": "v2.0.3",
+      "releaseDate": "2026-03-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/fzgx_smr_ks.auo2",
+          "xxh128": "6ede1729ff379282caad9d028179f1c3"
+        }
+      ]
+    },
+    {
+      "version": "v2.0.4",
+      "releaseDate": "2026-04-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/fzgx_smr_ks.auo2",
+          "xxh128": "9e7e52b5df6020ef0428e52ec446484b"
+        }
+      ]
+    },
+    {
+      "version": "v2.0.5",
+      "releaseDate": "2026-04-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/fzgx_smr_ks.auo2",
+          "xxh128": "add5de580bf7f833636a13bab8053a81"
+        }
+      ]
+    },
+    {
+      "version": "v2.0.6",
+      "releaseDate": "2026-05-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/fzgx_smr_ks.auo2",
+          "xxh128": "62d48ef3a5dcc5a911aac9fd7d374f27"
+        }
+      ]
+    },
+    {
+      "version": "v2.0.7",
+      "releaseDate": "2026-05-13",
+      "files": [
+        {
+          "path": "{pluginsDir}/fzgx_smr_ks.auo2",
+          "xxh128": "69f1188fee38c0ecaa7738a69ea2c4ce"
+        }
+      ]
+    },
+    {
+      "version": "v2.0.8",
+      "releaseDate": "2026-07-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/fzgx_smr_ks.auo2",
+          "xxh128": "93a8cc7c100b89e143b18a0874243953"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Exposure",
+  "author": "こんにゃくねこ",
+  "tags": [
+    "色調整"
+  ],
+  "description": {
+    "summary": "露出・ガンマ・オフセットの補正をかける",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ]
+}

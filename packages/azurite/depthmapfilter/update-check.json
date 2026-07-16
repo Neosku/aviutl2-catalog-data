@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "azurite581",
+    "repo": "AviUtl2-DepthMapFilter",
+    "pattern": "^DepthMapFilter-v.*\\.au2pkg\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Plugin/DepthMapFilter/DepthMapFilter.auf2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/DepthMapFilter/DepthMapFilter.auf2"
+      ]
+    }
+  ]
+}

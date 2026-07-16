@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "beive60",
+      "repo": "aviutl2-alias-inserter",
+      "pattern": "^aviutl2-alias-inserter-v(?<version>\\d\\.\\d\\.\\d)\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/alias_inserter_cli.exe",
+        "to": "{pluginsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/aviutl2_alias_inserter.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/aviutl2_alias_inserter.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/alias_inserter_cli.exe"
+      }
+    ]
+  }
+}

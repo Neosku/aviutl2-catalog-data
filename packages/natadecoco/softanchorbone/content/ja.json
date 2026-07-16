@@ -1,0 +1,22 @@
+{
+  "name": "SoftAnchorBone",
+  "author": "なたのこ",
+  "tags": [
+    "アニメーション"
+  ],
+  "description": {
+    "summary": "AviUtl2用の、3点アンカーで髪や服を揺らす軽量ボーン風スクリプト",
+    "markdownSource": "https://raw.githubusercontent.com/Natadecoco2539/AviUtl2-SoftAnchorBone/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "なたのこ"
+        }
+      ]
+    }
+  ]
+}

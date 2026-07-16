@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.1",
+      "releaseDate": "2025-12-01",
+      "files": [
+        {
+          "path": "{scriptsDir}/BPMエフェクトトグル.anm2",
+          "xxh128": "1a99d878cfdc9741d45a454503368234"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.1",
+      "releaseDate": "2026-01-29",
+      "files": [
+        {
+          "path": "{scriptsDir}/BPMエフェクトトグル.anm2",
+          "xxh128": "4ee3d962bd548ff75add6810f57b26b3"
+        }
+      ]
+    }
+  ]
+}

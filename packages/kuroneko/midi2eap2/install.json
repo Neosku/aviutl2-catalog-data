@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "rokujyushi",
+      "repo": "GCMZScripts",
+      "pattern": "midi2EAP2\\.zip"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}\\midi2EAP2\\midi2EAP2.lua",
+        "to": "{pluginsDir}\\GCMZDrops\\GCMZScript"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}\\midi2EAP2\\midi.lua",
+        "to": "{pluginsDir}\\GCMZDrops\\GCMZScript"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}\\GCMZDrops\\GCMZScript\\midi2EAP2.lua"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}\\GCMZDrops\\GCMZScript\\midi.lua"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "BPMグリッド倍化",
+  "author": "Garech",
+  "tags": [
+    "BPM",
+    "便利ツール",
+    "ショートカット"
+  ],
+  "description": {
+    "summary": "グリッドの設定のBPM値を倍々に変化&BPM測定",
+    "markdownSource": "https://raw.githubusercontent.com/Garech-mas/DoubleBPMGrid/refs/heads/master/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Garech"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

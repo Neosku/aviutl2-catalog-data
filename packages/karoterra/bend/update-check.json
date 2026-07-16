@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "karoterra",
+    "repo": "aviutl2-Bend",
+    "pattern": "^aviutl2-Bend_.*\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "@曲げKR.anm2"
+      ],
+      "recordPaths": [
+        "{scriptsDir}/@曲げKR.anm2"
+      ]
+    }
+  ]
+}

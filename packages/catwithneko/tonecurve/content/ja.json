@@ -1,0 +1,17 @@
+{
+  "name": "Tonecurve_C",
+  "author": "こんにゃくねこ",
+  "tags": [
+    "色調整",
+    "画像"
+  ],
+  "description": {
+    "summary": "時間制御のカーブエディタを利用したトーンカーブスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ]
+}

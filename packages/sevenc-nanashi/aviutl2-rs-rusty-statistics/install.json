@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sevenc-nanashi",
+      "repo": "aviutl2-rs",
+      "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/rusty_statistics.auo2",
+        "to": "{pluginsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/English.rusty_statistics_output.aul2",
+        "to": "{dataDir}/Language"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/rusty_statistics.auo2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.rusty_statistics_output.aul2"
+      }
+    ]
+  }
+}

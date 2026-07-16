@@ -1,0 +1,34 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "nkopikaso",
+      "repo": "AviUtl2-WhisperAutoSub",
+      "pattern": "WhisperAutoSub.aux2"
+    },
+    "installSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/whisper_subtitle.aux2"
+      },
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/WhisperAutoSub.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/whisper_subtitle.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/WhisperAutoSub.aux2"
+      }
+    ]
+  }
+}

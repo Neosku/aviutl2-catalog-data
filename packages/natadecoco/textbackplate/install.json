@@ -1,0 +1,26 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "Natadecoco2539",
+      "repo": "AviUtl2-TextBackplate",
+      "pattern": "TextBackplate.anm2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/TextBackplate.anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/TextBackplate.anm2"
+      }
+    ]
+  }
+}

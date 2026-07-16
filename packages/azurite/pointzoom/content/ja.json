@@ -1,0 +1,23 @@
+{
+  "name": "ポイントズーム",
+  "author": "azurite",
+  "tags": [],
+  "description": {
+    "summary": "指定したポイントにズームするスクリプト",
+    "markdownSource": "https://raw.githubusercontent.com/azurite581/AviUtl2-PointZoom/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "azurite"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp"
+  }
+}

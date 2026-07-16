@@ -1,0 +1,31 @@
+{
+  "name": "Tile_S",
+  "author": "σ軸",
+  "tags": [
+    "図形",
+    "パターン",
+    "背景素材",
+    "角丸"
+  ],
+  "description": {
+    "summary": "規則的なパターン模様を生成し、背景や装飾として利用できるスクリプト",
+    "markdownSource": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Tile_S/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025-2026",
+          "holder": "sigma-axis"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "Natadecoco2539",
+      "repo": "AviUtl2-MyAssetManager",
+      "pattern": "MyAssetManager.aux2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/MyAssetManager.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/MyAssetManager.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/MyAssetConfig.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/MyAssetFavorites.txt"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/MyAssetFixed.txt"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/MyAssetTextStyle.txt"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/MyAssetMeta.json"
+      }
+    ]
+  }
+}

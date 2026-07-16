@@ -1,0 +1,22 @@
+{
+  "name": "L-SMASH-Works",
+  "author": "Mr-Ojii",
+  "tags": [
+    "必須"
+  ],
+  "description": {
+    "summary": "幅広い形式の動画・音声ファイルを読み込めるようにする入力プラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2021",
+          "holder": "Mr-Ojii"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "aviutl2-audio-rec",
+  "author": "Beive60",
+  "originalAuthor": "Beive60",
+  "tags": [
+    "音声"
+  ],
+  "description": {
+    "summary": "録音してwavファイルに保存してタイムラインに挿入",
+    "markdownSource": "https://raw.githubusercontent.com/beive60/aviutl2-audio-rec/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "Beive60"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

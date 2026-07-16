@@ -1,0 +1,45 @@
+{
+  "installation": {
+    "source": {
+      "type": "booth",
+      "url": "https://booth.pm/downloadables/8831439?_gl=1*2xntyu*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3Nzc2MjM5MzYkbzMyJGcxJHQxNzc3NjI0NDAwJGoyOSRsMCRoMA.."
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/v1.8/時間制御N.aux2",
+        "to": "{pluginsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/v1.8/時間制御N.mod2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/v1.8/時間制御N.tra2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/時間制御N.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/時間制御N.mod2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/時間制御N.tra2"
+      }
+    ]
+  }
+}

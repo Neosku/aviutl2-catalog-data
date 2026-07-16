@@ -1,0 +1,23 @@
+{
+  "name": "Rusty Chiptune Filter",
+  "author": "Nanashi.",
+  "tags": [
+    "音声",
+    "エフェクト"
+  ],
+  "description": {
+    "summary": "チップチューンで使われるような音を実装するプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/chiptune-filter/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Nanashi. <sevenc7c.com>"
+        }
+      ]
+    }
+  ]
+}

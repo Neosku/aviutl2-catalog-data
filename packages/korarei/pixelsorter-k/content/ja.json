@@ -1,0 +1,28 @@
+{
+  "name": "PixelSorter_K",
+  "author": "Korarei",
+  "tags": [
+    "グリッチ",
+    "ピクセルソート",
+    "エフェクト",
+    "ノイズ"
+  ],
+  "description": {
+    "summary": "範囲とソート対象を指定できるピクセルソートスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Korarei"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.jpg"
+  }
+}

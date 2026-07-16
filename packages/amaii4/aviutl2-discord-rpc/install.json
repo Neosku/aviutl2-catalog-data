@@ -1,0 +1,30 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "amaii4",
+      "repo": "AviUtl2_Discord_RPC",
+      "pattern": "^DiscordRPC.aux2$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/DiscordRPC.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/DiscordRPC.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/DiscordRPC.aui2"
+      }
+    ]
+  }
+}

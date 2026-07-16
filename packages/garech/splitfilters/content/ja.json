@@ -1,0 +1,27 @@
+{
+  "name": "フィルタ分離",
+  "author": "Garech",
+  "tags": [
+    "オブジェクト操作"
+  ],
+  "description": {
+    "summary": "オブジェクト上のフィルタ効果群を個別オブジェクト化するプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/Garech-mas/AviUtl2_SplitFilters/refs/heads/master/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Garech"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

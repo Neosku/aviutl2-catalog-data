@@ -1,0 +1,29 @@
+{
+  "name": "ImageCropExport",
+  "author": "azurite",
+  "tags": [
+    "画像",
+    "切り抜き"
+  ],
+  "description": {
+    "summary": "現在フレームの一部を切り抜いて画像として出力する出力プラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "azurite"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

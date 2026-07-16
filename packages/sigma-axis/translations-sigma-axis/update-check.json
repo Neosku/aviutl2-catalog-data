@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "sigma-axis",
+    "repo": "aviutl2_translations_sigma-axis",
+    "pattern": "^aviutl2_translations_sigma-axis.*\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Language/English.sigma-axis.aul2"
+      ],
+      "recordPaths": [
+        "{dataDir}/Language/English.sigma-axis.aul2"
+      ]
+    }
+  ]
+}

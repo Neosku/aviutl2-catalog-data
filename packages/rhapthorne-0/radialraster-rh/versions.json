@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2026-01-09",
+      "files": [
+        {
+          "path": "{scriptsDir}/放射ラスター_Rh.anm2",
+          "xxh128": "92cf825fdb1c3b85fa67ada3ff9b4276"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2026-01-29",
+      "files": [
+        {
+          "path": "{scriptsDir}/放射ラスター_Rh.anm2",
+          "xxh128": "f2e6a32323f7702c0abcae1eed5dbe1d"
+        }
+      ]
+    }
+  ]
+}

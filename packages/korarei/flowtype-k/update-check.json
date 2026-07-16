@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "korarei",
+    "repo": "AviUtl2_FlowType_K_Script",
+    "pattern": "^FlowType_K.*\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Script/FlowType_K/@FlowType_K.anm2"
+      ],
+      "recordPaths": [
+        "{scriptsDir}/FlowType_K/@FlowType_K.anm2"
+      ]
+    }
+  ]
+}

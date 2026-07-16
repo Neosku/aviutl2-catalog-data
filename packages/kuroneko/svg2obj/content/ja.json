@@ -1,0 +1,26 @@
+{
+  "name": "svg2obj",
+  "author": "黒猫大福",
+  "tags": [
+    "便利ツール",
+    "画像"
+  ],
+  "description": {
+    "summary": "SVGファイルをD&Dで利用できるようになるスクリプト（svg.aux2が必要）",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "rokujyushi"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

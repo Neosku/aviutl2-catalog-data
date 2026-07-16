@@ -1,0 +1,23 @@
+{
+  "name": "Rusty Pixel Sort Filter",
+  "author": "Nanashi.",
+  "tags": [
+    "ピクセルソート",
+    "グリッチ"
+  ],
+  "description": {
+    "summary": "ピクセルソートを行うプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/pixelsort-filter/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Nanashi. <sevenc7c.com>"
+        }
+      ]
+    }
+  ]
+}

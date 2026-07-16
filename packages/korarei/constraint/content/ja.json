@@ -1,0 +1,21 @@
+{
+  "name": "Constraint",
+  "author": "Korarei",
+  "tags": [
+    "テキスト",
+    "配置",
+    "画像"
+  ],
+  "description": {
+    "summary": "テキストの横にアイコン画像を表示",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp"
+  }
+}

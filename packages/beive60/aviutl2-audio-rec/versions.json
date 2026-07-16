@@ -1,0 +1,44 @@
+{
+  "versions": [
+    {
+      "version": "v0.1.0",
+      "releaseDate": "2026-05-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/aviutl2_audio_rec.aux2",
+          "xxh128": "507db7db1fdefb8e6392e6e8be1f3ab5"
+        }
+      ]
+    },
+    {
+      "version": "v0.2.0",
+      "releaseDate": "2026-05-09",
+      "files": [
+        {
+          "path": "{pluginsDir}/aviutl2_audio_rec.aux2",
+          "xxh128": "f1ed31ac0caa3dfa6b50be321c4ea5db"
+        }
+      ]
+    },
+    {
+      "version": "v0.3.0",
+      "releaseDate": "2026-05-13",
+      "files": [
+        {
+          "path": "{pluginsDir}/aviutl2_audio_rec.aux2",
+          "xxh128": "5a240b80200ab8ae4741058d26664533"
+        }
+      ]
+    },
+    {
+      "version": "v0.3.1",
+      "releaseDate": "2026-05-18",
+      "files": [
+        {
+          "path": "{pluginsDir}/aviutl2_audio_rec.aux2",
+          "xxh128": "bb382afe8656676d87766e022d1d18a8"
+        }
+      ]
+    }
+  ]
+}

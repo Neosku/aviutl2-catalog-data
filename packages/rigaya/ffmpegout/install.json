@@ -1,0 +1,48 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "rigaya",
+      "repo": "ffmpegOut",
+      "pattern": "^Aviutl2_ffmpegOut.*install\\.exe$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extractSfx"
+      },
+      {
+        "action": "runAuoSetup",
+        "path": "{tmp}/Plugin/exe_files/auo_setup2.exe"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/ffmpegOut.auo2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/ffmpegOut.conf"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/ffmpegOut.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/ffmpegOut.en.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/ffmpegOut.zh.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/ffmpegOut_stg/"
+      }
+    ]
+  }
+}

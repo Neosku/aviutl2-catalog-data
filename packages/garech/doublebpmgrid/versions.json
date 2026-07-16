@@ -1,0 +1,54 @@
+{
+  "versions": [
+    {
+      "version": "v2.2-aul2",
+      "releaseDate": "2026-02-03",
+      "files": [
+        {
+          "path": "{pluginsDir}/DoubleBPMGrid.aux2",
+          "xxh128": "4b68af4ef3f0c5beef061232bd593b89"
+        }
+      ]
+    },
+    {
+      "version": "v2.3-aul2",
+      "releaseDate": "2026-03-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/DoubleBPMGrid.aux2",
+          "xxh128": "2744033b24dafdfbfcb27cc0bafb526b"
+        }
+      ]
+    },
+    {
+      "version": "v2.4-aul2",
+      "releaseDate": "2026-04-06",
+      "files": [
+        {
+          "path": "{pluginsDir}/DoubleBPMGrid.aux2",
+          "xxh128": "63d165d76b3edfeefc4ee69b15533659"
+        }
+      ]
+    },
+    {
+      "version": "v2.5-aul2",
+      "releaseDate": "2026-05-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/DoubleBPMGrid.aux2",
+          "xxh128": "3038d903b1b866c8c1cb6d443b36f0fc"
+        }
+      ]
+    },
+    {
+      "version": "v2.10-aul2",
+      "releaseDate": "2026-07-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/DoubleBPMGrid.aux2",
+          "xxh128": "a2283077582e60d8c68dbc5b65027fbc"
+        }
+      ]
+    }
+  ]
+}

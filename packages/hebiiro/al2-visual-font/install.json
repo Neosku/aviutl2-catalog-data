@@ -1,0 +1,57 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "hebiiro",
+      "repo": "al2_visual_font",
+      "pattern": "^al2_visual_font.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2_jd.aui2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/DarkenWindow.aul"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2/assets/al2_jd.json"
+      },
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2_visual_font.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2/al2_visual_font.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2/al2_visual_font.aui2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2/al2_visual_font"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/template.al2_visual_font.aul2"
+      }
+    ]
+  }
+}

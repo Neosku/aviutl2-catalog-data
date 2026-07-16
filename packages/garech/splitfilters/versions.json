@@ -1,0 +1,84 @@
+{
+  "versions": [
+    {
+      "version": "v1.00",
+      "releaseDate": "2025-12-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/SplitFilters.aux2",
+          "xxh128": "d39e918d65f9260fdf12b46c9d7d8083"
+        }
+      ]
+    },
+    {
+      "version": "v1.01",
+      "releaseDate": "2025-12-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/SplitFilters.aux2",
+          "xxh128": "cf25f13f9406be091dad3eb372843453"
+        }
+      ]
+    },
+    {
+      "version": "v1.02",
+      "releaseDate": "2025-12-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/SplitFilters.aux2",
+          "xxh128": "229aa8c3b69c3638a2de8f9e95fae720"
+        }
+      ]
+    },
+    {
+      "version": "v1.03",
+      "releaseDate": "2026-02-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/SplitFilters.aux2",
+          "xxh128": "7cab4d233e3ddd40bc02a86741eb74d7"
+        }
+      ]
+    },
+    {
+      "version": "v1.04",
+      "releaseDate": "2026-02-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/SplitFilters.aux2",
+          "xxh128": "db1a6f550a26396ec4d123a0c715e737"
+        }
+      ]
+    },
+    {
+      "version": "v1.05",
+      "releaseDate": "2026-02-15",
+      "files": [
+        {
+          "path": "{pluginsDir}/SplitFilters.aux2",
+          "xxh128": "2212ce7e14f23f08c249fe6c52505db0"
+        }
+      ]
+    },
+    {
+      "version": "v1.06",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/SplitFilters.aux2",
+          "xxh128": "863e00ad162043809511b42f2940e634"
+        }
+      ]
+    },
+    {
+      "version": "v1.07",
+      "releaseDate": "2026-04-12",
+      "files": [
+        {
+          "path": "{pluginsDir}/SplitFilters.aux2",
+          "xxh128": "ab9b6fa1e784f7a5700363123a23942e"
+        }
+      ]
+    }
+  ]
+}

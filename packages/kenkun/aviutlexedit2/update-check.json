@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "webPage",
+    "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
+    "assetPattern": "aviutl2_(v[0-9]+(?:\\.[0-9]+)+)\\.zip",
+    "versionExtractPattern": "v[0-9]+(?:\\.[0-9]+)+",
+    "downloadUrlTemplate": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2_[version_extract]_setup.exe"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "aviutl2.exe"
+      ],
+      "recordPaths": [
+        "{appDir}/aviutl2.exe"
+      ]
+    }
+  ]
+}

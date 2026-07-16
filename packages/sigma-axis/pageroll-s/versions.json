@@ -1,0 +1,54 @@
+{
+  "versions": [
+    {
+      "version": "v1.00-for-beta12",
+      "releaseDate": "2025-09-25",
+      "files": [
+        {
+          "path": "{scriptsDir}/PageRoll_S.anm2",
+          "xxh128": "906b19dd7a3e46d7fa3c659621f7eb88"
+        }
+      ]
+    },
+    {
+      "version": "v1.10-for-beta13",
+      "releaseDate": "2025-10-04",
+      "files": [
+        {
+          "path": "{scriptsDir}/PageRoll_S.anm2",
+          "xxh128": "4221317ddaf23f7447a30bfbf0f6e824"
+        }
+      ]
+    },
+    {
+      "version": "v1.11-for-beta22a",
+      "releaseDate": "2025-12-06",
+      "files": [
+        {
+          "path": "{scriptsDir}/PageRoll_S.anm2",
+          "xxh128": "0ad797ba2494b91c70bfb9bccd11dc4f"
+        }
+      ]
+    },
+    {
+      "version": "v1.12-for-beta25",
+      "releaseDate": "2025-12-22",
+      "files": [
+        {
+          "path": "{scriptsDir}/PageRoll_S.anm2",
+          "xxh128": "93ff295982ee5790d6e563b9ded9ac3f"
+        }
+      ]
+    },
+    {
+      "version": "v1.20-for-beta51",
+      "releaseDate": "2026-06-24",
+      "files": [
+        {
+          "path": "{scriptsDir}/PageRoll_S.anm2",
+          "xxh128": "61b91dc109ac3e096df7297a3cacc192"
+        }
+      ]
+    }
+  ]
+}

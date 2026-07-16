@@ -1,0 +1,26 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "Natadecoco2539",
+      "repo": "AviUtl2-TextSplitter",
+      "pattern": "TextSplitter.aux2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/TextSplitter.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/TextSplitter.aux2"
+      }
+    ]
+  }
+}

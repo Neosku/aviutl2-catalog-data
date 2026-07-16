@@ -1,0 +1,34 @@
+{
+  "versions": [
+    {
+      "version": "0.1.0",
+      "releaseDate": "2026-05-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/Karoterra.Typst/typst_kr.aux2",
+          "xxh128": "7e214123797473b01b1d82ff885acefa"
+        }
+      ]
+    },
+    {
+      "version": "v0.1.1",
+      "releaseDate": "2026-05-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/Karoterra.Typst/typst_kr.aux2",
+          "xxh128": "29d3d99cf1643d16280dd23afb4b90da"
+        }
+      ]
+    },
+    {
+      "version": "v0.2.0",
+      "releaseDate": "2026-06-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/Karoterra.Typst/typst_kr.aux2",
+          "xxh128": "ed54ceb387cd9d86d0a9eb6b09bfba19"
+        }
+      ]
+    }
+  ]
+}

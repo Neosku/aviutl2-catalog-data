@@ -1,0 +1,34 @@
+{
+  "versions": [
+    {
+      "version": "0.1.0",
+      "releaseDate": "2026-02-21",
+      "files": [
+        {
+          "path": "{pluginsDir}/CopyAlias.aux2",
+          "xxh128": "7932d43226e2a89fd5fef5c6adeaa864"
+        }
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/CopyAlias.aux2",
+          "xxh128": "5f35e3c75f3e2cf01c539bb09b4b8f95"
+        }
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "releaseDate": "2026-02-25",
+      "files": [
+        {
+          "path": "{pluginsDir}/CopyAlias.aux2",
+          "xxh128": "700b3e8ad9d6b1740be42fcbd33f72f1"
+        }
+      ]
+    }
+  ]
+}

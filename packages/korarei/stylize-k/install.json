@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "korarei",
+      "repo": "AviUtl2_Stylize_K_Script",
+      "pattern": "^@Stylize_K.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/@Stylize_K/@Stylize_K.anm2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/@Stylize_K/map_data",
+        "to": "{scriptsDir}/map_data"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/@Stylize_K.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/map_data/"
+      }
+    ]
+  }
+}

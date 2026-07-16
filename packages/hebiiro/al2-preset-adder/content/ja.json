@@ -1,0 +1,25 @@
+{
+  "name": "プリセット追加MOD",
+  "author": "蛇色",
+  "tags": [
+    "UI"
+  ],
+  "description": {
+    "summary": "一部のダイアログにプリセットを追加するプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/hebiiro/al2_preset_adder/refs/heads/master/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "hebiiro"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

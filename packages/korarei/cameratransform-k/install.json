@@ -1,0 +1,99 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "korarei",
+      "repo": "AviUtl2_CameraTransform_K_Script",
+      "pattern": "CameraTransform_K.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/@CameraTransform_K.cam2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/CameraTransform_K.mod2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/CameraTransform_K.dll"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/@CameraTransform_K"
+      },
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/CameraTransform_K/@CameraTransform_K.anm2",
+        "to": "{scriptsDir}/CameraTransform_K"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/CameraTransform_K/@CameraTransform_K.cam2",
+        "to": "{scriptsDir}/CameraTransform_K"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/CameraTransform_K/CameraTransform_K.mod2",
+        "to": "{scriptsDir}/CameraTransform_K"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/CameraTransform_K/CHANGELOG.md",
+        "to": "{scriptsDir}/CameraTransform_K"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/CameraTransform_K/LICENSE",
+        "to": "{scriptsDir}/CameraTransform_K"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/CameraTransform_K/README.md",
+        "to": "{scriptsDir}/CameraTransform_K"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/CameraTransform_K/THIRD_PARTY_LICENSES.md",
+        "to": "{scriptsDir}/CameraTransform_K"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/CameraTransform_K/@CameraTransform_K.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/CameraTransform_K/@CameraTransform_K.cam2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/CameraTransform_K/CameraTransform_K.mod2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/CameraTransform_K/CHANGELOG.md"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/CameraTransform_K/LICENSE"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/CameraTransform_K/README.md"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/CameraTransform_K/THIRD_PARTY_LICENSES.md"
+      }
+    ]
+  }
+}

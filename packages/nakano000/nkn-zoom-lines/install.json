@@ -1,0 +1,24 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://github.com/nakano000/AviUtl2_Scripts/raw/refs/heads/main/NKN%E9%9B%86%E4%B8%AD%E7%B7%9A.obj2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/NKN集中線.obj2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/NKN集中線.obj2"
+      }
+    ]
+  }
+}

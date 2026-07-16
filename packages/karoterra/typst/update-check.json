@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "karoterra",
+    "repo": "aviutl2-typst",
+    "pattern": "^Karoterra\\.Typst-v.*\\.au2pkg\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Plugin/Karoterra.Typst/typst_kr.aux2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/Karoterra.Typst/typst_kr.aux2"
+      ]
+    }
+  ]
+}

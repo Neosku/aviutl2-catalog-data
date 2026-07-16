@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "sigma-axis",
+    "repo": "aviutl2_script_Basic_S",
+    "pattern": "^aviutl2_script_Basic_S.*\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Script/@Basic_S.anm2"
+      ],
+      "recordPaths": [
+        "{scriptsDir}/@Basic_S.anm2"
+      ]
+    }
+  ]
+}

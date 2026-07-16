@@ -1,0 +1,23 @@
+{
+  "name": "SMR for F-ZERO GX",
+  "author": "KAZOON",
+  "tags": [],
+  "description": {
+    "summary": "F-ZERO GX のスピードメータ指示値をテキスト化するプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/cycloawaodorin/fzgx_smr_ks/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "KAZOON"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

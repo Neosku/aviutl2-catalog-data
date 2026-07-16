@@ -1,0 +1,22 @@
+{
+  "name": "出力先トースト通知プラグイン",
+  "author": "namarium",
+  "tags": [
+    "UI"
+  ],
+  "description": {
+    "summary": "出力先を開くボタン付きのトースト通知を表示するプラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "namarium"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2025-12-21",
+      "files": [
+        {
+          "path": "{pluginsDir}/ColorLUT_K.aux2",
+          "xxh128": "c5a3df3c3e64ea3b1145e3d9dd084fa3"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.1",
+      "releaseDate": "2025-12-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/ColorLUT_K.aux2",
+          "xxh128": "a406f8d4591311fe485fb4562ef9d639"
+        }
+      ]
+    },
+    {
+      "version": "v1.1.0",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/ColorLUT_K/ColorLUT_K.aux2",
+          "xxh128": "12d8db7ec640521eea79f9ce2caa82c9"
+        }
+      ]
+    },
+    {
+      "version": "v1.2.0",
+      "releaseDate": "2026-03-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/ColorLUT_K/ColorLUT_K.aux2",
+          "xxh128": "c7d42a84be7f80bf25d5fd743e82457f"
+        }
+      ]
+    },
+    {
+      "version": "v1.3.0",
+      "releaseDate": "2026-04-18",
+      "files": [
+        {
+          "path": "{pluginsDir}/ColorLUT_K/ColorLUT_K.aux2",
+          "xxh128": "b603473f3eb0e9e6d8dc10513b2b5f49"
+        }
+      ]
+    },
+    {
+      "version": "v1.3.1",
+      "releaseDate": "2026-05-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/ColorLUT_K/ColorLUT_K.aux2",
+          "xxh128": "28002fcec6f5a25e780fa022dfc2c640"
+        }
+      ]
+    },
+    {
+      "version": "v1.4.0",
+      "releaseDate": "2026-06-22",
+      "files": [
+        {
+          "path": "{pluginsDir}/ColorLUT_K/ColorLUT_K.aux2",
+          "xxh128": "c801b6d05086c5737f3b1db4fe57baf1"
+        }
+      ]
+    },
+    {
+      "version": "v1.4.1",
+      "releaseDate": "2026-06-23",
+      "files": [
+        {
+          "path": "{pluginsDir}/ColorLUT_K/ColorLUT_K.aux2",
+          "xxh128": "1dbbd0648d02d1b5df098fa2f2390208"
+        }
+      ]
+    }
+  ]
+}

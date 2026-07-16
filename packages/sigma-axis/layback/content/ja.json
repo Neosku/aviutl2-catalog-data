@@ -1,0 +1,23 @@
+{
+  "name": "最背面に配置",
+  "author": "σ軸",
+  "tags": [
+    "配置",
+    "レイヤー"
+  ],
+  "description": {
+    "summary": "下のレイヤーでもフレームの最背面に配置して描画するスクリプト",
+    "markdownSource": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Layback/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "Unlicense"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

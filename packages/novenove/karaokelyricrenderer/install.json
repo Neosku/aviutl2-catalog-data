@@ -1,0 +1,29 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "nove-nove",
+      "repo": "aviutl2-karaoke-lyric-renderer",
+      "pattern": "aviutl2-karaoke-lyric-renderer.zip"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/AviUtl2KaraokeLyricRenderer.auf2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/AviUtl2KaraokeLyricRenderer.auf2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "karoterra",
+      "repo": "aviutl2-Bend",
+      "pattern": "^aviutl2-Bend_.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/@曲げKR.anm2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/KaroterraBend.lua",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/@曲げKR.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/KaroterraBend.lua"
+      }
+    ]
+  }
+}

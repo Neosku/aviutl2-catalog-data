@@ -1,0 +1,27 @@
+{
+  "installation": {
+    "source": {
+      "type": "booth",
+      "url": "https://booth.pm/downloadables/8672555?_gl=1*v8nem2*_ga*MTEwNTQzOTk5MC4xNzY2NjgwNDI1*_ga_RWT2QKJLDC*czE3NzU3Mjc2MjAkbzQyJGcwJHQxNzc1NzI3NjIxJGo1OSRsMCRoMA.."
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/v1.1/作業ロガーN.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/作業ロガーN.aux2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "versions": [
+    {
+      "version": "v2.0.0alpha1",
+      "releaseDate": "2026-01-09",
+      "files": [
+        {
+          "path": "{pluginsDir}/PSDToolKit.aux2",
+          "xxh128": "5b04b5f8f2db35fcec8ec5fb9e4820ef"
+        }
+      ]
+    },
+    {
+      "version": "v2.0.0alpha2",
+      "releaseDate": "2026-01-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/PSDToolKit.aux2",
+          "xxh128": "6829a85927485d77bd2f784b0e8bd8d2"
+        }
+      ]
+    },
+    {
+      "version": "v2.0.0alpha3",
+      "releaseDate": "2026-01-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/PSDToolKit.aux2",
+          "xxh128": "b29b15bfe86b6b44240d67f759f9118d"
+        }
+      ]
+    },
+    {
+      "version": "v2.0.0alpha4",
+      "releaseDate": "2026-01-11",
+      "files": [
+        {
+          "path": "{pluginsDir}/PSDToolKit.aux2",
+          "xxh128": "179b23abf1e616b24fcd481092421458"
+        }
+      ]
+    },
+    {
+      "version": "v2.0.0alpha5",
+      "releaseDate": "2026-01-12",
+      "files": [
+        {
+          "path": "{pluginsDir}/PSDToolKit.aux2",
+          "xxh128": "7c8b9cacbbc551e80433a673799c0e25"
+        }
+      ]
+    },
+    {
+      "version": "v2.0.0alpha6",
+      "releaseDate": "2026-01-15",
+      "files": [
+        {
+          "path": "{pluginsDir}/PSDToolKit.aux2",
+          "xxh128": "83534e75c48f7a2c058d5bfed4038c55"
+        }
+      ]
+    },
+    {
+      "version": "v2.0.0alpha7",
+      "releaseDate": "2026-01-23",
+      "files": [
+        {
+          "path": "{pluginsDir}/PSDToolKit.aux2",
+          "xxh128": "c1b70a6c96ac235e143914ab8df3b708"
+        }
+      ]
+    },
+    {
+      "version": "v2.0.0alpha8",
+      "releaseDate": "2026-01-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/PSDToolKit/PSDToolKit.aux2",
+          "xxh128": "bbe739a3c0ebea206fe91c4ec5685e05"
+        }
+      ]
+    },
+    {
+      "version": "v2.0.0alpha9",
+      "releaseDate": "2026-01-30",
+      "files": [
+        {
+          "path": "{pluginsDir}/PSDToolKit/PSDToolKit.aux2",
+          "xxh128": "1b058af9b3dd410aa5832effa94b3aa5"
+        }
+      ]
+    },
+    {
+      "version": "v2.0.0alpha10",
+      "releaseDate": "2026-02-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/PSDToolKit/PSDToolKit.aux2",
+          "xxh128": "cafeb85ba13ebc9be7d1b8510643fbe7"
+        }
+      ]
+    }
+  ]
+}

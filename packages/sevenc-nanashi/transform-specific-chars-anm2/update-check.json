@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "sevenc-nanashi",
+    "repo": "transform_specific_chars.anm2",
+    "pattern": "^sevenc-nanashi\\.transform_specific_chars-anm2-v[^/]+\\.au2pkg\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Language/English.transform_specific_chars.aul2",
+        "Script/transform_specific_chars.anm2.anm2",
+        "Script/transform_specific_chars.mod2"
+      ],
+      "recordPaths": [
+        "{dataDir}/Language/English.transform_specific_chars.aul2",
+        "{scriptsDir}/transform_specific_chars.anm2.anm2",
+        "{scriptsDir}/transform_specific_chars.mod2"
+      ]
+    }
+  ]
+}

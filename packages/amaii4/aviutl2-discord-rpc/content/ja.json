@@ -1,0 +1,23 @@
+{
+  "name": "AviUtl2_Discord_RPC",
+  "author": "甘味",
+  "tags": [],
+  "description": {
+    "summary": "Discordにプレイ中を表示させるAviUtl2のプラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "甘味"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

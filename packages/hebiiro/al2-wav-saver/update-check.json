@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "hebiiro",
+    "repo": "al2_wav_saver",
+    "pattern": "^al2_wav_saver_r.*\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "al2_wav_saver_s16.auo2",
+        "al2_wav_saver_f32.auo2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/al2_wav_saver_s16.auo2",
+        "{pluginsDir}/al2_wav_saver_f32.auo2"
+      ]
+    }
+  ]
+}

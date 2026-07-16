@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "oov",
+    "repo": "aviutl2_psdtoolkit2",
+    "pattern": "^psdtoolkit_.*\\.au2pkg\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Plugin/PSDToolKit/PSDToolKit.aux2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/PSDToolKit/PSDToolKit.aux2"
+      ]
+    }
+  ]
+}

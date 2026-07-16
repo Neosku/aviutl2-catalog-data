@@ -1,0 +1,28 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://gist.githubusercontent.com/korarei/d5b089a69e0c8ba5903d641d677c89e8/raw/b921c0ff7aab9ece2b34d503496d6bbeeb603d75/Constraint.anm2"
+    },
+    "installSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/Constraint.anm2"
+      },
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Constraint.anm2",
+        "to": "{scriptsDir}/Constraint/"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/Constraint"
+      }
+    ]
+  }
+}

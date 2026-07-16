@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v.1.0.0",
+      "releaseDate": "2026-06-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/airiah7/airiah7__speed_preview.aux2",
+          "xxh128": "1f7f2becaa775c1fa86038a2e9b761d9"
+        }
+      ]
+    },
+    {
+      "version": "v.1.1.0",
+      "releaseDate": "2026-06-16",
+      "files": [
+        {
+          "path": "{pluginsDir}/airiah7/airiah7__speed_preview.aux2",
+          "xxh128": "85a59e7284dd65e77f7e6c1b35d3d211"
+        }
+      ]
+    }
+  ]
+}

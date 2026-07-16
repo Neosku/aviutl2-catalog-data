@@ -1,0 +1,22 @@
+{
+  "name": "GCMZDrops2",
+  "author": "おおぶ",
+  "tags": [
+    "便利ツール"
+  ],
+  "description": {
+    "summary": "ファイルドロップを拡張するプラグイン（ごちゃまぜドロップス2）",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "oov"
+        }
+      ]
+    }
+  ]
+}

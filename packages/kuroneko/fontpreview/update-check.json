@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "rokujyushi",
+    "repo": "FontPreview",
+    "pattern": "^FontPreview-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Plugin/FontPreview/FontPreview.aux2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/FontPreview/FontPreview.aux2"
+      ]
+    }
+  ]
+}

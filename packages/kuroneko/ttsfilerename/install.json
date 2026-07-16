@@ -1,0 +1,26 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "rokujyushi",
+      "repo": "GCMZScripts",
+      "pattern": "TTSFileRename\\.lua"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}\\TTSFileRename.lua",
+        "to": "{pluginsDir}\\GCMZDrops\\GCMZScript"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}\\GCMZDrops\\GCMZScript\\TTSFileRename.lua"
+      }
+    ]
+  }
+}

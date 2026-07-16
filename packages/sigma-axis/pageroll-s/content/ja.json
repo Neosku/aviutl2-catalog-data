@@ -1,0 +1,31 @@
+{
+  "name": "PageRoll_S",
+  "author": "σ軸",
+  "tags": [
+    "変形",
+    "画像",
+    "立体",
+    "トランジション"
+  ],
+  "description": {
+    "summary": "ページを丸めるように画像を変形するスクリプト",
+    "markdownSource": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_PageRoll_S/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025-2026",
+          "holder": "sigma-axis"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

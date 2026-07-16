@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "Pachira762",
+    "repo": "vsr4aviutl",
+    "pattern": "^vsr4aviutl_.*\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "vsr4aviutl/vsr4aviutl.auf2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/vsr4aviutl.auf2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "vramwiz",
+    "repo": "Syncroh2-site",
+    "pattern": "^Syncroh2_Desktop.*\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Script/@Syncroh2_Script.obj2"
+      ],
+      "recordPaths": [
+        "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2"
+      ]
+    }
+  ]
+}

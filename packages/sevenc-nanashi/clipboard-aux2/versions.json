@@ -1,0 +1,64 @@
+{
+  "versions": [
+    {
+      "version": "0.2.2",
+      "releaseDate": "2026-02-03",
+      "files": [
+        {
+          "path": "{pluginsDir}/clipboard.aux2",
+          "xxh128": "b0394c76e34e4942fc806ee042702e32"
+        }
+      ]
+    },
+    {
+      "version": "0.2.3",
+      "releaseDate": "2026-03-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/clipboard.aux2",
+          "xxh128": "d4c7a520f8b267725fe0ae8283614ed8"
+        }
+      ]
+    },
+    {
+      "version": "0.2.4",
+      "releaseDate": "2026-03-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/clipboard.aux2",
+          "xxh128": "2fc934b41e4202762ec3b2f1b4c98d2f"
+        }
+      ]
+    },
+    {
+      "version": "0.2.5",
+      "releaseDate": "2026-05-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/clipboard.aux2",
+          "xxh128": "96ba34d8304631e4451a440fc71de2c7"
+        }
+      ]
+    },
+    {
+      "version": "0.3.0",
+      "releaseDate": "2026-07-16",
+      "files": [
+        {
+          "path": "{pluginsDir}/clipboard.aux2",
+          "xxh128": "12eb0bb4e17b58536321e3aebd59fd29"
+        }
+      ]
+    },
+    {
+      "version": "0.3.1",
+      "releaseDate": "2026-07-16",
+      "files": [
+        {
+          "path": "{pluginsDir}/clipboard.aux2",
+          "xxh128": "a723e6c724e67c86484f6e1ab33dd31d"
+        }
+      ]
+    }
+  ]
+}

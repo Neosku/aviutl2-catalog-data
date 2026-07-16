@@ -1,0 +1,25 @@
+{
+  "name": "四隅に配置",
+  "author": "てるよし",
+  "tags": [
+    "配置"
+  ],
+  "description": {
+    "summary": "対象を画面の四隅に複製配置。余白調整,個別回転,反転,拡縮,透明化可能",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "てるよし"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.gif"
+  }
+}

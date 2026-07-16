@@ -1,0 +1,31 @@
+{
+  "name": "倍速プレビュー",
+  "author": "あいりあなな(airiah7)",
+  "tags": [
+    "UI",
+    "ウィジェット",
+    "便利ツール"
+  ],
+  "description": {
+    "summary": "倍速プレビューできるようにするウィジェット",
+    "markdownSource": "https://raw.githubusercontent.com/airiah7/airiah7--aviutl2--widget--speed-preview/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "airiah7"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png",
+    "detailImages": [
+      "./images/details1.png",
+      "./images/details2.png"
+    ]
+  }
+}

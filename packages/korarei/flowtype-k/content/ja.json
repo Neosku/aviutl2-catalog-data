@@ -1,0 +1,38 @@
+{
+  "name": "FlowType_K",
+  "author": "Korarei",
+  "tags": [
+    "アニメーション",
+    "エフェクト",
+    "ディレイ",
+    "テキスト",
+    "モーションブラー",
+    "移動",
+    "回転",
+    "配置",
+    "変形",
+    "パーツ分解",
+    "トランジション"
+  ],
+  "description": {
+    "summary": "超全自動リリックモーション",
+    "markdownSource": "https://raw.githubusercontent.com/korarei/AviUtl2_FlowType_K_Script/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "Korarei"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp",
+    "detailImages": [
+      "./images/details1.webp"
+    ]
+  }
+}

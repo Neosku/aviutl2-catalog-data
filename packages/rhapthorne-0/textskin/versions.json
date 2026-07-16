@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.1",
+      "releaseDate": "2025-12-01",
+      "files": [
+        {
+          "path": "{scriptsDir}/Textスキン.anm2",
+          "xxh128": "486329aca02c9efc322451830e1a802c"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.1",
+      "releaseDate": "2026-01-29",
+      "files": [
+        {
+          "path": "{scriptsDir}/Textスキン.anm2",
+          "xxh128": "535952b656b88e636445f581f69faeea"
+        }
+      ]
+    }
+  ]
+}

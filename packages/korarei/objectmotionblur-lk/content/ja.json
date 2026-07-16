@@ -1,0 +1,36 @@
+{
+  "name": "ObjectMotionBlur_LK",
+  "author": "Korarei",
+  "tags": [
+    "エフェクト",
+    "テキスト",
+    "図形",
+    "画像",
+    "移動",
+    "回転",
+    "変形",
+    "モーションブラー"
+  ],
+  "description": {
+    "summary": "モーションブラーをかけるスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Korarei"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png",
+    "detailImages": [
+      "./images/details1.gif",
+      "./images/details2.jpg"
+    ]
+  }
+}

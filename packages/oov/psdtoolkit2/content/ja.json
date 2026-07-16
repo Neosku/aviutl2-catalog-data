@@ -1,0 +1,22 @@
+{
+  "name": "PSDToolKit2",
+  "author": "おおぶ",
+  "tags": [
+    "PSD"
+  ],
+  "description": {
+    "summary": "PSD ファイルを扱うためのプラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "oov"
+        }
+      ]
+    }
+  ]
+}

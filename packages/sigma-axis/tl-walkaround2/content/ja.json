@@ -1,0 +1,29 @@
+{
+  "name": "TLショトカ移動2",
+  "author": "σ軸",
+  "tags": [
+    "便利ツール",
+    "ショートカット"
+  ],
+  "description": {
+    "summary": "タイムライン操作のコマンドを追加するプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/sigma-axis/aviutl2_tl_walkaround2/refs/heads/master/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025-2026",
+          "holder": "sigma-axis"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

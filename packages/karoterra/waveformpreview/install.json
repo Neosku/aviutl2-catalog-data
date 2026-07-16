@@ -1,0 +1,65 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "karoterra",
+      "repo": "aviutl2-waveform-preview",
+      "pattern": "^Karoterra\\.WaveformPreview-v.*\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/Karoterra.WaveformPreview/LICENSE",
+        "to": "{pluginsDir}/Karoterra.WaveformPreview"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/Karoterra.WaveformPreview/README.md",
+        "to": "{pluginsDir}/Karoterra.WaveformPreview"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/Karoterra.WaveformPreview/THIRD-PARTY-LICENSES.html",
+        "to": "{pluginsDir}/Karoterra.WaveformPreview"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/Karoterra.WaveformPreview/waveformpreview.aux2",
+        "to": "{pluginsDir}/Karoterra.WaveformPreview"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/English.waveformpreview.aul2",
+        "to": "{dataDir}/Language"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/Karoterra.WaveformPreview/LICENSE"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/Karoterra.WaveformPreview/README.md"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/Karoterra.WaveformPreview/THIRD-PARTY-LICENSES.html"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/Karoterra.WaveformPreview/waveformpreview.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.waveformpreview.aul2"
+      }
+    ]
+  }
+}

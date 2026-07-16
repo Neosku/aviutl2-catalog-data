@@ -1,0 +1,25 @@
+{
+  "name": "反復移動プラス",
+  "author": "テステス",
+  "tags": [
+    "トラックバー",
+    "カスタムオブジェクト"
+  ],
+  "description": {
+    "summary": "標準の反復移動に待機時間や2次ベジェ曲線などの機能を追加したスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "custom",
+      "name": "カスタムライセンス",
+      "licenseBody": "・このスクリプトの2次配布は禁止です。\n・このスクリプトを使用によって、発生した損害や問題については、製作者は、一切責任を負わないものとします。\n・このスクリプトの改造や参考にして頂いても構いませんが、サポートや動作保証はできません。"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

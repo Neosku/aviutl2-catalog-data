@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.1",
+      "releaseDate": "2025-12-01",
+      "files": [
+        {
+          "path": "{scriptsDir}/LineGlitch_Rh.anm2",
+          "xxh128": "a65982420facddd82f47f8b86ef779c4"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.1",
+      "releaseDate": "2026-01-29",
+      "files": [
+        {
+          "path": "{scriptsDir}/LineGlitch_Rh.anm2",
+          "xxh128": "9c68eab4b6b7a512262d09a2d25bd8a1"
+        }
+      ]
+    }
+  ]
+}

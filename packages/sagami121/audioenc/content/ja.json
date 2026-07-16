@@ -1,0 +1,20 @@
+{
+  "name": "AudioEnc",
+  "author": "3aGaM1",
+  "tags": [],
+  "description": {
+    "summary": "Aviutl2で音声を出力するプラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "3aGaM1"
+        }
+      ]
+    }
+  ]
+}

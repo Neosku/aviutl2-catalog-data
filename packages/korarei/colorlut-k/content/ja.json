@@ -1,0 +1,29 @@
+{
+  "name": "ColorLUT_K",
+  "author": "Korarei",
+  "tags": [
+    "色調整",
+    "エフェクト"
+  ],
+  "description": {
+    "summary": "LUTファイルを扱えるようにするプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/korarei/AviUtl2_ColorLUT_K_Plugin/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Korarei"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.jpg",
+    "detailImages": [
+      "./images/details1.webp"
+    ]
+  }
+}

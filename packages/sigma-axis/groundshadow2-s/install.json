@@ -1,0 +1,56 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sigma-axis",
+      "repo": "aviutl2_script_GroundShadow2_S",
+      "pattern": "^aviutl2_script_GroundShadow2.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/GroundShadow2_S.anm2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/GroundShadow2_S/LICENSE",
+        "to": "{scriptsDir}/GroundShadow2_S"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/GroundShadow2_S/README.md",
+        "to": "{scriptsDir}/GroundShadow2_S"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/Default.GroundShadow2_S.aul2",
+        "to": "{dataDir}/Language"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/GroundShadow2_S.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/GroundShadow2_S/LICENSE"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/GroundShadow2_S/README.md"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/Default.GroundShadow2_S.aul2"
+      }
+    ]
+  }
+}

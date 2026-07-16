@@ -1,0 +1,24 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://gist.githubusercontent.com/zopty/51deda495876451c1dcfb09ceb05345d/raw/5ab04f068f2f0448cb76807f245772bf6c713bf5/OpticalFlowMotionBlur.anm2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/OpticalFlowMotionBlur.anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/OpticalFlowMotionBlur.anm2"
+      }
+    ]
+  }
+}

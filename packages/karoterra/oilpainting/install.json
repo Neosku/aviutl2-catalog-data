@@ -1,0 +1,55 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "karoterra",
+      "repo": "aviutl2-OilPainting",
+      "pattern": "^Karoterra.OilPainting-v.*.au2pkg.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/油絵KR.anm2"
+      },
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/Karoterra.OilPainting/LICENSE",
+        "to": "{scriptsDir}/Karoterra.OilPainting"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/Karoterra.OilPainting/README.md",
+        "to": "{scriptsDir}/Karoterra.OilPainting"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/Karoterra.OilPainting/油絵KR.anm2",
+        "to": "{scriptsDir}/Karoterra.OilPainting"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/油絵KR.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/Karoterra.OilPainting/LICENSE"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/Karoterra.OilPainting/README.md"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/Karoterra.OilPainting/油絵KR.anm2"
+      }
+    ]
+  }
+}

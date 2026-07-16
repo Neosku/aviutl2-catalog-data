@@ -1,0 +1,28 @@
+{
+  "name": "ウェーブクリッピング",
+  "author": "もも猫",
+  "tags": [
+    "クリッピング"
+  ],
+  "description": {
+    "summary": "様々な波の形で斜めクリッピング",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "もも猫"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.gif",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

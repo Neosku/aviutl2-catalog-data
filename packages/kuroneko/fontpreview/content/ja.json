@@ -1,0 +1,32 @@
+{
+  "name": "FontPreview",
+  "author": "黒猫大福",
+  "tags": [
+    "検索",
+    "字幕",
+    "テキスト",
+    "便利ツール"
+  ],
+  "description": {
+    "summary": "フォント一覧検索およびVFの補助プラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/rokujyushi/FontPreview/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "rokujyushi"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png",
+    "detailImages": [
+      "./images/details1.jpg",
+      "./images/details2.jpg"
+    ]
+  }
+}

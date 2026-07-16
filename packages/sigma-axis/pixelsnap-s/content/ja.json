@@ -1,0 +1,29 @@
+{
+  "name": "PixelSnap_S",
+  "author": "σ軸",
+  "tags": [
+    "座標補正",
+    "配置"
+  ],
+  "description": {
+    "summary": "小数点以下のピクセルずれで余計なボケが入るのを抑えるスクリプト",
+    "markdownSource": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_PixelSnap_S/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025-2026",
+          "holder": "sigma-axis"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

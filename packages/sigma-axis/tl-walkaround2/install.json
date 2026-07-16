@@ -1,0 +1,47 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sigma-axis",
+      "repo": "aviutl2_tl_walkaround2",
+      "pattern": "^aviutl2_tl_walkaround2.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/tl_walkaround2.aux2",
+        "to": "{pluginsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/tl_walkaround2/LICENSE",
+        "to": "{pluginsDir}/tl_walkaround2"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/tl_walkaround2/README.md",
+        "to": "{pluginsDir}/tl_walkaround2"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/tl_walkaround2.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/tl_walkaround2/LICENSE"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/tl_walkaround2/README.md"
+      }
+    ]
+  }
+}

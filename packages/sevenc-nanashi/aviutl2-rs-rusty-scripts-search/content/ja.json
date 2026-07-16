@@ -1,0 +1,26 @@
+{
+  "name": "Rusty Scripts Search Plugin",
+  "author": "Nanashi.",
+  "tags": [
+    "便利ツール",
+    "検索"
+  ],
+  "description": {
+    "summary": "オブジェクト・エフェクトを検索してタイムラインに配置するプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/scripts-search-plugin/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Nanashi. <sevenc7c.com>"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

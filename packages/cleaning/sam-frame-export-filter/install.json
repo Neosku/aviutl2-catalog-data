@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "clean262",
+      "repo": "sam_frame_export_filter",
+      "pattern": "^sam_frame_export_filter-windows-x64\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/sam_frame_export_filter.auf2",
+        "to": "{pluginsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/sam_frame_export_filter",
+        "to": "{pluginsDir}/sam_frame_export_filter"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/sam_frame_export_filter.auf2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/sam_frame_export_filter/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2025-07-13",
+      "files": [
+        {
+          "path": "{scriptsDir}/グラデーション+.anm2",
+          "xxh128": "e10569668818bb1ada9bc51f060c4d8e"
+        }
+      ]
+    },
+    {
+      "version": "v1.1.0",
+      "releaseDate": "2026-01-07",
+      "files": [
+        {
+          "path": "{scriptsDir}/グラデーション+.anm2",
+          "xxh128": "88eecc57ec9c3455ff219aba6bc68cca"
+        }
+      ]
+    },
+    {
+      "version": "v1.1.1",
+      "releaseDate": "2026-02-22",
+      "files": [
+        {
+          "path": "{scriptsDir}/グラデーション+.anm2",
+          "xxh128": "58aef1b8ad7102aaa6a263af3aca4373"
+        }
+      ]
+    }
+  ]
+}

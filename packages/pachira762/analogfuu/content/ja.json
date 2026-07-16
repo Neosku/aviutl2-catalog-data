@@ -1,0 +1,30 @@
+{
+  "name": "アナログ風",
+  "author": "Pachira762",
+  "tags": [
+    "画質",
+    "ノイズ",
+    "グリッチ"
+  ],
+  "description": {
+    "summary": "アナログテレビ風のエフェクトプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/Pachira762/AnalogFuu/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "Pachira762"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp",
+    "detailImages": [
+      "./images/details1.webp"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "AudioFilter",
+  "author": "VRAMの魔術師",
+  "tags": [
+    "エフェクト",
+    "ノイズ",
+    "音声"
+  ],
+  "description": {
+    "summary": "音声にエフェクト、電話風、無線風、反響、こもり、ナレーション補正が可能",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "VRAMの魔術師"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.gif"
+  }
+}

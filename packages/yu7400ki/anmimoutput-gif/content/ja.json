@@ -1,0 +1,20 @@
+{
+  "name": "GIF出力プラグイン",
+  "author": "yu7400ki",
+  "tags": [],
+  "description": {
+    "summary": "AviUtl ExEdit2で動画をアニメーション画像（GIF）として出力するプラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Yuki Natori"
+        }
+      ]
+    }
+  ]
+}

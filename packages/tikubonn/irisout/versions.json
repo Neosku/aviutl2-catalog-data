@@ -1,0 +1,32 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2026-04-30",
+      "files": [
+        {
+          "path": "{scriptsDir}/アイリスアウト/@アイリスアウト.obj2",
+          "xxh128": "2ed0879ca0e7fc67ac07b000a1f6b813"
+        },
+        {
+          "path": "{scriptsDir}/アイリスアウト/iris_out.lua",
+          "xxh128": "a32cd45bf9f32620909fb1b3026c79b2"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.1",
+      "releaseDate": "2026-05-01",
+      "files": [
+        {
+          "path": "{scriptsDir}/アイリスアウト/@アイリスアウト.obj2",
+          "xxh128": "2ed0879ca0e7fc67ac07b000a1f6b813"
+        },
+        {
+          "path": "{scriptsDir}/アイリスアウト/iris_out.lua",
+          "xxh128": "a32cd45bf9f32620909fb1b3026c79b2"
+        }
+      ]
+    }
+  ]
+}

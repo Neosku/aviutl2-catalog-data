@@ -1,0 +1,34 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sagami121",
+      "repo": "Aviutl2-AudioEnc",
+      "pattern": "^AudioEnc.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "run",
+        "path": "{tmp}/AudioEnc_Setup.exe",
+        "args": [
+          "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /DIR=\"{pluginsDir}\""
+        ]
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "run",
+        "path": "{pluginsDir}/AudioEnc_Uninstall.exe",
+        "args": [
+          "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART"
+        ]
+      }
+    ]
+  }
+}

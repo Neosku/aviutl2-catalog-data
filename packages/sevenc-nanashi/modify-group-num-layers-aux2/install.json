@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sevenc-nanashi",
+      "repo": "modify_group_num_layers.aux2",
+      "pattern": "^sevenc-nanashi\\.modify_group_num_layers-aux2-v[^/]+\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/English.modify_group_num_layers.aul2",
+        "to": "{dataDir}/Language"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/modify_group_num_layers.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/modify_group_num_layers.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.modify_group_num_layers.aul2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2026-04-11",
+      "files": [
+        {
+          "path": "{pluginsDir}/commons_material_extractor.aux2",
+          "xxh128": "0a0b7bdd32411200dcaf1f05eca7b7e3"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.1",
+      "releaseDate": "2026-04-20",
+      "files": [
+        {
+          "path": "{pluginsDir}/commons_material_extractor.aux2",
+          "xxh128": "8318e08376c6ae0b80565c1d36a7bdf1"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.2",
+      "releaseDate": "2026-04-20",
+      "files": [
+        {
+          "path": "{pluginsDir}/commons_material_extractor.aux2",
+          "xxh128": "94b679b8104a3951ea9e74f61dd077ba"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.3",
+      "releaseDate": "2026-05-03",
+      "files": [
+        {
+          "path": "{pluginsDir}/commons_material_extractor.aux2",
+          "xxh128": "cc5f093a190fe63a20dd1d36f9f48b55"
+        }
+      ]
+    }
+  ]
+}

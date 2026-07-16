@@ -1,0 +1,54 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "azurite581",
+      "repo": "AviUtl2-GradientEditor",
+      "pattern": "^GradientEditor-v.*\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin",
+        "to": "{pluginsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/GradientEditor.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/@GradientEditor.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/GradientEditorPreset/gradient_editor_preset.json"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/GradientEditorPreset/gradient_editor_default_preset.json"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/GradientEditorPreset/gradient_editor_history.json"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/GradientEditor.ini"
+      }
+    ]
+  }
+}

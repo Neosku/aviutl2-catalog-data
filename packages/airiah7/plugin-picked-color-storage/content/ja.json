@@ -1,0 +1,31 @@
+{
+  "name": "スポイトの色を保存",
+  "author": "あいりあなな(airiah7)",
+  "tags": [
+    "UI",
+    "ウィジェット",
+    "カラーパレット",
+    "色調整"
+  ],
+  "description": {
+    "summary": "スポイトで取得した色を名前付きで保存して使いまわせるようにする",
+    "markdownSource": "https://raw.githubusercontent.com/airiah7/airiah7--aviutl2--plugin--picked-color-storage/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "airiah7"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

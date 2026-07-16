@@ -1,0 +1,42 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "azurite581",
+      "repo": "AviUtl2-AdjustPivot_A",
+      "pattern": "^AdjustPivot_A-v.+\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/中心ずらし_A.aux2",
+        "to": "{pluginsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/中心ずらし_A.anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/中心ずらし_A.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/中心ずらし_A.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/中心ずらし_A_settings.json"
+      }
+    ]
+  }
+}

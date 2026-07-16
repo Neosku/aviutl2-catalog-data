@@ -1,0 +1,19 @@
+{
+  "name": "Canny",
+  "author": "こんにゃくねこ",
+  "tags": [
+    "縁取り"
+  ],
+  "description": {
+    "summary": "ノイズを抑えて輪郭を細くきれいに出すCanny風エッジ抽出スクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

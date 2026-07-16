@@ -1,0 +1,31 @@
+{
+  "name": "Kaleidoscope_K",
+  "author": "Korarei",
+  "tags": [
+    "画像",
+    "パターン",
+    "エフェクト"
+  ],
+  "description": {
+    "summary": "画像を万華鏡風に加工するスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Korarei"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.jpg",
+    "detailImages": [
+      "./images/details1.jpg",
+      "./images/details2.gif"
+    ]
+  }
+}

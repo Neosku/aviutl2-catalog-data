@@ -1,0 +1,54 @@
+{
+  "versions": [
+    {
+      "version": "0.2.0",
+      "releaseDate": "2026-02-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/svg.aux2",
+          "xxh128": "9f9d97c8c8022dcfe168a5405c8269c8"
+        }
+      ]
+    },
+    {
+      "version": "0.3.0",
+      "releaseDate": "2026-02-06",
+      "files": [
+        {
+          "path": "{pluginsDir}/svg.aux2",
+          "xxh128": "ecb8ad1af5c1982a41e3b5f83eece953"
+        }
+      ]
+    },
+    {
+      "version": "0.3.2",
+      "releaseDate": "2026-03-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/svg.aux2",
+          "xxh128": "76ac8007a9c80d9d61a5f4952be87dd9"
+        }
+      ]
+    },
+    {
+      "version": "0.4.0",
+      "releaseDate": "2026-03-26",
+      "files": [
+        {
+          "path": "{pluginsDir}/svg.aux2",
+          "xxh128": "90ef52395f89371cf84ff1d4791f8bac"
+        }
+      ]
+    },
+    {
+      "version": "0.5.0",
+      "releaseDate": "2026-05-19",
+      "files": [
+        {
+          "path": "{pluginsDir}/svg.aux2",
+          "xxh128": "f1d4ed83f16f155bb18f89b4cb57e03e"
+        }
+      ]
+    }
+  ]
+}

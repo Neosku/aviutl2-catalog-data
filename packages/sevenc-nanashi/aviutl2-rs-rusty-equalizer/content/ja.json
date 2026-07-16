@@ -1,0 +1,23 @@
+{
+  "name": "Rusty Equalizer Filter",
+  "author": "Nanashi.",
+  "tags": [
+    "音声",
+    "エフェクト"
+  ],
+  "description": {
+    "summary": "イコライザーを実装するプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/equalizer-filter/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Nanashi. <sevenc7c.com>"
+        }
+      ]
+    }
+  ]
+}

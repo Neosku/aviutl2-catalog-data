@@ -1,0 +1,17 @@
+{
+  "name": "SelfDisplace",
+  "author": "こんにゃくねこ",
+  "tags": [
+    "変形",
+    "色ずれ"
+  ],
+  "description": {
+    "summary": "自身を基準にディスプレイスメントマップ(移動・回転・拡大)をかける",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "versions": [
+    {
+      "version": "1.0.0",
+      "releaseDate": "2026-02-17",
+      "files": [
+        {
+          "path": "{pluginsDir}/VariableFont.auf2",
+          "xxh128": "693a50231d5e32413c95c38a397c7eaf"
+        }
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "releaseDate": "2026-04-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/VariableFont.aux2",
+          "xxh128": "19465fcc1831db6e79782050692d0c4d"
+        },
+        {
+          "path": "{scriptsDir}\\VariableFont\\VariableFontModule.mod2",
+          "xxh128": "8ed8e12e1a893e92e6f095cd3941371a"
+        },
+        {
+          "path": "{scriptsDir}\\VariableFont\\Variable Font Object.obj2",
+          "xxh128": "fa8aa9c9d224e3e97960ee125c23851d"
+        }
+      ]
+    },
+    {
+      "version": "3.0.0",
+      "releaseDate": "2026-06-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/VariableFont/VariableFont.aux2",
+          "xxh128": "2cfc94420049cc8a039b680242ce7a9f"
+        },
+        {
+          "path": "{scriptsDir}/VariableFont/VariableFontModule.mod2",
+          "xxh128": "57a2ac69c6360c3b38e6113d7603f5de"
+        },
+        {
+          "path": "{scriptsDir}/VariableFont/Variable Font Object.obj2",
+          "xxh128": "140c94fdfefbb30427139ecb25f2a9e4"
+        }
+      ]
+    },
+    {
+      "version": "3.1.0",
+      "releaseDate": "2026-07-16",
+      "files": [
+        {
+          "path": "{pluginsDir}/VariableFont/VariableFont.aux2",
+          "xxh128": "95588a991b519388e5db998b3e3555c5"
+        },
+        {
+          "path": "{scriptsDir}/VariableFont/VariableFontModule.mod2",
+          "xxh128": "96f1d916ff8bd193077a36629bb673fc"
+        },
+        {
+          "path": "{scriptsDir}/VariableFont/Variable Font Object.obj2",
+          "xxh128": "140c94fdfefbb30427139ecb25f2a9e4"
+        }
+      ]
+    }
+  ]
+}

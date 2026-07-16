@@ -1,0 +1,24 @@
+{
+  "name": "立体化(g)",
+  "author": "gometh",
+  "tags": [
+    "立体",
+    "エフェクト"
+  ],
+  "description": {
+    "summary": "オブジェクトを“立体的”に表示するためのスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "unknown",
+      "name": "不明"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

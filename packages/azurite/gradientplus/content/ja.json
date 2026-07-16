@@ -1,0 +1,16 @@
+{
+  "name": "グラデーション+",
+  "author": "azurite",
+  "tags": [
+    "グラデーション"
+  ],
+  "description": {
+    "summary": "sRGB以外の色空間でグラデーションさせるスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ]
+}

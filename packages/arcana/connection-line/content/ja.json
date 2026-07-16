@@ -1,0 +1,26 @@
+{
+  "name": "連結ライン",
+  "author": "arcana",
+  "tags": [
+    "パス",
+    "配置"
+  ],
+  "description": {
+    "summary": "指定した2つのオブジェクトを、実線または点線で繋ぎます。",
+    "markdownSource": "https://raw.githubusercontent.com/ar-ca-na/connection_line/refs/heads/main/readme.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "arcana"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

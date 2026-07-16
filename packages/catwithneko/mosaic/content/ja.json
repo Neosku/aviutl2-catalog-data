@@ -1,0 +1,16 @@
+{
+  "name": "Mosaic_C",
+  "author": "こんにゃくねこ",
+  "tags": [
+    "モザイク"
+  ],
+  "description": {
+    "summary": "シャープなモザイク",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ]
+}

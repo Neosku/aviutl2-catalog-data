@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "2025.08.03",
+      "releaseDate": "2025-08-03",
+      "files": [
+        {
+          "path": "{scriptsDir}/Lens.anm2",
+          "xxh128": "9687125a1f2b8a69dfc021e8ec4039e0"
+        }
+      ]
+    },
+    {
+      "version": "2026.04.15",
+      "releaseDate": "2026-04-15",
+      "files": [
+        {
+          "path": "{scriptsDir}/Lens.anm2",
+          "xxh128": "899d617c569b8b0c96971dc35ea731b6"
+        }
+      ]
+    }
+  ]
+}

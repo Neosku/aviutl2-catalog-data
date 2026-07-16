@@ -1,0 +1,26 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "teruyoshii",
+      "repo": "AviUtl2_Noise_Te",
+      "pattern": "^@noise_Te\\.anm2$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/@noise_Te.anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/@noise_Te.anm2"
+      }
+    ]
+  }
+}

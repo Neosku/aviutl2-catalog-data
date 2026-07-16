@@ -1,0 +1,33 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "cycloawaodorin",
+      "repo": "wav_output_ks",
+      "pattern": "^wav_output_ks\\..*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/wav_output_ks.auo2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/wav_output_ks.auo2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/wav_output_ks.config"
+      }
+    ]
+  }
+}

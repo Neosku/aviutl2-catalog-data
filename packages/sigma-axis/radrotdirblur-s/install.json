@@ -1,0 +1,47 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sigma-axis",
+      "repo": "aviutl2_script_RadRotDirBlur_S",
+      "pattern": "^aviutl2_script_RadRotDirBlur_S-.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/RadRotDirBlur_S.anm2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/RadRotDirBlur_S/LICENSE",
+        "to": "{scriptsDir}/RadRotDirBlur_S"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/RadRotDirBlur_S/README.md",
+        "to": "{scriptsDir}/RadRotDirBlur_S"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/RadRotDirBlur_S.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/RadRotDirBlur_S/LICENSE"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/RadRotDirBlur_S/README.md"
+      }
+    ]
+  }
+}

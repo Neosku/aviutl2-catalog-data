@@ -1,0 +1,27 @@
+{
+  "installation": {
+    "source": {
+      "type": "googleDrive",
+      "id": "1sezs3VTd64wmdfxmtLkkuS6FaE0ra5jo"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}\\特定フレームループ_Ver2.00\\AviUtl2向け",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}\\特定フレームループ.obj2"
+      }
+    ]
+  }
+}

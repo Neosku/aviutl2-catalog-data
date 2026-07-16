@@ -1,0 +1,33 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "Gohankaiju",
+      "repo": "aviutl2-rich-audio-spectrum",
+      "pattern": "^rich-audio-spectrum_v.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/rich-audio-spectrum"
+      },
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/rich-audio-spectrum",
+        "to": "{scriptsDir}/rich-audio-spectrum"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/rich-audio-spectrum"
+      }
+    ]
+  }
+}

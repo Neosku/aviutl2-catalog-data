@@ -1,0 +1,26 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "rokujyushi",
+      "repo": "GCMZScripts",
+      "pattern": "audio2obj\\.lua"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/audio2obj.lua",
+        "to": "{pluginsDir}\\GCMZDrops\\GCMZScript"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}\\GCMZDrops\\GCMZScript\\audio2obj.lua"
+      }
+    ]
+  }
+}

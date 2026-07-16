@@ -1,0 +1,28 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://github.com/sevenc-nanashi/aviutl2-rs/releases/download/0.22.0/rusty_restart_shortcut.aux2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/rusty_restart_shortcut.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/rusty_restart_shortcut.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.rusty_restart_shortcut_plugin.aul2"
+      }
+    ]
+  }
+}

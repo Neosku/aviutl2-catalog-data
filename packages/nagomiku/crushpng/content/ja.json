@@ -1,0 +1,23 @@
+{
+  "name": "CrushPNG",
+  "author": "Nagomiku",
+  "tags": [
+    "グリッチ",
+    "ノイズ"
+  ],
+  "description": {
+    "summary": "⚠️説明文要確認　PNGのフィルタ方式で画像をグリッチするスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "unknown",
+      "name": "不明"
+    }
+  ],
+  "images": {
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

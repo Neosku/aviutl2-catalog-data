@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "vramwiz",
+    "repo": "VW_Media_Input",
+    "pattern": "^VW_Media_Input\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "VW_Media_Input/VW_Media_Input.aui2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/VW_Media_Input/VW_Media_Input.aui2"
+      ]
+    }
+  ]
+}

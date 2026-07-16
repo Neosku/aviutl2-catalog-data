@@ -1,0 +1,22 @@
+{
+  "name": "縁取りグラデーション",
+  "author": "Nao",
+  "tags": [
+    "便利ツール",
+    "縁取り",
+    "グラデーション"
+  ],
+  "description": {
+    "summary": "縁取りにグラデーションをかけることのできるソフトです",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "unknown",
+      "name": "不明"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

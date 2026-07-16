@@ -1,0 +1,83 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sevenc-nanashi",
+      "repo": "ported_tim",
+      "pattern": "^sevenc-nanashi\\.ported_tim-v[^/]+\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/English.ported_tim.aul2",
+        "to": "{dataDir}/Language"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/@tim.anm2.anm2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/@tim.cam2.cam2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/@tim.obj2.obj2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/@tim.scn2.scn2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/@tim.tra2.tra2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/tim2.mod2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/tim2.mod2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/@tim.tra2.tra2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/@tim.scn2.scn2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/@tim.obj2.obj2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/@tim.cam2.cam2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/@tim.anm2.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.ported_tim.aul2"
+      }
+    ]
+  }
+}

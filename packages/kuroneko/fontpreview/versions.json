@@ -1,0 +1,54 @@
+{
+  "versions": [
+    {
+      "version": "1.0.0",
+      "releaseDate": "2026-02-17",
+      "files": [
+        {
+          "path": "{pluginsDir}\\FontPreview.aux2",
+          "xxh128": "c66622093873b9f4468e3dfcd9d9fbab"
+        }
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "releaseDate": "2026-04-29",
+      "files": [
+        {
+          "path": "{pluginsDir}\\FontPreview.aux2",
+          "xxh128": "65a92252e928e64cdccfbb877b4668c0"
+        }
+      ]
+    },
+    {
+      "version": "4.0.0",
+      "releaseDate": "2026-06-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/FontPreview/FontPreview.aux2",
+          "xxh128": "48025c975ec823297cd80c3ffcf04dec"
+        }
+      ]
+    },
+    {
+      "version": "4.0.1",
+      "releaseDate": "2026-07-03",
+      "files": [
+        {
+          "path": "{pluginsDir}/FontPreview/FontPreview.aux2",
+          "xxh128": "7aa51f92930cff2dd4ad29d52afd80ba"
+        }
+      ]
+    },
+    {
+      "version": "4.2.0",
+      "releaseDate": "2026-07-16",
+      "files": [
+        {
+          "path": "{pluginsDir}/FontPreview/FontPreview.aux2",
+          "xxh128": "6c64a844dfe0f951e72a80fbbdf39e26"
+        }
+      ]
+    }
+  ]
+}

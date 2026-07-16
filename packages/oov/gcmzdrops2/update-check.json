@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "oov",
+    "repo": "aviutl2_gcmzdrops2",
+    "pattern": "^gcmzdrops.*\\.au2pkg\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Plugin/GCMZDrops/GCMZDrops.aux2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/GCMZDrops/GCMZDrops.aux2"
+      ]
+    }
+  ]
+}

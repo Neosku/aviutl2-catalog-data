@@ -1,0 +1,26 @@
+{
+  "name": "CopyAlias",
+  "author": "黒猫大福",
+  "tags": [
+    "便利ツール",
+    "エイリアス"
+  ],
+  "description": {
+    "summary": "選択オブジェクトのエイリアスをクリップボードにコピーするプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/rokujyushi/Copy_alias/refs/heads/Rust-2.0.0/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "rokujyushi"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

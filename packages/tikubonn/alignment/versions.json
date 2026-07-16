@@ -1,0 +1,18 @@
+{
+  "versions": [
+    {
+      "version": "v2.0.0",
+      "releaseDate": "2026-05-01",
+      "files": [
+        {
+          "path": "{scriptsDir}/揃えv2/@揃えv2.anm2",
+          "xxh128": "5bcdd9095af76ff0deac02335d6c1bd5"
+        },
+        {
+          "path": "{scriptsDir}/揃えv2/alignment_v2.lua",
+          "xxh128": "9b6aa75544bc45783734a0bc9eb6235a"
+        }
+      ]
+    }
+  ]
+}

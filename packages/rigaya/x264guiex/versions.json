@@ -1,0 +1,134 @@
+{
+  "versions": [
+    {
+      "version": "3.32",
+      "releaseDate": "2025-07-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/x264guiEx.auo",
+          "xxh128": "d0222e062a092b5527745a886c74d948"
+        }
+      ]
+    },
+    {
+      "version": "3.33",
+      "releaseDate": "2025-07-12",
+      "files": [
+        {
+          "path": "{pluginsDir}/x264guiEx.auo",
+          "xxh128": "5c241397b2c3800b4968874ca2206787"
+        }
+      ]
+    },
+    {
+      "version": "4.00",
+      "releaseDate": "2025-08-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/x264guiEx.auo2",
+          "xxh128": "57cf3939fe7e1c16cb536444b9851077"
+        }
+      ]
+    },
+    {
+      "version": "4.01",
+      "releaseDate": "2025-08-17",
+      "files": [
+        {
+          "path": "{pluginsDir}/x264guiEx.auo2",
+          "xxh128": "c72850f3d1400b67b53ce505ccdceca2"
+        }
+      ]
+    },
+    {
+      "version": "4.02",
+      "releaseDate": "2025-08-25",
+      "files": [
+        {
+          "path": "{pluginsDir}/x264guiEx.auo2",
+          "xxh128": "75162f5968b580075c71222217c53bbb"
+        }
+      ]
+    },
+    {
+      "version": "4.03",
+      "releaseDate": "2025-09-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/x264guiEx.auo2",
+          "xxh128": "80f78c39ee2204f96441301d93544fc2"
+        }
+      ]
+    },
+    {
+      "version": "4.04",
+      "releaseDate": "2025-09-15",
+      "files": [
+        {
+          "path": "{pluginsDir}/x264guiEx.auo2",
+          "xxh128": "9e3ef1ddfb2e0e729e8160fe4a81cec5"
+        }
+      ]
+    },
+    {
+      "version": "4.05",
+      "releaseDate": "2025-09-16",
+      "files": [
+        {
+          "path": "{pluginsDir}/x264guiEx.auo2",
+          "xxh128": "7538c41dc9cc2395dda06a154aa3bfe6"
+        }
+      ]
+    },
+    {
+      "version": "4.06",
+      "releaseDate": "2025-10-06",
+      "files": [
+        {
+          "path": "{pluginsDir}/x264guiEx.auo2",
+          "xxh128": "a5ba0175e6c42ab7152fa36c4934e521"
+        }
+      ]
+    },
+    {
+      "version": "4.07",
+      "releaseDate": "2025-10-16",
+      "files": [
+        {
+          "path": "{pluginsDir}/x264guiEx.auo2",
+          "xxh128": "73d21357634439c67a3b96bec1c2857c"
+        }
+      ]
+    },
+    {
+      "version": "4.08",
+      "releaseDate": "2025-12-20",
+      "files": [
+        {
+          "path": "{pluginsDir}/x264guiEx.auo2",
+          "xxh128": "64a2ca349be59b8a661a4aba6fd3f20d"
+        }
+      ]
+    },
+    {
+      "version": "4.09",
+      "releaseDate": "2025-12-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/x264guiEx.auo2",
+          "xxh128": "fe6edfd80660db91f529f9a729fa4638"
+        }
+      ]
+    },
+    {
+      "version": "4.10",
+      "releaseDate": "2026-06-06",
+      "files": [
+        {
+          "path": "{pluginsDir}/x264guiEx.auo2",
+          "xxh128": "f7b0c41bcb3960c73482595b61bf758c"
+        }
+      ]
+    }
+  ]
+}

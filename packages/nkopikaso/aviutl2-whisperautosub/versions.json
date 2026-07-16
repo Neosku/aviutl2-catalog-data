@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v2.8",
+      "releaseDate": "2026-04-09",
+      "files": [
+        {
+          "path": "{pluginsDir}/whisper_subtitle.aux2",
+          "xxh128": "3a08017d72f2da695e323c9be958885d"
+        }
+      ]
+    },
+    {
+      "version": "v2.8.1",
+      "releaseDate": "2026-07-12",
+      "files": [
+        {
+          "path": "{pluginsDir}/WhisperAutoSub.aux2",
+          "xxh128": "789bd0497a7f10c0534e93d6183e5562"
+        }
+      ]
+    }
+  ]
+}

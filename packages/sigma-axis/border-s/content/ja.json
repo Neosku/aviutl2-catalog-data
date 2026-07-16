@@ -1,0 +1,29 @@
+{
+  "name": "Border_S",
+  "author": "σ軸",
+  "tags": [
+    "角丸",
+    "縁取り"
+  ],
+  "description": {
+    "summary": "縁取り・角丸め・アウトラインができるフィルタ集",
+    "markdownSource": "https://raw.githubusercontent.com/sigma-axis/aviutl2_Border_S/refs/heads/master/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "sigma-axis"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "WebPFileReader-Plugin",
+  "author": "Mr-Ojii",
+  "tags": [],
+  "description": {
+    "summary": "Animated WebP を読み込むために開発した AviUtl ExEdit2 用入力プラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Mr-Ojii"
+        }
+      ]
+    }
+  ]
+}

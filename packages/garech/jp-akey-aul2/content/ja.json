@@ -1,0 +1,21 @@
+{
+  "name": "アクセスキー付き日本語リソース",
+  "author": "Garech",
+  "typeLabel": "言語ファイル",
+  "tags": [
+    "UI",
+    "言語ファイル"
+  ],
+  "description": {
+    "summary": "⚠️導入/更新時注意　AviUtl2のメニューにアクセスキーを追加",
+    "markdownSource": "https://raw.githubusercontent.com/Garech-mas/jp_akey.aul2/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

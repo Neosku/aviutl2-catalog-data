@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "nove-nove",
+    "repo": "aviutl2-vrm-toolkit",
+    "pattern": "VRM-Toolkit-for-AviUtl2\\.au2pkg\\.zip"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Plugin/VRMToolkit/VRMToolkitExpressionEditor.aux2",
+        "Script/VRMToolkit/VRMToolkitBridge.mod2",
+        "Script/VRMToolkit/VRMToolkitModel.obj2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/VRMToolkit/VRMToolkitExpressionEditor.aux2",
+        "{scriptsDir}/VRMToolkit/VRMToolkitBridge.mod2",
+        "{scriptsDir}/VRMToolkit/VRMToolkitModel.obj2"
+      ]
+    }
+  ]
+}

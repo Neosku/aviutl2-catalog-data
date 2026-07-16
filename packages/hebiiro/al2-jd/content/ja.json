@@ -1,0 +1,22 @@
+{
+  "name": "⚠️【非推奨】ダークモード化MOD",
+  "author": "蛇色",
+  "tags": [
+    "UI"
+  ],
+  "description": {
+    "summary": "AviUtl2を完全にダークモード化するプラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "hebiiro"
+        }
+      ]
+    }
+  ]
+}

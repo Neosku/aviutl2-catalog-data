@@ -1,0 +1,22 @@
+{
+  "name": "Rusty Statistics Output",
+  "author": "Nanashi.",
+  "tags": [
+    "統計"
+  ],
+  "description": {
+    "summary": "フレームを描画するのにかかった時間を表示するプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/statistics-output/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Nanashi. <sevenc7c.com>"
+        }
+      ]
+    }
+  ]
+}

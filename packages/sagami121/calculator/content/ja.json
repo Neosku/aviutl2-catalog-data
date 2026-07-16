@@ -1,0 +1,22 @@
+{
+  "name": "Aviutl2-Calculator",
+  "author": "3aGaM1",
+  "tags": [
+    "便利ツール"
+  ],
+  "description": {
+    "summary": "AviUtl2上で計算ができるプラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "3aGaM1"
+        }
+      ]
+    }
+  ]
+}

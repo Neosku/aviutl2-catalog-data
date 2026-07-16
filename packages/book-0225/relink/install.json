@@ -1,0 +1,38 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "Book-0225",
+      "repo": "aviutl2_relink",
+      "pattern": "aviutl2_relink.au2pkg.zip"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/aviutl2_relink_launcher.aux2",
+        "to": "{pluginsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/aviutl2_relink.exe",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/aviutl2_relink_launcher.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/aviutl2_relink.exe"
+      }
+    ]
+  }
+}

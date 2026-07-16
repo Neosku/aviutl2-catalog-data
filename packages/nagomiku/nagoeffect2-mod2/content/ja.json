@@ -1,0 +1,20 @@
+{
+  "name": "NagoEffect2.mod2",
+  "author": "Nagomiku",
+  "tags": [],
+  "description": {
+    "summary": "Nagomiku氏が作成する一部スクリプトに必須なスクリプトモジュール",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "unknown",
+      "name": "不明"
+    }
+  ],
+  "images": {
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "koisi0319",
+      "repo": "Aviutl2-Duplicate-objects-at-equal-intervals",
+      "pattern": "^Duplicate_objects*\\.aux2$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Duplicate_objects.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/Duplicate_objects.aux2"
+      }
+    ]
+  }
+}

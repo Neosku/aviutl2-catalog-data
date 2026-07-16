@@ -1,0 +1,26 @@
+{
+  "name": "中心ずらし_A",
+  "author": "azurite",
+  "tags": [
+    "移動",
+    "配置"
+  ],
+  "description": {
+    "summary": "オブジェクトの中心座標を移動するスクリプト",
+    "markdownSource": "https://raw.githubusercontent.com/azurite581/AviUtl2-AdjustPivot_A/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "azurite"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp"
+  }
+}

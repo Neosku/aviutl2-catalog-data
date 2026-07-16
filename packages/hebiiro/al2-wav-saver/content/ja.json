@@ -1,0 +1,22 @@
+{
+  "name": "WAVファイル出力",
+  "author": "蛇色",
+  "tags": [
+    "音声"
+  ],
+  "description": {
+    "summary": "WAVファイルを出力するプラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "hebiiro"
+        }
+      ]
+    }
+  ]
+}

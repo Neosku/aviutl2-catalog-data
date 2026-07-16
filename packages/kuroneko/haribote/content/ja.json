@@ -1,0 +1,25 @@
+{
+  "name": "HariboteReader",
+  "author": "黒猫大福",
+  "tags": [
+    "便利ツール"
+  ],
+  "description": {
+    "summary": "GCMZDrops2でメディアファイル以外をD&Dするためのプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/rokujyushi/Haribote/refs/heads/main/Catalog_ReadMe.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "rokujyushi"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

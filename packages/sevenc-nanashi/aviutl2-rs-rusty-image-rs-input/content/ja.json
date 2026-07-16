@@ -1,0 +1,22 @@
+{
+  "name": "Rusty Image Input",
+  "author": "Nanashi.",
+  "tags": [
+    "画像"
+  ],
+  "description": {
+    "summary": "様々な画像（アニメーション画像を含む）を読み込むプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/image-rs-input/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Nanashi. <sevenc7c.com>"
+        }
+      ]
+    }
+  ]
+}

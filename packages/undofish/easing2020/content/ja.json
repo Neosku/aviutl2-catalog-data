@@ -1,0 +1,21 @@
+{
+  "name": "トラックバー対応イージングスクリプト 2020版",
+  "author": "UndoFish",
+  "tags": [
+    "イージング",
+    "トラックバー"
+  ],
+  "description": {
+    "summary": "Tweenな感じのイージングスクリプトトラックバー対応版です。",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "unknown",
+      "name": "不明"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

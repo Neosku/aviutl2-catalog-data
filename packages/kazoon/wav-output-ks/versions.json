@@ -1,0 +1,54 @@
+{
+  "versions": [
+    {
+      "version": "v0.0.1",
+      "releaseDate": "2026-02-16",
+      "files": [
+        {
+          "path": "{pluginsDir}/wav_output_ks.auo2",
+          "xxh128": "44d71a8de7651076978f0fe373cff960"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.2",
+      "releaseDate": "2026-04-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/wav_output_ks.auo2",
+          "xxh128": "116c740fbbfaf68595dfd53a1381e8a6"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.3",
+      "releaseDate": "2026-05-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/wav_output_ks.auo2",
+          "xxh128": "511d9200b9cb5bc63fdb1c75607dc523"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.4",
+      "releaseDate": "2026-05-13",
+      "files": [
+        {
+          "path": "{pluginsDir}/wav_output_ks.auo2",
+          "xxh128": "f04f3a06dbeda848031f6d8c5bb7760c"
+        }
+      ]
+    },
+    {
+      "version": "v0.0.5",
+      "releaseDate": "2026-07-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/wav_output_ks.auo2",
+          "xxh128": "9d0bd690e2b2d4a3ef3914b552cc13d5"
+        }
+      ]
+    }
+  ]
+}

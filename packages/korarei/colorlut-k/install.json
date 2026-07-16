@@ -1,0 +1,37 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "korarei",
+      "repo": "AviUtl2_ColorLUT_K_Plugin",
+      "pattern": "^ColorLUT_K.*\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/ColorLUT_K.aux2"
+      },
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/ColorLUT_K/ColorLUT_K.aux2",
+        "to": "{pluginsDir}/ColorLUT_K"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/ColorLUT_K.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/ColorLUT_K"
+      }
+    ]
+  }
+}

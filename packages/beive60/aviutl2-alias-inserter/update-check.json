@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "beive60",
+    "repo": "aviutl2-alias-inserter",
+    "pattern": "^aviutl2-alias-inserter-v(?<version>\\d\\.\\d\\.\\d)\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "aviutl2_alias_inserter.aux2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/aviutl2_alias_inserter.aux2"
+      ]
+    }
+  ]
+}

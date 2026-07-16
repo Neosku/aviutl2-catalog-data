@@ -1,0 +1,32 @@
+{
+  "versions": [
+    {
+      "version": "v2.0.0",
+      "releaseDate": "2026-04-27",
+      "files": [
+        {
+          "path": "{scriptsDir}/シネマスコープv2/@シネマスコープv2.obj2",
+          "xxh128": "3b5720b8ec628477b59630e94d692fba"
+        },
+        {
+          "path": "{scriptsDir}/シネマスコープv2/cinemascope_v2.lua",
+          "xxh128": "0296c82302e81b53e392fb9abcaa01d7"
+        }
+      ]
+    },
+    {
+      "version": "v2.0.1",
+      "releaseDate": "2026-04-27",
+      "files": [
+        {
+          "path": "{scriptsDir}/シネマスコープv2/@シネマスコープv2.obj2",
+          "xxh128": "3b5720b8ec628477b59630e94d692fba"
+        },
+        {
+          "path": "{scriptsDir}/シネマスコープv2/cinemascope_v2.lua",
+          "xxh128": "f0431231d8a442ac12b71fd7b8fc306b"
+        }
+      ]
+    }
+  ]
+}

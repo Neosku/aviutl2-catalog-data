@@ -1,0 +1,22 @@
+{
+  "name": "Waveform Preview",
+  "author": "かろてら",
+  "tags": [
+    "音声"
+  ],
+  "description": {
+    "summary": "AviUtl2 で編集中の音声波形を確認するためのプラグイン",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "karoterra"
+        }
+      ]
+    }
+  ]
+}

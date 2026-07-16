@@ -1,0 +1,30 @@
+{
+  "name": "aviutl2-alias-inserter",
+  "author": "Beive60",
+  "tags": [
+    "配置",
+    "便利ツール"
+  ],
+  "description": {
+    "summary": "Steam Deck などの外部デバイスから挿入できるようにする",
+    "markdownSource": "https://raw.githubusercontent.com/beive60/aviutl2-alias-inserter/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "Beive60"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png",
+    "detailImages": [
+      "./images/details1.png",
+      "./images/details2.png"
+    ]
+  }
+}

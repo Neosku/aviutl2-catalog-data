@@ -1,0 +1,54 @@
+{
+  "versions": [
+    {
+      "version": "v0.21",
+      "releaseDate": "2025-11-23",
+      "files": [
+        {
+          "path": "{dataDir}/Language/日本語(アクセスキー付き).aul2",
+          "xxh128": "e76fe07d41e5ff279f1f233a241e87fa"
+        }
+      ]
+    },
+    {
+      "version": "v0.24",
+      "releaseDate": "2025-12-15",
+      "files": [
+        {
+          "path": "{dataDir}/Language/日本語(アクセスキー付き).aul2",
+          "xxh128": "80f4f3f07a576ae30d244ad79d6f0c47"
+        }
+      ]
+    },
+    {
+      "version": "v0.35",
+      "releaseDate": "2026-03-05",
+      "files": [
+        {
+          "path": "{dataDir}/Language/日本語(アクセスキー付き).org.aul2",
+          "xxh128": "b548b5581b66387a44eddf016957d127"
+        }
+      ]
+    },
+    {
+      "version": "v0.50",
+      "releaseDate": "2026-06-14",
+      "files": [
+        {
+          "path": "{dataDir}/Language/日本語(アクセスキー付き).aul2",
+          "xxh128": "8cb28540c4f3231b41f56054c8292d3e"
+        }
+      ]
+    },
+    {
+      "version": "v0.53",
+      "releaseDate": "2026-07-05",
+      "files": [
+        {
+          "path": "{dataDir}/Language/日本語(アクセスキー付き).aul2",
+          "xxh128": "ebb5e1129a2350b277b97ead0ac3c9e5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v0.1.0",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{scriptsDir}/Hex-Tiling.anm2",
+          "xxh128": "761ca93163a980f44dd41cf99b70df86"
+        }
+      ]
+    },
+    {
+      "version": "v0.2.0",
+      "releaseDate": "2026-06-09",
+      "files": [
+        {
+          "path": "{scriptsDir}/Hex-Tiling.anm2",
+          "xxh128": "8a4ad9f1f692d4459de43a491cf3acec"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2025-11-20",
+      "files": [
+        {
+          "path": "{scriptsDir}/角丸補正_Rh.anm2",
+          "xxh128": "0da8d6dc68e00c1ae1c400f8dc37faf1"
+        }
+      ]
+    },
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2026-01-29",
+      "files": [
+        {
+          "path": "{scriptsDir}/角丸補正_Rh.anm2",
+          "xxh128": "d75b9d2640f3d276835e9920b1d71660"
+        }
+      ]
+    }
+  ]
+}

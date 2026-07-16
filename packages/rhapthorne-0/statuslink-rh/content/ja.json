@@ -1,0 +1,19 @@
+{
+  "name": "ステータスリンク_Rh",
+  "author": "ラプソーン",
+  "tags": [
+    "オブジェクト操作",
+    "配置"
+  ],
+  "description": {
+    "summary": "指定したオブジェクトの状態を別のオブジェクトに同期するスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "custom",
+      "name": "カスタムライセンス",
+      "licenseBody": "改変再配布等基本自由です"
+    }
+  ]
+}

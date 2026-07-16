@@ -1,0 +1,25 @@
+{
+  "name": "ニコニ・コモンズ作品ID一覧出力プラグイン",
+  "author": "Fuji",
+  "tags": [
+    "便利ツール"
+  ],
+  "description": {
+    "summary": "ニコニ・コモンズで親作品登録を容易にするプラグインです",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "Fuji"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

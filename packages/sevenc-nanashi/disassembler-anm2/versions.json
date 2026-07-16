@@ -1,0 +1,60 @@
+{
+  "versions": [
+    {
+      "version": "0.1.1",
+      "releaseDate": "2026-03-05",
+      "files": [
+        {
+          "path": "{dataDir}/Language/English.disassembler-anm2.aul2",
+          "xxh128": "a5fdbac01893cc7751e07d6ff1696ed4"
+        },
+        {
+          "path": "{scriptsDir}/disassembler.anm2.anm2",
+          "xxh128": "efd720b27091cfa08c58ae45c09e2ede"
+        },
+        {
+          "path": "{scriptsDir}/disassembler.mod2",
+          "xxh128": "58586f805cf1e38f8e8a6b0b6d02dc2d"
+        }
+      ]
+    },
+    {
+      "version": "0.1.4",
+      "releaseDate": "2026-03-05",
+      "files": [
+        {
+          "path": "{dataDir}/Language/English.disassembler-anm2.aul2",
+          "xxh128": "a5fdbac01893cc7751e07d6ff1696ed4"
+        },
+        {
+          "path": "{scriptsDir}/disassembler.anm2.anm2",
+          "xxh128": "bde5e4fe94c8cc5ed3cca59d85204516"
+        },
+        {
+          "path": "{scriptsDir}/disassembler.mod2",
+          "xxh128": "a18f49153b33f934b056c08737c8bf63"
+        }
+      ]
+    },
+    {
+      "version": "0.1.5",
+      "releaseDate": "2026-03-09",
+      "files": [
+        {
+          "path": "{scriptsDir}/disassembler.anm2.anm2",
+          "xxh128": "eb04083121fec1a08c2f42d530a8b912"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "releaseDate": "2026-03-20",
+      "files": [
+        {
+          "path": "{scriptsDir}/disassembler.anm2.anm2",
+          "xxh128": "e8122b9577cfe0de81d1181a3b830d1c"
+        }
+      ]
+    }
+  ]
+}

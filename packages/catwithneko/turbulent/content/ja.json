@@ -1,0 +1,16 @@
+{
+  "name": "Turbulent",
+  "author": "こんにゃくねこ",
+  "tags": [
+    "変形"
+  ],
+  "description": {
+    "summary": "簡易タービュレントディスプレイス",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "CC0-1.0"
+    }
+  ]
+}

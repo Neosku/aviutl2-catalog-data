@@ -1,0 +1,25 @@
+{
+  "name": "角丸正多角形_sl",
+  "author": "セイル",
+  "tags": [
+    "図形"
+  ],
+  "description": {
+    "summary": "角丸や星形にもできる正多角形のカスタムオブジェクト",
+    "markdownSource": "https://raw.githubusercontent.com/seilor0/roundedPolygon_sl/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "seilor0"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

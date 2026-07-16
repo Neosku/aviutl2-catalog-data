@@ -1,0 +1,24 @@
+{
+  "name": "SeiSa",
+  "author": "SLDC",
+  "tags": [
+    "カスタムオブジェクト",
+    "テキスト",
+    "便利ツール"
+  ],
+  "description": {
+    "summary": "簡単な操作で動画にRTAタイマーを追加できるようにするもの",
+    "markdownSource": "https://raw.githubusercontent.com/samuelladoco/aviutl2-script-seisa/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026-present",
+          "holder": "Samuel LaDoCo (SLDC)"
+        }
+      ]
+    }
+  ]
+}

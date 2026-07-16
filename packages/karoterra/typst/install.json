@@ -1,0 +1,74 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "karoterra",
+      "repo": "aviutl2-typst",
+      "pattern": "^Karoterra\\.Typst-v.*\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/Karoterra.Typst/LICENSE-APACHE",
+        "to": "{pluginsDir}/Karoterra.Typst"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/Karoterra.Typst/LICENSE-MIT",
+        "to": "{pluginsDir}/Karoterra.Typst"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/Karoterra.Typst/NOTICE.html",
+        "to": "{pluginsDir}/Karoterra.Typst"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/Karoterra.Typst/README.md",
+        "to": "{pluginsDir}/Karoterra.Typst"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin/Karoterra.Typst/typst_kr.aux2",
+        "to": "{pluginsDir}/Karoterra.Typst"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/English.typst_kr.aul2",
+        "to": "{dataDir}/Language"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/Karoterra.Typst/LICENSE-APACHE"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/Karoterra.Typst/LICENSE-MIT"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/Karoterra.Typst/NOTICE.html"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/Karoterra.Typst/README.md"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/Karoterra.Typst/typst_kr.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/English.typst_kr.aul2"
+      }
+    ]
+  }
+}

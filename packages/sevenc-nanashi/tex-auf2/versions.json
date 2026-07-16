@@ -1,0 +1,74 @@
+{
+  "versions": [
+    {
+      "version": "0.1.2",
+      "releaseDate": "2026-04-14",
+      "files": [
+        {
+          "path": "{dataDir}/Language/English.tex.aul2",
+          "xxh128": "28eab41928a10b449e4817d2253a056a"
+        },
+        {
+          "path": "{pluginsDir}/tex.aux2",
+          "xxh128": "cce0cc27bb2104e33ec4555e3576f838"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "releaseDate": "2026-05-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/tex.aux2",
+          "xxh128": "eaa7e7f13deb6921c3202fa850e621a9"
+        },
+        {
+          "path": "{dataDir}/Language/English.tex.aul2",
+          "xxh128": "28eab41928a10b449e4817d2253a056a"
+        }
+      ]
+    },
+    {
+      "version": "0.2.1",
+      "releaseDate": "2026-05-18",
+      "files": [
+        {
+          "path": "{pluginsDir}/tex.aux2",
+          "xxh128": "48b892cddb8673fc66920938261275ae"
+        },
+        {
+          "path": "{dataDir}/Language/English.tex.aul2",
+          "xxh128": "28eab41928a10b449e4817d2253a056a"
+        }
+      ]
+    },
+    {
+      "version": "0.2.2",
+      "releaseDate": "2026-05-19",
+      "files": [
+        {
+          "path": "{pluginsDir}/tex.aux2",
+          "xxh128": "7c4e2f5977cdba3c19bf45dcf1dcda74"
+        },
+        {
+          "path": "{dataDir}/Language/English.tex.aul2",
+          "xxh128": "28eab41928a10b449e4817d2253a056a"
+        }
+      ]
+    },
+    {
+      "version": "0.2.3",
+      "releaseDate": "2026-06-18",
+      "files": [
+        {
+          "path": "{pluginsDir}/tex.aux2",
+          "xxh128": "d0ef7a119aad3d449786b0f52e86231a"
+        },
+        {
+          "path": "{dataDir}/Language/English.tex.aul2",
+          "xxh128": "28eab41928a10b449e4817d2253a056a"
+        }
+      ]
+    }
+  ]
+}

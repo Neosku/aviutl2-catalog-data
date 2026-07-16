@@ -1,0 +1,56 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sigma-axis",
+      "repo": "aviutl2_script_Tile_S",
+      "pattern": "^aviutl2_script_Tile_S.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/@Tile_S.obj2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/Tile_S/LICENSE",
+        "to": "{scriptsDir}/Tile_S"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/Tile_S/README.md",
+        "to": "{scriptsDir}/Tile_S"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Language/Default.Tile_S.aul2",
+        "to": "{dataDir}/Language"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/@Tile_S.obj2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/Tile_S/LICENSE"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/Tile_S/README.md"
+      },
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/Default.Tile_S.aul2"
+      }
+    ]
+  }
+}

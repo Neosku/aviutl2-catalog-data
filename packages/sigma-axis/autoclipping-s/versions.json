@@ -1,0 +1,94 @@
+{
+  "versions": [
+    {
+      "version": "v1.00-for-beta3",
+      "releaseDate": "2025-07-27",
+      "files": [
+        {
+          "path": "{scriptsDir}/AutoClipping_S.anm2",
+          "xxh128": "f22b341fcbff8e9259a1d3183497724b"
+        }
+      ]
+    },
+    {
+      "version": "v1.10-for-beta8",
+      "releaseDate": "2025-08-24",
+      "files": [
+        {
+          "path": "{scriptsDir}/AutoClipping_S.anm2",
+          "xxh128": "79207470804985492f66cefe5de1b6dc"
+        }
+      ]
+    },
+    {
+      "version": "v1.11-for-beta12",
+      "releaseDate": "2025-09-27",
+      "files": [
+        {
+          "path": "{scriptsDir}/AutoClipping_S.anm2",
+          "xxh128": "b1ca2633e7ce8e20da00665fb875abc7"
+        }
+      ]
+    },
+    {
+      "version": "v1.12-for-beta15",
+      "releaseDate": "2025-10-14",
+      "files": [
+        {
+          "path": "{scriptsDir}/AutoClipping_S.anm2",
+          "xxh128": "b7c011ff5e3c1889f0eb75771a13b839"
+        }
+      ]
+    },
+    {
+      "version": "v1.13-for-beta22",
+      "releaseDate": "2025-12-01",
+      "files": [
+        {
+          "path": "{scriptsDir}/AutoClipping_S.anm2",
+          "xxh128": "59a47af0da79d3519acc4d3836937620"
+        }
+      ]
+    },
+    {
+      "version": "v1.14-for-beta43a",
+      "releaseDate": "2026-04-28",
+      "files": [
+        {
+          "path": "{scriptsDir}/AutoClipping_S.anm2",
+          "xxh128": "34a0049b56ce6ac63d67b45e912d45dc"
+        }
+      ]
+    },
+    {
+      "version": "v1.15-for-beta45",
+      "releaseDate": "2026-05-10",
+      "files": [
+        {
+          "path": "{scriptsDir}/AutoClipping_S.anm2",
+          "xxh128": "01447e644a1dbe1546ec4c6737f9775d"
+        }
+      ]
+    },
+    {
+      "version": "v1.16-for-beta52",
+      "releaseDate": "2026-06-28",
+      "files": [
+        {
+          "path": "{scriptsDir}/AutoClipping_S.anm2",
+          "xxh128": "2c52bb189a9d10a57e55e94c40eaa453"
+        }
+      ]
+    },
+    {
+      "version": "v1.17-for-beta53a",
+      "releaseDate": "2026-07-07",
+      "files": [
+        {
+          "path": "{scriptsDir}/AutoClipping_S.anm2",
+          "xxh128": "cc0b817c6ee704b39a3ff37a6059d47b"
+        }
+      ]
+    }
+  ]
+}

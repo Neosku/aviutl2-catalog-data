@@ -1,0 +1,24 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://gist.githubusercontent.com/zopty/46b16b7d5f90ec772274e67015117a91/raw/75195d968386793ecb99bc98d9d2db9ed8595644/OKLCH.palette"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/OKLCH.palette",
+        "to": "{dataDir}/default"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{dataDir}/default/OKLCH.palette"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "AviUtl2-LaTeX",
+  "author": "Estelle",
+  "tags": [],
+  "description": {
+    "summary": "LaTeXの描画を行うメディアオブジェクトプラグインです。",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "Estellellet"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.gif"
+  }
+}

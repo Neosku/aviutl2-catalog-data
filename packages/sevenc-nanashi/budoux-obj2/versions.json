@@ -1,0 +1,32 @@
+{
+  "versions": [
+    {
+      "version": "0.1.4",
+      "releaseDate": "2026-03-30",
+      "files": [
+        {
+          "path": "{scriptsDir}/budoux.mod2",
+          "xxh128": "3a6b246c7b65dcec3ce1f88771d8cb16"
+        },
+        {
+          "path": "{scriptsDir}/budoux.obj2.obj2",
+          "xxh128": "ba4b2457fa4c83f648b1eeafce8c294d"
+        }
+      ]
+    },
+    {
+      "version": "0.1.9",
+      "releaseDate": "2026-03-30",
+      "files": [
+        {
+          "path": "{scriptsDir}/budoux.mod2",
+          "xxh128": "bb3a2bfbd57281a37918cd8023e7d552"
+        },
+        {
+          "path": "{scriptsDir}/budoux.obj2.obj2",
+          "xxh128": "b0ccaa65dca01c9f3ed36c448e9728af"
+        }
+      ]
+    }
+  ]
+}

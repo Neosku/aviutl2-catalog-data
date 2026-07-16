@@ -1,0 +1,48 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "rigaya",
+      "repo": "QSVEnc",
+      "pattern": "^Aviutl2_QSVEnc.*install\\.exe$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extractSfx"
+      },
+      {
+        "action": "runAuoSetup",
+        "path": "{tmp}/Plugin/exe_files/auo_setup2.exe"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/QSVEnc.auo2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/QSVEnc.conf"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/QSVEnc.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/QSVEnc.en.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/QSVEnc.zh.ini"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/QSVEnc_stg/"
+      }
+    ]
+  }
+}

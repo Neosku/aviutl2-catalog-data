@@ -1,0 +1,364 @@
+{
+  "versions": [
+    {
+      "version": "0.12.2",
+      "releaseDate": "2026-01-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "b492200c167a16f1422f7c058fcb7b2b"
+        }
+      ]
+    },
+    {
+      "version": "0.13.0",
+      "releaseDate": "2026-01-31",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "e20d849bf857a2f422e77495353774f3"
+        }
+      ]
+    },
+    {
+      "version": "0.14.0",
+      "releaseDate": "2026-02-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "8a3aaa31ce4fcd4477b43d98255a0e48"
+        }
+      ]
+    },
+    {
+      "version": "0.15.0",
+      "releaseDate": "2026-02-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "f5f69325d5b3e386aef7fcba818e2c87"
+        }
+      ]
+    },
+    {
+      "version": "0.15.1",
+      "releaseDate": "2026-02-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "fa66599a55bbea9555be904b92e17d78"
+        }
+      ]
+    },
+    {
+      "version": "0.16.0",
+      "releaseDate": "2026-02-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "9478b29351955c872af16e42b752bc9f"
+        }
+      ]
+    },
+    {
+      "version": "0.17.0",
+      "releaseDate": "2026-02-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "fea944cf7cade8c42361687c9cf05426"
+        }
+      ]
+    },
+    {
+      "version": "0.18.0",
+      "releaseDate": "2026-02-23",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "11c984b2fd11a543434d7d4b3dd12680"
+        }
+      ]
+    },
+    {
+      "version": "0.18.1",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "ea5526d7e072ffb064690109a3d42084"
+        }
+      ]
+    },
+    {
+      "version": "0.19.0",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "805b84fb818cfbaf34f47a20652aa7b6"
+        }
+      ]
+    },
+    {
+      "version": "0.20.0",
+      "releaseDate": "2026-03-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "33c991fcbc488161c92a3e647f795afe"
+        }
+      ]
+    },
+    {
+      "version": "0.20.1",
+      "releaseDate": "2026-03-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "2eb43e18f26db986c335301299cde382"
+        }
+      ]
+    },
+    {
+      "version": "0.20.2",
+      "releaseDate": "2026-03-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "f93e6d2f6fe16055d0fd9578b5ecd66a"
+        }
+      ]
+    },
+    {
+      "version": "0.20.3",
+      "releaseDate": "2026-03-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "e07589074fc0f6487183b5b163c2a459"
+        }
+      ]
+    },
+    {
+      "version": "0.21.0",
+      "releaseDate": "2026-03-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "73abd5e79f51be4f639a4937c2bd6dd6"
+        }
+      ]
+    },
+    {
+      "version": "0.22.0",
+      "releaseDate": "2026-03-29",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "7afca0b368aaeaef9a1e777ae52ce0a7"
+        }
+      ]
+    },
+    {
+      "version": "0.23.0",
+      "releaseDate": "2026-04-13",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "4a52834cc7f05988461a53425370a0a5"
+        }
+      ]
+    },
+    {
+      "version": "0.24.0",
+      "releaseDate": "2026-04-19",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "16d864afc3192425b0b93bc4336fac87"
+        }
+      ]
+    },
+    {
+      "version": "0.25.0",
+      "releaseDate": "2026-04-26",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "2b5d603504556726c7f6885c8f095e3f"
+        }
+      ]
+    },
+    {
+      "version": "0.26.0",
+      "releaseDate": "2026-04-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "6a9b7a9c731e61d73810ac35b26e6739"
+        }
+      ]
+    },
+    {
+      "version": "0.27.0",
+      "releaseDate": "2026-05-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "6c8a40b0c42ae1c0b8ad794c6bed7f25"
+        }
+      ]
+    },
+    {
+      "version": "0.28.0",
+      "releaseDate": "2026-05-10",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "5bed2e5a584a38b972633805ff3cd086"
+        }
+      ]
+    },
+    {
+      "version": "0.28.1",
+      "releaseDate": "2026-05-11",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "24fd1304bfab5421cbb125830afc07e8"
+        }
+      ]
+    },
+    {
+      "version": "0.29.0",
+      "releaseDate": "2026-05-18",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "7e6a39968be8f0e2c9dc7459e1b98b98"
+        }
+      ]
+    },
+    {
+      "version": "0.30.0",
+      "releaseDate": "2026-05-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "c365e234f0f278b735fb32f72564e690"
+        }
+      ]
+    },
+    {
+      "version": "0.31.0",
+      "releaseDate": "2026-06-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "ec64b3837844747430d63fec4270d576"
+        }
+      ]
+    },
+    {
+      "version": "0.32.0",
+      "releaseDate": "2026-06-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "96947c49ea7d6c78cf7190cc70a9fa96"
+        }
+      ]
+    },
+    {
+      "version": "0.33.0",
+      "releaseDate": "2026-06-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "32df2075c00a606fa72efc18b6391d31"
+        }
+      ]
+    },
+    {
+      "version": "0.34.0",
+      "releaseDate": "2026-06-20",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "301edc34d8ddd66f85b1a3f46884e0dd"
+        }
+      ]
+    },
+    {
+      "version": "0.35.0",
+      "releaseDate": "2026-07-03",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "3566590e38e6e743af14d4fd063baef7"
+        }
+      ]
+    },
+    {
+      "version": "0.36.0",
+      "releaseDate": "2026-07-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "2392e2a5ec3ee10b699434bdf1b19b6e"
+        }
+      ]
+    },
+    {
+      "version": "0.37.0",
+      "releaseDate": "2026-07-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "9dfa1048e1b5a8a76ba8ee83917ffb83"
+        }
+      ]
+    },
+    {
+      "version": "0.38.0",
+      "releaseDate": "2026-07-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "8570868d938d34db3f47bb61d8adf16e"
+        }
+      ]
+    },
+    {
+      "version": "0.38.1",
+      "releaseDate": "2026-07-05",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "1e90583ff5c8cd1a5e331565fd2e51dc"
+        }
+      ]
+    },
+    {
+      "version": "0.38.2",
+      "releaseDate": "2026-07-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "6337310b3e9d400deb7282b02dbce341"
+        }
+      ]
+    },
+    {
+      "version": "0.39.0",
+      "releaseDate": "2026-07-12",
+      "files": [
+        {
+          "path": "{pluginsDir}/rusty_image_rs.auo2",
+          "xxh128": "eda2a3cd01ce9d285229d3fa0146a355"
+        }
+      ]
+    }
+  ]
+}

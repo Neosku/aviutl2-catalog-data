@@ -1,0 +1,21 @@
+{
+  "name": "ScriptBrowserPlugin",
+  "author": "Nao",
+  "tags": [
+    "便利ツール",
+    "検索"
+  ],
+  "description": {
+    "summary": "多くの効果を検索し、付与や追加等ができるPluginです",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "unknown",
+      "name": "不明"
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png"
+  }
+}

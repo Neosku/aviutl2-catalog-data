@@ -1,0 +1,22 @@
+{
+  "name": "Rusty Local Alias Plugin",
+  "author": "Nanashi.",
+  "tags": [
+    "エイリアス"
+  ],
+  "description": {
+    "summary": "プロジェクトファイル内にエイリアスを登録できるようにするプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-rs/refs/heads/main/examples/local-alias-plugin/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Nanashi. <sevenc7c.com>"
+        }
+      ]
+    }
+  ]
+}

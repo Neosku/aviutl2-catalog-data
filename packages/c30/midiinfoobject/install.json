@@ -1,0 +1,35 @@
+{
+  "installation": {
+    "source": {
+      "type": "booth",
+      "url": "https://booth.pm/downloadables/9063129"
+    },
+    "installSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/MidiInfoObject.auf2"
+      },
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/MidiInfoObject.aux2",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/MidiInfoObject.auf2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/MidiInfoObject.aux2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "オブジェクト行複製",
+  "author": "koisi0319",
+  "tags": [
+    "オブジェクト操作",
+    "配置"
+  ],
+  "description": {
+    "summary": "選択したオブジェクトをそのレイヤーに複製するスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "koisi0319"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp",
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

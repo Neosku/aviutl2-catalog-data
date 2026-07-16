@@ -1,0 +1,28 @@
+{
+  "name": "VRM Toolkit for AviUtl2",
+  "author": "novenove",
+  "tags": [
+    "カスタムオブジェクト",
+    "VRM"
+  ],
+  "description": {
+    "summary": "VRMモデルを3D配置して表示するカスタムオブジェクト（VRMA対応）",
+    "markdownSource": "https://raw.githubusercontent.com/nove-nove/aviutl2-vrm-toolkit/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "novenove"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "detailImages": [
+      "./images/details1.png"
+    ]
+  }
+}

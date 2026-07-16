@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "r4",
+      "releaseDate": "2026-02-28",
+      "files": [
+        {
+          "path": "{scriptsDir}/LyricMotioN.anm2",
+          "xxh128": "f166c78d24d31a2147beb6ea229895ad"
+        }
+      ]
+    },
+    {
+      "version": "r5",
+      "releaseDate": "2026-03-01",
+      "files": [
+        {
+          "path": "{scriptsDir}/LyricMotioN.anm2",
+          "xxh128": "83c91a99196d5f3eeade18f414235bfc"
+        }
+      ]
+    }
+  ]
+}

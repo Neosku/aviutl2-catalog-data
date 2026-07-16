@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "rigaya",
+    "repo": "svtAV1guiEx",
+    "pattern": "^Aviutl2_svtAV1guiEx.*install\\.exe$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "7zip",
+      "sourcePaths": [
+        "Plugin/svtAV1guiEx.auo2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/svtAV1guiEx.auo2"
+      ]
+    }
+  ]
+}

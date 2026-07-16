@@ -1,0 +1,114 @@
+{
+  "versions": [
+    {
+      "version": "8.37",
+      "releaseDate": "2025-06-22",
+      "files": [
+        {
+          "path": "{pluginsDir}/VCEEnc.auo",
+          "xxh128": "87531c85d781ef75cb890393d0b70915"
+        }
+      ]
+    },
+    {
+      "version": "8.38",
+      "releaseDate": "2025-07-16",
+      "files": [
+        {
+          "path": "{pluginsDir}/VCEEnc.auo",
+          "xxh128": "8e31a5b77ee0238dd3818492f7e94a0f"
+        }
+      ]
+    },
+    {
+      "version": "9.00",
+      "releaseDate": "2025-09-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/VCEEnc.auo2",
+          "xxh128": "5d8a5350f0771b4185d53f19c0a1671f"
+        }
+      ]
+    },
+    {
+      "version": "9.01",
+      "releaseDate": "2025-10-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/VCEEnc.auo2",
+          "xxh128": "cc06963f433819705e30f2e32073d85a"
+        }
+      ]
+    },
+    {
+      "version": "9.02",
+      "releaseDate": "2025-11-08",
+      "files": [
+        {
+          "path": "{pluginsDir}/VCEEnc.auo2",
+          "xxh128": "a348271795108239ce6ffb8af29e6987"
+        }
+      ]
+    },
+    {
+      "version": "9.03",
+      "releaseDate": "2026-01-03",
+      "files": [
+        {
+          "path": "{pluginsDir}/VCEEnc.auo2",
+          "xxh128": "c2406b18f83ee044c8a2662fec689a86"
+        }
+      ]
+    },
+    {
+      "version": "9.04",
+      "releaseDate": "2026-03-15",
+      "files": [
+        {
+          "path": "{pluginsDir}/VCEEnc.auo2",
+          "xxh128": "27e72956beb00ae50b573651a5510c87"
+        }
+      ]
+    },
+    {
+      "version": "9.05",
+      "releaseDate": "2026-03-22",
+      "files": [
+        {
+          "path": "{pluginsDir}/VCEEnc.auo2",
+          "xxh128": "4d5af301cb9c97fa9d1f54dad1cceca1"
+        }
+      ]
+    },
+    {
+      "version": "9.06",
+      "releaseDate": "2026-06-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/VCEEnc.auo2",
+          "xxh128": "91e8d992148d3536ac79426c1e262e94"
+        }
+      ]
+    },
+    {
+      "version": "9.07",
+      "releaseDate": "2026-06-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/VCEEnc.auo2",
+          "xxh128": "40cc7c31be42554966b02fbf1dcd1fb6"
+        }
+      ]
+    },
+    {
+      "version": "9.08",
+      "releaseDate": "2026-07-04",
+      "files": [
+        {
+          "path": "{pluginsDir}/VCEEnc.auo2",
+          "xxh128": "f53a878ebf0fe7229a88a63f23e767c9"
+        }
+      ]
+    }
+  ]
+}

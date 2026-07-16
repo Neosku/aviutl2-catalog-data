@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "1.0",
+      "releaseDate": "2026-06-07",
+      "files": [
+        {
+          "path": "{scriptsDir}/GPUピクセルソート.anm2",
+          "xxh128": "67582909fcbb2fd420e751277dca4890"
+        }
+      ]
+    },
+    {
+      "version": "1.1",
+      "releaseDate": "2026-06-08",
+      "files": [
+        {
+          "path": "{scriptsDir}/GPUピクセルソート.anm2",
+          "xxh128": "19c36de2eb3cbd197be44ad73ecdc798"
+        }
+      ]
+    }
+  ]
+}

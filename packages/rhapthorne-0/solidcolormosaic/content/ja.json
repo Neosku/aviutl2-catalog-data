@@ -1,0 +1,18 @@
+{
+  "name": "単色不透明化+モザイク",
+  "author": "ラプソーン",
+  "tags": [
+    "モザイク"
+  ],
+  "description": {
+    "summary": "モザイク後不透明な部分を指定色で塗りつぶすスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "custom",
+      "name": "カスタムライセンス",
+      "licenseBody": "改変再配布等基本自由です"
+    }
+  ]
+}

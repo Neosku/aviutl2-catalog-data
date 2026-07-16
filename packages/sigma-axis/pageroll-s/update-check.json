@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "sigma-axis",
+    "repo": "aviutl2_script_PageRoll_S",
+    "pattern": "^aviutl2_script_PageRoll_S.*\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Script/PageRoll_S.anm2"
+      ],
+      "recordPaths": [
+        "{scriptsDir}/PageRoll_S.anm2"
+      ]
+    }
+  ]
+}

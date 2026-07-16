@@ -1,0 +1,22 @@
+{
+  "name": "WAVファイル出力",
+  "author": "KAZOON",
+  "tags": [
+    "音声"
+  ],
+  "description": {
+    "summary": "モノラル/ステレオで出力できるWAVファイル出力プラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/cycloawaodorin/wav_output_ks/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "KAZOON"
+        }
+      ]
+    }
+  ]
+}

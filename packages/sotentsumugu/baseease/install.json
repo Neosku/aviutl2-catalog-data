@@ -1,0 +1,27 @@
+{
+  "installation": {
+    "source": {
+      "type": "directUrl",
+      "url": "https://drive.google.com/uc?id=1IlhDquMUR93NbW7P3FtQyVfxDNsqV1mQ"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/キホンイーズ.params",
+        "to": "{dataDir}/Default"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{dataDir}/Default/キホンイーズ.params"
+      }
+    ]
+  }
+}

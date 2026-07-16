@@ -1,0 +1,29 @@
+{
+  "name": "光学モーションブラー",
+  "author": "zopty",
+  "tags": [
+    "エフェクト",
+    "モーションブラー"
+  ],
+  "description": {
+    "summary": "オプティカルフローを使った疑似モーションブラー",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "BSD-3-Clause",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "zopty"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp",
+    "detailImages": [
+      "./images/details1.webp"
+    ]
+  }
+}

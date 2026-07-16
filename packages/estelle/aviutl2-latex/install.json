@@ -1,0 +1,49 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "Estellellet",
+      "repo": "AviUtl2-LaTeX",
+      "pattern": "^AviUtl2LaTeX-v[0-9]+\\.[0-9]+\\.[0-9]+\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/AviUtl2LaTeX/AviUtl2LaTeX.auf2",
+        "to": "{pluginsDir}/AviUtl2LaTeX"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/AviUtl2LaTeX/README.md",
+        "to": "{pluginsDir}/AviUtl2LaTeX"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/AviUtl2LaTeX/LICENSE",
+        "to": "{pluginsDir}/AviUtl2LaTeX"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/AviUtl2LaTeX/THIRD_PARTY_NOTICES.md",
+        "to": "{pluginsDir}/AviUtl2LaTeX"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/AviUtl2LaTeX/CHANGELOG.md",
+        "to": "{pluginsDir}/AviUtl2LaTeX"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/AviUtl2LaTeX"
+      }
+    ]
+  }
+}

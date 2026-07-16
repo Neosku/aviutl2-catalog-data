@@ -1,0 +1,37 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "hebiiro",
+      "repo": "al2_jd",
+      "pattern": "^al2_jd_r\\d+\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Plugin",
+        "to": "{pluginsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2_jd.aui2"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/DarkenWindow.aul"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/al2/assets/al2_jd.json"
+      }
+    ]
+  }
+}

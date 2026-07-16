@@ -1,0 +1,18 @@
+{
+  "name": "個別化レイヤー_Rh",
+  "author": "ラプソーン",
+  "tags": [
+    "オブジェクト操作"
+  ],
+  "description": {
+    "summary": "画像合成(オブジェクト)を個別オブジェクトにするスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "custom",
+      "name": "カスタムライセンス",
+      "licenseBody": "改変再配布等基本自由です"
+    }
+  ]
+}

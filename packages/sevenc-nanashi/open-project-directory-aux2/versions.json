@@ -1,0 +1,44 @@
+{
+  "versions": [
+    {
+      "version": "0.1.1",
+      "releaseDate": "2026-02-18",
+      "files": [
+        {
+          "path": "{pluginsDir}/open_project_directory.aux2",
+          "xxh128": "3b7de7f89e58ca680d3f61fa20562a86"
+        }
+      ]
+    },
+    {
+      "version": "0.1.2",
+      "releaseDate": "2026-02-24",
+      "files": [
+        {
+          "path": "{pluginsDir}/open_project_directory.aux2",
+          "xxh128": "1d84069b9be0a3f250d409b5fa0d3786"
+        }
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "releaseDate": "2026-03-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/open_project_directory.aux2",
+          "xxh128": "cb11905695103fabf304d8ef61770f4c"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "releaseDate": "2026-07-15",
+      "files": [
+        {
+          "path": "{pluginsDir}/open_project_directory.aux2",
+          "xxh128": "a86f68c245956a96c2b3e93a1bcad9f4"
+        }
+      ]
+    }
+  ]
+}

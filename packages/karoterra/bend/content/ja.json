@@ -1,0 +1,23 @@
+{
+  "name": "曲げKR",
+  "author": "かろてら",
+  "tags": [
+    "画像",
+    "曲げ"
+  ],
+  "description": {
+    "summary": "画像を曲線に沿って曲げるスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "karoterra"
+        }
+      ]
+    }
+  ]
+}

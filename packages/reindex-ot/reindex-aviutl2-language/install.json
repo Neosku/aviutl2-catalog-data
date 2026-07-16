@@ -1,0 +1,29 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "reindex-ot",
+      "repo": "reindex_AviUtl2_Language",
+      "pattern": "Japanese_Mod.aul2"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Japanese_Mod.aul2",
+        "to": "{dataDir}/Language"
+      },
+      {
+        "action": "download"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{dataDir}/Language/Japanese_Mod.aul2"
+      }
+    ]
+  }
+}

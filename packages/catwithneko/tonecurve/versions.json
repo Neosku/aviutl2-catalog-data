@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "2025.11.02",
+      "releaseDate": "2025-11-02",
+      "files": [
+        {
+          "path": "{scriptsDir}/トーンカーブ(時間制御).anm2",
+          "xxh128": "20179a871f9bc3430e0f0a6ec1390746"
+        }
+      ]
+    },
+    {
+      "version": "2025.11.02",
+      "releaseDate": "2025-11-02",
+      "files": [
+        {
+          "path": "{scriptsDir}/Tonecurve_C.anm2",
+          "xxh128": "f96d09e20cf0fe7fba722d23b7c2d20c"
+        }
+      ]
+    }
+  ]
+}

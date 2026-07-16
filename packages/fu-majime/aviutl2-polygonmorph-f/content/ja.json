@@ -1,0 +1,26 @@
+{
+  "name": "多角形モーフ_F",
+  "author": "フマジメ",
+  "tags": [
+    "図形",
+    "変形"
+  ],
+  "description": {
+    "summary": "モーフィング機能を備えた角丸正多角形・星型図形スクリプト",
+    "markdownSource": "https://raw.githubusercontent.com/fu-majime/AviUtl2_PolygonMorph_F/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "Fu-Majime"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp"
+  }
+}

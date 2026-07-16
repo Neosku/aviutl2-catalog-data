@@ -1,0 +1,25 @@
+{
+  "name": "DepthMapFilter",
+  "author": "azurite",
+  "tags": [
+    "AI"
+  ],
+  "description": {
+    "summary": "深度マップを生成するフィルタープラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/azurite581/AviUtl2-DepthMapFilter/master/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "azurite"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.webp"
+  }
+}

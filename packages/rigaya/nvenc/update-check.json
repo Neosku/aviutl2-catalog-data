@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "rigaya",
+    "repo": "NVEnc",
+    "pattern": "^Aviutl2_NVEnc_.*install\\.exe$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "7zip",
+      "sourcePaths": [
+        "Plugin/NVEnc.auo2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/NVEnc.auo2"
+      ]
+    }
+  ]
+}

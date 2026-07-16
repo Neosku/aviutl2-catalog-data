@@ -1,0 +1,23 @@
+{
+  "name": "AviUtl2-WhisperAutoSub",
+  "author": "nkopikaso",
+  "tags": [
+    "AI",
+    "字幕"
+  ],
+  "description": {
+    "summary": "Whisperを使用して動画・音声から自動で字幕を生成するプラグイン",
+    "markdownSource": "https://raw.githubusercontent.com/nkopikaso/AviUtl2-WhisperAutoSub/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "nkopikaso"
+        }
+      ]
+    }
+  ]
+}

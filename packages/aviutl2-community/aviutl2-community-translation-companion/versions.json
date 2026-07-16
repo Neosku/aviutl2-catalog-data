@@ -1,0 +1,34 @@
+{
+  "versions": [
+    {
+      "version": "0.1.0",
+      "releaseDate": "2026-04-21",
+      "files": [
+        {
+          "path": "{pluginsDir}/aviutl2_community_translation_companion.aux2",
+          "xxh128": "2111e7a96a67c2f8df9f8c32a67d0d6f"
+        }
+      ]
+    },
+    {
+      "version": "0.1.1",
+      "releaseDate": "2026-04-21",
+      "files": [
+        {
+          "path": "{pluginsDir}/aviutl2_community_translation_companion.aux2",
+          "xxh128": "ded14b1c961b32deaae3a39453667370"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "releaseDate": "2026-06-14",
+      "files": [
+        {
+          "path": "{pluginsDir}/aviutl2_community_translation_companion.aux2",
+          "xxh128": "852a6ac18933dd892e915e92170b498f"
+        }
+      ]
+    }
+  ]
+}

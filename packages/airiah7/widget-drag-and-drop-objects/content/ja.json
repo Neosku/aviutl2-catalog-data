@@ -1,0 +1,32 @@
+{
+  "name": "ドラッグ&ドロップでタイムラインに配置",
+  "author": "あいりあなな(airiah7)",
+  "tags": [
+    "UI",
+    "ウィジェット",
+    "便利ツール",
+    "字幕"
+  ],
+  "description": {
+    "summary": "ドラッグ&ドロップでオブジェクトを配置できるようにするウィジェット",
+    "markdownSource": "https://raw.githubusercontent.com/airiah7/airiah7--aviutl2--widget--drag-and-drop-objects/refs/heads/main/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "airiah7"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "./images/thumbnail.png",
+    "detailImages": [
+      "./images/details1.png",
+      "./images/details2.png"
+    ]
+  }
+}

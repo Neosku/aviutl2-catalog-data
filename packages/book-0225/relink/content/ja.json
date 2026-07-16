@@ -1,0 +1,22 @@
+{
+  "name": "AviUtl2 relink",
+  "author": "Book0225",
+  "tags": [
+    "便利ツール"
+  ],
+  "description": {
+    "summary": ".aup2 が参照しているファイルのパスを確認・修正するツールです",
+    "markdownSource": "https://raw.githubusercontent.com/Book-0225/aviutl2_relink/refs/heads/master/README.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "Book-0225"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "versions": [
+    {
+      "version": "v1.0",
+      "releaseDate": "2025-10-19",
+      "files": [
+        {
+          "path": "{scriptsDir}/@twinkle_sl.obj2",
+          "xxh128": "fe8edb9055340b342d652eef3c32b1e3"
+        }
+      ]
+    },
+    {
+      "version": "v1.1",
+      "releaseDate": "2025-12-02",
+      "files": [
+        {
+          "path": "{scriptsDir}/@twinkle_sl.obj2",
+          "xxh128": "aa7268342942fd8a83257be92978c55b"
+        }
+      ]
+    },
+    {
+      "version": "v1.2",
+      "releaseDate": "2026-01-25",
+      "files": [
+        {
+          "path": "{scriptsDir}/@twinkle_sl.obj2",
+          "xxh128": "1c1f252f36abb505a21b6a9e77a358e7"
+        }
+      ]
+    },
+    {
+      "version": "v1.2.1",
+      "releaseDate": "2026-01-26",
+      "files": [
+        {
+          "path": "{scriptsDir}/@twinkle_sl.obj2",
+          "xxh128": "7ba9bf8b116ad236250ff6c697deb826"
+        }
+      ]
+    }
+  ]
+}

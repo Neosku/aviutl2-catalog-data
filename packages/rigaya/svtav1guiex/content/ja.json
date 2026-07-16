@@ -1,0 +1,14 @@
+{
+  "name": "svtAV1guiEx",
+  "author": "rigaya",
+  "tags": [],
+  "description": {
+    "summary": "拡張 SVT-AV1 出力(GUI) Ex",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}

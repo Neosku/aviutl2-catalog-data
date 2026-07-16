@@ -1,0 +1,88 @@
+{
+  "versions": [
+    {
+      "version": "v1.3",
+      "releaseDate": "2026-03-27",
+      "files": [
+        {
+          "path": "{pluginsDir}/時間制御N.aux2",
+          "xxh128": "0f9b5e67601b8f4296527eac3e974fa3"
+        },
+        {
+          "path": "{scriptsDir}/時間制御N.mod2",
+          "xxh128": "74a205d43929159a0d7da10cfd57c2a5"
+        }
+      ]
+    },
+    {
+      "version": "v1.4",
+      "releaseDate": "2026-03-28",
+      "files": [
+        {
+          "path": "{pluginsDir}/時間制御N.aux2",
+          "xxh128": "0f9b5e67601b8f4296527eac3e974fa3"
+        },
+        {
+          "path": "{scriptsDir}/時間制御N.mod2",
+          "xxh128": "74a205d43929159a0d7da10cfd57c2a5"
+        }
+      ]
+    },
+    {
+      "version": "v1.5",
+      "releaseDate": "2026-04-02",
+      "files": [
+        {
+          "path": "{pluginsDir}/時間制御N.aux2",
+          "xxh128": "a8a1b548fb11f4024f684efe879efb0c"
+        },
+        {
+          "path": "{scriptsDir}/時間制御N.mod2",
+          "xxh128": "d8bf7ee3bdf9665919bd344e7eaa561d"
+        }
+      ]
+    },
+    {
+      "version": "v1.6",
+      "releaseDate": "2026-04-07",
+      "files": [
+        {
+          "path": "{pluginsDir}/時間制御N.aux2",
+          "xxh128": "ad5967d36de4bea0e63f88ab62f87230"
+        },
+        {
+          "path": "{scriptsDir}/時間制御N.mod2",
+          "xxh128": "903f0223160ea7efc5697fbb6abdc8c8"
+        }
+      ]
+    },
+    {
+      "version": "v1.7",
+      "releaseDate": "2026-04-23",
+      "files": [
+        {
+          "path": "{pluginsDir}/時間制御N.aux2",
+          "xxh128": "b2d13df185e0790432b0519c3ae96539"
+        },
+        {
+          "path": "{scriptsDir}/時間制御N.mod2",
+          "xxh128": "f9022607176e483cd74644f6a3145840"
+        }
+      ]
+    },
+    {
+      "version": "v1.8",
+      "releaseDate": "2026-05-01",
+      "files": [
+        {
+          "path": "{pluginsDir}/時間制御N.aux2",
+          "xxh128": "dd821ede67b347bbcd118e10163e2d30"
+        },
+        {
+          "path": "{scriptsDir}/時間制御N.mod2",
+          "xxh128": "a75bb7bbdfde10271929abe573058a7f"
+        }
+      ]
+    }
+  ]
+}

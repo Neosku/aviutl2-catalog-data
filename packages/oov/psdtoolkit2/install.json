@@ -1,0 +1,42 @@
+{
+  "relations": {
+    "requires": [
+      "oov.gcmzdrops2"
+    ]
+  },
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "oov",
+      "repo": "aviutl2_psdtoolkit2",
+      "pattern": "^psdtoolkit_.*\\.exe$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "run",
+        "path": "{download}",
+        "args": [
+          "/VERYSILENT",
+          "/SP-",
+          "/SUPPRESSMSGBOXES",
+          "/DIR=\"{pluginsDir}\"",
+          "/MERGETASKS=\"desktopicon",
+          "associatefile\""
+        ]
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "run",
+        "path": "{pluginsDir}/PSDToolKit/unins000.exe",
+        "args": [
+          "/VERYSILENT",
+          "/SUPPRESSMSGBOXES"
+        ]
+      }
+    ]
+  }
+}

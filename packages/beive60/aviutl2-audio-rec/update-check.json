@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "beive60",
+    "repo": "aviutl2-audio-rec",
+    "pattern": "^aviutl2-audio-rec-v(?<version>\\d\\.\\d\\.\\d)\\.zip$"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "aviutl2_audio_rec.aux2"
+      ],
+      "recordPaths": [
+        "{pluginsDir}/aviutl2_audio_rec.aux2"
+      ]
+    }
+  ]
+}

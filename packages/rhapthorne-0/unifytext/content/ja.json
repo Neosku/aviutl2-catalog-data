@@ -1,0 +1,18 @@
+{
+  "name": "テキスト一枚化",
+  "author": "ラプソーン",
+  "tags": [
+    "テキスト"
+  ],
+  "description": {
+    "summary": "テキストを一つのオブジェクトのように扱えるスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "custom",
+      "name": "カスタムライセンス",
+      "licenseBody": "改変再配布等基本自由です"
+    }
+  ]
+}

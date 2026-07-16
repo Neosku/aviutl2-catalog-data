@@ -1,0 +1,49 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "clean262",
+      "repo": "sam3_bb_gb_generator",
+      "pattern": "^SAM3_win64\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/SAM3_win64/aviutl2/Plugin",
+        "to": "{pluginsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/SAM3_win64/aviutl2/Script",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "run",
+        "path": "{pluginsDir}/SAM3/python/uv.exe",
+        "args": [
+          "--directory \"{pluginsDir}/SAM3/python\" sync --locked"
+        ]
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/SAM3/python"
+      },
+      {
+        "action": "delete",
+        "path": "{pluginsDir}/SAM3/sam3.aux2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/SAM3"
+      }
+    ]
+  }
+}

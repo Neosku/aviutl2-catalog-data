@@ -1,0 +1,23 @@
+{
+  "name": "AutoLyricAnimation_K",
+  "author": "Korarei",
+  "tags": [
+    "テキスト",
+    "アニメーション"
+  ],
+  "description": {
+    "summary": "リリックモーションを行うためのスクリプト",
+    "markdownSource": "./docs/ja.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2025",
+          "holder": "Korarei"
+        }
+      ]
+    }
+  ]
+}

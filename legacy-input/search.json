@@ -1,0 +1,3196 @@
+[
+  {
+    "id": "Kenkun.AviUtlExEdit2",
+    "latest-version": "v2.1.0",
+    "checkType": {
+      "type": "URL",
+      "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
+      "regex": "aviutl2_(v[0-9]+(?:\\.[0-9]+)+)\\.zip",
+      "version_extract": "v[0-9]+(?:\\.[0-9]+)+",
+      "directTemplate": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2_[version_extract]_setup.exe",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "aviutl2.exe"
+          ],
+          "recordPaths": [
+            "{appDir}/aviutl2.exe"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebiiro.al2_jd",
+    "latest-version": "r31",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_jd",
+      "regex": "^al2_jd_r\\d+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/al2_jd.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2_jd.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebiiro.al2_wav_saver",
+    "latest-version": "r3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_wav_saver",
+      "regex": "^al2_wav_saver_r.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "al2_wav_saver_s16.auo2",
+            "al2_wav_saver_f32.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2_wav_saver_s16.auo2",
+            "{pluginsDir}/al2_wav_saver_f32.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "rigaya.x264guiEx",
+    "latest-version": "4.10",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rigaya/x264guiEx",
+      "regex": "^Aviutl2_x264guiEx.*install\\.exe$",
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugin/x264guiEx.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/x264guiEx.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "rigaya.x265guiEx",
+    "latest-version": "5.07",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rigaya/x265guiEx",
+      "regex": "^Aviutl2_x265guiEx.*install\\.exe$",
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugin/x265guiEx.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/x265guiEx.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "rigaya.NVEnc",
+    "latest-version": "9.24",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rigaya/NVEnc",
+      "regex": "^Aviutl2_NVEnc_.*install\\.exe$",
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugin/NVEnc.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/NVEnc.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "rigaya.QSVEnc",
+    "latest-version": "8.21",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rigaya/QSVEnc",
+      "regex": "^Aviutl2_QSVEnc.*install\\.exe$",
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugin/QSVEnc.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/QSVEnc.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "rigaya.ffmpegOut",
+    "latest-version": "2.06",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rigaya/ffmpegOut",
+      "regex": "^Aviutl2_ffmpegOut.*install\\.exe$",
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugin/ffmpegOut.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/ffmpegOut.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "rigaya.VCEEnc",
+    "latest-version": "9.08",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rigaya/VCEEnc",
+      "regex": "^Aviutl2_VCEEnc.*install\\.exe$",
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugin/VCEEnc.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/VCEEnc.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "rigaya.svtAV1guiEx",
+    "latest-version": "2.10",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rigaya/svtAV1guiEx",
+      "regex": "^Aviutl2_svtAV1guiEx.*install\\.exe$",
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugin/svtAV1guiEx.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/svtAV1guiEx.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.AutoClipping_S",
+    "latest-version": "v1.17-for-beta53a",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_AutoClipping_S",
+      "regex": "^aviutl2_script_AutoClipping_S-.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/AutoClipping_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/AutoClipping_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.RadRotDirBlur_S",
+    "latest-version": "v1.10-for-beta50",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_RadRotDirBlur_S",
+      "regex": "^aviutl2_script_RadRotDirBlur_S-.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/RadRotDirBlur_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/RadRotDirBlur_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "korarei.Stylize_K",
+    "latest-version": "v1.2.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "korarei/AviUtl2_Stylize_K_Script",
+      "regex": "^@Stylize_K.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "@Stylize_K/@Stylize_K.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Stylize_K.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "reindex-ot.reindex_AviUtl2_Language",
+    "latest-version": "Beta29",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "reindex-ot/reindex_AviUtl2_Language",
+      "regex": "Japanese_Mod.aul2",
+      "hash-calc": [
+        {
+          "paths": [
+            "Japanese_Mod.aul2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/Japanese_Mod.aul2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "seilor0.roundedPolygonSl",
+    "latest-version": "v1.2.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "seilor0/roundedPolygon_sl",
+      "regex": "^roundedPolygon_sl\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "角丸正多角形_sl.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/角丸正多角形_sl.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "seilor0.twinkle_sl",
+    "latest-version": "v1.2.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "seilor0/twinkle_sl",
+      "regex": "^@twinkle_sl\\.obj2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "@twinkle_sl.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@twinkle_sl.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebiiro.al2_memo",
+    "latest-version": "r1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_memo",
+      "regex": "^al2_memo_r\\d+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/al2_memo.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2_memo.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Mr-Ojii.WebPFileReader-Plugin",
+    "latest-version": "r1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Mr-Ojii/AviUtl2-WebPFileReader-Plugin",
+      "regex": "^webpinput\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "webpinput.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/webpinput.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.Basic_S",
+    "latest-version": "v2.61",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_Basic_S",
+      "regex": "^aviutl2_script_Basic_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@Basic_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Basic_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.Path_S",
+    "latest-version": "v2.00-for-beta52",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_Path_S",
+      "regex": "^aviutl2_script_Path_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@Path_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Path_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "korarei.PixelSorter_K",
+    "latest-version": "v1.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "korarei/AviUtl2_PixelSorter_K_Script",
+      "regex": "^PixelSorter_K\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "PixelSorter_K/PixelSorter_K.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/PixelSorter_K.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "korarei.ObjectMotionBlur_LK",
+    "latest-version": "v1.1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "korarei/AviUtl2_ObjectMotionBlur_LK_Script",
+      "regex": "^ObjectMotionBlur_LK\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "ObjectMotionBlur_LK/ObjectMotionBlur_LK.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ObjectMotionBlur_LK.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.ColoredCollar_S",
+    "latest-version": "v2.00-for-beta51",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_ColoredCollar_S",
+      "regex": "^aviutl2_script_ColoredCollar_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/ColoredCollar_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ColoredCollar_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.Tile_S",
+    "latest-version": "v1.30",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_Tile_S",
+      "regex": "^aviutl2_script_Tile_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@Tile_S.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Tile_S.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.Resize_S",
+    "latest-version": "v1.33",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_Resize_S",
+      "regex": "^aviutl2_script_Resize_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@Resize_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Resize_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.PixelSnap_S",
+    "latest-version": "v1.05-for-beta50",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_PixelSnap_S",
+      "regex": "^aviutl2_script_PixelSnap_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/PixelSnap_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/PixelSnap_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.PageRoll_S",
+    "latest-version": "v1.20-for-beta51",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_PageRoll_S",
+      "regex": "^aviutl2_script_PageRoll_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/PageRoll_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/PageRoll_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Garech.SplitFilters",
+    "latest-version": "v1.07",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Garech-mas/AviUtl2_SplitFilters",
+      "regex": "^SplitFilters-.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SplitFilters.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SplitFilters.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.GroundShadow2_S",
+    "latest-version": "v1.31",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_GroundShadow2_S",
+      "regex": "^aviutl2_script_GroundShadow2.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/GroundShadow2_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/GroundShadow2_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.Histogram_S",
+    "latest-version": "v1.10-for-beta30a",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_Histogram_S",
+      "regex": "^aviutl2_script_Histogram_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Histogram_S.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Histogram_S.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "azurite.ColorHalftone",
+    "latest-version": "v2.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "azurite581/AviUtl2-ColorHalftone",
+      "regex": "^.*ColorHalftone.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/ColorHalftone.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ColorHalftone.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oov.GCMZDrops2",
+    "latest-version": "v2.0.0beta1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "oov/aviutl2_gcmzdrops2",
+      "regex": "^gcmzdrops.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/GCMZDrops/GCMZDrops.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GCMZDrops/GCMZDrops.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "amaii4.AviUtl2_Discord_RPC",
+    "latest-version": "1.3.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "amaii4/AviUtl2_Discord_RPC",
+      "regex": "^DiscordRPC.aux2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "DiscordRPC.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/DiscordRPC.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Natadecoco.TextEditor",
+    "latest-version": "2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Natadecoco2539/AviUtl2-TextEditor",
+      "regex": "TextEditor.aux2",
+      "hash-calc": [
+        {
+          "paths": [
+            "TextEditor.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/TextEditor.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Natadecoco.TextSplitter",
+    "latest-version": "1.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Natadecoco2539/AviUtl2-TextSplitter",
+      "regex": "TextSplitter.aux2",
+      "hash-calc": [
+        {
+          "paths": [
+            "TextSplitter.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/TextSplitter.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Natadecoco.MyAssetManager",
+    "latest-version": "v1.9",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Natadecoco2539/AviUtl2-MyAssetManager",
+      "regex": "MyAssetManager.aux2",
+      "hash-calc": [
+        {
+          "paths": [
+            "MyAssetManager.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/MyAssetManager.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "azurite.GradientPlus",
+    "latest-version": "v1.1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "azurite581/AviUtl2-GradientPlus",
+      "regex": "^GradientPlus_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "グラデーション+.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/グラデーション+.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oov.PSDToolKit2",
+    "latest-version": "v2.0.0alpha10",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "oov/aviutl2_psdtoolkit2",
+      "regex": "^psdtoolkit_.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/PSDToolKit/PSDToolKit.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/PSDToolKit/PSDToolKit.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Karoterra.OilPainting",
+    "latest-version": "v1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "karoterra/aviutl2-OilPainting",
+      "regex": "^Karoterra.OilPainting-v.*.au2pkg.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/Karoterra.OilPainting/油絵KR.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Karoterra.OilPainting/油絵KR.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Karoterra.Bend",
+    "latest-version": "v1.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "karoterra/aviutl2-Bend",
+      "regex": "^aviutl2-Bend_.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "@曲げKR.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@曲げKR.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Karoterra.ColorVisionSimulation",
+    "latest-version": "v1.1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "karoterra/aviutl2-ColorVisionSimulation",
+      "regex": "^Karoterra.ColorVisionSimulation-v.*.au2pkg.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/Karoterra.ColorVisionSimulation/色覚シミュレーションKR.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Karoterra.ColorVisionSimulation/色覚シミュレーションKR.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "korarei.AutoLyricAnimation_K",
+    "latest-version": "v1.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Korarei/AviUtl2_AutoLyricAnimation_K_Script",
+      "regex": "^AutoLyricAnimation_K_.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "script/AutoLyricAnimation_K.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/AutoLyricAnimation_K.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "korarei.CameraTransform_K",
+    "latest-version": "v2.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "korarei/AviUtl2_CameraTransform_K_Script",
+      "regex": "CameraTransform_K.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/CameraTransform_K/@CameraTransform_K.cam2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/CameraTransform_K/@CameraTransform_K.cam2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "korarei.Kaleidoscope_K",
+    "latest-version": "v1.0.3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "korarei/AviUtl2_Kaleidoscope_K_Script",
+      "regex": "^Kaleidoscope_K.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Kaleidoscope_K/Kaleidoscope_K.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Kaleidoscope_K.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "korarei.ColorLUT_K",
+    "latest-version": "v1.4.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "korarei/AviUtl2_ColorLUT_K_Plugin",
+      "regex": "^ColorLUT_K.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/ColorLUT_K/ColorLUT_K.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/ColorLUT_K/ColorLUT_K.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.tl_walkaround2",
+    "latest-version": "v1.82",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_tl_walkaround2",
+      "regex": "^aviutl2_tl_walkaround2.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/tl_walkaround2.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/tl_walkaround2.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "shyachi.SrtImporter",
+    "latest-version": "v0.11",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "shyachi/AviUtl2_SrtImporter",
+      "regex": "^SrtImporter.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/SrtImporter/SrtImporter.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SrtImporter/SrtImporter.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebiiro.al2_preset_adder",
+    "latest-version": "r6",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_preset_adder",
+      "regex": "^al2_preset_adder.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/al2/al2_preset_adder.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_preset_adder.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.WhiteBalance_S",
+    "latest-version": "v1.01-for-beta51",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_WhiteBalance_S",
+      "regex": "^aviutl2_script_WhiteBalance_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@WhiteBalance_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@WhiteBalance_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebiiro.al2_visual_font",
+    "latest-version": "r6",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_visual_font",
+      "regex": "^al2_visual_font.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/al2/al2_visual_font.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_visual_font.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_binaural",
+    "latest-version": "0.39.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/rusty_binaural.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_binaural.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_chiptune",
+    "latest-version": "0.39.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/rusty_chiptune.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_chiptune.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_equalizer",
+    "latest-version": "0.39.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/rusty_equalizer.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_equalizer.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_ffmpeg",
+    "latest-version": "0.39.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/rusty_ffmpeg.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_ffmpeg.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_input",
+    "latest-version": "0.39.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/rusty_image_rs.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_image_rs.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_output",
+    "latest-version": "0.39.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/rusty_image_rs.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_image_rs.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_local_alias_plugin",
+    "latest-version": "0.39.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/rusty_local_alias.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_local_alias.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_midi_player",
+    "latest-version": "0.39.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/rusty_midi_player.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_midi_player.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_pixelsort",
+    "latest-version": "0.39.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/rusty_pixelsort.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_pixelsort.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_random_color",
+    "latest-version": "0.39.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/rusty_random_color.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_random_color.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_scripts_search",
+    "latest-version": "0.39.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/rusty_scripts_search.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_scripts_search.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_srt_file",
+    "latest-version": "0.39.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/rusty_srt_file.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_srt_file.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_statistics",
+    "latest-version": "0.39.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/rusty_statistics.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_statistics.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.ntsc-rs",
+    "latest-version": "0.2.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/ntsc-rs.anm2",
+      "regex": "^sevenc-nanashi\\.ntsc-rs-anm2.*\\.au2pkg\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/ntsc-rs.anm2",
+            "Script/ntsc-rs.mod2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ntsc-rs.anm2",
+            "{scriptsDir}/ntsc-rs.mod2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.clipboard-aux2",
+    "latest-version": "0.3.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/clipboard.aux2",
+      "regex": "^sevenc-nanashi\\.clipboard-aux2-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/clipboard.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/clipboard.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.vintage-auf2",
+    "latest-version": "0.1.3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/vintage.auf2",
+      "regex": "^.*vintage-.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/vintage.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/vintage.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebiiro.al2_slimming",
+    "latest-version": "r4",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_slimming",
+      "regex": "^al2_slimming.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/al2/al2_slimming.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_slimming.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Garech.DoubleBPMGrid",
+    "latest-version": "v2.10-aul2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Garech-mas/DoubleBPMGrid",
+      "regex": "^DoubleBPMGrid-.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "AviUtl2/DoubleBPMGrid.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/DoubleBPMGrid.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.svg-aux2",
+    "latest-version": "0.5.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/svg.aux2",
+      "regex": "^.*svg-aux2-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/svg.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/svg.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Book-0225.EAP2",
+    "latest-version": "v0.0.34",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Book-0225/aviutl2_External_Audio_Processing",
+      "regex": "External_Audio_Processing2.au2pkg.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/External_Audio_Processing2.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/External_Audio_Processing2.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_metronome_plugin",
+    "latest-version": "0.39.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/rusty_metronome.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_metronome.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebiiro.al2_ui_dressing",
+    "latest-version": "r4",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_ui_dressing",
+      "regex": "^al2_ui_dressing.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/al2/al2_ui_dressing.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_ui_dressing.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mes51.Unmult",
+    "latest-version": "v1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "mes51/AVIUtl2_Unmult",
+      "regex": ".*Unmult_.*\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "AVIUtl2_Unmult/Unmult.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Unmult.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sagami121.Calculator",
+    "latest-version": "0.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sagami121/Aviutl2-Calculator",
+      "regex": "^aviutl2_calc.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "aviutl2_calc.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2_calc.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "cleaning.sam_frame_export_filter",
+    "latest-version": "v0.1.3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "clean262/sam_frame_export_filter",
+      "regex": "^sam_frame_export_filter-windows-x64\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "sam_frame_export_filter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/sam_frame_export_filter.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KAZOON.KSA",
+    "latest-version": "v2.1.10",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "cycloawaodorin/ksa",
+      "regex": "^ksa\\..*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/KSA/ksa_ext.mod2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/KSA/ksa_ext.mod2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.tinted-aviutl2",
+    "latest-version": "0.3.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/tinted-aviutl2",
+      "regex": "^.*tinted-aviutl2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/tinted-aviutl2.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/tinted-aviutl2.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "cleaning.sam3_bb_gb_generator",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "clean262/sam3_bb_gb_generator",
+      "regex": "^SAM3_win64\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SAM3_win64/aviutl2/Plugin/SAM3/sam3.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SAM3/sam3.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KuroNeko.audio2obj",
+    "latest-version": "0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rokujyushi/GCMZScripts",
+      "regex": "audio2obj\\.lua",
+      "hash-calc": [
+        {
+          "paths": [
+            "audio2obj.lua"
+          ],
+          "recordPaths": [
+            "{pluginsDir}\\GCMZDrops\\GCMZScript\\audio2obj.lua"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KuroNeko.midi2EAP2",
+    "latest-version": "0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rokujyushi/GCMZScripts",
+      "regex": "midi2EAP2\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "midi2EAP2/midi2EAP2.lua"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GCMZDrops/GCMZScript/midi2EAP2.lua"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KuroNeko.Haribote",
+    "latest-version": "0.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rokujyushi/Haribote",
+      "regex": "HariboteReader\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "HariboteReader.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}\\HariboteReader.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "NeAc.CinemaScope",
+    "latest-version": "r5",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nea-c/aviutl2_script_CinemaScope",
+      "regex": "^CinemaScope\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "シネマスコープ.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/シネマスコープ.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "azurite.GradientEditor",
+    "latest-version": "v0.7.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "azurite581/AviUtl2-GradientEditor",
+      "regex": "^GradientEditor-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/GradientEditor.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GradientEditor.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KAZOON.wav_output_ks",
+    "latest-version": "v0.0.5",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "cycloawaodorin/wav_output_ks",
+      "regex": "^wav_output_ks\\..*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "wav_output_ks.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/wav_output_ks.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KAZOON.fzgx_smr_ks",
+    "latest-version": "v2.0.8",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "cycloawaodorin/fzgx_smr_ks",
+      "regex": "^fzgx_smr_ks\\.2.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "fzgx_smr_ks.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/fzgx_smr_ks.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KuroNeko.VariableFont",
+    "latest-version": "3.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rokujyushi/Variable-Font-Plug-ins",
+      "regex": "^VariableFont-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/VariableFont/VariableFont.aux2",
+            "Script/VariableFont/VariableFontModule.mod2",
+            "Script/VariableFont/Variable Font Object.obj2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/VariableFont/VariableFont.aux2",
+            "{scriptsDir}/VariableFont/VariableFontModule.mod2",
+            "{scriptsDir}/VariableFont/Variable Font Object.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KuroNeko.FontPreview",
+    "latest-version": "4.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rokujyushi/FontPreview",
+      "regex": "^FontPreview-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/FontPreview/FontPreview.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/FontPreview/FontPreview.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KuroNeko.svg2obj",
+    "latest-version": "0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rokujyushi/GCMZScripts",
+      "regex": "svg2obj\\.lua",
+      "hash-calc": [
+        {
+          "paths": [
+            "svg2obj.lua"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GCMZDrops/GCMZScript/svg2obj.lua"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "NeAc.ScreenAspect",
+    "latest-version": "r3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nea-c/aviutl2_script_ScreenAspect",
+      "regex": "^ScreenAspect\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "画面アスペクト.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/画面アスペクト.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "NeAc.Egasumi",
+    "latest-version": "r2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nea-c/aviutl2_script_Egasumi",
+      "regex": "^Egasumi\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "エ霞.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/エ霞.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "NeAc.BezierPath",
+    "latest-version": "r3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nea-c/aviutl2_script_BezierPath",
+      "regex": "^BezierPath\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "BezierPath.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/BezierPath.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.open_project_directory-aux2",
+    "latest-version": "0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/open_project_directory.aux2",
+      "regex": "^.*open_project_directory-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/open_project_directory.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/open_project_directory.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "V.Bernkastel.AviUtl2_Language_kr",
+    "latest-version": "v2.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Victorique-Bernkastel/AviUtl2_Language",
+      "regex": "^Korean.*\\.aul2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "Korean.language.aul2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/Korean.language.aul2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.filter_effect_toggle-aux2",
+    "latest-version": "0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/filter_effect_toggle.aux2",
+      "regex": "^sevenc-nanashi\\.filter_effect_toggle-aux2.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/filter_effect_toggle.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/filter_effect_toggle.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "koisi0319.Duplicate_objects",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "koisi0319/Aviutl2-Duplicate-objects-at-equal-intervals",
+      "regex": "^Duplicate_objects*\\.aux2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "Duplicate_objects.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Duplicate_objects.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.Syncroh2",
+    "latest-version": "v3.3.10",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/Syncroh2-site",
+      "regex": "^Syncroh2_Desktop.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@Syncroh2_Script.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KuroNeko.CopyAlias",
+    "latest-version": "2.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rokujyushi/Copy_alias",
+      "regex": "KuroNeko\\.CopyAlias.*\\.au2pkg\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/CopyAlias.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/CopyAlias.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sagami121.BlockNoise",
+    "latest-version": "1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sagami121/Aviutl2-BlockNoise",
+      "regex": "^BlockNoise.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "BlockNoise.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/BlockNoise.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.insert-aux2",
+    "latest-version": "0.2.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/insert.aux2",
+      "regex": "^sevenc-nanashi\\.insert-aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/insert.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/insert.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.quantizer-aux2",
+    "latest-version": "0.2.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/quantizer.aux2",
+      "regex": "^sevenc-nanashi\\.quantizer-aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/quantizer.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/quantizer.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "azurite.Hex-Tiling",
+    "latest-version": "v0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "azurite581/AviUtl2-Hex-Tiling",
+      "regex": "^.*Hex-Tiling.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/Hex-Tiling.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Hex-Tiling.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "NeAc.LyricMotioN",
+    "latest-version": "r5",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nea-c/aviutl2_script_LyricMotioN",
+      "regex": "^LyricMotioN\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "LyricMotioN.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/LyricMotioN.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "NeAc.Loop",
+    "latest-version": "r3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nea-c/aviutl2_script_Loop",
+      "regex": "^Loop\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Loop.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Loop.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-rs.rusty_single_image_output",
+    "latest-version": "0.39.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-rs",
+      "regex": "^aviutl2-rs-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/rusty_image_rs_single.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rusty_image_rs_single.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.discord_activity-aux2",
+    "latest-version": "0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/discord_activity.aux2",
+      "regex": "^sevenc-nanashi\\.discord_activity-aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/discord_activity_aux2.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/discord_activity_aux2.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.modify_group_num_layers-aux2",
+    "latest-version": "0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/modify_group_num_layers.aux2",
+      "regex": "^sevenc-nanashi\\.modify_group_num_layers-aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/modify_group_num_layers.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/modify_group_num_layers.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.transform_specific_chars-anm2",
+    "latest-version": "0.3.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/transform_specific_chars.anm2",
+      "regex": "^sevenc-nanashi\\.transform_specific_chars-anm2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Language/English.transform_specific_chars.aul2",
+            "Script/transform_specific_chars.anm2.anm2",
+            "Script/transform_specific_chars.mod2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/English.transform_specific_chars.aul2",
+            "{scriptsDir}/transform_specific_chars.anm2.anm2",
+            "{scriptsDir}/transform_specific_chars.mod2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.disassembler-anm2",
+    "latest-version": "0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/disassembler.anm2",
+      "regex": "^sevenc-nanashi\\.disassembler-anm2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/disassembler.anm2.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/disassembler.anm2.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KAZOON.resize_ks",
+    "latest-version": "v0.0.9",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "cycloawaodorin/resize_ks",
+      "regex": "^resize_ks\\..*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "resize_ks.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/resize_ks.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Pachira762.vsr4aviutl",
+    "latest-version": "v1.0.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Pachira762/vsr4aviutl",
+      "regex": "^vsr4aviutl_.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "vsr4aviutl/vsr4aviutl.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/vsr4aviutl.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "azurite.ImageCropExport",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "azurite581/AviUtl2-ImageCropExport",
+      "regex": "^ImageCropExport-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/ImageCropExport.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/ImageCropExport.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KuroNeko.TTSFileRename",
+    "latest-version": "0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rokujyushi/GCMZScripts",
+      "regex": "TTSFileRename\\.lua",
+      "hash-calc": [
+        {
+          "paths": [
+            "TTSFileRename.lua"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GCMZDrops/GCMZScript/TTSFileRename.lua"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "novenove.KaraokeLyricRenderer",
+    "latest-version": "v1.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nove-nove/aviutl2-karaoke-lyric-renderer",
+      "regex": "aviutl2-karaoke-lyric-renderer.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "AviUtl2KaraokeLyricRenderer.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/AviUtl2KaraokeLyricRenderer.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.budoux-obj2",
+    "latest-version": "0.1.9",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/budoux.obj2",
+      "regex": "^sevenc-nanashi\\.budoux-obj2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/budoux.mod2",
+            "Script/budoux.obj2.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/budoux.mod2",
+            "{scriptsDir}/budoux.obj2.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "korarei.Diffusion_K",
+    "latest-version": "v1.2.3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "korarei/AviUtl2_Diffusion_K_Script",
+      "regex": "^Diffusion_K.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/Diffusion_K/@Diffusion_K.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Diffusion_K/@Diffusion_K.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.Border_S",
+    "latest-version": "v1.21-for-beta50",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_Border_S",
+      "regex": "^aviutl2_Border_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/Border_S.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Border_S.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Number-0621.SelectEasing",
+    "latest-version": "1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "NumberZero-0621/AviUtl2-Plugin-SelectEasing",
+      "regex": "^SelectEasing_AviUtl2.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SelectEasing_AviUtl2/SelectEasing.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SelectEasing.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "azurite.PointZoom",
+    "latest-version": "v2.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "azurite581/AviUtl2-PointZoom",
+      "regex": "^PointZoom.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/ポイントズーム.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ポイントズーム.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Fu-Majime.AviUtl2_PolygonMorph_F",
+    "latest-version": "v1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "fu-majime/AviUtl2_PolygonMorph_F",
+      "regex": "^PolygonMorph_F.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/多角形モーフ_F.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/多角形モーフ_F.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "novenove.VRMToolkit",
+    "latest-version": "v0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nove-nove/aviutl2-vrm-toolkit",
+      "regex": "VRM-Toolkit-for-AviUtl2\\.au2pkg\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/VRMToolkit/VRMToolkitExpressionEditor.aux2",
+            "Script/VRMToolkit/VRMToolkitBridge.mod2",
+            "Script/VRMToolkit/VRMToolkitModel.obj2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/VRMToolkit/VRMToolkitExpressionEditor.aux2",
+            "{scriptsDir}/VRMToolkit/VRMToolkitBridge.mod2",
+            "{scriptsDir}/VRMToolkit/VRMToolkitModel.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Number-0621.easing-quick-setup",
+    "latest-version": "1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "NumberZero-0621/AviUtl2-easing-quick-setup",
+      "regex": "^easing_quick_setup.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "easing_quick_setup.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/easing_quick_setup.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Pachira762.AnalogFuu",
+    "latest-version": "v1.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Pachira762/AnalogFuu",
+      "regex": "^AnalogFuu_.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "AnalogFuu/AnalogFuu.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/AnalogFuu.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.tex-auf2",
+    "latest-version": "0.2.3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/tex.auf2",
+      "regex": "^sevenc-nanashi\\.tex-auf2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/tex.aux2",
+            "Language/English.tex.aul2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/tex.aux2",
+            "{dataDir}/Language/English.tex.aul2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "azurite.AdjustPivot_A",
+    "latest-version": "v0.3.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "azurite581/AviUtl2-AdjustPivot_A",
+      "regex": "^AdjustPivot_A-v.+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/中心ずらし_A.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/中心ずらし_A.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "aviutl2-community.aviutl2_community_translation_companion",
+    "latest-version": "0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "aviutl2/aviutl2-community-translation",
+      "regex": "^aviutl2-community\\.aviutl2_community_translation_companion-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/aviutl2_community_translation_companion.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2_community_translation_companion.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "beive60.aviutl2-alias-inserter",
+    "latest-version": "v0.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "beive60/aviutl2-alias-inserter",
+      "regex": "^aviutl2-alias-inserter-v(?<version>\\d\\.\\d\\.\\d)\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "aviutl2_alias_inserter.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2_alias_inserter.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "beive60.aviutl2-audio-rec",
+    "latest-version": "v0.3.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "beive60/aviutl2-audio-rec",
+      "regex": "^aviutl2-audio-rec-v(?<version>\\d\\.\\d\\.\\d)\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "aviutl2_audio_rec.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2_audio_rec.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.translations_sigma-axis",
+    "latest-version": "r42",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_translations_sigma-axis",
+      "regex": "^aviutl2_translations_sigma-axis.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Language/English.sigma-axis.aul2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/English.sigma-axis.aul2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Karoterra.Typst",
+    "latest-version": "v0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "karoterra/aviutl2-typst",
+      "regex": "^Karoterra\\.Typst-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/Karoterra.Typst/typst_kr.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Karoterra.Typst/typst_kr.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "teruyoshii.noiseTe",
+    "latest-version": "1.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "teruyoshii/AviUtl2_Noise_Te",
+      "regex": "^@noise_Te\\.anm2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "@noise_Te.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@noise_Te.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "osakana4242.GifBayerDitherOutput",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "osakana4242/aviutl2-gif-bayer-dither-output",
+      "regex": "^GifBayerDitherOutput-v(.+).zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "GifBayerDitherOutput.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/GifBayerDitherOutput.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.ported_tim",
+    "latest-version": "0.1.3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/ported_tim",
+      "regex": "^sevenc-nanashi\\.ported_tim-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Language/English.ported_tim.aul2",
+            "Script/@tim.anm2.anm2",
+            "Script/@tim.cam2.cam2",
+            "Script/@tim.obj2.obj2",
+            "Script/@tim.scn2.scn2",
+            "Script/@tim.tra2.tra2",
+            "Script/tim2.mod2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/English.ported_tim.aul2",
+            "{scriptsDir}/@tim.anm2.anm2",
+            "{scriptsDir}/@tim.cam2.cam2",
+            "{scriptsDir}/@tim.obj2.obj2",
+            "{scriptsDir}/@tim.scn2.scn2",
+            "{scriptsDir}/@tim.tra2.tra2",
+            "{scriptsDir}/tim2.mod2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Book-0225.relink",
+    "latest-version": "v0.0.8",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Book-0225/aviutl2_relink",
+      "regex": "aviutl2_relink.au2pkg.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/aviutl2_relink_launcher.aux2",
+            "Plugin/aviutl2_relink.exe"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2_relink_launcher.aux2",
+            "{pluginsDir}/aviutl2_relink.exe"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "beive60.scene-lighting",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "beive60/aviutl2-scene-lighting",
+      "regex": "^aviutl2-scene-lighting-v(?<version>\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/Beive60/@scene_lighting.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Beive60/@scene_lighting.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "korarei.FlowType_K",
+    "latest-version": "v0.3.3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "korarei/AviUtl2_FlowType_K_Script",
+      "regex": "^FlowType_K.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/FlowType_K/@FlowType_K.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/FlowType_K/@FlowType_K.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "zopty.osc4au2",
+    "latest-version": "v0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "zopty/osc4au2",
+      "regex": "^osc4au2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/OSC4AU2.mod2",
+            "Script/OSC4AU2.tra2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/OSC4AU2.mod2",
+            "{scriptsDir}/OSC4AU2.tra2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.Region_S",
+    "latest-version": "v1.01-for-beta50",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_Region_S",
+      "regex": "^aviutl2_script_Region_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@Region_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Region_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.Layback",
+    "latest-version": "v1.10",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_Layback",
+      "regex": "^aviutl2_script_Layback.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/最背面に配置.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/最背面に配置.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.VW_Media_Input",
+    "latest-version": "v1.0.3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/VW_Media_Input",
+      "regex": "^VW_Media_Input\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "VW_Media_Input/VW_Media_Input.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/VW_Media_Input/VW_Media_Input.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.VW_Media_Output",
+    "latest-version": "v1.0.4",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/VW_Media_Output",
+      "regex": "^VW_Media_Output.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "VW_Media_Output/VW_Media_Output.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/VW_Media_Output/VW_Media_Output.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Natadecoco.SoftAnchorBone",
+    "latest-version": "v1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Natadecoco2539/AviUtl2-SoftAnchorBone",
+      "regex": "SoftAnchorBone.anm2",
+      "hash-calc": [
+        {
+          "paths": [
+            "SoftAnchorBone.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/SoftAnchorBone.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "airiah7.plugin--picked-color-storage",
+    "latest-version": "v.1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "airiah7/airiah7--aviutl2--plugin--picked-color-storage",
+      "regex": "^airiah7--aviutl2--plugin--picked-color-storage-v\\.(\\d+\\.\\d+\\.\\d+)\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "airiah7__picked_color_storage.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/airiah7/airiah7__picked_color_storage.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "airiah7.widget--speed-preview",
+    "latest-version": "v.1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "airiah7/airiah7--aviutl2--widget--speed-preview",
+      "regex": "^airiah7--aviutl2--widget--speed-preview-v\\.(\\d+\\.\\d+\\.\\d+)\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "airiah7__speed_preview.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/airiah7/airiah7__speed_preview.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "airiah7.widget--drag-and-drop-objects",
+    "latest-version": "v.1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "airiah7/airiah7--aviutl2--widget--drag-and-drop-objects",
+      "regex": "^airiah7--aviutl2--widget--drag-and-drop-objects-v\\.(\\d+\\.\\d+\\.\\d+)\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "airiah7__drag_and_drop_objects.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/airiah7/airiah7__drag_and_drop_objects.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Garech.DateTime",
+    "latest-version": "v2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Garech-mas/AviUtl2_DateTime",
+      "regex": "^DateTime.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "日付と時刻.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/日付と時刻.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "azurite.DepthMapFilter",
+    "latest-version": "v1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "azurite581/AviUtl2-DepthMapFilter",
+      "regex": "^DepthMapFilter-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/DepthMapFilter/DepthMapFilter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/DepthMapFilter/DepthMapFilter.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "eizo-gak.aviutl2-SourceMonitor",
+    "latest-version": "1.1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/aviutl2-sourcemonitor-bootstrapper.aux2",
+      "regex": "^sevenc-nanashi.aviutl2_sourcemonitor_bootstrapper-aux2-.*\\.au2pkg.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/aviutl2-sourcemonitor/SourceMonitor.aux2.dll"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2-sourcemonitor/SourceMonitor.aux2.dll"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Fuji.voice_drop",
+    "latest-version": "v0.1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Fuji07-2525/voice-drop",
+      "regex": "voice_drop.aux2",
+      "hash-calc": [
+        {
+          "paths": [
+            "voice_drop.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/voice_drop.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.import_midi_tempos-aux2",
+    "latest-version": "0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/import_midi_tempos.aux2",
+      "regex": "^sevenc-nanashi\\.import_midi_tempos-aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/import_midi_tempos.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/import_midi_tempos.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Gohankaiju.rich-audio-spectrum",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Gohankaiju/aviutl2-rich-audio-spectrum",
+      "regex": "^rich-audio-spectrum_v.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "rich-audio-spectrum/rich-audio-spectrum.obj2",
+            "rich-audio-spectrum/ras_core.lua",
+            "rich-audio-spectrum/ras_draw.lua",
+            "rich-audio-spectrum/ras_engine.lua",
+            "rich-audio-spectrum/ras_presets.lua"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/rich-audio-spectrum/rich-audio-spectrum.obj2",
+            "{scriptsDir}/rich-audio-spectrum/ras_core.lua",
+            "{scriptsDir}/rich-audio-spectrum/ras_draw.lua",
+            "{scriptsDir}/rich-audio-spectrum/ras_engine.lua",
+            "{scriptsDir}/rich-audio-spectrum/ras_presets.lua"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.AudioFilter",
+    "latest-version": "v1.0.3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/Aul2AudioFilter",
+      "regex": "^Aul2AudioFilter\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Aul2AudioFilter/Aul2AudioFilter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Aul2AudioFilter/Aul2AudioFilter.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Karoterra.WaveformPreview",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "karoterra/aviutl2-waveform-preview",
+      "regex": "^Karoterra\\.WaveformPreview-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/Karoterra.WaveformPreview/waveformpreview.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Karoterra.WaveformPreview/waveformpreview.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "nkopikaso.AviUtl2-WhisperAutoSub",
+    "latest-version": "v2.8.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nkopikaso/AviUtl2-WhisperAutoSub",
+      "regex": "WhisperAutoSub.aux2",
+      "hash-calc": [
+        {
+          "paths": [
+            "WhisperAutoSub.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/WhisperAutoSub.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Natadecoco.TextBackplate",
+    "latest-version": "v1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Natadecoco2539/AviUtl2-TextBackplate",
+      "regex": "TextBackplate.anm2",
+      "hash-calc": [
+        {
+          "paths": [
+            "TextBackplate.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/TextBackplate.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebiiro.al2_dialog_resizer",
+    "latest-version": "r1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_dialog_resizer",
+      "regex": "^al2_dialog_resizer.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/al2/al2_dialog_resizer.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_dialog_resizer.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "SLDC.SeiSa",
+    "latest-version": "v1.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "samuelladoco/aviutl2-script-seisa",
+      "regex": "SeiSa.au2pkg.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/SeiSa/SeiSa-Total.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/SeiSa/SeiSa-Total.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.void-auf2",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/void.auf2",
+      "regex": "^sevenc-nanashi\\.void-auf2-v.*\\.au2pkg\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Language/Default.void-auf2.aul2",
+            "Language/English.void-auf2.aul2",
+            "Plugin/void.auf2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/Default.void-auf2.aul2",
+            "{dataDir}/Language/English.void-auf2.aul2",
+            "{pluginsDir}/void.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Estelle.AviUtl2-LaTeX",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Estellellet/AviUtl2-LaTeX",
+      "regex": "^AviUtl2LaTeX-v[0-9]+\\.[0-9]+\\.[0-9]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "AviUtl2LaTeX/AviUtl2LaTeX.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/AviUtl2LaTeX/AviUtl2LaTeX.auf2"
+          ]
+        }
+      ]
+    }
+  }
+]

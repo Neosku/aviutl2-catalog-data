@@ -1,0 +1,27 @@
+{
+  "installation": {
+    "source": {
+      "type": "googleDrive",
+      "id": "1SGhK41ehQI7bH2AL1FykrH0nCzM6-zod"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/2SLM/2段階リリックモーション_A.anm2",
+        "to": "{scriptsDir}"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/2段階リリックモーション_A.anm2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "releaseDate": "2025-07-09",
+      "files": [
+        {
+          "path": "{scriptsDir}/色覚シミュレーションKR.anm2",
+          "xxh128": "8fb4d1d47e7e45936b51dd437d45bd67"
+        }
+      ]
+    },
+    {
+      "version": "v1.1.1",
+      "releaseDate": "2026-04-19",
+      "files": [
+        {
+          "path": "{scriptsDir}/Karoterra.ColorVisionSimulation/色覚シミュレーションKR.anm2",
+          "xxh128": "fb618e53c3d216f71a0f37edd7bdb4ac"
+        }
+      ]
+    }
+  ]
+}

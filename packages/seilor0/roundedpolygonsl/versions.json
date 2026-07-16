@@ -1,0 +1,44 @@
+{
+  "versions": [
+    {
+      "version": "v1.0",
+      "releaseDate": "2025-10-14",
+      "files": [
+        {
+          "path": "{scriptsDir}/角丸正多角形_sl.obj2",
+          "xxh128": "aa6b34ac6ddc28bda603fec709ebff1d"
+        }
+      ]
+    },
+    {
+      "version": "v1.1",
+      "releaseDate": "2025-12-02",
+      "files": [
+        {
+          "path": "{scriptsDir}/角丸正多角形_sl.obj2",
+          "xxh128": "8003336754162319a76f362a11bf3fed"
+        }
+      ]
+    },
+    {
+      "version": "v1.2",
+      "releaseDate": "2026-01-24",
+      "files": [
+        {
+          "path": "{scriptsDir}/角丸正多角形_sl.obj2",
+          "xxh128": "fbe9e8b5bb9bd03a343e91c667ba04b4"
+        }
+      ]
+    },
+    {
+      "version": "v1.2.1",
+      "releaseDate": "2026-01-26",
+      "files": [
+        {
+          "path": "{scriptsDir}/角丸正多角形_sl.obj2",
+          "xxh128": "1f7e29b7a7ff3262ebfe56ca693a6099"
+        }
+      ]
+    }
+  ]
+}

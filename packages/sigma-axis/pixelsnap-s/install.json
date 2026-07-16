@@ -1,0 +1,47 @@
+{
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "sigma-axis",
+      "repo": "aviutl2_script_PixelSnap_S",
+      "pattern": "^aviutl2_script_PixelSnap_S.*\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/PixelSnap_S.anm2",
+        "to": "{scriptsDir}"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/PixelSnap_S/LICENSE",
+        "to": "{scriptsDir}/PixelSnap_S"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/PixelSnap_S/README.md",
+        "to": "{scriptsDir}/PixelSnap_S"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/PixelSnap_S.anm2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/PixelSnap_S/LICENSE"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/PixelSnap_S/README.md"
+      }
+    ]
+  }
+}

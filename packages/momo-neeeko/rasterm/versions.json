@@ -1,0 +1,24 @@
+{
+  "versions": [
+    {
+      "version": "ver1.0",
+      "releaseDate": "2026-04-06",
+      "files": [
+        {
+          "path": "{scriptsDir}/ラスターM.anm2",
+          "xxh128": "3ab0e093962b72d62359c3e71b1676dc"
+        }
+      ]
+    },
+    {
+      "version": "ver2.0",
+      "releaseDate": "2026-05-10",
+      "files": [
+        {
+          "path": "{scriptsDir}/ラスターM.anm2",
+          "xxh128": "d519c90419c4203c2dfd1d33e2a29dab"
+        }
+      ]
+    }
+  ]
+}

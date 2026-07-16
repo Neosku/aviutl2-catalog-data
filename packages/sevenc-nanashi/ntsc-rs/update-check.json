@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "githubRelease",
+    "owner": "sevenc-nanashi",
+    "repo": "ntsc-rs.anm2",
+    "pattern": "^sevenc-nanashi\\.ntsc-rs-anm2.*\\.au2pkg\\.zip"
+  },
+  "hashTargets": [
+    {
+      "archiveFormat": "zip",
+      "sourcePaths": [
+        "Script/ntsc-rs.anm2",
+        "Script/ntsc-rs.mod2"
+      ],
+      "recordPaths": [
+        "{scriptsDir}/ntsc-rs.anm2",
+        "{scriptsDir}/ntsc-rs.mod2"
+      ]
+    }
+  ]
+}

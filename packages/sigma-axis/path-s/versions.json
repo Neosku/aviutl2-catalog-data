@@ -1,0 +1,64 @@
+{
+  "versions": [
+    {
+      "version": "v1.01-for-beta20",
+      "releaseDate": "2025-11-21",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Path_S.anm2",
+          "xxh128": "dd6a7f4127109196fa9c7ff580c51d2b"
+        }
+      ]
+    },
+    {
+      "version": "v1.10-for-beta21",
+      "releaseDate": "2025-11-24",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Path_S.anm2",
+          "xxh128": "0dd801dc104a0e87336bee835b462e9b"
+        }
+      ]
+    },
+    {
+      "version": "v1.11-for-beta22a",
+      "releaseDate": "2025-12-03",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Path_S.anm2",
+          "xxh128": "4af2bc5fb1c6f576801f6ff3c208044e"
+        }
+      ]
+    },
+    {
+      "version": "v1.12-for-beta25",
+      "releaseDate": "2025-12-22",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Path_S.anm2",
+          "xxh128": "c6a85adfb40092bc780c94fcb529c429"
+        }
+      ]
+    },
+    {
+      "version": "v1.20-for-beta43",
+      "releaseDate": "2026-04-26",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Path_S.anm2",
+          "xxh128": "6b1bc3ae8842082fe80050b80a30a7ba"
+        }
+      ]
+    },
+    {
+      "version": "v2.00-for-beta52",
+      "releaseDate": "2026-07-04",
+      "files": [
+        {
+          "path": "{scriptsDir}/@Path_S.anm2",
+          "xxh128": "4c5ea574c6d011648cfe83cc7a024b27"
+        }
+      ]
+    }
+  ]
+}
