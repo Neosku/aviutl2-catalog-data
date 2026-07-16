@@ -22100,10 +22100,6 @@
       },
       "install": [
         {
-          "action": "delete",
-          "path": "{pluginsDir}/FontPreview.aux2"
-        },
-        {
           "action": "download"
         },
         {
@@ -22123,16 +22119,22 @@
           "action": "copy",
           "from": "{tmp}/Plugin/FontPreview/README.md",
           "to": "{pluginsDir}/FontPreview"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.FontPreview.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/简体中文.FontPreview.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{pluginsDir}/FontPreview.aux2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/FontPreview"
+          "path": "{pluginsDir}/FontPreview/"
         }
       ]
     },
