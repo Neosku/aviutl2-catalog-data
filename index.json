@@ -35203,5 +35203,138 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Amai_28ftb.DTMerStarterKit",
+    "name": "DTMer Starter Kit",
+    "type": "スクリプト",
+    "summary": "音声・MIDIを視覚的に表示同期可能なScript群",
+    "description": "https://raw.githubusercontent.com/Amai-28ftb/DTMer-Starter-Kit-for-AviUtl2/refs/heads/main/README.md",
+    "author": "甘井ふたば",
+    "repoURL": "https://app.notion.com/p/DTMerStarterKit-Wiki-AviUtl2-300bea655f64804d975fea11976ad85c#300bea655f6481759b1cff184f6468a8",
+    "latest-version": "Beta1.0.4",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "niconiCommonsId": "sm45949170",
+    "tags": [
+      "BPM",
+      "アニメーション",
+      "エフェクト",
+      "カスタムオブジェクト",
+      "スペクトラム",
+      "トラックバー",
+      "音声",
+      "MIDI"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/Amai_28ftb.DTMerStarterKit_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Amai-28ftb",
+          "repo": "DTMer-Starter-Kit-for-AviUtl2",
+          "pattern": "^DTMerStarterKit.au2pkg.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@DTMer Starter Kit.anm2",
+          "to": "{scriptsDir}/DTMerStarterKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@DTMer Starter Kit.obj2",
+          "to": "{scriptsDir}/DTMerStarterKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@DTMer Starter Kit.tra2",
+          "to": "{scriptsDir}/DTMerStarterKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/chord_config.lua",
+          "to": "{scriptsDir}/DTMerStarterKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/MIDI_for_AviUtl.lua",
+          "to": "{scriptsDir}/DTMerStarterKit"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/DTMerStarterKit/@DTMer Starter Kit.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/DTMerStarterKit/@DTMer Starter Kit.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/DTMerStarterKit/@DTMer Starter Kit.tra2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/DTMerStarterKit/chord_config.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/DTMerStarterKit/MIDI_for_AviUtl.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/DTMerStarterKit"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "Beta1.0.4",
+        "release_date": "2026-07-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/DTMerStarterKit/@DTMer Starter Kit.obj2",
+            "XXH3_128": "7b79614dd48db255a190b55c9c1ac437"
+          },
+          {
+            "path": "{scriptsDir}/DTMerStarterKit/@DTMer Starter Kit.anm2",
+            "XXH3_128": "4ff838b04793f22b5fb8a964c9820665"
+          },
+          {
+            "path": "{scriptsDir}/DTMerStarterKit/@DTMer Starter Kit.tra2",
+            "XXH3_128": "cfbf27639ac8b6bfed56a80d3cd45c5f"
+          },
+          {
+            "path": "{scriptsDir}/DTMerStarterKit/chord_config.lua",
+            "XXH3_128": "8e9ae95d6aaea372ab00a8b02e9e25c4"
+          },
+          {
+            "path": "{scriptsDir}/DTMerStarterKit/MIDI_for_AviUtl.lua",
+            "XXH3_128": "7fd6e1f4577a79d6482463af8a8de41f"
+          }
+        ]
+      }
+    ]
   }
 ]
