@@ -35110,5 +35110,98 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Suzuke.IDgen_Su",
+    "name": "IDgen_Su",
+    "type": "スクリプト",
+    "summary": "UUIDv4等を表示するカスタムオブジェクト",
+    "description": "https://raw.githubusercontent.com/Suzukeh/IDgen_Su/refs/heads/main/README.md",
+    "author": "Suzuke",
+    "repoURL": "https://github.com/Suzukeh/IDgen_Su",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "Suzuke"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト",
+      "テキスト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/Suzuke.IDgen_Su_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Suzukeh",
+          "repo": "IDgen_Su",
+          "pattern": "^Suzuke.*\\au2pkg.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Suzuke.IDgen_Su/@IDgen_Su.obj2",
+          "to": "{scriptsDir}/Suzuke.IDgen_Su"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Suzuke.IDgen_Su/IDgen_Su.lua",
+          "to": "{scriptsDir}/Suzuke.IDgen_Su"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Suzuke.IDgen_Su/README.md",
+          "to": "{scriptsDir}/Suzuke.IDgen_Su"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Suzuke.IDgen_Su/@IDgen_Su.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Suzuke.IDgen_Su/IDgen_Su.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Suzuke.IDgen_Su/README.md"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-07-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/Suzuke.IDgen_Su/@IDgen_Su.obj2",
+            "XXH3_128": "179af94e3ca1703a3800d33c4e368232"
+          }
+        ]
+      }
+    ]
   }
 ]
