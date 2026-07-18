@@ -34941,7 +34941,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/void.auf2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/void.auf2",
-    "latest-version": "0.1.0",
+    "latest-version": "0.1.1",
     "popularity": 29,
     "trend": 30,
     "licenses": [
@@ -35021,6 +35021,24 @@
           {
             "path": "{pluginsDir}/void.auf2",
             "XXH3_128": "edaced7fe1cac53c97424dbc15ce9590"
+          }
+        ]
+      },
+      {
+        "version": "0.1.1",
+        "release_date": "2026-07-18",
+        "file": [
+          {
+            "path": "{dataDir}/Language/Default.void-auf2.aul2",
+            "XXH3_128": "3ec2593b9a38e381fc68f78dc05cf115"
+          },
+          {
+            "path": "{dataDir}/Language/English.void-auf2.aul2",
+            "XXH3_128": "c286016adddf99147e5dafbe4822b83d"
+          },
+          {
+            "path": "{pluginsDir}/void.auf2",
+            "XXH3_128": "093fc65833184c3a950777a45b65b4d9"
           }
         ]
       }
