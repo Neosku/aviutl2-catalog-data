@@ -74,7 +74,7 @@
 
 ## 対応環境
 
-- AviUtl ExEdit2 version 2.0 beta43a
+- AviUtl ExEdit2 version 2.1.0
 
 ---
 
@@ -85,8 +85,8 @@
 ただし、これは支援金額の多寡によって継続的な開発・サポートを保証するものではございません。  
 また、一度寄付・購入いただいた製品に対して返金は出来かねますのでご注意ください。
 
-開発支援版: https://tikubonn.booth.pm/items/8270797  
-寄付サイト: https://buymeacoffee.com/tikubonn
+開発支援版: [https://tikubonn.booth.pm/items/8270797](https://tikubonn.booth.pm/items/8270797)
+寄付サイト: [https://buymeacoffee.com/tikubonn](https://buymeacoffee.com/tikubonn)
 
 ---
 

@@ -28774,7 +28774,7 @@
     "description": "./md/tikubonn.CinemaScope.md",
     "author": "ちくぼん",
     "repoURL": "https://tikubonn.booth.pm/items/8270797",
-    "latest-version": "v2.0.1",
+    "latest-version": "v2.0.2",
     "popularity": 440,
     "trend": 63,
     "licenses": [
@@ -28801,7 +28801,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8799716"
+        "booth": "https://booth.pm/downloadables/9304308"
       },
       "install": [
         {
@@ -28849,6 +28849,20 @@
           {
             "path": "{scriptsDir}/シネマスコープv2/cinemascope_v2.lua",
             "XXH3_128": "f0431231d8a442ac12b71fd7b8fc306b"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.2",
+        "release_date": "2026-07-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/シネマスコープv2/@シネマスコープv2.obj2",
+            "XXH3_128": "3b5720b8ec628477b59630e94d692fba"
+          },
+          {
+            "path": "{scriptsDir}/シネマスコープv2/cinemascope_v2.lua",
+            "XXH3_128": "0386efc3ff1612f3e35fee94610d472d"
           }
         ]
       }
@@ -29111,7 +29125,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/9304052"
+        "booth": "https://booth.pm/downloadables/8831341"
       },
       "install": [
         {
