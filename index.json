@@ -35672,7 +35672,11 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/tikubonn.TVSubtitle_thumbnail.jpg"
+        "thumbnail": "./image/tikubonn.TVSubtitle_thumbnail.jpg",
+        "infoImg": [
+          "./image/tikubonn.TVSubtitle_1.jpg",
+          "./image/tikubonn.TVSubtitle_2.png"
+        ]
       }
     ],
     "installer": {
