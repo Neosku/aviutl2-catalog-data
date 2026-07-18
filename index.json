@@ -7251,7 +7251,7 @@
     "description": "https://raw.githubusercontent.com/Garech-mas/jp_akey.aul2/refs/heads/main/README.md",
     "author": "Garech",
     "repoURL": "https://github.com/Garech-mas/jp_akey.aul2",
-    "latest-version": "v0.53",
+    "latest-version": "v1.1",
     "popularity": 468,
     "trend": 151,
     "licenses": [
@@ -7342,6 +7342,16 @@
           {
             "path": "{dataDir}/Language/日本語(アクセスキー付き).aul2",
             "XXH3_128": "ebb5e1129a2350b277b97ead0ac3c9e5"
+          }
+        ]
+      },
+      {
+        "version": "v1.1",
+        "release_date": "2026-07-18",
+        "file": [
+          {
+            "path": "{dataDir}/Language/日本語(アクセスキー付き).aul2",
+            "XXH3_128": "6fd6e7b1e4396a68d0d9b13e6b14c04a"
           }
         ]
       }
@@ -28774,7 +28784,7 @@
     "description": "./md/tikubonn.CinemaScope.md",
     "author": "ちくぼん",
     "repoURL": "https://tikubonn.booth.pm/items/8270797",
-    "latest-version": "v2.0.2",
+    "latest-version": "v2.0.1",
     "popularity": 440,
     "trend": 63,
     "licenses": [
@@ -28801,7 +28811,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/9304308"
+        "booth": "https://booth.pm/downloadables/8799716"
       },
       "install": [
         {
@@ -28849,20 +28859,6 @@
           {
             "path": "{scriptsDir}/シネマスコープv2/cinemascope_v2.lua",
             "XXH3_128": "f0431231d8a442ac12b71fd7b8fc306b"
-          }
-        ]
-      },
-      {
-        "version": "v2.0.2",
-        "release_date": "2026-07-18",
-        "file": [
-          {
-            "path": "{scriptsDir}/シネマスコープv2/@シネマスコープv2.obj2",
-            "XXH3_128": "3b5720b8ec628477b59630e94d692fba"
-          },
-          {
-            "path": "{scriptsDir}/シネマスコープv2/cinemascope_v2.lua",
-            "XXH3_128": "0386efc3ff1612f3e35fee94610d472d"
           }
         ]
       }
@@ -29125,7 +29121,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/9304052"
+        "booth": "https://booth.pm/downloadables/8831341"
       },
       "install": [
         {
@@ -35498,7 +35494,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/enhanced_tracks.aux2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/enhanced_tracks.aux2",
-    "latest-version": "0.1.1",
+    "latest-version": "0.1.0",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -35610,32 +35606,6 @@
           {
             "path": "{scriptsDir}/enhanced_tracks-aux2/enhanced_tracks.aux2.tra2",
             "XXH3_128": "906db9dfba60cad8662413b6339372f3"
-          },
-          {
-            "path": "{scriptsDir}/enhanced_tracks-aux2/enhanced_tracks_core.lua",
-            "XXH3_128": "9a69883db241f480ffd5c23ccfc873d6"
-          }
-        ]
-      },
-      {
-        "version": "0.1.1",
-        "release_date": "2026-07-18",
-        "file": [
-          {
-            "path": "{dataDir}/Language/Default.enhanced_tracks-aux2.aul2",
-            "XXH3_128": "76a4d7eddc8b727df214f6d2e21b5169"
-          },
-          {
-            "path": "{dataDir}/Language/English.enhanced_tracks-aux2.aul2",
-            "XXH3_128": "0279d080a60cb3d978e240184e1251d9"
-          },
-          {
-            "path": "{pluginsDir}/enhanced_tracks.aux2",
-            "XXH3_128": "5cc06b39981874157722122e000e9fc9"
-          },
-          {
-            "path": "{scriptsDir}/enhanced_tracks-aux2/enhanced_tracks.aux2.tra2",
-            "XXH3_128": "26108b1e1b95e8d7f8d2931d78ea75b1"
           },
           {
             "path": "{scriptsDir}/enhanced_tracks-aux2/enhanced_tracks_core.lua",
