@@ -20,6 +20,7 @@ import { sourcePopularityPath } from "../source/popularity.ts";
 import {
   catalogDetailSchema,
   catalogInstallSchema,
+  catalogLatestVersionsSchema,
   catalogListSchema,
   catalogPopularitySchema,
   catalogUpdateCheckSchema,
@@ -104,16 +105,21 @@ function main(): void {
   }
 
   const versionsPath = artifactPath(previewRoot, manifest.paths.versions.json.path);
+  const latestVersionsPath = resolve(previewRoot, "catalog-latest-versions.json");
   const popularityPath = artifactPath(previewRoot, manifest.paths.popularity.json.path);
   const installPath = artifactPath(previewRoot, manifest.paths.install.json.path);
   const updateCheckPath = artifactPath(previewRoot, manifest.paths.updateCheck.json.path);
   const versions = loadJson(versionsPath, catalogVersionsSchema, report);
+  const latestVersions = loadJson(latestVersionsPath, catalogLatestVersionsSchema, report);
   const popularity = loadJson(popularityPath, catalogPopularitySchema, report);
   const install = loadJson(installPath, catalogInstallSchema, report);
   const updateCheck = loadJson(updateCheckPath, catalogUpdateCheckSchema, report);
 
   if (versions !== null) {
     validateVersions(versionsPath, versions, sourceById, report);
+  }
+  if (latestVersions !== null) {
+    validateLatestVersions(latestVersionsPath, latestVersions, sourceById, report);
   }
   if (popularity !== null && sourcePopularity !== null) {
     validatePopularity(popularityPath, popularity, sourcePopularity, sourceById, report);
@@ -253,6 +259,29 @@ function validateVersions(
         `packages.${id}.versions`,
         "versions.source-values",
         "Versions do not match source.",
+        id,
+      );
+    }
+  }
+}
+
+function validateLatestVersions(
+  path: string,
+  payload: ReturnType<typeof catalogLatestVersionsSchema.parse>,
+  sourceById: ReadonlyMap<string, LoadedSourcePackage>,
+  report: AuditReport,
+): void {
+  validateKeySet(path, payload, sourceById, "latest-versions.ids", report);
+  for (const [id, source] of sourceById) {
+    const actual = payload[id];
+    const expected = source.versions.versions.at(-1)?.version;
+    if (actual !== expected) {
+      addError(
+        report,
+        path,
+        id,
+        "latest-versions.source-value",
+        `Latest version does not match source: expected ${expected ?? "<missing>"}.`,
         id,
       );
     }

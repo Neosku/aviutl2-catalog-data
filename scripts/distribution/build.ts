@@ -57,6 +57,14 @@ type LocaleCoverage = {
   notice: MarkdownCoverage;
 };
 
+function latestVersionOf(pkg: LoadedSourcePackage): string {
+  const latest = pkg.versions.versions.at(-1);
+  if (latest === undefined) {
+    throw new Error(`Package ${pkg.meta.id} has no versions.`);
+  }
+  return latest.version;
+}
+
 function main(): void {
   const repoRoot = process.cwd();
   const packagesRoot = resolve(repoRoot, "packages");
@@ -222,6 +230,15 @@ function buildPreview(
       orderedPackages.map((pkg) => [pkg.meta.id, { versions: pkg.versions.versions }]),
     ),
   });
+
+  writeJsonFile(
+    resolve(previewRoot, "catalog-latest-versions.json"),
+    Object.fromEntries(
+      [...orderedPackages]
+        .sort((left, right) => left.meta.id.localeCompare(right.meta.id, "en"))
+        .map((pkg) => [pkg.meta.id, latestVersionOf(pkg)]),
+    ),
+  );
 
   manifestPaths.popularity = writeJsonAndZstd(previewRoot, "catalog-popularity.json", {
     schemaVersion: CATALOG_SCHEMA_VERSION,
