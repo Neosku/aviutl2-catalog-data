@@ -1673,7 +1673,7 @@
     "description": "./md/rigaya.NVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/NVEnc",
-    "latest-version": "9.24",
+    "latest-version": "9.25",
     "popularity": 3410,
     "trend": 1031,
     "licenses": [
@@ -2037,6 +2037,16 @@
           {
             "path": "{pluginsDir}/NVEnc.auo2",
             "XXH3_128": "2e33acf1e9fbad5781264a053c74dea1"
+          }
+        ]
+      },
+      {
+        "version": "9.25",
+        "release_date": "2026-07-18",
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "917517e46b72f8b562b378fb581cf6a5"
           }
         ]
       }
@@ -29934,7 +29944,7 @@
     "author": "Nanashi.",
     "originalAuthor": "ティム",
     "repoURL": "https://github.com/sevenc-nanashi/ported_tim",
-    "latest-version": "0.1.3",
+    "latest-version": "0.1.4",
     "popularity": 1930,
     "trend": 449,
     "licenses": [
@@ -30127,6 +30137,40 @@
           {
             "path": "{scriptsDir}/tim2.mod2",
             "XXH3_128": "09de9bec442906534e1e1ff2d5c34491"
+          }
+        ]
+      },
+      {
+        "version": "0.1.4",
+        "release_date": "2026-07-18",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.ported_tim.aul2",
+            "XXH3_128": "0d30776e9e1fb98cce109f64a71cddf3"
+          },
+          {
+            "path": "{scriptsDir}/@tim.anm2.anm2",
+            "XXH3_128": "0fdc7ca9b48bcf53643b466f55f8d65d"
+          },
+          {
+            "path": "{scriptsDir}/@tim.cam2.cam2",
+            "XXH3_128": "9ef1f4db83008dac0641a5aa105a6301"
+          },
+          {
+            "path": "{scriptsDir}/@tim.obj2.obj2",
+            "XXH3_128": "4681b689861e44b3913919f7dacf6e1f"
+          },
+          {
+            "path": "{scriptsDir}/@tim.scn2.scn2",
+            "XXH3_128": "24b5ae24510b171e5d91b8c7e9ee1ce5"
+          },
+          {
+            "path": "{scriptsDir}/@tim.tra2.tra2",
+            "XXH3_128": "ef0c13a65d49dbc79c8f823a621e15dc"
+          },
+          {
+            "path": "{scriptsDir}/tim2.mod2",
+            "XXH3_128": "1eac7055d84b6f4c1bcda8c6416cc09c"
           }
         ]
       }
