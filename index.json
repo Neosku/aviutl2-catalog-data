@@ -7251,7 +7251,7 @@
     "description": "https://raw.githubusercontent.com/Garech-mas/jp_akey.aul2/refs/heads/main/README.md",
     "author": "Garech",
     "repoURL": "https://github.com/Garech-mas/jp_akey.aul2",
-    "latest-version": "v1.1",
+    "latest-version": "v0.53",
     "popularity": 468,
     "trend": 151,
     "licenses": [
@@ -7342,16 +7342,6 @@
           {
             "path": "{dataDir}/Language/日本語(アクセスキー付き).aul2",
             "XXH3_128": "ebb5e1129a2350b277b97ead0ac3c9e5"
-          }
-        ]
-      },
-      {
-        "version": "v1.1",
-        "release_date": "2026-07-18",
-        "file": [
-          {
-            "path": "{dataDir}/Language/日本語(アクセスキー付き).aul2",
-            "XXH3_128": "6fd6e7b1e4396a68d0d9b13e6b14c04a"
           }
         ]
       }
@@ -28975,7 +28965,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/9304344"
+        "booth": "https://booth.pm/downloadables/8825673"
       },
       "install": [
         {
@@ -35682,11 +35672,7 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/tikubonn.TVSubtitle_thumbnail.jpg",
-        "infoImg": [
-          "./image/tikubonn.TVSubtitle_1.jpg",
-          "./image/tikubonn.TVSubtitle_2.png"
-        ]
+        "thumbnail": "./image/tikubonn.TVSubtitle_thumbnail.jpg"
       }
     ],
     "installer": {
@@ -35858,6 +35844,105 @@
           {
             "path": "{scriptsDir}/DTMerStarterKit/MIDI_for_AviUtl.lua",
             "XXH3_128": "7fd6e1f4577a79d6482463af8a8de41f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mogesystem.VectorCanvas",
+    "name": "ベクターキャンバス",
+    "type": "スクリプト",
+    "summary": "ベクターグラフィックスを扱うためのスクリプト群",
+    "description": "https://raw.githubusercontent.com/Mg32/aviutl2-vectorcanvas/refs/heads/main/README.md",
+    "author": "もげ",
+    "repoURL": "https://github.com/Mg32/aviutl2-vectorcanvas",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VectorCanvas Developers"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "ベクター",
+      "パス",
+      "図形",
+      "テキスト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/mogesystem.VectorCanvas_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Mg32",
+          "repo": "aviutl2-vectorcanvas",
+          "pattern": "^.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/VectorCanvas/LICENSE",
+          "to": "{scriptsDir}/VectorCanvas"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/VectorCanvas/@VectorCanvas.anm2",
+          "to": "{scriptsDir}/VectorCanvas"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/VectorCanvas/vectorcanvas.mod2",
+          "to": "{scriptsDir}/VectorCanvas"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/VectorCanvas/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/VectorCanvas/@VectorCanvas.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/VectorCanvas/vectorcanvas.mod2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-07-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/VectorCanvas/@VectorCanvas.anm2",
+            "XXH3_128": "784c1c108a9da42f4d089f79976fe326"
+          },
+          {
+            "path": "{scriptsDir}/VectorCanvas/vectorcanvas.mod2",
+            "XXH3_128": "a0cb02d972cc1b39973ecdb86a726b7a"
           }
         ]
       }
