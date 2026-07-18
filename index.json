@@ -7,7 +7,7 @@
     "description": "./md/Kenkun.AviUtlExEdit2.md",
     "author": "ＫＥＮくん",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-    "latest-version": "v2.1.0",
+    "latest-version": "v2.1.1",
     "popularity": 26445,
     "trend": 4497,
     "licenses": [
@@ -30,7 +30,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2_v2.1.0_setup.exe"
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2_v2.1.1_setup.exe"
       },
       "install": [
         {
@@ -777,6 +777,16 @@
           {
             "path": "{appDir}/aviutl2.exe",
             "XXH3_128": "e8dd5d0525263e43d9f3d1888c20830e"
+          }
+        ]
+      },
+      {
+        "version": "v2.1.1",
+        "release_date": "2026-07-18",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "9b3a6b73fb53e404e5ac83a2564f990c"
           }
         ]
       }
@@ -23151,7 +23161,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v3.3.10",
+    "latest-version": "v3.3.12",
     "popularity": 710,
     "trend": 253,
     "licenses": [
@@ -23728,6 +23738,16 @@
           {
             "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
             "XXH3_128": "f2932828ef1d1a222e6e587d3c431c16"
+          }
+        ]
+      },
+      {
+        "version": "v3.3.12",
+        "release_date": "2026-07-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "26911a2590d7259d0b40266f9fc27084"
           }
         ]
       }
@@ -35468,7 +35488,7 @@
       }
     ]
   },
-    {
+  {
     "id": "Amai_28ftb.DTMerStarterKit",
     "name": "DTMer Starter Kit",
     "type": "スクリプト",
