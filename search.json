@@ -105,7 +105,7 @@
   },
   {
     "id": "rigaya.NVEnc",
-    "latest-version": "9.24",
+    "latest-version": "9.25",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/NVEnc",
@@ -125,7 +125,7 @@
   },
   {
     "id": "rigaya.QSVEnc",
-    "latest-version": "8.21",
+    "latest-version": "8.22",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/QSVEnc",
@@ -2631,7 +2631,7 @@
   },
   {
     "id": "sevenc-nanashi.ported_tim",
-    "latest-version": "0.1.3",
+    "latest-version": "0.1.4",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/ported_tim",
@@ -3131,7 +3131,7 @@
   },
   {
     "id": "SLDC.SeiSa",
-    "latest-version": "v1.0.1",
+    "latest-version": "v1.0.2",
     "checkType": {
       "type": "GitHub",
       "repo": "samuelladoco/aviutl2-script-seisa",
