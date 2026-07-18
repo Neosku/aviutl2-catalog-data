@@ -3192,5 +3192,81 @@
         }
       ]
     }
+  },
+  {
+    "id": "Suzuke.IDgen_Su",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Suzukeh/IDgen_Su",
+      "regex": "^Suzuke.*\\au2pkg.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/Suzuke.IDgen_Su/@IDgen_Su.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Suzuke.IDgen_Su/@IDgen_Su.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.enhanced_tracks-aux2",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/enhanced_tracks.aux2",
+      "regex": "^sevenc-nanashi\\.enhanced_tracks-aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Language/Default.enhanced_tracks-aux2.aul2",
+            "Language/English.enhanced_tracks-aux2.aul2",
+            "Plugin/enhanced_tracks.aux2",
+            "Script/enhanced_tracks-aux2/enhanced_tracks.aux2.tra2",
+            "Script/enhanced_tracks-aux2/enhanced_tracks_core.lua"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/Default.enhanced_tracks-aux2.aul2",
+            "{dataDir}/Language/English.enhanced_tracks-aux2.aul2",
+            "{pluginsDir}/enhanced_tracks.aux2",
+            "{scriptsDir}/enhanced_tracks-aux2/enhanced_tracks.aux2.tra2",
+            "{scriptsDir}/enhanced_tracks-aux2/enhanced_tracks_core.lua"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Amai_28ftb.DTMerStarterKit",
+    "latest-version": "Beta1.0.4",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Amai-28ftb/DTMer-Starter-Kit-for-AviUtl2",
+      "regex": "^DTMerStarterKit.au2pkg.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@DTMer Starter Kit.obj2",
+            "Script/@DTMer Starter Kit.anm2",
+            "Script/@DTMer Starter Kit.tra2",
+            "Script/chord_config.lua",
+            "Script/MIDI_for_AviUtl.lua"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/DTMerStarterKit/@DTMer Starter Kit.obj2",
+            "{scriptsDir}/DTMerStarterKit/@DTMer Starter Kit.anm2",
+            "{scriptsDir}/DTMerStarterKit/@DTMer Starter Kit.tra2",
+            "{scriptsDir}/DTMerStarterKit/chord_config.lua",
+            "{scriptsDir}/DTMerStarterKit/MIDI_for_AviUtl.lua"
+          ]
+        }
+      ]
+    }
   }
 ]
