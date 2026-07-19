@@ -5989,7 +5989,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Path_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Path_S/",
-    "latest-version": "v2.00-for-beta52",
+    "latest-version": "v2.10",
     "popularity": 3234,
     "trend": 1068,
     "licenses": [
@@ -6145,6 +6145,16 @@
           {
             "path": "{scriptsDir}/@Path_S.anm2",
             "XXH3_128": "4c5ea574c6d011648cfe83cc7a024b27"
+          }
+        ]
+      },
+      {
+        "version": "v2.10",
+        "release_date": "2026-07-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Path_S.anm2",
+            "XXH3_128": "1da4afd553cb956546a1a1d756138cf1"
           }
         ]
       }
@@ -23331,7 +23341,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v3.3.13",
+    "latest-version": "v3.3.14",
     "popularity": 713,
     "trend": 257,
     "licenses": [
@@ -23928,6 +23938,16 @@
           {
             "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
             "XXH3_128": "93385ef23a38b359971d62abbfa4538a"
+          }
+        ]
+      },
+      {
+        "version": "v3.3.14",
+        "release_date": "2026-07-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "121ba1d6f3812a1de7668a0656cf15ad"
           }
         ]
       }
@@ -34279,7 +34299,7 @@
     "description": "./md/VRAMWIZ.AudioFilter.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/Aul2AudioFilter",
-    "latest-version": "v1.1.0",
+    "latest-version": "v1.1.1",
     "popularity": 275,
     "trend": 287,
     "licenses": [
@@ -34449,6 +34469,16 @@
           {
             "path": "{pluginsDir}/Aul2AudioFilter/Aul2AudioFilter.auf2",
             "XXH3_128": "566badb7fe5aadc2fcae06b668a46df2"
+          }
+        ]
+      },
+      {
+        "version": "v1.1.1",
+        "release_date": "2026-07-19",
+        "file": [
+          {
+            "path": "{pluginsDir}/Aul2AudioFilter/Aul2AudioFilter.auf2",
+            "XXH3_128": "0baa98a17624b2aea939cf9eb55ae999"
           }
         ]
       }
