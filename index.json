@@ -35608,7 +35608,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/enhanced_tracks.aux2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/enhanced_tracks.aux2",
-    "latest-version": "0.1.1",
+    "latest-version": "0.1.2",
     "popularity": 150,
     "trend": 153,
     "licenses": [
@@ -35742,6 +35742,32 @@
           {
             "path": "{pluginsDir}/enhanced_tracks.aux2",
             "XXH3_128": "5cc06b39981874157722122e000e9fc9"
+          },
+          {
+            "path": "{scriptsDir}/enhanced_tracks-aux2/enhanced_tracks.aux2.tra2",
+            "XXH3_128": "26108b1e1b95e8d7f8d2931d78ea75b1"
+          },
+          {
+            "path": "{scriptsDir}/enhanced_tracks-aux2/enhanced_tracks_core.lua",
+            "XXH3_128": "9a69883db241f480ffd5c23ccfc873d6"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2",
+        "release_date": "2026-07-20",
+        "file": [
+          {
+            "path": "{dataDir}/Language/Default.enhanced_tracks-aux2.aul2",
+            "XXH3_128": "76a4d7eddc8b727df214f6d2e21b5169"
+          },
+          {
+            "path": "{dataDir}/Language/English.enhanced_tracks-aux2.aul2",
+            "XXH3_128": "0279d080a60cb3d978e240184e1251d9"
+          },
+          {
+            "path": "{pluginsDir}/enhanced_tracks.aux2",
+            "XXH3_128": "10dc5d2a5040cd512d6aaeb457464465"
           },
           {
             "path": "{scriptsDir}/enhanced_tracks-aux2/enhanced_tracks.aux2.tra2",
