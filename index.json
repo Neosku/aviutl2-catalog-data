@@ -33091,7 +33091,7 @@
     "description": "./md/Rhapthorne_0.RepeatedDraw_Rh.md",
     "author": "ラプソーン",
     "repoURL": "https://twitter.com/Rhapthorne_0/status/2035884231889404163",
-    "latest-version": "2026.05.10",
+    "latest-version": "2026.06.30",
     "popularity": 174,
     "trend": 66,
     "licenses": [
@@ -33138,6 +33138,16 @@
           {
             "path": "{scriptsDir}/描画リピーター_Rh.anm2",
             "XXH3_128": "0ed815095e3745c024b2e5d546536c84"
+          }
+        ]
+      },
+      {
+        "version": "2026.06.30",
+        "release_date": "2026-06-30",
+        "file": [
+          {
+            "path": "{scriptsDir}/描画リピーター_Rh.anm2",
+            "XXH3_128": "03907c0f4bef0b401ce65b0d2f07b1c9"
           }
         ]
       }
