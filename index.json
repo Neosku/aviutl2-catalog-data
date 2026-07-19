@@ -35971,5 +35971,71 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Rhapthorne_0.Parallax_Rh",
+    "name": "パララックス_Rh",
+    "type": "スクリプト",
+    "summary": "簡易的なパララックス効果を再現するスクリプト",
+    "description": "./md/Rhapthorne_0.Parallax_Rh.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/2078646007345136078",
+    "latest-version": "2026.07.19",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "改変再配布等基本自由です"
+      }
+    ],
+    "tags": [
+      "カメラ",
+      "座標補正",
+      "移動"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/Rhapthorne_0.Parallax_Rh_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1KACiMYEybYJOEJb3871T3Ix-ILEinDbu"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/パララックス_Rh.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/パララックス_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2026.07.19",
+        "release_date": "2026-07-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/パララックス_Rh.anm2",
+            "XXH3_128": "b133cad1321a8449acd41d028b55312a"
+          }
+        ]
+      }
+    ]
   }
 ]
