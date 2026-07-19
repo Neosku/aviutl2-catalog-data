@@ -383,7 +383,7 @@
   },
   {
     "id": "sigma-axis.Path_S",
-    "latest-version": "v2.00-for-beta52",
+    "latest-version": "v2.10",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_Path_S",
@@ -1381,7 +1381,7 @@
   },
   {
     "id": "Book-0225.EAP2",
-    "latest-version": "v0.0.34",
+    "latest-version": "v0.0.35",
     "checkType": {
       "type": "GitHub",
       "repo": "Book-0225/aviutl2_External_Audio_Processing",
@@ -1901,7 +1901,7 @@
   },
   {
     "id": "VRAMWIZ.Syncroh2",
-    "latest-version": "v3.3.13",
+    "latest-version": "v3.3.15",
     "checkType": {
       "type": "GitHub",
       "repo": "vramwiz/Syncroh2-site",
@@ -2552,7 +2552,7 @@
   },
   {
     "id": "sigma-axis.translations_sigma-axis",
-    "latest-version": "r42",
+    "latest-version": "r43",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_translations_sigma-axis",
@@ -3033,7 +3033,7 @@
   },
   {
     "id": "VRAMWIZ.AudioFilter",
-    "latest-version": "v1.1.0",
+    "latest-version": "v1.1.1",
     "checkType": {
       "type": "GitHub",
       "repo": "vramwiz/Aul2AudioFilter",
