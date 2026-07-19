@@ -6062,6 +6062,11 @@
           "action": "copy",
           "from": "{tmp}/Script/Path_S/README.md",
           "to": "{scriptsDir}/Path_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.Path_S.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -6084,6 +6089,10 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/Path_S/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.Path_S.aul2"
         }
       ]
     },
