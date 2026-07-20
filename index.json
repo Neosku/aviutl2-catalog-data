@@ -34126,7 +34126,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/%E5%87%BA%E5%8A%9B%E6%99%82%E3%81%AB%E9%9D%9E%E8%A1%A8%E7%A4%BA/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E5%87%BA%E5%8A%9B%E6%99%82%E3%81%AB%E9%9D%9E%E8%A1%A8%E7%A4%BA/README.md",
-    "latest-version": "1.0",
+    "latest-version": "1.1",
     "popularity": 79,
     "trend": 71,
     "licenses": [
@@ -34148,22 +34148,34 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/%E5%87%BA%E5%8A%9B%E6%99%82%E3%81%AB%E9%9D%9E%E8%A1%A8%E7%A4%BA.anm2?type=script"
+        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/%E5%87%BA%E5%8A%9B%E6%99%82%E3%81%AB%E9%9D%9E%E8%A1%A8%E7%A4%BA.anm2?type=au2pkg"
       },
       "install": [
         {
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/出力時に非表示.anm2",
+          "from": "{tmp}/Script/出力時に非表示.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.hide_on_export-anm2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/出力時に非表示.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.hide_on_export-anm2.aul2"
         }
       ]
     },
@@ -34175,6 +34187,16 @@
           {
             "path": "{scriptsDir}/出力時に非表示.anm2",
             "XXH3_128": "a8b1fdf14e4b3b52b496b448b51bdd5e"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "release_date": "2026-07-06",
+        "file": [
+          {
+            "path": "{scriptsDir}/出力時に非表示.anm2",
+            "XXH3_128": "17ad66b074ed9686d7297b0ab0746cb7"
           }
         ]
       }
