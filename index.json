@@ -25219,7 +25219,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0/README.md",
-    "latest-version": "v1.0",
+    "latest-version": "v1.1",
     "popularity": 1166,
     "trend": 121,
     "licenses": [
@@ -25241,22 +25241,34 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0.obj2"
+        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0.obj2?type=au2pkg"
       },
       "install": [
         {
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/カメラフレーム.obj2",
+          "from": "{tmp}/Script/カメラフレーム.obj2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.camera_frame-obj2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/カメラフレーム.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.camera_frame-obj2.aul2"
         }
       ]
     },
@@ -25268,6 +25280,16 @@
           {
             "path": "{scriptsDir}/カメラフレーム.obj2",
             "XXH3_128": "383a4d95d7aeee1e50e713e00f4ec11d"
+          }
+        ]
+      },
+      {
+        "version": "v1.1",
+        "release_date": "2026-07-06",
+        "file": [
+          {
+            "path": "{scriptsDir}/カメラフレーム.obj2",
+            "XXH3_128": "a1d34871594520e0dd3c3ef3d37ea254"
           }
         ]
       }
