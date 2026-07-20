@@ -31390,7 +31390,7 @@
     "author": "Nanashi.",
     "originalAuthor": "hazuqu",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/CRT%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E9%A2%A8/README.md",
-    "latest-version": "1.0",
+    "latest-version": "1.1",
     "popularity": 294,
     "trend": 61,
     "licenses": [
@@ -31413,22 +31413,34 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/CRT%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E9%A2%A8.anm2?type=script"
+        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/CRT%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E9%A2%A8.anm2?type=au2pkg"
       },
       "install": [
         {
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/CRTディスプレイ風.anm2",
+          "from": "{tmp}/Script/CRTディスプレイ風.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.crt_display-anm2.aul2",
+          "to": "{dataDir}/Language/English.crt_display-anm2.aul2"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/CRTディスプレイ風.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.crt_display-anm2.aul2"
         }
       ]
     },
@@ -31440,6 +31452,16 @@
           {
             "path": "{scriptsDir}/CRTディスプレイ風.anm2",
             "XXH3_128": "863ba4e3000ba070487c8d84b22fe5ae"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "release_date": "2026-07-06",
+        "file": [
+          {
+            "path": "{scriptsDir}/CRTディスプレイ風.anm2",
+            "XXH3_128": "c40b9305b0e6e4d35af95c558049c793"
           }
         ]
       }
