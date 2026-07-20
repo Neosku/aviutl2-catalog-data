@@ -31839,7 +31839,7 @@
     "author": "Nanashi.",
     "originalAuthor": "るっちょ",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/GPU%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88/README.md",
-    "latest-version": "1.1",
+    "latest-version": "1.2",
     "popularity": 354,
     "trend": 75,
     "licenses": [
@@ -31866,22 +31866,34 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/GPU%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88.anm2?type=script"
+        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/GPU%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88.anm2?type=au2pkg"
       },
       "install": [
         {
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/GPUピクセルソート.anm2",
+          "from": "{tmp}/Script/GPUピクセルソート.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.gpu_pixelsort-anm2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/GPUピクセルソート.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.gpu_pixelsort-anm2.aul2"
         }
       ]
     },
@@ -31903,6 +31915,16 @@
           {
             "path": "{scriptsDir}/GPUピクセルソート.anm2",
             "XXH3_128": "19c36de2eb3cbd197be44ad73ecdc798"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "release_date": "2026-07-06",
+        "file": [
+          {
+            "path": "{scriptsDir}/GPUピクセルソート.anm2",
+            "XXH3_128": "d74b6193ae7300bcd43a5f09445c9fae"
           }
         ]
       }
