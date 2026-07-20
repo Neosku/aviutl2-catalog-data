@@ -18662,7 +18662,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2#%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2anm2",
-    "latest-version": "v3.3",
+    "latest-version": "v3.4",
     "popularity": 1137,
     "trend": 220,
     "licenses": [
@@ -18685,22 +18685,34 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2.anm2"
+        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2.anm2?type=au2pkg"
       },
       "install": [
         {
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/ドット絵変形.anm2",
+          "from": "{tmp}/Script/ドット絵変形.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.pixel_transform-anm2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/ドット絵変形.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.pixel_transform-anm2.aul2"
         }
       ]
     },
@@ -18722,6 +18734,16 @@
           {
             "path": "{scriptsDir}/ドット絵変形.anm2",
             "XXH3_128": "8ec73f6e5d85a3b5f635438889301af0"
+          }
+        ]
+      },
+      {
+        "version": "v3.4",
+        "release_date": "2026-07-06",
+        "file": [
+          {
+            "path": "{scriptsDir}/ドット絵変形.anm2",
+            "XXH3_128": "339ce718f5e4b9adab0a34164401f672"
           }
         ]
       }
@@ -31817,7 +31839,7 @@
     "author": "Nanashi.",
     "originalAuthor": "るっちょ",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/GPU%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88/README.md",
-    "latest-version": "1.1",
+    "latest-version": "1.2",
     "popularity": 354,
     "trend": 75,
     "licenses": [
@@ -31844,22 +31866,34 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/GPU%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88.anm2?type=script"
+        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/GPU%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88.anm2?type=au2pkg"
       },
       "install": [
         {
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/GPUピクセルソート.anm2",
+          "from": "{tmp}/Script/GPUピクセルソート.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.gpu_pixelsort-anm2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/GPUピクセルソート.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.gpu_pixelsort-anm2.aul2"
         }
       ]
     },
@@ -31881,6 +31915,16 @@
           {
             "path": "{scriptsDir}/GPUピクセルソート.anm2",
             "XXH3_128": "19c36de2eb3cbd197be44ad73ecdc798"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "release_date": "2026-07-06",
+        "file": [
+          {
+            "path": "{scriptsDir}/GPUピクセルソート.anm2",
+            "XXH3_128": "d74b6193ae7300bcd43a5f09445c9fae"
           }
         ]
       }
