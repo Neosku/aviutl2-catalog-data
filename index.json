@@ -28520,7 +28520,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/%E7%B8%A6%E5%8B%95%E7%94%BB%E3%82%AC%E3%82%A4%E3%83%89/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E7%B8%A6%E5%8B%95%E7%94%BB%E3%82%AC%E3%82%A4%E3%83%89/README.md",
-    "latest-version": "1.3",
+    "latest-version": "1.4",
     "popularity": 459,
     "trend": 66,
     "licenses": [
@@ -28543,22 +28543,34 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/%E7%B8%A6%E5%8B%95%E7%94%BB%E3%82%AC%E3%82%A4%E3%83%89.obj2"
+        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/%E7%B8%A6%E5%8B%95%E7%94%BB%E3%82%AC%E3%82%A4%E3%83%89.obj2?type=au2pkg"
       },
       "install": [
         {
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/縦動画ガイド.obj2",
+          "from": "{tmp}/Script/縦動画ガイド.obj2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.shorts_guide-obj2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/縦動画ガイド.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.shorts_guide-obj2.aul2"
         }
       ]
     },
@@ -28590,6 +28602,16 @@
           {
             "path": "{scriptsDir}/縦動画ガイド.obj2",
             "XXH3_128": "dce62ff7baff2729c350b89749a87dc2"
+          }
+        ]
+      },
+      {
+        "version": "1.4",
+        "release_date": "2026-07-06",
+        "file": [
+          {
+            "path": "{scriptsDir}/縦動画ガイド.obj2",
+            "XXH3_128": "5cc1f929559615c857ea4eb429a62b90"
           }
         ]
       }
