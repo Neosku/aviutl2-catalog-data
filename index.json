@@ -36226,7 +36226,7 @@
     "description": "./md/kanade-ak.kazeyureT.md",
     "author": "kanade-ak",
     "repoURL": "https://github.com/kanade-ak/kazeyureT",
-    "latest-version": "v1.0",
+    "latest-version": "v2.0",
     "popularity": 32,
     "trend": 35,
     "licenses": [
@@ -36248,7 +36248,7 @@
     "installer": {
       "source": {
         "GoogleDrive": {
-          "id": "1VtXS3NDcQcTL-M-zDRufGE-vOJ9gcqly"
+          "id": "1jPT8_RPuiyBlmtA9azyTtlOdl3mm03KE"
         }
       },
       "install": [
@@ -36270,12 +36270,12 @@
     },
     "version": [
       {
-        "version": "v1.0",
-        "release_date": "2026-07-19",
+        "version": "v2.0",
+        "release_date": "2026-07-21",
         "file": [
           {
             "path": "{pluginsDir}/風揺れT(DLL).auf2",
-            "XXH3_128": "9ad151b29579bca6e9ab446c26b246ce"
+            "XXH3_128": "f2efcbceeb583ab6e751145a963633f5"
           }
         ]
       }
