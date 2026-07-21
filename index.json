@@ -36390,5 +36390,73 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Mugi995.Serifu-JunbiToSRT",
+    "name": "セリフ準備から.srtファイル生成プラグイン",
+    "type": "出力プラグイン",
+    "summary": "PSDToolKitのセリフ準備の位置を解析し、.srtファイルを出力",
+    "description": "https://raw.githubusercontent.com/mugi995/Serifu-JunbiToSRT-for-AviUtl2/refs/heads/master/README.md",
+    "author": "Mugi995",
+    "repoURL": "https://github.com/mugi995/Serifu-JunbiToSRT-for-AviUtl2",
+    "latest-version": "v1.2",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "mugi995"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "便利ツール",
+      "字幕"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "mugi995",
+          "repo": "Serifu-JunbiToSRT-for-AviUtl2",
+          "pattern": "^Serifu-JunbiToSRT.*\\.auo2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Serifu-JunbiToSRT_v1.2.auo2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Serifu-JunbiToSRT_v1.2.auo2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.2",
+        "release_date": "2026-07-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/Serifu-JunbiToSRT_v1.2.auo2",
+            "XXH3_128": "632f51692a876582c88b85dcf71571a1"
+          }
+        ]
+      }
+    ]
   }
 ]
