@@ -36432,6 +36432,11 @@
       "install": [
         {
           "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Serifu-JunbiToSRT_v1.2.auo2",
+          "to": "{pluginsDir}"
         }
       ],
       "uninstall": [
