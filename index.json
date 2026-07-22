@@ -36539,5 +36539,165 @@
         ]
       }
     ]
+  },
+  {
+    "id": "vandojapan.typing-effect",
+    "name": "TypingEffect",
+    "type": "スクリプト",
+    "summary": "まるで文字を入力しているようなエフェクト",
+    "description": "./md/vandojapan.typing-effect.md",
+    "author": "4vando",
+    "repoURL": "https://github.com/vandojapan/TypingEffect.obj2",
+    "latest-version": "v0.9.10",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT License\n\nCopyright (c) 2026 TypingEffect contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+      }
+    ],
+    "tags": [
+      "テキスト",
+      "カスタムオブジェクト",
+      "エフェクト"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vandojapan",
+          "repo": "TypingEffect.obj2",
+          "pattern": "^TypingEffect_.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/TypingEffect/CHANGELOG.txt",
+          "to": "{scriptsDir}/TypingEffect"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/TypingEffect/LICENSE.txt",
+          "to": "{scriptsDir}/TypingEffect"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/TypingEffect/licenses/aviutl2-rs_LICENSE.txt",
+          "to": "{scriptsDir}/TypingEffect/licenses"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/TypingEffect/licenses/CC-CEDICT_LICENSE.txt",
+          "to": "{scriptsDir}/TypingEffect/licenses"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/TypingEffect/licenses/IPADIC_COPYING.txt",
+          "to": "{scriptsDir}/TypingEffect/licenses"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/TypingEffect/licenses/Lindera_LICENSE.txt",
+          "to": "{scriptsDir}/TypingEffect/licenses"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/TypingEffect/licenses/pinyin_LICENSE.txt",
+          "to": "{scriptsDir}/TypingEffect/licenses"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/TypingEffect/README.txt",
+          "to": "{scriptsDir}/TypingEffect"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/TypingEffect/TypingEffect.mod2",
+          "to": "{scriptsDir}/TypingEffect"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/TypingEffect/TypingEffect.obj2",
+          "to": "{scriptsDir}/TypingEffect"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/TypingEffect/TypingEffect.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/TypingEffect/TypingEffect.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/TypingEffect/README.txt"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/TypingEffect/licenses/pinyin_LICENSE.txt"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/TypingEffect/licenses/Lindera_LICENSE.txt"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/TypingEffect/licenses/IPADIC_COPYING.txt"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/TypingEffect/licenses/CC-CEDICT_LICENSE.txt"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/TypingEffect/licenses/aviutl2-rs_LICENSE.txt"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/TypingEffect/LICENSE.txt"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/TypingEffect/CHANGELOG.txt"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.9.10",
+        "release_date": "2026-07-21",
+        "file": [
+          {
+            "path": "{scriptsDir}/TypingEffect/CHANGELOG.txt",
+            "XXH3_128": "0c060129a8cf4bb315dc5d22e3a4a6d4"
+          },
+          {
+            "path": "{scriptsDir}/TypingEffect/README.txt",
+            "XXH3_128": "05dbe977e2b6ef5918aff84e8e733ca2"
+          },
+          {
+            "path": "{scriptsDir}/TypingEffect/TypingEffect.mod2",
+            "XXH3_128": "e350d477cbab11cd3daeb7b326b623bf"
+          },
+          {
+            "path": "{scriptsDir}/TypingEffect/TypingEffect.obj2",
+            "XXH3_128": "9a3dd17a812446778dc57faf3b17e613"
+          }
+        ]
+      }
+    ]
   }
 ]
