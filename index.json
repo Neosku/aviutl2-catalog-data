@@ -30346,7 +30346,7 @@
     "author": "Nanashi.",
     "originalAuthor": "ティム",
     "repoURL": "https://github.com/sevenc-nanashi/ported_tim",
-    "latest-version": "0.1.4",
+    "latest-version": "0.1.5",
     "popularity": 2036,
     "trend": 788,
     "licenses": [
@@ -30573,6 +30573,40 @@
           {
             "path": "{scriptsDir}/tim2.mod2",
             "XXH3_128": "1eac7055d84b6f4c1bcda8c6416cc09c"
+          }
+        ]
+      },
+      {
+        "version": "0.1.5",
+        "release_date": "2026-07-23",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.ported_tim.aul2",
+            "XXH3_128": "0d30776e9e1fb98cce109f64a71cddf3"
+          },
+          {
+            "path": "{scriptsDir}/@tim.anm2.anm2",
+            "XXH3_128": "cb025fb2956ca6677e7f71b7b3eb6dbe"
+          },
+          {
+            "path": "{scriptsDir}/@tim.cam2.cam2",
+            "XXH3_128": "9ef1f4db83008dac0641a5aa105a6301"
+          },
+          {
+            "path": "{scriptsDir}/@tim.obj2.obj2",
+            "XXH3_128": "4681b689861e44b3913919f7dacf6e1f"
+          },
+          {
+            "path": "{scriptsDir}/@tim.scn2.scn2",
+            "XXH3_128": "24b5ae24510b171e5d91b8c7e9ee1ce5"
+          },
+          {
+            "path": "{scriptsDir}/@tim.tra2.tra2",
+            "XXH3_128": "ef0c13a65d49dbc79c8f823a621e15dc"
+          },
+          {
+            "path": "{scriptsDir}/tim2.mod2",
+            "XXH3_128": "0d16d625704cb6f51798bd4687cf6e98"
           }
         ]
       }
