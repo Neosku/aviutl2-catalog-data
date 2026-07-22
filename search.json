@@ -3268,5 +3268,92 @@
         }
       ]
     }
+  },
+  {
+    "id": "mogesystem.VectorCanvas",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Mg32/aviutl2-vectorcanvas",
+      "regex": "^.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/VectorCanvas/@VectorCanvas.anm2",
+            "Script/VectorCanvas/vectorcanvas.mod2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/VectorCanvas/@VectorCanvas.anm2",
+            "{scriptsDir}/VectorCanvas/vectorcanvas.mod2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Mugi995.Serifu-JunbiToSRT",
+    "latest-version": "v1.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "mugi995/Serifu-JunbiToSRT-for-AviUtl2",
+      "regex": "^Serifu-JunbiToSRT.*\\.auo2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "Serifu-JunbiToSRT_v1.2.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Serifu-JunbiToSRT_v1.2.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "nullru.MotionTracking_MK-II_Plus_for_AviUtl2",
+    "latest-version": "r114_1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nullruptr/MotionTracking_MK-II_Plus_for_AviUtl2",
+      "regex": "^MotionTrackingMKIIPlusforAviUtl2.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "MotionTrackingMKIIPlusforAviUtl2.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/MotionTrackingMKIIPlusforAviUtl2.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "vandojapan.typing-effect",
+    "latest-version": "v0.9.10",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vandojapan/TypingEffect.obj2",
+      "regex": "^TypingEffect_.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/TypingEffect/CHANGELOG.txt",
+            "Script/TypingEffect/README.txt",
+            "Script/TypingEffect/TypingEffect.mod2",
+            "Script/TypingEffect/TypingEffect.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/TypingEffect/CHANGELOG.txt",
+            "{scriptsDir}/TypingEffect/README.txt",
+            "{scriptsDir}/TypingEffect/TypingEffect.mod2",
+            "{scriptsDir}/TypingEffect/TypingEffect.obj2"
+          ]
+        }
+      ]
+    }
   }
 ]
