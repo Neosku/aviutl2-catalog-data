@@ -36565,7 +36565,11 @@
       "エフェクト"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/vandojapan.typing-effect_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
