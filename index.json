@@ -23405,7 +23405,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v3.3.17",
+    "latest-version": "v3.3.18",
     "popularity": 716,
     "trend": 268,
     "licenses": [
@@ -24042,6 +24042,16 @@
           {
             "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
             "XXH3_128": "ec3c8c043929f79be43f10deed06bf5d"
+          }
+        ]
+      },
+      {
+        "version": "v3.3.18",
+        "release_date": "2026-07-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "7a9a468c255eae06817ebdbb40202f71"
           }
         ]
       }
@@ -36538,7 +36548,7 @@
     "description": "./md/vandojapan.typing-effect.md",
     "author": "4vando",
     "repoURL": "https://github.com/vandojapan/TypingEffect.obj2",
-    "latest-version": "0.9.10",
+    "latest-version": "v0.9.10",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -36667,7 +36677,7 @@
     },
     "version": [
       {
-        "version": "0.9.10",
+        "version": "v0.9.10",
         "release_date": "2026-07-21",
         "file": [
           {
