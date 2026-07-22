@@ -36675,10 +36675,6 @@
             "XXH3_128": "0c060129a8cf4bb315dc5d22e3a4a6d4"
           },
           {
-            "path": "{scriptsDir}/TypingEffect/LICENSE.txt",
-            "XXH3_128": "153ea193507052a2154ff4261b1578ed"
-          },
-          {
             "path": "{scriptsDir}/TypingEffect/README.txt",
             "XXH3_128": "05dbe977e2b6ef5918aff84e8e733ca2"
           },
@@ -36689,26 +36685,6 @@
           {
             "path": "{scriptsDir}/TypingEffect/TypingEffect.obj2",
             "XXH3_128": "9a3dd17a812446778dc57faf3b17e613"
-          },
-          {
-            "path": "{scriptsDir}/TypingEffect/licenses/CC-CEDICT_LICENSE.txt",
-            "XXH3_128": "e94abc260c36d921c0c25b6884cc75d7"
-          },
-          {
-            "path": "{scriptsDir}/TypingEffect/licenses/IPADIC_COPYING.txt",
-            "XXH3_128": "35de2ec192908b6e41c724ad486d054e"
-          },
-          {
-            "path": "{scriptsDir}/TypingEffect/licenses/Lindera_LICENSE.txt",
-            "XXH3_128": "9b5b90f6443de25e29d5efbba379b912"
-          },
-          {
-            "path": "{scriptsDir}/TypingEffect/licenses/aviutl2-rs_LICENSE.txt",
-            "XXH3_128": "a6be9e2f672571ec3ddb079633b77607"
-          },
-          {
-            "path": "{scriptsDir}/TypingEffect/licenses/pinyin_LICENSE.txt",
-            "XXH3_128": "a60c26bdaf9f8cfcc7fe12136194d7cb"
           }
         ]
       }
