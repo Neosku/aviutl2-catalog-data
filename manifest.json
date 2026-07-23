@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 2,
+  "artifactCommit": "6178f3c278a4b8bb33d48b71c57a0aa4c6748ba4",
+  "artifactBaseUrl": "https://raw.githubusercontent.com/Neosku/aviutl2-catalog-data/6178f3c278a4b8bb33d48b71c57a0aa4c6748ba4/",
+  "updatedAt": "2026-07-24T01:35:20.116+09:00",
+  "locales": [
+    "ja",
+    "en",
+    "ko",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "paths": {
+    "list": {
+      "ja": {
+        "updatedAt": "2026-07-17T00:32:36.782+09:00",
+        "json": {
+          "path": "./catalog-list/ja.json",
+          "sha256": "f7cae8efec05b4edf8bcabf3ea2b961cabf13583685f07403c3a5767ceead2e3"
+        },
+        "zstd": {
+          "path": "./catalog-list/ja.json.zst",
+          "sha256": "44109a0856981b4e688f696779b34177c7c46f0a42d1b3946402622972edac80"
+        }
+      },
+      "en": {
+        "updatedAt": "2026-07-17T00:32:36.782+09:00",
+        "json": {
+          "path": "./catalog-list/en.json",
+          "sha256": "f743b8bf213e9754f1d924886e07e1bbeeff7f33cce8e15f7a3a27f553854e44"
+        },
+        "zstd": {
+          "path": "./catalog-list/en.json.zst",
+          "sha256": "ee6f584ad79d2f3b320183eb605d44af10147ce346d10898768c68e2559ad0d0"
+        }
+      },
+      "ko": {
+        "updatedAt": "2026-07-17T00:32:36.782+09:00",
+        "json": {
+          "path": "./catalog-list/ko.json",
+          "sha256": "6e6add6e4b8e5f43edd9336acfcb313725eae983ac3528e1acaed67b97d3f3c7"
+        },
+        "zstd": {
+          "path": "./catalog-list/ko.json.zst",
+          "sha256": "2e3394075e4d1fd2fca7247ee8d5212a40f4f869e8d19879a252479a1a38f1da"
+        }
+      },
+      "zh-CN": {
+        "updatedAt": "2026-07-17T00:32:36.782+09:00",
+        "json": {
+          "path": "./catalog-list/zh-CN.json",
+          "sha256": "cb5e5a179b03479295bb5d34bcff5dc05b0b2b312b563c72eac029574cda68a2"
+        },
+        "zstd": {
+          "path": "./catalog-list/zh-CN.json.zst",
+          "sha256": "9e8b219d8b2e048199b12d98993babe34681dfe7723a6ba4f8480d33c19eac28"
+        }
+      },
+      "zh-TW": {
+        "updatedAt": "2026-07-17T00:32:36.782+09:00",
+        "json": {
+          "path": "./catalog-list/zh-TW.json",
+          "sha256": "f6205e735f99fbed84a9f8eecfface597238b85fbc6a20348fea1187073541b0"
+        },
+        "zstd": {
+          "path": "./catalog-list/zh-TW.json.zst",
+          "sha256": "6162c24d6afb73a9b08d28d5e90b7aaf239a02b59e461ee6faf6c9df99d41ffb"
+        }
+      }
+    },
+    "detail": {
+      "ja": {
+        "updatedAt": "2026-07-24T01:34:37.474+09:00",
+        "json": {
+          "path": "./catalog-detail/ja.json",
+          "sha256": "6958898a84ee66a58eb2c119827886f23481b856fbaa85367ac448cd7c43c8bc"
+        },
+        "zstd": {
+          "path": "./catalog-detail/ja.json.zst",
+          "sha256": "e51b0234b4ec85bb35d2d35512557f19d3809ec036d301888b3b6a1a2831b6fb"
+        }
+      },
+      "en": {
+        "updatedAt": "2026-07-24T01:34:37.474+09:00",
+        "json": {
+          "path": "./catalog-detail/en.json",
+          "sha256": "3d1f6cd67f5ac9c7261b586681de9f12c4579d9ca49b24043add07c0011a5a18"
+        },
+        "zstd": {
+          "path": "./catalog-detail/en.json.zst",
+          "sha256": "4ed23bcdd01b581945d2dd8025744025fdeb1d2efb7076617318c004f800cc74"
+        }
+      },
+      "ko": {
+        "updatedAt": "2026-07-24T01:34:37.474+09:00",
+        "json": {
+          "path": "./catalog-detail/ko.json",
+          "sha256": "e5a589cddc9f3a2cd6f1bc5c64d86ec3323f916e6abc19c4e361b0357882ed7d"
+        },
+        "zstd": {
+          "path": "./catalog-detail/ko.json.zst",
+          "sha256": "8ed086a4234110d8e6eda3caa2e78d9f69bb9c351029a35616791a64a9edac0d"
+        }
+      },
+      "zh-CN": {
+        "updatedAt": "2026-07-24T01:34:37.474+09:00",
+        "json": {
+          "path": "./catalog-detail/zh-CN.json",
+          "sha256": "753f7938c3034265abff740f3b6ce14cf777037a6b7d7fbdd37c351df5d0f65b"
+        },
+        "zstd": {
+          "path": "./catalog-detail/zh-CN.json.zst",
+          "sha256": "a0d9be9ed18604c6ccdd2b62dc6744fe974757bea78620418aebe31cf9d02bb9"
+        }
+      },
+      "zh-TW": {
+        "updatedAt": "2026-07-24T01:34:37.474+09:00",
+        "json": {
+          "path": "./catalog-detail/zh-TW.json",
+          "sha256": "d448be826b16030a348f7309113ccdf80e2b9b9245087745d4fbde06c055e1e1"
+        },
+        "zstd": {
+          "path": "./catalog-detail/zh-TW.json.zst",
+          "sha256": "6fb3296e7abe30b5df1dd837702ec34dd667b63e81f602373347561722a2c658"
+        }
+      }
+    },
+    "versions": {
+      "updatedAt": "2026-07-17T00:32:36.782+09:00",
+      "json": {
+        "path": "./catalog-versions.json",
+        "sha256": "2c36f94c3e680e4b89548a02b936b9761f16f3ae92a863346d2c6fd00b485d44"
+      },
+      "zstd": {
+        "path": "./catalog-versions.json.zst",
+        "sha256": "a57c6ab1636ad9ec41aceb507cef0d18cbd785f5f58bab7c9ac66d8acfc62431"
+      }
+    },
+    "popularity": {
+      "updatedAt": "2026-07-17T00:32:36.782+09:00",
+      "json": {
+        "path": "./catalog-popularity.json",
+        "sha256": "f5291d87b9d3a9b85fbb2314968a481ff9fcfd21ea8dd4997c8ea218dcfef0e8"
+      },
+      "zstd": {
+        "path": "./catalog-popularity.json.zst",
+        "sha256": "89f2ce769c4d5d2b58bdc7047e158143ed49d32563a277b1727b4840d3895f7c"
+      }
+    },
+    "install": {
+      "updatedAt": "2026-07-24T01:34:37.474+09:00",
+      "json": {
+        "path": "./catalog-install.json",
+        "sha256": "0236528b426cd2e64b2cdd28024ae269f4ef0e0ea412b7253ac09b603211b91f"
+      },
+      "zstd": {
+        "path": "./catalog-install.json.zst",
+        "sha256": "d92a342c83185308beb9a14d8bae9ee50af575aa661f9ae6f4a17769497a6fde"
+      }
+    },
+    "updateCheck": {
+      "updatedAt": "2026-07-24T01:34:37.474+09:00",
+      "json": {
+        "path": "./catalog-update-check.json",
+        "sha256": "ace5150d90db6e8f4c55805e707002e5e432fbf32d944103e01bac7fe97dd62d"
+      },
+      "zstd": {
+        "path": "./catalog-update-check.json.zst",
+        "sha256": "d3ff5d39ad68e740ee22417a21fd50f0113fc623338b20c23fd2950b3508f875"
+      }
+    }
+  }
+}
