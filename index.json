@@ -36600,7 +36600,11 @@
       "エフェクト"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/vandojapan.typing-effect_thumbnail.webp"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
