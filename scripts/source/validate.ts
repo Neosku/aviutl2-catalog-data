@@ -165,7 +165,9 @@ function validatePackageIdentity(
 
   for (const pkg of packages) {
     addToGroup(ids, pkg.meta.id, pkg);
-    addToGroup(legacyIds, pkg.meta.legacyId, pkg);
+    if (pkg.meta.legacyId !== "") {
+      addToGroup(legacyIds, pkg.meta.legacyId, pkg);
+    }
 
     const [namespace, slug] = pkg.meta.id.split(".");
     const expectedRoot = resolve(packagesRoot, namespace, slug);

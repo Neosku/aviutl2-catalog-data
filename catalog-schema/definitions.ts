@@ -104,7 +104,7 @@ export const catalogLicenseSchema = z
   });
 
 export const directUrlInstallerSourceSchema = z
-  .object({ type: z.literal("directUrl"), url: httpsUrlSchema })
+  .object({ type: z.literal("directUrl"), url: httpUrlSchema })
   .strict();
 export const boothInstallerSourceSchema = z
   .object({ type: z.literal("booth"), url: httpsUrlSchema })
@@ -202,12 +202,12 @@ export const catalogVersionSchema = z
 export const sourceMetaSchema = z
   .object({
     id: catalogPackageIdSchema,
-    legacyId: nonEmptyStringSchema,
+    legacyId: z.string(),
     packageType: catalogPackageTypeSchema,
     packageRole: catalogPackageRoleSchema,
     addedAt: isoDateSchema,
     packagePageUrl: httpUrlSchema,
-    fundingUrl: httpsUrlSchema.optional(),
+    fundingUrl: httpUrlSchema.optional(),
     isOpenSource: z.boolean().optional(),
     niconiCommonsId: nonEmptyStringSchema.optional(),
   })
@@ -294,7 +294,7 @@ export const manifestArtifactSchema = z.object({
 
 export const catalogListPackageSchema = z.object({
   id: catalogPackageIdSchema,
-  legacyId: nonEmptyStringSchema,
+  legacyId: z.string(),
   packageType: catalogPackageTypeSchema,
   packageRole: catalogPackageRoleSchema,
   addedAt: isoDateSchema,
