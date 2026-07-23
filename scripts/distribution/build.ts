@@ -5,6 +5,7 @@ import process from "node:process";
 import { isDeepStrictEqual } from "node:util";
 import { constants as zstdConstants, zstdCompressSync } from "node:zlib";
 import { sha256Hex } from "../shared/hash-utils.ts";
+import { toJstIsoString } from "../shared/date-time.ts";
 import {
   copyFileIntoRepoOutput,
   ensureDirectory,
@@ -70,7 +71,7 @@ function main(): void {
   const packagesRoot = resolve(repoRoot, "packages");
   const destinationRoot = resolve(repoRoot, "publish-preview");
   const previewRoot = resolve(repoRoot, ".tmp", `publish-preview-${process.pid}`);
-  const now = new Date().toISOString();
+  const now = toJstIsoString(new Date());
   const previousManifest = loadPreviousManifest(resolve(destinationRoot, "manifest.json"));
 
   const sourcePackages = loadSourcePackages(packagesRoot);
@@ -313,7 +314,7 @@ function buildPreview(
     previousManifest !== null &&
     previousContent !== null &&
     isDeepStrictEqual(previousContent, manifestContent)
-      ? previousManifest.updatedAt
+      ? toJstIsoString(previousManifest.updatedAt)
       : now;
   writeJsonFile(resolve(previewRoot, "manifest.json"), { ...manifestContent, updatedAt });
 }
@@ -489,7 +490,8 @@ function artifactToManifest(
   zstd: { path: string; sha256: string };
 } {
   return {
-    updatedAt: previous?.json.sha256 === artifact.jsonSha256 ? previous.updatedAt : now,
+    updatedAt:
+      previous?.json.sha256 === artifact.jsonSha256 ? toJstIsoString(previous.updatedAt) : now,
     json: {
       path: artifact.jsonPath,
       sha256: artifact.jsonSha256,

@@ -7,6 +7,7 @@ import { zstdDecompressSync } from "node:zlib";
 import type { ZodType } from "zod";
 import { readJsonFile } from "../shared/fs-utils.ts";
 import { sha256Hex } from "../shared/hash-utils.ts";
+import { isJstIsoString } from "../shared/date-time.ts";
 import { SUPPORTED_LOCALES } from "../../catalog-schema/definitions.ts";
 import { AuditReport } from "../shared/validation-report.ts";
 import {
@@ -57,6 +58,7 @@ function main(): void {
   }
 
   validateManifestConfiguration(manifest, report);
+  validateManifestDateTimes(manifestPath, manifest, report);
   validateManifestPublication(manifestPath, manifest, options.expectedArtifactCommit, report);
 
   const sourcePackages = loadSourcePackages(resolve(repoRoot, "packages"));
@@ -202,6 +204,42 @@ function validateManifestConfiguration(manifest: CatalogManifest, report: AuditR
       "manifest.locales",
       `Expected locales ${SUPPORTED_LOCALES.join(", ")}.`,
     );
+  }
+}
+
+function validateManifestDateTimes(
+  manifestPath: string,
+  manifest: CatalogManifest,
+  report: AuditReport,
+): void {
+  const dateTimes: Array<[string, string]> = [["updatedAt", manifest.updatedAt]];
+  for (const locale of manifest.locales) {
+    const list = manifest.paths.list[locale];
+    const detail = manifest.paths.detail[locale];
+    if (list !== undefined) {
+      dateTimes.push([`paths.list.${locale}.updatedAt`, list.updatedAt]);
+    }
+    if (detail !== undefined) {
+      dateTimes.push([`paths.detail.${locale}.updatedAt`, detail.updatedAt]);
+    }
+  }
+  dateTimes.push(
+    ["paths.versions.updatedAt", manifest.paths.versions.updatedAt],
+    ["paths.popularity.updatedAt", manifest.paths.popularity.updatedAt],
+    ["paths.install.updatedAt", manifest.paths.install.updatedAt],
+    ["paths.updateCheck.updatedAt", manifest.paths.updateCheck.updatedAt],
+  );
+
+  for (const [jsonPath, value] of dateTimes) {
+    if (!isJstIsoString(value)) {
+      addError(
+        report,
+        manifestPath,
+        jsonPath,
+        "manifest.updated-at.jst",
+        `Expected an ISO 8601 date-time with the +09:00 offset, got ${value}.`,
+      );
+    }
   }
 }
 
