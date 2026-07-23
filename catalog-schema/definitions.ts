@@ -176,6 +176,14 @@ export const installationSchema = z
     uninstallSteps: z.array(uninstallStepSchema),
   })
   .strict();
+export const catalogInstallationSourceSchema = z.discriminatedUnion("type", [
+  directUrlInstallerSourceSchema,
+  boothInstallerSourceSchema,
+  googleDriveInstallerSourceSchema,
+]);
+export const catalogInstallationSchema = installationSchema.safeExtend({
+  source: catalogInstallationSourceSchema,
+});
 
 export const relationSetSchema = z
   .object({
@@ -344,7 +352,9 @@ export const catalogPopularitySchema = z.object({
   schemaVersion: z.literal(CATALOG_SCHEMA_VERSION),
   packages: z.record(catalogPackageIdSchema, catalogPopularityPackageSchema),
 });
-export const catalogInstallPackageSchema = sourceInstallSchema;
+export const catalogInstallPackageSchema = sourceInstallSchema.safeExtend({
+  installation: catalogInstallationSchema,
+});
 export const catalogInstallSchema = z.object({
   schemaVersion: z.literal(CATALOG_SCHEMA_VERSION),
   packages: z.record(catalogPackageIdSchema, catalogInstallPackageSchema),

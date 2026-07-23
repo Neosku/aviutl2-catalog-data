@@ -70,6 +70,26 @@ jobs:
       - name: Validate catalog source
         run: pnpm source:validate
 
+      - name: Restore GitHub Release response cache
+        uses: actions/cache/restore@v6
+        with:
+          path: .cache/github-release-responses.json
+          key: github-release-responses-v1-${{ github.run_id }}
+          restore-keys: |
+            github-release-responses-v1-
+
+      - name: Resolve GitHub Release assets
+        run: pnpm releases:resolve
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: Save GitHub Release response cache
+        if: github.event_name != 'pull_request'
+        uses: actions/cache/save@v6
+        with:
+          path: .cache/github-release-responses.json
+          key: github-release-responses-v1-${{ github.run_id }}
+
       - name: Restore previous manifest timestamps
         if: github.event_name != 'pull_request'
         shell: bash

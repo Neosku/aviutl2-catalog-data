@@ -27,6 +27,7 @@ import {
   catalogUpdateCheckSchema,
   catalogVersionsSchema,
   manifestSchema,
+  type CatalogInstallPackage,
   type CatalogManifest,
 } from "../../catalog-schema/definitions.ts";
 import { resolveUpdateCheck } from "../shared/update-check.ts";
@@ -420,16 +421,49 @@ function validateInstall(
   validateKeySet(path, payload.packages, sourceById, "install.ids", report);
   for (const [id, source] of sourceById) {
     const actual = payload.packages[id];
-    if (actual !== undefined && !sameJson(actual, source.install)) {
+    if (actual !== undefined && !installMatchesSource(actual, source)) {
       addError(
         report,
         path,
         `packages.${id}`,
         "install.source-values",
-        "Install data does not match source.",
+        "Install data does not match source or its resolved GitHub Release URL.",
         id,
       );
     }
+  }
+}
+
+function installMatchesSource(actual: CatalogInstallPackage, source: LoadedSourcePackage): boolean {
+  const sourceInstallation = source.install.installation;
+  if (sourceInstallation.source.type !== "githubRelease") {
+    return sameJson(actual, source.install);
+  }
+
+  const { source: actualInstallerSource, ...actualInstallationRest } = actual.installation;
+  const { source: sourceInstallerSource, ...sourceInstallationRest } = sourceInstallation;
+  return (
+    sameJson(actual.relations, source.install.relations) &&
+    sameJson(actualInstallationRest, sourceInstallationRest) &&
+    actualInstallerSource.type === "directUrl" &&
+    isGithubReleaseDownloadUrl(
+      actualInstallerSource.url,
+      sourceInstallerSource.owner,
+      sourceInstallerSource.repo,
+    )
+  );
+}
+
+function isGithubReleaseDownloadUrl(url: string, owner: string, repo: string): boolean {
+  try {
+    const parsed = new URL(url);
+    return (
+      parsed.protocol === "https:" &&
+      parsed.hostname.toLowerCase() === "github.com" &&
+      parsed.pathname.toLowerCase().startsWith(`/${owner}/${repo}/releases/download/`.toLowerCase())
+    );
+  } catch {
+    return false;
   }
 }
 

@@ -14,13 +14,14 @@
     "migration:audit": "node scripts/migration/audit.ts",
     "migration:run": "node scripts/migration/migrate.ts",
     "source:validate": "node scripts/source/validate.ts",
+    "releases:resolve": "node scripts/github-releases/resolve.ts",
     "build:package-list": "node scripts/distribution/generate-package-md.ts",
     "build": "node scripts/distribution/build.ts && pnpm build:package-list",
     "build:validate": "node scripts/distribution/validate.ts",
     "legacy:build": "node scripts/legacy-export/build-index.ts",
     "typecheck": "tsc --project tsconfig.json",
     "migration": "pnpm typecheck && pnpm migration:audit && pnpm migration:run && pnpm source:validate",
-    "refresh": "pnpm typecheck && pnpm source:validate && pnpm build && pnpm build:validate"
+    "refresh": "pnpm typecheck && pnpm source:validate && pnpm releases:resolve && pnpm build && pnpm build:validate"
   },
   "devDependencies": {
     "@types/node": "^24.13.3",

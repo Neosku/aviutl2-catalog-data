@@ -34,6 +34,11 @@ import {
 } from "../source/loader.ts";
 import { loadSourcePopularity } from "../source/popularity.ts";
 import { resolveUpdateCheck } from "../shared/update-check.ts";
+import {
+  buildPublishedInstall,
+  loadResolvedGithubAssets,
+  type ResolvedGithubAssets,
+} from "../github-releases/resolved-assets.ts";
 
 type FileArtifact = {
   jsonPath: string;
@@ -75,6 +80,7 @@ function main(): void {
   const previousManifest = loadPreviousManifest(resolve(destinationRoot, "manifest.json"));
 
   const sourcePackages = loadSourcePackages(packagesRoot);
+  const resolvedGithubAssets = loadResolvedGithubAssets();
   const sourcePopularity = loadSourcePopularity(repoRoot);
   const locales = [...SUPPORTED_LOCALES];
   const orderedPackages = [...sourcePackages].sort(compareSourcePackagesByAddedAt);
@@ -89,6 +95,7 @@ function main(): void {
       locales,
       now,
       previousManifest,
+      resolvedGithubAssets,
     );
     replaceDirectory(previewRoot, destinationRoot);
   } catch (error) {
@@ -178,6 +185,7 @@ function buildPreview(
   locales: CatalogLocale[],
   now: string,
   previousManifest: CatalogManifest | null,
+  resolvedGithubAssets: ResolvedGithubAssets,
 ): void {
   ensureDirectory(resolve(previewRoot, "catalog-list"));
   ensureDirectory(resolve(previewRoot, "catalog-detail"));
@@ -257,13 +265,7 @@ function buildPreview(
   manifestPaths.install = writeJsonAndZstd(previewRoot, "catalog-install.json", {
     schemaVersion: CATALOG_SCHEMA_VERSION,
     packages: Object.fromEntries(
-      orderedPackages.map((pkg) => [
-        pkg.meta.id,
-        {
-          ...(pkg.install.relations !== undefined ? { relations: pkg.install.relations } : {}),
-          installation: pkg.install.installation,
-        },
-      ]),
+      orderedPackages.map((pkg) => [pkg.meta.id, buildPublishedInstall(pkg, resolvedGithubAssets)]),
     ),
   });
 
