@@ -34,7 +34,8 @@ type Artifact = CatalogManifest["paths"]["versions"];
 
 function main(): void {
   const repoRoot = process.cwd();
-  const previewRoot = resolve(repoRoot, "publish-preview");
+  const options = parseOptions(process.argv.slice(2));
+  const previewRoot = resolve(repoRoot, options.previewRoot ?? "publish-preview");
   const report = new AuditReport();
   const manifestPath = resolve(previewRoot, "manifest.json");
   const packageListPath = resolve(previewRoot, "パッケージ.md");
@@ -56,6 +57,7 @@ function main(): void {
   }
 
   validateManifestConfiguration(manifest, report);
+  validateManifestPublication(manifestPath, manifest, options.expectedArtifactCommit, report);
 
   const sourcePackages = loadSourcePackages(resolve(repoRoot, "packages"));
   const sourceById = new Map(sourcePackages.map((pkg) => [pkg.meta.id, pkg]));
@@ -132,6 +134,63 @@ function main(): void {
   }
 
   finish(report, sourcePackages.length, manifest.locales);
+}
+
+type ValidationOptions = {
+  previewRoot?: string;
+  expectedArtifactCommit?: string;
+};
+
+function parseOptions(args: string[]): ValidationOptions {
+  const options: ValidationOptions = {};
+  for (let index = 0; index < args.length; index += 1) {
+    const argument = args[index];
+    if (argument === "--preview-root") {
+      options.previewRoot = args[index + 1];
+      index += 1;
+    } else if (argument === "--expected-artifact-commit") {
+      options.expectedArtifactCommit = args[index + 1];
+      index += 1;
+    } else {
+      throw new Error(`Unknown argument: ${argument}`);
+    }
+  }
+  if (options.previewRoot === undefined && args.includes("--preview-root")) {
+    throw new Error("--preview-root requires a value.");
+  }
+  if (options.expectedArtifactCommit === undefined && args.includes("--expected-artifact-commit")) {
+    throw new Error("--expected-artifact-commit requires a value.");
+  }
+  return options;
+}
+
+function validateManifestPublication(
+  manifestPath: string,
+  manifest: CatalogManifest,
+  expectedArtifactCommit: string | undefined,
+  report: AuditReport,
+): void {
+  if (expectedArtifactCommit === undefined) {
+    return;
+  }
+  if (manifest.artifactCommit !== expectedArtifactCommit) {
+    addError(
+      report,
+      manifestPath,
+      "artifactCommit",
+      "manifest.artifact-commit.expected",
+      `Expected artifact commit ${expectedArtifactCommit}, got ${manifest.artifactCommit ?? "<missing>"}.`,
+    );
+  }
+  if (manifest.artifactBaseUrl === undefined) {
+    addError(
+      report,
+      manifestPath,
+      "artifactBaseUrl",
+      "manifest.artifact-base-url.required",
+      "artifactBaseUrl is required when an expected artifact commit is provided.",
+    );
+  }
 }
 
 function validateManifestConfiguration(manifest: CatalogManifest, report: AuditReport): void {

@@ -105,6 +105,20 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          version: 11.10.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
       - name: Download distribution
         uses: actions/download-artifact@v8
         with:
@@ -117,6 +131,7 @@ jobs:
           SOURCE_SHA: ${{ github.sha }}
         run: |
           publish_worktree=".tmp/catalog-distribution-publish"
+          previous_manifest=".tmp/previous-distribution-manifest.json"
 
           if git fetch --no-tags origin catalog-distribution:refs/remotes/origin/catalog-distribution; then
             git worktree add --detach "$publish_worktree" origin/catalog-distribution
@@ -125,15 +140,65 @@ jobs:
             git -C "$publish_worktree" switch --orphan catalog-distribution
           fi
 
-          rsync -a --delete --exclude='.git' publish-preview/ "$publish_worktree"/
+          if test -f "$publish_worktree/manifest.json"; then
+            cp "$publish_worktree/manifest.json" "$previous_manifest"
+          else
+            rm -f "$previous_manifest"
+          fi
+
+          rsync -a --delete --exclude='.git' --exclude='manifest.json' publish-preview/ "$publish_worktree"/
           git -C "$publish_worktree" add --all
 
+          artifact_changed=true
           if git -C "$publish_worktree" diff --cached --quiet; then
+            artifact_changed=false
+          fi
+
+          manifest_current=false
+          if test -f "$previous_manifest" && pnpm exec node scripts/distribution/finalize-manifest.ts is-current \
+            --input publish-preview/manifest.json \
+            --previous "$previous_manifest"; then
+            manifest_current=true
+          fi
+
+          if test "$artifact_changed" = false && test "$manifest_current" = true; then
             echo "Distribution is already up to date."
             exit 0
           fi
 
           git -C "$publish_worktree" config user.name "github-actions[bot]"
           git -C "$publish_worktree" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git -C "$publish_worktree" commit -m "Publish catalog from ${SOURCE_SHA}"
+
+          rm -f "$publish_worktree/manifest.json"
+          git -C "$publish_worktree" add --all
+          git -C "$publish_worktree" commit --allow-empty -m "Publish catalog artifacts from ${SOURCE_SHA}"
+
+          artifact_commit="$(git -C "$publish_worktree" rev-parse HEAD)"
+          artifact_base_url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${artifact_commit}/"
+
+          finalize_args=(
+            finalize
+            --input publish-preview/manifest.json
+            --output "$publish_worktree/manifest.json"
+            --artifact-commit "$artifact_commit"
+            --artifact-base-url "$artifact_base_url"
+          )
+          if test -f "$previous_manifest"; then
+            finalize_args+=(--previous "$previous_manifest")
+          fi
+          pnpm exec node scripts/distribution/finalize-manifest.ts "${finalize_args[@]}"
+
+          git -C "$publish_worktree" add manifest.json
+          unexpected_files="$(git -C "$publish_worktree" diff --cached --name-only | grep -v '^manifest\.json$' || true)"
+          if test -n "$unexpected_files"; then
+            echo "Unexpected files staged for manifest commit:"
+            echo "$unexpected_files"
+            exit 1
+          fi
+
+          pnpm exec node scripts/distribution/validate.ts \
+            --preview-root "$publish_worktree" \
+            --expected-artifact-commit "$artifact_commit"
+
+          git -C "$publish_worktree" commit -m "Publish catalog manifest from ${SOURCE_SHA}"
           git -C "$publish_worktree" push origin HEAD:catalog-distribution

@@ -513,8 +513,15 @@ function loadPreviousManifest(path: string): CatalogManifest | null {
   }
 }
 
-function omitManifestUpdatedAt(manifest: CatalogManifest): Omit<CatalogManifest, "updatedAt"> {
-  const { updatedAt: _updatedAt, ...content } = manifest;
+function omitManifestUpdatedAt(
+  manifest: CatalogManifest,
+): Omit<CatalogManifest, "updatedAt" | "artifactCommit" | "artifactBaseUrl"> {
+  const {
+    updatedAt: _updatedAt,
+    artifactCommit: _artifactCommit,
+    artifactBaseUrl: _artifactBaseUrl,
+    ...content
+  } = manifest;
   return content;
 }
 

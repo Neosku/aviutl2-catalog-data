@@ -37,6 +37,7 @@ export const isoDateTimeSchema = z.string().datetime({ offset: true });
 export const localeSchema = z.enum(SUPPORTED_LOCALES);
 export const sha256Schema = z.string().regex(/^[a-f0-9]{64}$/);
 export const xxh128Schema = z.string().regex(/^[A-Fa-f0-9]{32}$/);
+export const gitCommitShaSchema = z.string().regex(/^[a-f0-9]{40}$/);
 export const catalogPackageIdSchema = z.string().regex(catalogPackageIdPattern);
 export const catalogPackageTypeSchema = z.enum(catalogPackageTypeValues);
 export const catalogPackageRoleSchema = z.enum(catalogPackageRoleValues);
@@ -334,6 +335,7 @@ export const catalogVersionsSchema = z.object({
   schemaVersion: z.literal(CATALOG_SCHEMA_VERSION),
   packages: z.record(catalogPackageIdSchema, catalogVersionsPackageSchema),
 });
+export const catalogLatestVersionsSchema = z.record(catalogPackageIdSchema, nonEmptyStringSchema);
 export const catalogPopularityPackageSchema = z.object({
   popularity: z.number(),
   trend: z.number(),
@@ -363,6 +365,10 @@ export const catalogUpdateCheckSchema = z.object({
 export const manifestSchema = z
   .object({
     schemaVersion: z.literal(CATALOG_SCHEMA_VERSION),
+    artifactCommit: gitCommitShaSchema.optional(),
+    artifactBaseUrl: httpUrlSchema
+      .refine((value) => value.endsWith("/"), "Expected a directory URL ending with '/'.")
+      .optional(),
     updatedAt: isoDateTimeSchema,
     locales: z.array(localeSchema).min(1),
     paths: z.object({
@@ -375,6 +381,28 @@ export const manifestSchema = z
     }),
   })
   .superRefine((manifest, context) => {
+    if ((manifest.artifactCommit === undefined) !== (manifest.artifactBaseUrl === undefined)) {
+      context.addIssue({
+        code: "custom",
+        path: [manifest.artifactCommit === undefined ? "artifactCommit" : "artifactBaseUrl"],
+        message:
+          "artifactCommit and artifactBaseUrl must either both be present or both be absent.",
+      });
+    }
+    if (
+      manifest.artifactCommit !== undefined &&
+      manifest.artifactBaseUrl !== undefined &&
+      !new URL(manifest.artifactBaseUrl).pathname
+        .split("/")
+        .filter(Boolean)
+        .includes(manifest.artifactCommit)
+    ) {
+      context.addIssue({
+        code: "custom",
+        path: ["artifactBaseUrl"],
+        message: "artifactBaseUrl must contain artifactCommit as a complete path segment.",
+      });
+    }
     for (const locale of manifest.locales) {
       if (manifest.paths.list[locale] === undefined) {
         context.addIssue({
