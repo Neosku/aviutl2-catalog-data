@@ -3,7 +3,7 @@
     "source": {
       "type": "githubRelease",
       "owner": "aviutl2",
-      "repo": "aviutl2-community-translation",
+      "repo": "aviutl2_community_translation",
       "pattern": "^aviutl2-community\\.aviutl2_community_translation_companion-v.*\\.au2pkg\\.zip$"
     },
     "installSteps": [
