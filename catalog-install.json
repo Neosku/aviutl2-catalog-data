@@ -4,10 +4,8 @@
     "hebiiro.al2-jd": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "hebiiro",
-          "repo": "al2_jd",
-          "pattern": "^al2_jd_r\\d+\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/hebiiro/al2_jd/releases/download/r31/al2_jd_r31.zip"
         },
         "installSteps": [
           {
@@ -75,10 +73,8 @@
     "mr-ojii.l-smash-works": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "Mr-Ojii",
-          "repo": "L-SMASH-Works-Auto-Builds",
-          "pattern": "^L-SMASH-Works_r\\d+_Mr-Ojii_Mr-Ojii\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2026-07-19-02-14-55/L-SMASH-Works_r1282_Mr-Ojii_Mr-Ojii.zip"
         },
         "installSteps": [
           {
@@ -104,10 +100,8 @@
     "rigaya.x264guiex": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "rigaya",
-          "repo": "x264guiEx",
-          "pattern": "^Aviutl2_x264guiEx.*install\\.exe$"
+          "type": "directUrl",
+          "url": "https://github.com/rigaya/x264guiEx/releases/download/4.10/Aviutl2_x264guiEx_4.10_install.exe"
         },
         "installSteps": [
           {
@@ -152,10 +146,8 @@
     "rigaya.x265guiex": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "rigaya",
-          "repo": "x265guiEx",
-          "pattern": "^Aviutl2_x265guiEx.*install\\.exe$"
+          "type": "directUrl",
+          "url": "https://github.com/rigaya/x265guiEx/releases/download/5.07/Aviutl2_x265guiEx_5.07_install.exe"
         },
         "installSteps": [
           {
@@ -200,10 +192,8 @@
     "hebiiro.al2-wav-saver": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "hebiiro",
-          "repo": "al2_wav_saver",
-          "pattern": "^al2_wav_saver_r.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/hebiiro/al2_wav_saver/releases/download/r3/al2_wav_saver_r3.zip"
         },
         "installSteps": [
           {
@@ -242,10 +232,8 @@
     "rigaya.ffmpegout": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "rigaya",
-          "repo": "ffmpegOut",
-          "pattern": "^Aviutl2_ffmpegOut.*install\\.exe$"
+          "type": "directUrl",
+          "url": "https://github.com/rigaya/ffmpegOut/releases/download/2.06/Aviutl2_ffmpegOut_2.06_install.exe"
         },
         "installSteps": [
           {
@@ -290,10 +278,8 @@
     "rigaya.nvenc": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "rigaya",
-          "repo": "NVEnc",
-          "pattern": "^Aviutl2_NVEnc_.*install\\.exe$"
+          "type": "directUrl",
+          "url": "https://github.com/rigaya/NVEnc/releases/download/9.25/Aviutl2_NVEnc_9.25_install.exe"
         },
         "installSteps": [
           {
@@ -338,10 +324,8 @@
     "rigaya.qsvenc": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "rigaya",
-          "repo": "QSVEnc",
-          "pattern": "^Aviutl2_QSVEnc.*install\\.exe$"
+          "type": "directUrl",
+          "url": "https://github.com/rigaya/QSVEnc/releases/download/8.22/Aviutl2_QSVEnc_8.22_install.exe"
         },
         "installSteps": [
           {
@@ -386,10 +370,8 @@
     "rigaya.svtav1guiex": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "rigaya",
-          "repo": "svtAV1guiEx",
-          "pattern": "^Aviutl2_svtAV1guiEx.*install\\.exe$"
+          "type": "directUrl",
+          "url": "https://github.com/rigaya/svtAV1guiEx/releases/download/2.10/Aviutl2_svtAV1guiEx_2.10_install.exe"
         },
         "installSteps": [
           {
@@ -434,10 +416,8 @@
     "rigaya.vceenc": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "rigaya",
-          "repo": "VCEEnc",
-          "pattern": "^Aviutl2_VCEEnc.*install\\.exe$"
+          "type": "directUrl",
+          "url": "https://github.com/rigaya/VCEEnc/releases/download/9.08/Aviutl2_VCEEnc_9.08_install.exe"
         },
         "installSteps": [
           {
@@ -506,10 +486,8 @@
     "korarei.stylize-k": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "korarei",
-          "repo": "AviUtl2_Stylize_K_Script",
-          "pattern": "^@Stylize_K.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/korarei/AviUtl2_Stylize_K_Script/releases/download/v1.2.1/%40Stylize_K.zip"
         },
         "installSteps": [
           {
@@ -688,10 +666,8 @@
     "sigma-axis.autoclipping-s": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_AutoClipping_S",
-          "pattern": "^aviutl2_script_AutoClipping_S-.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sigma-axis/aviutl2_script_AutoClipping_S/releases/download/v1.17-for-beta53a/aviutl2_script_AutoClipping_S-v1.17-for-beta53a.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -735,10 +711,8 @@
     "sigma-axis.radrotdirblur-s": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_RadRotDirBlur_S",
-          "pattern": "^aviutl2_script_RadRotDirBlur_S-.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sigma-axis/aviutl2_script_RadRotDirBlur_S/releases/download/v1.10-for-beta50/aviutl2_script_RadRotDirBlur_S-v1.10-for-beta50.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -830,10 +804,8 @@
     "reindex-ot.reindex-aviutl2-language": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "reindex-ot",
-          "repo": "reindex_AviUtl2_Language",
-          "pattern": "Japanese_Mod.aul2"
+          "type": "directUrl",
+          "url": "https://github.com/reindex-ot/reindex_AviUtl2_Language/releases/download/Beta29/Japanese_Mod.aul2"
         },
         "installSteps": [
           {
@@ -859,10 +831,8 @@
     "seilor0.roundedpolygonsl": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "seilor0",
-          "repo": "roundedPolygon_sl",
-          "pattern": "^roundedPolygon_sl\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/seilor0/roundedPolygon_sl/releases/download/v1.2.1/roundedPolygon_sl.zip"
         },
         "installSteps": [
           {
@@ -888,10 +858,8 @@
     "seilor0.twinkle-sl": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "seilor0",
-          "repo": "twinkle_sl",
-          "pattern": "^@twinkle_sl\\.obj2$"
+          "type": "directUrl",
+          "url": "https://github.com/seilor0/twinkle_sl/releases/download/v1.2.1/%40twinkle_sl.obj2"
         },
         "installSteps": [
           {
@@ -914,10 +882,8 @@
     "hebiiro.al2-memo": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "hebiiro",
-          "repo": "al2_memo",
-          "pattern": "^al2_memo_r\\d+\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/hebiiro/al2_memo/releases/download/r1/al2_memo_r1.zip"
         },
         "installSteps": [
           {
@@ -951,10 +917,8 @@
     "mr-ojii.webpfilereader-plugin": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "Mr-Ojii",
-          "repo": "AviUtl2-WebPFileReader-Plugin",
-          "pattern": "^webpinput\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/Mr-Ojii/AviUtl2-WebPFileReader-Plugin/releases/download/r1/webpinput.zip"
         },
         "installSteps": [
           {
@@ -1092,10 +1056,8 @@
     "korarei.objectmotionblur-lk": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "korarei",
-          "repo": "AviUtl2_ObjectMotionBlur_LK_Script",
-          "pattern": "^ObjectMotionBlur_LK\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script/releases/download/v1.1.1/ObjectMotionBlur_LK.zip"
         },
         "installSteps": [
           {
@@ -1130,10 +1092,8 @@
     "korarei.pixelsorter-k": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "korarei",
-          "repo": "AviUtl2_PixelSorter_K_Script",
-          "pattern": "^PixelSorter_K\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/korarei/AviUtl2_PixelSorter_K_Script/releases/download/v1.0.1/PixelSorter_K.zip"
         },
         "installSteps": [
           {
@@ -1168,10 +1128,8 @@
     "sigma-axis.basic-s": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_Basic_S",
-          "pattern": "^aviutl2_script_Basic_S.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sigma-axis/aviutl2_script_Basic_S/releases/download/v2.70/aviutl2_script_Basic_S-v2.70.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -1251,10 +1209,8 @@
     "sigma-axis.path-s": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_Path_S",
-          "pattern": "^aviutl2_script_Path_S.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sigma-axis/aviutl2_script_Path_S/releases/download/v2.10/aviutl2_script_Path_S-v2.10.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -1316,10 +1272,8 @@
     "sigma-axis.coloredcollar-s": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_ColoredCollar_S",
-          "pattern": "^aviutl2_script_ColoredCollar_S.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sigma-axis/aviutl2_script_ColoredCollar_S/releases/download/v2.00-for-beta51/aviutl2_script_ColoredCollar_S-v2.00-for-beta51.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -1363,10 +1317,8 @@
     "sigma-axis.pageroll-s": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_PageRoll_S",
-          "pattern": "^aviutl2_script_PageRoll_S.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sigma-axis/aviutl2_script_PageRoll_S/releases/download/v1.20-for-beta51/aviutl2_script_PageRoll_S-v1.20-for-beta51.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -1419,10 +1371,8 @@
     "sigma-axis.pixelsnap-s": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_PixelSnap_S",
-          "pattern": "^aviutl2_script_PixelSnap_S.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sigma-axis/aviutl2_script_PixelSnap_S/releases/download/v1.05-for-beta50/aviutl2_script_PixelSnap_S-v1.05-for-beta50.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -1466,10 +1416,8 @@
     "sigma-axis.resize-s": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_Resize_S",
-          "pattern": "^aviutl2_script_Resize_S.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sigma-axis/aviutl2_script_Resize_S/releases/download/v1.33/aviutl2_script_Resize_S-v1.33.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -1522,10 +1470,8 @@
     "sigma-axis.tile-s": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_Tile_S",
-          "pattern": "^aviutl2_script_Tile_S.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sigma-axis/aviutl2_script_Tile_S/releases/download/v1.30/aviutl2_script_Tile_S-v1.30.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -1602,10 +1548,8 @@
     "garech.splitfilters": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "Garech-mas",
-          "repo": "AviUtl2_SplitFilters",
-          "pattern": "^SplitFilters-.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/Garech-mas/AviUtl2_SplitFilters/releases/download/v1.07/SplitFilters-v1.07.zip"
         },
         "installSteps": [
           {
@@ -1640,10 +1584,8 @@
     "natadecoco.texteditor": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "Natadecoco2539",
-          "repo": "AviUtl2-TextEditor",
-          "pattern": "TextEditor.aux2"
+          "type": "directUrl",
+          "url": "https://github.com/Natadecoco2539/AviUtl2-TextEditor/releases/download/2.0/TextEditor.aux2"
         },
         "installSteps": [
           {
@@ -1670,10 +1612,8 @@
     "natadecoco.textsplitter": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "Natadecoco2539",
-          "repo": "AviUtl2-TextSplitter",
-          "pattern": "TextSplitter.aux2"
+          "type": "directUrl",
+          "url": "https://github.com/Natadecoco2539/AviUtl2-TextSplitter/releases/download/1.2/TextSplitter.aux2"
         },
         "installSteps": [
           {
@@ -1696,10 +1636,8 @@
     "sigma-axis.groundshadow2-s": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_GroundShadow2_S",
-          "pattern": "^aviutl2_script_GroundShadow2.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S/releases/download/v1.31/aviutl2_script_GroundShadow2_S-v1.31.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -1752,10 +1690,8 @@
     "sigma-axis.histogram-s": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_Histogram_S",
-          "pattern": "^aviutl2_script_Histogram_S.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sigma-axis/aviutl2_script_Histogram_S/releases/download/v1.10-for-beta30a/aviutl2_script_Histogram_S-v1.10-for-beta30a.zip"
         },
         "installSteps": [
           {
@@ -1805,10 +1741,8 @@
     "azurite.colorhalftone": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "azurite581",
-          "repo": "AviUtl2-ColorHalftone",
-          "pattern": "^.*ColorHalftone.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/azurite581/AviUtl2-ColorHalftone/releases/download/v2.0.0/AviUtl2-ColorHalftone-v2.0.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -1851,10 +1785,8 @@
     "oov.gcmzdrops2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "oov",
-          "repo": "aviutl2_gcmzdrops2",
-          "pattern": "^gcmzdrops_.*\\.exe$"
+          "type": "directUrl",
+          "url": "https://github.com/oov/aviutl2_gcmzdrops2/releases/download/v2.0.0beta1/gcmzdrops_v2.0.0beta1_setup.exe"
         },
         "installSteps": [
           {
@@ -1895,10 +1827,8 @@
     "amaii4.aviutl2-discord-rpc": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "amaii4",
-          "repo": "AviUtl2_Discord_RPC",
-          "pattern": "^DiscordRPC.aux2$"
+          "type": "directUrl",
+          "url": "https://github.com/amaii4/AviUtl2_Discord_RPC/releases/download/1.3.2/DiscordRPC.aux2"
         },
         "installSteps": [
           {
@@ -1925,10 +1855,8 @@
     "natadecoco.myassetmanager": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "Natadecoco2539",
-          "repo": "AviUtl2-MyAssetManager",
-          "pattern": "MyAssetManager.aux2"
+          "type": "directUrl",
+          "url": "https://github.com/Natadecoco2539/AviUtl2-MyAssetManager/releases/download/v1.9/MyAssetManager.aux2"
         },
         "installSteps": [
           {
@@ -1971,10 +1899,8 @@
     "azurite.gradientplus": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "azurite581",
-          "repo": "AviUtl2-GradientPlus",
-          "pattern": "^GradientPlus_v[\\d.]+\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/azurite581/AviUtl2-GradientPlus/releases/download/v1.1.1/GradientPlus_v1.1.1.zip"
         },
         "installSteps": [
           {
@@ -2086,10 +2012,8 @@
       },
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "oov",
-          "repo": "aviutl2_psdtoolkit2",
-          "pattern": "^psdtoolkit_.*\\.exe$"
+          "type": "directUrl",
+          "url": "https://github.com/oov/aviutl2_psdtoolkit2/releases/download/v2.0.0alpha10/psdtoolkit_v2.0.0alpha10_setup.exe"
         },
         "installSteps": [
           {
@@ -2123,10 +2047,8 @@
     "karoterra.bend": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "karoterra",
-          "repo": "aviutl2-Bend",
-          "pattern": "^aviutl2-Bend_.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/karoterra/aviutl2-Bend/releases/download/v1.0.1/aviutl2-Bend_v1.0.1.zip"
         },
         "installSteps": [
           {
@@ -2161,10 +2083,8 @@
     "karoterra.colorvisionsimulation": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "karoterra",
-          "repo": "aviutl2-ColorVisionSimulation",
-          "pattern": "^Karoterra.ColorVisionSimulation-v.*.au2pkg.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/karoterra/aviutl2-ColorVisionSimulation/releases/download/v1.1.1/Karoterra.ColorVisionSimulation-v1.1.1.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -2216,10 +2136,8 @@
     "karoterra.oilpainting": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "karoterra",
-          "repo": "aviutl2-OilPainting",
-          "pattern": "^Karoterra.OilPainting-v.*.au2pkg.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/karoterra/aviutl2-OilPainting/releases/download/v1.1.0/Karoterra.OilPainting-v1.1.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -2271,10 +2189,8 @@
     "korarei.autolyricanimation-k": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "Korarei",
-          "repo": "AviUtl2_AutoLyricAnimation_K_Script",
-          "pattern": "^AutoLyricAnimation_K_.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/korarei/AviUtl2_AutoLyricAnimation_K_Script/releases/download/v1.0.1/AutoLyricAnimation_K_v1.0.1.zip"
         },
         "installSteps": [
           {
@@ -2327,10 +2243,8 @@
     "korarei.cameratransform-k": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "korarei",
-          "repo": "AviUtl2_CameraTransform_K_Script",
-          "pattern": "CameraTransform_K.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/korarei/AviUtl2_CameraTransform_K_Script/releases/download/v2.0.1/CameraTransform_K.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -2426,10 +2340,8 @@
     "korarei.colorlut-k": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "korarei",
-          "repo": "AviUtl2_ColorLUT_K_Plugin",
-          "pattern": "^ColorLUT_K.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/korarei/AviUtl2_ColorLUT_K_Plugin/releases/download/v1.4.1/ColorLUT_K.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -2463,10 +2375,8 @@
     "korarei.kaleidoscope-k": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "korarei",
-          "repo": "AviUtl2_Kaleidoscope_K_Script",
-          "pattern": "^Kaleidoscope_K.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/korarei/AviUtl2_Kaleidoscope_K_Script/releases/download/v1.0.3/Kaleidoscope_K.zip"
         },
         "installSteps": [
           {
@@ -2492,10 +2402,8 @@
     "sigma-axis.tl-walkaround2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sigma-axis",
-          "repo": "aviutl2_tl_walkaround2",
-          "pattern": "^aviutl2_tl_walkaround2.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sigma-axis/aviutl2_tl_walkaround2/releases/download/v1.90/aviutl2_tl_walkaround2-v1.90.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -2835,10 +2743,8 @@
     "hebiiro.al2-preset-adder": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "hebiiro",
-          "repo": "al2_preset_adder",
-          "pattern": "^al2_preset_adder.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/hebiiro/al2_preset_adder/releases/download/r6/al2_preset_adder_r6.zip"
         },
         "installSteps": [
           {
@@ -2892,10 +2798,8 @@
     "shyachi.srtimporter": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "shyachi",
-          "repo": "AviUtl2_SrtImporter",
-          "pattern": "^SrtImporter.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/shyachi/AviUtl2_SrtImporter/releases/download/v0.11/SrtImporter.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -2938,10 +2842,8 @@
     "sigma-axis.whitebalance-s": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_WhiteBalance_S",
-          "pattern": "^aviutl2_script_WhiteBalance_S.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sigma-axis/aviutl2_script_WhiteBalance_S/releases/download/v1.01-for-beta51/aviutl2_script_WhiteBalance_S-v1.01-for-beta51.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -3057,10 +2959,8 @@
     "hebiiro.al2-visual-font": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "hebiiro",
-          "repo": "al2_visual_font",
-          "pattern": "^al2_visual_font.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/hebiiro/al2_visual_font/releases/download/r6/al2_visual_font_r6.zip"
         },
         "installSteps": [
           {
@@ -3138,10 +3038,8 @@
     "sevenc-nanashi.aviutl2-rs-rusty-binaural": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "aviutl2-rs",
-          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/aviutl2-rs/releases/download/0.40.0/aviutl2-rs-v0.40.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -3176,10 +3074,8 @@
     "sevenc-nanashi.aviutl2-rs-rusty-chiptune": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "aviutl2-rs",
-          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/aviutl2-rs/releases/download/0.40.0/aviutl2-rs-v0.40.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -3214,10 +3110,8 @@
     "sevenc-nanashi.aviutl2-rs-rusty-equalizer": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "aviutl2-rs",
-          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/aviutl2-rs/releases/download/0.40.0/aviutl2-rs-v0.40.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -3252,10 +3146,8 @@
     "sevenc-nanashi.aviutl2-rs-rusty-ffmpeg": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "aviutl2-rs",
-          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/aviutl2-rs/releases/download/0.40.0/aviutl2-rs-v0.40.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -3290,10 +3182,8 @@
     "sevenc-nanashi.aviutl2-rs-rusty-image-rs-input": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "aviutl2-rs",
-          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/aviutl2-rs/releases/download/0.40.0/aviutl2-rs-v0.40.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -3328,10 +3218,8 @@
     "sevenc-nanashi.aviutl2-rs-rusty-image-rs-output": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "aviutl2-rs",
-          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/aviutl2-rs/releases/download/0.40.0/aviutl2-rs-v0.40.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -3366,10 +3254,8 @@
     "sevenc-nanashi.aviutl2-rs-rusty-local-alias-plugin": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "aviutl2-rs",
-          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/aviutl2-rs/releases/download/0.40.0/aviutl2-rs-v0.40.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -3404,10 +3290,8 @@
     "sevenc-nanashi.aviutl2-rs-rusty-midi-player": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "aviutl2-rs",
-          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/aviutl2-rs/releases/download/0.40.0/aviutl2-rs-v0.40.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -3442,10 +3326,8 @@
     "sevenc-nanashi.aviutl2-rs-rusty-pixelsort": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "aviutl2-rs",
-          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/aviutl2-rs/releases/download/0.40.0/aviutl2-rs-v0.40.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -3480,10 +3362,8 @@
     "sevenc-nanashi.aviutl2-rs-rusty-random-color": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "aviutl2-rs",
-          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/aviutl2-rs/releases/download/0.40.0/aviutl2-rs-v0.40.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -3546,10 +3426,8 @@
     "sevenc-nanashi.aviutl2-rs-rusty-scripts-search": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "aviutl2-rs",
-          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/aviutl2-rs/releases/download/0.40.0/aviutl2-rs-v0.40.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -3584,10 +3462,8 @@
     "sevenc-nanashi.aviutl2-rs-rusty-srt-file": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "aviutl2-rs",
-          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/aviutl2-rs/releases/download/0.40.0/aviutl2-rs-v0.40.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -3622,10 +3498,8 @@
     "sevenc-nanashi.aviutl2-rs-rusty-statistics": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "aviutl2-rs",
-          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/aviutl2-rs/releases/download/0.40.0/aviutl2-rs-v0.40.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -3660,10 +3534,8 @@
     "sevenc-nanashi.ntsc-rs": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "ntsc-rs.anm2",
-          "pattern": "^sevenc-nanashi\\.ntsc-rs-anm2.*\\.au2pkg\\.zip"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/ntsc-rs.anm2/releases/download/0.2.1/sevenc-nanashi.ntsc-rs-anm2-v0.2.1.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -3698,10 +3570,8 @@
     "hebiiro.al2-slimming": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "hebiiro",
-          "repo": "al2_slimming",
-          "pattern": "^al2_slimming.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/hebiiro/al2_slimming/releases/download/r4/al2_slimming_r4.zip"
         },
         "installSteps": [
           {
@@ -3743,10 +3613,8 @@
     "sagami121.audioenc": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sagami121",
-          "repo": "Aviutl2-AudioEnc",
-          "pattern": "^AudioEnc.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sagami121/Aviutl2-AudioEnc/releases/download/1.4/AudioEnc_v1.4.zip"
         },
         "installSteps": [
           {
@@ -3825,10 +3693,8 @@
     "sevenc-nanashi.clipboard-aux2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "clipboard.aux2",
-          "pattern": "^sevenc-nanashi\\.clipboard-aux2-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/clipboard.aux2/releases/download/0.3.1/sevenc-nanashi.clipboard-aux2-v0.3.1.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -3863,10 +3729,8 @@
     "sevenc-nanashi.vintage-auf2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "vintage.auf2",
-          "pattern": "^.*vintage-.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/vintage.auf2/releases/download/0.1.3/vintage-v0.1.3.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -3919,10 +3783,8 @@
     "garech.doublebpmgrid": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "Garech-mas",
-          "repo": "DoubleBPMGrid",
-          "pattern": "^DoubleBPMGrid-.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/Garech-mas/DoubleBPMGrid/releases/download/v2.10-aul2/DoubleBPMGrid-v2.10.zip"
         },
         "installSteps": [
           {
@@ -3957,10 +3819,8 @@
     "sevenc-nanashi.svg-aux2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "svg.aux2",
-          "pattern": "^.*svg-aux2-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/svg.aux2/releases/download/0.5.0/sevenc-nanashi.svg-aux2-v0.5.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -4049,10 +3909,8 @@
     "sevenc-nanashi.aviutl2-rs-rusty-metronome-plugin": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "aviutl2-rs",
-          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/aviutl2-rs/releases/download/0.40.0/aviutl2-rs-v0.40.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -4087,10 +3945,8 @@
     "hebiiro.al2-ui-dressing": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "hebiiro",
-          "repo": "al2_ui_dressing",
-          "pattern": "^al2_ui_dressing.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/hebiiro/al2_ui_dressing/releases/download/r4/al2_ui_dressing_r4.zip"
         },
         "installSteps": [
           {
@@ -4136,10 +3992,8 @@
     "book-0225.eap2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "Book-0225",
-          "repo": "aviutl2_External_Audio_Processing",
-          "pattern": "External_Audio_Processing2.au2pkg.zip"
+          "type": "directUrl",
+          "url": "https://github.com/Book-0225/aviutl2_External_Audio_Processing/releases/download/v0.0.35/External_Audio_Processing2.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -4201,10 +4055,8 @@
     "mes51.unmult": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "mes51",
-          "repo": "AVIUtl2_Unmult",
-          "pattern": ".*Unmult_.*\\.zip"
+          "type": "directUrl",
+          "url": "https://github.com/mes51/AVIUtl2_Unmult/releases/download/v1.1.0/AVIUtl2_Unmult_1.1.0.zip"
         },
         "installSteps": [
           {
@@ -4230,10 +4082,8 @@
     "sagami121.calculator": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sagami121",
-          "repo": "Aviutl2-Calculator",
-          "pattern": "^aviutl2_calc.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sagami121/Aviutl2-Calculator/releases/download/0.2/aviutl2_calc.zip"
         },
         "installSteps": [
           {
@@ -4287,10 +4137,8 @@
     "cleaning.sam-frame-export-filter": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "clean262",
-          "repo": "sam_frame_export_filter",
-          "pattern": "^sam_frame_export_filter-windows-x64\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/clean262/sam_frame_export_filter/releases/download/v0.1.3/sam_frame_export_filter-windows-x64.zip"
         },
         "installSteps": [
           {
@@ -4325,10 +4173,8 @@
     "cleaning.sam3-bb-gb-generator": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "clean262",
-          "repo": "sam3_bb_gb_generator",
-          "pattern": "^SAM3_win64\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/clean262/sam3_bb_gb_generator/releases/download/v0.1.0/SAM3_win64.zip"
         },
         "installSteps": [
           {
@@ -4374,10 +4220,8 @@
     "kazoon.ksa": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "cycloawaodorin",
-          "repo": "ksa",
-          "pattern": "^ksa\\..*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/cycloawaodorin/ksa/releases/download/v2.1.10/ksa.2.1.10.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -4403,10 +4247,8 @@
     "sevenc-nanashi.tinted-aviutl2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "tinted-aviutl2",
-          "pattern": "^.*tinted-aviutl2-v[^/]+\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/tinted-aviutl2/releases/download/0.3.0/tinted-aviutl2-v0.3.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -4465,10 +4307,8 @@
     "kuroneko.audio2obj": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "rokujyushi",
-          "repo": "GCMZScripts",
-          "pattern": "audio2obj\\.lua"
+          "type": "directUrl",
+          "url": "https://github.com/rokujyushi/GCMZScripts/releases/download/0.2.0/audio2obj.lua"
         },
         "installSteps": [
           {
@@ -4491,10 +4331,8 @@
     "kuroneko.haribote": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "rokujyushi",
-          "repo": "Haribote",
-          "pattern": "HariboteReader\\.zip"
+          "type": "directUrl",
+          "url": "https://github.com/rokujyushi/Haribote/releases/download/0.0.0/HariboteReader.zip"
         },
         "installSteps": [
           {
@@ -4520,10 +4358,8 @@
     "kuroneko.midi2eap2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "rokujyushi",
-          "repo": "GCMZScripts",
-          "pattern": "midi2EAP2\\.zip"
+          "type": "directUrl",
+          "url": "https://github.com/rokujyushi/GCMZScripts/releases/download/0.2.0/midi2EAP2.zip"
         },
         "installSteps": [
           {
@@ -4585,10 +4421,8 @@
     "azurite.gradienteditor": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "azurite581",
-          "repo": "AviUtl2-GradientEditor",
-          "pattern": "^GradientEditor-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/azurite581/AviUtl2-GradientEditor/releases/download/v0.7.2/GradientEditor-v0.7.2.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -4639,10 +4473,8 @@
     "kazoon.fzgx-smr-ks": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "cycloawaodorin",
-          "repo": "fzgx_smr_ks",
-          "pattern": "^fzgx_smr_ks\\.2.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/cycloawaodorin/fzgx_smr_ks/releases/download/v2.0.8/fzgx_smr_ks.2.0.8.zip"
         },
         "installSteps": [
           {
@@ -4672,10 +4504,8 @@
     "kazoon.wav-output-ks": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "cycloawaodorin",
-          "repo": "wav_output_ks",
-          "pattern": "^wav_output_ks\\..*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/cycloawaodorin/wav_output_ks/releases/download/v0.0.5/wav_output_ks.0.0.5.zip"
         },
         "installSteps": [
           {
@@ -4705,10 +4535,8 @@
     "kuroneko.fontpreview": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "rokujyushi",
-          "repo": "FontPreview",
-          "pattern": "^FontPreview-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/rokujyushi/FontPreview/releases/download/4.2.0/FontPreview-v4.2.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -4754,10 +4582,8 @@
     "kuroneko.variablefont": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "rokujyushi",
-          "repo": "Variable-Font-Plug-ins",
-          "pattern": "^VariableFont-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/rokujyushi/Variable-Font-Plug-ins/releases/download/3.1.0/VariableFont-v3.1.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -4876,10 +4702,8 @@
     "neac.cinemascope": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "nea-c",
-          "repo": "aviutl2_script_CinemaScope",
-          "pattern": "^CinemaScope\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/nea-c/aviutl2_script_CinemaScope/releases/download/r5/CinemaScope.zip"
         },
         "installSteps": [
           {
@@ -4905,10 +4729,8 @@
     "kuroneko.svg2obj": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "rokujyushi",
-          "repo": "GCMZScripts",
-          "pattern": "svg2obj\\.lua"
+          "type": "directUrl",
+          "url": "https://github.com/rokujyushi/GCMZScripts/releases/download/0.2.0/svg2obj.lua"
         },
         "installSteps": [
           {
@@ -4931,10 +4753,8 @@
     "neac.bezierpath": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "nea-c",
-          "repo": "aviutl2_script_BezierPath",
-          "pattern": "^BezierPath\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/nea-c/aviutl2_script_BezierPath/releases/download/r3/BezierPath.zip"
         },
         "installSteps": [
           {
@@ -4960,10 +4780,8 @@
     "neac.egasumi": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "nea-c",
-          "repo": "aviutl2_script_Egasumi",
-          "pattern": "^Egasumi\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/nea-c/aviutl2_script_Egasumi/releases/download/r2/Egasumi.zip"
         },
         "installSteps": [
           {
@@ -4989,10 +4807,8 @@
     "neac.screenaspect": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "nea-c",
-          "repo": "aviutl2_script_ScreenAspect",
-          "pattern": "^ScreenAspect\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/nea-c/aviutl2_script_ScreenAspect/releases/download/r3/ScreenAspect.zip"
         },
         "installSteps": [
           {
@@ -5018,10 +4834,8 @@
     "sevenc-nanashi.open-project-directory-aux2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "open_project_directory.aux2",
-          "pattern": "^.*open_project_directory-v[^/]+\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/open_project_directory.aux2/releases/download/0.2.0/open_project_directory-v0.2.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -5080,10 +4894,8 @@
     "koisi0319.duplicate-objects": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "koisi0319",
-          "repo": "Aviutl2-Duplicate-objects-at-equal-intervals",
-          "pattern": "^Duplicate_objects*\\.aux2$"
+          "type": "directUrl",
+          "url": "https://github.com/koisi0319/Aviutl2-Duplicate-objects-at-equal-intervals/releases/download/v1.0.0/Duplicate_objects.aux2"
         },
         "installSteps": [
           {
@@ -5106,10 +4918,8 @@
     "vramwiz.syncroh2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "vramwiz",
-          "repo": "Syncroh2-site",
-          "pattern": "^Syncroh2_Setup.*\\.exe$"
+          "type": "directUrl",
+          "url": "https://github.com/vramwiz/Syncroh2-site/releases/download/v3.3.18/Syncroh2_Setup.exe"
         },
         "installSteps": [
           {
@@ -5141,10 +4951,8 @@
     "kuroneko.copyalias": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "rokujyushi",
-          "repo": "Copy_alias",
-          "pattern": "KuroNeko\\.CopyAlias.*\\.au2pkg\\.zip"
+          "type": "directUrl",
+          "url": "https://github.com/rokujyushi/Copy_alias/releases/download/2.0.0/KuroNeko.CopyAlias-v2.0.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -5170,10 +4978,8 @@
     "sagami121.blocknoise": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sagami121",
-          "repo": "Aviutl2-BlockNoise",
-          "pattern": "^BlockNoise.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sagami121/Aviutl2-BlockNoise/releases/download/1.0/BlockNoise.zip"
         },
         "installSteps": [
           {
@@ -5199,10 +5005,8 @@
     "sevenc-nanashi.insert-aux2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "insert.aux2",
-          "pattern": "^sevenc-nanashi\\.insert-aux2-v[^/]+\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/insert.aux2/releases/download/0.2.1/sevenc-nanashi.insert-aux2-v0.2.1.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -5237,10 +5041,8 @@
     "azurite.hex-tiling": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "azurite581",
-          "repo": "AviUtl2-Hex-Tiling",
-          "pattern": "^.*Hex-Tiling.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/azurite581/AviUtl2-Hex-Tiling/releases/download/v0.2.0/Hex-Tiling-v0.2.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -5270,10 +5072,8 @@
     "sevenc-nanashi.filter-effect-toggle-aux2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "filter_effect_toggle.aux2",
-          "pattern": "^sevenc-nanashi\\.filter_effect_toggle-aux2.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/filter_effect_toggle.aux2/releases/download/0.2.0/sevenc-nanashi.filter_effect_toggle-aux2-v0.2.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -5308,10 +5108,8 @@
     "sevenc-nanashi.quantizer-aux2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "quantizer.aux2",
-          "pattern": "^sevenc-nanashi\\.quantizer-aux2-v[^/]+\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/quantizer.aux2/releases/download/0.2.1/sevenc-nanashi.quantizer-aux2-v0.2.1.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -5346,10 +5144,8 @@
     "v-bernkastel.aviutl2-language-kr": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "Victorique-Bernkastel",
-          "repo": "AviUtl2_Language",
-          "pattern": "^Korean.*\\.aul2$"
+          "type": "directUrl",
+          "url": "https://github.com/Victorique-Bernkastel/AviUtl2_Language/releases/download/v2.1.0/Korean.language.aul2"
         },
         "installSteps": [
           {
@@ -5376,10 +5172,8 @@
     "neac.loop": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "nea-c",
-          "repo": "aviutl2_script_Loop",
-          "pattern": "^Loop\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/nea-c/aviutl2_script_Loop/releases/download/r3/Loop.zip"
         },
         "installSteps": [
           {
@@ -5405,10 +5199,8 @@
     "neac.lyricmotion": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "nea-c",
-          "repo": "aviutl2_script_LyricMotioN",
-          "pattern": "^LyricMotioN\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/nea-c/aviutl2_script_LyricMotioN/releases/download/r5/LyricMotioN.zip"
         },
         "installSteps": [
           {
@@ -5461,10 +5253,8 @@
     "sevenc-nanashi.aviutl2-rs-rusty-single-image-output": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "aviutl2-rs",
-          "pattern": "^aviutl2-rs-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/aviutl2-rs/releases/download/0.40.0/aviutl2-rs-v0.40.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -5514,10 +5304,8 @@
     "sevenc-nanashi.discord-activity-aux2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "discord_activity.aux2",
-          "pattern": "^sevenc-nanashi\\.discord_activity-aux2-v[^/]+\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/discord_activity.aux2/releases/download/0.2.0/sevenc-nanashi.discord_activity-aux2-v0.2.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -5552,10 +5340,8 @@
     "kazoon.resize-ks": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "cycloawaodorin",
-          "repo": "resize_ks",
-          "pattern": "^resize_ks\\..*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/cycloawaodorin/resize_ks/releases/download/v0.0.9/resize_ks.0.0.9.zip"
         },
         "installSteps": [
           {
@@ -5581,10 +5367,8 @@
     "sevenc-nanashi.disassembler-anm2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "disassembler.anm2",
-          "pattern": "^sevenc-nanashi\\.disassembler-anm2-v[^/]+\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/disassembler.anm2/releases/download/0.2.0/sevenc-nanashi.disassembler-anm2-v0.2.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -5628,10 +5412,8 @@
     "sevenc-nanashi.modify-group-num-layers-aux2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "modify_group_num_layers.aux2",
-          "pattern": "^sevenc-nanashi\\.modify_group_num_layers-aux2-v[^/]+\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/modify_group_num_layers.aux2/releases/download/0.2.0/sevenc-nanashi.modify_group_num_layers-aux2-v0.2.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -5666,10 +5448,8 @@
     "sevenc-nanashi.transform-specific-chars-anm2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "transform_specific_chars.anm2",
-          "pattern": "^sevenc-nanashi\\.transform_specific_chars-anm2-v[^/]+\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/transform_specific_chars.anm2/releases/download/0.3.1/sevenc-nanashi.transform_specific_chars-anm2-v0.3.1.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -5713,10 +5493,8 @@
     "pachira762.vsr4aviutl": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "Pachira762",
-          "repo": "vsr4aviutl",
-          "pattern": "^vsr4aviutl_.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/Pachira762/vsr4aviutl/releases/download/v1.0.2/vsr4aviutl_v1.0.2.zip"
         },
         "installSteps": [
           {
@@ -5775,10 +5553,8 @@
     "azurite.imagecropexport": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "azurite581",
-          "repo": "AviUtl2-ImageCropExport",
-          "pattern": "^ImageCropExport-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/azurite581/AviUtl2-ImageCropExport/releases/download/v0.1.0/ImageCropExport-v0.1.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -5817,10 +5593,8 @@
     "kuroneko.ttsfilerename": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "rokujyushi",
-          "repo": "GCMZScripts",
-          "pattern": "TTSFileRename\\.lua"
+          "type": "directUrl",
+          "url": "https://github.com/rokujyushi/GCMZScripts/releases/download/0.2.0/TTSFileRename.lua"
         },
         "installSteps": [
           {
@@ -5972,10 +5746,8 @@
     "novenove.karaokelyricrenderer": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "nove-nove",
-          "repo": "aviutl2-karaoke-lyric-renderer",
-          "pattern": "aviutl2-karaoke-lyric-renderer.zip"
+          "type": "directUrl",
+          "url": "https://github.com/nove-nove/aviutl2-karaoke-lyric-renderer/releases/download/v1.2.0/aviutl2-karaoke-lyric-renderer.zip"
         },
         "installSteps": [
           {
@@ -6070,10 +5842,8 @@
     "korarei.diffusion-k": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "korarei",
-          "repo": "AviUtl2_Diffusion_K_Script",
-          "pattern": "^Diffusion_K.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/korarei/AviUtl2_Diffusion_K_Script/releases/download/v1.2.3/Diffusion_K.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -6099,10 +5869,8 @@
     "sevenc-nanashi.budoux-obj2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "budoux.obj2",
-          "pattern": "^sevenc-nanashi\\.budoux-obj2-v[^/]+\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/budoux.obj2/releases/download/0.1.9/sevenc-nanashi.budoux-obj2-v0.1.9.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -6146,10 +5914,8 @@
     "sigma-axis.border-s": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sigma-axis",
-          "repo": "aviutl2_Border_S",
-          "pattern": "^aviutl2_Border_S.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sigma-axis/aviutl2_Border_S/releases/download/v1.21-for-beta50/aviutl2_Border_S-v1.21-for-beta50.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -6193,10 +5959,8 @@
     "azurite.pointzoom": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "azurite581",
-          "repo": "AviUtl2-PointZoom",
-          "pattern": "^PointZoom.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/azurite581/AviUtl2-PointZoom/releases/download/v2.0.1/PointZoom-v2.0.1.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -6222,10 +5986,8 @@
     "number-0621.selecteasing": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "NumberZero-0621",
-          "repo": "AviUtl2-Plugin-SelectEasing",
-          "pattern": "^SelectEasing_AviUtl2.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/NumberZero-0621/AviUtl2-Plugin-SelectEasing/releases/download/1.1.0/SelectEasing_AviUtl2.zip"
         },
         "installSteps": [
           {
@@ -6260,10 +6022,8 @@
     "fu-majime.aviutl2-polygonmorph-f": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "fu-majime",
-          "repo": "AviUtl2_PolygonMorph_F",
-          "pattern": "^PolygonMorph_F.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/fu-majime/AviUtl2_PolygonMorph_F/releases/download/v1.0/PolygonMorph_F.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -6289,10 +6049,8 @@
     "novenove.vrmtoolkit": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "nove-nove",
-          "repo": "aviutl2-vrm-toolkit",
-          "pattern": "VRM-Toolkit-for-AviUtl2\\.au2pkg\\.zip"
+          "type": "directUrl",
+          "url": "https://github.com/nove-nove/aviutl2-vrm-toolkit/releases/download/v0.2.0/VRM-Toolkit-for-AviUtl2.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -6360,10 +6118,8 @@
     "number-0621.easing-quick-setup": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "NumberZero-0621",
-          "repo": "AviUtl2-easing-quick-setup",
-          "pattern": "^easing_quick_setup.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/NumberZero-0621/AviUtl2-easing-quick-setup/releases/download/1.0.0/easing_quick_setup.zip"
         },
         "installSteps": [
           {
@@ -6441,10 +6197,8 @@
     "pachira762.analogfuu": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "Pachira762",
-          "repo": "AnalogFuu",
-          "pattern": "^AnalogFuu_.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/Pachira762/AnalogFuu/releases/download/v1.2.0/AnalogFuu_v1.2.0.zip"
         },
         "installSteps": [
           {
@@ -6470,10 +6224,8 @@
     "sevenc-nanashi.tex-auf2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "tex.auf2",
-          "pattern": "^sevenc-nanashi\\.tex-auf2-v[^/]+\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/tex.auf2/releases/download/0.2.3/sevenc-nanashi.tex-auf2-v0.2.3.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -6560,10 +6312,8 @@
     "azurite.adjustpivot-a": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "azurite581",
-          "repo": "AviUtl2-AdjustPivot_A",
-          "pattern": "^AdjustPivot_A-v.+\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/azurite581/AviUtl2-AdjustPivot_A/releases/download/v0.3.0/AdjustPivot_A-v0.3.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -6677,10 +6427,8 @@
     "aviutl2-community.aviutl2-community-translation-companion": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "aviutl2",
-          "repo": "aviutl2-community-translation",
-          "pattern": "^aviutl2-community\\.aviutl2_community_translation_companion-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/aviutl2/aviutl2_community_translation/releases/download/0.2.0/aviutl2-community.aviutl2_community_translation_companion-v0.2.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -6706,10 +6454,8 @@
     "beive60.aviutl2-alias-inserter": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "beive60",
-          "repo": "aviutl2-alias-inserter",
-          "pattern": "^aviutl2-alias-inserter-v(?<version>\\d\\.\\d\\.\\d)\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/beive60/aviutl2-alias-inserter/releases/download/v0.0.1/aviutl2-alias-inserter-v0.0.1.zip"
         },
         "installSteps": [
           {
@@ -6744,10 +6490,8 @@
     "beive60.aviutl2-audio-rec": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "beive60",
-          "repo": "aviutl2-audio-rec",
-          "pattern": "^aviutl2-audio-rec-v(?<version>\\d\\.\\d\\.\\d)\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/beive60/aviutl2-audio-rec/releases/download/v0.3.1/aviutl2-audio-rec-v0.3.1.zip"
         },
         "installSteps": [
           {
@@ -6878,10 +6622,8 @@
     "karoterra.typst": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "karoterra",
-          "repo": "aviutl2-typst",
-          "pattern": "^Karoterra\\.Typst-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/karoterra/aviutl2-typst/releases/download/v0.2.0/Karoterra.Typst-v0.2.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -7000,10 +6742,8 @@
     "sigma-axis.translations-sigma-axis": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sigma-axis",
-          "repo": "aviutl2_translations_sigma-axis",
-          "pattern": "^aviutl2_translations_sigma-axis.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sigma-axis/aviutl2_translations_sigma-axis/releases/download/r43/aviutl2_translations_sigma-axis-r43.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -7056,10 +6796,8 @@
     "teruyoshii.noisete": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "teruyoshii",
-          "repo": "AviUtl2_Noise_Te",
-          "pattern": "^@noise_Te\\.anm2$"
+          "type": "directUrl",
+          "url": "https://github.com/teruyoshii/AviUtl2_Noise_Te/releases/download/1.2/%40noise_Te.anm2"
         },
         "installSteps": [
           {
@@ -7163,10 +6901,8 @@
     "osakana4242.gifbayerditheroutput": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "osakana4242",
-          "repo": "aviutl2-gif-bayer-dither-output",
-          "pattern": "^GifBayerDitherOutput-v(.+).zip$"
+          "type": "directUrl",
+          "url": "https://github.com/osakana4242/aviutl2-gif-bayer-dither-output/releases/download/v1.0.0/GifBayerDitherOutput-v1.0.0.zip"
         },
         "installSteps": [
           {
@@ -7192,10 +6928,8 @@
     "sevenc-nanashi.ported-tim": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "ported_tim",
-          "pattern": "^sevenc-nanashi\\.ported_tim-v[^/]+\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/ported_tim/releases/download/0.1.5/sevenc-nanashi.ported_tim-v0.1.5.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -7299,10 +7033,8 @@
     "book-0225.relink": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "Book-0225",
-          "repo": "aviutl2_relink",
-          "pattern": "aviutl2_relink.au2pkg.zip"
+          "type": "directUrl",
+          "url": "https://github.com/Book-0225/aviutl2_relink/releases/download/v0.0.8/aviutl2_relink.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -7337,10 +7069,8 @@
     "beive60.scene-lighting": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "beive60",
-          "repo": "aviutl2-scene-lighting",
-          "pattern": "^aviutl2-scene-lighting-v(?<version>\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/beive60/aviutl2-scene-lighting/releases/download/v0.1.0/aviutl2-scene-lighting-v0.1.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -7366,10 +7096,8 @@
     "korarei.flowtype-k": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "korarei",
-          "repo": "AviUtl2_FlowType_K_Script",
-          "pattern": "^FlowType_K.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/korarei/AviUtl2_FlowType_K_Script/releases/download/v0.3.3/FlowType_K.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -7458,10 +7186,8 @@
     "zopty.osc4au2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "zopty",
-          "repo": "osc4au2",
-          "pattern": "^osc4au2-v[^/]+\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/zopty/osc4au2/releases/download/v0.2.0/osc4au2-v0.2.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -7501,10 +7227,8 @@
       },
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_Region_S",
-          "pattern": "^aviutl2_script_Region_S.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sigma-axis/aviutl2_script_Region_S/releases/download/v1.01-for-beta50/aviutl2_script_Region_S-v1.01-for-beta50.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -7588,10 +7312,8 @@
     "sigma-axis.layback": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_Layback",
-          "pattern": "^aviutl2_script_Layback.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sigma-axis/aviutl2_script_Layback/releases/download/v1.10/aviutl2_script_Layback-v1.10.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -7659,10 +7381,8 @@
     "vramwiz.vw-media-input": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "vramwiz",
-          "repo": "VW_Media_Input",
-          "pattern": "^VW_Media_Input\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/vramwiz/VW_Media_Input/releases/download/v1.0.3/VW_Media_Input.zip"
         },
         "installSteps": [
           {
@@ -7733,10 +7453,8 @@
     "vramwiz.vw-media-output": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "vramwiz",
-          "repo": "VW_Media_Output",
-          "pattern": "^VW_Media_Output.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/vramwiz/VW_Media_Output/releases/download/v1.0.4/VW_Media_Output.zip"
         },
         "installSteps": [
           {
@@ -7825,10 +7543,8 @@
     "natadecoco.softanchorbone": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "Natadecoco2539",
-          "repo": "AviUtl2-SoftAnchorBone",
-          "pattern": "SoftAnchorBone.anm2"
+          "type": "directUrl",
+          "url": "https://github.com/Natadecoco2539/AviUtl2-SoftAnchorBone/releases/download/v1.0/SoftAnchorBone.anm2"
         },
         "installSteps": [
           {
@@ -7851,10 +7567,8 @@
     "airiah7.plugin-picked-color-storage": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "airiah7",
-          "repo": "airiah7--aviutl2--plugin--picked-color-storage",
-          "pattern": "^airiah7--aviutl2--plugin--picked-color-storage-v\\.(\\d+\\.\\d+\\.\\d+)\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/airiah7/airiah7--aviutl2--plugin--picked-color-storage/releases/download/v.1.1.0/airiah7--aviutl2--plugin--picked-color-storage-v.1.1.0.zip"
         },
         "installSteps": [
           {
@@ -7904,10 +7618,8 @@
     "airiah7.widget-drag-and-drop-objects": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "airiah7",
-          "repo": "airiah7--aviutl2--widget--drag-and-drop-objects",
-          "pattern": "^airiah7--aviutl2--widget--drag-and-drop-objects-v\\.(\\d+\\.\\d+\\.\\d+)\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/airiah7/airiah7--aviutl2--widget--drag-and-drop-objects/releases/download/v.1.0.0/airiah7--aviutl2--widget--drag-and-drop-objects-v.1.0.0.zip"
         },
         "installSteps": [
           {
@@ -7933,10 +7645,8 @@
     "airiah7.widget-speed-preview": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "airiah7",
-          "repo": "airiah7--aviutl2--widget--speed-preview",
-          "pattern": "^airiah7--aviutl2--widget--speed-preview-v\\.(\\d+\\.\\d+\\.\\d+)\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/airiah7/airiah7--aviutl2--widget--speed-preview/releases/download/v.1.1.0/airiah7--aviutl2--widget--speed-preview-v.1.1.0.zip"
         },
         "installSteps": [
           {
@@ -7986,10 +7696,8 @@
     "garech.datetime": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "Garech-mas",
-          "repo": "AviUtl2_DateTime",
-          "pattern": "^DateTime.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/Garech-mas/AviUtl2_DateTime/releases/download/v2.0/DateTime-v2.00.zip"
         },
         "installSteps": [
           {
@@ -8048,10 +7756,8 @@
     "azurite.depthmapfilter": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "azurite581",
-          "repo": "AviUtl2-DepthMapFilter",
-          "pattern": "^DepthMapFilter-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/azurite581/AviUtl2-DepthMapFilter/releases/download/v1.1.0/DepthMapFilter-v1.1.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -8095,10 +7801,8 @@
     "eizo-gak.aviutl2-sourcemonitor": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "aviutl2-sourcemonitor-bootstrapper.aux2",
-          "pattern": "^sevenc-nanashi.aviutl2_sourcemonitor_bootstrapper-aux2-.*\\.au2pkg.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/aviutl2-sourcemonitor-bootstrapper.aux2/releases/download/1.1.1.0/sevenc-nanashi.aviutl2_sourcemonitor_bootstrapper-aux2-v1.1.1.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -8188,10 +7892,8 @@
       },
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "Fuji07-2525",
-          "repo": "voice-drop",
-          "pattern": "voice_drop.aux2"
+          "type": "directUrl",
+          "url": "https://github.com/Fuji07-2525/voice-drop/releases/download/v0.1.1/voice_drop.aux2"
         },
         "installSteps": [
           {
@@ -8814,10 +8516,8 @@
     "sevenc-nanashi.import-midi-tempos-aux2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "import_midi_tempos.aux2",
-          "pattern": "^sevenc-nanashi\\.import_midi_tempos-aux2-v[^/]+\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/import_midi_tempos.aux2/releases/download/0.2.0/sevenc-nanashi.import_midi_tempos-aux2-v0.2.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -8843,10 +8543,8 @@
     "gohankaiju.rich-audio-spectrum": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "Gohankaiju",
-          "repo": "aviutl2-rich-audio-spectrum",
-          "pattern": "^rich-audio-spectrum_v.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/Gohankaiju/aviutl2-rich-audio-spectrum/releases/download/v1.0.0/rich-audio-spectrum_v1.0.0.zip"
         },
         "installSteps": [
           {
@@ -8876,10 +8574,8 @@
     "vramwiz.audiofilter": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "vramwiz",
-          "repo": "Aul2AudioFilter",
-          "pattern": "^Aul2AudioFilter\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/vramwiz/Aul2AudioFilter/releases/download/v1.1.1/Aul2AudioFilter.zip"
         },
         "installSteps": [
           {
@@ -8941,10 +8637,8 @@
     "karoterra.waveformpreview": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "karoterra",
-          "repo": "aviutl2-waveform-preview",
-          "pattern": "^Karoterra\\.WaveformPreview-v.*\\.au2pkg\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/karoterra/aviutl2-waveform-preview/releases/download/v0.1.0/Karoterra.WaveformPreview-v0.1.0.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -9006,10 +8700,8 @@
     "nkopikaso.aviutl2-whisperautosub": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "nkopikaso",
-          "repo": "AviUtl2-WhisperAutoSub",
-          "pattern": "WhisperAutoSub.aux2"
+          "type": "directUrl",
+          "url": "https://github.com/nkopikaso/AviUtl2-WhisperAutoSub/releases/download/v2.8.1/WhisperAutoSub.aux2"
         },
         "installSteps": [
           {
@@ -9112,10 +8804,8 @@
     "natadecoco.textbackplate": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "Natadecoco2539",
-          "repo": "AviUtl2-TextBackplate",
-          "pattern": "TextBackplate.anm2"
+          "type": "directUrl",
+          "url": "https://github.com/Natadecoco2539/AviUtl2-TextBackplate/releases/download/v1.0/TextBackplate.anm2"
         },
         "installSteps": [
           {
@@ -9138,10 +8828,8 @@
     "hebiiro.al2-dialog-resizer": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "hebiiro",
-          "repo": "al2_dialog_resizer",
-          "pattern": "^al2_dialog_resizer.*\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/hebiiro/al2_dialog_resizer/releases/download/r1/al2_dialog_resizer_r1.zip"
         },
         "installSteps": [
           {
@@ -9198,10 +8886,8 @@
     "sldc.seisa": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "samuelladoco",
-          "repo": "aviutl2-script-seisa",
-          "pattern": "SeiSa.au2pkg.zip"
+          "type": "directUrl",
+          "url": "https://github.com/samuelladoco/aviutl2-script-seisa/releases/download/v1.0.2/SeiSa.au2pkg.zip"
         },
         "installSteps": [
           {
@@ -9267,10 +8953,8 @@
     "estelle.aviutl2-latex": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "Estellellet",
-          "repo": "AviUtl2-LaTeX",
-          "pattern": "^AviUtl2LaTeX-v[0-9]+\\.[0-9]+\\.[0-9]+\\.zip$"
+          "type": "directUrl",
+          "url": "https://github.com/Estellellet/AviUtl2-LaTeX/releases/download/v0.1.1/AviUtl2LaTeX-v0.1.1.zip"
         },
         "installSteps": [
           {
@@ -9316,10 +9000,8 @@
     "sevenc-nanashi.void-auf2": {
       "installation": {
         "source": {
-          "type": "githubRelease",
-          "owner": "sevenc-nanashi",
-          "repo": "void.auf2",
-          "pattern": "^sevenc-nanashi\\.void-auf2-v.*\\.au2pkg\\.zip"
+          "type": "directUrl",
+          "url": "https://github.com/sevenc-nanashi/void.auf2/releases/download/0.1.1/sevenc-nanashi.void-auf2-v0.1.1.au2pkg.zip"
         },
         "installSteps": [
           {
