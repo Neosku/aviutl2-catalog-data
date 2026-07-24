@@ -36597,7 +36597,7 @@
     "description": "./md/vandojapan.typing-effect.md",
     "author": "4vando",
     "repoURL": "https://github.com/vandojapan/TypingEffect.obj2",
-    "latest-version": "v0.9.12",
+    "latest-version": "v0.9.13",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -36770,6 +36770,28 @@
           {
             "path": "{scriptsDir}/TypingEffect/TypingEffect.obj2",
             "XXH3_128": "4a55c83d44a0ae05e1fcf725c690ea20"
+          }
+        ]
+      },
+      {
+        "version": "v0.9.13",
+        "release_date": "2026-07-25",
+        "file": [
+          {
+            "path": "{scriptsDir}/TypingEffect/CHANGELOG.txt",
+            "XXH3_128": "8bffb88bb2dfad0dbea719ed3c5d3db7"
+          },
+          {
+            "path": "{scriptsDir}/TypingEffect/README.txt",
+            "XXH3_128": "bb31d7804e49738cfdbcf1efbb74f29a"
+          },
+          {
+            "path": "{scriptsDir}/TypingEffect/TypingEffect.mod2",
+            "XXH3_128": "96739109b52f3d135e6a2dce1cfe0877"
+          },
+          {
+            "path": "{scriptsDir}/TypingEffect/TypingEffect.obj2",
+            "XXH3_128": "fd4467c5135f26479fafdd1e46b1d435"
           }
         ]
       }
