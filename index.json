@@ -36770,5 +36770,101 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sevenc-nanashi.time_control_assistant-tra2",
+    "name": "time_control_assistant.tra2",
+    "type": "スクリプト",
+    "summary": "区間長指定で繰り返したり反復したりオブジェクト外を繰り返したり",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/time_control_assistant.tra2/refs/heads/main/README.md",
+    "author": "Nanashi.",
+    "repoURL": "https://github.com/sevenc-nanashi/time_control_assistant.tra2",
+    "latest-version": "0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT License\n\nCopyright (c) 2026 Nanashi. <sevenc7c.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+      }
+    ],
+    "tags": [
+      "イージング",
+      "トラックバー"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/sevenc-nanashi.time_control_assistant-tra2_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "time_control_assistant.tra2",
+          "pattern": "^sevenc-nanashi\\.time_control_assistant-tra2-.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.time_control_assistant.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/time_control_assistant/@time_control_assistant.tra2.tra2",
+          "to": "{scriptsDir}/time_control_assistant"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/time_control_assistant/time_control_assistant.lua",
+          "to": "{scriptsDir}/time_control_assistant"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/time_control_assistant/time_control_assistant.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/time_control_assistant/@time_control_assistant.tra2.tra2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.time_control_assistant.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.1.0",
+        "release_date": "2026-07-24",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.time_control_assistant.aul2",
+            "XXH3_128": "c7a4c2ab5084785aebdfd590f883bed9"
+          },
+          {
+            "path": "{scriptsDir}/time_control_assistant/@time_control_assistant.tra2.tra2",
+            "XXH3_128": "34b0667bb0cb3efae88bd77416bf4100"
+          },
+          {
+            "path": "{scriptsDir}/time_control_assistant/time_control_assistant.lua",
+            "XXH3_128": "966d97200627c9f0d3e19c402050c703"
+          }
+        ]
+      }
+    ]
   }
 ]

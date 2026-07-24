@@ -3355,5 +3355,29 @@
         }
       ]
     }
+  },
+  {
+    "id": "sevenc-nanashi.time_control_assistant-tra2",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/time_control_assistant.tra2",
+      "regex": "^sevenc-nanashi\\.time_control_assistant-tra2-.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Language/English.time_control_assistant.aul2",
+            "Script/time_control_assistant/@time_control_assistant.tra2.tra2",
+            "Script/time_control_assistant/time_control_assistant.lua"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/English.time_control_assistant.aul2",
+            "{scriptsDir}/time_control_assistant/@time_control_assistant.tra2.tra2",
+            "{scriptsDir}/time_control_assistant/time_control_assistant.lua"
+          ]
+        }
+      ]
+    }
   }
 ]
