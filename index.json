@@ -30732,7 +30732,11 @@
       "便利ツール"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/Book-0225.relink_thumbnail.webp"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
