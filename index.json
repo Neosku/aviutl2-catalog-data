@@ -36018,7 +36018,7 @@
     "id": "tikubonn.TVSubtitle",
     "name": "テレビ字幕",
     "type": "スクリプト",
-    "summary": "テレビ字幕のようにテキスト裏に背景を追加します。",
+    "summary": "テレビ字幕のようにテキスト裏に背景を追加します。複数行にも対応。",
     "description": "./md/tikubonn.TVSubtitle.md",
     "author": "ちくぼん",
     "repoURL": "https://tikubonn.booth.pm/items/8626637",
