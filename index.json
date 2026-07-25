@@ -9035,7 +9035,7 @@
         "github": {
           "owner": "oov",
           "repo": "aviutl2_psdtoolkit2",
-          "pattern": "^psdtoolkit_.*\\.exe$"
+          "pattern": "^psdtoolkit_.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -9043,26 +9043,117 @@
           "action": "download"
         },
         {
-          "action": "run",
-          "path": "{download}",
-          "args": [
-            "/VERYSILENT",
-            "/SP-",
-            "/SUPPRESSMSGBOXES",
-            "/DIR=\"{pluginsDir}\"",
-            "/MERGETASKS=\"desktopicon",
-            "associatefile\""
-          ]
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/PSDToolKit/PSDToolKit.aux2",
+          "to": "{pluginsDir}/PSDToolKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/PSDToolKit/PSDToolKit.exe",
+          "to": "{pluginsDir}/PSDToolKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/PSDToolKit/PSDToolKit.ini",
+          "to": "{pluginsDir}/PSDToolKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/PSDToolKit/PSDToolKit.txt",
+          "to": "{pluginsDir}/PSDToolKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/PSDToolKit/template/psd.object.template",
+          "to": "{pluginsDir}/PSDToolKit/template"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/PSDToolKit/template/voice.object.template",
+          "to": "{pluginsDir}/PSDToolKit/template"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/PSDToolKit/@PSDToolKit.anm2",
+          "to": "{scriptsDir}/PSDToolKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/PSDToolKit/@PSDToolKit.obj2",
+          "to": "{scriptsDir}/PSDToolKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/PSDToolKit/PSDToolKit.lua",
+          "to": "{scriptsDir}/PSDToolKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/字幕表示.object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.PSDToolKit.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/简体中文.PSDToolKit.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
-          "action": "run",
-          "path": "{pluginsDir}/PSDToolKit/unins000.exe",
-          "args": [
-            "/VERYSILENT",
-            "/SUPPRESSMSGBOXES"
-          ]
+          "action": "delete",
+          "path": "{pluginsDir}/PSDToolKit/PSDToolKit.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/PSDToolKit/PSDToolKit.exe"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/PSDToolKit/PSDToolKit.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/PSDToolKit/PSDToolKit.txt"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/PSDToolKit/template/psd.object.template"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/PSDToolKit/template/voice.object.template"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PSDToolKit/@PSDToolKit.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PSDToolKit/@PSDToolKit.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PSDToolKit/PSDToolKit.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/字幕表示.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.PSDToolKit.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/简体中文.PSDToolKit.aul2"
         }
       ]
     },
