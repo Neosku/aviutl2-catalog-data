@@ -34974,7 +34974,7 @@
     "description": "https://raw.githubusercontent.com/karoterra/aviutl2-waveform-preview/refs/heads/main/README.md",
     "author": "かろてら",
     "repoURL": "https://github.com/karoterra/aviutl2-waveform-preview",
-    "latest-version": "v0.1.0",
+    "latest-version": "v0.2.0",
     "popularity": 129,
     "trend": 132,
     "licenses": [
@@ -35067,6 +35067,16 @@
           {
             "path": "{pluginsDir}/Karoterra.WaveformPreview/waveformpreview.aux2",
             "XXH3_128": "308daf7cffd87d4ba13449b0b308c0a3"
+          }
+        ]
+      },
+      {
+        "version": "v0.2.0",
+        "release_date": "2026-07-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/Karoterra.WaveformPreview/waveformpreview.aux2",
+            "XXH3_128": "2813fbd764e41a4f1c9caedfd39a9dd6"
           }
         ]
       }
