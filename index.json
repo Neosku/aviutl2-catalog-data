@@ -35212,7 +35212,7 @@
     "description": "https://raw.githubusercontent.com/nkopikaso/AviUtl2-WhisperAutoSub/refs/heads/main/README.md",
     "author": "nkopikaso",
     "repoURL": "https://github.com/nkopikaso/AviUtl2-WhisperAutoSub",
-    "latest-version": "v2.8.1",
+    "latest-version": "v2.9",
     "popularity": 120,
     "trend": 120,
     "licenses": [
@@ -35285,6 +35285,16 @@
           {
             "path": "{pluginsDir}/WhisperAutoSub.aux2",
             "XXH3_128": "789bd0497a7f10c0534e93d6183e5562"
+          }
+        ]
+      },
+      {
+        "version": "v2.9",
+        "release_date": "2026-07-26",
+        "file": [
+          {
+            "path": "{pluginsDir}/WhisperAutoSub.aux2",
+            "XXH3_128": "8229ddf4c0a97886b46cd0777cdb29f9"
           }
         ]
       }
@@ -36071,7 +36081,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/enhanced_tracks.aux2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/enhanced_tracks.aux2",
-    "latest-version": "0.1.2",
+    "latest-version": "0.1.3",
     "popularity": 181,
     "trend": 186,
     "licenses": [
@@ -36231,6 +36241,32 @@
           {
             "path": "{pluginsDir}/enhanced_tracks.aux2",
             "XXH3_128": "10dc5d2a5040cd512d6aaeb457464465"
+          },
+          {
+            "path": "{scriptsDir}/enhanced_tracks-aux2/enhanced_tracks.aux2.tra2",
+            "XXH3_128": "26108b1e1b95e8d7f8d2931d78ea75b1"
+          },
+          {
+            "path": "{scriptsDir}/enhanced_tracks-aux2/enhanced_tracks_core.lua",
+            "XXH3_128": "9a69883db241f480ffd5c23ccfc873d6"
+          }
+        ]
+      },
+      {
+        "version": "0.1.3",
+        "release_date": "2026-07-26",
+        "file": [
+          {
+            "path": "{dataDir}/Language/Default.enhanced_tracks-aux2.aul2",
+            "XXH3_128": "76a4d7eddc8b727df214f6d2e21b5169"
+          },
+          {
+            "path": "{dataDir}/Language/English.enhanced_tracks-aux2.aul2",
+            "XXH3_128": "0279d080a60cb3d978e240184e1251d9"
+          },
+          {
+            "path": "{pluginsDir}/enhanced_tracks.aux2",
+            "XXH3_128": "8fa43abba47659ac7665779faacd234a"
           },
           {
             "path": "{scriptsDir}/enhanced_tracks-aux2/enhanced_tracks.aux2.tra2",
