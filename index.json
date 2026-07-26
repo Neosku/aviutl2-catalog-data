@@ -37085,7 +37085,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/time_control_assistant.tra2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/time_control_assistant.tra2",
-    "latest-version": "0.1.0",
+    "latest-version": "0.1.1",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -37168,6 +37168,24 @@
           {
             "path": "{scriptsDir}/time_control_assistant/time_control_assistant.lua",
             "XXH3_128": "966d97200627c9f0d3e19c402050c703"
+          }
+        ]
+      },
+      {
+        "version": "0.1.1",
+        "release_date": "2026-07-26",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.time_control_assistant.aul2",
+            "XXH3_128": "18b5281397475f610538757944d2e2fc"
+          },
+          {
+            "path": "{scriptsDir}/time_control_assistant/@time_control_assistant.tra2.tra2",
+            "XXH3_128": "be91a18a985d6b5f9e6cbaaf03137922"
+          },
+          {
+            "path": "{scriptsDir}/time_control_assistant/time_control_assistant.lua",
+            "XXH3_128": "cd88e2fc74ae6e7ffb6a064b8b5709c1"
           }
         ]
       }
