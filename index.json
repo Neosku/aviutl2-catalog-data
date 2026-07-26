@@ -36324,7 +36324,7 @@
     "description": "./md/tikubonn.TVSubtitle.md",
     "author": "ちくぼん",
     "repoURL": "https://tikubonn.booth.pm/items/8626637",
-    "latest-version": "v1.1.0",
+    "latest-version": "v1.1.1",
     "popularity": 83,
     "trend": 88,
     "licenses": [
@@ -36332,7 +36332,7 @@
         "type": "カスタムライセンス",
         "isCustom": true,
         "copyrights": [],
-        "licenseBody": "Copyright © 2026 tikubonn\n\nテレビ字幕スクリプト(以降、本ソフトウェアと呼称する)を利用する際には、必ずこれらの規約を遵守してください。\n\n* 本ソフトウェアの改変を許可します。\n* 本ソフトウェアの改変の有無に関わらず、本ソフトウェアとその派生物の再配布を禁止します。\n* 本ソフトウェアの利用により生じた直接的・間接的な損害について、当方は一切の責任を負いません。\n  本ソフトウェアは現状有姿で提供され、その正確性や適合性を保証するものではありません。\n* 本ソフトウェアによって生成された成果物を商用・非商用に関わらず自由に配布することができます。\n* 本ソフトウェアによって生成された成果物を配布する際にクレジット表記をする必要はありません。\n* 本利用規約は予告なく変更される場合があります。"
+        "licenseBody": "------------------\nTVSubtitle License\n------------------\n\nCopyright © 2026 tikubonn\n\nテレビ字幕スクリプト(以降、本ソフトウェアと呼称する)を利用する際には、必ずこれらの規約を遵守してください。\n\n* 本ソフトウェアの改変を許可します。\n* 本ソフトウェアの改変の有無に関わらず、本ソフトウェアとその派生物の再配布を禁止します。\n* 本ソフトウェアの利用により生じた直接的・間接的な損害について、当方は一切の責任を負いません。\n  本ソフトウェアは現状有姿で提供され、その正確性や適合性を保証するものではありません。\n* 本ソフトウェアによって生成された成果物を商用・非商用に関わらず自由に配布することができます。\n* 本ソフトウェアによって生成された成果物を配布する際にクレジット表記をする必要はありません。\n* 本利用規約は予告なく変更される場合があります。\n\n---------------------------------\nAviUtl ExEdit2 Plugin SDK License\n---------------------------------\n\nThe MIT License\n\nCopyright (c) 2025 Kenkun\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
       }
     ],
     "tags": [
@@ -36352,7 +36352,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/9344825"
+        "booth": "https://booth.pm/downloadables/9352058"
       },
       "install": [
         {
@@ -36400,6 +36400,20 @@
           {
             "path": "{scriptsDir}/テレビ字幕/TVSubtitle.mod2",
             "XXH3_128": "000547fc6cc14f305a557abc709dfd23"
+          }
+        ]
+      },
+      {
+        "version": "v1.1.1",
+        "release_date": "2026-07-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/テレビ字幕/@テレビ字幕.anm2",
+            "XXH3_128": "00db2b1fa2615eea7a24503179654e05"
+          },
+          {
+            "path": "{scriptsDir}/テレビ字幕/TVSubtitle.mod2",
+            "XXH3_128": "9e435460c3a08c1696024305a1c2833c"
           }
         ]
       }

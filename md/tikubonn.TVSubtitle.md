@@ -49,7 +49,7 @@
 
 ## 対応環境
 
-- AviUtl ExEdit2 version 2.1.0
+- AviUtl ExEdit2 version 2.1.2
 
 ---
 
