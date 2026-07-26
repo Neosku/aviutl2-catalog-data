@@ -20385,7 +20385,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_ui_dressing/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_ui_dressing",
-    "latest-version": "r4",
+    "latest-version": "r5",
     "popularity": 2527,
     "trend": 295,
     "licenses": [
@@ -20497,6 +20497,16 @@
           {
             "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
             "XXH3_128": "21b2090262c4b6e0c490b67a4b883e09"
+          }
+        ]
+      },
+      {
+        "version": "r5",
+        "release_date": "2026-07-26",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
+            "XXH3_128": "64c8d92e2639588d01ca5cc27e3f543d"
           }
         ]
       }
@@ -23645,7 +23655,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v3.3.19",
+    "latest-version": "v3.3.20",
     "popularity": 716,
     "trend": 268,
     "licenses": [
@@ -24302,6 +24312,16 @@
           {
             "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
             "XXH3_128": "e343a85a71bbb07f5d43d7b233ac28f4"
+          }
+        ]
+      },
+      {
+        "version": "v3.3.20",
+        "release_date": "2026-07-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "536e9125c8cde7647104f67c1b0bc8ec"
           }
         ]
       }
