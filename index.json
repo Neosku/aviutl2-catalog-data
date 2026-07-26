@@ -1301,7 +1301,7 @@
     "description": "./md/rigaya.x264guiEx.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x264guiEx",
-    "latest-version": "4.10",
+    "latest-version": "4.11",
     "popularity": 26174,
     "trend": 1569,
     "licenses": [
@@ -1504,6 +1504,16 @@
             "XXH3_128": "f7b0c41bcb3960c73482595b61bf758c"
           }
         ]
+      },
+      {
+        "version": "4.11",
+        "release_date": "2026-07-26",
+        "file": [
+          {
+            "path": "{pluginsDir}/x264guiEx.auo2",
+            "XXH3_128": "718f210b8a0bdde45d875e1e8ab0b5e7"
+          }
+        ]
       }
     ]
   },
@@ -1515,7 +1525,7 @@
     "description": "./md/rigaya.x265guiEx.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x265guiEx",
-    "latest-version": "5.07",
+    "latest-version": "5.08",
     "popularity": 4712,
     "trend": 594,
     "licenses": [
@@ -1681,6 +1691,16 @@
           {
             "path": "{pluginsDir}/x265guiEx.auo2",
             "XXH3_128": "a177c13f7e8f3f7eb20f7d33f6474559"
+          }
+        ]
+      },
+      {
+        "version": "5.08",
+        "release_date": "2026-07-26",
+        "file": [
+          {
+            "path": "{pluginsDir}/x265guiEx.auo2",
+            "XXH3_128": "b445fe3c38563caf979aa165234737f9"
           }
         ]
       }
