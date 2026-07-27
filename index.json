@@ -37385,7 +37385,7 @@
     "description": "https://raw.githubusercontent.com/mugi995/Any_Shortcut_for_AviUtl2/refs/heads/main/README.md",
     "author": "Mugi995",
     "repoURL": "https://github.com/mugi995/Any_Shortcut_for_AviUtl2",
-    "latest-version": "v0.1.3",
+    "latest-version": "v0.1.4",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -37461,6 +37461,16 @@
           {
             "path": "{pluginsDir}/AnyShortcutforAviUtl2/Any_Shortcut_for_AviUtl2.aux2",
             "XXH3_128": "7e2056d11e6585b99ca424050415af5a"
+          }
+        ]
+      },
+      {
+        "version": "v0.1.4",
+        "release_date": "2026-07-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/AnyShortcutforAviUtl2/Any_Shortcut_for_AviUtl2.aux2",
+            "XXH3_128": "69a824e5b1f5a73bdac71650c2c0330b"
           }
         ]
       }
