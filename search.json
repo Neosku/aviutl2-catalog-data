@@ -3402,19 +3402,19 @@
   },
   {
     "id": "Mugi995.Any_Shortcut_for_AviUtl2",
-    "latest-version": "v0.1.2",
+    "latest-version": "v0.1.3",
     "checkType": {
       "type": "GitHub",
       "repo": "mugi995/Any_Shortcut_for_AviUtl2",
-      "regex": "^Any_Shortcut_for_AviUtl2.*\\.zip$",
+      "regex": "^Any_Shortcut_For_AviUtl2.*\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
           "paths": [
-            "plugin/Any_Shortcut_for_AviUtl2.aux2"
+            "AnyShortcutforAviUtl2/Any_Shortcut_for_AviUtl2.aux2"
           ],
           "recordPaths": [
-            "{pluginsDir}/Any_Shortcut_for_AviUtl2.aux2"
+            "{pluginsDir}/AnyShortcutforAviUtl2/Any_Shortcut_for_AviUtl2.aux2"
           ]
         }
       ]
