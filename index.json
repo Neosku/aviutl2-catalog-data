@@ -37341,7 +37341,7 @@
         "github": {
           "owner": "TranczMeq",
           "repo": "aviutl2-live-mcp",
-          "pattern": "TranczMeq.aviutl2-mcp-bridge-v0.1.0.au2pkg.zip"
+          "pattern": "TranczMeq.aviutl2-mcp-bridge-.*\\.au2pkg.zip"
         }
       },
       "install": [
