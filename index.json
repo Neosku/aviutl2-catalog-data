@@ -37376,5 +37376,84 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Mugi995.Any_Shortcut_for_AviUtl2",
+    "name": "Any Shortcut for AviUtl2",
+    "type": "汎用プラグイン",
+    "summary": "おそらくほぼあらゆる操作にショートカットを割り当てられるプラグイン",
+    "description": "https://raw.githubusercontent.com/mugi995/Any_Shortcut_for_AviUtl2/refs/heads/main/README.md",
+    "author": "Mugi995",
+    "repoURL": "https://github.com/mugi995/Any_Shortcut_for_AviUtl2",
+    "latest-version": "v0.1.2",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "mugi995"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "nc493997",
+    "tags": [
+      "ショートカット",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/Mugi995.Any_Shortcut_for_AviUtl2_thumbnail.png",
+        "infoImg": [
+          "./image/Mugi995.Any_Shortcut_for_AviUtl2_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "mugi995",
+          "repo": "Any_Shortcut_for_AviUtl2",
+          "pattern": "^Any_Shortcut_for_AviUtl2.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/plugin/Any_Shortcut_for_AviUtl2.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Any_Shortcut_for_AviUtl2.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.2",
+        "release_date": "2026-07-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/Any_Shortcut_for_AviUtl2.aux2",
+            "XXH3_128": "ba97bcd347154cda9853adea13ab9ff0"
+          }
+        ]
+      }
+    ]
   }
 ]
