@@ -3869,6 +3869,16 @@
             "XXH3_128": "6c656f3e738b362d868a95b9a493f2b5"
           }
         ]
+      },
+      {
+        "version": "r1282",
+        "release_date": "2026-07-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "1db9f2229acd61913f05bdce4ad8d59e"
+          }
+        ]
       }
     ]
   },
