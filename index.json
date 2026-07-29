@@ -37519,5 +37519,107 @@
         ]
       }
     ]
+  },
+  {
+    "id": "vandojapan.comfont",
+    "name": "comfont.aux2",
+    "type": "汎用プラグイン",
+    "summary": "PSDToolKit利用者向けの合成フォントもどきプラグイン",
+    "description": "https://raw.githubusercontent.com/vandojapan/comfont/refs/heads/main/readme.md",
+    "author": "4vando",
+    "repoURL": "https://github.com/vandojapan/comfont",
+    "latest-version": "0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "comfont contributors"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "sm46601360",
+    "tags": [
+      "テキスト",
+      "フォント"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/vandojapan.comfont_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vandojapan",
+          "repo": "comfont",
+          "pattern": "^vandojapan\\.comfont-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/comfont.aux2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/合成フォントテキスト.object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/合成フォント字幕.object",
+          "to": "{dataDir}/Alias"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/comfont.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/合成フォントテキスト.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/合成フォント字幕.object"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.1.0",
+        "release_date": "2026-07-28",
+        "file": [
+          {
+            "path": "{dataDir}/Alias/合成フォントテキスト.object",
+            "XXH3_128": "45360322c20aba69f8b6867ad485c10c"
+          },
+          {
+            "path": "{dataDir}/Alias/合成フォント字幕.object",
+            "XXH3_128": "a3156a6861288cd1e0ec847d6fdc2a28"
+          },
+          {
+            "path": "{pluginsDir}/comfont.aux2",
+            "XXH3_128": "bf548db7d82f44c336bd3150a0f01ddb"
+          }
+        ]
+      }
+    ]
   }
 ]
