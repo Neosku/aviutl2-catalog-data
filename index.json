@@ -2121,7 +2121,7 @@
     "description": "./md/rigaya.QSVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/QSVEnc",
-    "latest-version": "8.23",
+    "latest-version": "8.24",
     "popularity": 689,
     "trend": 203,
     "licenses": [
@@ -2457,6 +2457,16 @@
             "XXH3_128": "165d735db0fb5d6e772f19c06d69786e"
           }
         ]
+      },
+      {
+        "version": "8.24",
+        "release_date": "2026-08-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo2",
+            "XXH3_128": "a95d5845de8b406b05a85c0500e6ec2d"
+          }
+        ]
       }
     ]
   },
@@ -2635,7 +2645,7 @@
     "description": "./md/rigaya.VCEEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/VCEEnc",
-    "latest-version": "9.09",
+    "latest-version": "9.10",
     "popularity": 598,
     "trend": 158,
     "licenses": [
@@ -2819,6 +2829,16 @@
           {
             "path": "{pluginsDir}/VCEEnc.auo2",
             "XXH3_128": "afe98543d3ce343a4c84116b5e2d1888"
+          }
+        ]
+      },
+      {
+        "version": "9.10",
+        "release_date": "2026-08-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/VCEEnc.auo2",
+            "XXH3_128": "dd048d12708f6252c2d314fc12a77bd2"
           }
         ]
       }
