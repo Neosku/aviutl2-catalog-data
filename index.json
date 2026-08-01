@@ -27245,7 +27245,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/budoux.obj2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/budoux.obj2",
-    "latest-version": "0.2.1",
+    "latest-version": "0.2.2",
     "popularity": 722,
     "trend": 161,
     "licenses": [
@@ -27368,6 +27368,20 @@
           {
             "path": "{scriptsDir}/budoux.obj2.obj2",
             "XXH3_128": "39a7e14733596c5aa561cb9c0e0c3a07"
+          }
+        ]
+      },
+      {
+        "version": "0.2.2",
+        "release_date": "2026-08-01",
+        "file": [
+          {
+            "path": "{scriptsDir}/budoux.mod2",
+            "XXH3_128": "356d62b7c87fd510dd36acd3e0f9461a"
+          },
+          {
+            "path": "{scriptsDir}/budoux.obj2.obj2",
+            "XXH3_128": "b92a9b26f24f78907c75039d53df829c"
           }
         ]
       }
