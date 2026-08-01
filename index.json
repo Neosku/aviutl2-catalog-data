@@ -33261,6 +33261,10 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/voice_drop.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/voice-drop-config.json"
         }
       ]
     },
