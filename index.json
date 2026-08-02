@@ -28472,9 +28472,8 @@
     "summary": "Aviutl内でシンプルに録音できるプラグインです。",
     "description": "./md/Yuzuriha.SimpleRecorder.md",
     "author": "ゆずりは",
-    "originalAuthor": "aoytsk",
     "repoURL": "https://drive.google.com/drive/u/2/folders/1p3wHfas0d7fLNMffXFM2X6bJU9fW1dWt",
-    "latest-version": "v0.1",
+    "latest-version": "v0.2",
     "popularity": 387,
     "trend": 53,
     "licenses": [
@@ -28519,12 +28518,12 @@
     },
     "version": [
       {
-        "version": "v0.1",
-        "release_date": "2026-04-10",
+        "version": "v0.2",
+        "release_date": "2026-08-03",
         "file": [
           {
             "path": "{pluginsDir}/SimpleRecorder.aux2",
-            "XXH3_128": "41267e570f3ccc1ba469627afde4e47b"
+            "XXH3_128": "0c2d7d8e5c03a578cdffd104a87e9a47"
           }
         ]
       }
