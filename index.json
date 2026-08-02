@@ -28472,9 +28472,8 @@
     "summary": "Aviutl内でシンプルに録音できるプラグインです。",
     "description": "./md/Yuzuriha.SimpleRecorder.md",
     "author": "ゆずりは",
-    "originalAuthor": "aoytsk",
     "repoURL": "https://drive.google.com/drive/u/2/folders/1p3wHfas0d7fLNMffXFM2X6bJU9fW1dWt",
-    "latest-version": "v0.1",
+    "latest-version": "v0.2",
     "popularity": 387,
     "trend": 53,
     "licenses": [
@@ -28519,12 +28518,12 @@
     },
     "version": [
       {
-        "version": "v0.1",
-        "release_date": "2026-04-10",
+        "version": "v0.2",
+        "release_date": "2026-08-03",
         "file": [
           {
             "path": "{pluginsDir}/SimpleRecorder.aux2",
-            "XXH3_128": "41267e570f3ccc1ba469627afde4e47b"
+            "XXH3_128": "0c2d7d8e5c03a578cdffd104a87e9a47"
           }
         ]
       }
@@ -38196,6 +38195,71 @@
           {
             "path": "{scriptsDir}/@レイヤーグリッド表示.anm2",
             "XXH3_128": "7b52e2d4f1b1493472acc397920f312d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Yuzuriha.ChapterMarker",
+    "name": "チャプターマーカー読み込みプラグイン",
+    "type": "汎用プラグイン",
+    "summary": "Aviutl2でOBSチャプターマーカーを読み込むためのプラグインです",
+    "description": "./md/Yuzuriha.ChapterMarker.md",
+    "author": "ゆずりは",
+    "repoURL": "https://drive.google.com/drive/u/2/folders/1GhO8jXWakX3DZUptUNLVafKBb7Kmnnc0",
+    "latest-version": "v0.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "オブジェクト操作",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/Yuzuriha.ChapterMarker_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "19SPLo6-ihHGyiFeiAjLb28fxfZoQc-gs"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/AviUtl2_ChapterMaker.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/AviUtl2_ChapterMaker.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1",
+        "release_date": "2026-08-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/AviUtl2_ChapterMaker.aux2",
+            "XXH3_128": "5c0207a33500a787a595e144bc9b0644"
           }
         ]
       }
