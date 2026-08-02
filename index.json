@@ -18801,7 +18801,7 @@
     "description": "./md/sagami121.AudioEnc.md",
     "author": "3aGaM1",
     "repoURL": "https://github.com/sagami121/Aviutl2-AudioEnc",
-    "latest-version": "v1.4",
+    "latest-version": "v1.5",
     "popularity": 1179,
     "trend": 119,
     "licenses": [
@@ -18901,6 +18901,16 @@
           {
             "path": "{pluginsDir}/AudioEnc.auo2",
             "XXH3_128": "4fe985ef6aa8a270b4b2e69e0a51d823"
+          }
+        ]
+      },
+      {
+        "version": "v1.5",
+        "release_date": "2026-08-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/AudioEnc.auo2",
+            "XXH3_128": "ab0cee255a6ae85426c45c833e933892"
           }
         ]
       }
