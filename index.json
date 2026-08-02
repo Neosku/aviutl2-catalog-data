@@ -24892,7 +24892,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/quantizer.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/quantizer.aux2",
-    "latest-version": "0.2.2",
+    "latest-version": "0.2.3",
     "popularity": 1985,
     "trend": 605,
     "licenses": [
@@ -25048,6 +25048,16 @@
           {
             "path": "{pluginsDir}/quantizer.aux2",
             "XXH3_128": "3d7541b000d90baccaf69126834b8b4a"
+          }
+        ]
+      },
+      {
+        "version": "0.2.3",
+        "release_date": "2026-08-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/quantizer.aux2",
+            "XXH3_128": "25204d991ebc877b29e844684545818e"
           }
         ]
       }
