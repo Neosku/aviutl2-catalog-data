@@ -1,12 +1,12 @@
 [
   {
     "id": "Kenkun.AviUtlExEdit2",
-    "latest-version": "v2.1.3",
+    "latest-version": "v2.1.3a",
     "checkType": {
       "type": "URL",
       "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
-      "regex": "aviutl2_(v[0-9]+(?:\\.[0-9]+)+)\\.zip",
-      "version_extract": "v[0-9]+(?:\\.[0-9]+)+",
+      "regex": "aviutl2_(v[0-9]+(?:\\.[0-9]+)+[a-zA-Z]*)\\.zip",
+      "version_extract": "v[0-9]+(?:\\.[0-9]+)+[a-zA-Z]*",
       "directTemplate": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2_[version_extract]_setup.exe",
       "hash-calc": [
         {
@@ -899,7 +899,7 @@
   },
   {
     "id": "sigma-axis.tl_walkaround2",
-    "latest-version": "v1.90",
+    "latest-version": "v2.00",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_tl_walkaround2",
@@ -1421,7 +1421,7 @@
   },
   {
     "id": "hebiiro.al2_ui_dressing",
-    "latest-version": "r5",
+    "latest-version": "r6",
     "checkType": {
       "type": "GitHub",
       "repo": "hebiiro/al2_ui_dressing",
@@ -1981,7 +1981,7 @@
   },
   {
     "id": "sevenc-nanashi.quantizer-aux2",
-    "latest-version": "0.2.2",
+    "latest-version": "0.2.3",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/quantizer.aux2",
@@ -2552,7 +2552,7 @@
   },
   {
     "id": "sigma-axis.translations_sigma-axis",
-    "latest-version": "r44",
+    "latest-version": "r45",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_translations_sigma-axis",
@@ -3215,7 +3215,7 @@
   },
   {
     "id": "sevenc-nanashi.enhanced_tracks-aux2",
-    "latest-version": "0.1.4",
+    "latest-version": "0.1.5",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/enhanced_tracks.aux2",
