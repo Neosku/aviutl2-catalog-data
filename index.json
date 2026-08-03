@@ -38219,5 +38219,85 @@
         ]
       }
     ]
+  },
+  {
+    "id": "natuneko722.OCRTextExtractorPlugin",
+    "name": "OCR文字抽出プラグイン",
+    "type": "汎用プラグイン",
+    "summary": "Windows 標準の OCR 機能で文字を抽出する汎用プラグインだよ",
+    "description": "https://raw.githubusercontent.com/natuneko722/OCRTextExtractorPlugin/main/OCRTextExtractorPlugin/README.md",
+    "author": "夏猫",
+    "repoURL": "https://github.com/natuneko722/OCRTextExtractorPlugin",
+    "latest-version": "v1.3.2",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "夏猫"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "nc495026",
+    "tags": [
+      "テキスト",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/natuneko722.OCRTextExtractorPlugin_thumbnail.png",
+        "infoImg": [
+          "./image/natuneko722.OCRTextExtractorPlugin_1.png",
+          "./image/natuneko722.OCRTextExtractorPlugin_2.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "natuneko722",
+          "repo": "OCRTextExtractorPlugin",
+          "pattern": "^OCRTextExtractorPlugin_v.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/OCRTextExtractorPlugin.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/OCRTextExtractorPlugin.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.3.2",
+        "release_date": "2026-08-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/OCRTextExtractorPlugin.aux2",
+            "XXH3_128": "5ebd9cc0f282eefe9b1108ba968aa9e8"
+          }
+        ]
+      }
+    ]
   }
 ]
