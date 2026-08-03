@@ -3949,6 +3949,16 @@
             "XXH3_128": "33d694f6c3f12a3beed73d83644627da"
           }
         ]
+      },
+      {
+        "version": "r1283",
+        "release_date": "2026-08-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "8dbe5e0979765db693e360760b836835"
+          }
+        ]
       }
     ]
   },
@@ -18801,7 +18811,7 @@
     "description": "./md/sagami121.AudioEnc.md",
     "author": "3aGaM1",
     "repoURL": "https://github.com/sagami121/Aviutl2-AudioEnc",
-    "latest-version": "v1.4",
+    "latest-version": "v1.5",
     "popularity": 1179,
     "trend": 119,
     "licenses": [
@@ -18901,6 +18911,16 @@
           {
             "path": "{pluginsDir}/AudioEnc.auo2",
             "XXH3_128": "4fe985ef6aa8a270b4b2e69e0a51d823"
+          }
+        ]
+      },
+      {
+        "version": "v1.5",
+        "release_date": "2026-08-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/AudioEnc.auo2",
+            "XXH3_128": "ab0cee255a6ae85426c45c833e933892"
           }
         ]
       }
@@ -28462,9 +28482,8 @@
     "summary": "Aviutl内でシンプルに録音できるプラグインです。",
     "description": "./md/Yuzuriha.SimpleRecorder.md",
     "author": "ゆずりは",
-    "originalAuthor": "aoytsk",
     "repoURL": "https://drive.google.com/drive/u/2/folders/1p3wHfas0d7fLNMffXFM2X6bJU9fW1dWt",
-    "latest-version": "v0.1",
+    "latest-version": "v0.2",
     "popularity": 387,
     "trend": 53,
     "licenses": [
@@ -28515,6 +28534,16 @@
           {
             "path": "{pluginsDir}/SimpleRecorder.aux2",
             "XXH3_128": "41267e570f3ccc1ba469627afde4e47b"
+          }
+        ]
+      },
+      {
+        "version": "v0.2",
+        "release_date": "2026-08-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/SimpleRecorder.aux2",
+            "XXH3_128": "0c2d7d8e5c03a578cdffd104a87e9a47"
           }
         ]
       }
@@ -38103,6 +38132,89 @@
           {
             "path": "{pluginsDir}/object_as_frame_selection.aux2",
             "XXH3_128": "32295d220dd7e6bba4a1bca7c3d95caf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "azurite.LayerGridView",
+    "name": "レイヤーグリッド表示",
+    "type": "スクリプト",
+    "summary": "指定したレイヤーのオブジェクトをグリッド状に表示するスクリプト",
+    "description": "https://raw.githubusercontent.com/azurite581/AviUtl2-LayerGridView/main/README.md",
+    "author": "azurite",
+    "repoURL": "https://github.com/azurite581/AviUtl2-LayerGridView",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "azurite"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "配置"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/azurite.LayerGridView_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "azurite581",
+          "repo": "AviUtl2-LayerGridView",
+          "pattern": "^LayerGridView-v.+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@レイヤーグリッド表示.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/レイヤーグリッド表示.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@レイヤーグリッド表示.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/レイヤーグリッド表示.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-08-02",
+        "file": [
+          {
+            "path": "{scriptsDir}/@レイヤーグリッド表示.anm2",
+            "XXH3_128": "7b52e2d4f1b1493472acc397920f312d"
           }
         ]
       }
