@@ -1,0 +1,33 @@
+{
+  "name": "PSDToolKit AviUtl1 LipSync",
+  "author": "ただのごみ",
+  "tags": [
+    "PSD",
+    "口パク",
+    "音声"
+  ],
+  "description": {
+    "summary": "PSDToolKit2でAviUtl1風の口パクを再現",
+    "markdownSource": "https://raw.githubusercontent.com/gomi1124/PSDToolKit-AviUtl1-LipSync/main/README.md"
+  },
+  "changelog": {
+    "markdownSource": "https://raw.githubusercontent.com/gomi1124/PSDToolKit-AviUtl1-LipSync/main/CHANGELOG.md"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "copyrights": [
+        {
+          "years": "2026",
+          "holder": "gomi1124"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "thumbnail": "https://raw.githubusercontent.com/gomi1124/PSDToolKit-AviUtl1-LipSync/main/catalog/images/thumbnail.png",
+    "detailImages": [
+      "https://raw.githubusercontent.com/gomi1124/PSDToolKit-AviUtl1-LipSync/main/catalog/images/detail.png"
+    ]
+  }
+}

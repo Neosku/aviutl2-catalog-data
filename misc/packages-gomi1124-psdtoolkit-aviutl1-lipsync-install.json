@@ -1,0 +1,61 @@
+{
+  "relations": {
+    "requires": [
+      "oov.PSDToolKit2"
+    ]
+  },
+  "installation": {
+    "source": {
+      "type": "githubRelease",
+      "owner": "gomi1124",
+      "repo": "PSDToolKit-AviUtl1-LipSync",
+      "pattern": "^PSDToolKit_AviUtl1LipSync_v.*\\.au2pkg\\.zip$"
+    },
+    "installSteps": [
+      {
+        "action": "download"
+      },
+      {
+        "action": "extract"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/PSDToolKit/LipSyncAviUtl1.lua",
+        "to": "{scriptsDir}/PSDToolKit"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/PSDToolKit/LipSyncAviUtl1.mod2",
+        "to": "{scriptsDir}/PSDToolKit"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/PSDToolKit/LipSyncAviUtl1MtULegacy.lua",
+        "to": "{scriptsDir}/PSDToolKit"
+      },
+      {
+        "action": "copy",
+        "from": "{tmp}/Script/PSDToolKit/AviUtl1LipSyncTools",
+        "to": "{scriptsDir}/PSDToolKit/AviUtl1LipSyncTools"
+      }
+    ],
+    "uninstallSteps": [
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/PSDToolKit/LipSyncAviUtl1.lua"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/PSDToolKit/LipSyncAviUtl1.mod2"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/PSDToolKit/LipSyncAviUtl1MtULegacy.lua"
+      },
+      {
+        "action": "delete",
+        "path": "{scriptsDir}/PSDToolKit/AviUtl1LipSyncTools"
+      }
+    ]
+  }
+}
