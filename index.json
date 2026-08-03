@@ -28518,6 +28518,16 @@
     },
     "version": [
       {
+        "version": "v0.1",
+        "release_date": "2026-04-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/SimpleRecorder.aux2",
+            "XXH3_128": "41267e570f3ccc1ba469627afde4e47b"
+          }
+        ]
+      },
+      {
         "version": "v0.2",
         "release_date": "2026-08-03",
         "file": [
