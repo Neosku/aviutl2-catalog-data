@@ -1,3 +1,7 @@
+# External Audio Processing 2 (EAP2)、
+# [ハリボテプラグイン](https://github.com/rokujyushi/Haribote) プラグインを
+# 先に導入して下さい。（どちらもカタログにあります。）
+# またオブジェクトの長さの自動設定機能を利用しない場合は利用しないで下さい。
 - ## midi2EAP2.lua
   ### 概要
   ドロップしたmidiファイルからExternal Audio Processing 2 MIDI Visualizerオブジェクトのobjectファイルを生成する。  
