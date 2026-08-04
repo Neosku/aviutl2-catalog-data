@@ -65,7 +65,7 @@
   },
   {
     "id": "rigaya.x264guiEx",
-    "latest-version": "4.11",
+    "latest-version": "4.12",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/x264guiEx",
@@ -85,7 +85,7 @@
   },
   {
     "id": "rigaya.x265guiEx",
-    "latest-version": "5.08",
+    "latest-version": "5.09",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/x265guiEx",
@@ -105,7 +105,7 @@
   },
   {
     "id": "rigaya.NVEnc",
-    "latest-version": "9.29",
+    "latest-version": "9.30",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/NVEnc",
@@ -185,7 +185,7 @@
   },
   {
     "id": "rigaya.svtAV1guiEx",
-    "latest-version": "2.11",
+    "latest-version": "2.12",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/svtAV1guiEx",
@@ -2966,7 +2966,7 @@
   },
   {
     "id": "Fuji.voice_drop",
-    "latest-version": "v0.2.0",
+    "latest-version": "v0.2.1",
     "checkType": {
       "type": "GitHub",
       "repo": "Fuji07-2525/voice-drop",
