@@ -3419,5 +3419,91 @@
         }
       ]
     }
+  },
+  {
+    "id": "vandojapan.comfont",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vandojapan/comfont",
+      "regex": "^vandojapan\\.comfont-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Alias/合成フォントテキスト.object",
+            "Alias/合成フォント字幕.object",
+            "Plugin/comfont.aux2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Alias/合成フォントテキスト.object",
+            "{dataDir}/Alias/合成フォント字幕.object",
+            "{pluginsDir}/comfont.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.object_as_frame_selection-aux2",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/object_as_frame_selection.aux2",
+      "regex": "^sevenc-nanashi\\.object_as_frame_selection-aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Language/English.object_as_frame_selection-aux2.aul2",
+            "Plugin/object_as_frame_selection.aux2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/English.object_as_frame_selection-aux2.aul2",
+            "{pluginsDir}/object_as_frame_selection.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "azurite.LayerGridView",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "azurite581/AviUtl2-LayerGridView",
+      "regex": "^LayerGridView-v.+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@レイヤーグリッド表示.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@レイヤーグリッド表示.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "natuneko722.OCRTextExtractorPlugin",
+    "latest-version": "v1.3.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "natuneko722/OCRTextExtractorPlugin",
+      "regex": "^OCRTextExtractorPlugin_v.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "OCRTextExtractorPlugin.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/OCRTextExtractorPlugin.aux2"
+          ]
+        }
+      ]
+    }
   }
 ]
