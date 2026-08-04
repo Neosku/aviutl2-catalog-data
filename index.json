@@ -1321,7 +1321,7 @@
     "description": "./md/rigaya.x264guiEx.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x264guiEx",
-    "latest-version": "4.11",
+    "latest-version": "4.12",
     "popularity": 28620,
     "trend": 4026,
     "licenses": [
@@ -1534,6 +1534,16 @@
             "XXH3_128": "718f210b8a0bdde45d875e1e8ab0b5e7"
           }
         ]
+      },
+      {
+        "version": "4.12",
+        "release_date": "2026-08-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/x264guiEx.auo2",
+            "XXH3_128": "0ca77bbae376d918362a799a224853c3"
+          }
+        ]
       }
     ]
   },
@@ -1545,7 +1555,7 @@
     "description": "./md/rigaya.x265guiEx.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x265guiEx",
-    "latest-version": "5.08",
+    "latest-version": "5.09",
     "popularity": 5140,
     "trend": 1229,
     "licenses": [
@@ -1723,6 +1733,16 @@
             "XXH3_128": "b445fe3c38563caf979aa165234737f9"
           }
         ]
+      },
+      {
+        "version": "5.09",
+        "release_date": "2026-08-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/x265guiEx.auo2",
+            "XXH3_128": "2d1db5ef21be0ff3d723af9340a19a77"
+          }
+        ]
       }
     ]
   },
@@ -1734,7 +1754,7 @@
     "description": "./md/rigaya.NVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/NVEnc",
-    "latest-version": "9.29",
+    "latest-version": "9.30",
     "popularity": 3701,
     "trend": 996,
     "licenses": [
@@ -2148,6 +2168,16 @@
           {
             "path": "{pluginsDir}/NVEnc.auo2",
             "XXH3_128": "c72597e5b9e1e3e96be4e834d8c71071"
+          }
+        ]
+      },
+      {
+        "version": "9.30",
+        "release_date": "2026-08-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "bec7f46648990ca0454c7ab0e2f157c6"
           }
         ]
       }
@@ -2912,7 +2942,7 @@
     "description": "拡張 SVT-AV1 出力(GUI) Ex (svtAV1guiEx) は、SVT-AV1を使用してエンコードを行うAviutlの出力プラグインです。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/svtAV1guiEx",
-    "latest-version": "2.11",
+    "latest-version": "2.12",
     "popularity": 497,
     "trend": 142,
     "licenses": [
@@ -3116,6 +3146,16 @@
           {
             "path": "{pluginsDir}/svtAV1guiEx.auo2",
             "XXH3_128": "731ac10a9714110e23b57ed367bd2e9e"
+          }
+        ]
+      },
+      {
+        "version": "2.12",
+        "release_date": "2026-08-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/svtAV1guiEx.auo2",
+            "XXH3_128": "105df5d1bb6d9333ba5b9b5738864b94"
           }
         ]
       }
@@ -33509,7 +33549,7 @@
     "description": "https://raw.githubusercontent.com/Fuji07-2525/voice-drop/main/README.md",
     "author": "Fuji",
     "repoURL": "https://github.com/Fuji07-2525/voice-drop",
-    "latest-version": "v0.2.0",
+    "latest-version": "v0.2.1",
     "popularity": 241,
     "trend": 127,
     "licenses": [
@@ -33585,6 +33625,16 @@
           {
             "path": "{pluginsDir}/voice_drop.aux2",
             "XXH3_128": "fb70a6eb895c847edd22ea39f3d90e0f"
+          }
+        ]
+      },
+      {
+        "version": "v0.2.1",
+        "release_date": "2026-08-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/voice_drop.aux2",
+            "XXH3_128": "8067e29e344f22614c4b79f6bac9f0ed"
           }
         ]
       }
