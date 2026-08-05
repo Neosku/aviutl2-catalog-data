@@ -21391,7 +21391,7 @@
     "author": "Nanashi.",
     "originalAuthor": "Tinted Theming",
     "repoURL": "https://github.com/sevenc-nanashi/tinted-aviutl2",
-    "latest-version": "0.3.1",
+    "latest-version": "0.3.2",
     "popularity": 459,
     "trend": 102,
     "licenses": [
@@ -21540,6 +21540,16 @@
           {
             "path": "{pluginsDir}/tinted-aviutl2.aux2",
             "XXH3_128": "0e1d956a3f96917f1c28a7be610a41cb"
+          }
+        ]
+      },
+      {
+        "version": "0.3.2",
+        "release_date": "2026-08-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/tinted-aviutl2.aux2",
+            "XXH3_128": "482e14906ab5fca017965fa3d32230bf"
           }
         ]
       }
