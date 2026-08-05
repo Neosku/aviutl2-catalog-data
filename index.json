@@ -24025,7 +24025,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v3.3.22",
+    "latest-version": "v3.3.21",
     "popularity": 761,
     "trend": 248,
     "licenses": [
@@ -24702,16 +24702,6 @@
           {
             "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
             "XXH3_128": "7a4ce5196ce553819f9a5f1479273178"
-          }
-        ]
-      },
-      {
-        "version": "v3.3.22",
-        "release_date": "2026-08-05",
-        "file": [
-          {
-            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
-            "XXH3_128": "6d33466e7cfbca9bd750aaba35228afa"
           }
         ]
       }
@@ -38641,6 +38631,82 @@
           {
             "path": "{scriptsDir}/HL_Ezing/HL_Ezing.tra2",
             "XXH3_128": "1d967897f8fe4b4f65ad4c0c85f7431e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Motion",
+    "name": "音楽同期アニメーション",
+    "type": "フィルタプラグイン",
+    "summary": "音楽に合わせて画像を動かすフィルター",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_Motion/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_Motion/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "音楽同期",
+      "アニメーション",
+      "MIDI"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_Motion_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_Motion",
+          "pattern": "^SYNC_Motion\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_Motion",
+          "to": "{pluginsDir}/SYNC_Motion"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_Motion"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-08-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_Motion/SYNC_Motion_Filter.auf2",
+            "XXH3_128": "091eaa5e4c9b376ca2fa9e6b19be3859"
           }
         ]
       }
