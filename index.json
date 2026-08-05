@@ -38665,5 +38665,81 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_PianoRoll",
+    "name": "SYNC PianoRoll",
+    "type": "汎用プラグイン",
+    "summary": "音楽に同期した鍵盤とノートを表示",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_PianoRoll/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_PianoRoll/",
+    "latest-version": "v1.0.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "音楽",
+      "MIDI",
+      "ピアノロール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_PianoRoll_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_PianoRoll",
+          "pattern": "^SYNC_PianoRoll\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_PianoRoll",
+          "to": "{pluginsDir}/SYNC_PianoRoll"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_PianoRoll"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-08-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_PianoRoll/SYNC_PianoRoll_Filter.auf2",
+            "XXH3_128": "0e94a8a2baee221b529558de318e4da7"
+          }
+        ]
+      }
+    ]
   }
 ]
