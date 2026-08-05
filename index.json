@@ -38741,5 +38741,86 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.Aul2MIRAI",
+    "name": "AI MIRAI",
+    "type": "汎用プラグイン",
+    "summary": "AIからAviUtl2を安全に操作するインターフェイス",
+    "description": "https://raw.githubusercontent.com/vramwiz/Aul2MIRAI/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/Aul2MIRAI/",
+    "latest-version": "v1.0.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "AI",
+      "オブジェクト操作",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.Aul2MIRAI_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "Aul2MIRAI",
+          "pattern": "^Aul2MIRAI\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Aul2MIRAI",
+          "to": "{pluginsDir}/Aul2MIRAI"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Aul2MIRAI"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-07-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/Aul2MIRAI/Aul2MIRAI.aux2",
+            "XXH3_128": "65ff1ad13803a5af1cb7c0226d55b84a"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-07-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/Aul2MIRAI/Aul2MIRAI.aux2",
+            "XXH3_128": "65ff1ad13803a5af1cb7c0226d55b84a"
+          }
+        ]
+      }
+    ]
   }
 ]
