@@ -1,5 +1,5 @@
 ## External Audio Processing 2 (EAP2)、
-## CMZDrops2、
+## GCMZDrops2、
 ## [ハリボテプラグイン](https://github.com/rokujyushi/Haribote) プラグインを
 ## 先に導入して下さい。（どちらもカタログにあります。）
 # またオブジェクトの長さの自動設定機能を利用しない場合は
