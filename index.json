@@ -38704,7 +38704,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_PianoRoll/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/SYNC_PianoRoll/",
-    "latest-version": "v1.0.1",
+    "latest-version": "v1.0.2",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -38750,12 +38750,21 @@
           "action": "copy",
           "from": "{tmp}/SYNC_PianoRoll",
           "to": "{pluginsDir}/SYNC_PianoRoll"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_PianoRoll/Object",
+          "to": "{dataDir}/Alias/ピアノロール"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/SYNC_PianoRoll"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/ピアノロール"
         }
       ]
     },
@@ -38767,6 +38776,16 @@
           {
             "path": "{pluginsDir}/SYNC_PianoRoll/SYNC_PianoRoll_Filter.auf2",
             "XXH3_128": "0e94a8a2baee221b529558de318e4da7"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.2",
+        "release_date": "2026-08-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_PianoRoll/SYNC_PianoRoll_Filter.auf2",
+            "XXH3_128": "0017ee108eedb9824917fcba26972741"
           }
         ]
       }
