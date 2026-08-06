@@ -899,7 +899,7 @@
   },
   {
     "id": "sigma-axis.tl_walkaround2",
-    "latest-version": "v2.10",
+    "latest-version": "v2.22",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_tl_walkaround2",
@@ -1521,7 +1521,7 @@
   },
   {
     "id": "sevenc-nanashi.tinted-aviutl2",
-    "latest-version": "0.3.1",
+    "latest-version": "0.3.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/tinted-aviutl2",
@@ -2101,7 +2101,7 @@
   },
   {
     "id": "sevenc-nanashi.modify_group_num_layers-aux2",
-    "latest-version": "0.2.0",
+    "latest-version": "0.2.1",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/modify_group_num_layers.aux2",
