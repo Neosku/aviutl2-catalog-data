@@ -39009,5 +39009,76 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.Shake_PPP",
+    "name": "胸揺れ",
+    "type": "フィルタプラグイン",
+    "summary": "画像の一部分をオブジェクト移動に合わせて柔らかく揺らすフィルター",
+    "description": "https://raw.githubusercontent.com/vramwiz/Shake_PPP/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/Shake_PPP",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "揺れ",
+      "変形",
+      "ベジェ曲線"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.Shake_PPP_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "Shake_PPP",
+          "pattern": "^Shake_PPP\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Shake_PPP",
+          "to": "{pluginsDir}/Shake_PPP"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Shake_PPP"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-08-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/Shake_PPP/Shake_PPP.auf2",
+            "XXH3_128": "0927a0d99fc8157299174bd96eaaa7be"
+          }
+        ]
+      }
+    ]
   }
 ]
