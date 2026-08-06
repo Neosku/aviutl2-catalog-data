@@ -38928,5 +38928,67 @@
         ]
       }
     ]
+  },
+  {
+    "id": "korarei.Handle",
+    "name": "Handle",
+    "type": "スクリプト",
+    "summary": "画像の四隅にハンドルアイコンを追加するスクリプト",
+    "description": "./md/korarei.Handle.md",
+    "author": "Korarei",
+    "repoURL": "https://gist.github.com/korarei/7a8aefa23a12ea97d02cc7943e05a4dd",
+    "latest-version": "r1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "配置"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/korarei.Handle_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://gist.githubusercontent.com/korarei/7a8aefa23a12ea97d02cc7943e05a4dd/raw/68d986a2350fbb0569a38de991701044381ed406/Handle.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Handle.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Handle.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r1",
+        "release_date": "2026-08-06",
+        "file": [
+          {
+            "path": "{scriptsDir}/Handle.anm2",
+            "XXH3_128": "ad908c39a91c1b4b4f1266526af1e920"
+          }
+        ]
+      }
+    ]
   }
 ]
