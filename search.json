@@ -3505,5 +3505,107 @@
         }
       ]
     }
+  },
+  {
+    "id": "halkun19.HL_Ezing",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Hallkun19/HL_Ezing-for-aul2",
+      "regex": "^HL_Ezing-v.+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/HL_Ezing.aux2",
+            "Script/HL_Ezing/HL_Ezing.tra2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/HL_Ezing.aux2",
+            "{scriptsDir}/HL_Ezing/HL_Ezing.tra2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_PianoRoll",
+    "latest-version": "v1.0.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_PianoRoll",
+      "regex": "^SYNC_PianoRoll\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_PianoRoll/SYNC_PianoRoll_Filter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_PianoRoll/SYNC_PianoRoll_Filter.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.Aul2MIRAI",
+    "latest-version": "v1.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/Aul2MIRAI",
+      "regex": "^Aul2MIRAI\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Aul2MIRAI/Aul2MIRAI.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Aul2MIRAI/Aul2MIRAI.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Motion",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_Motion",
+      "regex": "^SYNC_Motion\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_Motion/SYNC_Motion_Filter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_Motion/SYNC_Motion_Filter.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.Shake_PPP",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/Shake_PPP",
+      "regex": "^Shake_PPP\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Shake_PPP/Shake_PPP.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Shake_PPP/Shake_PPP.auf2"
+          ]
+        }
+      ]
+    }
   }
 ]
