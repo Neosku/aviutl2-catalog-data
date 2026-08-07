@@ -39028,7 +39028,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Shake_PPP/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/Shake_PPP",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -39086,6 +39086,16 @@
           {
             "path": "{pluginsDir}/Shake_PPP/Shake_PPP.auf2",
             "XXH3_128": "0927a0d99fc8157299174bd96eaaa7be"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-08-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/Shake_PPP/Shake_PPP.auf2",
+            "XXH3_128": "79771e2ad63e868a114a967176b33ba2"
           }
         ]
       }
