@@ -3607,5 +3607,27 @@
         }
       ]
     }
+  },
+  {
+    "id": "sevenc-nanashi.reset_frame_selection_on_focus-aux2",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/reset_frame_selection_on_focus.aux2",
+      "regex": "^sevenc-nanashi\\.reset_frame_selection_on_focus-aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Language/English.reset_frame_selection_on_focus-aux2.aul2",
+            "Plugin/reset_frame_selection_on_focus.aux2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/English.reset_frame_selection_on_focus-aux2.aul2",
+            "{pluginsDir}/reset_frame_selection_on_focus.aux2"
+          ]
+        }
+      ]
+    }
   }
 ]
