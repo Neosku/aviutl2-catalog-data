@@ -39236,41 +39236,14 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/GetColor-V2r/@GetColor-V2R.anm",
-          "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/GetColor-V2r/@MorphDots.anm",
-          "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/GetColor-V2r/getcolortools.lua",
-          "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/GetColor-V2r/noise.lua",
-          "to": "{scriptsDir}"
+          "from": "{tmp}/GetColor-V2r",
+          "to": "{scriptsDir}/GetColor-V2r"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{scriptsDir}/@GetColor-V2R.anm"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/@MorphDots.anm"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/getcolortools.lua"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/noise.lua"
+          "path": "{scriptsDir}/GetColor-V2r"
         }
       ]
     },
@@ -39280,19 +39253,19 @@
         "release_date": "2017-08-28",
         "file": [
           {
-            "path": "{scriptsDir}/@MorphDots.anm",
+            "path": "{scriptsDir}/GetColor-V2r/@MorphDots.anm",
             "XXH3_128": "b92b69a2972a62d61a6bdedeaa8cbe8e"
           },
           {
-            "path": "{scriptsDir}/@GetColor-V2R.anm",
+            "path": "{scriptsDir}/GetColor-V2r/@GetColor-V2R.anm",
             "XXH3_128": "c1b94175d370412f46fcdfc0381250e8"
           },
           {
-            "path": "{scriptsDir}/getcolortools.lua",
+            "path": "{scriptsDir}/GetColor-V2r/getcolortools.lua",
             "XXH3_128": "0009477ed7ccea43beb5449643ff3ab3"
           },
           {
-            "path": "{scriptsDir}/noise.lua",
+            "path": "{scriptsDir}/GetColor-V2r/noise.lua",
             "XXH3_128": "5d96049ccf74b41e6f06c4f2bca4e56b"
           }
         ]
