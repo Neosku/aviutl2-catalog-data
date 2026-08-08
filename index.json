@@ -20434,6 +20434,10 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/English.rusty_metronome_plugin.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/rusty_metronome.aux2.data"
         }
       ]
     },
