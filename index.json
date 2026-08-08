@@ -15438,6 +15438,10 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/English.rusty_local_alias_plugin.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/rusty_local_alias.aux2.data"
         }
       ]
     },
