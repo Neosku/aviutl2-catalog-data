@@ -25279,6 +25279,10 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/English.quantizer_aux2.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/quantizer.aux2.data"
         }
       ]
     },
