@@ -17607,6 +17607,10 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/English.rusty_scripts_search_plugin.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/rusty_scripts_search.aux2.data"
         }
       ]
     },
