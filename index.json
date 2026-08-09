@@ -39521,5 +39521,95 @@
         ]
       }
     ]
+  },
+  {
+    "id": "ronin_gw.mojie",
+    "name": "mojie",
+    "type": "フィルタプラグイン",
+    "summary": "登録した文字列を画像に置き換えるプラグイン",
+    "description": "https://raw.githubusercontent.com/ronin-gw/aviutl2_mojie/refs/heads/master/README.md",
+    "author": "Andy.F",
+    "repoURL": "https://github.com/ronin-gw/aviutl2_mojie",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "Andy.F"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "sm46648367",
+    "tags": [
+      "画像",
+      "テキスト",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/ronin_gw.mojie_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "ronin-gw",
+          "repo": "aviutl2_mojie",
+          "pattern": "^mojie.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/mojie/mojie.aux2",
+          "to": "{pluginsDir}/mojie"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/mojieテキスト.object",
+          "to": "{dataDir}/Alias"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/mojie/mojie.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/mojieテキスト.object"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-08-09",
+        "file": [
+          {
+            "path": "{pluginsDir}/mojie/mojie.aux2",
+            "XXH3_128": "66376fa69f982c2abca7cf6da76b7c29"
+          },
+          {
+            "path": "{dataDir}/Alias/mojieテキスト.object",
+            "XXH3_128": "0b94305f8fdbe7f55a4bd3b1295b24a9"
+          }
+        ]
+      }
+    ]
   }
 ]
