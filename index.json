@@ -2588,7 +2588,7 @@
     "description": "ffmpegOut は、ffmpegを使用してエンコードを行うAviutlの出力プラグインです。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/ffmpegOut",
-    "latest-version": "2.06",
+    "latest-version": "2.07",
     "popularity": 2191,
     "trend": 189,
     "licenses": [
@@ -2742,6 +2742,16 @@
           {
             "path": "{pluginsDir}/ffmpegOut.auo2",
             "XXH3_128": "0734092b054e302904d8bf9d8ab6794c"
+          }
+        ]
+      },
+      {
+        "version": "2.07",
+        "release_date": "2026-08-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/ffmpegOut.auo2",
+            "XXH3_128": "634c15c25260e60b1ed242c997e6e862"
           }
         ]
       }
