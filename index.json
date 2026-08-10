@@ -32657,7 +32657,7 @@
     "description": "./md/VRAMWIZ.VW_Media_Input.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/VW_Media_Input/",
-    "latest-version": "v1.0.3",
+    "latest-version": "v1.0.4",
     "popularity": 978,
     "trend": 222,
     "licenses": [
@@ -32789,6 +32789,16 @@
           {
             "path": "{pluginsDir}/VW_Media_Input/VW_Media_Input.aui2",
             "XXH3_128": "8344b40cbd56fd9a5b3eae1b532a2cb4"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.4",
+        "release_date": "2026-08-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/VW_Media_Input/VW_Media_Input.aui2",
+            "XXH3_128": "8f972048b250dc5d4dc3be1f5bb0129e"
           }
         ]
       }
