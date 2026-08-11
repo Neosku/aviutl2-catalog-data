@@ -24337,7 +24337,7 @@
         "github": {
           "owner": "vramwiz",
           "repo": "Syncroh2-site",
-          "pattern": "^Syncroh2_Setup.*\\.exe$"
+          "pattern": "^Syncroh2_Desktop\\.zip$"
         }
       },
       "install": [
@@ -24345,24 +24345,107 @@
           "action": "download"
         },
         {
-          "action": "run",
-          "path": "{tmp}/Syncroh2_Setup.exe",
-          "args": [
-            "/VERYSILENT",
-            "/catalog=1"
-          ],
-          "elevate": true
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/sk4d.dll",
+          "to": "{pluginsDir}/Syncroh2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Syncroh2_Extension2.aux2",
+          "to": "{pluginsDir}/Syncroh2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Syncroh2_Filter_PSDAnime.auf2",
+          "to": "{pluginsDir}/Syncroh2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Syncroh2_Filter_PSDDraw.auf2",
+          "to": "{pluginsDir}/Syncroh2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Syncroh2_Filter_SerifDraw.auf2",
+          "to": "{pluginsDir}/Syncroh2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Syncroh2_Input_Base.aui2",
+          "to": "{pluginsDir}/Syncroh2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Syncroh2_Desktop.exe",
+          "to": "{pluginsDir}/Syncroh2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/README.txt",
+          "to": "{pluginsDir}/Syncroh2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@Syncroh2_Script.obj2",
+          "to": "{scriptsDir}/Syncroh2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Syncroh2_Module.mod2",
+          "to": "{scriptsDir}/Syncroh2"
         }
       ],
       "uninstall": [
         {
-          "action": "run",
-          "path": "{pluginsDir}/Syncroh2/unins000.exe",
-          "args": [
-            "/VERYSILENT",
-            "/catalog=1"
-          ],
-          "elevate": true
+          "action": "delete",
+          "path": "{pluginsDir}/Syncroh2/sk4d.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Syncroh2/Syncroh2_Extension2.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Syncroh2/Syncroh2_Filter_PSDAnime.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Syncroh2/Syncroh2_Filter_PSDDraw.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Syncroh2/Syncroh2_Filter_SerifDraw.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Syncroh2/Syncroh2_Input_Base.aui2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Syncroh2/Syncroh2_Desktop.exe"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Syncroh2/README.txt"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Syncroh2/Syncroh2_Module.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Syncroh2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Syncroh2"
         }
       ]
     },
@@ -25012,8 +25095,8 @@
         "release_date": "2026-08-12",
         "file": [
           {
-            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
-            "XXH3_128": "e149a91b18d9b426c128361672882990"
+            "path": "{pluginsDir}/Syncroh2/Syncroh2_Extension2.aux2",
+            "XXH3_128": "631aecf5774f9aa7a73fb6a08abbb14c"
           }
         ]
       }
