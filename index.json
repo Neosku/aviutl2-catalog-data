@@ -33905,7 +33905,7 @@
     "description": "https://raw.githubusercontent.com/Fuji07-2525/voice-drop/main/README.md",
     "author": "Fuji",
     "repoURL": "https://github.com/Fuji07-2525/voice-drop",
-    "latest-version": "v0.2.1",
+    "latest-version": "v0.2.2",
     "popularity": 269,
     "trend": 160,
     "licenses": [
@@ -33991,6 +33991,16 @@
           {
             "path": "{pluginsDir}/voice_drop.aux2",
             "XXH3_128": "8067e29e344f22614c4b79f6bac9f0ed"
+          }
+        ]
+      },
+      {
+        "version": "v0.2.2",
+        "release_date": "2026-08-11",
+        "file": [
+          {
+            "path": "{pluginsDir}/voice_drop.aux2",
+            "XXH3_128": "d9421e8e54a6bd6a1740abc1bbbcf979"
           }
         ]
       }
