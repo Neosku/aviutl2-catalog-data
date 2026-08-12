@@ -1565,7 +1565,7 @@
     "description": "./md/rigaya.x265guiEx.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x265guiEx",
-    "latest-version": "5.09",
+    "latest-version": "5.10",
     "popularity": 5308,
     "trend": 1335,
     "licenses": [
@@ -1751,6 +1751,16 @@
           {
             "path": "{pluginsDir}/x265guiEx.auo2",
             "XXH3_128": "2d1db5ef21be0ff3d723af9340a19a77"
+          }
+        ]
+      },
+      {
+        "version": "5.10",
+        "release_date": "2026-08-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/x265guiEx.auo2",
+            "XXH3_128": "fe8ff572687d0cadc819e104a9ccbc8f"
           }
         ]
       }
@@ -24307,7 +24317,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v3.4.0",
+    "latest-version": "v3.4.2",
     "popularity": 781,
     "trend": 262,
     "licenses": [
@@ -25004,6 +25014,26 @@
           {
             "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
             "XXH3_128": "d67829b59778a9c9dd690ef11e3b5e73"
+          }
+        ]
+      },
+      {
+        "version": "v3.4.1",
+        "release_date": "2026-08-12",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "e149a91b18d9b426c128361672882990"
+          }
+        ]
+      },
+      {
+        "version": "v3.4.2",
+        "release_date": "2026-08-12",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "9d4e089351bcdc1deaba68513ca26815"
           }
         ]
       }
