@@ -1565,7 +1565,7 @@
     "description": "./md/rigaya.x265guiEx.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x265guiEx",
-    "latest-version": "5.09",
+    "latest-version": "5.10",
     "popularity": 5308,
     "trend": 1335,
     "licenses": [
@@ -1751,6 +1751,16 @@
           {
             "path": "{pluginsDir}/x265guiEx.auo2",
             "XXH3_128": "2d1db5ef21be0ff3d723af9340a19a77"
+          }
+        ]
+      },
+      {
+        "version": "5.10",
+        "release_date": "2026-08-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/x265guiEx.auo2",
+            "XXH3_128": "fe8ff572687d0cadc819e104a9ccbc8f"
           }
         ]
       }
