@@ -1565,7 +1565,7 @@
     "description": "./md/rigaya.x265guiEx.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x265guiEx",
-    "latest-version": "5.09",
+    "latest-version": "5.10",
     "popularity": 5308,
     "trend": 1335,
     "licenses": [
@@ -1751,6 +1751,16 @@
           {
             "path": "{pluginsDir}/x265guiEx.auo2",
             "XXH3_128": "2d1db5ef21be0ff3d723af9340a19a77"
+          }
+        ]
+      },
+      {
+        "version": "5.10",
+        "release_date": "2026-08-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/x265guiEx.auo2",
+            "XXH3_128": "fe8ff572687d0cadc819e104a9ccbc8f"
           }
         ]
       }
@@ -24307,7 +24317,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Syncroh2-site/refs/heads/main/docs/index.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://vramwiz.github.io/Syncroh2-site/",
-    "latest-version": "v3.4.1",
+    "latest-version": "v3.4.2",
     "popularity": 781,
     "trend": 262,
     "licenses": [
@@ -25097,6 +25107,16 @@
           {
             "path": "{pluginsDir}/Syncroh2/Syncroh2_Extension2.aux2",
             "XXH3_128": "631aecf5774f9aa7a73fb6a08abbb14c"
+          }
+        ]
+      },
+      {
+        "version": "v3.4.2",
+        "release_date": "2026-08-12",
+        "file": [
+          {
+            "path": "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2",
+            "XXH3_128": "9d4e089351bcdc1deaba68513ca26815"
           }
         ]
       }
@@ -38082,6 +38102,7 @@
         "licenseBody": "MIT License\n\nCopyright (c) 2026 TypingEffect contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
       }
     ],
+    "niconiCommonsId": "sm46577701",
     "tags": [
       "テキスト",
       "カスタムオブジェクト",
