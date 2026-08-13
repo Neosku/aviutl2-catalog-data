@@ -39051,7 +39051,7 @@
     "description": "https://raw.githubusercontent.com/Hallkun19/HL_Ezing-for-aul2/refs/heads/master/README.md",
     "author": "はるくん / harukun19",
     "repoURL": "https://github.com/Hallkun19/HL_Ezing-for-aul2",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 180,
     "trend": 185,
     "licenses": [
@@ -39121,6 +39121,20 @@
           {
             "path": "{pluginsDir}/HL_Ezing.aux2",
             "XXH3_128": "2f22fb4b515a9841145da454cf5ef253"
+          },
+          {
+            "path": "{scriptsDir}/HL_Ezing/HL_Ezing.tra2",
+            "XXH3_128": "1d967897f8fe4b4f65ad4c0c85f7431e"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-08-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/HL_Ezing.aux2",
+            "XXH3_128": "0b3f8aba93adb8fd323573de40f78e2e"
           },
           {
             "path": "{scriptsDir}/HL_Ezing/HL_Ezing.tra2",
