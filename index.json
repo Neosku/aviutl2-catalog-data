@@ -39809,5 +39809,83 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.TurnOver_PPP",
+    "name": "パンチラ",
+    "type": "フィルタプラグイン",
+    "summary": "画像を2点でめくり固定辺を基準に風・波・重力で布をなびかせるフィルター",
+    "description": "https://raw.githubusercontent.com/vramwiz/TurnOver_PPP/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/TurnOver_PPP",
+    "latest-version": "v1.0.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "布",
+      "めくり",
+      "なびき",
+      "カーテン",
+      "変形"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.TurnOver_PPP_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "TurnOver_PPP",
+          "pattern": "^TurnOver_PPP\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/TurnOver_PPP",
+          "to": "{pluginsDir}/TurnOver_PPP"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TurnOver_PPP"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-08-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/TurnOver_PPP/TurnOver_PPP.auf2",
+            "XXH3_128": "a8dcc5ad09b4cbe8756ae8593b0d70c9"
+          }
+        ]
+      }
+    ]
   }
 ]
