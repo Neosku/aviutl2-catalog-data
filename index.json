@@ -39995,5 +39995,79 @@
         ]
       }
     ]
+  },
+  {
+    "id": "legashiro.TextInput",
+    "name": "TextInput",
+    "type": "汎用プラグイン",
+    "summary": "テキストボックスに文字を入力し、直接追加",
+    "description": "./md/legashiro.TextInput.md",
+    "author": "れがしろ",
+    "repoURL": "https://github.com/RubymondJ/TextInput-AviUtl2Plugin",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "このプラグインそのもののクレジット表記は任意です。\n有償無償の作品を問わずご利用ください。\n\nただし、プラグインの改変や派生物を配布する場合\n配布元または作者が分かるような表記をお願いします。\n\nこのプラグインは不完全作で、不具合が発生する可能性があります。\n利用における問題や損害については当方は責任を負いかねます。"
+      }
+    ],
+    "tags": [
+      "便利ツール",
+      "テキスト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/legashiro.TextInput_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "RubymondJ",
+          "repo": "TextInput-AviUtl2Plugin",
+          "pattern": "^TextInput.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/TextInput.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextInput.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextInput"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-08-15",
+        "file": [
+          {
+            "path": "{pluginsDir}/TextInput.aux2",
+            "XXH3_128": "a8a4a75fb41e851077dc5272efafc5f0"
+          }
+        ]
+      }
+    ]
   }
 ]
