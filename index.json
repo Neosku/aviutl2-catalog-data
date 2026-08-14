@@ -39995,5 +39995,124 @@
         ]
       }
     ]
+  },
+  {
+    "id": "gomi1124.psdtoolkit-aviutl1-lipsync",
+    "name": "PSDToolKit Natural LipSync",
+    "type": "スクリプト",
+    "summary": "音声の強弱に合わせて自然な口形状を生成",
+    "description": "https://raw.githubusercontent.com/gomi1124/PSDToolKit-Natural-LipSync/main/README.md",
+    "author": "ただのごみ",
+    "repoURL": "https://github.com/gomi1124/PSDToolKit-Natural-LipSync",
+    "latest-version": "v2.0.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "gomi1124"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "nc495464",
+    "tags": [
+      "PSD",
+      "口パク",
+      "音声"
+    ],
+    "dependencies": [
+      "oov.PSDToolKit2"
+    ],
+    "images": [
+      {
+        "thumbnail": "https://raw.githubusercontent.com/gomi1124/PSDToolKit-Natural-LipSync/main/catalog/images/thumbnail.png",
+        "infoImg": [
+          "https://raw.githubusercontent.com/gomi1124/PSDToolKit-Natural-LipSync/main/catalog/images/detail.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "gomi1124",
+          "repo": "PSDToolKit-Natural-LipSync",
+          "pattern": "^PSDToolKit_NaturalLipSync_v.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/PSDToolKit/LipSyncAviUtl1.lua",
+          "to": "{scriptsDir}/PSDToolKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/PSDToolKit/LipSyncAviUtl1.mod2",
+          "to": "{scriptsDir}/PSDToolKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/PSDToolKit/LipSyncAviUtl1Legacy.lua",
+          "to": "{scriptsDir}/PSDToolKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/PSDToolKit/AviUtl1LipSyncTools",
+          "to": "{scriptsDir}/PSDToolKit/AviUtl1LipSyncTools"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PSDToolKit/LipSyncAviUtl1.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PSDToolKit/LipSyncAviUtl1.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PSDToolKit/LipSyncAviUtl1Legacy.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PSDToolKit/AviUtl1LipSyncTools"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v2.0.0",
+        "release_date": "2026-08-04",
+        "file": [
+          {
+            "path": "{scriptsDir}/PSDToolKit/LipSyncAviUtl1.mod2",
+            "XXH3_128": "bef86991e0a8759032dbe08a5fa5b2c6"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.1",
+        "release_date": "2026-08-14",
+        "file": [
+          {
+            "path": "{scriptsDir}/PSDToolKit/LipSyncAviUtl1.mod2",
+            "XXH3_128": "7314ce50aaa686ad40446c0b8068cb39"
+          }
+        ]
+      }
+    ]
   }
 ]
