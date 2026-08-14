@@ -25126,8 +25126,8 @@
     "id": "KuroNeko.CopyAlias",
     "name": "CopyAlias",
     "type": "汎用プラグイン",
-    "summary": "トラックバー、オブジェクトのエイリアスをクリップボードにコピーする",
-    "description": "https://raw.githubusercontent.com/rokujyushi/Copy_alias/refs/heads/Rust-2.1.0/README.md",
+    "summary": "選択オブジェクトのエイリアスをクリップボードにコピーするプラグイン",
+    "description": "https://raw.githubusercontent.com/rokujyushi/Copy_alias/refs/heads/Rust-2.0.0/README.md",
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/Copy_alias",
     "latest-version": "2.1.0",
@@ -39893,6 +39893,74 @@
           {
             "path": "{pluginsDir}/TurnOver_PPP/TurnOver_PPP.auf2",
             "XXH3_128": "a8dcc5ad09b4cbe8756ae8593b0d70c9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "OverPulse.Custom_Speed_Move",
+    "name": "OA-速度指定移動",
+    "type": "スクリプト",
+    "summary": "角度と速度を決めて動かすだけのスクリプトです",
+    "description": "./md/OverPulse.Custom_Speed_Move.md",
+    "author": "OverPulse",
+    "repoURL": "https://overpulse.booth.pm/items/8713264",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "Unlicense",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "アニメーション",
+      "移動",
+      "AI",
+      "エンドロール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/OverPulse.Custom_Speed_Move_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/9461316"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/OA-速度指定移動v1.0/OA-速度指定移動.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/OA-速度指定移動.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-08-14",
+        "file": [
+          {
+            "path": "{scriptsDir}/OA-速度指定移動.anm2",
+            "XXH3_128": "4c1493ac19f83fb545d71eca07e89349"
           }
         ]
       }
