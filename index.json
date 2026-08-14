@@ -39995,5 +39995,80 @@
         ]
       }
     ]
+  },
+  {
+    "id": "halkun19.HL_Blobox",
+    "name": "HL_Blobox for AviUtl2",
+    "type": "フィルタプラグイン",
+    "summary": "ブロブトラッキングができるフィルタプラグイン",
+    "description": "https://raw.githubusercontent.com/Hallkun19/HL_Blobox-for-aul2/refs/heads/main/README.md",
+    "author": "はるくん / harukun19",
+    "repoURL": "https://github.com/Hallkun19/HL_Blobox-for-aul2",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "はるくん / harukun19"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "ブロブトラッキング",
+      "オーバーレイ"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/halkun19.HL_Blobox_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Hallkun19",
+          "repo": "HL_Blobox-for-aul2",
+          "pattern": "^HL_Blobox-v.+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/HL_Blobox.auf2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/HL_Blobox.auf2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-08-14",
+        "file": [
+          {
+            "path": "{pluginsDir}/HL_Blobox.auf2",
+            "XXH3_128": "a0486cc66b39878b111d1a26ecb92928"
+          }
+        ]
+      }
+    ]
   }
 ]
