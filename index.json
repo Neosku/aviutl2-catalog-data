@@ -39997,14 +39997,14 @@
     ]
   },
   {
-    "id": "halkun19.HL_Blobox",
-    "name": "HL_Blobox for AviUtl2",
-    "type": "フィルタプラグイン",
-    "summary": "ブロブトラッキングができるフィルタプラグイン",
-    "description": "https://raw.githubusercontent.com/Hallkun19/HL_Blobox-for-aul2/refs/heads/main/README.md",
-    "author": "はるくん / harukun19",
-    "repoURL": "https://github.com/Hallkun19/HL_Blobox-for-aul2",
-    "latest-version": "v1.0.0",
+    "id": "CJF.PSD_anime",
+    "name": "PSD連携アニメーションスクリプト(非公式)",
+    "type": "スクリプト",
+    "summary": "パーツ上書きを監視してPSDToolKitの立ち絵を動かすスクリプト",
+    "description": "./md/CJF.PSD_anime.md",
+    "author": "CJF",
+    "repoURL": "https://github.com/ColorJellyFish/Aviutl2_CJF",
+    "latest-version": "v0.1.1",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -40014,28 +40014,32 @@
         "copyrights": [
           {
             "years": "2026",
-            "holder": "はるくん / harukun19"
+            "holder": "ColorJellyFish"
           }
         ],
         "licenseBody": null
       }
     ],
+    "niconiCommonsId": "sm46667050",
     "tags": [
-      "ブロブトラッキング",
-      "オーバーレイ"
+      "PSD",
+      "アニメーション"
     ],
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/halkun19.HL_Blobox_thumbnail.png"
+        "thumbnail": "./image/CJF.PSD_anime_thumbnail.png",
+        "infoImg": [
+          "./image/CJF.PSD_anime_1.gif"
+        ]
       }
     ],
     "installer": {
       "source": {
         "github": {
-          "owner": "Hallkun19",
-          "repo": "HL_Blobox-for-aul2",
-          "pattern": "^HL_Blobox-v.+\\.au2pkg\\.zip$"
+          "owner": "ColorJellyFish",
+          "repo": "Aviutl2_CJF",
+          "pattern": "^cjf_psd-.*\\.exe$"
         }
       },
       "install": [
@@ -40043,29 +40047,40 @@
           "action": "download"
         },
         {
-          "action": "extract"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Plugin/HL_Blobox.auf2",
-          "to": "{pluginsDir}"
+          "action": "run",
+          "path": "{download}",
+          "args": [
+            "-silent",
+            "-data",
+            "\"{dataDir}\""
+          ]
         }
       ],
       "uninstall": [
         {
-          "action": "delete",
-          "path": "{pluginsDir}/HL_Blobox.auf2"
+          "action": "run",
+          "path": "{dataDir}/CJF-PSD-Setup.exe",
+          "args": [
+            "-silent",
+            "-uninstall",
+            "-data",
+            "\"{dataDir}\""
+          ]
         }
       ]
     },
     "version": [
       {
-        "version": "v1.0.0",
-        "release_date": "2026-08-14",
+        "version": "v0.1.1",
+        "release_date": "2026-08-15",
         "file": [
           {
-            "path": "{pluginsDir}/HL_Blobox.auf2",
-            "XXH3_128": "a0486cc66b39878b111d1a26ecb92928"
+            "path": "{scriptsDir}/CJF/ptk_overwrite_react_core.lua",
+            "XXH3_128": "bb8a8688459c066179fe8948c4efe9e4"
+          },
+          {
+            "path": "{scriptsDir}/CJF/ptk_overwrite_react_state.lua",
+            "XXH3_128": "7ec08ab9f19f12c6db6a660e1f03da5f"
           }
         ]
       }
