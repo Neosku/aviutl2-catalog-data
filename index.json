@@ -40090,5 +40090,112 @@
         ]
       }
     ]
+  },
+  {
+    "id": "nctype.AutoBlendLight",
+    "name": "AutoBlendLight",
+    "type": "スクリプト",
+    "summary": "自動背景なじませスクリプト",
+    "description": "./md/nctype.AutoBlendLight.md",
+    "author": "nctype",
+    "repoURL": "https://github.com/nctype/aviutl2_script_AutoBlendLight",
+    "latest-version": "v1.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "nctype"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "色調整",
+      "画像",
+      "背景馴染ませ",
+      "ライティング"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/nctype.AutoBlendLight_thumbnail.gif",
+        "infoImg": [
+          "./image/nctype.AutoBlendLight_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nctype",
+          "repo": "aviutl2_script_AutoBlendLight",
+          "pattern": "^AutoBlendLight_v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/AutoBlendLight/AutoBlendLight.anm2",
+          "to": "{scriptsDir}/AutoBlendLight"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/AutoBlendLight/README.md",
+          "to": "{scriptsDir}/AutoBlendLight"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.AutoBlendLight.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/简体中文.AutoBlendLight.aul2",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/AutoBlendLight/AutoBlendLight.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/AutoBlendLight/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.AutoBlendLight.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/简体中文.AutoBlendLight.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.1.0",
+        "release_date": "2026-08-14",
+        "file": [
+          {
+            "path": "{scriptsDir}/AutoBlendLight/AutoBlendLight.anm2",
+            "XXH3_128": "0fcde4eaa5e6c37e1f034de680e9a88d"
+          }
+        ]
+      }
+    ]
   }
 ]
