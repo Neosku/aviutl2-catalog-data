@@ -39995,5 +39995,97 @@
         ]
       }
     ]
+  },
+  {
+    "id": "CJF.PenTool",
+    "name": "ペン&矩形ツール",
+    "type": "スクリプト",
+    "summary": "編集画面上でペンや矩形ツールを使用できるスクリプトです",
+    "description": "./md/CJF.PenTool.md",
+    "author": "CJF",
+    "repoURL": "https://github.com/ColorJellyFish/Aviutl2_CJF",
+    "latest-version": "v0.1.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "ColorJellyFish"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "sm46667050",
+    "tags": [
+      "図形"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/CJF.PenTool_thumbnail.gif",
+        "infoImg": [
+          "./image/CJF.PenTool_1.gif"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "ColorJellyFish",
+          "repo": "Aviutl2_CJF",
+          "pattern": "^cjf_pentool-.*\\.exe$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "run",
+          "path": "{download}",
+          "args": [
+            "-silent -data \"{dataDir}\""
+          ]
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "run",
+          "path": "{dataDir}/CJF-Pentool-Setup.exe",
+          "args": [
+            "-silent -uninstall -data \"{dataDir}\""
+          ]
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.1",
+        "release_date": "2026-08-15",
+        "file": [
+          {
+            "path": "{pluginsDir}/CJF/CJFPreviewPenTool.aux2",
+            "XXH3_128": "2f5cfb1226ce1ce03fa9eeb0017d2d2c"
+          },
+          {
+            "path": "{pluginsDir}/CJF/CJFPreviewRangeSelector.aux2",
+            "XXH3_128": "f61f0d727fb646d28fd01998ea1d7267"
+          },
+          {
+            "path": "{scriptsDir}/CJF/ペンツール.obj2",
+            "XXH3_128": "e494840b5db0595891fca0f59185567c"
+          },
+          {
+            "path": "{scriptsDir}/CJF/図形ツール.obj2",
+            "XXH3_128": "7b3753fdc2aa2f6fd42da57e87597d4e"
+          }
+        ]
+      }
+    ]
   }
 ]
