@@ -27883,7 +27883,7 @@
     "description": "./md/momo_neeeko.WaveClipping.md",
     "author": "もも猫",
     "repoURL": "https://x.com/momo_neeeko/status/2037491184260784191",
-    "latest-version": "ver4.0",
+    "latest-version": "ver4.1",
     "popularity": 1341,
     "trend": 151,
     "licenses": [
@@ -27972,6 +27972,16 @@
           {
             "path": "{scriptsDir}/ウェーブクリッピング.anm2",
             "XXH3_128": "8301a77daa8bcdcb901276d9d3297b42"
+          }
+        ]
+      },
+      {
+        "version": "ver4.1",
+        "release_date": "2026-08-16",
+        "file": [
+          {
+            "path": "{scriptsDir}/ウェーブクリッピング.anm2",
+            "XXH3_128": "28a2757355f99098f42f4b303d85cd28"
           }
         ]
       }
