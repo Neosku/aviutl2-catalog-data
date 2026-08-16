@@ -34854,7 +34854,7 @@
     "description": "./md/Rhapthorne_0.TransformCoords_Rh.md",
     "author": "ラプソーン",
     "repoURL": "https://twitter.com/Rhapthorne_0/status/2045698905698914323",
-    "latest-version": "2026.06.23",
+    "latest-version": "2026.08.08",
     "popularity": 238,
     "trend": 46,
     "licenses": [
@@ -34902,6 +34902,16 @@
           {
             "path": "{scriptsDir}/座標の回転・拡大_Rh.anm2",
             "XXH3_128": "6cc47e474c8838686522205cbef32173"
+          }
+        ]
+      },
+      {
+        "version": "2026.08.08",
+        "release_date": "2026-08-08",
+        "file": [
+          {
+            "path": "{scriptsDir}/座標の回転・拡大_Rh.anm2",
+            "XXH3_128": "c3ba21b3a5d41db2caa161a248914944"
           }
         ]
       }
