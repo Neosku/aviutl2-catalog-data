@@ -37459,7 +37459,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/enhanced_tracks.aux2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/enhanced_tracks.aux2",
-    "latest-version": "0.1.7",
+    "latest-version": "0.1.6",
     "popularity": 486,
     "trend": 379,
     "licenses": [
@@ -37723,32 +37723,6 @@
           {
             "path": "{pluginsDir}/enhanced_tracks.aux2",
             "XXH3_128": "c941c90ee2c409d7ecfa0ec7e2db98e6"
-          },
-          {
-            "path": "{scriptsDir}/enhanced_tracks-aux2/enhanced_tracks.aux2.tra2",
-            "XXH3_128": "26108b1e1b95e8d7f8d2931d78ea75b1"
-          },
-          {
-            "path": "{scriptsDir}/enhanced_tracks-aux2/enhanced_tracks_core.lua",
-            "XXH3_128": "9a69883db241f480ffd5c23ccfc873d6"
-          }
-        ]
-      },
-      {
-        "version": "0.1.7",
-        "release_date": "2026-08-16",
-        "file": [
-          {
-            "path": "{dataDir}/Language/Default.enhanced_tracks-aux2.aul2",
-            "XXH3_128": "76a4d7eddc8b727df214f6d2e21b5169"
-          },
-          {
-            "path": "{dataDir}/Language/English.enhanced_tracks-aux2.aul2",
-            "XXH3_128": "0279d080a60cb3d978e240184e1251d9"
-          },
-          {
-            "path": "{pluginsDir}/enhanced_tracks.aux2",
-            "XXH3_128": "b2eca2e52813759af4762543be9731c6"
           },
           {
             "path": "{scriptsDir}/enhanced_tracks-aux2/enhanced_tracks.aux2.tra2",
@@ -40513,6 +40487,82 @@
           {
             "path": "{pluginsDir}/TextInput.aux2",
             "XXH3_128": "a8a4a75fb41e851077dc5272efafc5f0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sikemoti.JPEGCrush",
+    "name": "JPEGCrush",
+    "type": "スクリプト",
+    "summary": "JPEGグリッチエフェクトのアニメーション効果スクリプト",
+    "description": "./md/sikemoti.JPEGCrush.md",
+    "author": "しけもち",
+    "repoURL": "https://note.com/sikemoti/n/n7017a0e6eabf",
+    "latest-version": "1.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "Copyright (C) 2026 sikemoti.  All Rights Reserved.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+      }
+    ],
+    "tags": [
+      "グリッチ"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "12wDLFjEZOVZP6QA6NGGcFs61F7zEvZyl"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/JPEGCrush.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/JPEGCrush.mod2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/JPEGCrush.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/JPEGCrush.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "1.1.0",
+        "release_date": "2026-04-23",
+        "file": [
+          {
+            "path": "{scriptsDir}/JPEGCrush.mod2",
+            "XXH3_128": "4926c9509a8f484f6c1210d5c9f890dd"
+          },
+          {
+            "path": "{scriptsDir}/JPEGCrush.anm2",
+            "XXH3_128": "b3e9b3f536c628d6e1cc1656bb75fcf9"
           }
         ]
       }
