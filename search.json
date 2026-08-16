@@ -1910,10 +1910,10 @@
         {
           "extract": "zip",
           "paths": [
-            "Script/@Syncroh2_Script.obj2"
+            "Plugin/Syncroh2_Extension2.aux2"
           ],
           "recordPaths": [
-            "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2"
+            "{pluginsDir}/Syncroh2/Syncroh2_Extension2.aux2"
           ]
         }
       ]
