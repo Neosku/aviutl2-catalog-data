@@ -40899,5 +40899,68 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sikemoti.GradientGenerator",
+    "name": "グラデーションジェネレーター",
+    "type": "スクリプト",
+    "summary": "グラデーションを描画するためのスクリプト",
+    "description": "./md/sikemoti.GradientGenerator.md",
+    "author": "しけもち",
+    "repoURL": "https://note.com/sikemoti/n/n23f4da3cd318",
+    "latest-version": "2025.09.25",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "グラデーション"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "14dYn2OCkXBpQXdTaPy7lG6UwsCiiQvEP"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@グラデーションジェネレーター.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@グラデーションジェネレーター.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.09.25",
+        "release_date": "2025-09-25",
+        "file": [
+          {
+            "path": "{scriptsDir}/@グラデーションジェネレーター.anm2",
+            "XXH3_128": "71a950e70887a0e809c8725b61f9892b"
+          }
+        ]
+      }
+    ]
   }
 ]
