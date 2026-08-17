@@ -40687,5 +40687,81 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sikemoti.JPEGCrush",
+    "name": "JPEGCrush",
+    "type": "スクリプト",
+    "summary": "JPEGグリッチエフェクトのアニメーション効果スクリプト",
+    "description": "./md/sikemoti.JPEGCrush.md",
+    "author": "しけもち",
+    "repoURL": "https://note.com/sikemoti/n/n7017a0e6eabf",
+    "latest-version": "1.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "Copyright (C) 2026 sikemoti.  All Rights Reserved.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+      }
+    ],
+    "tags": [
+      "グリッチ"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "12wDLFjEZOVZP6QA6NGGcFs61F7zEvZyl"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/JPEGCrush.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/JPEGCrush.mod2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/JPEGCrush.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/JPEGCrush.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "1.1.0",
+        "release_date": "2026-04-23",
+        "file": [
+          {
+            "path": "{scriptsDir}/JPEGCrush.mod2",
+            "XXH3_128": "4926c9509a8f484f6c1210d5c9f890dd"
+          },
+          {
+            "path": "{scriptsDir}/JPEGCrush.anm2",
+            "XXH3_128": "b3e9b3f536c628d6e1cc1656bb75fcf9"
+          }
+        ]
+      }
+    ]
   }
 ]
