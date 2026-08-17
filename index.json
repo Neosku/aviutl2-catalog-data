@@ -41181,6 +41181,86 @@
     ]
   },
   {
+    "id": "teruyoshii.Palette_History",
+    "name": "Palette History",
+    "type": "汎用プラグイン",
+    "summary": "色設定ウィンドウのパレットに使用した色の履歴を積み上げるプラグイン",
+    "description": "https://raw.githubusercontent.com/teruyoshii/AviUtl2_Palette_History/refs/heads/main/README.md",
+    "author": "てるよし",
+    "repoURL": "https://github.com/teruyoshii/AviUtl2_Palette_History",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "teruyoshi"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カラーパレット",
+      "ショートカット"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/teruyoshii.Palette_History_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "teruyoshii",
+          "repo": "AviUtl2_Palette_History",
+          "pattern": "^PaletteHistory\\.aux2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/PaletteHistory.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/PaletteHistory.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/PaletteHistorySettings.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Default/history.palette"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-08-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/PaletteHistory.aux2",
+            "XXH3_128": "f6d7eabe975b3ca8f355f2fb05761824"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "OverPulse.Flash_Hue",
     "name": "TA-瞬間カラー変化",
     "type": "スクリプト",
