@@ -40782,7 +40782,7 @@
     "description": "./md/sikemoti.AdjustCenterCoordinate.md",
     "author": "しけもち",
     "repoURL": "https://note.com/sikemoti/n/n4569e629dc35",
-    "latest-version": "2026.08.09",
+    "latest-version": "2025.08.09",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -40794,7 +40794,7 @@
       }
     ],
     "tags": [
-      "グリッチ"
+      "配置"
     ],
     "dependencies": [],
     "images": [],
@@ -40826,8 +40826,8 @@
     },
     "version": [
       {
-        "version": "2026.08.09",
-        "release_date": "2026-08-09",
+        "version": "2025.08.09",
+        "release_date": "2025-08-09",
         "file": [
           {
             "path": "{scriptsDir}/中心座標調整.anm2",
