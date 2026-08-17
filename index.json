@@ -40836,5 +40836,68 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sikemoti.LevelAdjustment",
+    "name": "レベル補正",
+    "type": "スクリプト",
+    "summary": "レベル補正を使い色調補正ができるスクリプト",
+    "description": "./md/sikemoti.LevelAdjustment.md",
+    "author": "しけもち",
+    "repoURL": "https://note.com/sikemoti/n/n9b1843bfb32f",
+    "latest-version": "2025.08.09",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "色調整"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1vQvj0WoNBCJD_7X1M1qmitvFvUzfN_aT"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/レベル補正.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/レベル補正.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.08.09",
+        "release_date": "2025-08-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/レベル補正.anm2",
+            "XXH3_128": "31212d8857acb01928fb589c51e59127"
+          }
+        ]
+      }
+    ]
   }
 ]
