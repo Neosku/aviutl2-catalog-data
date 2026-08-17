@@ -40687,5 +40687,873 @@
         ]
       }
     ]
+  },
+  {
+    "id": "nctype.Pixelizer",
+    "name": "Pixelizer",
+    "type": "スクリプト",
+    "summary": "Pixelizerは、リアルタイムドット絵化スクリプトです。",
+    "description": "./md/nctype.Pixelizer.md",
+    "author": "nctype",
+    "repoURL": "https://github.com/nctype/aviutl2_script_Pixelizer",
+    "latest-version": "v2.1.5",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "nctype"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "画像",
+      "ドット"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/nctype.Pixelizer_thumbnail.gif",
+        "infoImg": [
+          "./image/nctype.Pixelizer_1.png",
+          "./image/nctype.Pixelizer_2.png",
+          "./image/nctype.Pixelizer_3.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nctype",
+          "repo": "aviutl2_script_Pixelizer",
+          "pattern": "^Pixelizer_v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Pixelizer/Pixelizer.anm2",
+          "to": "{scriptsDir}/Pixelizer"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.Pixelizer.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/简体中文.Pixelizer.aul2",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Pixelizer/Pixelizer.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.Pixelizer.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/简体中文.Pixelizer.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "beta1",
+        "release_date": "2025-07-07",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "d782bc8f7a55a6d0ad2203e64b75fda1"
+          }
+        ]
+      },
+      {
+        "version": "beta2",
+        "release_date": "2025-07-12",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "bd8122e9d6555b059aa5a61d1f2c13d9"
+          }
+        ]
+      },
+      {
+        "version": "beta3",
+        "release_date": "2025-07-20",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "41c8ca5d2447ba225e601bf143c84712"
+          }
+        ]
+      },
+      {
+        "version": "beta4",
+        "release_date": "2025-07-27",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "5ccac2966b5d392a54cef3e411b0d392"
+          }
+        ]
+      },
+      {
+        "version": "beta5",
+        "release_date": "2025-08-03",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "c69cd0e480a997795aa873c870b88afc"
+          }
+        ]
+      },
+      {
+        "version": "beta6",
+        "release_date": "2025-08-10",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "56684747d51b856d6ce1556b006bf3dd"
+          }
+        ]
+      },
+      {
+        "version": "beta7",
+        "release_date": "2025-08-16",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "8e5f3680ab8145b000e6c409014f8abe"
+          }
+        ]
+      },
+      {
+        "version": "beta8",
+        "release_date": "2025-08-24",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "ba3a600fcb5d8f5a2b0eb036398e1834"
+          }
+        ]
+      },
+      {
+        "version": "beta9",
+        "release_date": "2025-08-30",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "5c152484335a18b4fb1fa1eec6d9ea86"
+          }
+        ]
+      },
+      {
+        "version": "beta10",
+        "release_date": "2025-09-10",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "c5f64a177532429555d1db96e5e5b510"
+          }
+        ]
+      },
+      {
+        "version": "beta11",
+        "release_date": "2025-09-13",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "d012aaad5bc62bb87fe6e3c152499929"
+          }
+        ]
+      },
+      {
+        "version": "beta11a",
+        "release_date": "2025-09-14",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "255e70f8ff55be1cf0d89e790e436758"
+          }
+        ]
+      },
+      {
+        "version": "beta12",
+        "release_date": "2025-09-21",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "a4948c380e9506826bd64f854a070edd"
+          }
+        ]
+      },
+      {
+        "version": "beta13",
+        "release_date": "2025-09-27",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "f7dc45037dfc624a537add6fdfaba334"
+          }
+        ]
+      },
+      {
+        "version": "beta14",
+        "release_date": "2025-10-05",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "6bb35434c8977e1b659e07e5ea5db950"
+          }
+        ]
+      },
+      {
+        "version": "beta15",
+        "release_date": "2025-10-12",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "04486deb0f867e9fa2a1dff4c5a44a76"
+          }
+        ]
+      },
+      {
+        "version": "beta16",
+        "release_date": "2025-10-19",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "52f5254f933cbf1e59b61ebed82df5f4"
+          }
+        ]
+      },
+      {
+        "version": "beta16a",
+        "release_date": "2025-10-19",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "9b7e7f19368524d8700ff26702496ca2"
+          }
+        ]
+      },
+      {
+        "version": "beta17",
+        "release_date": "2025-10-26",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "cb965e6e2e0a80fe5569fe77c8be4fa7"
+          }
+        ]
+      },
+      {
+        "version": "beta18",
+        "release_date": "2025-11-01",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "88fbd436f9e7f5dbfeb7efaa057c8851"
+          }
+        ]
+      },
+      {
+        "version": "beta18a",
+        "release_date": "2025-11-02",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "01f72d1193ceb65556ae2873e104c7c4"
+          }
+        ]
+      },
+      {
+        "version": "beta18b",
+        "release_date": "2025-11-02",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "75a9465125cfc4b996d9b6c80315d29c"
+          }
+        ]
+      },
+      {
+        "version": "beta19",
+        "release_date": "2025-11-08",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "65f396e4f2f20a0b468e270b7634b066"
+          }
+        ]
+      },
+      {
+        "version": "beta19a",
+        "release_date": "2025-11-09",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "53427b0f5f678908662a0a740dc45c71"
+          }
+        ]
+      },
+      {
+        "version": "beta20",
+        "release_date": "2025-11-16",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "d7fb5ba9844c047723806171db3db35e"
+          }
+        ]
+      },
+      {
+        "version": "beta21",
+        "release_date": "2025-11-22",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "29e5066328b377010cc41ed7cbd72ece"
+          }
+        ]
+      },
+      {
+        "version": "beta22",
+        "release_date": "2025-11-30",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "9734ce922edd772c664a4d47733592cf"
+          }
+        ]
+      },
+      {
+        "version": "beta22a",
+        "release_date": "2025-12-02",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "b959f800471e866148efd7a702d4e715"
+          }
+        ]
+      },
+      {
+        "version": "beta23",
+        "release_date": "2025-12-06",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "0f0974d7fc1a9c0d6a6a6a97a322a974"
+          }
+        ]
+      },
+      {
+        "version": "beta23a",
+        "release_date": "2025-12-07",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "6c14477b0b91ab6d5fa0844c98a24f82"
+          }
+        ]
+      },
+      {
+        "version": "beta24",
+        "release_date": "2025-12-14",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "9d19a64529c289b668aec6d57ccc4d49"
+          }
+        ]
+      },
+      {
+        "version": "beta24a",
+        "release_date": "2025-12-14",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "24cd6766432759060da6157ec54cc501"
+          }
+        ]
+      },
+      {
+        "version": "beta25",
+        "release_date": "2025-12-20",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "739857ebafb9d2deb4998b3dc0246a01"
+          }
+        ]
+      },
+      {
+        "version": "beta26",
+        "release_date": "2025-12-27",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "339afc300e396bfd8c9da5814719377a"
+          }
+        ]
+      },
+      {
+        "version": "beta27",
+        "release_date": "2026-01-03",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "9727a8a9578f2e620d5c17a2ece27419"
+          }
+        ]
+      },
+      {
+        "version": "beta28",
+        "release_date": "2026-01-11",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "ec9632adfb8b4c69b4d5ea9c9f650b40"
+          }
+        ]
+      },
+      {
+        "version": "beta28a",
+        "release_date": "2026-01-12",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "94c2e39b64e5acf519869f8db69c3150"
+          }
+        ]
+      },
+      {
+        "version": "beta29",
+        "release_date": "2026-01-17",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "ed08d86d251375cb722833d3dd704cbb"
+          }
+        ]
+      },
+      {
+        "version": "beta30",
+        "release_date": "2026-01-25",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "d068876b75d1fc4976a77784cb2e4c49"
+          }
+        ]
+      },
+      {
+        "version": "beta30a",
+        "release_date": "2026-01-25",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "41d97fe0dc7601723cb1d95e82df63cc"
+          }
+        ]
+      },
+      {
+        "version": "beta31",
+        "release_date": "2026-02-01",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "353bcb900b5d0fffed1a89972c9e52b2"
+          }
+        ]
+      },
+      {
+        "version": "beta32",
+        "release_date": "2026-02-08",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "8588626d8cf495ed947c627be2ce5aba"
+          }
+        ]
+      },
+      {
+        "version": "beta33",
+        "release_date": "2026-02-14",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "aaafb7426612f3f5e7f1fef14245f483"
+          }
+        ]
+      },
+      {
+        "version": "beta34",
+        "release_date": "2026-02-23",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "451be769a3f3fd25d10299f11ae7b9a6"
+          }
+        ]
+      },
+      {
+        "version": "beta35",
+        "release_date": "2026-02-28",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "13e1f13bd4bdb11a37fc8b96ff5da036"
+          }
+        ]
+      },
+      {
+        "version": "beta36",
+        "release_date": "2026-03-08",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "a9283ab70a3569caf4e6854dc1ab71e5"
+          }
+        ]
+      },
+      {
+        "version": "beta36a",
+        "release_date": "2026-03-08",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "8af6554bd6e33e8ceee23a0c7506012a"
+          }
+        ]
+      },
+      {
+        "version": "beta37",
+        "release_date": "2026-03-14",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "de83c8dee985069a3ec58aea348a2cf5"
+          }
+        ]
+      },
+      {
+        "version": "beta38",
+        "release_date": "2026-03-22",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "6383d13d6fad4c6ccdf2e0c4ccad7124"
+          }
+        ]
+      },
+      {
+        "version": "beta38a",
+        "release_date": "2026-03-22",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "4145ad796e91f5095c91d5afd4f08326"
+          }
+        ]
+      },
+      {
+        "version": "beta39",
+        "release_date": "2026-03-29",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "fb750ddff46b0f3ce584ae72cc3daa61"
+          }
+        ]
+      },
+      {
+        "version": "beta40",
+        "release_date": "2026-04-05",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "bd53148f11af739bb4ac70950b9ca83c"
+          }
+        ]
+      },
+      {
+        "version": "beta40a",
+        "release_date": "2026-04-05",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "4e18eb702b02cd2fcce2d60d52b74d2d"
+          }
+        ]
+      },
+      {
+        "version": "beta41",
+        "release_date": "2026-04-12",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "16134ed1bc9a60a1c878bccdd01fd3d9"
+          }
+        ]
+      },
+      {
+        "version": "beta41a",
+        "release_date": "2026-04-12",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "bb52f49b42c60c663bf78bc0dbcf4355"
+          }
+        ]
+      },
+      {
+        "version": "beta42",
+        "release_date": "2026-04-18",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "8785229646d2537edff9ffd537eb2699"
+          }
+        ]
+      },
+      {
+        "version": "beta43",
+        "release_date": "2026-04-26",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "5cb25df84cbb2be3c0432955bef9cef3"
+          }
+        ]
+      },
+      {
+        "version": "beta43a",
+        "release_date": "2026-04-26",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "700a89f5cf36eeb97a4a20db48d8e9b4"
+          }
+        ]
+      },
+      {
+        "version": "beta43b",
+        "release_date": "2026-04-28",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "36fa595c28b8bae8c0c3b1b0f858a3c9"
+          }
+        ]
+      },
+      {
+        "version": "beta44",
+        "release_date": "2026-05-04",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "0c13aac7e48a70c4599c9725dcc62e41"
+          }
+        ]
+      },
+      {
+        "version": "beta45",
+        "release_date": "2026-05-10",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "5c84876a6e674a9d9686fceafa381127"
+          }
+        ]
+      },
+      {
+        "version": "beta46",
+        "release_date": "2026-05-17",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "9318b08eff1b6d866bf349ce86d28304"
+          }
+        ]
+      },
+      {
+        "version": "beta47",
+        "release_date": "2026-05-24",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "e8366c41806ee8d318a9bc7033d1e249"
+          }
+        ]
+      },
+      {
+        "version": "beta48",
+        "release_date": "2026-05-30",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "97a2d1b6f8db28e75e2835cf602da857"
+          }
+        ]
+      },
+      {
+        "version": "beta49",
+        "release_date": "2026-06-07",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "8751224f94fad20c86ba22edaca3e415"
+          }
+        ]
+      },
+      {
+        "version": "beta50",
+        "release_date": "2026-06-14",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "007e07296809bce2fc1f2b25ecb5a7eb"
+          }
+        ]
+      },
+      {
+        "version": "beta51",
+        "release_date": "2026-06-20",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "d8dbbf1d785147a067f255e61c4e1c6a"
+          }
+        ]
+      },
+      {
+        "version": "beta52",
+        "release_date": "2026-06-28",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "4fe495aed7f47830f94971978bc7f06e"
+          }
+        ]
+      },
+      {
+        "version": "beta53",
+        "release_date": "2026-07-04",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "322f60b5d2754a2822b76c4d370feb88"
+          }
+        ]
+      },
+      {
+        "version": "beta53a",
+        "release_date": "2026-07-05",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "c46926700ff0fb9f664017e1ba2f233e"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.54",
+        "release_date": "2026-07-07",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "a93b82b7e7e8480f7378c1912fcf34be"
+          }
+        ]
+      },
+      {
+        "version": "v2.1.0",
+        "release_date": "2026-07-12",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "e8dd5d0525263e43d9f3d1888c20830e"
+          }
+        ]
+      },
+      {
+        "version": "v2.1.1",
+        "release_date": "2026-07-18",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "9b3a6b73fb53e404e5ac83a2564f990c"
+          }
+        ]
+      },
+      {
+        "version": "v2.1.2",
+        "release_date": "2026-07-25",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "1caa74320384ef6c1f2083acef3bdf11"
+          }
+        ]
+      },
+      {
+        "version": "v2.1.3",
+        "release_date": "2026-08-02",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "2ae3b21e9486f4e5da260d395cc24461"
+          }
+        ]
+      },
+      {
+        "version": "v2.1.3a",
+        "release_date": "2026-08-02",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "05bd3d9d68cfaaea7b4909125c57179d"
+          }
+        ]
+      },
+      {
+        "version": "v2.1.4",
+        "release_date": "2026-08-08",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "f8c10352b99c2e39b49a33673f3f1aa3"
+          }
+        ]
+      },
+      {
+        "version": "v2.1.5",
+        "release_date": "2026-08-16",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "395f24d2efa999bbc73caa70837c8ba9"
+          }
+        ]
+      }
+    ]
   }
 ]
