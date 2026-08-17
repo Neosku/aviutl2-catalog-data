@@ -40773,5 +40773,68 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sikemoti.AdjustCenterCoordinate",
+    "name": "中心座標調整",
+    "type": "スクリプト",
+    "summary": "中心座標を調整するためのスクリプト",
+    "description": "./md/sikemoti.AdjustCenterCoordinate.md",
+    "author": "しけもち",
+    "repoURL": "https://note.com/sikemoti/n/n4569e629dc35",
+    "latest-version": "2025.08.09",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "配置"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1Pfuvt_QN3r0pCbVhQbHQshzhIk3zUDeh"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/中心座標調整.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/中心座標調整.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.08.09",
+        "release_date": "2025-08-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/中心座標調整.anm2",
+            "XXH3_128": "69344b0e40eda337534480c61bfb19b3"
+          }
+        ]
+      }
+    ]
   }
 ]
