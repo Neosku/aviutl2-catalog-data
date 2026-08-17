@@ -40398,6 +40398,14 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/PaletteHistory.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/PaletteHistorySettings.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Default/history.palette"
         }
       ]
     },
