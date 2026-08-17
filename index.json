@@ -41085,7 +41085,7 @@
         "licenseBody": null
       }
     ],
-"niconiCommonsId": "nc495464",
+    "niconiCommonsId": "nc495464",
     "tags": [
       "PSD",
       "口パク",
@@ -41093,7 +41093,7 @@
     ],
     "dependencies": [
       "oov.PSDToolKit2"
-],
+    ],
     "images": [
       {
         "thumbnail": "./image/gomi1124.psdtoolkit-aviutl1-lipsync_thumbnail.png",
@@ -41114,7 +41114,7 @@
         {
           "action": "download"
         },
-{
+        {
           "action": "extract"
         },
         {
