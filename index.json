@@ -40407,7 +40407,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/9461316"
+        "booth": "https://booth.pm/downloadables/9479482"
       },
       "install": [
         {
@@ -40699,6 +40699,104 @@
     ]
   },
   {
+    "id": "nctype.Pixelizer",
+    "name": "Pixelizer",
+    "type": "スクリプト",
+    "summary": "Pixelizerは、リアルタイムドット絵化スクリプトです。",
+    "description": "./md/nctype.Pixelizer.md",
+    "author": "nctype",
+    "repoURL": "https://github.com/nctype/aviutl2_script_Pixelizer",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "nctype"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "画像",
+      "ドット"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/nctype.Pixelizer_thumbnail.gif",
+        "infoImg": [
+          "./image/nctype.Pixelizer_1.png",
+          "./image/nctype.Pixelizer_2.png",
+          "./image/nctype.Pixelizer_3.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nctype",
+          "repo": "aviutl2_script_Pixelizer",
+          "pattern": "^Pixelizer_v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Pixelizer/Pixelizer.anm2",
+          "to": "{scriptsDir}/Pixelizer"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.Pixelizer.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/简体中文.Pixelizer.aul2",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Pixelizer/Pixelizer.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.Pixelizer.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/简体中文.Pixelizer.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-08-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/Pixelizer/Pixelizer.anm2",
+            "XXH3_128": "a9020b11a108db48e7dc338b55a38884"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "sikemoti.JPEGCrush",
     "name": "JPEGCrush",
     "type": "スクリプト",
@@ -40895,6 +40993,188 @@
           {
             "path": "{scriptsDir}/レベル補正.anm2",
             "XXH3_128": "31212d8857acb01928fb589c51e59127"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sikemoti.GradientGenerator",
+    "name": "グラデーションジェネレーター",
+    "type": "スクリプト",
+    "summary": "グラデーションを描画するためのスクリプト",
+    "description": "./md/sikemoti.GradientGenerator.md",
+    "author": "しけもち",
+    "repoURL": "https://note.com/sikemoti/n/n23f4da3cd318",
+    "latest-version": "2025.09.25",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "グラデーション"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "14dYn2OCkXBpQXdTaPy7lG6UwsCiiQvEP"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@グラデーションジェネレーター.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@グラデーションジェネレーター.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2025.09.25",
+        "release_date": "2025-09-25",
+        "file": [
+          {
+            "path": "{scriptsDir}/@グラデーションジェネレーター.anm2",
+            "XXH3_128": "71a950e70887a0e809c8725b61f9892b"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gomi1124.psdtoolkit-aviutl1-lipsync",
+    "name": "PSDToolKit Natural LipSync",
+    "type": "スクリプト",
+    "summary": "音声の強弱に合わせて自然な口形状を生成",
+    "description": "https://raw.githubusercontent.com/gomi1124/PSDToolKit-Natural-LipSync/main/README.md",
+    "author": "ただのごみ",
+    "repoURL": "https://github.com/gomi1124/PSDToolKit-Natural-LipSync",
+    "latest-version": "v2.0.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "gomi1124"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+"niconiCommonsId": "nc495464",
+    "tags": [
+      "PSD",
+      "口パク",
+      "音声"
+    ],
+    "dependencies": [
+      "oov.PSDToolKit2"
+],
+    "images": [
+      {
+        "thumbnail": "./image/gomi1124.psdtoolkit-aviutl1-lipsync_thumbnail.png",
+        "infoImg": [
+          "./image/gomi1124.psdtoolkit-aviutl1-lipsync_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "gomi1124",
+          "repo": "PSDToolKit-Natural-LipSync",
+          "pattern": "^PSDToolKit_NaturalLipSync_v.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+{
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/PSDToolKit/LipSyncAviUtl1.lua",
+          "to": "{scriptsDir}/PSDToolKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/PSDToolKit/LipSyncAviUtl1.mod2",
+          "to": "{scriptsDir}/PSDToolKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/PSDToolKit/LipSyncAviUtl1Legacy.lua",
+          "to": "{scriptsDir}/PSDToolKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/PSDToolKit/AviUtl1LipSyncTools",
+          "to": "{scriptsDir}/PSDToolKit/AviUtl1LipSyncTools"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PSDToolKit/LipSyncAviUtl1.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PSDToolKit/LipSyncAviUtl1.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PSDToolKit/LipSyncAviUtl1Legacy.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/PSDToolKit/AviUtl1LipSyncTools"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v2.0.0",
+        "release_date": "2026-08-04",
+        "file": [
+          {
+            "path": "{scriptsDir}/PSDToolKit/LipSyncAviUtl1.mod2",
+            "XXH3_128": "bef86991e0a8759032dbe08a5fa5b2c6"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.1",
+        "release_date": "2026-08-14",
+        "file": [
+          {
+            "path": "{scriptsDir}/PSDToolKit/LipSyncAviUtl1.mod2",
+            "XXH3_128": "7314ce50aaa686ad40446c0b8068cb39"
           }
         ]
       }
