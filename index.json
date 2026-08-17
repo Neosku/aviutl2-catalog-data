@@ -40699,6 +40699,104 @@
     ]
   },
   {
+    "id": "nctype.Pixelizer",
+    "name": "Pixelizer",
+    "type": "スクリプト",
+    "summary": "Pixelizerは、リアルタイムドット絵化スクリプトです。",
+    "description": "./md/nctype.Pixelizer.md",
+    "author": "nctype",
+    "repoURL": "https://github.com/nctype/aviutl2_script_Pixelizer",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "nctype"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "画像",
+      "ドット"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/nctype.Pixelizer_thumbnail.gif",
+        "infoImg": [
+          "./image/nctype.Pixelizer_1.png",
+          "./image/nctype.Pixelizer_2.png",
+          "./image/nctype.Pixelizer_3.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nctype",
+          "repo": "aviutl2_script_Pixelizer",
+          "pattern": "^Pixelizer_v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Pixelizer/Pixelizer.anm2",
+          "to": "{scriptsDir}/Pixelizer"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.Pixelizer.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/简体中文.Pixelizer.aul2",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Pixelizer/Pixelizer.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.Pixelizer.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/简体中文.Pixelizer.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-08-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/Pixelizer/Pixelizer.anm2",
+            "XXH3_128": "a9020b11a108db48e7dc338b55a38884"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "sikemoti.JPEGCrush",
     "name": "JPEGCrush",
     "type": "スクリプト",
