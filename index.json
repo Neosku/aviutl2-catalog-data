@@ -40687,5 +40687,72 @@
         ]
       }
     ]
+  },
+  {
+    "id": "OverPulse.Flash_Hue",
+    "name": "TA-瞬間カラー変化",
+    "type": "スクリプト",
+    "summary": "テキストの登場に色変化を追加します",
+    "description": "./md/OverPulse.Flash_Hue.md",
+    "author": "OverPulse",
+    "repoURL": "https://www.nicovideo.jp/watch/sm45980061",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "Unlicense",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "アニメーション",
+      "テキスト",
+      "AI"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/OverPulse.Flash_Hue_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/9479093"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/TA-瞬間カラー変化v1.0/TA-瞬間カラー変化.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/TA-瞬間カラー変化.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-08-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/TA-瞬間カラー変化.anm2",
+            "XXH3_128": "17b153024f318422eb83548640b954fe"
+          }
+        ]
+      }
+    ]
   }
 ]
