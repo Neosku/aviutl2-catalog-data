@@ -19811,7 +19811,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2#%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2anm2",
-    "latest-version": "v3.4",
+    "latest-version": "v3.5",
     "popularity": 1351,
     "trend": 182,
     "licenses": [
@@ -19852,6 +19852,11 @@
           "action": "copy",
           "from": "{tmp}/Language/English.pixel_transform-anm2.aul2",
           "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.pixel_transform-anm2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -19862,6 +19867,10 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/English.pixel_transform-anm2.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.pixel_transform-anm2.aul2"
         }
       ]
     },
@@ -19895,6 +19904,24 @@
             "XXH3_128": "339ce718f5e4b9adab0a34164401f672"
           }
         ]
+      },
+      {
+        "version": "v3.5",
+        "release_date": "2026-08-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/ドット絵変形.anm2",
+            "XXH3_128": "1ef65f94023365bb8e7f2063220df7a8"
+          },
+          {
+            "path": "{dataDir}/Language/English.pixel_transform-anm2.aul2",
+            "XXH3_128": "edb6499d37860ac273017e1664772a1c"
+          },
+          {
+            "path": "{dataDir}/Language/Default.pixel_transform-anm2.aul2",
+            "XXH3_128": "88321ef9759ccb004e9502d1d235597a"
+          }
+        ]
       }
     ]
   },
@@ -19906,7 +19933,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/%E7%9B%AE%E6%A8%99%E6%8C%87%E5%AE%9A%E6%8B%A1%E5%A4%A7%E7%B8%AE%E5%B0%8F/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E7%9B%AE%E6%A8%99%E6%8C%87%E5%AE%9A%E6%8B%A1%E5%A4%A7%E7%B8%AE%E5%B0%8F/README.md",
-    "latest-version": "v1.1",
+    "latest-version": "v1.2",
     "popularity": 690,
     "trend": 80,
     "licenses": [
@@ -19948,6 +19975,11 @@
           "action": "copy",
           "from": "{tmp}/Language/English.targeted_scale-anm2.aul2",
           "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.targeted_scale-anm2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -19958,6 +19990,10 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/English.targeted_scale-anm2.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.targeted_scale-anm2.aul2"
         }
       ]
     },
@@ -19979,6 +20015,24 @@
           {
             "path": "{scriptsDir}/目標指定拡大縮小.anm2",
             "XXH3_128": "b281152094d13fd7cb087145235546c5"
+          }
+        ]
+      },
+      {
+        "version": "v1.2",
+        "release_date": "2026-08-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/目標指定拡大縮小.anm2",
+            "XXH3_128": "507253908695d4afe7ef64078705fada"
+          },
+          {
+            "path": "{dataDir}/Language/English.targeted_scale-anm2.aul2",
+            "XXH3_128": "8da496bec933e08bace86d47c6320c07"
+          },
+          {
+            "path": "{dataDir}/Language/Default.targeted_scale-anm2.aul2",
+            "XXH3_128": "fa2e2fc175ec1bbd6560628f9d5f2b9f"
           }
         ]
       }
@@ -26833,7 +26887,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0/README.md",
-    "latest-version": "v1.1",
+    "latest-version": "v1.2",
     "popularity": 1338,
     "trend": 186,
     "licenses": [
@@ -26873,6 +26927,11 @@
           "action": "copy",
           "from": "{tmp}/Language/English.camera_frame-obj2.aul2",
           "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.camera_frame-obj2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -26883,6 +26942,10 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/English.camera_frame-obj2.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.camera_frame-obj2.aul2"
         }
       ]
     },
@@ -26904,6 +26967,24 @@
           {
             "path": "{scriptsDir}/カメラフレーム.obj2",
             "XXH3_128": "a1d34871594520e0dd3c3ef3d37ea254"
+          }
+        ]
+      },
+      {
+        "version": "v1.2",
+        "release_date": "2026-08-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/カメラフレーム.obj2",
+            "XXH3_128": "f01bc23af3b03c77050c1f119fcd507f"
+          },
+          {
+            "path": "{dataDir}/Language/English.camera_frame-obj2.aul2",
+            "XXH3_128": "135333e2aebf12708e8b993ffa843e85"
+          },
+          {
+            "path": "{dataDir}/Language/Default.camera_frame-obj2.aul2",
+            "XXH3_128": "5653d89cd3d0df2541837b8c0b63e152"
           }
         ]
       }
@@ -30227,7 +30308,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/%E7%B8%A6%E5%8B%95%E7%94%BB%E3%82%AC%E3%82%A4%E3%83%89/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E7%B8%A6%E5%8B%95%E7%94%BB%E3%82%AC%E3%82%A4%E3%83%89/README.md",
-    "latest-version": "1.4",
+    "latest-version": "v1.5",
     "popularity": 552,
     "trend": 83,
     "licenses": [
@@ -30268,6 +30349,11 @@
           "action": "copy",
           "from": "{tmp}/Language/English.shorts_guide-obj2.aul2",
           "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.shorts_guide-obj2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -30278,6 +30364,10 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/English.shorts_guide-obj2.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.shorts_guide-obj2.aul2"
         }
       ]
     },
@@ -30319,6 +30409,24 @@
           {
             "path": "{scriptsDir}/縦動画ガイド.obj2",
             "XXH3_128": "5cc1f929559615c857ea4eb429a62b90"
+          }
+        ]
+      },
+      {
+        "version": "v1.5",
+        "release_date": "2026-08-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/縦動画ガイド.obj2",
+            "XXH3_128": "cb03c2ce61f60b96ac5c674a59b79790"
+          },
+          {
+            "path": "{dataDir}/Language/Default.shorts_guide-obj2.aul2",
+            "XXH3_128": "b80c20ae665a6d151c1704a424d30e1e"
+          },
+          {
+            "path": "{dataDir}/Language/English.shorts_guide-obj2.aul2",
+            "XXH3_128": "68f2c775ad3aabea6a45e5aa02c84c29"
           }
         ]
       }
@@ -33175,7 +33283,7 @@
     "author": "Nanashi.",
     "originalAuthor": "hazuqu",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/CRT%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E9%A2%A8/README.md",
-    "latest-version": "1.1",
+    "latest-version": "v1.2",
     "popularity": 405,
     "trend": 81,
     "licenses": [
@@ -33215,7 +33323,12 @@
         {
           "action": "copy",
           "from": "{tmp}/Language/English.crt_display-anm2.aul2",
-          "to": "{dataDir}/Language/English.crt_display-anm2.aul2"
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.crt_display-anm2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -33226,12 +33339,16 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/English.crt_display-anm2.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.crt_display-anm2.aul2"
         }
       ]
     },
     "version": [
       {
-        "version": "1.0",
+        "version": "v1.0",
         "release_date": "2026-06-01",
         "file": [
           {
@@ -33241,12 +33358,30 @@
         ]
       },
       {
-        "version": "1.1",
+        "version": "v1.1",
         "release_date": "2026-07-06",
         "file": [
           {
             "path": "{scriptsDir}/CRTディスプレイ風.anm2",
             "XXH3_128": "c40b9305b0e6e4d35af95c558049c793"
+          }
+        ]
+      },
+      {
+        "version": "v1.2",
+        "release_date": "2026-08-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/CRTディスプレイ風.anm2",
+            "XXH3_128": "701f519dd6e2d926b179f5454412fd9a"
+          },
+          {
+            "path": "{dataDir}/Language/Default.crt_display-anm2.aul2",
+            "XXH3_128": "189cb70da335bebfd3ea0a7eb86ff893"
+          },
+          {
+            "path": "{dataDir}/Language/English.crt_display-anm2.aul2",
+            "XXH3_128": "65dcf3eeff7e23de51fc655351e137a5"
           }
         ]
       }
@@ -33666,7 +33801,7 @@
     "author": "Nanashi.",
     "originalAuthor": "るっちょ",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/GPU%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88/README.md",
-    "latest-version": "1.2",
+    "latest-version": "v1.3",
     "popularity": 490,
     "trend": 93,
     "licenses": [
@@ -33711,6 +33846,11 @@
           "action": "copy",
           "from": "{tmp}/Language/English.gpu_pixelsort-anm2.aul2",
           "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.gpu_pixelsort-anm2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -33721,12 +33861,16 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/English.gpu_pixelsort-anm2.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.gpu_pixelsort-anm2.aul2"
         }
       ]
     },
     "version": [
       {
-        "version": "1.0",
+        "version": "v1.0",
         "release_date": "2026-06-07",
         "file": [
           {
@@ -33736,7 +33880,7 @@
         ]
       },
       {
-        "version": "1.1",
+        "version": "v1.1",
         "release_date": "2026-06-08",
         "file": [
           {
@@ -33746,12 +33890,30 @@
         ]
       },
       {
-        "version": "1.2",
+        "version": "v1.2",
         "release_date": "2026-07-06",
         "file": [
           {
             "path": "{scriptsDir}/GPUピクセルソート.anm2",
             "XXH3_128": "d74b6193ae7300bcd43a5f09445c9fae"
+          }
+        ]
+      },
+      {
+        "version": "v1.3",
+        "release_date": "2026-08-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/GPUピクセルソート.anm2",
+            "XXH3_128": "80857245feffbfd8d7701029fcbb5ed1"
+          },
+          {
+            "path": "{dataDir}/Language/English.gpu_pixelsort-anm2.aul2",
+            "XXH3_128": "7666631ad03e93bcde148789e50009f7"
+          },
+          {
+            "path": "{dataDir}/Language/Default.gpu_pixelsort-anm2.aul2",
+            "XXH3_128": "c813f59038388538f0a999ab2e89e353"
           }
         ]
       }
@@ -36051,7 +36213,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/%E5%87%BA%E5%8A%9B%E6%99%82%E3%81%AB%E9%9D%9E%E8%A1%A8%E7%A4%BA/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E5%87%BA%E5%8A%9B%E6%99%82%E3%81%AB%E9%9D%9E%E8%A1%A8%E7%A4%BA/README.md",
-    "latest-version": "1.1",
+    "latest-version": "v1.2",
     "popularity": 123,
     "trend": 22,
     "licenses": [
@@ -36091,6 +36253,11 @@
           "action": "copy",
           "from": "{tmp}/Language/English.hide_on_export-anm2.aul2",
           "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.hide_on_export-anm2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -36101,12 +36268,16 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/English.hide_on_export-anm2.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.hide_on_export-anm2.aul2"
         }
       ]
     },
     "version": [
       {
-        "version": "1.0",
+        "version": "v1.0",
         "release_date": "2026-07-05",
         "file": [
           {
@@ -36116,12 +36287,30 @@
         ]
       },
       {
-        "version": "1.1",
+        "version": "v1.1",
         "release_date": "2026-07-06",
         "file": [
           {
             "path": "{scriptsDir}/出力時に非表示.anm2",
             "XXH3_128": "17ad66b074ed9686d7297b0ab0746cb7"
+          }
+        ]
+      },
+      {
+        "version": "v1.2",
+        "release_date": "2026-08-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/出力時に非表示.anm2",
+            "XXH3_128": "fff348eb7e5fecf298cad84a83ffc175"
+          },
+          {
+            "path": "{dataDir}/Language/English.hide_on_export-anm2.aul2",
+            "XXH3_128": "5dc608f294ce30bc2baf8f29cdf33e28"
+          },
+          {
+            "path": "{dataDir}/Language/Default.hide_on_export-anm2.aul2",
+            "XXH3_128": "2ba00aedbb462e444a381531320a9f1e"
           }
         ]
       }
