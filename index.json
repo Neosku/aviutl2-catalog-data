@@ -33283,7 +33283,7 @@
     "author": "Nanashi.",
     "originalAuthor": "hazuqu",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/CRT%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E9%A2%A8/README.md",
-    "latest-version": "1.1",
+    "latest-version": "v1.2",
     "popularity": 405,
     "trend": 81,
     "licenses": [
@@ -33323,7 +33323,12 @@
         {
           "action": "copy",
           "from": "{tmp}/Language/English.crt_display-anm2.aul2",
-          "to": "{dataDir}/Language/English.crt_display-anm2.aul2"
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.crt_display-anm2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -33334,12 +33339,16 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/English.crt_display-anm2.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.crt_display-anm2.aul2"
         }
       ]
     },
     "version": [
       {
-        "version": "1.0",
+        "version": "v1.0",
         "release_date": "2026-06-01",
         "file": [
           {
@@ -33349,12 +33358,30 @@
         ]
       },
       {
-        "version": "1.1",
+        "version": "v1.1",
         "release_date": "2026-07-06",
         "file": [
           {
             "path": "{scriptsDir}/CRTディスプレイ風.anm2",
             "XXH3_128": "c40b9305b0e6e4d35af95c558049c793"
+          }
+        ]
+      },
+      {
+        "version": "v1.2",
+        "release_date": "2026-08-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/CRTディスプレイ風.anm2",
+            "XXH3_128": "701f519dd6e2d926b179f5454412fd9a"
+          },
+          {
+            "path": "{dataDir}/Language/Default.crt_display-anm2.aul2",
+            "XXH3_128": "189cb70da335bebfd3ea0a7eb86ff893"
+          },
+          {
+            "path": "{dataDir}/Language/English.crt_display-anm2.aul2",
+            "XXH3_128": "65dcf3eeff7e23de51fc655351e137a5"
           }
         ]
       }
