@@ -33801,7 +33801,7 @@
     "author": "Nanashi.",
     "originalAuthor": "るっちょ",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/GPU%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88/README.md",
-    "latest-version": "1.2",
+    "latest-version": "v1.3",
     "popularity": 490,
     "trend": 93,
     "licenses": [
@@ -33846,6 +33846,11 @@
           "action": "copy",
           "from": "{tmp}/Language/English.gpu_pixelsort-anm2.aul2",
           "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.gpu_pixelsort-anm2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -33856,12 +33861,16 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/English.gpu_pixelsort-anm2.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.gpu_pixelsort-anm2.aul2"
         }
       ]
     },
     "version": [
       {
-        "version": "1.0",
+        "version": "v1.0",
         "release_date": "2026-06-07",
         "file": [
           {
@@ -33871,7 +33880,7 @@
         ]
       },
       {
-        "version": "1.1",
+        "version": "v1.1",
         "release_date": "2026-06-08",
         "file": [
           {
@@ -33881,12 +33890,30 @@
         ]
       },
       {
-        "version": "1.2",
+        "version": "v1.2",
         "release_date": "2026-07-06",
         "file": [
           {
             "path": "{scriptsDir}/GPUピクセルソート.anm2",
             "XXH3_128": "d74b6193ae7300bcd43a5f09445c9fae"
+          }
+        ]
+      },
+      {
+        "version": "v1.3",
+        "release_date": "2026-08-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/GPUピクセルソート.anm2",
+            "XXH3_128": "80857245feffbfd8d7701029fcbb5ed1"
+          },
+          {
+            "path": "{dataDir}/Language/English.gpu_pixelsort-anm2.aul2",
+            "XXH3_128": "7666631ad03e93bcde148789e50009f7"
+          },
+          {
+            "path": "{dataDir}/Language/Default.gpu_pixelsort-anm2.aul2",
+            "XXH3_128": "c813f59038388538f0a999ab2e89e353"
           }
         ]
       }
