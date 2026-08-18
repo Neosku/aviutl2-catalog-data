@@ -37387,7 +37387,7 @@
     "description": "https://raw.githubusercontent.com/Estellellet/AviUtl2-LaTeX/refs/heads/main/docs/CATALOG.md",
     "author": "Estelle",
     "repoURL": "https://github.com/Estellellet/AviUtl2-LaTeX",
-    "latest-version": "v0.1.1",
+    "latest-version": "v0.2.0",
     "popularity": 121,
     "trend": 25,
     "licenses": [
@@ -37476,6 +37476,16 @@
           {
             "path": "{pluginsDir}/AviUtl2LaTeX/AviUtl2LaTeX.auf2",
             "XXH3_128": "f1053a7d92ed5ab9c107f75e3430778c"
+          }
+        ]
+      },
+      {
+        "version": "v0.2.0",
+        "release_date": "2026-08-18",
+        "file": [
+          {
+            "path": "{pluginsDir}/AviUtl2LaTeX/AviUtl2LaTeX.auf2",
+            "XXH3_128": "a8ba5a0c5989fab78d5418bd7f903cf2"
           }
         ]
       }
