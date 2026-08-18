@@ -36213,7 +36213,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/%E5%87%BA%E5%8A%9B%E6%99%82%E3%81%AB%E9%9D%9E%E8%A1%A8%E7%A4%BA/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E5%87%BA%E5%8A%9B%E6%99%82%E3%81%AB%E9%9D%9E%E8%A1%A8%E7%A4%BA/README.md",
-    "latest-version": "1.1",
+    "latest-version": "v1.2",
     "popularity": 123,
     "trend": 22,
     "licenses": [
@@ -36253,6 +36253,11 @@
           "action": "copy",
           "from": "{tmp}/Language/English.hide_on_export-anm2.aul2",
           "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.hide_on_export-anm2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -36263,12 +36268,16 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/English.hide_on_export-anm2.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.hide_on_export-anm2.aul2"
         }
       ]
     },
     "version": [
       {
-        "version": "1.0",
+        "version": "v1.0",
         "release_date": "2026-07-05",
         "file": [
           {
@@ -36278,12 +36287,30 @@
         ]
       },
       {
-        "version": "1.1",
+        "version": "v1.1",
         "release_date": "2026-07-06",
         "file": [
           {
             "path": "{scriptsDir}/出力時に非表示.anm2",
             "XXH3_128": "17ad66b074ed9686d7297b0ab0746cb7"
+          }
+        ]
+      },
+      {
+        "version": "v1.2",
+        "release_date": "2026-08-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/出力時に非表示.anm2",
+            "XXH3_128": "fff348eb7e5fecf298cad84a83ffc175"
+          },
+          {
+            "path": "{dataDir}/Language/English.hide_on_export-anm2.aul2",
+            "XXH3_128": "5dc608f294ce30bc2baf8f29cdf33e28"
+          },
+          {
+            "path": "{dataDir}/Language/Default.hide_on_export-anm2.aul2",
+            "XXH3_128": "2ba00aedbb462e444a381531320a9f1e"
           }
         ]
       }
