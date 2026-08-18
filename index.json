@@ -30308,7 +30308,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/%E7%B8%A6%E5%8B%95%E7%94%BB%E3%82%AC%E3%82%A4%E3%83%89/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E7%B8%A6%E5%8B%95%E7%94%BB%E3%82%AC%E3%82%A4%E3%83%89/README.md",
-    "latest-version": "1.4",
+    "latest-version": "v1.5",
     "popularity": 552,
     "trend": 83,
     "licenses": [
@@ -30349,6 +30349,11 @@
           "action": "copy",
           "from": "{tmp}/Language/English.shorts_guide-obj2.aul2",
           "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.shorts_guide-obj2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -30359,6 +30364,10 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/English.shorts_guide-obj2.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.shorts_guide-obj2.aul2"
         }
       ]
     },
@@ -30400,6 +30409,24 @@
           {
             "path": "{scriptsDir}/縦動画ガイド.obj2",
             "XXH3_128": "5cc1f929559615c857ea4eb429a62b90"
+          }
+        ]
+      },
+      {
+        "version": "v1.5",
+        "release_date": "2026-08-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/縦動画ガイド.obj2",
+            "XXH3_128": "cb03c2ce61f60b96ac5c674a59b79790"
+          },
+          {
+            "path": "{dataDir}/Language/Default.shorts_guide-obj2.aul2",
+            "XXH3_128": "b80c20ae665a6d151c1704a424d30e1e"
+          },
+          {
+            "path": "{dataDir}/Language/English.shorts_guide-obj2.aul2",
+            "XXH3_128": "68f2c775ad3aabea6a45e5aa02c84c29"
           }
         ]
       }
