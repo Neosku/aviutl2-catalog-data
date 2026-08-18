@@ -41494,5 +41494,72 @@
         ]
       }
     ]
+  },
+  {
+    "id": "momo_neeeko.pixelize",
+    "name": "ピクセル化",
+    "type": "スクリプト",
+    "summary": "ぼかしのかからないモザイク",
+    "description": "./md/momo_neeeko.pixelize.md",
+    "author": "もも猫",
+    "repoURL": "https://twitter.com/momo_neeeko/status/2044756345430417897",
+    "latest-version": "2026.04.17",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "モザイク",
+      "ドット"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "infoImg": [
+          "./image/momo_neeeko.pixelize_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1Mr7cfH5dcEtxD2a3otziUnfPV_1_nbPT"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/ピクセル化.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ピクセル化.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2026.04.17",
+        "release_date": "2026-04-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/ピクセル化.anm2",
+            "XXH3_128": "a1bd63707f1c42a1aff0a24b0172aa20"
+          }
+        ]
+      }
+    ]
   }
 ]
