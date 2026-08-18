@@ -41683,5 +41683,71 @@
         ]
       }
     ]
+  },
+  {
+    "id": "momo_neeeko.parallel_projection",
+    "name": "平行投影",
+    "type": "スクリプト",
+    "summary": "平行投影",
+    "description": "./md/momo_neeeko.parallel_projection.md",
+    "author": "もも猫",
+    "repoURL": "https://twitter.com/momo_neeeko/status/2071867409636692120",
+    "latest-version": "2026.06.30",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "カメラ"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "infoImg": [
+          "./image/momo_neeeko.parallel_projection_1.jpeg"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1mPh2tOtUKhuzmHKYe4y1zc2HS5EaWdjF"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/平行投影.cam2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/平行投影.cam2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "2026.06.30",
+        "release_date": "2026-06-30",
+        "file": [
+          {
+            "path": "{scriptsDir}/平行投影.cam2",
+            "XXH3_128": "97631b66fad19ef0438ce48bad7acd25"
+          }
+        ]
+      }
+    ]
   }
 ]
