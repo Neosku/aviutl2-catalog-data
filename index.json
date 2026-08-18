@@ -41681,6 +41681,21 @@
             "XXH3_128": "23ad07a5c5ca1ecf156e9e9952d19612"
           }
         ]
+        
+      },
+      {
+        "version": "0.2.2",
+        "release_date": "2026-08-18",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.create_control_object-aux2.aul2",
+            "XXH3_128": "bbb6a3c3adad9934a16486b708f8b23b"
+          },
+          {
+            "path": "{pluginsDir}/create_control_object.aux2",
+            "XXH3_128": "cf25036af2b2fdfadb27074847b97f73"
+          }
+        ]
       }
     ]
   },
