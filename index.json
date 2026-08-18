@@ -26887,7 +26887,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0/README.md",
-    "latest-version": "v1.1",
+    "latest-version": "v1.2",
     "popularity": 1338,
     "trend": 186,
     "licenses": [
@@ -26927,6 +26927,11 @@
           "action": "copy",
           "from": "{tmp}/Language/English.camera_frame-obj2.aul2",
           "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.camera_frame-obj2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -26937,6 +26942,10 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/English.camera_frame-obj2.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.camera_frame-obj2.aul2"
         }
       ]
     },
@@ -26958,6 +26967,24 @@
           {
             "path": "{scriptsDir}/カメラフレーム.obj2",
             "XXH3_128": "a1d34871594520e0dd3c3ef3d37ea254"
+          }
+        ]
+      },
+      {
+        "version": "v1.2",
+        "release_date": "2026-08-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/カメラフレーム.obj2",
+            "XXH3_128": "f01bc23af3b03c77050c1f119fcd507f"
+          },
+          {
+            "path": "{dataDir}/Language/English.camera_frame-obj2.aul2",
+            "XXH3_128": "135333e2aebf12708e8b993ffa843e85"
+          },
+          {
+            "path": "{dataDir}/Language/Default.camera_frame-obj2.aul2",
+            "XXH3_128": "5653d89cd3d0df2541837b8c0b63e152"
           }
         ]
       }
