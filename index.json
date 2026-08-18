@@ -19811,7 +19811,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2#%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2anm2",
-    "latest-version": "v3.5",
+    "latest-version": "v3.4",
     "popularity": 1351,
     "trend": 182,
     "licenses": [
@@ -19852,11 +19852,6 @@
           "action": "copy",
           "from": "{tmp}/Language/English.pixel_transform-anm2.aul2",
           "to": "{dataDir}/Language"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Language/Default.pixel_transform-anm2.aul2",
-          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -19867,10 +19862,6 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/English.pixel_transform-anm2.aul2"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Language/Default.pixel_transform-anm2.aul2"
         }
       ]
     },
@@ -19902,24 +19893,6 @@
           {
             "path": "{scriptsDir}/ドット絵変形.anm2",
             "XXH3_128": "339ce718f5e4b9adab0a34164401f672"
-          }
-        ]
-      },
-      {
-        "version": "v3.5",
-        "release_date": "2026-08-18",
-        "file": [
-          {
-            "path": "{scriptsDir}/ドット絵変形.anm2",
-            "XXH3_128": "1ef65f94023365bb8e7f2063220df7a8"
-          },
-          {
-            "path": "{dataDir}/Language/English.pixel_transform-anm2.aul2",
-            "XXH3_128": "edb6499d37860ac273017e1664772a1c"
-          },
-          {
-            "path": "{dataDir}/Language/Default.pixel_transform-anm2.aul2",
-            "XXH3_128": "88321ef9759ccb004e9502d1d235597a"
           }
         ]
       }
