@@ -40679,7 +40679,7 @@
     "description": "https://raw.githubusercontent.com/Hallkun19/HL_Blobox-for-aul2/refs/heads/main/README.md",
     "author": "はるくん / harukun19",
     "repoURL": "https://github.com/Hallkun19/HL_Blobox-for-aul2",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.2",
     "popularity": 187,
     "trend": 182,
     "licenses": [
@@ -40743,6 +40743,16 @@
             "XXH3_128": "a0486cc66b39878b111d1a26ecb92928"
           }
         ]
+      },
+      {
+        "version": "v1.0.2",
+        "release_date": "2026-08-19",
+        "file": [
+          {
+            "path": "{pluginsDir}/HL_Blobox.auf2",
+            "XXH3_128": "1e1139490a50aabf4c114a3074636db7"
+          }
+        ]
       }
     ]
   },
@@ -40754,7 +40764,7 @@
     "description": "./md/nctype.AutoBlendLight.md",
     "author": "nctype",
     "repoURL": "https://github.com/nctype/aviutl2_script_AutoBlendLight",
-    "latest-version": "v1.1.0",
+    "latest-version": "v1.2.0",
     "popularity": 189,
     "trend": 191,
     "licenses": [
@@ -40850,6 +40860,16 @@
             "XXH3_128": "0fcde4eaa5e6c37e1f034de680e9a88d"
           }
         ]
+      },
+      {
+        "version": "v1.2.0",
+        "release_date": "2026-08-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/AutoBlendLight/AutoBlendLight.anm2",
+            "XXH3_128": "83e88f97e9b1369f8d6fcb4bf802a3b1"
+          }
+        ]
       }
     ]
   },
@@ -40861,7 +40881,7 @@
     "description": "./md/legashiro.TextInput.md",
     "author": "れがしろ",
     "repoURL": "https://github.com/RubymondJ/TextInput-AviUtl2Plugin",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.2",
     "popularity": 36,
     "trend": 37,
     "licenses": [
@@ -40922,6 +40942,16 @@
           {
             "path": "{pluginsDir}/TextInput.aux2",
             "XXH3_128": "a8a4a75fb41e851077dc5272efafc5f0"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.2",
+        "release_date": "2026-08-19",
+        "file": [
+          {
+            "path": "{pluginsDir}/TextInput.aux2",
+            "XXH3_128": "2141e25462655bd6ec4f1ab2a25fbac6"
           }
         ]
       }
