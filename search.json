@@ -1905,7 +1905,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "vramwiz/Syncroh2-site",
-      "regex": "^Syncroh2_Desktop.*\\.zip$",
+      "regex": "^Syncroh2_Desktop\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -3386,7 +3386,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "TranczMeq/aviutl2-live-mcp",
-      "regex": "TranczMeq.aviutl2-mcp-bridge-v.*\\.au2pkg.zip",
+      "regex": "TranczMeq.aviutl2-mcp-bridge-.*\\.au2pkg.zip",
       "hash-calc": [
         {
           "extract": "zip",
@@ -3625,6 +3625,209 @@
           "recordPaths": [
             "{dataDir}/Language/English.reset_frame_selection_on_focus-aux2.aul2",
             "{pluginsDir}/reset_frame_selection_on_focus.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "ronin_gw.mojie",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "ronin-gw/aviutl2_mojie",
+      "regex": "^mojie.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/mojie/mojie.aux2",
+            "Alias/mojieテキスト.object"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/mojie/mojie.aux2",
+            "{dataDir}/Alias/mojieテキスト.object"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.TurnOver_PPP",
+    "latest-version": "v1.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/TurnOver_PPP",
+      "regex": "^TurnOver_PPP\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "TurnOver_PPP/TurnOver_PPP.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/TurnOver_PPP/TurnOver_PPP.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "halkun19.HL_Blobox",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Hallkun19/HL_Blobox-for-aul2",
+      "regex": "^HL_Blobox-v.+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/HL_Blobox.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/HL_Blobox.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "nctype.AutoBlendLight",
+    "latest-version": "v1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nctype/aviutl2_script_AutoBlendLight",
+      "regex": "^AutoBlendLight_v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/AutoBlendLight/AutoBlendLight.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/AutoBlendLight/AutoBlendLight.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "legashiro.TextInput",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "RubymondJ/TextInput-AviUtl2Plugin",
+      "regex": "^TextInput.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "TextInput.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/TextInput.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "nctype.Pixelizer",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nctype/aviutl2_script_Pixelizer",
+      "regex": "^Pixelizer_v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/Pixelizer/Pixelizer.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Pixelizer/Pixelizer.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "gomi1124.psdtoolkit-aviutl1-lipsync",
+    "latest-version": "v2.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "gomi1124/PSDToolKit-Natural-LipSync",
+      "regex": "^PSDToolKit_NaturalLipSync_v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/PSDToolKit/LipSyncAviUtl1.mod2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/PSDToolKit/LipSyncAviUtl1.mod2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "teruyoshii.Palette_History",
+    "latest-version": "v1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "teruyoshii/AviUtl2_Palette_History",
+      "regex": "^PaletteHistory\\.aux2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "PaletteHistory.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/PaletteHistory.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.create_control_object-aux2",
+    "latest-version": "0.2.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/create_control_object.aux2",
+      "regex": "^sevenc-nanashi\\.create_control_object-aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Language/English.create_control_object-aux2.aul2",
+            "Plugin/create_control_object.aux2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/English.create_control_object-aux2.aul2",
+            "{pluginsDir}/create_control_object.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "NeAc.Scatter",
+    "latest-version": "r2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nea-c/aviutl2_script_Scatter",
+      "regex": "^Scatter\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Scatter.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Scatter.anm2"
           ]
         }
       ]
