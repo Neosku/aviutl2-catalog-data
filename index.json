@@ -19413,6 +19413,11 @@
           "action": "copy",
           "from": "{tmp}/Script/ntsc-rs.mod2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/ntsc-rs.anm2.anm2",
+          "to": "{scriptsDir}"
         }
       ],
       "uninstall": [
@@ -19423,6 +19428,10 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/ntsc-rs.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ntsc-rs.anm2.anm2"
         }
       ]
     },
@@ -19480,6 +19489,10 @@
           {
             "path": "{scriptsDir}/ntsc-rs.mod2",
             "XXH3_128": "555175db28fb1ca3edd2e363e335023a"
+          },
+          {
+            "path": "{scriptsDir}/ntsc-rs.anm2.anm2",
+            "XXH3_128": "022883040aeae7a2308d5b27b524a33a"
           }
         ]
       }
