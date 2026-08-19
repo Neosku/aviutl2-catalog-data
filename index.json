@@ -19418,6 +19418,11 @@
           "action": "copy",
           "from": "{tmp}/Script/ntsc-rs.anm2.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.ntsc-rs.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -19432,6 +19437,10 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/ntsc-rs.anm2.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.ntsc-rs.aul2"
         }
       ]
     },
@@ -19493,6 +19502,10 @@
           {
             "path": "{scriptsDir}/ntsc-rs.anm2.anm2",
             "XXH3_128": "022883040aeae7a2308d5b27b524a33a"
+          },
+          {
+            "path": "{dataDir}/Language/English.ntsc-rs.aul2",
+            "XXH3_128": "b56421e344e1d362d921c0ba597be550"
           }
         ]
       }
