@@ -5885,7 +5885,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Basic_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Basic_S",
-    "latest-version": "v2.71",
+    "latest-version": "v2.80",
     "popularity": 10599,
     "trend": 1553,
     "licenses": [
@@ -6377,6 +6377,16 @@
           {
             "path": "{scriptsDir}/@Basic_S.anm2",
             "XXH3_128": "908898d2957f9506a7a518f3d42b15d5"
+          }
+        ]
+      },
+      {
+        "version": "v2.80",
+        "release_date": "2026-08-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Basic_S.anm2",
+            "XXH3_128": "0f0815b86d63a7b0cbedef000a1a4989"
           }
         ]
       }
@@ -10709,7 +10719,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_tl_walkaround2/refs/heads/master/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_tl_walkaround2",
-    "latest-version": "v2.30",
+    "latest-version": "v2.31",
     "popularity": 1170,
     "trend": 399,
     "licenses": [
@@ -11003,6 +11013,16 @@
           {
             "path": "{pluginsDir}/tl_walkaround2.aux2",
             "XXH3_128": "54c5b4152b981a353cc0c106df864071"
+          }
+        ]
+      },
+      {
+        "version": "v2.31",
+        "release_date": "2026-08-19",
+        "file": [
+          {
+            "path": "{pluginsDir}/tl_walkaround2.aux2",
+            "XXH3_128": "630802d94ce325fadf0033c816264177"
           }
         ]
       }
