@@ -42099,5 +42099,150 @@
         ]
       }
     ]
+  },
+  {
+    "id": "CJF.PenTool",
+    "name": "ペン&矩形ツール",
+    "type": "スクリプト",
+    "summary": "編集画面上でペンや矩形ツールを使用できるスクリプトです",
+    "description": "https://raw.githubusercontent.com/ColorJellyFish/aviutl2_cjf_pentool/refs/heads/main/README.md",
+    "author": "CJF",
+    "repoURL": "https://github.com/ColorJellyFish/aviutl2_cjf_pentool",
+    "latest-version": "v0.1.2",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "ColorJellyFish"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "sm46667050",
+    "tags": [
+      "図形"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/CJF.PenTool_thumbnail.gif",
+        "infoImg": [
+          "./image/CJF.PenTool_1.gif"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "ColorJellyFish",
+          "repo": "aviutl2_cjf_pentool",
+          "pattern": "^cjf_pentool-v.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/CJF/CJFPenToolButton.auf2",
+          "to": "{pluginsDir}/CJF"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/CJF/CJFPreviewPenTool.aux2",
+          "to": "{pluginsDir}/CJF"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/CJF/CJFPreviewRangeSelector.aux2",
+          "to": "{pluginsDir}/CJF"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/CJF/CJFRangeSelectorButton.auf2",
+          "to": "{pluginsDir}/CJF"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/CJF/ペンツール.obj2",
+          "to": "{scriptsDir}/CJF"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/CJF/図形ツール.obj2",
+          "to": "{scriptsDir}/CJF"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/ペンツール@推奨.object",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/図形ツール@推奨.object",
+          "to": "{dataDir}/Alias"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/CJF/CJFPenToolButton.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/CJF/CJFPreviewPenTool.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/CJF/CJFPreviewRangeSelector.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/CJF/CJFRangeSelectorButton.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CJF/ペンツール.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CJF/図形ツール.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/ペンツール@推奨.object"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/図形ツール@推奨.object"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.2",
+        "release_date": "2026-08-18",
+        "file": [
+          {
+            "path": "{pluginsDir}/CJF/CJFPreviewPenTool.aux2",
+            "XXH3_128": "9a9cb55a7a1345f4ebad566cd0c5938d"
+          },
+          {
+            "path": "{pluginsDir}/CJF/CJFPreviewRangeSelector.aux2",
+            "XXH3_128": "a0f71f3da1dfcc559d002484a191b67c"
+          }
+        ]
+      }
+    ]
   }
 ]
