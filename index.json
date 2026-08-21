@@ -25695,7 +25695,7 @@
     "name": "CopyAlias",
     "type": "汎用プラグイン",
     "summary": "トラックバー、オブジェクトのエイリアスをクリップボードにコピーする",
-    "description": "https://raw.githubusercontent.com/rokujyushi/Copy_alias/refs/heads/Rust-2.1.0/README.md",
+    "description": "https://raw.githubusercontent.com/rokujyushi/Copy_alias/refs/heads/Rust-2.2.0/README.md",
     "author": "黒猫大福",
     "repoURL": "https://github.com/rokujyushi/Copy_alias",
     "latest-version": "2.2.0",
@@ -25743,12 +25743,21 @@
           "action": "copy",
           "from": "{tmp}/Plugin/CopyAlias.aux2",
           "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.copyalias.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/CopyAlias.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.copyalias.aul2"
         }
       ]
     },
@@ -25800,6 +25809,10 @@
           {
             "path": "{pluginsDir}/CopyAlias.aux2",
             "XXH3_128": "ef7b778d85a0860379bf3ce488093b02"
+          },
+          {
+            "path": "{dataDir}/Language/English.copyalias.aul2",
+            "XXH3_128": "4de3513ce1528664c9185543632fb7db"
           }
         ]
       }
