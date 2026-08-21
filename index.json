@@ -42509,7 +42509,7 @@
     "summary": "トラッキング手振れ補正",
     "description": "https://raw.githubusercontent.com/Bialis-dev/TrackingStabilizer-for-AviUtl-ExEdit2/refs/heads/main/README.md",
     "author": "Bialis",
-    "repoURL": "https://github.com/Bialis-dev/AviUtil2-TrackingStabilizer",
+    "repoURL": "https://github.com/Bialis-dev/TrackingStabilizer-for-AviUtl-ExEdit2",
     "latest-version": "v1.04",
     "popularity": 0,
     "trend": 0,
@@ -42539,7 +42539,7 @@
         "github": {
           "owner": "Bialis-dev",
           "repo": "TrackingStabilizer-for-AviUtl-ExEdit2",
-          "pattern": "^TrackingStabilizer.*\\.auf2"
+          "pattern": "^TrackingStabilizer.*\\.auf2$"
         }
       },
       "install": [
