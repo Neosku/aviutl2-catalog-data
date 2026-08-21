@@ -19395,7 +19395,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/ntsc-rs.anm2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/ntsc-rs.anm2",
-    "latest-version": "0.3.0",
+    "latest-version": "0.3.1",
     "popularity": 4935,
     "trend": 630,
     "licenses": [
@@ -19536,6 +19536,20 @@
           {
             "path": "{dataDir}/Language/English.ntsc-rs.aul2",
             "XXH3_128": "b56421e344e1d362d921c0ba597be550"
+          }
+        ]
+      },
+      {
+        "version": "0.3.1",
+        "release_date": "2026-08-21",
+        "file": [
+          {
+            "path": "{scriptsDir}/ntsc-rs.anm2",
+            "XXH3_128": "707ef9c9610c08f61f2fd1f3b105fcf1"
+          },
+          {
+            "path": "{scriptsDir}/ntsc-rs.mod2",
+            "XXH3_128": "763989e3521f370a30024866481cb664"
           }
         ]
       }
@@ -42355,6 +42369,134 @@
           {
             "path": "{pluginsDir}/HL_FxWheel.aux2",
             "XXH3_128": "c04d92fa8234cc9d0e44f8c6901e606f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CJF.PSD_anime",
+    "name": "PSD連携アニメーション(非公式)",
+    "type": "スクリプト",
+    "summary": "パーツ上書きを監視してPSDToolKitの立ち絵を動かすスクリプト",
+    "description": "https://raw.githubusercontent.com/ColorJellyFish/aviutl2_cjf_psdanimation/refs/heads/main/README.md",
+    "author": "CJF",
+    "repoURL": "https://github.com/ColorJellyFish/aviutl2_cjf_psdanimation",
+    "latest-version": "v0.1.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "ColorJellyFish"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "sm46667050",
+    "tags": [
+      "アニメーション",
+      "PSD"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/CJF.PSD_anime_thumbnail.png",
+        "infoImg": [
+          "./image/CJF.PSD_anime_1.gif"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "ColorJellyFish",
+          "repo": "aviutl2_cjf_psdanimation",
+          "pattern": "^cjf_psd-v.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/CJF/ptk_overwrite_react_core.lua",
+          "to": "{scriptsDir}/CJF"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/CJF/ptk_overwrite_react_state.lua",
+          "to": "{scriptsDir}/CJF"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/CJF/くるっと@psd.anm2",
+          "to": "{scriptsDir}/CJF"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/CJF/ノイズ@psd.anm2",
+          "to": "{scriptsDir}/CJF"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/CJF/フェード@psd.anm2",
+          "to": "{scriptsDir}/CJF"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/CJF/ポップ@psd.anm2",
+          "to": "{scriptsDir}/CJF"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CJF/ptk_overwrite_react_core.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CJF/ptk_overwrite_react_state.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CJF/くるっと@psd.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CJF/ノイズ@psd.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CJF/フェード@psd.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CJF/ポップ@psd.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.1",
+        "release_date": "2026-08-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/CJF/ptk_overwrite_react_core.lua",
+            "XXH3_128": "bb8a8688459c066179fe8948c4efe9e4"
+          },
+          {
+            "path": "{scriptsDir}/CJF/ptk_overwrite_react_state.lua",
+            "XXH3_128": "7ec08ab9f19f12c6db6a660e1f03da5f"
           }
         ]
       }
