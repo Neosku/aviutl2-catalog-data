@@ -7,7 +7,7 @@
     "description": "./md/Kenkun.AviUtlExEdit2.md",
     "author": "ＫＥＮくん",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-    "latest-version": "v2.1.6",
+    "latest-version": "v2.1.6a",
     "popularity": 32077,
     "trend": 5077,
     "licenses": [
@@ -30,7 +30,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2_v2.1.6_setup.exe"
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2_v2.1.6a_setup.exe"
       },
       "install": [
         {
@@ -847,6 +847,16 @@
           {
             "path": "{appDir}/aviutl2.exe",
             "XXH3_128": "fd9e9e54b6c73d41f9e400012ef6ccd7"
+          }
+        ]
+      },
+      {
+        "version": "v2.1.6a",
+        "release_date": "2026-08-22",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "b212af21ca053a52d8e79a5cac594d37"
           }
         ]
       }
@@ -42588,7 +42598,7 @@
     "description": "https://raw.githubusercontent.com/Bialis-dev/TrackingStabilizer-for-AviUtl-ExEdit2/refs/heads/main/README.md",
     "author": "Bialis",
     "repoURL": "https://github.com/Bialis-dev/TrackingStabilizer-for-AviUtl-ExEdit2",
-    "latest-version": "v1.04",
+    "latest-version": "v1.05",
     "popularity": 1,
     "trend": 2,
     "licenses": [
@@ -42645,6 +42655,16 @@
           {
             "path": "{pluginsDir}/TrackingStabilizer.auf2",
             "XXH3_128": "cd469b2d1ac05145fb381a7f0f37e9c7"
+          }
+        ]
+      },
+      {
+        "version": "v1.05",
+        "release_date": "2026-08-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/TrackingStabilizer.auf2",
+            "XXH3_128": "812f786dde14416c0aed399f42f01cdb"
           }
         ]
       }

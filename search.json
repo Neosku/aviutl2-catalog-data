@@ -1,7 +1,7 @@
 [
   {
     "id": "Kenkun.AviUtlExEdit2",
-    "latest-version": "v2.1.6",
+    "latest-version": "v2.1.6a",
     "checkType": {
       "type": "URL",
       "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
@@ -3899,7 +3899,7 @@
   },
   {
     "id": "Bialis.TrackingStabilizer-for-AviUtl-ExEdit2",
-    "latest-version": "v1.04",
+    "latest-version": "v1.05",
     "checkType": {
       "type": "GitHub",
       "repo": "Bialis-dev/TrackingStabilizer-for-AviUtl-ExEdit2",
