@@ -42730,7 +42730,11 @@
       "ノイズ"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/Sagyou.JpegNoise_thumbnail.webp"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
