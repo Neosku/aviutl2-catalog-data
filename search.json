@@ -3832,5 +3832,107 @@
         }
       ]
     }
+  },
+  {
+    "id": "CJF.PenTool",
+    "latest-version": "v0.1.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "ColorJellyFish/aviutl2_cjf_pentool",
+      "regex": "^cjf_pentool-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/CJF/CJFPreviewPenTool.aux2",
+            "Plugin/CJF/CJFPreviewRangeSelector.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/CJF/CJFPreviewPenTool.aux2",
+            "{pluginsDir}/CJF/CJFPreviewRangeSelector.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "halkun19.HL_FxWheel",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Hallkun19/HL_FxWheel-for-aul2",
+      "regex": "^HL_FxWheel-v.+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/HL_FxWheel.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/HL_FxWheel.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "CJF.PSD_anime",
+    "latest-version": "v0.1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "ColorJellyFish/aviutl2_cjf_psdanimation",
+      "regex": "^cjf_psd-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/CJF/ptk_overwrite_react_core.lua",
+            "Script/CJF/ptk_overwrite_react_state.lua"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/CJF/ptk_overwrite_react_core.lua",
+            "{scriptsDir}/CJF/ptk_overwrite_react_state.lua"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Bialis.TrackingStabilizer-for-AviUtl-ExEdit2",
+    "latest-version": "v1.04",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Bialis-dev/TrackingStabilizer-for-AviUtl-ExEdit2",
+      "regex": "^TrackingStabilizer.*\\.auf2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "TrackingStabilizer.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/TrackingStabilizer.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Sagyou.JpegNoise",
+    "latest-version": "v1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "SagyouDarui900/JPEGNoise_AviUtl2",
+      "regex": "^JpegNoise.*\\.anm2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "JpegNoise.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/JpegNoise.anm2"
+          ]
+        }
+      ]
+    }
   }
 ]
