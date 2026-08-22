@@ -3926,10 +3926,30 @@
       "hash-calc": [
         {
           "paths": [
-            "JpegNoise.anm2"
+            "jpegNoise.anm2"
           ],
           "recordPaths": [
             "{scriptsDir}/JpegNoise.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "tettu0530.LiquidGlass",
+    "latest-version": "v3.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Tettu0530/Liquid-Glass",
+      "regex": "^LiquidGlass_v.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "LiquidGlass.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/LiquidGlass.anm2"
           ]
         }
       ]
