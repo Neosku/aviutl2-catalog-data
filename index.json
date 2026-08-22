@@ -40440,7 +40440,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/reset_frame_selection_on_focus.aux2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/reset_frame_selection_on_focus.aux2",
-    "latest-version": "0.1.0",
+    "latest-version": "0.1.1",
     "popularity": 36,
     "trend": 35,
     "licenses": [
@@ -40509,6 +40509,20 @@
           {
             "path": "{pluginsDir}/reset_frame_selection_on_focus.aux2",
             "XXH3_128": "b7b559780fdb3de067c37023de248146"
+          }
+        ]
+      },
+      {
+        "version": "0.1.1",
+        "release_date": "2026-08-22",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.reset_frame_selection_on_focus-aux2.aul2",
+            "XXH3_128": "90f7ab00223ab547d4edd7546802c8db"
+          },
+          {
+            "path": "{pluginsDir}/reset_frame_selection_on_focus.aux2",
+            "XXH3_128": "72b0082da96d80adbf37b09f72c0381c"
           }
         ]
       }
