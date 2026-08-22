@@ -42617,7 +42617,7 @@
     ]
   },
   {
-    "id": "sagyou.JpegNoise",
+    "id": "Sagyou.JpegNoise",
     "name": "JpegNoise_for_AviUtl2",
     "type": "スクリプト",
     "summary": "JPEG圧縮特有のブロックノイズや色のにじみを再現するスクリプト。",
@@ -42649,7 +42649,11 @@
     "images": [],
     "installer": {
       "source": {
-        "direct": "https://raw.githubusercontent.com/SagyouDarui900/JPEGNoise_AviUtl2/refs/heads/main/JpegNoise.anm2"
+        "github": {
+          "owner": "SagyouDarui900",
+          "repo": "JPEGNoise_AviUtl2",
+          "pattern": "^JpegNoise.*\\.anm2$"
+        }
       },
       "install": [
         {
@@ -42664,7 +42668,7 @@
       "uninstall": [
         {
           "action": "delete",
-          "path": "{tmp}/jpegNoise.anm2"
+          "path": "{scriptsDir}/jpegNoise.anm2"
         }
       ]
     },
