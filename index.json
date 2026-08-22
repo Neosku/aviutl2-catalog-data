@@ -31579,7 +31579,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_translations_sigma-axis/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_translations_sigma-axis",
-    "latest-version": "r48",
+    "latest-version": "r49",
     "popularity": 118,
     "trend": 45,
     "licenses": [
@@ -31947,6 +31947,16 @@
           {
             "path": "{dataDir}/Language/English.sigma-axis.aul2",
             "XXH3_128": "1f7b2f1d09d626a8cec0fac489f519d7"
+          }
+        ]
+      },
+      {
+        "version": "r49",
+        "release_date": "2026-08-22",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.sigma-axis.aul2",
+            "XXH3_128": "1aeb0e89afbc591688bbe13cbfb2bdca"
           }
         ]
       }
