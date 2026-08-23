@@ -41996,6 +41996,10 @@
         {
           "action": "delete",
           "path": "{dataDir}/Language/English.create_control_object-aux2.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/create_control_object.aux2.json"
         }
       ]
     },
