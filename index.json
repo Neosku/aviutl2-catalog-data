@@ -40419,7 +40419,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Shake_PPP/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/Shake_PPP",
-    "latest-version": "v1.0.2",
+    "latest-version": "v1.1.0",
     "popularity": 308,
     "trend": 200,
     "licenses": [
@@ -40497,6 +40497,16 @@
           {
             "path": "{pluginsDir}/Shake_PPP/Shake_PPP.auf2",
             "XXH3_128": "73622a65211953d2a9efda0c63026533"
+          }
+        ]
+      },
+      {
+        "version": "v1.1.0",
+        "release_date": "2026-08-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/Shake_PPP/Shake_PPP.auf2",
+            "XXH3_128": "b5c61bb02cc0179c95489cf5893b4c9e"
           }
         ]
       }
@@ -41924,7 +41934,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/create_control_object.aux2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/create_control_object.aux2",
-    "latest-version": "0.2.2",
+    "latest-version": "0.3.0",
     "popularity": 39,
     "trend": 40,
     "licenses": [
@@ -42005,6 +42015,20 @@
           {
             "path": "{pluginsDir}/create_control_object.aux2",
             "XXH3_128": "cf25036af2b2fdfadb27074847b97f73"
+          }
+        ]
+      },
+      {
+        "version": "0.3.0",
+        "release_date": "2026-08-23",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.create_control_object-aux2.aul2",
+            "XXH3_128": "2644b62128e458a1d869117256e07d82"
+          },
+          {
+            "path": "{pluginsDir}/create_control_object.aux2",
+            "XXH3_128": "88b1d6236454c1f4e8ed9dee90bd881f"
           }
         ]
       }
