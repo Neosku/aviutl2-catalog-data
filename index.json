@@ -23840,8 +23840,8 @@
       {
         "thumbnail": "./image/KuroNeko.FontPreview_thumbnail.png",
         "infoImg": [
-          "./image/KuroNeko.FontPreview_1.jpg",
-          "./image/KuroNeko.FontPreview_2.jpg"
+          "./image/KuroNeko.FontPreview_1.png",
+          "./image/KuroNeko.FontPreview_2.png"
         ]
       }
     ],
@@ -23889,7 +23889,23 @@
       "uninstall": [
         {
           "action": "delete",
-          "path": "{pluginsDir}/FontPreview/"
+          "path": "{pluginsDir}/FontPreview/FontPreview.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/FontPreview/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/FontPreview/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.FontPreview.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/简体中文.FontPreview.aul2"
         }
       ]
     },
@@ -23951,6 +23967,14 @@
           {
             "path": "{pluginsDir}/FontPreview/FontPreview.aux2",
             "XXH3_128": "7ab339d2ab4a30914138779ea56ceddc"
+          },
+          {
+            "path": "{dataDir}/Language/English.FontPreview.aul2",
+            "XXH3_128": "b1dee3e1ccfb785cb21afd7a5ed054d4"
+          },
+          {
+            "path": "{dataDir}/Language/简体中文.FontPreview.aul2",
+            "XXH3_128": "5776aa1d68cb5be473c71294c930a6fe"
           }
         ]
       }
