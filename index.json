@@ -41853,7 +41853,7 @@
     "description": "./md/OverPulse.Flash_Hue.md",
     "author": "OverPulse",
     "repoURL": "https://www.nicovideo.jp/watch/sm45980061",
-    "latest-version": "v1.0",
+    "latest-version": "v1.1",
     "popularity": 120,
     "trend": 123,
     "licenses": [
@@ -41876,7 +41876,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/9479093"
+        "booth": "https://booth.pm/downloadables/9517610"
       },
       "install": [
         {
@@ -41887,7 +41887,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/TA-瞬間カラー変化v1.0/TA-瞬間カラー変化.anm2",
+          "from": "{tmp}/TA-瞬間カラー変化v1.1/TA-瞬間カラー変化.anm2",
           "to": "{scriptsDir}"
         }
       ],
@@ -41906,6 +41906,16 @@
           {
             "path": "{scriptsDir}/TA-瞬間カラー変化.anm2",
             "XXH3_128": "17b153024f318422eb83548640b954fe"
+          }
+        ]
+      },
+      {
+        "version": "v1.1",
+        "release_date": "2026-08-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/TA-瞬間カラー変化.anm2",
+            "XXH3_128": "ec734124b4f65adc7ee0e1fb18d474fc"
           }
         ]
       }
