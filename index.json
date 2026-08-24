@@ -43199,5 +43199,94 @@
         ]
       }
     ]
+  },
+  {
+    "id": "natuneko722.FrameCapturePlugin",
+    "name": "フレームキャプチャー",
+    "type": "汎用プラグイン",
+    "summary": "AviUtl2のプレビュー画面を範囲選択してコピーとPNG保存できるよ",
+    "description": "https://raw.githubusercontent.com/natuneko722/FrameCapturePlugin/main/README.md",
+    "author": "夏猫",
+    "repoURL": "https://github.com/natuneko722/FrameCapturePlugin",
+    "latest-version": "v1.0.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "夏猫"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "便利ツール",
+      "画像"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "natuneko722",
+          "repo": "FrameCapturePlugin",
+          "pattern": "^FrameCapturePlugin_v[0-9]+\\.[0-9]+\\.[0-9]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/NNeko/FrameCapturePlugin.aux2",
+          "to": "{pluginsDir}/NNeko"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/FrameCapturePlugin.aux2"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/NNeko/FrameCapturePlugin.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/FrameCapturePlugin.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-08-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/FrameCapturePlugin.aux2",
+            "XXH3_128": "59c9f0809193738998e3c3db55658750"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-08-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/NNeko/FrameCapturePlugin.aux2",
+            "XXH3_128": "3e7d93461e2f6267c483152dfe75a47c"
+          }
+        ]
+      }
+    ]
   }
 ]
