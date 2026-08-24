@@ -3954,5 +3954,87 @@
         }
       ]
     }
+  },
+  {
+    "id": "natuneko722.text-background-balloon-script",
+    "latest-version": "v1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "natuneko722/TextBackgroundBalloonScript",
+      "regex": "^TextBackgroundBalloonScript_v[0-9]+\\.[0-9]+\\.[0-9]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/NNeko/吹き出し背景@テキスト.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/NNeko/吹き出し背景@テキスト.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "CJF.MaskSelector",
+    "latest-version": "v0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "ColorJellyFish/aviutl2_cjf_maskselector",
+      "regex": "^cjf_maskselector-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/CJF/CJFPreviewMaskSelector.aux2",
+            "Plugin/CJF/CJFMaskSelectorButton.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/CJF/CJFPreviewMaskSelector.aux2",
+            "{pluginsDir}/CJF/CJFMaskSelectorButton.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "natuneko722.FrameCapturePlugin",
+    "latest-version": "v1.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "natuneko722/FrameCapturePlugin",
+      "regex": "^FrameCapturePlugin_v[0-9]+\\.[0-9]+\\.[0-9]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/NNeko/FrameCapturePlugin.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/NNeko/FrameCapturePlugin.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "tettu0530.NCSVisualizer",
+    "latest-version": "v2.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Tettu0530/NCSAudioVisualizer",
+      "regex": "^NCSVisualizer_v.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "NCSVisualizer.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/NCSVisualizer.obj2"
+          ]
+        }
+      ]
+    }
   }
 ]
