@@ -43365,5 +43365,85 @@
         ]
       }
     ]
+  },
+  {
+    "id": "tettu0530.NCSVisualizer",
+    "name": "NCS風音声波形 (NCSAudioVisualizer)",
+    "type": "スクリプト",
+    "summary": "パーリンノイズを用いた、NCS風の音声波形を再現するスクリプト",
+    "description": "./md/tettu0530.NCSVisualizer.md",
+    "author": "tettu0530",
+    "repoURL": "https://github.com/Tettu0530/NCSAudioVisualizer",
+    "latest-version": "v2.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "Tettu0530"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "BPM",
+      "アニメーション",
+      "エフェクト",
+      "カスタムオブジェクト",
+      "スペクトラム",
+      "ドット",
+      "ノイズ",
+      "移動",
+      "音楽同期",
+      "音楽",
+      "音声"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Tettu0530",
+          "repo": "NCSAudioVisualizer",
+          "pattern": "^NCSVisualizer_v.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/NCSVisualizer.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/NCSVisualizer.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v2.1.0",
+        "release_date": "2026-08-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/NCSVisualizer.obj2",
+            "XXH3_128": "9f013e84504d7063a4492cb61bfc1090"
+          }
+        ]
+      }
+    ]
   }
 ]
