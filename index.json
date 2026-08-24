@@ -41843,7 +41843,7 @@
     "description": "./md/OverPulse.Flash_Hue.md",
     "author": "OverPulse",
     "repoURL": "https://www.nicovideo.jp/watch/sm45980061",
-    "latest-version": "v1.0",
+    "latest-version": "v1.1",
     "popularity": 120,
     "trend": 123,
     "licenses": [
@@ -41866,7 +41866,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/9479093"
+        "booth": "https://booth.pm/downloadables/9517610"
       },
       "install": [
         {
@@ -41877,7 +41877,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/TA-瞬間カラー変化v1.0/TA-瞬間カラー変化.anm2",
+          "from": "{tmp}/TA-瞬間カラー変化v1.1/TA-瞬間カラー変化.anm2",
           "to": "{scriptsDir}"
         }
       ],
@@ -41896,6 +41896,16 @@
           {
             "path": "{scriptsDir}/TA-瞬間カラー変化.anm2",
             "XXH3_128": "17b153024f318422eb83548640b954fe"
+          }
+        ]
+      },
+      {
+        "version": "v1.1",
+        "release_date": "2026-08-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/TA-瞬間カラー変化.anm2",
+            "XXH3_128": "ec734124b4f65adc7ee0e1fb18d474fc"
           }
         ]
       }
@@ -43148,6 +43158,73 @@
           {
             "path": "{pluginsDir}/CJF/CJFMaskSelectorButton.auf2",
             "XXH3_128": "aeec1234a2f70580b3924a2a82042a9a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "OverPulse.Delayed_Entrance",
+    "name": "TA-Delay登場",
+    "type": "スクリプト",
+    "summary": "テキストをそれっぽく登場させます",
+    "description": "./md/OverPulse.Delayed_Entrance.md",
+    "author": "OverPulse",
+    "repoURL": "https://overpulse.booth.pm/items/8755928",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "This project is released under the Unlicense,\nexcept for the third-party EasingMath code described below.\n\nThird-party component:\nEasingMath\n\nEasingMath is based on:\n\n- Tweener's easing functions\n  (Yuichi Tateno, Emmanuel Oga)\n- Emmanuel Oga's Lua adaptation/port\n- Robert Penner's Easing Equations\n\nThe third-party code retains its original copyright notices,\nlicense terms, and disclaimers.\n\n\n日本語版\n\nこのプロジェクトは、以下に記載する第三者製のEasingMathコードを除き、\nUnlicenseのもとで公開されています。\n\n第三者コンポーネント：\nEasingMath\n\nEasingMathは、以下をベースとしています。\n\n- TweenerのEasing functions\n  （Yuichi Tateno、Emmanuel Oga）\n- Emmanuel OgaによるLuaへの移植・適応\n- Robert PennerのEasing Equations\n\n第三者コードについては、元の著作権表示・ライセンス条件・免責事項が\nそのまま適用されます。\n\n※上記の日本語部分はライセンス内容の理解を補助するための説明です。\n法的なライセンス条件については、以下に記載する英語原文を優先してください。\n\n\n============================================================\nMIT License\n============================================================\n\nCopyright (c) 2010, Emmanuel Oga.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n\n\n============================================================\nBSD 3-Clause License\n============================================================\n\nCopyright (c) 2001 Robert Penner\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE\nLIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR\nCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF\nSUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN\nCONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)\nARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE\nPOSSIBILITY OF SUCH DAMAGE.\n\n\n============================================================\nUnlicense\n============================================================\n\nThis is the license for the original parts of this project,\nexcluding the third-party EasingMath code described above.\n\nThis is free and unencumbered software released into the public domain.\n\nAnyone is free to copy, modify, publish, use, compile, sell, or distribute\nthis software, either in source code form or as a compiled binary, for any\npurpose, commercial or non-commercial, and by any means.\n\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT."
+      }
+    ],
+    "tags": [
+      "アニメーション",
+      "ディレイ",
+      "テキスト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/OverPulse.Delayed_Entrance_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/9516989"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/TA-Delay登場v1.0/TA-Delay登場.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/TA-Delay登場.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-08-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/TA-Delay登場.anm2",
+            "XXH3_128": "a99db022b480ae21478f3cce9dd70f95"
           }
         ]
       }
