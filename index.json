@@ -43218,7 +43218,7 @@
     "description": "https://raw.githubusercontent.com/natuneko722/FrameCapturePlugin/main/README.md",
     "author": "夏猫",
     "repoURL": "https://github.com/natuneko722/FrameCapturePlugin",
-    "latest-version": "v1.0.1",
+    "latest-version": "v1.1.0",
     "popularity": 0,
     "trend": 1,
     "licenses": [
@@ -43294,6 +43294,16 @@
           {
             "path": "{pluginsDir}/NNeko/FrameCapturePlugin.aux2",
             "XXH3_128": "3e7d93461e2f6267c483152dfe75a47c"
+          }
+        ]
+      },
+      {
+        "version": "v1.1.0",
+        "release_date": "2026-08-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/NNeko/FrameCapturePlugin.aux2",
+            "XXH3_128": "5f541ddb5d6df398ba5d2e6fd84edff5"
           }
         ]
       }
