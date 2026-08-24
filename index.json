@@ -42863,7 +42863,7 @@
     "description": "./md/tettu0530.LiquidGlass.md",
     "author": "tettu0530",
     "repoURL": "https://github.com/Tettu0530/Liquid-Glass",
-    "latest-version": "v3.1.1",
+    "latest-version": "v3.1.2",
     "popularity": 40,
     "trend": 43,
     "licenses": [
@@ -42947,6 +42947,16 @@
           {
             "path": "{scriptsDir}/LiquidGlass.anm2",
             "XXH3_128": "362ade636d09abf5ea189c0a971e0534"
+          }
+        ]
+      },
+      {
+        "version": "v3.1.2",
+        "release_date": "2026-08-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/LiquidGlass.anm2",
+            "XXH3_128": "ab3e9e4af4981de8f420c576c5a3c650"
           }
         ]
       }
