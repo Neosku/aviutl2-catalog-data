@@ -42976,11 +42976,12 @@
     "id": "natuneko722.text-background-balloon-script",
     "name": "吹き出し背景@テキスト",
     "type": "スクリプト",
-    "summary": "無印の「吹き出し@PSDToolKit」に相当するものです。",
+    "summary": "テキストや図形に吹き出し付き背景を追加できるよ",
     "description": "https://raw.githubusercontent.com/natuneko722/TextBackgroundBalloonScript/main/README.md",
     "author": "夏猫",
+    "originalAuthor": "oov",
     "repoURL": "https://github.com/natuneko722/TextBackgroundBalloonScript",
-    "latest-version": "v1.0.1",
+    "latest-version": "v1.1.0",
     "popularity": 18,
     "trend": 19,
     "licenses": [
@@ -42997,14 +42998,21 @@
       }
     ],
     "tags": [
-      "エフェクト",
       "テキスト",
-      "角丸",
       "字幕",
+      "図形",
+      "角丸",
       "背景素材"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/natuneko722.text-background-balloon-script_thumbnail.png",
+        "infoImg": [
+          "./image/natuneko722.text-background-balloon-script_1.png"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -43049,6 +43057,16 @@
           {
             "path": "{scriptsDir}/NNeko/吹き出し背景@テキスト.anm2",
             "XXH3_128": "6a07beccc899c0d6051699feeba143f5"
+          }
+        ]
+      },
+      {
+        "version": "v1.1.0",
+        "release_date": "2026-08-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/NNeko/吹き出し背景@テキスト.anm2",
+            "XXH3_128": "90945c6e2ccaf796500ffc53df969570"
           }
         ]
       }
