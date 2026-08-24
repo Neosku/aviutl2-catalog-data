@@ -43013,5 +43013,124 @@
         ]
       }
     ]
+  },
+  {
+    "id": "CJF.MaskSelector",
+    "name": "選択ツール式マスク&クリッピング",
+    "type": "フィルタプラグイン",
+    "summary": "マスクとクリッピングを選択ツールで設定できるボタンをフィルタで追加",
+    "description": "https://raw.githubusercontent.com/ColorJellyFish/aviutl2_cjf_maskselector/refs/heads/main/README.md",
+    "author": "CJF",
+    "repoURL": "https://github.com/ColorJellyFish/aviutl2_cjf_maskselector",
+    "latest-version": "v0.2.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "ColorJellyFish"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "sm46712187",
+    "tags": [
+      "クリッピング",
+      "オブジェクト操作"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/CJF.MaskSelector_thumbnail.gif",
+        "infoImg": [
+          "./image/CJF.MaskSelector_1.gif"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "ColorJellyFish",
+          "repo": "aviutl2_cjf_maskselector",
+          "pattern": "^cjf_maskselector-v.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/CJF/CJFMaskSelectorButton.auf2",
+          "to": "{pluginsDir}/CJF"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/CJF/CJFPreviewMaskSelector.aux2",
+          "to": "{pluginsDir}/CJF"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/CJF/選択マスク.anm2",
+          "to": "{scriptsDir}/CJF"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/選択クリッピング@推奨.effect",
+          "to": "{dataDir}/Alias"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/選択マスク@推奨.effect",
+          "to": "{dataDir}/Alias"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/CJF/CJFMaskSelectorButton.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/CJF/CJFPreviewMaskSelector.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CJF/選択マスク.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/選択クリッピング@推奨.effect"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/選択マスク@推奨.effect"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.2.0",
+        "release_date": "2026-08-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/CJF/CJFPreviewMaskSelector.aux2",
+            "XXH3_128": "ccad351035344131e86a1a8d21e7b050"
+          },
+          {
+            "path": "{pluginsDir}/CJF/CJFMaskSelectorButton.auf2",
+            "XXH3_128": "aeec1234a2f70580b3924a2a82042a9a"
+          }
+        ]
+      }
+    ]
   }
 ]
