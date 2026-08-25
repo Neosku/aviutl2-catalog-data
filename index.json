@@ -1595,7 +1595,7 @@
     "description": "./md/rigaya.x265guiEx.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/x265guiEx",
-    "latest-version": "5.10",
+    "latest-version": "5.11",
     "popularity": 5655,
     "trend": 1408,
     "licenses": [
@@ -1791,6 +1791,16 @@
           {
             "path": "{pluginsDir}/x265guiEx.auo2",
             "XXH3_128": "fe8ff572687d0cadc819e104a9ccbc8f"
+          }
+        ]
+      },
+      {
+        "version": "5.11",
+        "release_date": "2026-08-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/x265guiEx.auo2",
+            "XXH3_128": "ebe50ba16d77419fb5aeb62054cc29c8"
           }
         ]
       }
@@ -3072,7 +3082,7 @@
     "description": "拡張 SVT-AV1 出力(GUI) Ex (svtAV1guiEx) は、SVT-AV1を使用してエンコードを行うAviutlの出力プラグインです。",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/svtAV1guiEx",
-    "latest-version": "2.13",
+    "latest-version": "2.14",
     "popularity": 541,
     "trend": 148,
     "licenses": [
@@ -3296,6 +3306,16 @@
           {
             "path": "{pluginsDir}/svtAV1guiEx.auo2",
             "XXH3_128": "68e40d2355e6104f99ef9de0bf3d9408"
+          }
+        ]
+      },
+      {
+        "version": "2.14",
+        "release_date": "2026-08-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/svtAV1guiEx.auo2",
+            "XXH3_128": "3430da10f197ff71b05b2cab98ec186d"
           }
         ]
       }
