@@ -43467,7 +43467,7 @@
     ]
   },
   {
-    "id": "Nctype.ReflectionOnPane",
+    "id": "nctype.ReflectionOnPane",
     "name": "ReflectionOnPane",
     "type": "スクリプト",
     "summary": "ガラスの反射・映り込み風に合成するスクリプトです。",
@@ -43499,7 +43499,7 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/Nctype.ReflectionOnPane_thumbnail.gif"
+        "thumbnail": "./image/nctype.ReflectionOnPane_thumbnail.gif"
       }
     ],
     "installer": {
