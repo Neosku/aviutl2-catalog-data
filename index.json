@@ -37266,7 +37266,7 @@
     "description": "https://raw.githubusercontent.com/nkopikaso/AviUtl2-WhisperAutoSub/refs/heads/main/README.md",
     "author": "nkopikaso",
     "repoURL": "https://github.com/nkopikaso/AviUtl2-WhisperAutoSub",
-    "latest-version": "v2.9.51",
+    "latest-version": "v2.9.75",
     "popularity": 355,
     "trend": 130,
     "licenses": [
@@ -37403,6 +37403,16 @@
           {
             "path": "{pluginsDir}/WhisperAutoSub.aux2",
             "XXH3_128": "93ad9b6e01d71a1c734e21c39fb2e2b9"
+          }
+        ]
+      },
+      {
+        "version": "v2.9.75",
+        "release_date": "2026-08-26",
+        "file": [
+          {
+            "path": "{pluginsDir}/WhisperAutoSub.aux2",
+            "XXH3_128": "ec17ec5b7f0568a9d0cf1c108420480b"
           }
         ]
       }
