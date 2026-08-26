@@ -6500,7 +6500,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Path_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Path_S/",
-    "latest-version": "v2.10",
+    "latest-version": "v2.11",
     "popularity": 3996,
     "trend": 441,
     "licenses": [
@@ -6675,6 +6675,16 @@
           {
             "path": "{scriptsDir}/@Path_S.anm2",
             "XXH3_128": "1da4afd553cb956546a1a1d756138cf1"
+          }
+        ]
+      },
+      {
+        "version": "v2.11",
+        "release_date": "2026-08-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Path_S.anm2",
+            "XXH3_128": "c8203e33ca8d2234f90d9e056ad1b48a"
           }
         ]
       }
@@ -43712,6 +43722,87 @@
           {
             "path": "{scriptsDir}/RainOnPane/RainOnPane.obj2",
             "XXH3_128": "33279ec1225f2e8d97dc9ca4205bde6f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "routersys.DockLayout",
+    "name": "DockLayout",
+    "type": "汎用プラグイン",
+    "summary": "ドラッグとドロップだけで配置できるようにするプラグイン",
+    "description": "https://raw.githubusercontent.com/routersys/AUE2-DockLayout/refs/heads/main/README.md",
+    "author": "routersys",
+    "repoURL": "https://github.com/routersys/AUE2-DockLayout",
+    "latest-version": "v1.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "routersys"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "UI",
+      "便利ツール",
+      "ドッキング",
+      "レイアウト",
+      "配置"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/routersys.DockLayout_thumbnail.png",
+        "infoImg": [
+          "./image/routersys.DockLayout_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "routersys",
+          "repo": "AUE2-DockLayout",
+          "pattern": "^DockLayout.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/DockLayout.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/DockLayout.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.1.0",
+        "release_date": "2026-08-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/DockLayout.aux2",
+            "XXH3_128": "3a91739a792ea048c5d4ea8203b0a99d"
           }
         ]
       }
