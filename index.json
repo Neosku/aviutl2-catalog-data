@@ -42480,7 +42480,7 @@
     "description": "https://raw.githubusercontent.com/ColorJellyFish/aviutl2_cjf_pentool/refs/heads/main/README.md",
     "author": "CJF",
     "repoURL": "https://github.com/ColorJellyFish/aviutl2_cjf_pentool",
-    "latest-version": "v0.1.2",
+    "latest-version": "v0.2.0",
     "popularity": 144,
     "trend": 145,
     "licenses": [
@@ -42612,6 +42612,20 @@
           {
             "path": "{pluginsDir}/CJF/CJFPreviewRangeSelector.aux2",
             "XXH3_128": "a0f71f3da1dfcc559d002484a191b67c"
+          }
+        ]
+      },
+      {
+        "version": "v0.2.0",
+        "release_date": "2026-08-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/CJF/CJFPreviewPenTool.aux2",
+            "XXH3_128": "5d2acff73a3f4890d4797270098c8793"
+          },
+          {
+            "path": "{pluginsDir}/CJF/CJFPreviewRangeSelector.aux2",
+            "XXH3_128": "4129e02a355b7cad1cd9e977faa82298"
           }
         ]
       }
