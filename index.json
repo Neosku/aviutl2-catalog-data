@@ -43841,5 +43841,70 @@
         ]
       }
     ]
+  },
+  {
+    "id": "kanade-ak.TextCharEditor.aux2",
+    "name": "TextCharEditor.aux2",
+    "type": "汎用プラグイン",
+    "summary": "テキストオブジェクトを個別に移動・拡大縮小・回転できるプラグイン",
+    "description": "https://raw.githubusercontent.com/kanade-ak/TextCharEditor/refs/heads/main/README.md",
+    "author": "kanade-ak",
+    "repoURL": "https://github.com/kanade-ak/TextCharEditor",
+    "latest-version": "v2.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "kanade-ak"
+          }
+        ],
+        "licenseBody": "MIT License\n\nCopyright (c) 2026 kanade-ak\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+      }
+    ],
+    "tags": [
+      "オブジェクト操作",
+      "テキスト",
+      "便利ツール",
+      "配置"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "kanade-ak",
+          "repo": "TextCharEditor",
+          "pattern": "TextCharEditor.aux2"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextCharEditor.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v2.0",
+        "release_date": "2026-08-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/TextCharEditor.aux2",
+            "XXH3_128": "be126b6ab719d5634defa1ab060c054f"
+          }
+        ]
+      }
+    ]
   }
 ]
