@@ -3079,7 +3079,7 @@
     "name": "svtAV1guiEx",
     "type": "出力プラグイン",
     "summary": "拡張 SVT-AV1 出力(GUI) Ex",
-    "description": "拡張 SVT-AV1 出力(GUI) Ex (svtAV1guiEx) は、SVT-AV1を使用してエンコードを行うAviutlの出力プラグインです。",
+    "description": "./md/rigaya.svtAV1guiEx.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/svtAV1guiEx",
     "latest-version": "2.14",
@@ -3091,7 +3091,7 @@
         "isCustom": false,
         "copyrights": [
           {
-            "years": "",
+            "years": "2010-2022",
             "holder": "rigaya"
           }
         ],
@@ -3315,7 +3315,7 @@
         "file": [
           {
             "path": "{pluginsDir}/svtAV1guiEx.auo2",
-            "XXH3_128": "3430da10f197ff71b05b2cab98ec186d"
+            "XXH3_128": "0b1a24b631e4cac58938f7e272845d11"
           }
         ]
       }
@@ -26183,7 +26183,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/quantizer.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/quantizer.aux2",
-    "latest-version": "0.3.0",
+    "latest-version": "0.3.1",
     "popularity": 2240,
     "trend": 459,
     "licenses": [
@@ -26363,6 +26363,16 @@
           {
             "path": "{pluginsDir}/quantizer.aux2",
             "XXH3_128": "15e90701522bbd418b9f25e7dca17376"
+          }
+        ]
+      },
+      {
+        "version": "0.3.1",
+        "release_date": "2026-08-28",
+        "file": [
+          {
+            "path": "{pluginsDir}/quantizer.aux2",
+            "XXH3_128": "e194662a42fa67837ab94736716fe6a8"
           }
         ]
       }
@@ -37442,7 +37452,7 @@
         "file": [
           {
             "path": "{pluginsDir}/WhisperAutoSub.aux2",
-            "XXH3_128": "ec17ec5b7f0568a9d0cf1c108420480b"
+            "XXH3_128": "ff88869424fb7640b8ac4bb35dba7a2f"
           }
         ]
       }
