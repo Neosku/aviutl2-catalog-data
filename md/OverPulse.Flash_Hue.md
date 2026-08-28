@@ -6,7 +6,7 @@ BoothとDropboxのURLを貼っておきます。
 https://overpulse.booth.pm/items/8727437
 
 - Dropbox
-https://www.dropbox.com/scl/fo/xtayqy444b73xmpnus512/ALdwy00RngzFcwlRugLe7QU?rlkey=lz0m5cr8krl5h134rkn9z291v&st=zt2j16rp&dl=0
+https://www.dropbox.com/scl/fo/xtayqy444b73xmpnus512/ALdwy00RngzFcwlRugLe7QU?rlkey=lz0m5cr8krl5h134rkn9z291v&st=xslc3xgp&dl=0
 
 ## readme
 
@@ -37,7 +37,6 @@ https://www.dropbox.com/scl/fo/xtayqy444b73xmpnus512/ALdwy00RngzFcwlRugLe7QU?rlk
 - レッド:0xff0000
 YouTubeレッド:0xff0033
 Amazonオレンジ:0xff6200
-グリーン:0x00ff00
 Spotifyグリーン:0x1db954
 ブルー:0x0000ff
 Twitterブルー:0x1da1f2
