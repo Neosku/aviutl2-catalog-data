@@ -3079,7 +3079,7 @@
     "name": "svtAV1guiEx",
     "type": "出力プラグイン",
     "summary": "拡張 SVT-AV1 出力(GUI) Ex",
-    "description": "拡張 SVT-AV1 出力(GUI) Ex (svtAV1guiEx) は、SVT-AV1を使用してエンコードを行うAviutlの出力プラグインです。",
+    "description": "./md/rigaya.svtAV1guiEx.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/svtAV1guiEx",
     "latest-version": "2.14",
@@ -3091,7 +3091,7 @@
         "isCustom": false,
         "copyrights": [
           {
-            "years": "",
+            "years": "2010-2022",
             "holder": "rigaya"
           }
         ],
@@ -3315,7 +3315,7 @@
         "file": [
           {
             "path": "{pluginsDir}/svtAV1guiEx.auo2",
-            "XXH3_128": "3430da10f197ff71b05b2cab98ec186d"
+            "XXH3_128": "0b1a24b631e4cac58938f7e272845d11"
           }
         ]
       }
@@ -8641,7 +8641,7 @@
     "description": "./md/amaii4.AviUtl2_Discord_RPC.md",
     "author": "甘味",
     "repoURL": "https://github.com/amaii4/AviUtl2_Discord_RPC",
-    "latest-version": "1.3.2",
+    "latest-version": "1.3.3",
     "popularity": 1886,
     "trend": 152,
     "licenses": [
@@ -8751,6 +8751,16 @@
           {
             "path": "{pluginsDir}/DiscordRPC.aux2",
             "XXH3_128": "0a0ec9b9bd7aaf6c35d84b2f9705e16b"
+          }
+        ]
+      },
+      {
+        "version": "1.3.3",
+        "release_date": "2026-08-28",
+        "file": [
+          {
+            "path": "{pluginsDir}/DiscordRPC.aux2",
+            "XXH3_128": "760c408e6cf20eb25fec82ee13bf9e65"
           }
         ]
       }
@@ -26173,7 +26183,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/quantizer.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/quantizer.aux2",
-    "latest-version": "0.3.0",
+    "latest-version": "0.3.1",
     "popularity": 2240,
     "trend": 459,
     "licenses": [
@@ -26353,6 +26363,16 @@
           {
             "path": "{pluginsDir}/quantizer.aux2",
             "XXH3_128": "15e90701522bbd418b9f25e7dca17376"
+          }
+        ]
+      },
+      {
+        "version": "0.3.1",
+        "release_date": "2026-08-28",
+        "file": [
+          {
+            "path": "{pluginsDir}/quantizer.aux2",
+            "XXH3_128": "e194662a42fa67837ab94736716fe6a8"
           }
         ]
       }
@@ -35021,7 +35041,7 @@
     "description": "https://raw.githubusercontent.com/Fuji07-2525/voice-drop/main/README.md",
     "author": "Fuji",
     "repoURL": "https://github.com/Fuji07-2525/voice-drop",
-    "latest-version": "v0.2.2",
+    "latest-version": "v0.2.3",
     "popularity": 368,
     "trend": 163,
     "licenses": [
@@ -35117,6 +35137,16 @@
           {
             "path": "{pluginsDir}/voice_drop.aux2",
             "XXH3_128": "d9421e8e54a6bd6a1740abc1bbbcf979"
+          }
+        ]
+      },
+      {
+        "version": "v0.2.3",
+        "release_date": "2026-08-28",
+        "file": [
+          {
+            "path": "{pluginsDir}/voice_drop.aux2",
+            "XXH3_128": "c0a7b37d44da03a37615fa6d8e21d920"
           }
         ]
       }
@@ -37422,7 +37452,7 @@
         "file": [
           {
             "path": "{pluginsDir}/WhisperAutoSub.aux2",
-            "XXH3_128": "ec17ec5b7f0568a9d0cf1c108420480b"
+            "XXH3_128": "ff88869424fb7640b8ac4bb35dba7a2f"
           }
         ]
       }
@@ -43431,7 +43461,7 @@
     "description": "./md/OverPulse.Delayed_Entrance.md",
     "author": "OverPulse",
     "repoURL": "https://overpulse.booth.pm/items/8755928",
-    "latest-version": "v1.0",
+    "latest-version": "v1.1",
     "popularity": 91,
     "trend": 95,
     "licenses": [
@@ -43455,7 +43485,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/9516989"
+        "booth": "https://booth.pm/downloadables/9538714"
       },
       "install": [
         {
@@ -43466,7 +43496,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/TA-Delay登場v1.0/TA-Delay登場.anm2",
+          "from": "{tmp}/TA-Delay登場v1.1/TA-Delay登場.anm2",
           "to": "{scriptsDir}"
         }
       ],
@@ -43485,6 +43515,16 @@
           {
             "path": "{scriptsDir}/TA-Delay登場.anm2",
             "XXH3_128": "a99db022b480ae21478f3cce9dd70f95"
+          }
+        ]
+      },
+      {
+        "version": "v1.1",
+        "release_date": "2026-08-28",
+        "file": [
+          {
+            "path": "{scriptsDir}/TA-Delay登場.anm2",
+            "XXH3_128": "7dcbf7b50e11a25b7f6168f75b10cf0f"
           }
         ]
       }
@@ -43837,6 +43877,145 @@
           {
             "path": "{pluginsDir}/DockLayout.aux2",
             "XXH3_128": "3a91739a792ea048c5d4ea8203b0a99d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pon.Displace",
+    "name": "Displace(β)",
+    "type": "スクリプト",
+    "summary": "Aeのタービュレントディスプレイスのような挙動をするアニメーション効果",
+    "description": "./md/pon.Displace.md",
+    "author": "pon",
+    "repoURL": "https://x.com/pon_no_main/status/1152576408108982274",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "アニメーション",
+      "画像",
+      "変形",
+      "揺れ"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1M7mXDG_xLfpJlW-l0DIXDh1zVrNUN1zh"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@Displace.anm",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@Displace.anm"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2019-07-20",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Displace.anm",
+            "XXH3_128": "375d9206a21f2ed703e6a3d16d1b82c9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kanade-ak.TextCharEditor",
+    "name": "文字位置調整",
+    "type": "汎用プラグイン",
+    "summary": "テキストオブジェクトをいい感じに配置できる",
+    "description": "./md/kanade-ak.TextCharEditor.md",
+    "author": "kanade-ak",
+    "repoURL": "https://github.com/kanade-ak/TextCharEditor",
+    "latest-version": "v3.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "kanade-ak"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "テキスト",
+      "配置"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/kanade-ak.TextCharEditor_thumbnail.png",
+        "infoImg": [
+          "./image/kanade-ak.TextCharEditor_1.png",
+          "./image/kanade-ak.TextCharEditor_2.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "kanade-ak",
+          "repo": "TextCharEditor",
+          "pattern": "^TextCharEditor.*\\.aux2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/TextCharEditor.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextCharEditor.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v3.0",
+        "release_date": "2026-08-28",
+        "file": [
+          {
+            "path": "{pluginsDir}\\TextCharEditor.aux2",
+            "XXH3_128": "4007027bd9aa8969853915f09aa65525"
           }
         ]
       }
