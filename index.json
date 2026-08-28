@@ -35031,7 +35031,7 @@
     "description": "https://raw.githubusercontent.com/Fuji07-2525/voice-drop/main/README.md",
     "author": "Fuji",
     "repoURL": "https://github.com/Fuji07-2525/voice-drop",
-    "latest-version": "v0.2.3",
+    "latest-version": "v0.2.2",
     "popularity": 368,
     "trend": 163,
     "licenses": [
@@ -35127,16 +35127,6 @@
           {
             "path": "{pluginsDir}/voice_drop.aux2",
             "XXH3_128": "d9421e8e54a6bd6a1740abc1bbbcf979"
-          }
-        ]
-      },
-      {
-        "version": "v0.2.3",
-        "release_date": "2026-08-28",
-        "file": [
-          {
-            "path": "{pluginsDir}/voice_drop.aux2",
-            "XXH3_128": "c0a7b37d44da03a37615fa6d8e21d920"
           }
         ]
       }
@@ -43867,6 +43857,91 @@
           {
             "path": "{pluginsDir}/DockLayout.aux2",
             "XXH3_128": "3a91739a792ea048c5d4ea8203b0a99d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tikubonn.ZigZagClipping",
+    "name": "ジグザグクリッピング",
+    "type": "スクリプト",
+    "summary": "画像の不透過部分に、ジグザグに切り取られたような背景を追加します。",
+    "description": "./md/tikubonn.ZigZagClipping.md",
+    "author": "ちくぼん",
+    "repoURL": "https://tikubonn.booth.pm/items/8775466",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "----------------------\nZigZagClipping License\n----------------------\n\nCopyright © 2026 tikubonn\n\nジグザグクリッピングスクリプト(以降、本ソフトウェアと呼称する)を利用する際には、必ずこれらの規約を遵守してください。\n\n* 本ソフトウェアの改変を許可します。\n* 本ソフトウェアの改変の有無に関わらず、本ソフトウェアとその派生物の再配布を禁止します。\n* 本ソフトウェアの利用により生じた直接的・間接的な損害について、当方は一切の責任を負いません。\n  本ソフトウェアは現状有姿で提供され、その正確性や適合性を保証するものではありません。\n* 本ソフトウェアによって生成された成果物を商用・非商用に関わらず自由に配布することができます。\n* 本ソフトウェアによって生成された成果物を配布する際にクレジット表記をする必要はありません。\n* 本利用規約は予告なく変更される場合があります。\n\n---------------------------------\nAviUtl ExEdit2 Plugin SDK License\n---------------------------------\n\nThe MIT License\n\nCopyright (c) 2025 Kenkun\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+      }
+    ],
+    "tags": [
+      "アニメーション",
+      "エフェクト",
+      "縁取り",
+      "加工",
+      "画像",
+      "図形",
+      "切り抜き",
+      "クリッピング",
+      "背景素材"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/tikubonn.ZigZagClipping_thumbnail.jpg",
+        "infoImg": [
+          "./image/tikubonn.ZigZagClipping_1.jpg",
+          "./image/tikubonn.ZigZagClipping_2.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/9542778"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/ジグザグクリッピング",
+          "to": "{scriptsDir}/ジグザグクリッピング"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ジグザグクリッピング"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-08-28",
+        "file": [
+          {
+            "path": "{scriptsDir}/ジグザグクリッピング/ZZClipping.mod2",
+            "XXH3_128": "92a7ea73ba98f98058d1e57c832f5e42"
+          },
+          {
+            "path": "{scriptsDir}/ジグザグクリッピング/ZZClipping.lua",
+            "XXH3_128": "99ce24ee770dc65c7860f989b421ce73"
+          },
+          {
+            "path": "{scriptsDir}/ジグザグクリッピング/@ジグザグクリッピング.anm2",
+            "XXH3_128": "ae4e61b443f7e80997f5e9c3e881f3d1"
           }
         ]
       }
