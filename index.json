@@ -43871,5 +43871,68 @@
         ]
       }
     ]
+  },
+  {
+    "id": "pon.Displace",
+    "name": "Displace(β)",
+    "type": "スクリプト",
+    "summary": "Aeのタービュレントディスプレイスのような挙動をするアニメーション効果",
+    "description": "./md/pon.Displace.md",
+    "author": "pon",
+    "repoURL": "https://x.com/pon_no_main/status/1152576408108982274",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "アニメーション",
+      "画像",
+      "変形",
+      "揺れ"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1M7mXDG_xLfpJlW-l0DIXDh1zVrNUN1zh"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@Displace.anm",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@Displace.anm"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2019-07-20",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Displace.anm",
+            "XXH3_128": "375d9206a21f2ed703e6a3d16d1b82c9"
+          }
+        ]
+      }
+    ]
   }
 ]
