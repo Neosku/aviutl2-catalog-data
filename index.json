@@ -43944,5 +43944,81 @@
         ]
       }
     ]
+  },
+  {
+    "id": "kanade-ak.TextCharEditor",
+    "name": "文字位置調整",
+    "type": "汎用プラグイン",
+    "summary": "テキストオブジェクトをいい感じに配置できる",
+    "description": "./md/kanade-ak.TextCharEditor.md",
+    "author": "kanade-ak",
+    "repoURL": "https://github.com/kanade-ak/TextCharEditor",
+    "latest-version": "v3.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "kanade-ak"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "テキスト",
+      "配置"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/kanade-ak.TextCharEditor_thumbnail.png",
+        "infoImg": [
+          "./image/kanade-ak.TextCharEditor_1.png",
+          "./image/kanade-ak.TextCharEditor_2.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "kanade-ak",
+          "repo": "TextCharEditor",
+          "pattern": "^TextCharEditor.*\\.aux2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/TextCharEditor.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextCharEditor.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v3.0",
+        "release_date": "2026-08-28",
+        "file": [
+          {
+            "path": "{pluginsDir}\\TextCharEditor.aux2",
+            "XXH3_128": "4007027bd9aa8969853915f09aa65525"
+          }
+        ]
+      }
+    ]
   }
 ]
