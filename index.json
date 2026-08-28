@@ -43431,7 +43431,7 @@
     "description": "./md/OverPulse.Delayed_Entrance.md",
     "author": "OverPulse",
     "repoURL": "https://overpulse.booth.pm/items/8755928",
-    "latest-version": "v1.1",
+    "latest-version": "v1.0",
     "popularity": 91,
     "trend": 95,
     "licenses": [
@@ -43455,7 +43455,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/9538714"
+        "booth": "https://booth.pm/downloadables/9516989"
       },
       "install": [
         {
@@ -43466,7 +43466,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/TA-Delay登場v1.1/TA-Delay登場.anm2",
+          "from": "{tmp}/TA-Delay登場v1.0/TA-Delay登場.anm2",
           "to": "{scriptsDir}"
         }
       ],
@@ -43485,16 +43485,6 @@
           {
             "path": "{scriptsDir}/TA-Delay登場.anm2",
             "XXH3_128": "a99db022b480ae21478f3cce9dd70f95"
-          }
-        ]
-      },
-      {
-        "version": "v1.1",
-        "release_date": "2026-08-28",
-        "file": [
-          {
-            "path": "{scriptsDir}/TA-Delay登場.anm2",
-            "XXH3_128": "7dcbf7b50e11a25b7f6168f75b10cf0f"
           }
         ]
       }
