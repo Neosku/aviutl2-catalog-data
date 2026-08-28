@@ -26054,7 +26054,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/insert.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/insert.aux2",
-    "latest-version": "0.2.1",
+    "latest-version": "0.3.0",
     "popularity": 515,
     "trend": 51,
     "licenses": [
@@ -26170,6 +26170,16 @@
           {
             "path": "{pluginsDir}/insert.aux2",
             "XXH3_128": "a14333a2d756afd826d12b3a1a18be5f"
+          }
+        ]
+      },
+      {
+        "version": "0.3.0",
+        "release_date": "2026-08-29",
+        "file": [
+          {
+            "path": "{pluginsDir}/insert.aux2",
+            "XXH3_128": "9f931ccd1565174ac55df22957212d15"
           }
         ]
       }
