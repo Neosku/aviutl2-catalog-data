@@ -43975,7 +43975,11 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://github.com/kanade-ak/TextCharEditor/releases/download/v2.0/TextCharEditor.aux2"
+        "github": {
+          "owner": "kanade-ak",
+          "repo": "TextCharEditor",
+          "pattern": "^TextCharEditor.*\\.aux2$"
+        }
       },
       "install": [
         {
