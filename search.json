@@ -1733,10 +1733,14 @@
         {
           "extract": "zip",
           "paths": [
-            "Plugin/FontPreview/FontPreview.aux2"
+            "Plugin/FontPreview/FontPreview.aux2",
+            "Language/English.FontPreview.aul2",
+            "Language/简体中文.FontPreview.aul2"
           ],
           "recordPaths": [
-            "{pluginsDir}/FontPreview/FontPreview.aux2"
+            "{pluginsDir}/FontPreview/FontPreview.aux2",
+            "{dataDir}/Language/English.FontPreview.aul2",
+            "{dataDir}/Language/简体中文.FontPreview.aul2"
           ]
         }
       ]
@@ -1930,10 +1934,12 @@
         {
           "extract": "zip",
           "paths": [
-            "Plugin/CopyAlias.aux2"
+            "Plugin/CopyAlias.aux2",
+            "Language/English.copyalias.aul2"
           ],
           "recordPaths": [
-            "{pluginsDir}/CopyAlias.aux2"
+            "{pluginsDir}/CopyAlias.aux2",
+            "{dataDir}/Language/English.copyalias.aul2"
           ]
         }
       ]
@@ -3926,7 +3932,7 @@
       "hash-calc": [
         {
           "paths": [
-            "jpegNoise.anm2"
+            "JpegNoise.anm2"
           ],
           "recordPaths": [
             "{scriptsDir}/JpegNoise.anm2"
@@ -4032,6 +4038,85 @@
           ],
           "recordPaths": [
             "{scriptsDir}/NCSVisualizer.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "nctype.ReflectionOnPane",
+    "latest-version": "v1.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nctype/aviutl2_script_ReflectionOnPane",
+      "regex": "^ReflectionOnPane_v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/ReflectionOnPane/ReflectionOnPane.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ReflectionOnPane/ReflectionOnPane.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "nctype.RainOnPane",
+    "latest-version": "v1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nctype/aviutl2_script_RainOnPane",
+      "regex": "^RainOnPane_v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/RainOnPane/RainOnPane.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/RainOnPane/RainOnPane.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "routersys.DockLayout",
+    "latest-version": "v1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "routersys/AUE2-DockLayout",
+      "regex": "^DockLayout.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/DockLayout.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/DockLayout.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "kanade-ak.TextCharEditor",
+    "latest-version": "v3.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "kanade-ak/TextCharEditor",
+      "regex": "^TextCharEditor.*\\.aux2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "TextCharEditor.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}\\TextCharEditor.aux2"
           ]
         }
       ]
