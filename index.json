@@ -44232,5 +44232,103 @@
         ]
       }
     ]
+  },
+  {
+    "id": "IZUisMe.OpenGlow",
+    "name": "Open Glow",
+    "type": "スクリプト",
+    "summary": "光学に基づいて自然に減衰する美しいグロー",
+    "description": "https://raw.githubusercontent.com/IZUisMe/aviutl2-open-glow/refs/heads/main/README.md",
+    "author": "絵に描いた虹",
+    "repoURL": "https://github.com/IZUisMe/aviutl2-open-glow",
+    "latest-version": "r1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "絵に描いた虹"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "グロー",
+      "エフェクト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/IZUisMe.OpenGlow_thumbnail.png",
+        "infoImg": [
+          "./image/IZUisMe.OpenGlow_1.png",
+          "./image/IZUisMe.OpenGlow_2.png",
+          "./image/IZUisMe.OpenGlow_3.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "IZUisMe",
+          "repo": "aviutl2-open-glow",
+          "pattern": "^aviutl2_script_OpenGlow-r\\d+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/OpenGlow.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/OpenGlow/LICENSE",
+          "to": "{scriptsDir}/OpenGlow"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/OpenGlow/README.md",
+          "to": "{scriptsDir}/OpenGlow"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/OpenGlow.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/OpenGlow/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/OpenGlow/README.md"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r1",
+        "release_date": "2026-08-29",
+        "file": [
+          {
+            "path": "{scriptsDir}/OpenGlow.anm2",
+            "XXH3_128": "7d7fbeb4ef0d0d848f2d16fd253dd135"
+          }
+        ]
+      }
+    ]
   }
 ]
