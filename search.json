@@ -105,7 +105,7 @@
   },
   {
     "id": "rigaya.NVEnc",
-    "latest-version": "9.32",
+    "latest-version": "9.33",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/NVEnc",
@@ -125,7 +125,7 @@
   },
   {
     "id": "rigaya.QSVEnc",
-    "latest-version": "8.27",
+    "latest-version": "8.28",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/QSVEnc",
@@ -165,7 +165,7 @@
   },
   {
     "id": "rigaya.VCEEnc",
-    "latest-version": "9.13",
+    "latest-version": "9.14",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/VCEEnc",
