@@ -43802,6 +43802,16 @@
             "XXH3_128": "3aca5fb29d62424c6f514b59dfc99c6c"
           }
         ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-08-25",
+        "file": [
+          {
+            "path": "{scriptsDir}/ReflectionOnPane/ReflectionOnPane.anm2",
+            "XXH3_128": "0987f8e24392b7d6e0c36c7b59160e35"
+          }
+        ]
       }
     ]
   },
