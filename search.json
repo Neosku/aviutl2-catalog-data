@@ -423,19 +423,19 @@
   },
   {
     "id": "korarei.ObjectMotionBlur_LK",
-    "latest-version": "v1.1.1",
+    "latest-version": "v2.0.0",
     "checkType": {
       "type": "GitHub",
       "repo": "korarei/AviUtl2_ObjectMotionBlur_LK_Script",
-      "regex": "^ObjectMotionBlur_LK\\.zip$",
+      "regex": "^MotionBlur_K.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
           "paths": [
-            "ObjectMotionBlur_LK/ObjectMotionBlur_LK.anm2"
+            "Plugin/MotionBlur_K/MotionBlur_K.aux2"
           ],
           "recordPaths": [
-            "{scriptsDir}/ObjectMotionBlur_LK.anm2"
+            "{pluginsDir}/MotionBlur_K/MotionBlur_K.aux2"
           ]
         }
       ]
@@ -4117,6 +4117,48 @@
           ],
           "recordPaths": [
             "{pluginsDir}\\TextCharEditor.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "IZUisMe.OpenGlow",
+    "latest-version": "r1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "IZUisMe/aviutl2-open-glow",
+      "regex": "^aviutl2_script_OpenGlow-r\\d+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/OpenGlow.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/OpenGlow.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "momo_neeeko.LocusMotion",
+    "latest-version": "beta1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "momoneeeko/LocusMotion.aux2",
+      "regex": "^LocusMotion\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/LocusMotion.aux2",
+            "Script/LocusMotion.tra2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/LocusMotion.aux2",
+            "{scriptsDir}/LocusMotion.tra2"
           ]
         }
       ]
