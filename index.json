@@ -38694,7 +38694,7 @@
     "description": "./md/tikubonn.TVSubtitle.md",
     "author": "ちくぼん",
     "repoURL": "https://tikubonn.booth.pm/items/8626637",
-    "latest-version": "v1.1.2",
+    "latest-version": "v1.2.0",
     "popularity": 518,
     "trend": 186,
     "licenses": [
@@ -38708,7 +38708,8 @@
     "tags": [
       "テキスト",
       "縁取り",
-      "字幕"
+      "字幕",
+      "背景素材"
     ],
     "dependencies": [],
     "images": [
@@ -38722,7 +38723,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/9423821"
+        "booth": "https://booth.pm/downloadables/9556747"
       },
       "install": [
         {
@@ -38798,6 +38799,24 @@
           {
             "path": "{scriptsDir}/テレビ字幕/TVSubtitle.mod2",
             "XXH3_128": "aad36070073b92101cd707a04bffd0e5"
+          }
+        ]
+      },
+      {
+        "version": "v1.2.0",
+        "release_date": "2026-08-30",
+        "file": [
+          {
+            "path": "{scriptsDir}/テレビ字幕/@テレビ字幕.anm2",
+            "XXH3_128": "cc082d3f42774fa2b8880d48e82b0743"
+          },
+          {
+            "path": "{scriptsDir}/テレビ字幕/TVSubtitle.mod2",
+            "XXH3_128": "6a706d0ce8d72191abbdece99d056af1"
+          },
+          {
+            "path": "{scriptsDir}/テレビ字幕/TVSubtitle.lua",
+            "XXH3_128": "25cb8c2e62cdc2b4740630bd43507c94"
           }
         ]
       }
