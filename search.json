@@ -1,12 +1,12 @@
 [
   {
     "id": "Kenkun.AviUtlExEdit2",
-    "latest-version": "v2.1.1",
+    "latest-version": "v2.1.7",
     "checkType": {
       "type": "URL",
       "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
-      "regex": "aviutl2_(v[0-9]+(?:\\.[0-9]+)+)\\.zip",
-      "version_extract": "v[0-9]+(?:\\.[0-9]+)+",
+      "regex": "aviutl2_(v[0-9]+(?:\\.[0-9]+)+[a-zA-Z]*)\\.zip",
+      "version_extract": "v[0-9]+(?:\\.[0-9]+)+[a-zA-Z]*",
       "directTemplate": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2_[version_extract]_setup.exe",
       "hash-calc": [
         {
@@ -65,7 +65,7 @@
   },
   {
     "id": "rigaya.x264guiEx",
-    "latest-version": "4.10",
+    "latest-version": "4.12",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/x264guiEx",
@@ -85,7 +85,7 @@
   },
   {
     "id": "rigaya.x265guiEx",
-    "latest-version": "5.07",
+    "latest-version": "5.11",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/x265guiEx",
@@ -105,7 +105,7 @@
   },
   {
     "id": "rigaya.NVEnc",
-    "latest-version": "9.25",
+    "latest-version": "9.33",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/NVEnc",
@@ -125,7 +125,7 @@
   },
   {
     "id": "rigaya.QSVEnc",
-    "latest-version": "8.22",
+    "latest-version": "8.28",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/QSVEnc",
@@ -145,7 +145,7 @@
   },
   {
     "id": "rigaya.ffmpegOut",
-    "latest-version": "2.06",
+    "latest-version": "2.08",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/ffmpegOut",
@@ -165,7 +165,7 @@
   },
   {
     "id": "rigaya.VCEEnc",
-    "latest-version": "9.08",
+    "latest-version": "9.14",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/VCEEnc",
@@ -185,7 +185,7 @@
   },
   {
     "id": "rigaya.svtAV1guiEx",
-    "latest-version": "2.10",
+    "latest-version": "2.14",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/svtAV1guiEx",
@@ -363,7 +363,7 @@
   },
   {
     "id": "sigma-axis.Basic_S",
-    "latest-version": "v2.70",
+    "latest-version": "v2.84",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_Basic_S",
@@ -383,7 +383,7 @@
   },
   {
     "id": "sigma-axis.Path_S",
-    "latest-version": "v2.10",
+    "latest-version": "v2.12",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_Path_S",
@@ -643,7 +643,7 @@
   },
   {
     "id": "amaii4.AviUtl2_Discord_RPC",
-    "latest-version": "1.3.2",
+    "latest-version": "1.3.3",
     "checkType": {
       "type": "GitHub",
       "repo": "amaii4/AviUtl2_Discord_RPC",
@@ -899,7 +899,7 @@
   },
   {
     "id": "sigma-axis.tl_walkaround2",
-    "latest-version": "v1.90",
+    "latest-version": "v2.31",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_tl_walkaround2",
@@ -939,7 +939,7 @@
   },
   {
     "id": "hebiiro.al2_preset_adder",
-    "latest-version": "r6",
+    "latest-version": "r7",
     "checkType": {
       "type": "GitHub",
       "repo": "hebiiro/al2_preset_adder",
@@ -999,7 +999,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_binaural",
-    "latest-version": "0.40.0",
+    "latest-version": "0.44.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1019,7 +1019,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_chiptune",
-    "latest-version": "0.40.0",
+    "latest-version": "0.44.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1039,7 +1039,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_equalizer",
-    "latest-version": "0.40.0",
+    "latest-version": "0.44.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1059,7 +1059,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_ffmpeg",
-    "latest-version": "0.40.0",
+    "latest-version": "0.44.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1079,7 +1079,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_input",
-    "latest-version": "0.40.0",
+    "latest-version": "0.44.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1099,7 +1099,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_output",
-    "latest-version": "0.40.0",
+    "latest-version": "0.44.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1119,7 +1119,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_local_alias_plugin",
-    "latest-version": "0.40.0",
+    "latest-version": "0.44.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1139,7 +1139,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_midi_player",
-    "latest-version": "0.40.0",
+    "latest-version": "0.44.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1159,7 +1159,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_pixelsort",
-    "latest-version": "0.40.0",
+    "latest-version": "0.44.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1179,7 +1179,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_random_color",
-    "latest-version": "0.40.0",
+    "latest-version": "0.44.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1199,7 +1199,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_scripts_search",
-    "latest-version": "0.40.0",
+    "latest-version": "0.44.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1219,7 +1219,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_srt_file",
-    "latest-version": "0.40.0",
+    "latest-version": "0.44.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1239,7 +1239,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_statistics",
-    "latest-version": "0.40.0",
+    "latest-version": "0.44.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1259,7 +1259,7 @@
   },
   {
     "id": "sevenc-nanashi.ntsc-rs",
-    "latest-version": "0.2.1",
+    "latest-version": "0.3.1",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/ntsc-rs.anm2",
@@ -1361,7 +1361,7 @@
   },
   {
     "id": "sevenc-nanashi.svg-aux2",
-    "latest-version": "0.5.0",
+    "latest-version": "0.5.1",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/svg.aux2",
@@ -1381,7 +1381,7 @@
   },
   {
     "id": "Book-0225.EAP2",
-    "latest-version": "v0.0.35",
+    "latest-version": "v0.0.37",
     "checkType": {
       "type": "GitHub",
       "repo": "Book-0225/aviutl2_External_Audio_Processing",
@@ -1401,7 +1401,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_metronome_plugin",
-    "latest-version": "0.40.0",
+    "latest-version": "0.44.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1421,7 +1421,7 @@
   },
   {
     "id": "hebiiro.al2_ui_dressing",
-    "latest-version": "r4",
+    "latest-version": "r6",
     "checkType": {
       "type": "GitHub",
       "repo": "hebiiro/al2_ui_dressing",
@@ -1521,7 +1521,7 @@
   },
   {
     "id": "sevenc-nanashi.tinted-aviutl2",
-    "latest-version": "0.3.0",
+    "latest-version": "0.3.3",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/tinted-aviutl2",
@@ -1620,7 +1620,7 @@
   },
   {
     "id": "NeAc.CinemaScope",
-    "latest-version": "r5",
+    "latest-version": "r6",
     "checkType": {
       "type": "GitHub",
       "repo": "nea-c/aviutl2_script_CinemaScope",
@@ -1724,7 +1724,7 @@
   },
   {
     "id": "KuroNeko.FontPreview",
-    "latest-version": "4.2.0",
+    "latest-version": "5.0.0",
     "checkType": {
       "type": "GitHub",
       "repo": "rokujyushi/FontPreview",
@@ -1733,10 +1733,14 @@
         {
           "extract": "zip",
           "paths": [
-            "Plugin/FontPreview/FontPreview.aux2"
+            "Plugin/FontPreview/FontPreview.aux2",
+            "Language/English.FontPreview.aul2",
+            "Language/简体中文.FontPreview.aul2"
           ],
           "recordPaths": [
-            "{pluginsDir}/FontPreview/FontPreview.aux2"
+            "{pluginsDir}/FontPreview/FontPreview.aux2",
+            "{dataDir}/Language/English.FontPreview.aul2",
+            "{dataDir}/Language/简体中文.FontPreview.aul2"
           ]
         }
       ]
@@ -1843,7 +1847,7 @@
   },
   {
     "id": "V.Bernkastel.AviUtl2_Language_kr",
-    "latest-version": "v2.1.0",
+    "latest-version": "v2.1.5",
     "checkType": {
       "type": "GitHub",
       "repo": "Victorique-Bernkastel/AviUtl2_Language",
@@ -1901,19 +1905,19 @@
   },
   {
     "id": "VRAMWIZ.Syncroh2",
-    "latest-version": "v3.3.18",
+    "latest-version": "v3.4.7",
     "checkType": {
       "type": "GitHub",
       "repo": "vramwiz/Syncroh2-site",
-      "regex": "^Syncroh2_Desktop.*\\.zip$",
+      "regex": "^Syncroh2_Desktop\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
           "paths": [
-            "Script/@Syncroh2_Script.obj2"
+            "Plugin/Syncroh2_Extension2.aux2"
           ],
           "recordPaths": [
-            "{scriptsDir}/Syncroh2/@Syncroh2_Script.obj2"
+            "{pluginsDir}/Syncroh2/Syncroh2_Extension2.aux2"
           ]
         }
       ]
@@ -1921,7 +1925,7 @@
   },
   {
     "id": "KuroNeko.CopyAlias",
-    "latest-version": "2.0.0",
+    "latest-version": "2.2.0",
     "checkType": {
       "type": "GitHub",
       "repo": "rokujyushi/Copy_alias",
@@ -1930,10 +1934,12 @@
         {
           "extract": "zip",
           "paths": [
-            "Plugin/CopyAlias.aux2"
+            "Plugin/CopyAlias.aux2",
+            "Language/English.copyalias.aul2"
           ],
           "recordPaths": [
-            "{pluginsDir}/CopyAlias.aux2"
+            "{pluginsDir}/CopyAlias.aux2",
+            "{dataDir}/Language/English.copyalias.aul2"
           ]
         }
       ]
@@ -1961,7 +1967,7 @@
   },
   {
     "id": "sevenc-nanashi.insert-aux2",
-    "latest-version": "0.2.1",
+    "latest-version": "0.3.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/insert.aux2",
@@ -1981,7 +1987,7 @@
   },
   {
     "id": "sevenc-nanashi.quantizer-aux2",
-    "latest-version": "0.2.1",
+    "latest-version": "0.3.1",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/quantizer.aux2",
@@ -2061,7 +2067,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_single_image_output",
-    "latest-version": "0.40.0",
+    "latest-version": "0.44.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -2101,7 +2107,7 @@
   },
   {
     "id": "sevenc-nanashi.modify_group_num_layers-aux2",
-    "latest-version": "0.2.0",
+    "latest-version": "0.2.1",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/modify_group_num_layers.aux2",
@@ -2264,7 +2270,7 @@
   },
   {
     "id": "sevenc-nanashi.budoux-obj2",
-    "latest-version": "0.1.9",
+    "latest-version": "0.2.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/budoux.obj2",
@@ -2306,7 +2312,7 @@
   },
   {
     "id": "sigma-axis.Border_S",
-    "latest-version": "v1.21-for-beta50",
+    "latest-version": "v1.31",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_Border_S",
@@ -2472,7 +2478,7 @@
   },
   {
     "id": "azurite.AdjustPivot_A",
-    "latest-version": "v0.3.0",
+    "latest-version": "v0.4.0",
     "checkType": {
       "type": "GitHub",
       "repo": "azurite581/AviUtl2-AdjustPivot_A",
@@ -2552,7 +2558,7 @@
   },
   {
     "id": "sigma-axis.translations_sigma-axis",
-    "latest-version": "r43",
+    "latest-version": "r51",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_translations_sigma-axis",
@@ -2572,7 +2578,7 @@
   },
   {
     "id": "Karoterra.Typst",
-    "latest-version": "v0.2.0",
+    "latest-version": "v0.2.1",
     "checkType": {
       "type": "GitHub",
       "repo": "karoterra/aviutl2-typst",
@@ -2631,7 +2637,7 @@
   },
   {
     "id": "sevenc-nanashi.ported_tim",
-    "latest-version": "0.1.5",
+    "latest-version": "0.2.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/ported_tim",
@@ -2787,7 +2793,7 @@
   },
   {
     "id": "VRAMWIZ.VW_Media_Input",
-    "latest-version": "v1.0.3",
+    "latest-version": "v1.0.4",
     "checkType": {
       "type": "GitHub",
       "repo": "vramwiz/VW_Media_Input",
@@ -2807,7 +2813,7 @@
   },
   {
     "id": "VRAMWIZ.VW_Media_Output",
-    "latest-version": "v1.0.4",
+    "latest-version": "v1.0.6",
     "checkType": {
       "type": "GitHub",
       "repo": "vramwiz/VW_Media_Output",
@@ -2946,7 +2952,7 @@
   },
   {
     "id": "eizo-gak.aviutl2-SourceMonitor",
-    "latest-version": "1.1.1.0",
+    "latest-version": "2.0.0.1",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-sourcemonitor-bootstrapper.aux2",
@@ -2966,7 +2972,7 @@
   },
   {
     "id": "Fuji.voice_drop",
-    "latest-version": "v0.1.1",
+    "latest-version": "v0.2.3",
     "checkType": {
       "type": "GitHub",
       "repo": "Fuji07-2525/voice-drop",
@@ -3053,7 +3059,7 @@
   },
   {
     "id": "Karoterra.WaveformPreview",
-    "latest-version": "v0.1.0",
+    "latest-version": "v0.2.0",
     "checkType": {
       "type": "GitHub",
       "repo": "karoterra/aviutl2-waveform-preview",
@@ -3073,7 +3079,7 @@
   },
   {
     "id": "nkopikaso.AviUtl2-WhisperAutoSub",
-    "latest-version": "v2.8.1",
+    "latest-version": "v2.9.75",
     "checkType": {
       "type": "GitHub",
       "repo": "nkopikaso/AviUtl2-WhisperAutoSub",
@@ -3175,7 +3181,7 @@
   },
   {
     "id": "Estelle.AviUtl2-LaTeX",
-    "latest-version": "v0.1.1",
+    "latest-version": "v0.2.0",
     "checkType": {
       "type": "GitHub",
       "repo": "Estellellet/AviUtl2-LaTeX",
@@ -3215,7 +3221,7 @@
   },
   {
     "id": "sevenc-nanashi.enhanced_tracks-aux2",
-    "latest-version": "0.1.2",
+    "latest-version": "0.1.7",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/enhanced_tracks.aux2",
@@ -3312,7 +3318,7 @@
   },
   {
     "id": "nullru.MotionTracking_MK-II_Plus_for_AviUtl2",
-    "latest-version": "r114_1",
+    "latest-version": "r114_2",
     "checkType": {
       "type": "GitHub",
       "repo": "nullruptr/MotionTracking_MK-II_Plus_for_AviUtl2",
@@ -3332,7 +3338,7 @@
   },
   {
     "id": "vandojapan.typing-effect",
-    "latest-version": "v0.9.13",
+    "latest-version": "v0.9.14",
     "checkType": {
       "type": "GitHub",
       "repo": "vandojapan/TypingEffect.obj2",
@@ -3358,7 +3364,7 @@
   },
   {
     "id": "sevenc-nanashi.time_control_assistant-tra2",
-    "latest-version": "0.1.0",
+    "latest-version": "0.1.1",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/time_control_assistant.tra2",
@@ -3375,6 +3381,742 @@
             "{dataDir}/Language/English.time_control_assistant.aul2",
             "{scriptsDir}/time_control_assistant/@time_control_assistant.tra2.tra2",
             "{scriptsDir}/time_control_assistant/time_control_assistant.lua"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "tranczmeq.aviutl2-mcp-bridge",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "TranczMeq/aviutl2-live-mcp",
+      "regex": "TranczMeq.aviutl2-mcp-bridge-.*\\.au2pkg.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/aviutl2_mcp_bridge.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/aviutl2_mcp_bridge.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Mugi995.Any_Shortcut_for_AviUtl2",
+    "latest-version": "v0.1.5",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "mugi995/Any_Shortcut_for_AviUtl2",
+      "regex": "^Any_Shortcut_For_AviUtl2.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "AnyShortcutforAviUtl2/Any_Shortcut_for_AviUtl2.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/AnyShortcutforAviUtl2/Any_Shortcut_for_AviUtl2.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "vandojapan.comfont",
+    "latest-version": "v0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vandojapan/comfont",
+      "regex": "^vandojapan\\.comfont-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Alias/合成フォントテキスト.object",
+            "Alias/合成フォント字幕.object",
+            "Plugin/comfont.aux2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Alias/合成フォントテキスト.object",
+            "{dataDir}/Alias/合成フォント字幕.object",
+            "{pluginsDir}/comfont.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.object_as_frame_selection-aux2",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/object_as_frame_selection.aux2",
+      "regex": "^sevenc-nanashi\\.object_as_frame_selection-aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Language/English.object_as_frame_selection-aux2.aul2",
+            "Plugin/object_as_frame_selection.aux2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/English.object_as_frame_selection-aux2.aul2",
+            "{pluginsDir}/object_as_frame_selection.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "azurite.LayerGridView",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "azurite581/AviUtl2-LayerGridView",
+      "regex": "^LayerGridView-v.+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@レイヤーグリッド表示.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@レイヤーグリッド表示.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "natuneko722.OCRTextExtractorPlugin",
+    "latest-version": "v1.4.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "natuneko722/OCRTextExtractorPlugin",
+      "regex": "^OCRTextExtractorPlugin_v.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "OCRTextExtractorPlugin.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/OCRTextExtractorPlugin.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "halkun19.HL_Ezing",
+    "latest-version": "v1.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Hallkun19/HL_Ezing-for-aul2",
+      "regex": "^HL_Ezing-v.+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/HL_Ezing.aux2",
+            "Script/HL_Ezing/HL_Ezing.tra2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/HL_Ezing.aux2",
+            "{scriptsDir}/HL_Ezing/HL_Ezing.tra2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_PianoRoll",
+    "latest-version": "v1.0.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_PianoRoll",
+      "regex": "^SYNC_PianoRoll\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_PianoRoll/SYNC_PianoRoll_Filter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_PianoRoll/SYNC_PianoRoll_Filter.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.Aul2MIRAI",
+    "latest-version": "v1.0.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/Aul2MIRAI",
+      "regex": "^Aul2MIRAI\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Aul2MIRAI/Aul2MIRAI.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Aul2MIRAI/Aul2MIRAI.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Motion",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_Motion",
+      "regex": "^SYNC_Motion\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_Motion/SYNC_Motion_Filter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_Motion/SYNC_Motion_Filter.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.Shake_PPP",
+    "latest-version": "v1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/Shake_PPP",
+      "regex": "^Shake_PPP\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Shake_PPP/Shake_PPP.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Shake_PPP/Shake_PPP.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.reset_frame_selection_on_focus-aux2",
+    "latest-version": "0.1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/reset_frame_selection_on_focus.aux2",
+      "regex": "^sevenc-nanashi\\.reset_frame_selection_on_focus-aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Language/English.reset_frame_selection_on_focus-aux2.aul2",
+            "Plugin/reset_frame_selection_on_focus.aux2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/English.reset_frame_selection_on_focus-aux2.aul2",
+            "{pluginsDir}/reset_frame_selection_on_focus.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "ronin_gw.mojie",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "ronin-gw/aviutl2_mojie",
+      "regex": "^mojie.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/mojie/mojie.aux2",
+            "Alias/mojieテキスト.object"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/mojie/mojie.aux2",
+            "{dataDir}/Alias/mojieテキスト.object"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.TurnOver_PPP",
+    "latest-version": "v1.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/TurnOver_PPP",
+      "regex": "^TurnOver_PPP\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "TurnOver_PPP/TurnOver_PPP.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/TurnOver_PPP/TurnOver_PPP.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "halkun19.HL_Blobox",
+    "latest-version": "v1.0.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Hallkun19/HL_Blobox-for-aul2",
+      "regex": "^HL_Blobox-v.+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/HL_Blobox.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/HL_Blobox.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "nctype.AutoBlendLight",
+    "latest-version": "v1.3.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nctype/aviutl2_script_AutoBlendLight",
+      "regex": "^AutoBlendLight_v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/AutoBlendLight/AutoBlendLight.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/AutoBlendLight/AutoBlendLight.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "legashiro.TextInput",
+    "latest-version": "v1.0.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "RubymondJ/TextInput-AviUtl2Plugin",
+      "regex": "^TextInput.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "TextInput.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/TextInput.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "nctype.Pixelizer",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nctype/aviutl2_script_Pixelizer",
+      "regex": "^Pixelizer_v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/Pixelizer/Pixelizer.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Pixelizer/Pixelizer.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "gomi1124.psdtoolkit-aviutl1-lipsync",
+    "latest-version": "v2.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "gomi1124/PSDToolKit-Natural-LipSync",
+      "regex": "^PSDToolKit_NaturalLipSync_v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/PSDToolKit/LipSyncAviUtl1.mod2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/PSDToolKit/LipSyncAviUtl1.mod2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "teruyoshii.Palette_History",
+    "latest-version": "v1.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "teruyoshii/AviUtl2_Palette_History",
+      "regex": "^PaletteHistory\\.aux2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "PaletteHistory.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/PaletteHistory.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.create_control_object-aux2",
+    "latest-version": "0.3.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/create_control_object.aux2",
+      "regex": "^sevenc-nanashi\\.create_control_object-aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Language/English.create_control_object-aux2.aul2",
+            "Plugin/create_control_object.aux2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/English.create_control_object-aux2.aul2",
+            "{pluginsDir}/create_control_object.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "NeAc.Scatter",
+    "latest-version": "r2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nea-c/aviutl2_script_Scatter",
+      "regex": "^Scatter\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Scatter.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Scatter.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "CJF.PenTool",
+    "latest-version": "v0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "ColorJellyFish/aviutl2_cjf_pentool",
+      "regex": "^cjf_pentool-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/CJF/CJFPreviewPenTool.aux2",
+            "Plugin/CJF/CJFPreviewRangeSelector.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/CJF/CJFPreviewPenTool.aux2",
+            "{pluginsDir}/CJF/CJFPreviewRangeSelector.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "halkun19.HL_FxWheel",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Hallkun19/HL_FxWheel-for-aul2",
+      "regex": "^HL_FxWheel-v.+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/HL_FxWheel.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/HL_FxWheel.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "CJF.PSD_anime",
+    "latest-version": "v0.1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "ColorJellyFish/aviutl2_cjf_psdanimation",
+      "regex": "^cjf_psd-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/CJF/ptk_overwrite_react_core.lua",
+            "Script/CJF/ptk_overwrite_react_state.lua"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/CJF/ptk_overwrite_react_core.lua",
+            "{scriptsDir}/CJF/ptk_overwrite_react_state.lua"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Bialis.TrackingStabilizer-for-AviUtl-ExEdit2",
+    "latest-version": "v1.05",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Bialis-dev/TrackingStabilizer-for-AviUtl-ExEdit2",
+      "regex": "^TrackingStabilizer.*\\.auf2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "TrackingStabilizer.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/TrackingStabilizer.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Sagyou.JpegNoise",
+    "latest-version": "v1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "SagyouDarui900/JPEGNoise_AviUtl2",
+      "regex": "^JpegNoise.*\\.anm2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "JpegNoise.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/JpegNoise.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "tettu0530.LiquidGlass",
+    "latest-version": "v3.1.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Tettu0530/Liquid-Glass",
+      "regex": "^LiquidGlass_v.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "LiquidGlass.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/LiquidGlass.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "natuneko722.text-background-balloon-script",
+    "latest-version": "v1.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "natuneko722/TextBackgroundBalloonScript",
+      "regex": "^TextBackgroundBalloonScript_v[0-9]+\\.[0-9]+\\.[0-9]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/NNeko/吹き出し背景@テキスト.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/NNeko/吹き出し背景@テキスト.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "CJF.MaskSelector",
+    "latest-version": "v0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "ColorJellyFish/aviutl2_cjf_maskselector",
+      "regex": "^cjf_maskselector-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/CJF/CJFPreviewMaskSelector.aux2",
+            "Plugin/CJF/CJFMaskSelectorButton.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/CJF/CJFPreviewMaskSelector.aux2",
+            "{pluginsDir}/CJF/CJFMaskSelectorButton.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "natuneko722.FrameCapturePlugin",
+    "latest-version": "v1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "natuneko722/FrameCapturePlugin",
+      "regex": "^FrameCapturePlugin_v[0-9]+\\.[0-9]+\\.[0-9]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/NNeko/FrameCapturePlugin.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/NNeko/FrameCapturePlugin.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "tettu0530.NCSVisualizer",
+    "latest-version": "v2.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Tettu0530/NCSAudioVisualizer",
+      "regex": "^NCSVisualizer_v.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "NCSVisualizer.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/NCSVisualizer.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "nctype.ReflectionOnPane",
+    "latest-version": "v1.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nctype/aviutl2_script_ReflectionOnPane",
+      "regex": "^ReflectionOnPane_v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/ReflectionOnPane/ReflectionOnPane.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ReflectionOnPane/ReflectionOnPane.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "nctype.RainOnPane",
+    "latest-version": "v1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nctype/aviutl2_script_RainOnPane",
+      "regex": "^RainOnPane_v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/RainOnPane/RainOnPane.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/RainOnPane/RainOnPane.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "routersys.DockLayout",
+    "latest-version": "v1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "routersys/AUE2-DockLayout",
+      "regex": "^DockLayout.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/DockLayout.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/DockLayout.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "kanade-ak.TextCharEditor",
+    "latest-version": "v3.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "kanade-ak/TextCharEditor",
+      "regex": "^TextCharEditor.*\\.aux2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "TextCharEditor.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}\\TextCharEditor.aux2"
           ]
         }
       ]
