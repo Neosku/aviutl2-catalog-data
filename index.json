@@ -6848,13 +6848,13 @@
   },
   {
     "id": "korarei.ObjectMotionBlur_LK",
-    "name": "ObjectMotionBlur_LK",
-    "type": "スクリプト",
+    "name": "MotionBlur_K",
+    "type": "フィルタプラグイン",
     "summary": "モーションブラーをかけるスクリプト",
-    "description": "./md/korarei.ObjectMotionBlur_LK.md",
+    "description": "https://raw.githubusercontent.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script/refs/heads/main/README.md",
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script",
-    "latest-version": "v1.1.1",
+    "latest-version": "v2.0.0",
     "popularity": 9262,
     "trend": 565,
     "licenses": [
@@ -6879,15 +6879,15 @@
       "移動",
       "回転",
       "変形",
-      "モーションブラー"
+      "モーションブラー",
+      "ぼかし"
     ],
     "dependencies": [],
     "images": [
       {
         "thumbnail": "./image/korarei.ObjectMotionBlur_LK_thumbnail.png",
         "infoImg": [
-          "./image/korarei.ObjectMotionBlur_LK_1.gif",
-          "./image/korarei.ObjectMotionBlur_LK_2.jpg"
+          "./image/korarei.ObjectMotionBlur_LK_1.gif"
         ]
       }
     ],
@@ -6896,10 +6896,22 @@
         "github": {
           "owner": "korarei",
           "repo": "AviUtl2_ObjectMotionBlur_LK_Script",
-          "pattern": "^ObjectMotionBlur_LK\\.zip$"
+          "pattern": "^MotionBlur_K.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ObjectMotionBlur_LK.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ObjectMotionBlur_LK.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ObjectMotionBlur_LK.dll"
+        },
         {
           "action": "download"
         },
@@ -6908,23 +6920,50 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/ObjectMotionBlur_LK/ObjectMotionBlur_LK.anm2",
-          "to": "{scriptsDir}"
+          "from": "{tmp}/Plugin/MotionBlur_K/CHANGELOG.md",
+          "to": "{pluginsDir}/MotionBlur_K"
         },
         {
           "action": "copy",
-          "from": "{tmp}/ObjectMotionBlur_LK/ObjectMotionBlur_LK.mod2",
-          "to": "{scriptsDir}"
+          "from": "{tmp}/Plugin/MotionBlur_K/LICENSE",
+          "to": "{pluginsDir}/MotionBlur_K"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/MotionBlur_K/MotionBlur_K.aux2",
+          "to": "{pluginsDir}/MotionBlur_K"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/MotionBlur_K/README.md",
+          "to": "{pluginsDir}/MotionBlur_K"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/MotionBlur_K/THIRD_PARTY_LICENSES.md",
+          "to": "{pluginsDir}/MotionBlur_K"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{scriptsDir}/ObjectMotionBlur_LK.anm2"
+          "path": "{pluginsDir}/MotionBlur_K/CHANGELOG.md"
         },
         {
           "action": "delete",
-          "path": "{scriptsDir}/ObjectMotionBlur_LK.mod2"
+          "path": "{pluginsDir}/MotionBlur_K/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/MotionBlur_K/MotionBlur_K.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/MotionBlur_K/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/MotionBlur_K/THIRD_PARTY_LICENSES.md"
         }
       ]
     },
@@ -6946,6 +6985,16 @@
           {
             "path": "{scriptsDir}/ObjectMotionBlur_LK.anm2",
             "XXH3_128": "4770408326df69dd28e6a8e2a7806b1d"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.0",
+        "release_date": "2026-08-30",
+        "file": [
+          {
+            "path": "{pluginsDir}/MotionBlur_K/MotionBlur_K.aux2",
+            "XXH3_128": "fb066685c9ff3cdc2c1979987088fcab"
           }
         ]
       }
