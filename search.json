@@ -1,7 +1,7 @@
 [
   {
     "id": "Kenkun.AviUtlExEdit2",
-    "latest-version": "v2.1.6a",
+    "latest-version": "v2.1.7",
     "checkType": {
       "type": "URL",
       "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
@@ -105,7 +105,7 @@
   },
   {
     "id": "rigaya.NVEnc",
-    "latest-version": "9.32",
+    "latest-version": "9.33",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/NVEnc",
@@ -125,7 +125,7 @@
   },
   {
     "id": "rigaya.QSVEnc",
-    "latest-version": "8.27",
+    "latest-version": "8.28",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/QSVEnc",
@@ -165,7 +165,7 @@
   },
   {
     "id": "rigaya.VCEEnc",
-    "latest-version": "9.13",
+    "latest-version": "9.14",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/VCEEnc",
@@ -363,7 +363,7 @@
   },
   {
     "id": "sigma-axis.Basic_S",
-    "latest-version": "v2.83",
+    "latest-version": "v2.84",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_Basic_S",
@@ -939,7 +939,7 @@
   },
   {
     "id": "hebiiro.al2_preset_adder",
-    "latest-version": "r6",
+    "latest-version": "r7",
     "checkType": {
       "type": "GitHub",
       "repo": "hebiiro/al2_preset_adder",
@@ -1521,7 +1521,7 @@
   },
   {
     "id": "sevenc-nanashi.tinted-aviutl2",
-    "latest-version": "0.3.2",
+    "latest-version": "0.3.3",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/tinted-aviutl2",
@@ -1733,10 +1733,14 @@
         {
           "extract": "zip",
           "paths": [
-            "Plugin/FontPreview/FontPreview.aux2"
+            "Plugin/FontPreview/FontPreview.aux2",
+            "Language/English.FontPreview.aul2",
+            "Language/简体中文.FontPreview.aul2"
           ],
           "recordPaths": [
-            "{pluginsDir}/FontPreview/FontPreview.aux2"
+            "{pluginsDir}/FontPreview/FontPreview.aux2",
+            "{dataDir}/Language/English.FontPreview.aul2",
+            "{dataDir}/Language/简体中文.FontPreview.aul2"
           ]
         }
       ]
@@ -1930,10 +1934,12 @@
         {
           "extract": "zip",
           "paths": [
-            "Plugin/CopyAlias.aux2"
+            "Plugin/CopyAlias.aux2",
+            "Language/English.copyalias.aul2"
           ],
           "recordPaths": [
-            "{pluginsDir}/CopyAlias.aux2"
+            "{pluginsDir}/CopyAlias.aux2",
+            "{dataDir}/Language/English.copyalias.aul2"
           ]
         }
       ]
@@ -1961,7 +1967,7 @@
   },
   {
     "id": "sevenc-nanashi.insert-aux2",
-    "latest-version": "0.2.1",
+    "latest-version": "0.3.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/insert.aux2",
@@ -2306,7 +2312,7 @@
   },
   {
     "id": "sigma-axis.Border_S",
-    "latest-version": "v1.30",
+    "latest-version": "v1.31",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_Border_S",
@@ -2552,7 +2558,7 @@
   },
   {
     "id": "sigma-axis.translations_sigma-axis",
-    "latest-version": "r50",
+    "latest-version": "r51",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_translations_sigma-axis",
@@ -2631,7 +2637,7 @@
   },
   {
     "id": "sevenc-nanashi.ported_tim",
-    "latest-version": "0.1.5",
+    "latest-version": "0.2.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/ported_tim",
@@ -3926,7 +3932,7 @@
       "hash-calc": [
         {
           "paths": [
-            "jpegNoise.anm2"
+            "JpegNoise.anm2"
           ],
           "recordPaths": [
             "{scriptsDir}/JpegNoise.anm2"

@@ -20,7 +20,8 @@ https://www.dropbox.com/scl/fo/clvjvrs1okuc991xf5pkd/AKy2h_z8jd9B1svrfS97PFM?rlk
 必要な機能だけ展開して使ってください。
 
 ### 移動
-
+- **開始位置**
+　　1文字目が動き始めるフレームをオブジェクトの始点を基準に決めます。
 - **移動F**
 　　移動にかかるフレーム数。
 - **移動F個別適用**
