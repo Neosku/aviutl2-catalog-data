@@ -44350,5 +44350,98 @@
         ]
       }
     ]
+  },
+  {
+    "id": "momo_neeeko.LocusMotion",
+    "name": "LocusMotion",
+    "type": "汎用プラグイン",
+    "summary": "トラックバー移動で使用可能な曲線を作成するプラグイン",
+    "description": "./md/momo_neeeko.LocusMotion.md",
+    "author": "もも猫",
+    "repoURL": "https://github.com/momoneeeko/LocusMotion.aux2",
+    "latest-version": "beta1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "もも猫"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "イージング",
+      "トラックバー",
+      "時間制御"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/momo_neeeko.LocusMotion_thumbnail.png",
+        "infoImg": [
+          "./image/momo_neeeko.LocusMotion_1.png",
+          "./image/momo_neeeko.LocusMotion_2.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "momoneeeko",
+          "repo": "LocusMotion.aux2",
+          "pattern": "^LocusMotion\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/LocusMotion.aux2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/LocusMotion.tra2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/LocusMotion.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/LocusMotion.tra2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "beta1.0",
+        "release_date": "2026-08-28",
+        "file": [
+          {
+            "path": "{pluginsDir}/LocusMotion.aux2",
+            "XXH3_128": "72802d286413a549fba2ce626e1267be"
+          },
+          {
+            "path": "{scriptsDir}/LocusMotion.tra2",
+            "XXH3_128": "f3dcb2360a1bf44d620a885c4d91fb4e"
+          }
+        ]
+      }
+    ]
   }
 ]
