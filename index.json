@@ -8491,18 +8491,13 @@
       "便利ツール"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "",
-        "infoImg": []
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
           "owner": "oov",
           "repo": "aviutl2_gcmzdrops2",
-          "pattern": "^gcmzdrops_.*\\.exe$"
+          "pattern": "^gcmzdrops_.*\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -8510,33 +8505,63 @@
           "action": "download"
         },
         {
-          "action": "run",
-          "path": "{download}",
-          "args": [
-            "/VERYSILENT",
-            "/SP-",
-            "/SUPPRESSMSGBOXES",
-            "/DIR=\"{pluginsDir}\""
-          ],
-          "elevate": false
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/GCMZDrops/GCMZDrops.aux2",
+          "to": "{pluginsDir}/GCMZDrops"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/GCMZDrops/GCMZDrops.txt",
+          "to": "{pluginsDir}/GCMZDrops"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/GCMZDrops/GCMZScript/entrypoint.lua",
+          "to": "{pluginsDir}/GCMZDrops/GCMZScript"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/GCMZDrops/GCMZScript/exo.lua",
+          "to": "{pluginsDir}/GCMZDrops/GCMZScript"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/GCMZDrops/GCMZScript/ini.lua",
+          "to": "{pluginsDir}/GCMZDrops/GCMZScript"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/GCMZDrops/GCMZScript/json.lua",
+          "to": "{pluginsDir}/GCMZDrops/GCMZScript"
         }
       ],
       "uninstall": [
         {
-          "action": "run",
-          "path": "{pluginsDir}/GCMZDrops/unins000.exe",
-          "args": [
-            "/VERYSILENT",
-            "/SUPPRESSMSGBOXES"
-          ]
+          "action": "delete",
+          "path": "{pluginsDir}/GCMZDrops/GCMZDrops.aux2"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/GCMZDrops.aux2"
+          "path": "{pluginsDir}/GCMZDrops/GCMZDrops.txt"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/GCMZScript"
+          "path": "{pluginsDir}/GCMZDrops/GCMZScript/entrypoint.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/GCMZDrops/GCMZScript/exo.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/GCMZDrops/GCMZScript/ini.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/GCMZDrops/GCMZScript/json.lua"
         }
       ]
     },
