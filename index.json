@@ -44269,7 +44269,7 @@
     "description": "./md/tikubonn.ZigZagClipping.md",
     "author": "ちくぼん",
     "repoURL": "https://tikubonn.booth.pm/items/8775466",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 35,
     "trend": 43,
     "licenses": [
@@ -44303,7 +44303,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/9542778"
+        "booth": "https://booth.pm/downloadables/9558338"
       },
       "install": [
         {
@@ -44333,6 +44333,24 @@
           {
             "path": "{scriptsDir}/ジグザグクリッピング/ZZClipping.mod2",
             "XXH3_128": "92a7ea73ba98f98058d1e57c832f5e42"
+          },
+          {
+            "path": "{scriptsDir}/ジグザグクリッピング/ZZClipping.lua",
+            "XXH3_128": "99ce24ee770dc65c7860f989b421ce73"
+          },
+          {
+            "path": "{scriptsDir}/ジグザグクリッピング/@ジグザグクリッピング.anm2",
+            "XXH3_128": "ae4e61b443f7e80997f5e9c3e881f3d1"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-08-30",
+        "file": [
+          {
+            "path": "{scriptsDir}/ジグザグクリッピング/ZZClipping.mod2",
+            "XXH3_128": "691c180e8720d0a86e4a1838b49510f5"
           },
           {
             "path": "{scriptsDir}/ジグザグクリッピング/ZZClipping.lua",
