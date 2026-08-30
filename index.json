@@ -21881,7 +21881,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_ui_dressing/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_ui_dressing",
-    "latest-version": "r6",
+    "latest-version": "r7",
     "popularity": 3216,
     "trend": 464,
     "licenses": [
@@ -22013,6 +22013,16 @@
           {
             "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
             "XXH3_128": "ca12cd1587a5d12e01f91267b7e61b28"
+          }
+        ]
+      },
+      {
+        "version": "r7",
+        "release_date": "2026-08-30",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
+            "XXH3_128": "ebc9598ee3d36ecc7968221892e3af96"
           }
         ]
       }
