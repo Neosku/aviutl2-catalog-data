@@ -6860,11 +6860,11 @@
     "id": "korarei.ObjectMotionBlur_LK",
     "name": "MotionBlur_K",
     "type": "フィルタプラグイン",
-    "summary": "モーションブラーをかけるスクリプト",
+    "summary": "軽量モーションブラエフェクト",
     "description": "https://raw.githubusercontent.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script/refs/heads/main/README.md",
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script",
-    "latest-version": "v2.0.0",
+    "latest-version": "v2.0.1",
     "popularity": 9352,
     "trend": 979,
     "licenses": [
@@ -6952,6 +6952,11 @@
           "action": "copy",
           "from": "{tmp}/Plugin/MotionBlur_K/THIRD_PARTY_LICENSES.md",
           "to": "{pluginsDir}/MotionBlur_K"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.MotionBlur_K.aul2",
+          "to": "{dataDir}/Language/Default.MotionBlur_K.aul2"
         }
       ],
       "uninstall": [
@@ -6974,6 +6979,10 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/MotionBlur_K/THIRD_PARTY_LICENSES.md"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.MotionBlur_K.aul2"
         }
       ]
     },
@@ -7005,6 +7014,16 @@
           {
             "path": "{pluginsDir}/MotionBlur_K/MotionBlur_K.aux2",
             "XXH3_128": "fb066685c9ff3cdc2c1979987088fcab"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.1",
+        "release_date": "2026-09-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/MotionBlur_K/MotionBlur_K.aux2",
+            "XXH3_128": "483ff7d1d24e61617ce07b7cc491a3cd"
           }
         ]
       }
