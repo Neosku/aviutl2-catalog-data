@@ -40558,7 +40558,7 @@
     "description": "https://raw.githubusercontent.com/natuneko722/OCRTextExtractorPlugin/main/OCRTextExtractorPlugin/README.md",
     "author": "夏猫",
     "repoURL": "https://github.com/natuneko722/OCRTextExtractorPlugin",
-    "latest-version": "v1.5.0",
+    "latest-version": "v1.5.1",
     "popularity": 64,
     "trend": 47,
     "licenses": [
@@ -40645,6 +40645,16 @@
           {
             "path": "{pluginsDir}/OCRTextExtractorPlugin.aux2",
             "XXH3_128": "b5810460adf46f5af3c6d4853bc40814"
+          }
+        ]
+      },
+      {
+        "version": "v1.5.1",
+        "release_date": "2026-08-31",
+        "file": [
+          {
+            "path": "{pluginsDir}/OCRTextExtractorPlugin.aux2",
+            "XXH3_128": "ab258e5ef7f6159dae39f82b0bd2f6c7"
           }
         ]
       }
