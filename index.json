@@ -39069,7 +39069,7 @@
     "description": "./md/tikubonn.TVSubtitle.md",
     "author": "ちくぼん",
     "repoURL": "https://tikubonn.booth.pm/items/8626637",
-    "latest-version": "v1.2.0",
+    "latest-version": "v1.3.0",
     "popularity": 528,
     "trend": 200,
     "licenses": [
@@ -39098,7 +39098,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/9556747"
+        "booth": "https://booth.pm/downloadables/9565006"
       },
       "install": [
         {
@@ -39180,6 +39180,24 @@
       {
         "version": "v1.2.0",
         "release_date": "2026-08-30",
+        "file": [
+          {
+            "path": "{scriptsDir}/テレビ字幕/@テレビ字幕.anm2",
+            "XXH3_128": "cc082d3f42774fa2b8880d48e82b0743"
+          },
+          {
+            "path": "{scriptsDir}/テレビ字幕/TVSubtitle.mod2",
+            "XXH3_128": "6a706d0ce8d72191abbdece99d056af1"
+          },
+          {
+            "path": "{scriptsDir}/テレビ字幕/TVSubtitle.lua",
+            "XXH3_128": "25cb8c2e62cdc2b4740630bd43507c94"
+          }
+        ]
+      },
+      {
+        "version": "v1.3.0",
+        "release_date": "2026-08-31",
         "file": [
           {
             "path": "{scriptsDir}/テレビ字幕/@テレビ字幕.anm2",
