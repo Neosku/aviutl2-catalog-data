@@ -21082,7 +21082,7 @@
     "description": "https://raw.githubusercontent.com/Book-0225/aviutl2_External_Audio_Processing/refs/heads/master/README.md",
     "author": "Book0225",
     "repoURL": "https://github.com/Book-0225/aviutl2_External_Audio_Processing",
-    "latest-version": "v0.0.37",
+    "latest-version": "v0.0.37a",
     "popularity": 869,
     "trend": 162,
     "licenses": [
@@ -21317,6 +21317,16 @@
           {
             "path": "{pluginsDir}/External_Audio_Processing2.aux2",
             "XXH3_128": "73dc74a0b587c65f22600f69cd5b4003"
+          }
+        ]
+      },
+      {
+        "version": "v0.0.37a",
+        "release_date": "2026-08-31",
+        "file": [
+          {
+            "path": "{pluginsDir}/External_Audio_Processing2.aux2",
+            "XXH3_128": "0f6d9a16d2ce4977f90344bbeca18e87"
           }
         ]
       }
