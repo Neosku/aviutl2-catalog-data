@@ -4163,5 +4163,47 @@
         }
       ]
     }
+  },
+  {
+    "id": "VRAMWIZ.MMDAnimationStudio",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/MMDAnimationStudio",
+      "regex": "^MMDAnimationStudio\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/MMDAnimationStudio.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/MMD/MMDAnimationStudio.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "yh2237.AviUtl2-MCP",
+    "latest-version": "v0.0.3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "yh2237/AviUtl2-MCP",
+      "regex": "^AviUtl2-MCP-\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/AviUtl2-MCP/aviutl2-mcp-bridge.aux2",
+            "Plugin/AviUtl2-MCP/aviutl2-mcp.exe"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/AviUtl2-MCP/aviutl2-mcp-bridge.aux2",
+            "{pluginsDir}/AviUtl2-MCP/aviutl2-mcp.exe"
+          ]
+        }
+      ]
+    }
   }
 ]
