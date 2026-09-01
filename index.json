@@ -37327,12 +37327,21 @@
           "action": "copy",
           "from": "{tmp}/Plugin/import_midi_tempos.aux2",
           "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.import_midi_tempos-aux2.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/import_midi_tempos.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.import_midi_tempos-aux2.aul2"
         }
       ]
     },
@@ -37354,6 +37363,10 @@
           {
             "path": "{pluginsDir}/import_midi_tempos.aux2",
             "XXH3_128": "399fdff4466069efd7442c813346f702"
+          },
+          {
+            "path": "{dataDir}/Language/English.import_midi_tempos-aux2.aul2",
+            "XXH3_128": "9e0460af91f75571cf2e0c02824affd3"
           }
         ]
       }
