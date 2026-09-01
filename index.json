@@ -6864,7 +6864,7 @@
     "description": "https://raw.githubusercontent.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script/refs/heads/main/README.md",
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script",
-    "latest-version": "v2.0.0",
+    "latest-version": "v2.0.1",
     "popularity": 9352,
     "trend": 979,
     "licenses": [
@@ -7005,6 +7005,16 @@
           {
             "path": "{pluginsDir}/MotionBlur_K/MotionBlur_K.aux2",
             "XXH3_128": "fb066685c9ff3cdc2c1979987088fcab"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.1",
+        "release_date": "2026-09-01",
+        "file": [
+          {
+            "path": "{pluginsDir}/MotionBlur_K/MotionBlur_K.aux2",
+            "XXH3_128": "483ff7d1d24e61617ce07b7cc491a3cd"
           }
         ]
       }
@@ -32970,7 +32980,7 @@
     "author": "Nanashi.",
     "originalAuthor": "ティム",
     "repoURL": "https://github.com/sevenc-nanashi/ported_tim",
-    "latest-version": "0.2.0",
+    "latest-version": "0.2.1",
     "popularity": 3396,
     "trend": 877,
     "licenses": [
@@ -33265,6 +33275,40 @@
           {
             "path": "{scriptsDir}/tim2.mod2",
             "XXH3_128": "9a5630866bf4b629efd42e3571e2b1a5"
+          }
+        ]
+      },
+      {
+        "version": "0.2.1",
+        "release_date": "2026-09-01",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.ported_tim.aul2",
+            "XXH3_128": "0d30776e9e1fb98cce109f64a71cddf3"
+          },
+          {
+            "path": "{scriptsDir}/@tim.anm2.anm2",
+            "XXH3_128": "123abb841399141ca98737831172c98d"
+          },
+          {
+            "path": "{scriptsDir}/@tim.cam2.cam2",
+            "XXH3_128": "4b19f0ea8388a7f4a92e52e8092fe3e8"
+          },
+          {
+            "path": "{scriptsDir}/@tim.obj2.obj2",
+            "XXH3_128": "4c4d9f1442eb09f6c8eb2bdaac7ce8e8"
+          },
+          {
+            "path": "{scriptsDir}/@tim.scn2.scn2",
+            "XXH3_128": "464aef3c5435002dea2544f4301f7382"
+          },
+          {
+            "path": "{scriptsDir}/@tim.tra2.tra2",
+            "XXH3_128": "94625a151f513b13cb5a4cf6ff3d0342"
+          },
+          {
+            "path": "{scriptsDir}/tim2.mod2",
+            "XXH3_128": "2c8287e9f493d6ddeae6207b64d3a1b6"
           }
         ]
       }
