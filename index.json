@@ -37287,7 +37287,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/import_midi_tempos.aux2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/import_midi_tempos.aux2",
-    "latest-version": "0.2.0",
+    "latest-version": "0.3.0",
     "popularity": 229,
     "trend": 36,
     "licenses": [
@@ -37344,6 +37344,16 @@
           {
             "path": "{pluginsDir}/import_midi_tempos.aux2",
             "XXH3_128": "40ef65ff466a400267a3b7ffe071ff2b"
+          }
+        ]
+      },
+      {
+        "version": "0.3.0",
+        "release_date": "2026-09-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/import_midi_tempos.aux2",
+            "XXH3_128": "399fdff4466069efd7442c813346f702"
           }
         ]
       }
