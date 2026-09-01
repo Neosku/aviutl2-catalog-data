@@ -6860,7 +6860,7 @@
     "id": "korarei.ObjectMotionBlur_LK",
     "name": "MotionBlur_K",
     "type": "フィルタプラグイン",
-    "summary": "モーションブラーをかけるスクリプト",
+    "summary": "軽量モーションブラーエフェクト",
     "description": "https://raw.githubusercontent.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script/refs/heads/main/README.md",
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script",
@@ -6952,6 +6952,11 @@
           "action": "copy",
           "from": "{tmp}/Plugin/MotionBlur_K/THIRD_PARTY_LICENSES.md",
           "to": "{pluginsDir}/MotionBlur_K"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.MotionBlur_K.aul2",
+          "to": "{dataDir}/Language/Default.MotionBlur_K.aul2"
         }
       ],
       "uninstall": [
@@ -6974,6 +6979,10 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/MotionBlur_K/THIRD_PARTY_LICENSES.md"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.MotionBlur_K.aul2"
         }
       ]
     },
@@ -43761,7 +43770,7 @@
     "author": "夏猫",
     "originalAuthor": "oov",
     "repoURL": "https://github.com/natuneko722/TextBackgroundBalloonScript",
-    "latest-version": "v1.2.0",
+    "latest-version": "v1.2.1",
     "popularity": 232,
     "trend": 234,
     "licenses": [
@@ -43811,8 +43820,12 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Script/NNeko/吹き出し背景@テキスト.anm2",
-          "to": "{scriptsDir}/NNeko"
+          "from": "{tmp}/Script/NatuNeko/吹き出し背景@テキスト.anm2",
+          "to": "{scriptsDir}/NatuNeko"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/NNeko/吹き出し背景@テキスト.anm2"
         },
         {
           "action": "delete",
@@ -43820,6 +43833,10 @@
         }
       ],
       "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/NatuNeko/吹き出し背景@テキスト.anm2"
+        },
         {
           "action": "delete",
           "path": "{scriptsDir}/NNeko/吹き出し背景@テキスト.anm2"
@@ -43858,6 +43875,16 @@
           {
             "path": "{scriptsDir}/NNeko/吹き出し背景@テキスト.anm2",
             "XXH3_128": "ef7663a7473906f8734b6cf84aa106bc"
+          }
+        ]
+      },
+      {
+        "version": "v1.2.1",
+        "release_date": "2026-09-01",
+        "file": [
+          {
+            "path": "{scriptsDir}/NatuNeko/吹き出し背景@テキスト.anm2",
+            "XXH3_128": "e8b914279191e32db886c814df41053c"
           }
         ]
       }
