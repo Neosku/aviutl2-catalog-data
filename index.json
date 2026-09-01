@@ -40594,7 +40594,7 @@
         "github": {
           "owner": "natuneko722",
           "repo": "OCRTextExtractorPlugin",
-          "pattern": "^OCRTextExtractorPlugin_v[0-9]+\\.[0-9]+\\.[0-9]+\\.au2pkg\\.zip$"
+          "pattern": "^OCRTextExtractorPlugin_v.*\\.zip$"
         }
       },
       "install": [
@@ -40606,27 +40606,11 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Plugin/NatuNeko/OCRTextExtractorPlugin.aux2",
-          "to": "{pluginsDir}/NatuNeko"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/NNeko/OCRTextExtractorPlugin.aux2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/OCRTextExtractorPlugin.aux2"
+          "from": "{tmp}/OCRTextExtractorPlugin.aux2",
+          "to": "{pluginsDir}"
         }
       ],
       "uninstall": [
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/NatuNeko/OCRTextExtractorPlugin.aux2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/NNeko/OCRTextExtractorPlugin.aux2"
-        },
         {
           "action": "delete",
           "path": "{pluginsDir}/OCRTextExtractorPlugin.aux2"
@@ -40669,7 +40653,7 @@
         "release_date": "2026-08-31",
         "file": [
           {
-            "path": "{pluginsDir}/NatuNeko/OCRTextExtractorPlugin.aux2",
+            "path": "{pluginsDir}/OCRTextExtractorPlugin.aux2",
             "XXH3_128": "ab258e5ef7f6159dae39f82b0bd2f6c7"
           }
         ]
@@ -43986,6 +43970,14 @@
       },
       "install": [
         {
+          "action": "delete",
+          "path": "{pluginsDir}/NNeko/FrameCapturePlugin.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/FrameCapturePlugin.aux2"
+        },
+        {
           "action": "download"
         },
         {
@@ -43995,14 +43987,6 @@
           "action": "copy",
           "from": "{tmp}/Plugin/NatuNeko/FrameCapturePlugin.aux2",
           "to": "{pluginsDir}/NatuNeko"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/NNeko/FrameCapturePlugin.aux2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/FrameCapturePlugin.aux2"
         }
       ],
       "uninstall": [
@@ -45148,6 +45132,90 @@
           {
             "path": "{pluginsDir}/MMD/MMDAnimationStudio.aux2",
             "XXH3_128": "4a76613283b7c183d9cb30d3b07b0dc2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yh2237.AviUtl2-MCP",
+    "name": "AviUtl2 MCP",
+    "type": "汎用プラグイン",
+    "summary": "AviUtl2をMCPから操作するためのサーバー",
+    "description": "https://raw.githubusercontent.com/yh2237/AviUtl2-MCP/refs/heads/main/docs/CATALOG.md",
+    "author": "yh",
+    "repoURL": "https://github.com/yh2237/AviUtl2-MCP",
+    "latest-version": "v0.0.3",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "yh"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "AI",
+      "MCP"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "yh2237",
+          "repo": "AviUtl2-MCP",
+          "pattern": "^AviUtl2-MCP-\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/AviUtl2-MCP/aviutl2-mcp-bridge.aux2",
+          "to": "{pluginsDir}/AviUtl2-MCP"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/AviUtl2-MCP/aviutl2-mcp.exe",
+          "to": "{pluginsDir}/AviUtl2-MCP"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/AviUtl2-MCP/aviutl2-mcp-bridge.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/AviUtl2-MCP/aviutl2-mcp.exe"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.0.3",
+        "release_date": "2026-08-31",
+        "file": [
+          {
+            "path": "{pluginsDir}/AviUtl2-MCP/aviutl2-mcp-bridge.aux2",
+            "XXH3_128": "8baa3ddced905bcc0d73e480cb541d7d"
+          },
+          {
+            "path": "{pluginsDir}/AviUtl2-MCP/aviutl2-mcp.exe",
+            "XXH3_128": "4ef025ae5c992d227babd15f96c60ecf"
           }
         ]
       }
