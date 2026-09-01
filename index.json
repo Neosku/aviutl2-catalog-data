@@ -40647,10 +40647,14 @@
         "github": {
           "owner": "natuneko722",
           "repo": "OCRTextExtractorPlugin",
-          "pattern": "^OCRTextExtractorPlugin_v.*\\.zip$"
+          "pattern": "^OCRTextExtractorPlugin_v[0-9]+\\.[0-9]+\\.[0-9]+\\.au2pkg\\.zip$"
         }
       },
       "install": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/OCRTextExtractorPlugin.aux2"
+        },
         {
           "action": "download"
         },
@@ -40659,14 +40663,18 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/OCRTextExtractorPlugin.aux2",
-          "to": "{pluginsDir}"
+          "from": "{tmp}/Plugin/NatuNeko/OCRTextExtractorPlugin.aux2",
+          "to": "{pluginsDir}/NatuNeko"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/OCRTextExtractorPlugin.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/NatuNeko/OCRTextExtractorPlugin.aux2"
         }
       ]
     },
@@ -40706,7 +40714,7 @@
         "release_date": "2026-08-31",
         "file": [
           {
-            "path": "{pluginsDir}/OCRTextExtractorPlugin.aux2",
+            "path": "{pluginsDir}/NatuNeko/OCRTextExtractorPlugin.aux2",
             "XXH3_128": "ab258e5ef7f6159dae39f82b0bd2f6c7"
           }
         ]
