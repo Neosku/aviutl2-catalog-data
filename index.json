@@ -44017,7 +44017,7 @@
     "description": "https://raw.githubusercontent.com/natuneko722/FrameCapturePlugin/main/README.md",
     "author": "夏猫",
     "repoURL": "https://github.com/natuneko722/FrameCapturePlugin",
-    "latest-version": "v1.1.0",
+    "latest-version": "v1.2.0",
     "popularity": 80,
     "trend": 80,
     "licenses": [
@@ -44049,6 +44049,14 @@
       },
       "install": [
         {
+          "action": "delete",
+          "path": "{pluginsDir}/NNeko/FrameCapturePlugin.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/FrameCapturePlugin.aux2"
+        },
+        {
           "action": "download"
         },
         {
@@ -44056,15 +44064,15 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Plugin/NNeko/FrameCapturePlugin.aux2",
-          "to": "{pluginsDir}/NNeko"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/FrameCapturePlugin.aux2"
+          "from": "{tmp}/Plugin/NatuNeko/FrameCapturePlugin.aux2",
+          "to": "{pluginsDir}/NatuNeko"
         }
       ],
       "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/NatuNeko/FrameCapturePlugin.aux2"
+        },
         {
           "action": "delete",
           "path": "{pluginsDir}/NNeko/FrameCapturePlugin.aux2"
@@ -44103,6 +44111,16 @@
           {
             "path": "{pluginsDir}/NNeko/FrameCapturePlugin.aux2",
             "XXH3_128": "5f541ddb5d6df398ba5d2e6fd84edff5"
+          }
+        ]
+      },
+      {
+        "version": "v1.2.0",
+        "release_date": "2026-08-31",
+        "file": [
+          {
+            "path": "{pluginsDir}/NatuNeko/FrameCapturePlugin.aux2",
+            "XXH3_128": "a7b070769502f3329feff75703ee4ce9"
           }
         ]
       }
