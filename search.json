@@ -3498,15 +3498,15 @@
     "checkType": {
       "type": "GitHub",
       "repo": "natuneko722/OCRTextExtractorPlugin",
-      "regex": "^OCRTextExtractorPlugin_v.*\\.zip$",
+      "regex": "^OCRTextExtractorPlugin_v[0-9]+\\.[0-9]+\\.[0-9]+\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
           "paths": [
-            "OCRTextExtractorPlugin.aux2"
+            "Plugin/NatuNeko/OCRTextExtractorPlugin.aux2"
           ],
           "recordPaths": [
-            "{pluginsDir}/OCRTextExtractorPlugin.aux2"
+            "{pluginsDir}/NatuNeko/OCRTextExtractorPlugin.aux2"
           ]
         }
       ]
@@ -3963,7 +3963,7 @@
   },
   {
     "id": "natuneko722.text-background-balloon-script",
-    "latest-version": "v1.2.0",
+    "latest-version": "v1.2.1",
     "checkType": {
       "type": "GitHub",
       "repo": "natuneko722/TextBackgroundBalloonScript",
@@ -3972,10 +3972,10 @@
         {
           "extract": "zip",
           "paths": [
-            "Script/NNeko/吹き出し背景@テキスト.anm2"
+            "Script/NatuNeko/吹き出し背景@テキスト.anm2"
           ],
           "recordPaths": [
-            "{scriptsDir}/NNeko/吹き出し背景@テキスト.anm2"
+            "{scriptsDir}/NatuNeko/吹き出し背景@テキスト.anm2"
           ]
         }
       ]
@@ -4005,7 +4005,7 @@
   },
   {
     "id": "natuneko722.FrameCapturePlugin",
-    "latest-version": "v1.1.0",
+    "latest-version": "v1.2.0",
     "checkType": {
       "type": "GitHub",
       "repo": "natuneko722/FrameCapturePlugin",
@@ -4014,10 +4014,10 @@
         {
           "extract": "zip",
           "paths": [
-            "Plugin/NNeko/FrameCapturePlugin.aux2"
+            "Plugin/NatuNeko/FrameCapturePlugin.aux2"
           ],
           "recordPaths": [
-            "{pluginsDir}/NNeko/FrameCapturePlugin.aux2"
+            "{pluginsDir}/NatuNeko/FrameCapturePlugin.aux2"
           ]
         }
       ]
