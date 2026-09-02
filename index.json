@@ -41848,7 +41848,7 @@
     "description": "./md/nctype.AutoBlendLight.md",
     "author": "nctype",
     "repoURL": "https://github.com/nctype/aviutl2_script_AutoBlendLight",
-    "latest-version": "v1.3.1",
+    "latest-version": "v1.3.2",
     "popularity": 634,
     "trend": 599,
     "licenses": [
@@ -41972,6 +41972,16 @@
           {
             "path": "{scriptsDir}/AutoBlendLight/AutoBlendLight.anm2",
             "XXH3_128": "da40086f14ad80acd0c6f1e4dffdb0a0"
+          }
+        ]
+      },
+      {
+        "version": "v1.3.2",
+        "release_date": "2026-09-02",
+        "file": [
+          {
+            "path": "{scriptsDir}/AutoBlendLight/AutoBlendLight.anm2",
+            "XXH3_128": "b0c01ed12a65120ab50644a6c6a3054a"
           }
         ]
       }
