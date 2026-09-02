@@ -45356,5 +45356,72 @@
         ]
       }
     ]
+  },
+  {
+    "id": "OverPulse.Delayed_Shuffle",
+    "name": "TA-Delayシャッフル",
+    "type": "スクリプト",
+    "summary": "テキストを1文字ずつ変化させながら登場させます",
+    "description": "./md/OverPulse.Delayed_Shuffle.md",
+    "author": "OverPulse",
+    "repoURL": "https://overpulse.booth.pm/items/8795713",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "Unlicense",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "アニメーション",
+      "ディレイ",
+      "テキスト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/OverPulse.Delayed_Shuffle_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/9577778"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/TA-Delayシャッフルv1.0/TA-Delayシャッフル.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/TA-Delayシャッフル.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-09-02",
+        "file": [
+          {
+            "path": "{scriptsDir}/TA-Delayシャッフル.anm2",
+            "XXH3_128": "63a817a3cc26bd20d56a439c5e6fc17d"
+          }
+        ]
+      }
+    ]
   }
 ]
