@@ -41864,8 +41864,8 @@
     "id": "nctype.AutoBlendLight",
     "name": "AutoBlendLight",
     "type": "スクリプト",
-    "summary": "自動背景なじませスクリプト",
-    "description": "./md/nctype.AutoBlendLight.md",
+    "summary": "自動ライティング・背景馴染ませスクリプト",
+    "description": "https://raw.githubusercontent.com/nctype/aviutl2_script_AutoBlendLight/main/README.md",
     "author": "nctype",
     "repoURL": "https://github.com/nctype/aviutl2_script_AutoBlendLight",
     "latest-version": "v1.3.2",
@@ -41921,11 +41921,6 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Script/AutoBlendLight/README.md",
-          "to": "{scriptsDir}/AutoBlendLight"
-        },
-        {
-          "action": "copy",
           "from": "{tmp}/Language/English.AutoBlendLight.aul2",
           "to": "{dataDir}/Language"
         },
@@ -41939,10 +41934,6 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/AutoBlendLight/AutoBlendLight.anm2"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/AutoBlendLight/README.md"
         },
         {
           "action": "delete",
