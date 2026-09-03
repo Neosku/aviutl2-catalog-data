@@ -45154,7 +45154,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/MMDAnimationStudio/refs/heads/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/MMDAnimationStudio/",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 47,
     "trend": 52,
     "licenses": [
@@ -45292,6 +45292,16 @@
           {
             "path": "{pluginsDir}/MMD/MMDAnimationStudio.aux2",
             "XXH3_128": "4a76613283b7c183d9cb30d3b07b0dc2"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-09-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/MMD/MMDAnimationStudio.aux2",
+            "XXH3_128": "2eece476c391ec610768e8cd85c50f10"
           }
         ]
       }
