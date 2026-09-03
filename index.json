@@ -45150,24 +45150,19 @@
     "id": "VRAMWIZ.MMDAnimationStudio",
     "name": "MMDアニメーションスタジオ",
     "type": "汎用プラグイン",
-    "summary": "MMDモデルの表示・ポーズ・表情・セリフ連携を統合するプラグイン",
+    "summary": "MMDモデルアクセサリの表示とポーズ表情モーションセリフ連携プラグイン",
     "description": "https://raw.githubusercontent.com/vramwiz/MMDAnimationStudio/refs/heads/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/MMDAnimationStudio/",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 47,
     "trend": 52,
     "licenses": [
       {
-        "type": "MIT",
-        "isCustom": false,
-        "copyrights": [
-          {
-            "years": "2026",
-            "holder": "VRAMの魔術師"
-          }
-        ],
-        "licenseBody": null
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "本ソフトウェアは無償で使用・改変・再配布・商用利用が可能です。\n\n再配布する場合は、原作者「VRAMの魔術師」のクレジットを明記してください。\n改変版を配布する場合も同様に原作者名を表示してください。\n\n本ソフトウェアは現状のまま提供され、いかなる保証もありません。\n本ソフトウェアの使用によって生じたいかなる損害についても、\n作者は一切の責任を負いません。"
       }
     ],
     "tags": [
@@ -45176,6 +45171,8 @@
       "アニメーション",
       "ポーズ",
       "表情",
+      "モーション",
+      "アクセサリ",
       "セリフ"
     ],
     "dependencies": [],
@@ -45211,8 +45208,16 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Plugin/MMD_Pose_Filter.auf2",
+          "from": "{tmp}/Plugin/MMD_Accessory_Filter.auf2",
           "to": "{pluginsDir}/MMD"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/MMD/MMD_Pose_Filter.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/MMD/MMD_Motion_Filter.auf2"
         },
         {
           "action": "copy",
@@ -45256,7 +45261,15 @@
         },
         {
           "action": "delete",
+          "path": "{pluginsDir}/MMD/MMD_Accessory_Filter.auf2"
+        },
+        {
+          "action": "delete",
           "path": "{pluginsDir}/MMD/MMD_Pose_Filter.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/MMD/MMD_Motion_Filter.auf2"
         },
         {
           "action": "delete",
@@ -45281,6 +45294,14 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/MMD/MMD_Module.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/MMD"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/MMD"
         }
       ]
     },
@@ -45292,6 +45313,16 @@
           {
             "path": "{pluginsDir}/MMD/MMDAnimationStudio.aux2",
             "XXH3_128": "4a76613283b7c183d9cb30d3b07b0dc2"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-09-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/MMD/MMDAnimationStudio.aux2",
+            "XXH3_128": "2eece476c391ec610768e8cd85c50f10"
           }
         ]
       }
