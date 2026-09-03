@@ -3142,7 +3142,7 @@
     "description": "./md/rigaya.svtAV1guiEx.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/svtAV1guiEx",
-    "latest-version": "2.14",
+    "latest-version": "2.15",
     "popularity": 557,
     "trend": 156,
     "licenses": [
@@ -3376,6 +3376,16 @@
           {
             "path": "{pluginsDir}/svtAV1guiEx.auo2",
             "XXH3_128": "0b1a24b631e4cac58938f7e272845d11"
+          }
+        ]
+      },
+      {
+        "version": "2.15",
+        "release_date": "2026-09-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/svtAV1guiEx.auo2",
+            "XXH3_128": "4acf04caef7c46f6b9b654abfa662fee"
           }
         ]
       }
