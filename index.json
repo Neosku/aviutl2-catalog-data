@@ -39349,7 +39349,7 @@
     "description": "https://raw.githubusercontent.com/Amai-28ftb/DTMer-Starter-Kit-for-AviUtl2/refs/heads/main/README.md",
     "author": "甘井ふたば",
     "repoURL": "https://tourmaline-rock-7c0.notion.site/DTMerStarterKit-Wiki-AviUtl2-300bea655f64804d975fea11976ad85c",
-    "latest-version": "Beta1.0.4",
+    "latest-version": "Beta1.0.5",
     "popularity": 1180,
     "trend": 332,
     "licenses": [
@@ -39469,6 +39469,32 @@
           {
             "path": "{scriptsDir}/DTMerStarterKit/MIDI_for_AviUtl.lua",
             "XXH3_128": "7fd6e1f4577a79d6482463af8a8de41f"
+          }
+        ]
+      },
+      {
+        "version": "Beta1.0.5",
+        "release_date": "2026-09-06",
+        "file": [
+          {
+            "path": "{scriptsDir}/DTMerStarterKit/@DTMer Starter Kit.obj2",
+            "XXH3_128": "e1edc7e3879f6fe75906c330b61f3dea"
+          },
+          {
+            "path": "{scriptsDir}/DTMerStarterKit/@DTMer Starter Kit.anm2",
+            "XXH3_128": "d9f6f8197e914e8f4fdafc68f9dc73f9"
+          },
+          {
+            "path": "{scriptsDir}/DTMerStarterKit/@DTMer Starter Kit.tra2",
+            "XXH3_128": "c73e9b8dd9baecbbac5b2672b44c55cc"
+          },
+          {
+            "path": "{scriptsDir}/DTMerStarterKit/chord_config.lua",
+            "XXH3_128": "8e9ae95d6aaea372ab00a8b02e9e25c4"
+          },
+          {
+            "path": "{scriptsDir}/DTMerStarterKit/MIDI_for_AviUtl.lua",
+            "XXH3_128": "9b25b630f2087db105bbff4fd7a0fe29"
           }
         ]
       }
