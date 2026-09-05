@@ -45578,5 +45578,78 @@
         ]
       }
     ]
+  },
+  {
+    "id": "KYU.InterpolationObject",
+    "name": "InterpolationObject",
+    "type": "フィルタプラグイン",
+    "summary": "直前・直後のオブジェクトの画像と値を補間して描画",
+    "description": "https://raw.githubusercontent.com/KYU49/InterpolationObject/refs/heads/main/README.md",
+    "author": "KYU",
+    "repoURL": "https://github.com/KYU49/InterpolationObject",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "Apache-2.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "KYU @ https://ejapon.icu"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "アニメーション",
+      "イージング",
+      "オブジェクト操作"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/KYU.InterpolationObject_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "KYU49",
+          "repo": "InterpolationObject",
+          "pattern": "InterpolationObject.auf2"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/InterpolationObject.auf2",
+          "to": "{pluginsDir}/InterpolationObject/"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/InterpolationObject"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-09-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/InterpolationObject/InterpolationObject.auf2",
+            "XXH3_128": "2bad97b168f5f6853d53a4799b6c2902"
+          }
+        ]
+      }
+    ]
   }
 ]
