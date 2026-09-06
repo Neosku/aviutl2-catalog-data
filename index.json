@@ -45857,5 +45857,74 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Amai_28ftb.AULReceptor",
+    "name": "AUL Receptor",
+    "type": "スクリプト",
+    "summary": "DTMer Starter Kit にイージングを適用させるもの",
+    "description": "https://raw.githubusercontent.com/Amai-28ftb/AUL-Receptor/refs/heads/main/README.md",
+    "author": "甘井ふたば",
+    "repoURL": "https://tourmaline-rock-7c0.notion.site/AUL-Receptor-315bea655f6482cdb2020104ad22b068",
+    "latest-version": "Beta1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "MIDI",
+      "イージング",
+      "カスタムオブジェクト"
+    ],
+    "dependencies": [
+      "Amai_28ftb.DTMerStarterKit"
+    ],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Amai-28ftb",
+          "repo": "AUL-Receptor",
+          "pattern": "^AULReceptor.au2pkg.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@AUL Receptor.obj2",
+          "to": "{scriptsDir}/DTMerStarterKit"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/DTMerStarterKit/@AUL Receptor.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "Beta1.0.0",
+        "release_date": "2026-09-06",
+        "file": [
+          {
+            "path": "{scriptsDir}/DTMerStarterKit/@AUL Receptor.obj2",
+            "XXH3_128": "f510a636a843617aa2fad43c0ee942a3"
+          }
+        ]
+      }
+    ]
   }
 ]
