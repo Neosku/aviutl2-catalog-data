@@ -4205,5 +4205,106 @@
         }
       ]
     }
+  },
+  {
+    "id": "InuyoshiAtom.ColorLink",
+    "latest-version": "V1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "InuyoshiAtom/aviutl2-colorlink",
+      "regex": "^ColorLink-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/ColorLink/カラーマスター.obj2",
+            "Script/ColorLink/カラーリンク.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ColorLink/カラーマスター.obj2",
+            "{scriptsDir}/ColorLink/カラーリンク.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KYU.InterpolationObject",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "KYU49/InterpolationObject",
+      "regex": "InterpolationObject.auf2",
+      "hash-calc": [
+        {
+          "paths": [
+            "InterpolationObject.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/InterpolationObject/InterpolationObject.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Amai_28ftb.AULReceptor",
+    "latest-version": "Beta1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Amai-28ftb/AUL-Receptor",
+      "regex": "^AULReceptor.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@AUL Receptor.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/DTMerStarterKit/@AUL Receptor.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_ScreenLayout",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_ScreenLayout",
+      "regex": "^SYNC_ScreenLayout\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_ScreenLayout/SYNC_ScreenLayout_Filter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_ScreenLayout/SYNC_ScreenLayout_Filter.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "animeojisan.AI_S-R_ONNX",
+    "latest-version": "v1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "animeojisan/AI-S-R-ONNX",
+      "regex": "^AI_S-R_ONNX.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "AI_S-R_ONNX.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}\\AI_S-R_ONNX.auf2"
+          ]
+        }
+      ]
+    }
   }
 ]
