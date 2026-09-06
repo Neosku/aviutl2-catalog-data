@@ -463,7 +463,7 @@
   },
   {
     "id": "sigma-axis.Tile_S",
-    "latest-version": "v1.30",
+    "latest-version": "v1.32",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_Tile_S",
@@ -563,7 +563,7 @@
   },
   {
     "id": "sigma-axis.GroundShadow2_S",
-    "latest-version": "v1.31",
+    "latest-version": "v1.32",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_GroundShadow2_S",
@@ -1421,7 +1421,7 @@
   },
   {
     "id": "hebiiro.al2_ui_dressing",
-    "latest-version": "r7",
+    "latest-version": "r9",
     "checkType": {
       "type": "GitHub",
       "repo": "hebiiro/al2_ui_dressing",
@@ -4166,7 +4166,7 @@
   },
   {
     "id": "VRAMWIZ.MMDAnimationStudio",
-    "latest-version": "v1.0.2",
+    "latest-version": "v1.0.3",
     "checkType": {
       "type": "GitHub",
       "repo": "vramwiz/MMDAnimationStudio",

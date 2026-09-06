@@ -7224,7 +7224,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Tile_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Tile_S",
-    "latest-version": "v1.30",
+    "latest-version": "v1.32",
     "popularity": 2494,
     "trend": 220,
     "licenses": [
@@ -7409,6 +7409,16 @@
           {
             "path": "{scriptsDir}/@Tile_S.obj2",
             "XXH3_128": "f0b04503b8b1d2a25aee6a17700756c7"
+          }
+        ]
+      },
+      {
+        "version": "v1.32",
+        "release_date": "2026-09-06",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Tile_S.obj2",
+            "XXH3_128": "a33fbcc9e17765295a5d445d7550cae4"
           }
         ]
       }
@@ -8164,7 +8174,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_GroundShadow2_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S",
-    "latest-version": "v1.31",
+    "latest-version": "v1.32",
     "popularity": 2740,
     "trend": 256,
     "licenses": [
@@ -8347,6 +8357,16 @@
           {
             "path": "{scriptsDir}/GroundShadow2_S.anm2",
             "XXH3_128": "d1284e83860a8a0eafa261033fa11856"
+          }
+        ]
+      },
+      {
+        "version": "v1.32",
+        "release_date": "2026-09-06",
+        "file": [
+          {
+            "path": "{scriptsDir}/GroundShadow2_S.anm2",
+            "XXH3_128": "d556b128d6636c92621eb95a6c8feaaf"
           }
         ]
       }
@@ -22280,7 +22300,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_ui_dressing/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_ui_dressing",
-    "latest-version": "r7",
+    "latest-version": "r9",
     "popularity": 3312,
     "trend": 853,
     "licenses": [
@@ -22422,6 +22442,26 @@
           {
             "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
             "XXH3_128": "ebc9598ee3d36ecc7968221892e3af96"
+          }
+        ]
+      },
+      {
+        "version": "r8",
+        "release_date": "2026-09-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
+            "XXH3_128": "57194c159cd985f077738e919c9bfd9f"
+          }
+        ]
+      },
+      {
+        "version": "r9",
+        "release_date": "2026-09-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
+            "XXH3_128": "3fbef7c3096ebebaf8baa1ca156a75cf"
           }
         ]
       }
@@ -39547,7 +39587,7 @@
         "type": "カスタムライセンス",
         "isCustom": true,
         "copyrights": [],
-        "licenseBody": "## 規約的な何か\n- 感染性ライセンスが嫌いなので、特定のライセンスは設けていません。\n- Script使用した動画の親登録は任意です。親登録通知が来た動画は全て見に行ってますが、しなくてもOKです。\n- 私が配布先を全て削除し、失踪した場合は再配布を認めます。\n- フォーク版の作成を認めます。条件は以下の通りです。以下の条件が守られている場合、事前連絡は無くても構いません。\n  - ファイル名は元となった Script と被らない様にお願い致します。被らなければファイル名は自由です。もし名前を引き継ぐ場合は『@DTMer Starter Kit_by〇〇フォーク版.obj2』の様に完全一致にならない様にしてください。\n  - ニコニコ動画への投稿を必須とします。その際、私が把握するため親登録をお願いします。クリエイター奨励プログラムはして頂いて構いません(親登録によってクリ奨の収益が減ることはありません)。\n  - Youtube への投稿は任意です。投稿の際に動画説明欄にて『@Amai_28ftb』とメンションして頂けると通知が届くので、視聴させて頂きます。こちらも同様に収益化して頂いて構いません。\n  - その他 SNS への投稿は自由です。リプで『@Amai_28ftb』とメンションして頂くか、DM を頂ければ RT させて頂きます。こちらも同様に収益化して頂いて構いません。\n  - 動画説明欄、もしくはチャンネルの概要欄からSNSへ飛べるリンクの記載をお願いします。何かあったらこちらから連絡をする為です。SNSに関してはDMが解放されていない場合、リプで連絡致します。\n- 『MIDI_for_AviUtl.lua』と『chord_config.lua』を使用した Script を自由に作成・配布して頂いて構いません。\n - 配布時に『MIDI_for_AviUtl.lua』や『chord_config.lua』を同梱するのはご遠慮ください。アップデートや重複時のエラーを避けるためです。\n - 『MIDI_for_AviUtl.lua』や『chord_config.lua』の中身改変ファイルを同梱したい場合はTwitter(現X)へ連絡をお願い致します。DMが送れない場合は私が一時的にフォロー致しますので、そこからDMをお願いします。\n  - 詳しい連絡先は下記をご覧ください。"
+        "licenseBody": "## 規約的な何か\n- 感染性ライセンスが嫌いなので、特定のライセンスは設けていません。\n- Script使用した動画の親登録は任意です。親登録通知が来た動画は全て見に行ってますが、しなくてもOKです。\n- 私が配布先を全て削除し、失踪した場合は再配布を認めます。\n- フォーク版の作成を認めます。条件は以下の通りです。以下の条件が守られている場合、事前連絡は無くても構いません。\n  - ファイル名は元となった Script と被らない様にお願い致します。被らなければファイル名は自由です。もし名前を引き継ぐ場合は『@DTMer Starter Kit_by〇〇フォーク版.obj2』の様に完全一致にならない様にしてください。\n  - ニコニコ動画への投稿を必須とします。その際、私が把握するため親登録をお願いします。クリエイター奨励プログラムはして頂いて構いません(親登録によってクリ奨の収益が減ることはありません)。\n  - Youtube への投稿は任意です。投稿の際に動画説明欄にて『@Amai_28ftb』とメンションして頂けると通知が届くので、視聴させて頂きます。こちらも同様に収益化して頂いて構いません。\n  - その他 SNS への投稿は自由です。リプで『@Amai_28ftb』とメンションして頂くか、DM を頂ければ RT させて頂きます。こちらも同様に収益化して頂いて構いません。\n  - 動画説明欄、もしくはチャンネルの概要欄からSNSへ飛べるリンクの記載をお願いします。何かあったらこちらから連絡をする為です。SNSに関してはDMが解放されていない場合、リプで連絡致します。\n- 『MIDI_for_AviUtl.lua』と『chord_config.lua』を使用した Script を自由に作成・配布して頂いて構いません。\n - 配布時に『MIDI_for_AviUtl.lua』や『chord_config.lua』を同梱するのはご遠慮ください。アップデートや重複時のエラーを避けるためです。\n - 『MIDI_for_AviUtl.lua』や『chord_config.lua』の中身改変ファイルを同梱したい場合はTwitter(現X)へ連絡をお願い致します。DMが送れない場合は私が一時的にフォロー致しますので、そこからDMをお願いします。"
       }
     ],
     "niconiCommonsId": "sm45949170",
@@ -45405,7 +45445,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/MMDAnimationStudio/refs/heads/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/MMDAnimationStudio/",
-    "latest-version": "v1.0.2",
+    "latest-version": "v1.0.3",
     "popularity": 59,
     "trend": 69,
     "licenses": [
@@ -45580,6 +45620,16 @@
       {
         "version": "v1.0.2",
         "release_date": "2026-09-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/MMD/MMDAnimationStudio.aux2",
+            "XXH3_128": "1c6945a99cd4f16cb03066ab0c406520"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.3",
+        "release_date": "2026-09-06",
         "file": [
           {
             "path": "{pluginsDir}/MMD/MMDAnimationStudio.aux2",
@@ -45893,6 +45943,75 @@
           {
             "path": "{pluginsDir}/InterpolationObject/InterpolationObject.auf2",
             "XXH3_128": "2bad97b168f5f6853d53a4799b6c2902"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Amai_28ftb.AULReceptor",
+    "name": "AUL Receptor",
+    "type": "スクリプト",
+    "summary": "DTMer Starter Kit にイージングを適用させるもの",
+    "description": "https://raw.githubusercontent.com/Amai-28ftb/AUL-Receptor/refs/heads/main/README.md",
+    "author": "甘井ふたば",
+    "repoURL": "https://tourmaline-rock-7c0.notion.site/AUL-Receptor-315bea655f6482cdb2020104ad22b068",
+    "latest-version": "Beta1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "## 規約的な何か\n- 感染性ライセンスが嫌いなので、特定のライセンスは設けていません。\n- Script使用した動画の親登録は任意です。親登録通知が来た動画は全て見に行ってますが、しなくてもOKです。\n- 私が配布先を全て削除し、失踪した場合は再配布を認めます。\n- フォーク版の作成を認めます。条件は以下の通りです。以下の条件が守られている場合、事前連絡は無くても構いません。\n  - ファイル名は元となった Script と被らない様にお願い致します。被らなければファイル名は自由です。もし名前を引き継ぐ場合は『@AUL Receptor_by〇〇フォーク版.obj2』の様に完全一致にならない様にしてください。\n    - 上書き保存で相互に動作保証される互換性があるならば同名でOKです"
+      }
+    ],
+    "tags": [
+      "MIDI",
+      "イージング",
+      "カスタムオブジェクト"
+    ],
+    "dependencies": [
+      "Amai_28ftb.DTMerStarterKit"
+    ],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Amai-28ftb",
+          "repo": "AUL-Receptor",
+          "pattern": "^AULReceptor.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@AUL Receptor.obj2",
+          "to": "{scriptsDir}/DTMerStarterKit"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/DTMerStarterKit/@AUL Receptor.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "Beta1.0.0",
+        "release_date": "2026-09-06",
+        "file": [
+          {
+            "path": "{scriptsDir}/DTMerStarterKit/@AUL Receptor.obj2",
+            "XXH3_128": "f510a636a843617aa2fad43c0ee942a3"
           }
         ]
       }
