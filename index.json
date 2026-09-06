@@ -46016,5 +46016,172 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_ScreenLayout",
+    "name": "画面レイアウト",
+    "type": "汎用プラグイン",
+    "summary": "画面レイアウトを作成・編集",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_ScreenLayout/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_ScreenLayout/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "レイアウト",
+      "図形"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_ScreenLayout_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_ScreenLayout",
+          "pattern": "^SYNC_ScreenLayout\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_ScreenLayout",
+          "to": "{pluginsDir}/SYNC_ScreenLayout"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_ScreenLayout"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-09-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_ScreenLayout/SYNC_ScreenLayout_Filter.auf2",
+            "XXH3_128": "3c5e34830c2ea2e756622410f0bf2219"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "animeojisan.AI_S-R_ONNX",
+    "name": "AI S-R ONNX",
+    "type": "フィルタプラグイン",
+    "summary": "ONNX / WinML ベース AI 超解像フィルタプラグイン",
+    "description": "https://raw.githubusercontent.com/animeojisan/AI-S-R-ONNX/refs/heads/main/README.md",
+    "author": "animeojisan",
+    "repoURL": "https://github.com/animeojisan/AI-S-R-ONNX",
+    "latest-version": "v1.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "animeojisan"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "sm46131524",
+    "tags": [
+      "画質",
+      "加工",
+      "アップスケーリング",
+      "ONNX",
+      "拡大"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/animeojisan.AI_S-R_ONNX_thumbnail.jpg",
+        "infoImg": [
+          "./image/animeojisan.AI_S-R_ONNX_1.jpg"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "animeojisan",
+          "repo": "AI-S-R-ONNX",
+          "pattern": "^AI_S-R_ONNX.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/AI_S-R_ONNX.auf2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}\\AI_S-R_ONNX.auf2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-04-03",
+        "file": [
+          {
+            "path": "{pluginsDir}\\AI_S-R_ONNX.auf2",
+            "XXH3_128": "21f223a91c866e7ed561f302ef074a86"
+          }
+        ]
+      },
+      {
+        "version": "v1.1",
+        "release_date": "2026-04-09",
+        "file": [
+          {
+            "path": "{pluginsDir}\\AI_S-R_ONNX.auf2",
+            "XXH3_128": "db4be85242f0710da586a517f8ade104"
+          }
+        ]
+      }
+    ]
   }
 ]
