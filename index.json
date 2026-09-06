@@ -4319,16 +4319,6 @@
             "XXH3_128": "02d8fa91d635c8d70adb71a1fe99e3c0"
           }
         ]
-      },
-      {
-        "version": "r1283",
-        "release_date": "2026-09-06",
-        "file": [
-          {
-            "path": "{pluginsDir}/lwinput.aui2",
-            "XXH3_128": "7805058578bb54186f6fa940293fd960"
-          }
-        ]
       }
     ]
   },
@@ -6055,7 +6045,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Basic_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Basic_S",
-    "latest-version": "v2.88",
+    "latest-version": "v2.86",
     "popularity": 11343,
     "trend": 3038,
     "licenses": [
@@ -6619,16 +6609,6 @@
             "XXH3_128": "65ba2398697d59db93e821f88bd294f1"
           }
         ]
-      },
-      {
-        "version": "v2.88",
-        "release_date": "2026-09-06",
-        "file": [
-          {
-            "path": "{scriptsDir}/@Basic_S.anm2",
-            "XXH3_128": "7d173cad49db038cdf919dbfa5d2b132"
-          }
-        ]
       }
     ]
   },
@@ -6640,7 +6620,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Path_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Path_S/",
-    "latest-version": "v2.21",
+    "latest-version": "v2.12",
     "popularity": 4234,
     "trend": 1312,
     "licenses": [
@@ -6835,16 +6815,6 @@
           {
             "path": "{scriptsDir}/@Path_S.anm2",
             "XXH3_128": "4465e7a6de7ff6b759e578b4fa11f6da"
-          }
-        ]
-      },
-      {
-        "version": "v2.21",
-        "release_date": "2026-09-06",
-        "file": [
-          {
-            "path": "{scriptsDir}/@Path_S.anm2",
-            "XXH3_128": "091897e39d099076e94d60a512a50933"
           }
         ]
       }
@@ -32426,7 +32396,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_translations_sigma-axis/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_translations_sigma-axis",
-    "latest-version": "r52",
+    "latest-version": "r51",
     "popularity": 141,
     "trend": 71,
     "licenses": [
@@ -32824,16 +32794,6 @@
           {
             "path": "{dataDir}/Language/English.sigma-axis.aul2",
             "XXH3_128": "685221027559dfbd5b18c0cb892f4307"
-          }
-        ]
-      },
-      {
-        "version": "r52",
-        "release_date": "2026-09-06",
-        "file": [
-          {
-            "path": "{dataDir}/Language/English.sigma-axis.aul2",
-            "XXH3_128": "8d9d4973fa1d48eb744a81c0b6eccb07"
           }
         ]
       }
@@ -45893,6 +45853,82 @@
           {
             "path": "{pluginsDir}/InterpolationObject/InterpolationObject.auf2",
             "XXH3_128": "2bad97b168f5f6853d53a4799b6c2902"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_ScreenLayout",
+    "name": "画面レイアウト",
+    "type": "汎用プラグイン",
+    "summary": "画面レイアウトを作成・編集",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_ScreenLayout/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_ScreenLayout/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "レイアウト",
+      "デザイン",
+      "図形"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_ScreenLayout_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_ScreenLayout",
+          "pattern": "^SYNC_ScreenLayout\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_ScreenLayout",
+          "to": "{pluginsDir}/SYNC_ScreenLayout"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_ScreenLayout"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-09-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_ScreenLayout/SYNC_ScreenLayout_Filter.auf2",
+            "XXH3_128": "3c5e34830c2ea2e756622410f0bf2219"
           }
         ]
       }
