@@ -46016,5 +46016,80 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_ScreenLayout",
+    "name": "画面レイアウト",
+    "type": "汎用プラグイン",
+    "summary": "画面レイアウトを作成・編集",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_ScreenLayout/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_ScreenLayout/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "レイアウト",
+      "図形"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_ScreenLayout_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_ScreenLayout",
+          "pattern": "^SYNC_ScreenLayout\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_ScreenLayout",
+          "to": "{pluginsDir}/SYNC_ScreenLayout"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_ScreenLayout"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-09-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_ScreenLayout/SYNC_ScreenLayout_Filter.auf2",
+            "XXH3_128": "3c5e34830c2ea2e756622410f0bf2219"
+          }
+        ]
+      }
+    ]
   }
 ]
