@@ -523,7 +523,7 @@
   },
   {
     "id": "sigma-axis.PageRoll_S",
-    "latest-version": "v1.20-for-beta51",
+    "latest-version": "v1.21",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_PageRoll_S",
@@ -4208,7 +4208,7 @@
   },
   {
     "id": "InuyoshiAtom.ColorLink",
-    "latest-version": "V1.0.0",
+    "latest-version": "v1.0.0",
     "checkType": {
       "type": "GitHub",
       "repo": "InuyoshiAtom/aviutl2-colorlink",
@@ -4269,7 +4269,7 @@
   },
   {
     "id": "VRAMWIZ.SYNC_ScreenLayout",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "checkType": {
       "type": "GitHub",
       "repo": "vramwiz/SYNC_ScreenLayout",

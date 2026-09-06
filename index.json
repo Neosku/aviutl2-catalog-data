@@ -45755,7 +45755,7 @@
     "description": "./md/InuyoshiAtom.ColorLink.md",
     "author": "犬好アトム",
     "repoURL": "https://github.com/InuyoshiAtom/aviutl2-colorlink",
-    "latest-version": "V1.0.0",
+    "latest-version": "v1.0.0",
     "popularity": 38,
     "trend": 38,
     "licenses": [
@@ -45819,6 +45819,20 @@
       {
         "version": "V1.0.0",
         "release_date": "2026-09-04",
+        "file": [
+          {
+            "path": "{scriptsDir}/ColorLink/カラーマスター.obj2",
+            "XXH3_128": "98eee8e794179cfa736f775030644e9e"
+          },
+          {
+            "path": "{scriptsDir}/ColorLink/カラーリンク.anm2",
+            "XXH3_128": "c5bdca45e2291eac34a03f8a9c3522c4"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-09-06",
         "file": [
           {
             "path": "{scriptsDir}/ColorLink/カラーマスター.obj2",
@@ -45982,7 +45996,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_ScreenLayout/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/SYNC_ScreenLayout/",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 0,
     "trend": 1,
     "licenses": [
@@ -46044,6 +46058,16 @@
           {
             "path": "{pluginsDir}/SYNC_ScreenLayout/SYNC_ScreenLayout_Filter.auf2",
             "XXH3_128": "3c5e34830c2ea2e756622410f0bf2219"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-09-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_ScreenLayout/SYNC_ScreenLayout_Filter.auf2",
+            "XXH3_128": "c6a5347e1a9b7476c64242c35208c58f"
           }
         ]
       }
