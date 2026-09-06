@@ -7224,7 +7224,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Tile_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Tile_S",
-    "latest-version": "v1.30",
+    "latest-version": "v1.32",
     "popularity": 2494,
     "trend": 220,
     "licenses": [
@@ -7409,6 +7409,16 @@
           {
             "path": "{scriptsDir}/@Tile_S.obj2",
             "XXH3_128": "f0b04503b8b1d2a25aee6a17700756c7"
+          }
+        ]
+      },
+      {
+        "version": "v1.32",
+        "release_date": "2026-09-06",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Tile_S.obj2",
+            "XXH3_128": "a33fbcc9e17765295a5d445d7550cae4"
           }
         ]
       }
