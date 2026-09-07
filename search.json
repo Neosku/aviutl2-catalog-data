@@ -4306,5 +4306,45 @@
         }
       ]
     }
+  },
+  {
+    "id": "Kanata844.MediaReplacer",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Kanata844/MediaReplacer",
+      "regex": "^MediaReplacer.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "MediaReplacer.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/MediaReplacer.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Kanata844.CustomToolbox",
+    "latest-version": "v1.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Kanata844/CustomToolbox",
+      "regex": "^CustomToolbox.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "CustomToolbox.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/CustomToolbox.aux2"
+          ]
+        }
+      ]
+    }
   }
 ]
