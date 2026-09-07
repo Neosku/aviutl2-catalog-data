@@ -34171,7 +34171,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Region_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Region_S",
-    "latest-version": "v1.01-for-beta50",
+    "latest-version": "v1.10",
     "popularity": 1414,
     "trend": 190,
     "licenses": [
@@ -34237,6 +34237,11 @@
           "action": "copy",
           "from": "{tmp}/Script/Region_S/README.md",
           "to": "{scriptsDir}/Region_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.Region_S.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -34250,7 +34255,15 @@
         },
         {
           "action": "delete",
-          "path": "{scriptsDir}/Region_S/"
+          "path": "{scriptsDir}/Region_S/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Region_S/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.Region_S.aul2"
         }
       ]
     },
@@ -34272,6 +34285,16 @@
           {
             "path": "{scriptsDir}/@Region_S.anm2",
             "XXH3_128": "cbbdb05672dd8f65920b003cc69eef42"
+          }
+        ]
+      },
+      {
+        "version": "v1.10",
+        "release_date": "2026-09-07",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Region_S.anm2",
+            "XXH3_128": "a81d2a4377e83fb44e08395c5e67d99e"
           }
         ]
       }
