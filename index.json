@@ -46428,5 +46428,75 @@
         ]
       }
     ]
+  },
+  {
+    "id": "yu7400ki.stabilizer",
+    "name": "手ブレ補正プラグイン",
+    "type": "フィルタプラグイン",
+    "summary": "手ブレ補正を行うプラグイン",
+    "description": "https://raw.githubusercontent.com/yu7400ki/aviutl2-stabilizer-plugin/refs/heads/main/README.md",
+    "author": "yu7400ki",
+    "repoURL": "https://github.com/yu7400ki/aviutl2-stabilizer-plugin",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "Yuki Natori"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "手ブレ補正"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "yu7400ki",
+          "repo": "aviutl2-stabilizer-plugin",
+          "pattern": "aviutl2-stabilizer-plugin-v(\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/stabilizer.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/stabilizer.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-08-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/stabilizer.aux2",
+            "XXH3_128": "0e01e9d123a3eacf3722c8cbe293fd1b"
+          }
+        ]
+      }
+    ]
   }
 ]
