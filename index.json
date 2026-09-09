@@ -5820,11 +5820,11 @@
     "id": "yu7400ki.anmImOutput-apng",
     "name": "APNG出力プラグイン",
     "type": "出力プラグイン",
-    "summary": "AviUtl ExEdit2で動画をアニメーション画像（APNG）として出力するプラグイン",
+    "summary": "動画をAPNGとして出力するプラグイン",
     "description": "./md/yu7400ki.anmImOutput-apng.md",
     "author": "yu7400ki",
     "repoURL": "https://yu7400ki.me/aviutl2-animated-image-output/",
-    "latest-version": "v1.1.2",
+    "latest-version": "v2.0.0",
     "popularity": 1720,
     "trend": 85,
     "licenses": [
@@ -5833,7 +5833,7 @@
         "isCustom": false,
         "copyrights": [
           {
-            "years": "2025",
+            "years": "2026",
             "holder": "Yuki Natori"
           }
         ],
@@ -5842,23 +5842,25 @@
     ],
     "tags": [],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "",
-        "infoImg": []
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
-        "direct": "https://github.com/yu7400ki/aviutl2-animated-image-output/releases/download/apng-v1.1.2/png_output.auo2"
+        "github": {
+          "owner": "yu7400ki",
+          "repo": "aviutl2-animated-image-output",
+          "pattern": "aviutl2-animated-image-output-png-v(\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip"
+        }
       },
       "install": [
         {
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/png_output.auo2",
+          "from": "{tmp}/Plugin/png_output.auo2",
           "to": "{pluginsDir}"
         }
       ],
@@ -5883,6 +5885,16 @@
             "XXH3_128": "bee7ddaa1d20bc5c06adf225cef05f3a"
           }
         ]
+      },
+      {
+        "version": "v2.0.0",
+        "release_date": "2026-09-09",
+        "file": [
+          {
+            "path": "{pluginsDir}/png_output.auo2",
+            "XXH3_128": "6862191e5b7807af050196e23cce2f61"
+          }
+        ]
       }
     ]
   },
@@ -5890,11 +5902,11 @@
     "id": "yu7400ki.anmImOutput-gif",
     "name": "GIF出力プラグイン",
     "type": "出力プラグイン",
-    "summary": "AviUtl ExEdit2で動画をアニメーション画像（GIF）として出力するプラグイン",
+    "summary": "動画をGIFとして出力するプラグイン",
     "description": "./md/yu7400ki.anmImOutput-gif.md",
     "author": "yu7400ki",
     "repoURL": "https://yu7400ki.me/aviutl2-animated-image-output/",
-    "latest-version": "v1.1.3",
+    "latest-version": "v2.0.0",
     "popularity": 6622,
     "trend": 374,
     "licenses": [
@@ -5903,7 +5915,7 @@
         "isCustom": false,
         "copyrights": [
           {
-            "years": "2025",
+            "years": "2026",
             "holder": "Yuki Natori"
           }
         ],
@@ -5912,23 +5924,25 @@
     ],
     "tags": [],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "",
-        "infoImg": []
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
-        "direct": "https://github.com/yu7400ki/aviutl2-animated-image-output/releases/download/gif-v1.1.3/gif_output.auo2"
+        "github": {
+          "owner": "yu7400ki",
+          "repo": "aviutl2-animated-image-output",
+          "pattern": "^aviutl2-animated-image-output-gif-v(\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip$"
+        }
       },
       "install": [
         {
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/gif_output.auo2",
+          "from": "{tmp}/Plugin/gif_output.auo2",
           "to": "{pluginsDir}"
         }
       ],
@@ -5953,6 +5967,16 @@
             "XXH3_128": "68047d9f32a1d4e2f972521649e1eeda"
           }
         ]
+      },
+      {
+        "version": "v2.0.0",
+        "release_date": "2026-09-09",
+        "file": [
+          {
+            "path": "{pluginsDir}/gif_output.auo2",
+            "XXH3_128": "5c83f1cede2216b3e3148b697ae9840d"
+          }
+        ]
       }
     ]
   },
@@ -5960,11 +5984,11 @@
     "id": "yu7400ki.anmImOutput-webp",
     "name": "WebP出力プラグイン",
     "type": "出力プラグイン",
-    "summary": "AviUtl ExEdit2で動画をアニメーション画像（WebP）として出力するプラグイン",
+    "summary": "動画をWebPとして出力するプラグイン",
     "description": "./md/yu7400ki.anmImOutput-webp.md",
     "author": "yu7400ki",
     "repoURL": "https://yu7400ki.me/aviutl2-animated-image-output/",
-    "latest-version": "v1.1.2",
+    "latest-version": "v2.0.0",
     "popularity": 989,
     "trend": 39,
     "licenses": [
@@ -5973,7 +5997,7 @@
         "isCustom": false,
         "copyrights": [
           {
-            "years": "2025",
+            "years": "2026",
             "holder": "Yuki Natori"
           }
         ],
@@ -5982,23 +6006,25 @@
     ],
     "tags": [],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "",
-        "infoImg": []
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
-        "direct": "https://github.com/yu7400ki/aviutl2-animated-image-output/releases/download/webp-v1.1.2/webp_output.auo2"
+        "github": {
+          "owner": "yu7400ki",
+          "repo": "aviutl2-animated-image-output",
+          "pattern": "aviutl2-animated-image-output-webp-v(\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip"
+        }
       },
       "install": [
         {
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/webp_output.auo2",
+          "from": "{tmp}/Plugin/webp_output.auo2",
           "to": "{pluginsDir}"
         }
       ],
@@ -6023,6 +6049,16 @@
             "XXH3_128": "9a3acd8718b1d143895b7082ac0e78ce"
           }
         ]
+      },
+      {
+        "version": "v2.0.0",
+        "release_date": "2026-09-09",
+        "file": [
+          {
+            "path": "{pluginsDir}/webp_output.auo2",
+            "XXH3_128": "ff1c3715cacd9fe14ffeec3007ade749"
+          }
+        ]
       }
     ]
   },
@@ -6030,11 +6066,11 @@
     "id": "yu7400ki.anmImOutput-avif",
     "name": "AVIF出力プラグイン",
     "type": "出力プラグイン",
-    "summary": "AviUtl ExEdit2で動画をアニメーション画像（AVIF）として出力するプラグイン",
+    "summary": "動画をAVIFとして出力するプラグイン",
     "description": "./md/yu7400ki.anmImOutput-avif.md",
     "author": "yu7400ki",
     "repoURL": "https://yu7400ki.me/aviutl2-animated-image-output/",
-    "latest-version": "v1.1.3",
+    "latest-version": "v2.0.0",
     "popularity": 434,
     "trend": 15,
     "licenses": [
@@ -6043,7 +6079,7 @@
         "isCustom": false,
         "copyrights": [
           {
-            "years": "2025",
+            "years": "2026",
             "holder": "Yuki Natori"
           }
         ],
@@ -6052,23 +6088,25 @@
     ],
     "tags": [],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "",
-        "infoImg": []
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
-        "direct": "https://github.com/yu7400ki/aviutl2-animated-image-output/releases/download/avif-v1.1.3/avif_output.auo2"
+        "github": {
+          "owner": "yu7400ki",
+          "repo": "aviutl2-animated-image-output",
+          "pattern": "aviutl2-animated-image-output-avif-v(\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip"
+        }
       },
       "install": [
         {
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/avif_output.auo2",
+          "from": "{tmp}/Plugin/avif_output.auo2",
           "to": "{pluginsDir}"
         }
       ],
@@ -6091,6 +6129,16 @@
           {
             "path": "{pluginsDir}/avif_output.auo2",
             "XXH3_128": "b562952c989e495087862a41431aad9e"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.0",
+        "release_date": "2026-09-09",
+        "file": [
+          {
+            "path": "{pluginsDir}/avif_output.auo2",
+            "XXH3_128": "09aedf428d6ff20bd3a45d0997d376c3"
           }
         ]
       }
@@ -46424,6 +46472,76 @@
           {
             "path": "{pluginsDir}/CustomToolbox.aux2",
             "XXH3_128": "442762cc08ab1a73b4a8f999dca872e5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yu7400ki.stabilizer",
+    "name": "手ブレ補正プラグイン",
+    "type": "フィルタプラグイン",
+    "summary": "手ブレ補正を行うプラグイン",
+    "description": "https://raw.githubusercontent.com/yu7400ki/aviutl2-stabilizer-plugin/refs/heads/main/README.md",
+    "author": "yu7400ki",
+    "repoURL": "https://github.com/yu7400ki/aviutl2-stabilizer-plugin",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "Yuki Natori"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "手ブレ補正"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "yu7400ki",
+          "repo": "aviutl2-stabilizer-plugin",
+          "pattern": "aviutl2-stabilizer-plugin-v(\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/stabilizer.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/stabilizer.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-08-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/stabilizer.aux2",
+            "XXH3_128": "0e01e9d123a3eacf3722c8cbe293fd1b"
           }
         ]
       }
