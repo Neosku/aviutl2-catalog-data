@@ -46763,5 +46763,77 @@
         ]
       }
     ]
+  },
+  {
+    "id": "yu7400ki.anmImOutput-jxl",
+    "name": "JXL出力プラグイン",
+    "type": "出力プラグイン",
+    "summary": "動画をJXLとして出力するプラグイン",
+    "description": "./md/yu7400ki.anmImOutput-jxl.md",
+    "author": "yu7400ki",
+    "repoURL": "https://yu7400ki.me/aviutl2-animated-image-output/",
+    "latest-version": "v2.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "Yuki Natori"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "yu7400ki",
+          "repo": "aviutl2-animated-image-output",
+          "pattern": "aviutl2-animated-image-output-jxl-v(\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/jxl_output.auo2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/jxl_output.auo2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/jxl_output.ini"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v2.0.0",
+        "release_date": "2026-09-09",
+        "file": [
+          {
+            "path": "{pluginsDir}/jxl_output.auo2",
+            "XXH3_128": "2a199ca7008abe1ec76ba3dab458e7cf"
+          }
+        ]
+      }
+    ]
   }
 ]
