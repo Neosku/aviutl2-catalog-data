@@ -362,6 +362,86 @@
     }
   },
   {
+    "id": "yu7400ki.anmImOutput-apng",
+    "latest-version": "v2.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "yu7400ki/aviutl2-animated-image-output",
+      "regex": "aviutl2-animated-image-output-png-v(\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/png_output.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/png_output.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "yu7400ki.anmImOutput-gif",
+    "latest-version": "v2.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "yu7400ki/aviutl2-animated-image-output",
+      "regex": "^aviutl2-animated-image-output-gif-v(\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/gif_output.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/gif_output.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "yu7400ki.anmImOutput-webp",
+    "latest-version": "v2.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "yu7400ki/aviutl2-animated-image-output",
+      "regex": "aviutl2-animated-image-output-webp-v(\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/webp_output.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/webp_output.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "yu7400ki.anmImOutput-avif",
+    "latest-version": "v2.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "yu7400ki/aviutl2-animated-image-output",
+      "regex": "aviutl2-animated-image-output-avif-v(\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/avif_output.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/avif_output.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "sigma-axis.Basic_S",
     "latest-version": "v2.88",
     "checkType": {
@@ -627,7 +707,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "oov/aviutl2_gcmzdrops2",
-      "regex": "^gcmzdrops.*\\.au2pkg\\.zip$",
+      "regex": "^gcmzdrops_.*\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -2249,6 +2329,26 @@
     }
   },
   {
+    "id": "arcana.connection_line",
+    "latest-version": "v1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "ar-ca-na/connection_line",
+      "regex": "^connection_line-v.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "連結ライン.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/連結ライン.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "novenove.KaraokeLyricRenderer",
     "latest-version": "v1.2.0",
     "checkType": {
@@ -3000,10 +3100,12 @@
         {
           "extract": "zip",
           "paths": [
-            "Plugin/import_midi_tempos.aux2"
+            "Plugin/import_midi_tempos.aux2",
+            "Language/English.import_midi_tempos-aux2.aul2"
           ],
           "recordPaths": [
-            "{pluginsDir}/import_midi_tempos.aux2"
+            "{pluginsDir}/import_midi_tempos.aux2",
+            "{dataDir}/Language/English.import_midi_tempos-aux2.aul2"
           ]
         }
       ]
@@ -4342,6 +4444,124 @@
           ],
           "recordPaths": [
             "{pluginsDir}/CustomToolbox.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "tnotawa.autozwj",
+    "latest-version": "v0.3.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "TNOTawa/AutoZWJ",
+      "regex": "^AutoZWJ\\.aux2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "AutoZWJ.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/AutoZWJ.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sagami121.Glitch_T",
+    "latest-version": "v1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sagami121/Glitch_T",
+      "regex": "^Glitch_T.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/Glitch_T.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Glitch_T.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sagami121.QRCode",
+    "latest-version": "v1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sagami121/Aviutl2-QRCode",
+      "regex": "^QRCode.*\\.obj2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "QRCode.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/QRCode.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "yu7400ki.stabilizer",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "yu7400ki/aviutl2-stabilizer-plugin",
+      "regex": "aviutl2-stabilizer-plugin-v(\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/stabilizer.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/stabilizer.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "yu7400ki.anmImOutput-jxl",
+    "latest-version": "v2.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "yu7400ki/aviutl2-animated-image-output",
+      "regex": "aviutl2-animated-image-output-jxl-v(\\d+\\.\\d+\\.\\d+)\\.au2pkg\\.zip",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/jxl_output.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/jxl_output.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "ar-ca-na.open-last-project",
+    "latest-version": "v1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "ar-ca-na/aviutl2-open-last-project",
+      "regex": "^aviutl2-open-last-v.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "aviutl2-open-last.exe"
+          ],
+          "recordPaths": [
+            "{dataDir}/aviutl2-open-last.exe"
           ]
         }
       ]
