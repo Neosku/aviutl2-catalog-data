@@ -46542,7 +46542,7 @@
     "description": "https://raw.githubusercontent.com/TNOTawa/AutoZWJ/refs/heads/main/docs/ja/README.md",
     "author": "TNOTawa",
     "repoURL": "https://github.com/TNOTawa/AutoZWJ",
-    "latest-version": "v0.3.0",
+    "latest-version": "v0.3.1",
     "popularity": 29,
     "trend": 30,
     "licenses": [
@@ -46600,6 +46600,16 @@
           {
             "path": "{pluginsDir}/AutoZWJ.aux2",
             "XXH3_128": "0d3a6514846388bbf91a03dd33d41b54"
+          }
+        ]
+      },
+      {
+        "version": "v0.3.1",
+        "release_date": "2026-09-11",
+        "file": [
+          {
+            "path": "{pluginsDir}/AutoZWJ.aux2",
+            "XXH3_128": "58f4f5f69568fcbf8be7e7ba1a79e5bb"
           }
         ]
       }
