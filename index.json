@@ -47033,5 +47033,89 @@
         ]
       }
     ]
+  },
+  {
+    "id": "ar-ca-na.aup2-relink",
+    "name": "aup2 リンク修復",
+    "type": "その他",
+    "summary": "素材のリンク切れを、移動先フォルダから同名ファイルを探して直す",
+    "description": "https://raw.githubusercontent.com/ar-ca-na/aviutl2-aup2-relink/refs/heads/main/README.md",
+    "author": "arcana",
+    "repoURL": "https://github.com/ar-ca-na/aviutl2-aup2-relink",
+    "latest-version": "v1.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "arcana"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "ar-ca-na",
+          "repo": "aviutl2-aup2-relink",
+          "pattern": "^aviutl2-aup2-relink-v.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/aup2リンク修復.exe",
+          "to": "{dataDir}"
+        },
+        {
+          "action": "run",
+          "path": "{dataDir}/aup2リンク修復.exe",
+          "args": [
+            "--install"
+          ]
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "run",
+          "path": "{dataDir}/aup2リンク修復.exe",
+          "args": [
+            "--uninstall"
+          ]
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/aup2リンク修復.exe"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.1.0",
+        "release_date": "2026-09-12",
+        "file": [
+          {
+            "path": "{dataDir}/aup2リンク修復.exe",
+            "XXH3_128": "1a365afa094b9a886745f70fcc102f36"
+          }
+        ]
+      }
+    ]
   }
 ]
