@@ -32270,7 +32270,7 @@
     "description": "./md/tikubonn.Alignment.md",
     "author": "ちくぼん",
     "repoURL": "https://tikubonn.booth.pm/items/8250336",
-    "latest-version": "v2.0.0",
+    "latest-version": "v3.0.0",
     "popularity": 473,
     "trend": 37,
     "licenses": [
@@ -32301,7 +32301,7 @@
     ],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/9304052"
+        "booth": "https://booth.pm/downloadables/9643607"
       },
       "install": [
         {
@@ -32312,14 +32312,14 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/揃えv2",
-          "to": "{scriptsDir}/揃えv2"
+          "from": "{tmp}/揃えv3",
+          "to": "{scriptsDir}/揃えv3"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{scriptsDir}/揃えv2"
+          "path": "{scriptsDir}/揃えv3"
         }
       ]
     },
@@ -32335,6 +32335,20 @@
           {
             "path": "{scriptsDir}/揃えv2/alignment_v2.lua",
             "XXH3_128": "9b6aa75544bc45783734a0bc9eb6235a"
+          }
+        ]
+      },
+      {
+        "version": "v3.0.0",
+        "release_date": "2026-09-12",
+        "file": [
+          {
+            "path": "{scriptsDir}/揃えv3/@揃えv3.anm2",
+            "XXH3_128": "2aecb8a1b9a4374dd8339291e8af0b61"
+          },
+          {
+            "path": "{scriptsDir}/揃えv3/alignment_v3.lua",
+            "XXH3_128": "233bfb4358d53d9050b9990e13520da1"
           }
         ]
       }
