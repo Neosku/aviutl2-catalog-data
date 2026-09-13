@@ -7775,7 +7775,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_PixelSnap_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_PixelSnap_S",
-    "latest-version": "v1.05-for-beta50",
+    "latest-version": "v1.10",
     "popularity": 1080,
     "trend": 81,
     "licenses": [
@@ -7879,6 +7879,16 @@
           {
             "path": "{scriptsDir}/PixelSnap_S.anm2",
             "XXH3_128": "039ea4817ec9cd596015e332bf5844fc"
+          }
+        ]
+      },
+      {
+        "version": "v1.10",
+        "release_date": "2026-09-13",
+        "file": [
+          {
+            "path": "{scriptsDir}/PixelSnap_S.anm2",
+            "XXH3_128": "04fbe1b7e5eb78b6fdc82d47f58cf1ab"
           }
         ]
       }
@@ -8360,7 +8370,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_GroundShadow2_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S",
-    "latest-version": "v1.32",
+    "latest-version": "v1.40",
     "popularity": 2788,
     "trend": 662,
     "licenses": [
@@ -8553,6 +8563,16 @@
           {
             "path": "{scriptsDir}/GroundShadow2_S.anm2",
             "XXH3_128": "d556b128d6636c92621eb95a6c8feaaf"
+          }
+        ]
+      },
+      {
+        "version": "v1.40",
+        "release_date": "2026-09-13",
+        "file": [
+          {
+            "path": "{scriptsDir}/GroundShadow2_S.anm2",
+            "XXH3_128": "032abe16e9db7c23e4940761cac64ce5"
           }
         ]
       }
@@ -46756,7 +46776,7 @@
     "description": "./md/sagami121.QRCode.md",
     "author": "3aGaM1",
     "repoURL": "https://github.com/sagami121/Aviutl2-QRCode",
-    "latest-version": "v1.0",
+    "latest-version": "v1.0.1",
     "popularity": 32,
     "trend": 31,
     "licenses": [
@@ -46814,6 +46834,16 @@
           {
             "path": "{scriptsDir}/QRCode.obj2",
             "XXH3_128": "59af2e58e81d2f09163c08bd9bc64e6c"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-09-13",
+        "file": [
+          {
+            "path": "{scriptsDir}/QRCode.obj2",
+            "XXH3_128": "de4d09f194a8cbfb9629a2b72773716a"
           }
         ]
       }
@@ -47139,6 +47169,81 @@
     ]
   },
   {
+    "id": "VRAMWIZ.SYNC_Breath",
+    "name": "呼吸",
+    "type": "フィルタプラグイン",
+    "summary": "人物画像の胸・腹部・肩・首・頭へ自然な呼吸の動きを加えるフィルター",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_Breath/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_Breath/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "変形",
+      "アニメーション"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_Breath_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_Breath",
+          "pattern": "^SYNC_Breath\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_Breath",
+          "to": "{pluginsDir}/SYNC_Breath"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_Breath"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-09-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_Breath/SYNC_Breath.auf2",
+            "XXH3_128": "2aa32691dcd0d560f91e2a5f2f35eae1"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "ar-ca-na.grunge-bg",
     "name": "グランジ背景を生成",
     "type": "スクリプト",
@@ -47194,7 +47299,7 @@
         }
       ],
       "uninstall": [
-        { 
+        {
           "action": "delete",
           "path": "{scriptsDir}/グランジ背景.obj2"
         }
