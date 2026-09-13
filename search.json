@@ -1,7 +1,7 @@
 [
   {
     "id": "Kenkun.AviUtlExEdit2",
-    "latest-version": "v2.1.8",
+    "latest-version": "v2.1.9",
     "checkType": {
       "type": "URL",
       "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
@@ -583,7 +583,7 @@
   },
   {
     "id": "sigma-axis.PixelSnap_S",
-    "latest-version": "v1.05-for-beta50",
+    "latest-version": "v1.10",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_PixelSnap_S",
@@ -643,7 +643,7 @@
   },
   {
     "id": "sigma-axis.GroundShadow2_S",
-    "latest-version": "v1.32",
+    "latest-version": "v1.40",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_GroundShadow2_S",
@@ -3440,7 +3440,7 @@
   },
   {
     "id": "vandojapan.typing-effect",
-    "latest-version": "v0.9.14",
+    "latest-version": "v0.9.15",
     "checkType": {
       "type": "GitHub",
       "repo": "vandojapan/TypingEffect.obj2",
@@ -4371,7 +4371,7 @@
   },
   {
     "id": "VRAMWIZ.SYNC_ScreenLayout",
-    "latest-version": "v1.0.1",
+    "latest-version": "v1.0.2",
     "checkType": {
       "type": "GitHub",
       "repo": "vramwiz/SYNC_ScreenLayout",
@@ -4490,7 +4490,7 @@
   },
   {
     "id": "sagami121.QRCode",
-    "latest-version": "v1.0",
+    "latest-version": "v1.0.1",
     "checkType": {
       "type": "GitHub",
       "repo": "sagami121/Aviutl2-QRCode",
