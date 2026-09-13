@@ -583,7 +583,7 @@
   },
   {
     "id": "sigma-axis.PixelSnap_S",
-    "latest-version": "v1.05-for-beta50",
+    "latest-version": "v1.10",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_PixelSnap_S",
@@ -643,7 +643,7 @@
   },
   {
     "id": "sigma-axis.GroundShadow2_S",
-    "latest-version": "v1.32",
+    "latest-version": "v1.40",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_GroundShadow2_S",
@@ -4490,7 +4490,7 @@
   },
   {
     "id": "sagami121.QRCode",
-    "latest-version": "v1.0",
+    "latest-version": "v1.0.1",
     "checkType": {
       "type": "GitHub",
       "repo": "sagami121/Aviutl2-QRCode",
