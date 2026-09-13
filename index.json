@@ -47189,14 +47189,14 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/紙グランジ背景.obj2",
+          "from": "{tmp}/グランジ背景.obj2",
           "to": "{scriptsDir}"
         }
       ],
       "uninstall": [
-        {
+        { 
           "action": "delete",
-          "path": "{scriptsDir}/紙グランジ背景.obj2"
+          "path": "{scriptsDir}/グランジ背景.obj2"
         }
       ]
     },
@@ -47206,8 +47206,8 @@
         "release_date": "2026-09-12",
         "file": [
           {
-            "path": "{scriptsDir}/紙グランジ背景.obj2",
-            "XXH3_128": "c48cebdcb5b37e48f38511b6c67d9a30"
+            "path": "{scriptsDir}/グランジ背景.obj2",
+            "XXH3_128": "d53c14dfc272fefd969097b9068136fd"
           }
         ]
       }
