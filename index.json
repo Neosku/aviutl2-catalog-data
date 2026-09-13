@@ -7775,7 +7775,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_PixelSnap_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_PixelSnap_S",
-    "latest-version": "v1.05-for-beta50",
+    "latest-version": "v1.10",
     "popularity": 1080,
     "trend": 81,
     "licenses": [
@@ -7879,6 +7879,16 @@
           {
             "path": "{scriptsDir}/PixelSnap_S.anm2",
             "XXH3_128": "039ea4817ec9cd596015e332bf5844fc"
+          }
+        ]
+      },
+      {
+        "version": "v1.10",
+        "release_date": "2026-09-13",
+        "file": [
+          {
+            "path": "{scriptsDir}/PixelSnap_S.anm2",
+            "XXH3_128": "04fbe1b7e5eb78b6fdc82d47f58cf1ab"
           }
         ]
       }
