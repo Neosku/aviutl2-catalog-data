@@ -47167,5 +47167,226 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Breath",
+    "name": "呼吸",
+    "type": "フィルタプラグイン",
+    "summary": "人物画像の胸・腹部・肩・首・頭へ自然な呼吸の動きを加えるフィルター",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_Breath/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_Breath/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "変形",
+      "アニメーション"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_Breath_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_Breath",
+          "pattern": "^SYNC_Breath\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_Breath",
+          "to": "{pluginsDir}/SYNC_Breath"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_Breath"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-09-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_Breath/SYNC_Breath.auf2",
+            "XXH3_128": "2aa32691dcd0d560f91e2a5f2f35eae1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ar-ca-na.grunge-bg",
+    "name": "グランジ背景を生成",
+    "type": "スクリプト",
+    "summary": "グランジ背景を生成",
+    "description": "https://raw.githubusercontent.com/ar-ca-na/aviutl2-grunge-bg/refs/heads/main/README.md",
+    "author": "arcana",
+    "repoURL": "https://github.com/ar-ca-na/aviutl2-grunge-bg",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "arcana"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト",
+      "ノイズ"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/ar-ca-na.grunge-bg_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "ar-ca-na",
+          "repo": "aviutl2-grunge-bg",
+          "pattern": "^aviutl2-grunge-bg-v.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/グランジ背景.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/グランジ背景.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-09-12",
+        "file": [
+          {
+            "path": "{scriptsDir}/グランジ背景.obj2",
+            "XXH3_128": "d53c14dfc272fefd969097b9068136fd"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sagami121.GParticle",
+    "name": "GParticle",
+    "type": "スクリプト",
+    "summary": "パーティクルスクリプト",
+    "description": "./md/sagami121.GParticle.md",
+    "author": "3aGaM1",
+    "repoURL": "https://github.com/sagami121/GParticle",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "3aGaM1"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/sagami121.GParticle_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sagami121",
+          "repo": "GParticle",
+          "pattern": "^GParticle.*\\.obj2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/GParticle.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/GParticle.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-09-12",
+        "file": [
+          {
+            "path": "{scriptsDir}/GParticle.obj2",
+            "XXH3_128": "96fd42c4999a94d74f2a526995d74097"
+          }
+        ]
+      }
+    ]
   }
 ]
