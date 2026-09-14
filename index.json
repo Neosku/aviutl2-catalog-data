@@ -46786,7 +46786,7 @@
     "description": "./md/sagami121.QRCode.md",
     "author": "3aGaM1",
     "repoURL": "https://github.com/sagami121/Aviutl2-QRCode",
-    "latest-version": "v1.0.1",
+    "latest-version": "v1.0.2",
     "popularity": 39,
     "trend": 39,
     "licenses": [
@@ -46854,6 +46854,16 @@
           {
             "path": "{scriptsDir}/QRCode.obj2",
             "XXH3_128": "de4d09f194a8cbfb9629a2b72773716a"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.2",
+        "release_date": "2026-09-14",
+        "file": [
+          {
+            "path": "{scriptsDir}/QRCode.obj2",
+            "XXH3_128": "abc62ca7ea179e43b0b2bdb23e87f15d"
           }
         ]
       }
