@@ -11911,7 +11911,7 @@
     },
     "version": [
       {
-        "version": "v1.0.0",
+        "version": "2025-12-15",
         "release_date": "2025-12-15",
         "file": [
           {
@@ -11921,12 +11921,22 @@
         ]
       },
       {
-        "version": "v1.0.0",
+        "version": "2026-01-29",
         "release_date": "2026-01-29",
         "file": [
           {
             "path": "{scriptsDir}/BlockGlitch_Rh.anm2",
             "XXH3_128": "69bfc400364e5d9a36f69e32a3d1624f"
+          }
+        ]
+      },
+      {
+        "version": "2026-08-26",
+        "release_date": "2026-08-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/BlockGlitch_Rh.anm2",
+            "XXH3_128": "689ce0ffe8d96d6927c5c4c81d4d69ed"
           }
         ]
       }
@@ -11982,7 +11992,7 @@
     },
     "version": [
       {
-        "version": "v1.0.0",
+        "version": "2026-01-09",
         "release_date": "2026-01-09",
         "file": [
           {
@@ -11992,7 +12002,7 @@
         ]
       },
       {
-        "version": "v1.0.0",
+        "version": "2026-01-29",
         "release_date": "2026-01-29",
         "file": [
           {
