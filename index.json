@@ -40269,7 +40269,7 @@
     "author": "nullru",
     "originalAuthor": "MaverickTse, Mr-Ojii",
     "repoURL": "https://github.com/nullruptr/MotionTracking_MK-II_Plus_for_AviUtl2",
-    "latest-version": "r114_3",
+    "latest-version": "r114_4",
     "popularity": 1746,
     "trend": 774,
     "licenses": [
@@ -40346,6 +40346,16 @@
           {
             "path": "{pluginsDir}/MotionTrackingMKIIPlusforAviUtl2.aux2",
             "XXH3_128": "8e959c284953aac8d38271092894d36c"
+          }
+        ]
+      },
+      {
+        "version": "r114_4",
+        "release_date": "2026-09-15",
+        "file": [
+          {
+            "path": "{pluginsDir}/MotionTrackingMKIIPlusforAviUtl2.aux2",
+            "XXH3_128": "b2a333071520fa0d227b547bdc36e4d1"
           }
         ]
       }
