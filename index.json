@@ -47478,5 +47478,73 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Sagyou.DVD",
+    "name": "DVD",
+    "type": "スクリプト",
+    "summary": "DVDプレーヤーの待機画面を再現したスクリプトです。",
+    "description": "./md/Sagyou.DVD.md",
+    "author": "サ行",
+    "repoURL": "https://github.com/SagyouDarui900/AviUtl2_Script_SagyouDarui",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "🈂️行"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "アニメーション",
+      "移動"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/Sagyou.DVD_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://raw.githubusercontent.com/SagyouDarui900/AviUtl2_Script_SagyouDarui/refs/heads/main/DVD.anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/DVD.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/DVD.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-09-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/DVD.anm2",
+            "XXH3_128": "fe110a1ac2bff6ff9ac5af4e2d2f8526"
+          }
+        ]
+      }
+    ]
   }
 ]
