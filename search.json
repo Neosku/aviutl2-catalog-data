@@ -205,7 +205,7 @@
   },
   {
     "id": "sigma-axis.AutoClipping_S",
-    "latest-version": "v1.17-for-beta53a",
+    "latest-version": "v1.20",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_AutoClipping_S",
@@ -4562,6 +4562,167 @@
           ],
           "recordPaths": [
             "{dataDir}/aviutl2-open-last.exe"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "ar-ca-na.aup2-relink",
+    "latest-version": "v1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "ar-ca-na/aviutl2-aup2-relink",
+      "regex": "^aviutl2-aup2-relink-v.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "aup2リンク修復.exe"
+          ],
+          "recordPaths": [
+            "{dataDir}/aup2リンク修復.exe"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Breath",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_Breath",
+      "regex": "^SYNC_Breath\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_Breath/SYNC_Breath.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_Breath/SYNC_Breath.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "ar-ca-na.grunge-bg",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "ar-ca-na/aviutl2-grunge-bg",
+      "regex": "^aviutl2-grunge-bg-v.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "グランジ背景.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/グランジ背景.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sagami121.GParticle",
+    "latest-version": "v1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sagami121/GParticle",
+      "regex": "^GParticle.*\\.obj2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "GParticle.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/GParticle.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "ar-ca-na.waveform-line",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "ar-ca-na/aviutl2-waveform-line",
+      "regex": "^aviutl2-waveform-line-v.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "波形ライン.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/波形ライン.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.Lens_S",
+    "latest-version": "v1.00",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_Lens_S",
+      "regex": "^aviutl2_script_Lens_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@Lens_S.anm2",
+            "Script/Lens_S.lua"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Lens_S.anm2",
+            "{scriptsDir}/Lens_S.lua"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_MapRaku",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/MapRaku",
+      "regex": "^SYNC_MapRaku\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_MapRaku/SYNC_MapRaku_Filter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_MapRaku/SYNC_MapRaku_Filter.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.extra_blend_mode-anm2",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/extra_blend_mode.anm2",
+      "regex": "^sevenc-nanashi\\.extra_blend_mode-anm2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/extra_blend_mode.anm2.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/extra_blend_mode.anm2.anm2"
           ]
         }
       ]
