@@ -11868,7 +11868,7 @@
     "description": "./md/Rhapthorne_0.BlockGlitch_Rh.md",
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/2000355120782164458",
-    "latest-version": "2026-08-26",
+    "latest-version": "v1.0.0",
     "popularity": 3948,
     "trend": 477,
     "licenses": [
@@ -11950,7 +11950,7 @@
     "description": "./md/Rhapthorne_0.RadialRaster_Rh.md",
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/2009429917847658676",
-    "latest-version": "2026-01-29",
+    "latest-version": "v1.0.0",
     "popularity": 945,
     "trend": 29,
     "licenses": [
@@ -46720,7 +46720,7 @@
     "description": "https://raw.githubusercontent.com/TNOTawa/AutoZWJ/refs/heads/main/docs/ja/README.md",
     "author": "TNOTawa",
     "repoURL": "https://github.com/TNOTawa/AutoZWJ",
-    "latest-version": "v0.3.2",
+    "latest-version": "v0.3.1",
     "popularity": 71,
     "trend": 73,
     "licenses": [
@@ -46788,16 +46788,6 @@
           {
             "path": "{pluginsDir}/AutoZWJ.aux2",
             "XXH3_128": "58f4f5f69568fcbf8be7e7ba1a79e5bb"
-          }
-        ]
-      },
-      {
-        "version": "v0.3.2",
-        "release_date": "2026-09-19",
-        "file": [
-          {
-            "path": "{pluginsDir}/AutoZWJ.aux2",
-            "XXH3_128": "61c0e36e9b6949dd4f37cb8e445d197f"
           }
         ]
       }
@@ -47510,45 +47500,40 @@
     ]
   },
   {
-    "id": "ar-ca-na.waveform-line",
-    "name": "波形ライン",
+    "id": "sevenc-nanashi.extra_blend_mode-anm2",
+    "name": "extra_blend_mode.anm2",
     "type": "スクリプト",
-    "summary": "マウスで描いた線を音声波形で揺らすカスタムオブジェクト",
-    "description": "https://raw.githubusercontent.com/ar-ca-na/aviutl2-waveform-line/refs/heads/main/README.md",
-    "author": "arcana",
-    "repoURL": "https://github.com/ar-ca-na/aviutl2-waveform-line",
-    "latest-version": "v1.0.0",
+    "summary": "合成モード拡張っぽいの",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/extra_blend_mode.anm2/refs/heads/main/README.md",
+    "author": "Nanashi.",
+    "originalAuthor": "rikky",
+    "repoURL": "https://github.com/sevenc-nanashi/extra_blend_mode.anm2",
+    "latest-version": "0.1.0",
     "popularity": 0,
     "trend": 0,
     "licenses": [
       {
         "type": "MIT",
-        "isCustom": false,
-        "copyrights": [
-          {
-            "years": "2026",
-            "holder": "arcana"
-          }
-        ],
-        "licenseBody": null
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT License\r\n\r\nCopyright (c) 2026 Nanashi. <sevenc7c.com>\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
       }
     ],
     "tags": [
-      "カスタムオブジェクト",
-      "音声"
+      "加工"
     ],
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/ar-ca-na.waveform-line_thumbnail.png"
+        "thumbnail": "./image/sevenc-nanashi.extra_blend_mode-anm2_thumbnail.webp"
       }
     ],
     "installer": {
       "source": {
         "github": {
-          "owner": "ar-ca-na",
-          "repo": "aviutl2-waveform-line",
-          "pattern": "^aviutl2-waveform-line-v.*\\.zip$"
+          "owner": "sevenc-nanashi",
+          "repo": "extra_blend_mode.anm2",
+          "pattern": "^sevenc-nanashi\\.extra_blend_mode-anm2-v[^/]+\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -47560,291 +47545,25 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/波形ライン.obj2",
+          "from": "{tmp}/Script/extra_blend_mode.anm2.anm2",
           "to": "{scriptsDir}"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{scriptsDir}/波形ライン.obj2"
+          "path": "{scriptsDir}/extra_blend_mode.anm2.anm2"
         }
       ]
     },
     "version": [
       {
-        "version": "v1.0.0",
-        "release_date": "2026-09-17",
+        "version": "0.1.0",
+        "release_date": "2026-09-19",
         "file": [
           {
-            "path": "{scriptsDir}/波形ライン.obj2",
-            "XXH3_128": "acd59276c66176dccf4672521774cd9f"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "sigma-axis.Lens_S",
-    "name": "Lens_S",
-    "type": "スクリプト",
-    "summary": "背景を透過してレンズやアクリルのような質感を表現するスクリプト．",
-    "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Lens_S/refs/heads/main/README.md",
-    "author": "σ軸",
-    "repoURL": "https://github.com/sigma-axis/aviutl2_script_Lens_S",
-    "latest-version": "v1.00",
-    "popularity": 0,
-    "trend": 0,
-    "licenses": [
-      {
-        "type": "MIT",
-        "isCustom": false,
-        "copyrights": [
-          {
-            "years": "2026",
-            "holder": "sigma-axis"
-          }
-        ],
-        "licenseBody": null
-      }
-    ],
-    "niconiCommonsId": "sm46811531",
-    "tags": [
-      "ガラス",
-      "ぼかし",
-      "色収差",
-      "反射",
-      "変形",
-      "レンズ"
-    ],
-    "dependencies": [
-      "sigma-axis.Basic_S"
-    ],
-    "images": [
-      {
-        "infoImg": [
-          "./image/sigma-axis.Lens_S_1.png"
-        ]
-      }
-    ],
-    "installer": {
-      "source": {
-        "github": {
-          "owner": "sigma-axis",
-          "repo": "aviutl2_script_Lens_S",
-          "pattern": "^aviutl2_script_Lens_S.*\\.zip$"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "extract"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Script/@Lens_S.anm2",
-          "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Script/Lens_S.lua",
-          "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Script/Lens_S/LICENSE",
-          "to": "{scriptsDir}/Lens_S"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Script/Lens_S/README.md",
-          "to": "{scriptsDir}/Lens_S"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Language/Default.Lens_S.aul2",
-          "to": "{dataDir}/Language"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/@Lens_S.anm2"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/Lens_S.lua"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/Lens_S/LICENSE"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/Lens_S/README.md"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Language/Default.Lens_S.aul2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v1.00",
-        "release_date": "2026-09-17",
-        "file": [
-          {
-            "path": "{scriptsDir}/@Lens_S.anm2",
-            "XXH3_128": "e1367a3f949a5f3ca0ca20059348841a"
-          },
-          {
-            "path": "{scriptsDir}/Lens_S.lua",
-            "XXH3_128": "b007eb0b3e90cf976a40889825732704"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "Sagyou.DVD",
-    "name": "DVD",
-    "type": "スクリプト",
-    "summary": "DVDプレーヤーの待機画面を再現したスクリプトです。",
-    "description": "./md/Sagyou.DVD.md",
-    "author": "サ行",
-    "repoURL": "https://github.com/SagyouDarui900/AviUtl2_Script_SagyouDarui",
-    "latest-version": "v1.0",
-    "popularity": 0,
-    "trend": 0,
-    "licenses": [
-      {
-        "type": "MIT",
-        "isCustom": false,
-        "copyrights": [
-          {
-            "years": "2026",
-            "holder": "🈂️行"
-          }
-        ],
-        "licenseBody": null
-      }
-    ],
-    "tags": [
-      "アニメーション",
-      "移動"
-    ],
-    "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/Sagyou.DVD_thumbnail.webp"
-      }
-    ],
-    "installer": {
-      "source": {
-        "direct": "https://raw.githubusercontent.com/SagyouDarui900/AviUtl2_Script_SagyouDarui/refs/heads/main/DVD.anm2"
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/DVD.anm2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/DVD.anm2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v1.0",
-        "release_date": "2026-09-18",
-        "file": [
-          {
-            "path": "{scriptsDir}/DVD.anm2",
-            "XXH3_128": "fe110a1ac2bff6ff9ac5af4e2d2f8526"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "VRAMWIZ.SYNC_MapRaku",
-    "name": "地図",
-    "type": "汎用プラグイン",
-    "summary": "案内図を作成し、ルート上でマーカーを移動表示",
-    "description": "https://raw.githubusercontent.com/vramwiz/MapRaku/main/README.md",
-    "author": "VRAMの魔術師",
-    "repoURL": "https://github.com/vramwiz/MapRaku/",
-    "latest-version": "v1.0.0",
-    "popularity": 0,
-    "trend": 0,
-    "licenses": [
-      {
-        "type": "MIT",
-        "isCustom": false,
-        "copyrights": [
-          {
-            "years": "2026",
-            "holder": "VRAMの魔術師"
-          }
-        ],
-        "licenseBody": null
-      }
-    ],
-    "tags": [
-      "アニメーション"
-    ],
-    "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/VRAMWIZ.SYNC_MapRaku_thumbnail.gif"
-      }
-    ],
-    "installer": {
-      "source": {
-        "github": {
-          "owner": "vramwiz",
-          "repo": "MapRaku",
-          "pattern": "^SYNC_MapRaku\\.zip$"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "extract"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/SYNC_MapRaku",
-          "to": "{pluginsDir}/SYNC_MapRaku"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/SYNC_MapRaku"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "v1.0.0",
-        "release_date": "2026-09-18",
-        "file": [
-          {
-            "path": "{pluginsDir}/SYNC_MapRaku/SYNC_MapRaku_Filter.auf2",
-            "XXH3_128": "82b5b10e7f20ae5dbaa23dd33eb22cb6"
+            "path": "{scriptsDir}/extra_blend_mode.anm2.anm2",
+            "XXH3_128": "cd54800378c318abc0c0013aed0f6b65"
           }
         ]
       }
