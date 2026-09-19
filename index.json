@@ -7,7 +7,7 @@
     "description": "./md/Kenkun.AviUtlExEdit2.md",
     "author": "ＫＥＮくん",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-    "latest-version": "v2.1.9",
+    "latest-version": "v2.1.10",
     "popularity": 35949,
     "trend": 5186,
     "licenses": [
@@ -30,7 +30,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2_v2.1.9_setup.exe"
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2_v2.1.10_setup.exe"
       },
       "install": [
         {
@@ -897,6 +897,16 @@
           {
             "path": "{appDir}/aviutl2.exe",
             "XXH3_128": "1ae3b69240522f61c81e6498c934d7c3"
+          }
+        ]
+      },
+      {
+        "version": "v2.1.10",
+        "release_date": "2026-09-19",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "aab61e30e9491288230ddeb0e9bc46c5"
           }
         ]
       }
@@ -41559,7 +41569,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_PianoRoll/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/SYNC_PianoRoll/",
-    "latest-version": "v1.0.2",
+    "latest-version": "v1.1.0",
     "popularity": 179,
     "trend": 29,
     "licenses": [
@@ -41641,6 +41651,16 @@
           {
             "path": "{pluginsDir}/SYNC_PianoRoll/SYNC_PianoRoll_Filter.auf2",
             "XXH3_128": "0017ee108eedb9824917fcba26972741"
+          }
+        ]
+      },
+      {
+        "version": "v1.1.0",
+        "release_date": "2026-09-19",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_PianoRoll/SYNC_PianoRoll_Filter.auf2",
+            "XXH3_128": "8c01bfc91444d48bf969c0835ab10760"
           }
         ]
       }
