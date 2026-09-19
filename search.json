@@ -4207,15 +4207,16 @@
   },
   {
     "id": "kanade-ak.TextCharEditor",
-    "latest-version": "v3.0",
+    "latest-version": "v3.5",
     "checkType": {
       "type": "GitHub",
       "repo": "kanade-ak/TextCharEditor",
-      "regex": "^TextCharEditor.*\\.aux2$",
+      "regex": "^TextCharEditor.au2pkg*\\.zip$",
       "hash-calc": [
         {
+          "extract": "zip",
           "paths": [
-            "TextCharEditor.aux2"
+            "Plugin/TextCharEditor.aux2"
           ],
           "recordPaths": [
             "{pluginsDir}\\TextCharEditor.aux2"
