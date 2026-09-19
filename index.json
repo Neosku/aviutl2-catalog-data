@@ -45394,42 +45394,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Plugin/TextCharEditorQt/LICENSES/GPL-3.0.txt",
-          "to": "{pluginsDir}/TextCharEditorQt/LICENSES"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Plugin/TextCharEditorQt/LICENSES/LGPL-3.0.txt",
-          "to": "{pluginsDir}/TextCharEditorQt/LICENSES"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Plugin/TextCharEditorQt/LICENSES/LICENSE",
-          "to": "{pluginsDir}/TextCharEditorQt/LICENSES"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Plugin/TextCharEditorQt/platforms/qwindows.dll",
-          "to": "{pluginsDir}/TextCharEditorQt/platforms"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Plugin/TextCharEditorQt/Qt6Core.dll",
-          "to": "{pluginsDir}/TextCharEditorQt"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Plugin/TextCharEditorQt/Qt6Gui.dll",
-          "to": "{pluginsDir}/TextCharEditorQt"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Plugin/TextCharEditorQt/Qt6Widgets.dll",
-          "to": "{pluginsDir}/TextCharEditorQt"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Plugin/TextCharEditorQt/TextCharEditorQt.dll",
+          "from": "{tmp}/Plugin/TextCharEditorQt",
           "to": "{pluginsDir}/TextCharEditorQt"
         },
         {
@@ -45445,35 +45410,7 @@
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/TextCharEditorQt/LICENSES/GPL-3.0.txt"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/TextCharEditorQt/LICENSES/LGPL-3.0.txt"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/TextCharEditorQt/LICENSES/LICENSE"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/TextCharEditorQt/platforms/qwindows.dll"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/TextCharEditorQt/Qt6Core.dll"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/TextCharEditorQt/Qt6Gui.dll"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/TextCharEditorQt/Qt6Widgets.dll"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/TextCharEditorQt/TextCharEditorQt.dll"
+          "path": "{pluginsDir}/TextCharEditorQt"
         },
         {
           "action": "delete",
