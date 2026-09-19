@@ -4431,7 +4431,7 @@
     "author": "σ軸",
     "originalAuthor": "Mr-Ojii",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_AutoClipping_S",
-    "latest-version": "v1.17-for-beta53a",
+    "latest-version": "v1.20",
     "popularity": 3480,
     "trend": 253,
     "licenses": [
@@ -4487,6 +4487,11 @@
           "action": "copy",
           "from": "{tmp}/Script/AutoClipping_S/README.md",
           "to": "{scriptsDir}/AutoClipping_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.AutoClipping_S.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -4501,6 +4506,10 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/AutoClipping_S/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.AutoClipping_S.aul2"
         }
       ]
     },
@@ -4592,6 +4601,16 @@
           {
             "path": "{scriptsDir}/AutoClipping_S.anm2",
             "XXH3_128": "cc0b817c6ee704b39a3ff37a6059d47b"
+          }
+        ]
+      },
+      {
+        "version": "v1.20",
+        "release_date": "2026-09-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/AutoClipping_S.anm2",
+            "XXH3_128": "5627f80e655e5f839394ec64af35e2fa"
           }
         ]
       }
