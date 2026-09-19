@@ -47315,7 +47315,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_Breath/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/SYNC_Breath/",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 41,
     "trend": 54,
     "licenses": [
@@ -47377,6 +47377,16 @@
           {
             "path": "{pluginsDir}/SYNC_Breath/SYNC_Breath.auf2",
             "XXH3_128": "2aa32691dcd0d560f91e2a5f2f35eae1"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-09-19",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_Breath/SYNC_Breath.auf2",
+            "XXH3_128": "35cd685bbf27d9a74186e5c69d0425ba"
           }
         ]
       }
@@ -47536,7 +47546,7 @@
     "description": "https://raw.githubusercontent.com/ar-ca-na/aviutl2-waveform-line/refs/heads/main/README.md",
     "author": "arcana",
     "repoURL": "https://github.com/ar-ca-na/aviutl2-waveform-line",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.1.0",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -47598,6 +47608,16 @@
           {
             "path": "{scriptsDir}/波形ライン.obj2",
             "XXH3_128": "acd59276c66176dccf4672521774cd9f"
+          }
+        ]
+      },
+      {
+        "version": "v1.1.0",
+        "release_date": "2026-09-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/波形ライン.obj2",
+            "XXH3_128": "84cefc5520df7ba811da7b6b61ffc98b"
           }
         ]
       }
@@ -47803,7 +47823,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/MapRaku/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/MapRaku/",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -47864,6 +47884,16 @@
           {
             "path": "{pluginsDir}/SYNC_MapRaku/SYNC_MapRaku_Filter.auf2",
             "XXH3_128": "82b5b10e7f20ae5dbaa23dd33eb22cb6"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-09-19",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_MapRaku/SYNC_MapRaku_Filter.auf2",
+            "XXH3_128": "aef2d536950ffd39cd25bdcf25e46c58"
           }
         ]
       }
