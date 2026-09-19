@@ -45342,7 +45342,7 @@
     "description": "./md/kanade-ak.TextCharEditor.md",
     "author": "kanade-ak",
     "repoURL": "https://github.com/kanade-ak/TextCharEditor",
-    "latest-version": "v3.0",
+    "latest-version": "v3.5",
     "popularity": 607,
     "trend": 177,
     "licenses": [
@@ -45377,7 +45377,7 @@
         "github": {
           "owner": "kanade-ak",
           "repo": "TextCharEditor",
-          "pattern": "^TextCharEditor.*\\.aux2$"
+          "pattern": "^TextCharEditor.au2pkg*\\.zip$"
         }
       },
       "install": [
@@ -45385,15 +45385,99 @@
           "action": "download"
         },
         {
+          "action": "extract"
+        },
+        {
           "action": "copy",
-          "from": "{tmp}/TextCharEditor.aux2",
+          "from": "{tmp}/Plugin/TextCharEditor.aux2",
           "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/TextCharEditorQt/LICENSES/GPL-3.0.txt",
+          "to": "{pluginsDir}/TextCharEditorQt/LICENSES"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/TextCharEditorQt/LICENSES/LGPL-3.0.txt",
+          "to": "{pluginsDir}/TextCharEditorQt/LICENSES"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/TextCharEditorQt/LICENSES/LICENSE",
+          "to": "{pluginsDir}/TextCharEditorQt/LICENSES"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/TextCharEditorQt/platforms/qwindows.dll",
+          "to": "{pluginsDir}/TextCharEditorQt/platforms"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/TextCharEditorQt/Qt6Core.dll",
+          "to": "{pluginsDir}/TextCharEditorQt"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/TextCharEditorQt/Qt6Gui.dll",
+          "to": "{pluginsDir}/TextCharEditorQt"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/TextCharEditorQt/Qt6Widgets.dll",
+          "to": "{pluginsDir}/TextCharEditorQt"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/TextCharEditorQt/TextCharEditorQt.dll",
+          "to": "{pluginsDir}/TextCharEditorQt"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/TextCharEditor個別出力.anm2",
+          "to": "{scriptsDir}"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{pluginsDir}/TextCharEditor.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextCharEditorQt/LICENSES/GPL-3.0.txt"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextCharEditorQt/LICENSES/LGPL-3.0.txt"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextCharEditorQt/LICENSES/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextCharEditorQt/platforms/qwindows.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextCharEditorQt/Qt6Core.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextCharEditorQt/Qt6Gui.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextCharEditorQt/Qt6Widgets.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextCharEditorQt/TextCharEditorQt.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/TextCharEditor個別出力.anm2"
         }
       ]
     },
@@ -45405,6 +45489,16 @@
           {
             "path": "{pluginsDir}\\TextCharEditor.aux2",
             "XXH3_128": "4007027bd9aa8969853915f09aa65525"
+          }
+        ]
+      },
+      {
+        "version": "v3.5",
+        "release_date": "2026-09-20",
+        "file": [
+          {
+            "path": "{pluginsDir}\\TextCharEditor.aux2",
+            "XXH3_128": "8800a5873e3deb603c862c632e7f6f4c"
           }
         ]
       }
