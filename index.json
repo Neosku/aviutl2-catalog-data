@@ -7130,7 +7130,7 @@
     "description": "https://raw.githubusercontent.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script/refs/heads/main/README.md",
     "author": "Korarei",
     "repoURL": "https://github.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script",
-    "latest-version": "v2.0.1",
+    "latest-version": "v2.0.2",
     "popularity": 9998,
     "trend": 1519,
     "licenses": [
@@ -7290,6 +7290,16 @@
           {
             "path": "{pluginsDir}/MotionBlur_K/MotionBlur_K.aux2",
             "XXH3_128": "483ff7d1d24e61617ce07b7cc491a3cd"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.2",
+        "release_date": "2026-09-20",
+        "file": [
+          {
+            "path": "{pluginsDir}/MotionBlur_K/MotionBlur_K.aux2",
+            "XXH3_128": "da299d60417666a6672e691bbe896a00"
           }
         ]
       }
