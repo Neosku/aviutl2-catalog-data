@@ -41726,7 +41726,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_Motion/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/SYNC_Motion/",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 651,
     "trend": 137,
     "licenses": [
@@ -41789,6 +41789,16 @@
           {
             "path": "{pluginsDir}/SYNC_Motion/SYNC_Motion_Filter.auf2",
             "XXH3_128": "091eaa5e4c9b376ca2fa9e6b19be3859"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-09-19",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_Motion/SYNC_Motion_Filter.auf2",
+            "XXH3_128": "892d7982dcba28ed09c26a91c3a87def"
           }
         ]
       }
