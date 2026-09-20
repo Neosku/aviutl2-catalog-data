@@ -47914,7 +47914,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/MapRaku/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/MapRaku/",
-    "latest-version": "v1.0.1",
+    "latest-version": "v1.0.2",
     "popularity": 11,
     "trend": 18,
     "licenses": [
@@ -47985,6 +47985,16 @@
           {
             "path": "{pluginsDir}/SYNC_MapRaku/SYNC_MapRaku_Filter.auf2",
             "XXH3_128": "aef2d536950ffd39cd25bdcf25e46c58"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.2",
+        "release_date": "2026-09-20",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_MapRaku/SYNC_MapRaku_Filter.auf2",
+            "XXH3_128": "00426eca64bd2c1929d204a2cea3d1fe"
           }
         ]
       }
