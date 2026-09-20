@@ -41232,7 +41232,7 @@
     "description": "https://raw.githubusercontent.com/azurite581/AviUtl2-LayerGridView/main/README.md",
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-LayerGridView",
-    "latest-version": "v0.1.0",
+    "latest-version": "v0.2.0",
     "popularity": 194,
     "trend": 18,
     "licenses": [
@@ -41302,6 +41302,16 @@
           {
             "path": "{scriptsDir}/@レイヤーグリッド表示.anm2",
             "XXH3_128": "7b52e2d4f1b1493472acc397920f312d"
+          }
+        ]
+      },
+      {
+        "version": "v0.2.0",
+        "release_date": "2026-09-20",
+        "file": [
+          {
+            "path": "{scriptsDir}/@レイヤーグリッド表示.anm2",
+            "XXH3_128": "e89a78992268d5a179ba729e428ef6cf"
           }
         ]
       }
