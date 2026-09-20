@@ -47722,7 +47722,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Lens_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Lens_S",
-    "latest-version": "v1.00",
+    "latest-version": "v1.10",
     "popularity": 63,
     "trend": 62,
     "licenses": [
@@ -47833,6 +47833,20 @@
           {
             "path": "{scriptsDir}/Lens_S.lua",
             "XXH3_128": "b007eb0b3e90cf976a40889825732704"
+          }
+        ]
+      },
+      {
+        "version": "v1.10",
+        "release_date": "2026-09-20",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Lens_S.anm2",
+            "XXH3_128": "8239b2de8e06c50ea1738b4ee12a027e"
+          },
+          {
+            "path": "{scriptsDir}/Lens_S.lua",
+            "XXH3_128": "7a886fdf8f7d67c975f873ae12169a54"
           }
         ]
       }
