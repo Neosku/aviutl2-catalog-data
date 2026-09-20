@@ -48093,5 +48093,78 @@
         ]
       }
     ]
+  },
+  {
+    "id": "NeAc.SpeedLine",
+    "name": "スピード線",
+    "type": "スクリプト",
+    "summary": "横や縦に流れるスピード線を描画するスクリプト",
+    "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_SpeedLine/refs/heads/master/README.md",
+    "author": "猫愛",
+    "originalAuthor": "Nagomiku",
+    "repoURL": "https://github.com/nea-c/aviutl2_script_SpeedLine",
+    "latest-version": "r1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "NeAc"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "カスタムオブジェクト",
+      "アニメーション"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nea-c",
+          "repo": "aviutl2_script_SpeedLine",
+          "pattern": "^SpeedLine\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/スピード線.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/スピード線.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r1",
+        "release_date": "2026-09-20",
+        "file": [
+          {
+            "path": "{scriptsDir}/スピード線.obj2",
+            "XXH3_128": "e6703a73eb84b190ec2f86bdb3cc012b"
+          }
+        ]
+      }
+    ]
   }
 ]
