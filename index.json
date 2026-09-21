@@ -48340,7 +48340,11 @@
       "アニメーション"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/NeAc.SpeedLine_thumbnail.webp"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
