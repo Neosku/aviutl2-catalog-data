@@ -30916,7 +30916,7 @@
     "description": "./md/momo_neeeko.ScallopedCircle.md",
     "author": "もも猫",
     "repoURL": "https://x.com/momo_neeeko/status/2040680596410941589",
-    "latest-version": "v1.0",
+    "latest-version": "v2.0",
     "popularity": 648,
     "trend": 24,
     "licenses": [
@@ -30941,7 +30941,8 @@
       {
         "thumbnail": "./image/momo_neeeko.ScallopedCircle_thumbnail.png",
         "infoImg": [
-          "./image/momo_neeeko.ScallopedCircle_1.png"
+          "./image/momo_neeeko.ScallopedCircle_1.png",
+          "./image/momo_neeeko.ScallopedCircle_2.png"
         ]
       }
     ],
@@ -30976,6 +30977,16 @@
           {
             "path": "{scriptsDir}/スカラップ円.obj2",
             "XXH3_128": "a9e583e3d2c57cca2d4e6342556ae6c1"
+          }
+        ]
+      },
+      {
+        "version": "v2.0",
+        "release_date": "2026-09-15",
+        "file": [
+          {
+            "path": "{scriptsDir}/スカラップ円.obj2",
+            "XXH3_128": "cd59ba5a7305fda499360d84977a62e8"
           }
         ]
       }
