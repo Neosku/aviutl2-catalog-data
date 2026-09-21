@@ -41763,15 +41763,15 @@
   },
   {
     "id": "VRAMWIZ.SYNC_PianoRoll",
-    "name": "SYNC PianoRoll",
+    "name": "ピアノロール",
     "type": "汎用プラグイン",
     "summary": "音楽に同期した鍵盤とノートを表示",
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_PianoRoll/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/SYNC_PianoRoll/",
     "latest-version": "v1.1.1",
-    "popularity": 177,
-    "trend": 23,
+    "popularity": 182,
+    "trend": 29,
     "licenses": [
       {
         "type": "MIT",
@@ -41815,11 +41815,6 @@
           "action": "copy",
           "from": "{tmp}/SYNC_PianoRoll",
           "to": "{pluginsDir}/SYNC_PianoRoll"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/SYNC_PianoRoll/Object",
-          "to": "{dataDir}/Alias/ピアノロール"
         }
       ],
       "uninstall": [
