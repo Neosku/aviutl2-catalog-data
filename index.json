@@ -7313,7 +7313,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_ColoredCollar_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_ColoredCollar_S",
-    "latest-version": "v2.00-for-beta51",
+    "latest-version": "v2.11",
     "popularity": 1101,
     "trend": 44,
     "licenses": [
@@ -7372,6 +7372,11 @@
           "action": "copy",
           "from": "{tmp}/Script/ColoredCollar_S/README.md",
           "to": "{scriptsDir}/ColoredCollar_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.ColoredCollar_S.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -7386,6 +7391,10 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/ColoredCollar_S/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.ColoredCollar_S.aul2"
         }
       ]
     },
@@ -7407,6 +7416,16 @@
           {
             "path": "{scriptsDir}/ColoredCollar_S.anm2",
             "XXH3_128": "b421cba6d3d06f369826d4da2ceb8905"
+          }
+        ]
+      },
+      {
+        "version": "v2.11",
+        "release_date": "2026-09-21",
+        "file": [
+          {
+            "path": "{scriptsDir}/ColoredCollar_S.anm2",
+            "XXH3_128": "c773a0b308749589e7ef365cb7b5492e"
           }
         ]
       }
