@@ -46491,7 +46491,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_ScreenLayout/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/SYNC_ScreenLayout/",
-    "latest-version": "v1.0.5",
+    "latest-version": "v1.0.6",
     "popularity": 98,
     "trend": 133,
     "licenses": [
@@ -46603,6 +46603,16 @@
           {
             "path": "{pluginsDir}/SYNC_ScreenLayout/SYNC_ScreenLayout_Filter.auf2",
             "XXH3_128": "e646409ba39971cb77b0c700c4b93bb5"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.6",
+        "release_date": "2026-09-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_ScreenLayout/SYNC_ScreenLayout_Filter.auf2",
+            "XXH3_128": "7816945e55967772867d77f77149f7c2"
           }
         ]
       }
