@@ -6241,7 +6241,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Basic_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Basic_S",
-    "latest-version": "v2.88",
+    "latest-version": "v2.90",
     "popularity": 11952,
     "trend": 2311,
     "licenses": [
@@ -6813,6 +6813,16 @@
           {
             "path": "{scriptsDir}/@Basic_S.anm2",
             "XXH3_128": "7d173cad49db038cdf919dbfa5d2b132"
+          }
+        ]
+      },
+      {
+        "version": "v2.90",
+        "release_date": "2026-09-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Basic_S.anm2",
+            "XXH3_128": "0883e46b9d740f3a6a651cc6338ce533"
           }
         ]
       }
@@ -13014,7 +13024,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_WhiteBalance_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_WhiteBalance_S",
-    "latest-version": "v1.01-for-beta51",
+    "latest-version": "v1.10",
     "popularity": 1787,
     "trend": 87,
     "licenses": [
@@ -13108,6 +13118,16 @@
           {
             "path": "{scriptsDir}/@WhiteBalance_S.anm2",
             "XXH3_128": "1fecf5b5e9ba62d10714fb5dec7b9651"
+          }
+        ]
+      },
+      {
+        "version": "v1.10",
+        "release_date": "2026-09-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/@WhiteBalance_S.anm2",
+            "XXH3_128": "83fefa3d6124a99cbfb54d58dfda7bff"
           }
         ]
       }
@@ -32954,7 +32974,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_translations_sigma-axis/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_translations_sigma-axis",
-    "latest-version": "r54",
+    "latest-version": "r55",
     "popularity": 145,
     "trend": 58,
     "licenses": [
@@ -33382,6 +33402,16 @@
           {
             "path": "{dataDir}/Language/English.sigma-axis.aul2",
             "XXH3_128": "5c2928abe5b0c81da2927dfc6a36bcab"
+          }
+        ]
+      },
+      {
+        "version": "r55",
+        "release_date": "2026-09-22",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.sigma-axis.aul2",
+            "XXH3_128": "a0f5f16418ddc01bbc701dc3d7e3bdb4"
           }
         ]
       }
@@ -48432,12 +48462,21 @@
           "action": "copy",
           "from": "{tmp}/無印ノイズ.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/aviutl_noise_table.png",
+          "to": "{scriptsDir}"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/無印ノイズ.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/aviutl_noise_table.png"
         }
       ]
     },
