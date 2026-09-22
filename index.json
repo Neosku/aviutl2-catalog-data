@@ -48411,5 +48411,86 @@
         ]
       }
     ]
+  },
+  {
+    "id": "NeAc.AviUtlNoise",
+    "name": "無印ノイズ",
+    "type": "スクリプト",
+    "summary": "AviUtl無印のノイズを再現するスクリプト",
+    "description": "./md/NeAc.AviUtlNoise.md",
+    "author": "猫愛",
+    "originalAuthor": "ＫＥＮくん",
+    "repoURL": "https://github.com/nea-c/aviutl2_script_AviUtlNoise",
+    "latest-version": "r1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "NeAc"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "加工",
+      "ノイズ"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nea-c",
+          "repo": "aviutl2_script_AviUtlNoise",
+          "pattern": "^AviUtlNoise\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/無印ノイズ.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/aviutl_noise_table.png",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/無印ノイズ.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/aviutl_noise_table.png"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r1",
+        "release_date": "2026-09-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/無印ノイズ.anm2",
+            "XXH3_128": "8e000f154b1bdd026056ce6c1a7a2360"
+          }
+        ]
+      }
+    ]
   }
 ]
