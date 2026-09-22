@@ -48582,5 +48582,72 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Kurolium.Random_Figure",
+    "name": "ランダム多角形",
+    "type": "スクリプト",
+    "summary": "アニメの四隅のどこかにありそうな感じのよさげな多角形を生成します",
+    "description": "./md/Kurolium.Random_Figure.md",
+    "author": "Kurolium",
+    "repoURL": "https://kurolium.booth.pm/items/8883822",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "niconiCommonsId": "nc506081",
+    "tags": [
+      "画像",
+      "図形"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/Kurolium.Random_Figure_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/9721570?variation_id=14845780"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/ランダム多角形.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ランダム多角形.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-09-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/ランダム多角形.obj2",
+            "XXH3_128": "453c9499d447a9e7be87b2f21671e6d6"
+          }
+        ]
+      }
+    ]
   }
 ]
