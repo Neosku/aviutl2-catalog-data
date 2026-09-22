@@ -443,7 +443,7 @@
   },
   {
     "id": "sigma-axis.Basic_S",
-    "latest-version": "v2.88",
+    "latest-version": "v2.90",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_Basic_S",
@@ -1039,7 +1039,7 @@
   },
   {
     "id": "sigma-axis.WhiteBalance_S",
-    "latest-version": "v1.01-for-beta51",
+    "latest-version": "v1.10",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_script_WhiteBalance_S",
@@ -2658,7 +2658,7 @@
   },
   {
     "id": "sigma-axis.translations_sigma-axis",
-    "latest-version": "r54",
+    "latest-version": "r55",
     "checkType": {
       "type": "GitHub",
       "repo": "sigma-axis/aviutl2_translations_sigma-axis",
