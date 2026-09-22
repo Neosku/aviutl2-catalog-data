@@ -32983,7 +32983,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_translations_sigma-axis/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_translations_sigma-axis",
-    "latest-version": "r54",
+    "latest-version": "r55",
     "popularity": 145,
     "trend": 58,
     "licenses": [
@@ -33411,6 +33411,16 @@
           {
             "path": "{dataDir}/Language/English.sigma-axis.aul2",
             "XXH3_128": "5c2928abe5b0c81da2927dfc6a36bcab"
+          }
+        ]
+      },
+      {
+        "version": "r55",
+        "release_date": "2026-09-22",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.sigma-axis.aul2",
+            "XXH3_128": "a0f5f16418ddc01bbc701dc3d7e3bdb4"
           }
         ]
       }
@@ -48369,7 +48379,11 @@
       "アニメーション"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/NeAc.SpeedLine_thumbnail.webp"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -48406,6 +48420,164 @@
           {
             "path": "{scriptsDir}/スピード線.obj2",
             "XXH3_128": "e6703a73eb84b190ec2f86bdb3cc012b"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "NeAc.AviUtlNoise",
+    "name": "無印ノイズ",
+    "type": "スクリプト",
+    "summary": "AviUtl無印のノイズを再現するスクリプト",
+    "description": "./md/NeAc.AviUtlNoise.md",
+    "author": "猫愛",
+    "originalAuthor": "ＫＥＮくん",
+    "repoURL": "https://github.com/nea-c/aviutl2_script_AviUtlNoise",
+    "latest-version": "r1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "NeAc"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "加工",
+      "ノイズ"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nea-c",
+          "repo": "aviutl2_script_AviUtlNoise",
+          "pattern": "^AviUtlNoise\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/無印ノイズ.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/aviutl_noise_table.png",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/無印ノイズ.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/aviutl_noise_table.png"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r1",
+        "release_date": "2026-09-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/無印ノイズ.anm2",
+            "XXH3_128": "8e000f154b1bdd026056ce6c1a7a2360"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "NeAc.LongShadowN",
+    "name": "LongShadowN",
+    "type": "スクリプト",
+    "summary": "3種類のロングシャドウを作成できるスクリプト",
+    "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_LongShadowN/refs/heads/master/README.md",
+    "author": "猫愛",
+    "repoURL": "https://github.com/nea-c/aviutl2_script_LongShadowN",
+    "latest-version": "r3",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "Apache-2.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "NeAc"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "加工",
+      "影",
+      "画像",
+      "エフェクト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/NeAc.LongShadowN_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nea-c",
+          "repo": "aviutl2_script_LongShadowN",
+          "pattern": "^LongShadowN\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/LongShadowN.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/LongShadowN.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r3",
+        "release_date": "2026-09-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/LongShadowN.anm2",
+            "XXH3_128": "5ae098261a3fd535470e560f90b5b3a7"
           }
         ]
       }
