@@ -48432,12 +48432,21 @@
           "action": "copy",
           "from": "{tmp}/無印ノイズ.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/aviutl_noise_table.png",
+          "to": "{scriptsDir}"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/無印ノイズ.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/aviutl_noise_table.png"
         }
       ]
     },
