@@ -48492,5 +48492,82 @@
         ]
       }
     ]
+  },
+  {
+    "id": "NeAc.LongShadowN",
+    "name": "LongShadowN",
+    "type": "スクリプト",
+    "summary": "3種類のロングシャドウを作成できるスクリプト",
+    "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_LongShadowN/refs/heads/master/README.md",
+    "author": "猫愛",
+    "repoURL": "https://github.com/nea-c/aviutl2_script_LongShadowN",
+    "latest-version": "r3",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "Apache-2.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "NeAc"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "加工",
+      "影",
+      "画像",
+      "エフェクト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/NeAc.LongShadowN_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nea-c",
+          "repo": "aviutl2_script_LongShadowN",
+          "pattern": "^LongShadowN\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/LongShadowN.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/LongShadowN.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r3",
+        "release_date": "2026-09-22",
+        "file": [
+          {
+            "path": "{scriptsDir}/LongShadowN.anm2",
+            "XXH3_128": "5ae098261a3fd535470e560f90b5b3a7"
+          }
+        ]
+      }
+    ]
   }
 ]
