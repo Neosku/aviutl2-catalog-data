@@ -13083,6 +13083,11 @@
           "action": "copy",
           "from": "{tmp}/Script/WhiteBalance_S/README.md",
           "to": "{scriptsDir}/WhiteBalance_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.WhiteBalance_S.aul2",
+          "to": "{dataDir}/Language"
         }
       ],
       "uninstall": [
@@ -13097,6 +13102,10 @@
         {
           "action": "delete",
           "path": "{scriptsDir}/WhiteBalance_S/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.WhiteBalance_S.aul2"
         }
       ]
     },
