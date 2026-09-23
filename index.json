@@ -48649,5 +48649,84 @@
         ]
       }
     ]
+  },
+  {
+    "id": "NeAc.MorphBridge",
+    "name": "シネマスコープ",
+    "type": "汎用プラグイン",
+    "summary": "前後オブジェクトのシルエットをモーフィングするメディアオブジェクト",
+    "description": "https://raw.githubusercontent.com/nea-c/aviutl2_plugin_MorphBridge/refs/heads/master/README.md",
+    "author": "猫愛",
+    "repoURL": "https://github.com/nea-c/aviutl2_plugin_MorphBridge",
+    "latest-version": "r1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "Apache-2.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "NeAc"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト",
+      "アニメーション",
+      "加工",
+      "図形",
+      "トランジション",
+      "オブジェクト操作"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/NeAc.MorphBridge_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nea-c",
+          "repo": "aviutl2_plugin_MorphBridge",
+          "pattern": "^MorphBridge-.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/MorphBridge/MorphBridge.aux2",
+          "to": "{pluginsDir}/MorphBridge"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/MorphBridge/MorphBridge.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r1",
+        "release_date": "2026-09-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/MorphBridge/MorphBridge.aux2",
+            "XXH3_128": "3766bde5632f73244dfbc0ec8e41bb3f"
+          }
+        ]
+      }
+    ]
   }
 ]
