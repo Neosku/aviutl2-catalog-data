@@ -48663,5 +48663,346 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sevenc-nanashi.rikky_modoki-anm2",
+    "name": "rikky_modoki.aux2",
+    "type": "汎用プラグイン",
+    "summary": "rikky_moduleっぽいの（互換用）",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/rikky_modoki.aux2/refs/heads/main/README.md",
+    "author": "Nanashi.",
+    "originalAuthor": "rikky",
+    "repoURL": "https://github.com/sevenc-nanashi/rikky_modoki.aux2",
+    "latest-version": "0.5.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT License\r\n\r\nCopyright (c) 2026 Nanashi. <sevenc7c.com>\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/sevenc-nanashi.rikky_modoki-anm2_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "rikky_modoki.aux2",
+          "pattern": "^sevenc-nanashi\\.rikky_modoki-aux2-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/rikky_modoki/rikky_modoki.aux2",
+          "to": "{pluginsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@rikky_modoki.aux2.obj2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_modoki/audio.lua",
+          "to": "{scriptsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_modoki/camera.lua",
+          "to": "{scriptsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_modoki/color.lua",
+          "to": "{scriptsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_modoki/common.lua",
+          "to": "{scriptsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_modoki/dialog.lua",
+          "to": "{scriptsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_modoki/draw_common.lua",
+          "to": "{scriptsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_modoki/effect.lua",
+          "to": "{scriptsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_modoki/glass.lua",
+          "to": "{scriptsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_modoki/image.lua",
+          "to": "{scriptsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_modoki/info.lua",
+          "to": "{scriptsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_modoki/init.lua",
+          "to": "{scriptsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_modoki/material.lua",
+          "to": "{scriptsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_modoki/material_common.lua",
+          "to": "{scriptsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_modoki/material_ex.lua",
+          "to": "{scriptsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_modoki/math3d.lua",
+          "to": "{scriptsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_modoki/text.lua",
+          "to": "{scriptsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_modoki/transform.lua",
+          "to": "{scriptsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_modoki/ui.lua",
+          "to": "{scriptsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_modoki/utility.lua",
+          "to": "{scriptsDir}/rikky_modoki"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/rikky_module.lua",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_module.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_modoki/utility.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_modoki/ui.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_modoki/transform.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_modoki/text.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_modoki/math3d.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_modoki/material_ex.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_modoki/material_common.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_modoki/material.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_modoki/init.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_modoki/info.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_modoki/image.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_modoki/glass.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_modoki/effect.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_modoki/draw_common.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_modoki/dialog.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_modoki/common.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_modoki/color.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_modoki/camera.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/rikky_modoki/audio.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@rikky_modoki.aux2.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/rikky_modoki/rikky_modoki.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.5.1",
+        "release_date": "2026-09-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/rikky_modoki/rikky_modoki.aux2",
+            "XXH3_128": "2cfb9d6456c35fe9118d31f91c3ece76"
+          },
+          {
+            "path": "{scriptsDir}/@rikky_modoki.aux2.obj2",
+            "XXH3_128": "b098a4c06a32c0df9719e9f473812290"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/audio.lua",
+            "XXH3_128": "5740a645650e700949d436f10188fb9f"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/camera.lua",
+            "XXH3_128": "0a4b5ff4ac7fa36a4d03a1667194d9e1"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/color.lua",
+            "XXH3_128": "f9e6e60018a7532d6e52d852cbae9c43"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/common.lua",
+            "XXH3_128": "d34032dc4938775be2703c91de8ab9a5"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/dialog.lua",
+            "XXH3_128": "5e10ef66cb1fd2251db3c50e206d2bf5"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/draw_common.lua",
+            "XXH3_128": "6c6f38754ea32b491babee0db639b6f5"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/effect.lua",
+            "XXH3_128": "94b3b29e3f5bd0c19d60b27857aeabd5"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/glass.lua",
+            "XXH3_128": "a2e20afe6b2c64572288c99cc61f4031"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/image.lua",
+            "XXH3_128": "4728c10b31bd53529d622f1f5df7bf11"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/info.lua",
+            "XXH3_128": "a8dc0b7ccce16cefca5bd94590c227ae"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/init.lua",
+            "XXH3_128": "a620796445397e77d005603154f42f67"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/material.lua",
+            "XXH3_128": "736a9614c86d7c00ff42942fa601b335"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/material_common.lua",
+            "XXH3_128": "577b5236d7fe838df8ed30f2c8794077"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/material_ex.lua",
+            "XXH3_128": "ff85bbad0c5d04d393d30ef41aca608c"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/math3d.lua",
+            "XXH3_128": "ca5863e639ee2fafb973f13555f95aa0"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/text.lua",
+            "XXH3_128": "c5582143575d5b1e7c8115a7d83c46f7"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/transform.lua",
+            "XXH3_128": "8c7da1d4ceb99f77a7e42e61c8d1c307"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/ui.lua",
+            "XXH3_128": "b0638f60594aab864deeceef74affd0e"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/utility.lua",
+            "XXH3_128": "bb5587066514a7e7048fdf5a748b1371"
+          },
+          {
+            "path": "{scriptsDir}/rikky_module.lua",
+            "XXH3_128": "0a17decbc977641ce0749d099833eec5"
+          }
+        ]
+      }
+    ]
   }
 ]
