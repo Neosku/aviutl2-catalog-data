@@ -48371,7 +48371,7 @@
     "author": "猫愛",
     "originalAuthor": "Nagomiku",
     "repoURL": "https://github.com/nea-c/aviutl2_script_SpeedLine",
-    "latest-version": "r1",
+    "latest-version": "r3",
     "popularity": 122,
     "trend": 122,
     "licenses": [
@@ -48434,6 +48434,16 @@
           {
             "path": "{scriptsDir}/スピード線.obj2",
             "XXH3_128": "e6703a73eb84b190ec2f86bdb3cc012b"
+          }
+        ]
+      },
+      {
+        "version": "r3",
+        "release_date": "2026-09-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/スピード線.obj2",
+            "XXH3_128": "00a7c5ac3ed4c05eb1958dce1962ef4d"
           }
         ]
       }
@@ -48528,7 +48538,7 @@
     "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_LongShadowN/refs/heads/master/README.md",
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_script_LongShadowN",
-    "latest-version": "r3",
+    "latest-version": "r12",
     "popularity": 48,
     "trend": 48,
     "licenses": [
@@ -48592,6 +48602,16 @@
           {
             "path": "{scriptsDir}/LongShadowN.anm2",
             "XXH3_128": "5ae098261a3fd535470e560f90b5b3a7"
+          }
+        ]
+      },
+      {
+        "version": "r12",
+        "release_date": "2026-09-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/LongShadowN.anm2",
+            "XXH3_128": "d583bbaa173f75b2ca9300017d98e413"
           }
         ]
       }
