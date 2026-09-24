@@ -48742,5 +48742,75 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sagami121.NEF-Input",
+    "name": "NEF Input Plugin",
+    "type": "入力プラグイン",
+    "summary": "NEF入力プラグイン",
+    "description": "./md/sagami121.NEF-Input.md",
+    "author": "3aGaM1",
+    "repoURL": "https://github.com/sagami121/NEF-Input",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "3aGaM1"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "画像"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sagami121",
+          "repo": "NEF-Input",
+          "pattern": "^NEF-Input.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/nef_input.aui2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/nef_input.aui2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-09-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/nef_input.aui2",
+            "XXH3_128": "03f178bf02ee6abd1aff213514c084a5"
+          }
+        ]
+      }
+    ]
   }
 ]
