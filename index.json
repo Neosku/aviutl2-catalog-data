@@ -48371,7 +48371,7 @@
     "author": "猫愛",
     "originalAuthor": "Nagomiku",
     "repoURL": "https://github.com/nea-c/aviutl2_script_SpeedLine",
-    "latest-version": "r1",
+    "latest-version": "r3",
     "popularity": 153,
     "trend": 154,
     "licenses": [
@@ -48434,6 +48434,16 @@
           {
             "path": "{scriptsDir}/スピード線.obj2",
             "XXH3_128": "e6703a73eb84b190ec2f86bdb3cc012b"
+          }
+        ]
+      },
+      {
+        "version": "r3",
+        "release_date": "2026-09-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/スピード線.obj2",
+            "XXH3_128": "00a7c5ac3ed4c05eb1958dce1962ef4d"
           }
         ]
       }
@@ -48528,7 +48538,7 @@
     "description": "https://raw.githubusercontent.com/nea-c/aviutl2_script_LongShadowN/refs/heads/master/README.md",
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_script_LongShadowN",
-    "latest-version": "r3",
+    "latest-version": "r14",
     "popularity": 63,
     "trend": 64,
     "licenses": [
@@ -48592,6 +48602,16 @@
           {
             "path": "{scriptsDir}/LongShadowN.anm2",
             "XXH3_128": "5ae098261a3fd535470e560f90b5b3a7"
+          }
+        ]
+      },
+      {
+        "version": "r14",
+        "release_date": "2026-09-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/LongShadowN.anm2",
+            "XXH3_128": "102f22394a55f7354293524a3e64ebe8"
           }
         ]
       }
@@ -48672,7 +48692,7 @@
     "description": "https://raw.githubusercontent.com/nea-c/aviutl2_plugin_MorphBridge/refs/heads/master/README.md",
     "author": "猫愛",
     "repoURL": "https://github.com/nea-c/aviutl2_plugin_MorphBridge",
-    "latest-version": "r1",
+    "latest-version": "r4",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -48738,6 +48758,16 @@
           {
             "path": "{pluginsDir}/MorphBridge/MorphBridge.aux2",
             "XXH3_128": "3766bde5632f73244dfbc0ec8e41bb3f"
+          }
+        ]
+      },
+      {
+        "version": "r4",
+        "release_date": "2026-09-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/MorphBridge/MorphBridge.aux2",
+            "XXH3_128": "e53addd3bcbc6483b071dfa83656e372"
           }
         ]
       }
@@ -48822,7 +48852,7 @@
     "author": "Nanashi.",
     "originalAuthor": "rikky",
     "repoURL": "https://github.com/sevenc-nanashi/rikky_modoki.aux2",
-    "latest-version": "0.5.1",
+    "latest-version": "0.6.1",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -49151,6 +49181,100 @@
             "XXH3_128": "0a17decbc977641ce0749d099833eec5"
           }
         ]
+      },
+      {
+        "version": "0.6.1",
+        "release_date": "2026-09-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/rikky_modoki/rikky_modoki.aux2",
+            "XXH3_128": "b5e76bcbef35ec5c38a01d8292cf4580"
+          },
+          {
+            "path": "{scriptsDir}/@rikky_modoki.aux2.obj2",
+            "XXH3_128": "b098a4c06a32c0df9719e9f473812290"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/audio.lua",
+            "XXH3_128": "994700511181865c074aa65f1d06333f"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/camera.lua",
+            "XXH3_128": "9ab6969ed3592818223c6d7d1becc7a7"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/color.lua",
+            "XXH3_128": "3785cb866d604ae52ad4244f09ba7af4"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/common.lua",
+            "XXH3_128": "d34032dc4938775be2703c91de8ab9a5"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/dialog.lua",
+            "XXH3_128": "2d4a2c79b54079a5691ab2276d7368cb"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/draw_common.lua",
+            "XXH3_128": "babd42f6450b3ed0c4cdae4d909dbd48"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/effect.lua",
+            "XXH3_128": "4da8c6db76afb52d320b5b06033b655e"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/glass.lua",
+            "XXH3_128": "adf3bbe28cf95fd77e0aa78fe01523d6"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/image.lua",
+            "XXH3_128": "4728c10b31bd53529d622f1f5df7bf11"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/info.lua",
+            "XXH3_128": "a2b241090c38b591c80ecf0381a3c5a4"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/init.lua",
+            "XXH3_128": "a620796445397e77d005603154f42f67"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/material.lua",
+            "XXH3_128": "2545e117924617d2d7cd1f1bdb351167"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/material_common.lua",
+            "XXH3_128": "26d7db0acae4dd819a870bf3b241ab88"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/material_ex.lua",
+            "XXH3_128": "61100d7f7bfb2b81ce296ff1d46fc48b"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/math3d.lua",
+            "XXH3_128": "fbf466682416c6e3d91a0a31a83770e5"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/text.lua",
+            "XXH3_128": "c5582143575d5b1e7c8115a7d83c46f7"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/transform.lua",
+            "XXH3_128": "687b628ba2c509229fa22845a8df2ec2"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/ui.lua",
+            "XXH3_128": "b0638f60594aab864deeceef74affd0e"
+          },
+          {
+            "path": "{scriptsDir}/rikky_modoki/utility.lua",
+            "XXH3_128": "5317dce285841a978481fba0a4f5f630"
+          },
+          {
+            "path": "{scriptsDir}/rikky_module.lua",
+            "XXH3_128": "0a17decbc977641ce0749d099833eec5"
+          }
+        ]
       }
     ]
   },
@@ -49162,7 +49286,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_Lyrics/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/SYNC_Lyrics/",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -49219,6 +49343,16 @@
           {
             "path": "{pluginsDir}/SYNC_Lyrics/SYNC_Lyrics_Filter.auf2",
             "XXH3_128": "975fcc38dcfc14e26f83a7487c5f9743"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-09-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_Lyrics/SYNC_Lyrics_Filter.auf2",
+            "XXH3_128": "75b0ad80461349af151a8a53f502cbce"
           }
         ]
       }
