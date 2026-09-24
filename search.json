@@ -4728,5 +4728,187 @@
         }
       ]
     }
+  },
+  {
+    "id": "NeAc.SpeedLine",
+    "latest-version": "r1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nea-c/aviutl2_script_SpeedLine",
+      "regex": "^SpeedLine\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "スピード線.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/スピード線.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "NeAc.AviUtlNoise",
+    "latest-version": "r1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nea-c/aviutl2_script_AviUtlNoise",
+      "regex": "^AviUtlNoise\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "無印ノイズ.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/無印ノイズ.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "NeAc.LongShadowN",
+    "latest-version": "r3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nea-c/aviutl2_script_LongShadowN",
+      "regex": "^LongShadowN\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "LongShadowN.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/LongShadowN.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "NeAc.MorphBridge",
+    "latest-version": "r1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nea-c/aviutl2_plugin_MorphBridge",
+      "regex": "^MorphBridge-.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/MorphBridge/MorphBridge.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/MorphBridge/MorphBridge.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sagami121.NEF-Input",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sagami121/NEF-Input",
+      "regex": "^NEF-Input.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/nef_input.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/nef_input.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.rikky_modoki-anm2",
+    "latest-version": "0.5.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/rikky_modoki.aux2",
+      "regex": "^sevenc-nanashi\\.rikky_modoki-aux2-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/rikky_modoki/rikky_modoki.aux2",
+            "Script/@rikky_modoki.aux2.obj2",
+            "Script/rikky_modoki/audio.lua",
+            "Script/rikky_modoki/camera.lua",
+            "Script/rikky_modoki/color.lua",
+            "Script/rikky_modoki/common.lua",
+            "Script/rikky_modoki/dialog.lua",
+            "Script/rikky_modoki/draw_common.lua",
+            "Script/rikky_modoki/effect.lua",
+            "Script/rikky_modoki/glass.lua",
+            "Script/rikky_modoki/image.lua",
+            "Script/rikky_modoki/info.lua",
+            "Script/rikky_modoki/init.lua",
+            "Script/rikky_modoki/material.lua",
+            "Script/rikky_modoki/material_common.lua",
+            "Script/rikky_modoki/material_ex.lua",
+            "Script/rikky_modoki/math3d.lua",
+            "Script/rikky_modoki/text.lua",
+            "Script/rikky_modoki/transform.lua",
+            "Script/rikky_modoki/ui.lua",
+            "Script/rikky_modoki/utility.lua",
+            "Script/rikky_module.lua"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/rikky_modoki/rikky_modoki.aux2",
+            "{scriptsDir}/@rikky_modoki.aux2.obj2",
+            "{scriptsDir}/rikky_modoki/audio.lua",
+            "{scriptsDir}/rikky_modoki/camera.lua",
+            "{scriptsDir}/rikky_modoki/color.lua",
+            "{scriptsDir}/rikky_modoki/common.lua",
+            "{scriptsDir}/rikky_modoki/dialog.lua",
+            "{scriptsDir}/rikky_modoki/draw_common.lua",
+            "{scriptsDir}/rikky_modoki/effect.lua",
+            "{scriptsDir}/rikky_modoki/glass.lua",
+            "{scriptsDir}/rikky_modoki/image.lua",
+            "{scriptsDir}/rikky_modoki/info.lua",
+            "{scriptsDir}/rikky_modoki/init.lua",
+            "{scriptsDir}/rikky_modoki/material.lua",
+            "{scriptsDir}/rikky_modoki/material_common.lua",
+            "{scriptsDir}/rikky_modoki/material_ex.lua",
+            "{scriptsDir}/rikky_modoki/math3d.lua",
+            "{scriptsDir}/rikky_modoki/text.lua",
+            "{scriptsDir}/rikky_modoki/transform.lua",
+            "{scriptsDir}/rikky_modoki/ui.lua",
+            "{scriptsDir}/rikky_modoki/utility.lua",
+            "{scriptsDir}/rikky_module.lua"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Lyrics",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_Lyrics",
+      "regex": "^SYNC_Lyrics\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_Lyrics/SYNC_Lyrics_Filter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_Lyrics/SYNC_Lyrics_Filter.auf2"
+          ]
+        }
+      ]
+    }
   }
 ]
