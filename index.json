@@ -49401,5 +49401,89 @@
         ]
       }
     ]
+  },
+  {
+    "id": "tikubonn.NostalgiaFilter",
+    "name": "ノスタルジーフィルタ",
+    "type": "スクリプト",
+    "summary": "オブジェの色調を昔のカラーテレビのようなノスタルジーな風合いにします。",
+    "description": "./md/tikubonn.NostalgiaFilter.md",
+    "author": "ちくぼん",
+    "repoURL": "https://tikubonn.booth.pm/items/8901638",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "------------------------\nNostalgia Filter License\n------------------------\n\nCopyright (c) 2026 tikubonn\n\nノスタルジーフィルタスクリプト(以降、本ソフトウェアと呼称する)を利用する際には、必ずこれらの規約を遵守してください。\n\n* 本ソフトウェアの改変を許可します。\n* 本ソフトウェアの改変の有無に関わらず、本ソフトウェアとその派生物の再配布を禁止します。\n* 本ソフトウェアの利用により生じた直接的・間接的な損害について、当方は一切の責任を負いません。\n  本ソフトウェアは現状有姿で提供され、その正確性や適合性を保証するものではありません。\n* 本ソフトウェアによって生成された成果物を商用・非商用に関わらず自由に配布することができます。\n* 本ソフトウェアによって生成された成果物を配布する際にクレジット表記をする必要はありません。\n* 本利用規約は予告なく変更される場合があります。\n\n---------------------------------\nAviUtl ExEdit2 Plugin SDK License\n---------------------------------\n\nThe MIT License\n\nCopyright (c) 2025 Kenkun\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n\n---------------\nfltlib2 License\n---------------\n\nCopyright (c) 2026 tikubonn\n\n------------\nGLFW License\n------------\n\n* GLFW 3.3 - www.glfw.org\n * A library for OpenGL, window and input\n *------------------------------------------------------------------------\n * Copyright (c) 2002-2006 Marcus Geelnard\n * Copyright (c) 2006-2019 Camilla Löwy <elmindreda@glfw.org>\n *\n * This software is provided 'as-is', without any express or implied\n * warranty. In no event will the authors be held liable for any damages\n * arising from the use of this software.\n *\n * Permission is granted to anyone to use this software for any purpose,\n * including commercial applications, and to alter it and redistribute it\n * freely, subject to the following restrictions:\n *\n * 1. The origin of this software must not be misrepresented; you must not\n *    claim that you wrote the original software. If you use this software\n *    in a product, an acknowledgment in the product documentation would\n *    be appreciated but is not required.\n *\n * 2. Altered source versions must be plainly marked as such, and must not\n *    be misrepresented as being the original software.\n *\n * 3. This notice may not be removed or altered from any source\n *    distribution.\n *\n\n------------\nGLEW License\n------------\n\n /*\n** The OpenGL Extension Wrangler Library\n** Copyright (C) 2008-2017, Nigel Stewart <nigels[]users sourceforge net>\n** Copyright (C) 2002-2008, Milan Ikits <milan ikits[]ieee org>\n** Copyright (C) 2002-2008, Marcelo E. Magallon <mmagallo[]debian org>\n** Copyright (C) 2002, Lev Povalahev\n** All rights reserved.\n** \n** Redistribution and use in source and binary forms, with or without \n** modification, are permitted provided that the following conditions are met:\n** \n** * Redistributions of source code must retain the above copyright notice, \n**   this list of conditions and the following disclaimer.\n** * Redistributions in binary form must reproduce the above copyright notice, \n**   this list of conditions and the following disclaimer in the documentation \n**   and/or other materials provided with the distribution.\n** * The name of the author may be used to endorse or promote products \n**   derived from this software without specific prior written permission.\n**\n** THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" \n** AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE \n** IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\n** ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE \n** LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR \n** CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF \n** SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\n** INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN\n** CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)\n** ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF\n** THE POSSIBILITY OF SUCH DAMAGE.\n*/\n\n/*\n * Mesa 3-D graphics library\n * Version:  7.0\n *\n * Copyright (C) 1999-2007  Brian Paul   All Rights Reserved.\n *\n * Permission is hereby granted, free of charge, to any person obtaining a\n * copy of this software and associated documentation files (the \"Software\"),\n * to deal in the Software without restriction, including without limitation\n * the rights to use, copy, modify, merge, publish, distribute, sublicense,\n * and/or sell copies of the Software, and to permit persons to whom the\n * Software is furnished to do so, subject to the following conditions:\n *\n * The above copyright notice and this permission notice shall be included\n * in all copies or substantial portions of the Software.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\n * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL\n * BRIAN PAUL BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN\n * AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\n * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n */\n\n/*\n** Copyright (c) 2007 The Khronos Group Inc.\n** \n** Permission is hereby granted, free of charge, to any person obtaining a\n** copy of this software and/or associated documentation files (the\n** \"Materials\"), to deal in the Materials without restriction, including\n** without limitation the rights to use, copy, modify, merge, publish,\n** distribute, sublicense, and/or sell copies of the Materials, and to\n** permit persons to whom the Materials are furnished to do so, subject to\n** the following conditions:\n** \n** The above copyright notice and this permission notice shall be included\n** in all copies or substantial portions of the Materials.\n** \n** THE MATERIALS ARE PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n** EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n** MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\n** IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\n** CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\n** TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\n** MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.\n*/"
+      }
+    ],
+    "tags": [
+      "色ずれ",
+      "色調整",
+      "画像"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/tikubonn.NostalgiaFilter_thumbnail.jpg",
+        "infoImg": [
+          "./image/tikubonn.NostalgiaFilter_1.jpg",
+          "./image/tikubonn.NostalgiaFilter_2.jpg",
+          "./image/tikubonn.NostalgiaFilter_3.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/9749607"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/ノスタルジーフィルタ",
+          "to": "{scriptsDir}/ノスタルジーフィルタ"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ノスタルジーフィルタ"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-09-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/ノスタルジーフィルタ/@ノスタルジーフィルタ.anm2",
+            "XXH3_128": "aaf04bc27089ee0924072fd9acb4d0fc"
+          },
+          {
+            "path": "{scriptsDir}/ノスタルジーフィルタ/NostalgiaFilter.mod2",
+            "XXH3_128": "6c4ca438853ae0f5d6e8529887a21171"
+          },
+          {
+            "path": "{scriptsDir}/ノスタルジーフィルタ/glfw3.dll",
+            "XXH3_128": "f5570063a5936a9469ce8fe32a07f38e"
+          },
+          {
+            "path": "{scriptsDir}/ノスタルジーフィルタ/glew32.dll",
+            "XXH3_128": "9bb24f37d61d1dca3e1d2278a010c35f"
+          }
+        ]
+      }
+    ]
   }
 ]
