@@ -49401,5 +49401,79 @@
         ]
       }
     ]
+  },
+  {
+    "id": "supernyan74.RadialClipping",
+    "name": "放射クリッピング",
+    "type": "スクリプト",
+    "summary": "放射状にオブジェクトをクリッピングします。",
+    "description": "./md/supernyan74.RadialClipping.md",
+    "author": "スーパーNyan",
+    "repoURL": "https://github.com/supernyan74/Radial-Clipping",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "supernyan74"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "クリッピング"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/supernyan74.RadialClipping_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "supernyan74",
+          "repo": "Radial-Clipping",
+          "pattern": "^release\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/放射クリッピング.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/放射クリッピング.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-09-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/放射クリッピング.anm2",
+            "XXH3_128": "17d3ddc75ce06f451b7e77a46c9d7b10"
+          }
+        ]
+      }
+    ]
   }
 ]
