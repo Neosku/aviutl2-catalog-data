@@ -49401,5 +49401,77 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_MVStudio",
+    "name": "MVスタジオ",
+    "type": "フィルタプラグイン",
+    "summary": "今どきのMV制作を支援するプラグイン",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_MVStudio/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_MVStudio/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "テキスト",
+      "アニメーション",
+      "MV",
+      "レイアウト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_MVStudio_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_MVStudio",
+          "pattern": "^SYNC_MVStudio\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_MVStudio",
+          "to": "{pluginsDir}/SYNC_MVStudio"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_MVStudio"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-09-26",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_MVStudio/SYNC_MVStudio_Filter.auf2",
+            "XXH3_128": "10504653db8c68d9c0fa79ccd3017a90"
+          }
+        ]
+      }
+    ]
   }
 ]
