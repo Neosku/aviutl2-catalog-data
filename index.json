@@ -43605,7 +43605,7 @@
     "description": "https://raw.githubusercontent.com/teruyoshii/AviUtl2_Palette_History/refs/heads/main/README.md",
     "author": "てるよし",
     "repoURL": "https://github.com/teruyoshii/AviUtl2_Palette_History",
-    "latest-version": "v1.2",
+    "latest-version": "v1.3",
     "popularity": 292,
     "trend": 51,
     "licenses": [
@@ -43692,6 +43692,16 @@
           {
             "path": "{pluginsDir}/PaletteHistory.aux2",
             "XXH3_128": "14b74a369719c9a444b53eea47ac7cce"
+          }
+        ]
+      },
+      {
+        "version": "v1.3",
+        "release_date": "2026-09-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/PaletteHistory.aux2",
+            "XXH3_128": "04d3514d50b7e516d72729c93e93c1c1"
           }
         ]
       }
