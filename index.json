@@ -7,7 +7,7 @@
     "description": "./md/Kenkun.AviUtlExEdit2.md",
     "author": "ＫＥＮくん",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-    "latest-version": "v2.1.10",
+    "latest-version": "v2.1.11",
     "popularity": 37036,
     "trend": 5322,
     "licenses": [
@@ -30,7 +30,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2_v2.1.10_setup.exe"
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2_v2.1.11_setup.exe"
       },
       "install": [
         {
@@ -907,6 +907,16 @@
           {
             "path": "{appDir}/aviutl2.exe",
             "XXH3_128": "aab61e30e9491288230ddeb0e9bc46c5"
+          }
+        ]
+      },
+      {
+        "version": "v2.1.11",
+        "release_date": "2026-09-27",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "528b5dae6b88bb6628c7a22359f64714"
           }
         ]
       }
@@ -1874,7 +1884,7 @@
     "description": "./md/rigaya.NVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/NVEnc",
-    "latest-version": "9.35",
+    "latest-version": "9.36",
     "popularity": 4385,
     "trend": 927,
     "licenses": [
@@ -2350,6 +2360,16 @@
             "XXH3_128": "72b9ed96a108a768362c967783784e88"
           }
         ]
+      },
+      {
+        "version": "9.36",
+        "release_date": "2026-09-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "327c918cd8775accd8b10938b1410ad3"
+          }
+        ]
       }
     ]
   },
@@ -2361,7 +2381,7 @@
     "description": "./md/rigaya.QSVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/QSVEnc",
-    "latest-version": "8.30",
+    "latest-version": "8.31",
     "popularity": 823,
     "trend": 168,
     "licenses": [
@@ -2767,6 +2787,16 @@
             "XXH3_128": "a5f3650b3d43b7ea48b3aa388d24c106"
           }
         ]
+      },
+      {
+        "version": "8.31",
+        "release_date": "2026-09-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo2",
+            "XXH3_128": "34098eae8e35b7215310c614d3e99b10"
+          }
+        ]
       }
     ]
   },
@@ -2965,7 +2995,7 @@
     "description": "./md/rigaya.VCEEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/VCEEnc",
-    "latest-version": "9.19",
+    "latest-version": "9.20",
     "popularity": 718,
     "trend": 166,
     "licenses": [
@@ -3249,6 +3279,16 @@
           {
             "path": "{pluginsDir}/VCEEnc.auo2",
             "XXH3_128": "9be5cebc50ca46f1c2927dc8e828492e"
+          }
+        ]
+      },
+      {
+        "version": "9.20",
+        "release_date": "2026-09-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/VCEEnc.auo2",
+            "XXH3_128": "31bc135ff814057c643d631f4cfa7f69"
           }
         ]
       }
@@ -48104,6 +48144,7 @@
     ],
     "images": [
       {
+        "thumbnail": "./image/sigma-axis.Lens_S_thumbnail.webp",
         "infoImg": [
           "./image/sigma-axis.Lens_S_1.png"
         ]
@@ -49499,6 +49540,153 @@
           {
             "path": "{pluginsDir}/SYNC_MVStudio/SYNC_MVStudio_Filter.auf2",
             "XXH3_128": "10504653db8c68d9c0fa79ccd3017a90"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "supernyan74.RadialClipping",
+    "name": "放射クリッピング",
+    "type": "スクリプト",
+    "summary": "放射状にオブジェクトをクリッピングします。",
+    "description": "./md/supernyan74.RadialClipping.md",
+    "author": "スーパーNyan",
+    "repoURL": "https://github.com/supernyan74/Radial-Clipping",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "supernyan74"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "クリッピング"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/supernyan74.RadialClipping_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "supernyan74",
+          "repo": "Radial-Clipping",
+          "pattern": "^release\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/放射クリッピング.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/放射クリッピング.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-09-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/放射クリッピング.anm2",
+            "XXH3_128": "17d3ddc75ce06f451b7e77a46c9d7b10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "momo_neeeko.ReuleauxPolygon",
+    "name": "ルーローの多角形",
+    "type": "スクリプト",
+    "summary": "ルーローの多角形のカスタムオブジェクト",
+    "description": "./md/momo_neeeko.ReuleauxPolygon.md",
+    "author": "もも猫",
+    "repoURL": "https://drive.google.com/file/d/1X7q80FYOqJINB2CIKaJ5A9nHXAusRX0r/view?usp=drive_link",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "もも猫"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト",
+      "図形"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/momo_neeeko.ReuleauxPolygon_thumbnail.png",
+        "infoImg": [
+          "./image/momo_neeeko.ReuleauxPolygon_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1X7q80FYOqJINB2CIKaJ5A9nHXAusRX0r"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/ルーローの多角形.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ルーローの多角形.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-09-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/ルーローの多角形.obj2",
+            "XXH3_128": "97bd55aedde18f80b449428c4c7ef57a"
           }
         ]
       }
