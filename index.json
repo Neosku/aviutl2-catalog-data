@@ -36542,7 +36542,7 @@
     "description": "./md/eizo-gak.aviutl2-SourceMonitor.md",
     "author": "映像学区",
     "repoURL": "https://www.youtube.com/watch?v=2SjgBuMDvSM",
-    "latest-version": "2.0.0.1",
+    "latest-version": "2.0.0.2",
     "popularity": 751,
     "trend": 114,
     "licenses": [
@@ -36680,6 +36680,16 @@
       {
         "version": "2.0.0.1",
         "release_date": "2026-08-18",
+        "file": [
+          {
+            "path": "{pluginsDir}/aviutl2-sourcemonitor/SourceMonitor.aux2.dll",
+            "XXH3_128": "7473e31056ed957764b7f2d6881d2017"
+          }
+        ]
+      },
+      {
+        "version": "2.0.0.2",
+        "release_date": "2026-09-28",
         "file": [
           {
             "path": "{pluginsDir}/aviutl2-sourcemonitor/SourceMonitor.aux2.dll",
