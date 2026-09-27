@@ -36542,7 +36542,7 @@
     "description": "./md/eizo-gak.aviutl2-SourceMonitor.md",
     "author": "映像学区",
     "repoURL": "https://www.youtube.com/watch?v=2SjgBuMDvSM",
-    "latest-version": "2.0.0.1",
+    "latest-version": "2.0.0.2",
     "popularity": 751,
     "trend": 114,
     "licenses": [
@@ -36596,28 +36596,28 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Plugin/aviutl2-sourcemonitor/dependencies/avcodec-62.dll",
-          "to": "{pluginsDir}/aviutl2-sourcemonitor/dependencies"
+          "from": "{tmp}/Plugin/aviutl2-sourcemonitor/avcodec-62.dll",
+          "to": "{pluginsDir}/aviutl2-sourcemonitor"
         },
         {
           "action": "copy",
-          "from": "{tmp}/Plugin/aviutl2-sourcemonitor/dependencies/avformat-62.dll",
-          "to": "{pluginsDir}/aviutl2-sourcemonitor/dependencies"
+          "from": "{tmp}/Plugin/aviutl2-sourcemonitor/avformat-62.dll",
+          "to": "{pluginsDir}/aviutl2-sourcemonitor"
         },
         {
           "action": "copy",
-          "from": "{tmp}/Plugin/aviutl2-sourcemonitor/dependencies/avutil-60.dll",
-          "to": "{pluginsDir}/aviutl2-sourcemonitor/dependencies"
+          "from": "{tmp}/Plugin/aviutl2-sourcemonitor/avutil-60.dll",
+          "to": "{pluginsDir}/aviutl2-sourcemonitor"
         },
         {
           "action": "copy",
-          "from": "{tmp}/Plugin/aviutl2-sourcemonitor/dependencies/swresample-6.dll",
-          "to": "{pluginsDir}/aviutl2-sourcemonitor/dependencies"
+          "from": "{tmp}/Plugin/aviutl2-sourcemonitor/swresample-6.dll",
+          "to": "{pluginsDir}/aviutl2-sourcemonitor"
         },
         {
           "action": "copy",
-          "from": "{tmp}/Plugin/aviutl2-sourcemonitor/dependencies/swscale-9.dll",
-          "to": "{pluginsDir}/aviutl2-sourcemonitor/dependencies"
+          "from": "{tmp}/Plugin/aviutl2-sourcemonitor/swscale-9.dll",
+          "to": "{pluginsDir}/aviutl2-sourcemonitor"
         },
         {
           "action": "copy",
@@ -36628,31 +36628,7 @@
       "uninstall": [
         {
           "action": "delete",
-          "path": "{pluginsDir}/aviutl2-sourcemonitor/aviutl2-sourcemonitor-bootstrapper.aux2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/aviutl2-sourcemonitor/dependencies/avcodec-62.dll"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/aviutl2-sourcemonitor/dependencies/avformat-62.dll"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/aviutl2-sourcemonitor/dependencies/avutil-60.dll"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/aviutl2-sourcemonitor/dependencies/swresample-6.dll"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/aviutl2-sourcemonitor/dependencies/swscale-9.dll"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/aviutl2-sourcemonitor/SourceMonitor.aux2.dll"
+          "path": "{pluginsDir}/aviutl2-sourcemonitor"
         }
       ]
     },
@@ -36684,6 +36660,40 @@
           {
             "path": "{pluginsDir}/aviutl2-sourcemonitor/SourceMonitor.aux2.dll",
             "XXH3_128": "7473e31056ed957764b7f2d6881d2017"
+          }
+        ]
+      },
+      {
+        "version": "2.0.0.2",
+        "release_date": "2026-09-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/aviutl2-sourcemonitor/avcodec-62.dll",
+            "XXH3_128": "91faec481580708bea47b0572717283d"
+          },
+          {
+            "path": "{pluginsDir}/aviutl2-sourcemonitor/avformat-62.dll",
+            "XXH3_128": "fb06808159c78c5cd4b90e50c4f9ffa6"
+          },
+          {
+            "path": "{pluginsDir}/aviutl2-sourcemonitor/aviutl2-sourcemonitor-bootstrapper.aux2",
+            "XXH3_128": "ef73de11df7423b409b7809642279e7a"
+          },
+          {
+            "path": "{pluginsDir}/aviutl2-sourcemonitor/avutil-60.dll",
+            "XXH3_128": "adcf8d3a2b1187603b9bc840b7937800"
+          },
+          {
+            "path": "{pluginsDir}/aviutl2-sourcemonitor/SourceMonitor.aux2.dll",
+            "XXH3_128": "7473e31056ed957764b7f2d6881d2017"
+          },
+          {
+            "path": "{pluginsDir}/aviutl2-sourcemonitor/swresample-6.dll",
+            "XXH3_128": "171be3615f70641b91758a8ba4bb1bbb"
+          },
+          {
+            "path": "{pluginsDir}/aviutl2-sourcemonitor/swscale-9.dll",
+            "XXH3_128": "faab180b4732e09543f762162c8ab76f"
           }
         ]
       }
