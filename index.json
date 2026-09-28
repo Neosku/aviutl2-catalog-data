@@ -49942,5 +49942,116 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sigma-axis.SceneChangeKit_S",
+    "name": "シーンチェンジ自作キット",
+    "type": "スクリプト",
+    "summary": "シーンチェンジを自作できる汎用的なシーンチェンジスクリプト",
+    "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_SceneChangeKit_S/refs/heads/main/README.md",
+    "author": "σ軸",
+    "repoURL": "https://github.com/sigma-axis/aviutl2_script_SceneChangeKit_S",
+    "latest-version": "v1.00",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "Unlicense",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "ss46859392",
+    "tags": [
+      "トランジション",
+      "シーンチェンジ"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/sigma-axis.SceneChangeKit_S_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sigma-axis",
+          "repo": "aviutl2_script_SceneChangeKit_S",
+          "pattern": "^aviutl2_script_SceneChangeKit_S.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/SceneChangeKit_S/@SceneChangeKit_S.obj2",
+          "to": "{scriptsDir}/SceneChangeKit_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/SceneChangeKit_S/@SceneChangeKit_S.scn2",
+          "to": "{scriptsDir}/SceneChangeKit_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/SceneChangeKit_S/LICENSE",
+          "to": "{scriptsDir}/SceneChangeKit_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/SceneChangeKit_S/README.md",
+          "to": "{scriptsDir}/SceneChangeKit_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.SceneChangeKit_S.aul2",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/SceneChangeKit_S/@SceneChangeKit_S.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/SceneChangeKit_S/@SceneChangeKit_S.scn2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/SceneChangeKit_S/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/SceneChangeKit_S/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.SceneChangeKit_S.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.00",
+        "release_date": "2026-09-28",
+        "file": [
+          {
+            "path": "{scriptsDir}/SceneChangeKit_S/@SceneChangeKit_S.scn2",
+            "XXH3_128": "7dc833a2133db6ed13aaeb0fc97f9ba8"
+          },
+          {
+            "path": "{scriptsDir}/SceneChangeKit_S/@SceneChangeKit_S.obj2",
+            "XXH3_128": "a935bbbe6d2059e9c7b89d132aa552e9"
+          }
+        ]
+      }
+    ]
   }
 ]
