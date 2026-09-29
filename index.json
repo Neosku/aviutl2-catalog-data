@@ -49942,5 +49942,218 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sevenc-nanashi.ported_satsuki",
+    "name": "ported_satsuki",
+    "type": "スクリプト",
+    "summary": "さつき氏のスクリプト一式（233個）",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/ported_satsuki/refs/heads/main/README.md",
+    "author": "Nanashi.",
+    "originalAuthor": "さつき",
+    "repoURL": "https://github.com/sevenc-nanashi/ported_satsuki",
+    "latest-version": "0.1.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "ライセンスは未定です。\n（まださつき氏と連絡が取れていない、かつ改変周りの規約が存在しないため...）"
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/sevenc-nanashi.ported_satsuki_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sevenc-nanashi",
+          "repo": "ported_satsuki",
+          "pattern": "^sevenc-nanashi\\.ported_satsuki-v.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.ported_satsuki.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/ported_satsuki_exploder.aux2",
+          "to": "{pluginsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@satsuki.anm2.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@satsuki.obj2.obj2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@satsuki.tra2.tra2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@satsuki.tra2.tra2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@satsuki.obj2.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@satsuki.anm2.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ported_satsuki_exploder.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.ported_satsuki.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.1.1",
+        "release_date": "2026-09-29",
+        "file": [
+          {
+            "path": "{dataDir}/Language/Default.ported_satsuki.aul2",
+            "XXH3_128": "ee4f63347ab6a44b7975fbd7aa4d23e0"
+          },
+          {
+            "path": "{pluginsDir}/ported_satsuki_exploder.aux2",
+            "XXH3_128": "35bd06d1be624ebc97a2b7bfc2016360"
+          },
+          {
+            "path": "{scriptsDir}/@satsuki.anm2.anm2",
+            "XXH3_128": "02a282927ca10f66570e334822af7a15"
+          },
+          {
+            "path": "{scriptsDir}/@satsuki.obj2.obj2",
+            "XXH3_128": "3a6037b4fc13d02c6e4a50a8d5804a33"
+          },
+          {
+            "path": "{scriptsDir}/@satsuki.tra2.tra2",
+            "XXH3_128": "d1afb99e467fdfe574d1fe748941130a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-scripts.bevel_and_emboss-anm2",
+    "name": "ベベルとエンボス.anm2",
+    "type": "スクリプト",
+    "summary": "輪郭に光と影を付けベベル・エンボスを作るスクリプト",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/%E3%83%99%E3%83%99%E3%83%AB%E3%81%A8%E3%82%A8%E3%83%B3%E3%83%9C%E3%82%B9/README.md",
+    "author": "Nanashi.",
+    "originalAuthor": "gometh、Mr-Ojii",
+    "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E3%83%99%E3%83%99%E3%83%AB%E3%81%A8%E3%82%A8%E3%83%B3%E3%83%9C%E3%82%B9/README.md",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT License\n\nCopyright (c) 2025 Nanashi. <sevenc7c.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+      }
+    ],
+    "tags": [
+      "加工",
+      "影"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/sevenc-nanashi.aviutl2-scripts.bevel_and_emboss-anm2_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/ベベルとエンボス.anm2?type=au2pkg&scriptIdOverride=sevenc-nanashi.aviutl2-scripts.bevel_and_emboss-anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.bevel_and_emboss-anm2.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.bevel_and_emboss-anm2.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/ベベルとエンボス.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ベベルとエンボス.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.bevel_and_emboss-anm2.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.bevel_and_emboss-anm2.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-09-29",
+        "file": [
+          {
+            "path": "{dataDir}/Language/Default.bevel_and_emboss-anm2.aul2",
+            "XXH3_128": "ee7203032c556c684d777cae469787a0"
+          },
+          {
+            "path": "{dataDir}/Language/English.bevel_and_emboss-anm2.aul2",
+            "XXH3_128": "146782d20239550f231f19fa2a7ff851"
+          },
+          {
+            "path": "{scriptsDir}/ベベルとエンボス.anm2",
+            "XXH3_128": "223a8176715eea98f34f2f9a2f69af68"
+          }
+        ]
+      }
+    ]
   }
 ]
