@@ -49943,126 +49943,7 @@
       }
     ]
   },
-  {
-    "id": "sevenc-nanashi.ported_satsuki",
-    "name": "ported_satsuki",
-    "type": "スクリプト",
-    "summary": "さつき氏のスクリプト一式（233個）",
-    "description": "https://raw.githubusercontent.com/sevenc-nanashi/ported_satsuki/refs/heads/main/README.md",
-    "author": "Nanashi.",
-    "originalAuthor": "さつき",
-    "repoURL": "https://github.com/sevenc-nanashi/ported_satsuki",
-    "latest-version": "0.1.1",
-    "popularity": 0,
-    "trend": 0,
-    "licenses": [
-      {
-        "type": "カスタムライセンス",
-        "isCustom": true,
-        "copyrights": [],
-        "licenseBody": "ライセンスは未定です。\n（まださつき氏と連絡が取れていない、かつ改変周りの規約が存在しないため...）"
-      }
-    ],
-    "tags": [],
-    "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/sevenc-nanashi.ported_satsuki_thumbnail.webp"
-      }
-    ],
-    "installer": {
-      "source": {
-        "github": {
-          "owner": "sevenc-nanashi",
-          "repo": "ported_satsuki",
-          "pattern": "^sevenc-nanashi\\.ported_satsuki-v.*\\.au2pkg\\.zip$"
-        }
-      },
-      "install": [
-        {
-          "action": "download"
-        },
-        {
-          "action": "extract"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Language/Default.ported_satsuki.aul2",
-          "to": "{dataDir}/Language"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Plugin/ported_satsuki_exploder.aux2",
-          "to": "{pluginsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Script/@satsuki.anm2.anm2",
-          "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Script/@satsuki.obj2.obj2",
-          "to": "{scriptsDir}"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Script/@satsuki.tra2.tra2",
-          "to": "{scriptsDir}"
-        }
-      ],
-      "uninstall": [
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/@satsuki.tra2.tra2"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/@satsuki.obj2.obj2"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/@satsuki.anm2.anm2"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/ported_satsuki_exploder.aux2"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Language/Default.ported_satsuki.aul2"
-        }
-      ]
-    },
-    "version": [
-      {
-        "version": "0.1.1",
-        "release_date": "2026-09-29",
-        "file": [
-          {
-            "path": "{dataDir}/Language/Default.ported_satsuki.aul2",
-            "XXH3_128": "ee4f63347ab6a44b7975fbd7aa4d23e0"
-          },
-          {
-            "path": "{pluginsDir}/ported_satsuki_exploder.aux2",
-            "XXH3_128": "35bd06d1be624ebc97a2b7bfc2016360"
-          },
-          {
-            "path": "{scriptsDir}/@satsuki.anm2.anm2",
-            "XXH3_128": "02a282927ca10f66570e334822af7a15"
-          },
-          {
-            "path": "{scriptsDir}/@satsuki.obj2.obj2",
-            "XXH3_128": "3a6037b4fc13d02c6e4a50a8d5804a33"
-          },
-          {
-            "path": "{scriptsDir}/@satsuki.tra2.tra2",
-            "XXH3_128": "d1afb99e467fdfe574d1fe748941130a"
-          }
-        ]
-      }
-    ]
-  },
+
   {
     "id": "sevenc-nanashi.aviutl2-scripts.bevel_and_emboss-anm2",
     "name": "ベベルとエンボス.anm2",
@@ -50095,7 +49976,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/ベベルとエンボス.anm2?type=au2pkg&scriptIdOverride=sevenc-nanashi.aviutl2-scripts.bevel_and_emboss-anm2"
+        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/ベベルとエンボス.anm2?type=au2pkg"
       },
       "install": [
         {
