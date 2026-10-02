@@ -26431,12 +26431,12 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Syncroh2_Desktop.exe",
+          "from": "{tmp}/Plugin/Syncroh2_Desktop.exe",
           "to": "{pluginsDir}/Syncroh2"
         },
         {
           "action": "copy",
-          "from": "{tmp}/README.txt",
+          "from": "{tmp}/Plugin/README.txt",
           "to": "{pluginsDir}/Syncroh2"
         },
         {
