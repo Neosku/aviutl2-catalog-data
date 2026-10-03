@@ -52221,7 +52221,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_MovingMosaic_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_MovingMosaic_S",
-    "latest-version": "v1.00",
+    "latest-version": "v1.01",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -52308,6 +52308,16 @@
           {
             "path": "{scriptsDir}/MovingMosaic_S/MovingMosaic_S.anm2",
             "XXH3_128": "b5f0cf704b0f1c14fc8407609bd50d92"
+          }
+        ]
+      },
+      {
+        "version": "v1.01",
+        "release_date": "2026-10-03",
+        "file": [
+          {
+            "path": "{scriptsDir}/MovingMosaic_S/MovingMosaic_S.anm2",
+            "XXH3_128": "ea9f84a4e34b9f7351e1690d6a731a65"
           }
         ]
       }
