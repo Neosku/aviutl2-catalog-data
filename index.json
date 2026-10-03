@@ -52565,7 +52565,14 @@
       "音声"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.LoudnessNormalize_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.LoudnessNormalize_H_1.png"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -52716,7 +52723,14 @@
       "便利ツール"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.FileFinder_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.FileFinder_H_1.png"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -52787,7 +52801,11 @@
       "ベクター"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.svg_trace_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -52876,7 +52894,14 @@
       "画像"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.ColoredEchoImg_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.ColoredEchoImg_1.png"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
