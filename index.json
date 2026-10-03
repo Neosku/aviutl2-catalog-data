@@ -50414,51 +50414,37 @@
     ]
   },
   {
-    "id": "nctype.SomethingLikeGlitch",
-    "name": "SomethingLikeGlitch",
+    "id": "HexBrowns.DecoParticle_H",
+    "name": "装飾パーティクル_H",
     "type": "スクリプト",
-    "summary": "グリッチっぽいエフェクト",
-    "description": "https://raw.githubusercontent.com/nctype/aviutl2_script_SomethingLikeGlitch/main/README.md",
-    "author": "nctype",
-    "repoURL": "https://github.com/nctype/aviutl2_script_SomethingLikeGlitch",
-    "latest-version": "v1.0.2",
+    "summary": "オブジェクトの範囲に粒を出しては消す（軽量版）",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E8%A3%85%E9%A3%BE%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%82%AF%E3%83%AB_H.md",
+    "author": "HexBrowns",
+    "originalAuthor": "アス",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
+    "latest-version": "v1.0.0",
     "popularity": 0,
     "trend": 0,
     "licenses": [
       {
-        "type": "MIT",
-        "isCustom": false,
-        "copyrights": [
-          {
-            "years": "2026",
-            "holder": "nctype"
-          }
-        ],
-        "licenseBody": null
+        "type": "その他",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "HexBrowns が改変した部分は MIT No Attribution（Copyright 2026 HexBrowns）。\n原作（アス / AVILITY「装飾パーティクル」）の部分は AVILITY の利用規約に従う。\nhttps://avilityyy.blogspot.com/p/blog-page_83.html"
       }
     ],
     "tags": [
-      "加工",
-      "グリッチ",
-      "色ずれ",
-      "色収差",
-      "変形"
+      "エフェクト",
+      "アニメーション"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/nctype.SomethingLikeGlitch_thumbnail.gif",
-        "infoImg": [
-          "./image/nctype.SomethingLikeGlitch_1.png"
-        ]
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
-          "owner": "nctype",
-          "repo": "aviutl2_script_SomethingLikeGlitch",
-          "pattern": "^SomethingLikeGlitch_v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
         }
       },
       "install": [
@@ -50470,43 +50456,223 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Script/SomethingLikeGlitch/SomethingLikeGlitch.anm2",
-          "to": "{scriptsDir}/SomethingLikeGlitch"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Language/English.SomethingLikeGlitch.aul2",
-          "to": "{dataDir}/Language"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Language/简体中文.SomethingLikeGlitch.aul2",
-          "to": "{dataDir}/Language"
+          "from": "{tmp}/Script/装飾パーティクル_H.anm2",
+          "to": "{scriptsDir}"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{scriptsDir}/SomethingLikeGlitch/SomethingLikeGlitch.anm2"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Language/English.SomethingLikeGlitch.aul2"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Language/简体中文.SomethingLikeGlitch.aul2"
+          "path": "{scriptsDir}/装飾パーティクル_H.anm2"
         }
       ]
     },
     "version": [
       {
-        "version": "v1.0.2",
-        "release_date": "2026-10-02",
+        "version": "v1.0.0",
+        "release_date": "2026-10-03",
         "file": [
           {
-            "path": "{scriptsDir}/SomethingLikeGlitch/SomethingLikeGlitch.anm2",
-            "XXH3_128": "58793c5dcac02af4aa35105672bcf5dc"
+            "path": "{scriptsDir}/装飾パーティクル_H.anm2",
+            "XXH3_128": "365aba7fd5620c73068507bf37f0440a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.TestPattern_H",
+    "name": "検証パターン_H",
+    "type": "スクリプト",
+    "summary": "階調・色相・肌色などのテストパターン9種",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E6%A4%9C%E8%A8%BC%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3_H.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT No Attribution",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT No Attribution\n\nCopyright 2026 HexBrowns\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this\nsoftware and associated documentation files (the \"Software\"), to deal in the Software\nwithout restriction, including without limitation the rights to use, copy, modify,\nmerge, publish, distribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+      }
+    ],
+    "tags": [
+      "便利ツール",
+      "カスタムオブジェクト"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/検証パターン_H.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/検証パターン_H.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-10-03",
+        "file": [
+          {
+            "path": "{scriptsDir}/検証パターン_H.obj2",
+            "XXH3_128": "5d6b3ad3a38ccebca4a6f3aaf8281207"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.RangeWarning_H",
+    "name": "レンジ警告_H",
+    "type": "スクリプト",
+    "summary": "白飛び・黒潰れ・色域外の画素をゼブラで示す",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%83%AC%E3%83%B3%E3%82%B8%E8%AD%A6%E5%91%8A_H.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT No Attribution",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT No Attribution\n\nCopyright 2026 HexBrowns\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this\nsoftware and associated documentation files (the \"Software\"), to deal in the Software\nwithout restriction, including without limitation the rights to use, copy, modify,\nmerge, publish, distribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+      }
+    ],
+    "tags": [
+      "便利ツール",
+      "色調整"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/レンジ警告_H.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/レンジ警告_H.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-10-03",
+        "file": [
+          {
+            "path": "{scriptsDir}/レンジ警告_H.anm2",
+            "XXH3_128": "68489923140a11547534890c69d1411f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.VerticalText",
+    "name": "テキスト縦書き化",
+    "type": "スクリプト",
+    "summary": "文字ごとのオブジェクトのまま横書きを縦書きに並べる",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E7%B8%A6%E6%9B%B8%E3%81%8D%E5%8C%96.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT No Attribution",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT No Attribution\n\nCopyright 2026 HexBrowns\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this\nsoftware and associated documentation files (the \"Software\"), to deal in the Software\nwithout restriction, including without limitation the rights to use, copy, modify,\nmerge, publish, distribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+      }
+    ],
+    "tags": [
+      "テキスト",
+      "配置"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/テキスト縦書き化.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/テキスト縦書き化.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-10-03",
+        "file": [
+          {
+            "path": "{scriptsDir}/テキスト縦書き化.anm2",
+            "XXH3_128": "71e188b8b6fe76b21410f1acba5bbc2c"
           }
         ]
       }
