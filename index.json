@@ -52852,7 +52852,14 @@
       "画像"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/ColoredEchoImg/main/images/ColoredEchoImg_thumbnail.png",
+        "infoImg": [
+          "https://raw.githubusercontent.com/HexBrowns/ColoredEchoImg/main/images/ColoredEchoImg_thumbnail.gif"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
