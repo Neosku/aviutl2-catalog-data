@@ -43970,7 +43970,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/create_control_object.aux2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/create_control_object.aux2",
-    "latest-version": "0.3.0",
+    "latest-version": "0.3.1",
     "popularity": 91,
     "trend": 13,
     "licenses": [
@@ -44069,6 +44069,20 @@
           {
             "path": "{pluginsDir}/create_control_object.aux2",
             "XXH3_128": "88b1d6236454c1f4e8ed9dee90bd881f"
+          }
+        ]
+      },
+      {
+        "version": "0.3.1",
+        "release_date": "2026-10-03",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.create_control_object-aux2.aul2",
+            "XXH3_128": "2644b62128e458a1d869117256e07d82"
+          },
+          {
+            "path": "{pluginsDir}/create_control_object.aux2",
+            "XXH3_128": "0163b868ab5b5b49669b59689baa1805"
           }
         ]
       }
@@ -49611,7 +49625,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_MVStudio/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/SYNC_MVStudio/",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 99,
     "trend": 102,
     "licenses": [
@@ -49670,6 +49684,16 @@
           {
             "path": "{pluginsDir}/SYNC_MVStudio/SYNC_MVStudio_Filter.auf2",
             "XXH3_128": "10504653db8c68d9c0fa79ccd3017a90"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-10-02",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_MVStudio/SYNC_MVStudio_Filter.auf2",
+            "XXH3_128": "cfd63e7bc014f67bcbb13b8d3d6c5402"
           }
         ]
       }
@@ -50300,6 +50324,80 @@
           {
             "path": "{scriptsDir}/ベベルとエンボス.anm2",
             "XXH3_128": "223a8176715eea98f34f2f9a2f69af68"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MIYA.Aup2GapFiller",
+    "name": "Aup2GapFiller",
+    "type": "汎用プラグイン",
+    "summary": "PSDToolKitの字幕の隙間を埋めるプラグイン",
+    "description": "./md/MIYA.Aup2GapFiller.md",
+    "author": "みや",
+    "repoURL": "https://github.com/miya999949/Aup2GapFiller",
+    "latest-version": "v0.6.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "MIYA"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "字幕",
+      "便利ツール",
+      "オブジェクト操作"
+    ],
+    "dependencies": [
+      "oov.PSDToolKit2"
+    ],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "miya999949",
+          "repo": "Aup2GapFiller",
+          "pattern": "^Aup2GapFiller\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Aup2GapFiller",
+          "to": "{pluginsDir}/Aup2GapFiller"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Aup2GapFiller"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.6.0",
+        "release_date": "2026-09-30",
+        "file": [
+          {
+            "path": "{pluginsDir}/Aup2GapFiller/Aup2GapFiller.aux2",
+            "XXH3_128": "ae7d667643a7c9877bb38c9f852ef452"
           }
         ]
       }
