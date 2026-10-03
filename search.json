@@ -799,16 +799,16 @@
   },
   {
     "id": "azurite.GradientPlus",
-    "latest-version": "v1.1.1",
+    "latest-version": "v1.1.2",
     "checkType": {
       "type": "GitHub",
       "repo": "azurite581/AviUtl2-GradientPlus",
-      "regex": "^GradientPlus_v[\\d.]+\\.zip$",
+      "regex": "^GradientPlus.*\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
           "paths": [
-            "グラデーション+.anm2"
+            "Script/グラデーション+.anm2"
           ],
           "recordPaths": [
             "{scriptsDir}/グラデーション+.anm2"
@@ -3061,10 +3061,22 @@
         {
           "extract": "zip",
           "paths": [
-            "Plugin/aviutl2-sourcemonitor/SourceMonitor.aux2.dll"
+            "Plugin/aviutl2-sourcemonitor/avcodec-62.dll",
+            "Plugin/aviutl2-sourcemonitor/avformat-62.dll",
+            "Plugin/aviutl2-sourcemonitor/aviutl2-sourcemonitor-bootstrapper.aux2",
+            "Plugin/aviutl2-sourcemonitor/avutil-60.dll",
+            "Plugin/aviutl2-sourcemonitor/SourceMonitor.aux2.dll",
+            "Plugin/aviutl2-sourcemonitor/swresample-6.dll",
+            "Plugin/aviutl2-sourcemonitor/swscale-9.dll"
           ],
           "recordPaths": [
-            "{pluginsDir}/aviutl2-sourcemonitor/SourceMonitor.aux2.dll"
+            "{pluginsDir}/aviutl2-sourcemonitor/avcodec-62.dll",
+            "{pluginsDir}/aviutl2-sourcemonitor/avformat-62.dll",
+            "{pluginsDir}/aviutl2-sourcemonitor/aviutl2-sourcemonitor-bootstrapper.aux2",
+            "{pluginsDir}/aviutl2-sourcemonitor/avutil-60.dll",
+            "{pluginsDir}/aviutl2-sourcemonitor/SourceMonitor.aux2.dll",
+            "{pluginsDir}/aviutl2-sourcemonitor/swresample-6.dll",
+            "{pluginsDir}/aviutl2-sourcemonitor/swscale-9.dll"
           ]
         }
       ]
@@ -5556,6 +5568,26 @@
           ],
           "recordPaths": [
             "{scriptsDir}/ColoredEchoImg/colored_echo_img.mod2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.ExtendedParticle_H",
+    "latest-version": "v1.1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@拡張パーティクル_H.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@拡張パーティクル_H.anm2"
           ]
         }
       ]
