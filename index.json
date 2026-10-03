@@ -44050,7 +44050,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/create_control_object.aux2/refs/heads/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/create_control_object.aux2",
-    "latest-version": "0.3.0",
+    "latest-version": "0.3.1",
     "popularity": 91,
     "trend": 13,
     "licenses": [
@@ -44149,6 +44149,20 @@
           {
             "path": "{pluginsDir}/create_control_object.aux2",
             "XXH3_128": "88b1d6236454c1f4e8ed9dee90bd881f"
+          }
+        ]
+      },
+      {
+        "version": "0.3.1",
+        "release_date": "2026-10-03",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.create_control_object-aux2.aul2",
+            "XXH3_128": "2644b62128e458a1d869117256e07d82"
+          },
+          {
+            "path": "{pluginsDir}/create_control_object.aux2",
+            "XXH3_128": "0163b868ab5b5b49669b59689baa1805"
           }
         ]
       }
