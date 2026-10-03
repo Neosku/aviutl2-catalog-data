@@ -52541,7 +52541,14 @@
       "音声"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/LoudnessNormalize_H/main/images/LoudnessNormalize_H_thumbnail.png",
+        "infoImg": [
+          "https://raw.githubusercontent.com/HexBrowns/LoudnessNormalize_H/main/images/LoudnessNormalize_H_screen.png"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -52692,7 +52699,14 @@
       "便利ツール"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/FileFinder_H/main/images/FileFinder_H_thumbnail.png",
+        "infoImg": [
+          "https://raw.githubusercontent.com/HexBrowns/FileFinder_H/main/images/FileFinder_H_screen.png"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -52763,7 +52777,11 @@
       "ベクター"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/svg_trace/main/images/svg_trace_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -52852,7 +52870,14 @@
       "画像"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/ColoredEchoImg/main/images/ColoredEchoImg_thumbnail.png",
+        "infoImg": [
+          "https://raw.githubusercontent.com/HexBrowns/ColoredEchoImg/main/images/ColoredEchoImg_thumbnail.gif"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
