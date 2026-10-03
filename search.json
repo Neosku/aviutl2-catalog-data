@@ -4910,5 +4910,655 @@
         }
       ]
     }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_MVStudio",
+    "latest-version": "v1.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_MVStudio",
+      "regex": "^SYNC_MVStudio\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_MVStudio/SYNC_MVStudio_Filter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_MVStudio/SYNC_MVStudio_Filter.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "supernyan74.RadialClipping",
+    "latest-version": "v1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "supernyan74/Radial-Clipping",
+      "regex": "^release\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "放射クリッピング.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/放射クリッピング.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.SceneChangeKit_S",
+    "latest-version": "v1.00",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_SceneChangeKit_S",
+      "regex": "^aviutl2_script_SceneChangeKit_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/SceneChangeKit_S/@SceneChangeKit_S.scn2",
+            "Script/SceneChangeKit_S/@SceneChangeKit_S.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/SceneChangeKit_S/@SceneChangeKit_S.scn2",
+            "{scriptsDir}/SceneChangeKit_S/@SceneChangeKit_S.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sevenc-nanashi.ported_satsuki",
+    "latest-version": "0.1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sevenc-nanashi/ported_satsuki",
+      "regex": "^sevenc-nanashi\\.ported_satsuki-v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Language/Default.ported_satsuki.aul2",
+            "Plugin/ported_satsuki_exploder.aux2",
+            "Script/@satsuki.anm2.anm2",
+            "Script/@satsuki.obj2.obj2",
+            "Script/@satsuki.tra2.tra2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/Default.ported_satsuki.aul2",
+            "{pluginsDir}/ported_satsuki_exploder.aux2",
+            "{scriptsDir}/@satsuki.anm2.anm2",
+            "{scriptsDir}/@satsuki.obj2.obj2",
+            "{scriptsDir}/@satsuki.tra2.tra2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "MIYA.Aup2GapFiller",
+    "latest-version": "v0.6.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "miya999949/Aup2GapFiller",
+      "regex": "^Aup2GapFiller\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/Aup2GapFiller/Aup2GapFiller.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Aup2GapFiller/Aup2GapFiller.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "nctype.SomethingLikeGlitch",
+    "latest-version": "v1.0.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nctype/aviutl2_script_SomethingLikeGlitch",
+      "regex": "^SomethingLikeGlitch_v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/SomethingLikeGlitch/SomethingLikeGlitch.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/SomethingLikeGlitch/SomethingLikeGlitch.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Graph",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_Graph",
+      "regex": "^SYNC_Graph\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_Graph/SYNC_Graph_Filter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_Graph/SYNC_Graph_Filter.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.SceneTransitions",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@SceneTransitions.scn2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@SceneTransitions.scn2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.ShapeDistort_H",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@ShapeDistort_H.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@ShapeDistort_H.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.Keying_H",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@キーイング_H.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@キーイング_H.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.Filters_H",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@Filters_H.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@Filters_H.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.OpticalBokeh",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@光学系ボケ.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@光学系ボケ.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.DecoParticle_H",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/装飾パーティクル_H.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/装飾パーティクル_H.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.TestPattern_H",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/検証パターン_H.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/検証パターン_H.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.VerticalText",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/テキスト縦書き化.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/テキスト縦書き化.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.RangeWarning_H",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/レンジ警告_H.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/レンジ警告_H.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.AutoFitText_H",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/枠内自動フィット_H.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/枠内自動フィット_H.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.Grid_H",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/グリッド_H.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/グリッド_H.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.HandheldCamera_H",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/手持ちカメラ_H.cam2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/手持ちカメラ_H.cam2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.ProceduralPattern_H",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/プロシージャル模様_H.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/プロシージャル模様_H.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.Bubbles_H",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/泡_H.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/泡_H.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.FineParticles_H",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/微粒子_H.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/微粒子_H.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.Beam_H",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/ビーム化_H.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ビーム化_H.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.LightShaft_H",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/光束_H.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/光束_H.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.Lowpoly",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@ローポリ化.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@ローポリ化.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.LightPath_H",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/光線経路_H.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/光線経路_H.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.MovingMosaic_S",
+    "latest-version": "v1.00",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_script_MovingMosaic_S",
+      "regex": "^aviutl2_script_MovingMosaic_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/MovingMosaic_S/MovingMosaic_S.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/MovingMosaic_S/MovingMosaic_S.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.LoudnessNormalize_H",
+    "latest-version": "v2.0.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/LoudnessNormalize_H",
+      "regex": "^LoudnessNormalize_H_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/LoudnessNormalize_H/LoudnessNormalize_H.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/LoudnessNormalize_H/LoudnessNormalize_H.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.FullSizePreview_H",
+    "latest-version": "v0.5.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/FullSizePreview_H",
+      "regex": "^FullSizePreview_H_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/FullSizePreview_H/FullSizePreview_H.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/FullSizePreview_H/FullSizePreview_H.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.FileFinder_H",
+    "latest-version": "v0.2.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/FileFinder_H",
+      "regex": "^FileFinder_H_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/FileFinder_H/FileFinder_H.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/FileFinder_H/FileFinder_H.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.svg_trace",
+    "latest-version": "v0.1.3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/svg_trace",
+      "regex": "^svg_trace_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/svg_trace/svg_trace.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/svg_trace/svg_trace.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.ColoredEchoImg",
+    "latest-version": "v1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/ColoredEchoImg",
+      "regex": "^ColoredEchoImg_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/ColoredEchoImg/colored_echo_img.mod2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ColoredEchoImg/colored_echo_img.mod2"
+          ]
+        }
+      ]
+    }
   }
 ]
