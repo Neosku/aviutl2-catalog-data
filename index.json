@@ -52462,5 +52462,245 @@
         ]
       }
     ]
+  },
+  {
+    "id": "HexBrowns.FileFinder_H",
+    "name": "FileFinder_H",
+    "type": "汎用プラグイン",
+    "summary": "フォルダ内のファイルをあいまい検索してタイムラインに挿入",
+    "description": "https://raw.githubusercontent.com/HexBrowns/FileFinder_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/FileFinder_H",
+    "latest-version": "v0.2.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "検索",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "FileFinder_H",
+          "pattern": "^FileFinder_H_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/FileFinder_H/FileFinder_H.aux2",
+          "to": "{pluginsDir}/FileFinder_H"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/FileFinder_H/FileFinder_H.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.2.1",
+        "release_date": "2026-10-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/FileFinder_H/FileFinder_H.aux2",
+            "XXH3_128": "f9b0b2d74264a88e7fc1a39e043e2ec5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.svg_trace",
+    "name": "SVG_TRACE",
+    "type": "汎用プラグイン",
+    "summary": "画像やレイヤーをベクター化して SVG で描画・書き出す",
+    "description": "https://raw.githubusercontent.com/HexBrowns/svg_trace/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/svg_trace",
+    "latest-version": "v0.1.3",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "画像",
+      "ベクター"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "svg_trace",
+          "pattern": "^svg_trace_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/svg_trace/svg_trace.aux2",
+          "to": "{pluginsDir}/svg_trace"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/svg_trace/svg_trace.mod2",
+          "to": "{scriptsDir}/svg_trace"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/svg_trace/SVG_TRACE.obj2",
+          "to": "{scriptsDir}/svg_trace"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/svg_trace/svg_trace.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/svg_trace/svg_trace.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/svg_trace/SVG_TRACE.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.3",
+        "release_date": "2026-10-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/svg_trace/svg_trace.aux2",
+            "XXH3_128": "39c31a7ecb4a88ccd8b13b6e14274ff4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.ColoredEchoImg",
+    "name": "色付き残像(画像履歴)",
+    "type": "スクリプト",
+    "summary": "過去のフレームの絵を色付きの残像として重ねる",
+    "description": "https://raw.githubusercontent.com/HexBrowns/ColoredEchoImg/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/ColoredEchoImg",
+    "latest-version": "v1.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "画像"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "ColoredEchoImg",
+          "pattern": "^ColoredEchoImg_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/ColoredEchoImg/colored_echo_img.mod2",
+          "to": "{scriptsDir}/ColoredEchoImg"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/色付き残像(画像履歴).anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ColoredEchoImg/colored_echo_img.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/色付き残像(画像履歴).anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.1.0",
+        "release_date": "2026-10-03",
+        "file": [
+          {
+            "path": "{scriptsDir}/ColoredEchoImg/colored_echo_img.mod2",
+            "XXH3_128": "aaab2febce053e4c93ab8f3a55389cc9"
+          }
+        ]
+      }
+    ]
   }
 ]
