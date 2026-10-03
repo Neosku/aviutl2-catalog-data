@@ -52730,9 +52730,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.ExtendedParticle_H_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.ExtendedParticle_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.ExtendedParticle_H_thumbnail.gif"
+          "./image/HexBrowns.ExtendedParticle_H_1.gif"
         ]
       }
     ],
@@ -52763,112 +52763,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/きらめき@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/ガラスが割れる@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/ネットワーク@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/ローポリの背景@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/二段咲きの花火@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/吸い込まれる渦@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/器に溜まる粒@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/拍で咲く花火@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/文字が集まる@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/泡@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/流れる川@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/流れ星@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/火の粉@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/煙@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/画像が飛び散って戻る@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/積もる雪@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/紙吹雪@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/花火@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/陰影の付いた立方体の雨@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/雨@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/雪@拡張パーティクル_H.object",
-          "to": "{dataDir}/Alias/拡張パーティクル_H"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Alias/拡張パーティクル_H/魚の群れ@拡張パーティクル_H.object",
+          "from": "{tmp}/Alias/拡張パーティクル_H",
           "to": "{dataDir}/Alias/拡張パーティクル_H"
         }
       ],
@@ -52883,91 +52778,7 @@
         },
         {
           "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/きらめき@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/ガラスが割れる@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/ネットワーク@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/ローポリの背景@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/二段咲きの花火@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/吸い込まれる渦@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/器に溜まる粒@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/拍で咲く花火@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/文字が集まる@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/泡@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/流れる川@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/流れ星@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/火の粉@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/煙@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/画像が飛び散って戻る@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/積もる雪@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/紙吹雪@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/花火@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/陰影の付いた立方体の雨@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/雨@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/雪@拡張パーティクル_H.object"
-        },
-        {
-          "action": "delete",
-          "path": "{dataDir}/Alias/拡張パーティクル_H/魚の群れ@拡張パーティクル_H.object"
+          "path": "{dataDir}/Alias/拡張パーティクル_H"
         }
       ]
     },
