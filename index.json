@@ -50522,42 +50522,44 @@
       }
     ]
   },
-    {
-    "id": "VRAMWIZ.SYNC_Graph",
-    "name": "グラフ",
-    "type": "フィルタプラグイン",
-    "summary": "折れ線・棒・円・N角形グラフを作成・編集",
-    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_Graph/main/README.md",
-    "author": "VRAMの魔術師",
-    "repoURL": "https://github.com/vramwiz/SYNC_Graph/",
+  {
+    "id": "HexBrowns.SceneTransitions",
+    "name": "SceneTransitions",
+    "type": "スクリプト",
+    "summary": "スマッシュカット・ズーム・パララックスのシーンチェンジ",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/SceneTransitions.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
     "latest-version": "v1.0.0",
     "popularity": 0,
     "trend": 0,
     "licenses": [
       {
-        "type": "GPL-3.0",
-        "isCustom": false,
+        "type": "MIT No Attribution",
+        "isCustom": true,
         "copyrights": [],
-        "licenseBody": null
+        "licenseBody": "MIT No Attribution\n\nCopyright 2026 HexBrowns\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this\nsoftware and associated documentation files (the \"Software\"), to deal in the Software\nwithout restriction, including without limitation the rights to use, copy, modify,\nmerge, publish, distribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
       }
     ],
     "tags": [
-      "グラフ",
-      "図形",
-      "アニメーション"
+      "トランジション",
+      "シーンチェンジ"
     ],
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/VRAMWIZ.SYNC_Graph_thumbnail.gif"
+        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.SceneTransitions_thumbnail.png",
+        "infoImg": [
+          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.SceneTransitions_thumbnail.gif"
+        ]
       }
     ],
     "installer": {
       "source": {
         "github": {
-          "owner": "vramwiz",
-          "repo": "SYNC_Graph",
-          "pattern": "^SYNC_Graph\\.zip$"
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
         }
       },
       "install": [
@@ -50569,25 +50571,165 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/SYNC_Graph",
-          "to": "{pluginsDir}/SYNC_Graph"
+          "from": "{tmp}/Script/@SceneTransitions.scn2",
+          "to": "{scriptsDir}"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
-          "path": "{pluginsDir}/SYNC_Graph"
+          "path": "{scriptsDir}/@SceneTransitions.scn2"
         }
       ]
     },
     "version": [
       {
         "version": "v1.0.0",
-        "release_date": "2026-09-30",
+        "release_date": "2026-10-03",
         "file": [
           {
-            "path": "{pluginsDir}/SYNC_Graph/SYNC_Graph_Filter.auf2",
-            "XXH3_128": "098175b93dde8039294fda39b80fafb3"
+            "path": "{scriptsDir}/@SceneTransitions.scn2",
+            "XXH3_128": "a9e4ff4600a18aa8900b3d91058b77a2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.ShapeDistort_H",
+    "name": "ShapeDistort_H",
+    "type": "スクリプト",
+    "summary": "回転・放射・方向・ジグザグで画像をゆがませる4種",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/ShapeDistort_H.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT No Attribution",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT No Attribution\n\nCopyright 2026 HexBrowns\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this\nsoftware and associated documentation files (the \"Software\"), to deal in the Software\nwithout restriction, including without limitation the rights to use, copy, modify,\nmerge, publish, distribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+      }
+    ],
+    "tags": [
+      "変形",
+      "エフェクト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.ShapeDistort_H_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@ShapeDistort_H.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@ShapeDistort_H.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-10-03",
+        "file": [
+          {
+            "path": "{scriptsDir}/@ShapeDistort_H.anm2",
+            "XXH3_128": "f82e53f756b21944f5c204cc418f578e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.Keying_H",
+    "name": "キーイング_H",
+    "type": "スクリプト",
+    "summary": "マット調整・スピル除去・トラックマットの3種",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0_H.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT No Attribution",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT No Attribution\n\nCopyright 2026 HexBrowns\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this\nsoftware and associated documentation files (the \"Software\"), to deal in the Software\nwithout restriction, including without limitation the rights to use, copy, modify,\nmerge, publish, distribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+      }
+    ],
+    "tags": [
+      "切り抜き",
+      "色調整"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.Keying_H_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@キーイング_H.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@キーイング_H.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-10-03",
+        "file": [
+          {
+            "path": "{scriptsDir}/@キーイング_H.anm2",
+            "XXH3_128": "15c3e64761791730eb1656cfebe12a0a"
           }
         ]
       }
