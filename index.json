@@ -50735,5 +50735,105 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sigma-axis.MovingMosaic_S",
+    "name": "MovingMosaic_S",
+    "type": "スクリプト",
+    "summary": "マス内のランダムな位置から色を拾う，グネグネ動かせるモザイク",
+    "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_MovingMosaic_S/refs/heads/main/README.md",
+    "author": "σ軸",
+    "repoURL": "https://github.com/sigma-axis/aviutl2_script_MovingMosaic_S",
+    "latest-version": "v1.00",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "Unlicense",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "ss46874324",
+    "tags": [
+      "モザイク"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/sigma-axis.MovingMosaic_S_thumbnail.webp",
+        "infoImg": [
+          "./image/sigma-axis.MovingMosaic_S_1.webp"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sigma-axis",
+          "repo": "aviutl2_script_MovingMosaic_S",
+          "pattern": "^aviutl2_script_MovingMosaic_S.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/MovingMosaic_S/LICENSE",
+          "to": "{scriptsDir}/MovingMosaic_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/MovingMosaic_S/MovingMosaic_S.anm2",
+          "to": "{scriptsDir}/MovingMosaic_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/MovingMosaic_S/README.md",
+          "to": "{scriptsDir}/MovingMosaic_S"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.MovingMosaic_S.aul2",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/MovingMosaic_S/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/MovingMosaic_S/MovingMosaic_S.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/MovingMosaic_S/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.MovingMosaic_S.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.00",
+        "release_date": "2026-10-02",
+        "file": [
+          {
+            "path": "{scriptsDir}/MovingMosaic_S/MovingMosaic_S.anm2",
+            "XXH3_128": "b5f0cf704b0f1c14fc8407609bd50d92"
+          }
+        ]
+      }
+    ]
   }
 ]
