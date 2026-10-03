@@ -50619,9 +50619,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.SceneTransitions_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.SceneTransitions_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.SceneTransitions_thumbnail.gif"
+          "./image/HexBrowns.SceneTransitions_1.gif"
         ]
       }
     ],
@@ -50692,7 +50692,7 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.ShapeDistort_H_thumbnail.png"
+        "thumbnail": "./image/HexBrowns.ShapeDistort_H_thumbnail.png"
       }
     ],
     "installer": {
@@ -50762,7 +50762,7 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.Keying_H_thumbnail.png"
+        "thumbnail": "./image/HexBrowns.Keying_H_thumbnail.png"
       }
     ],
     "installer": {
@@ -50834,7 +50834,7 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.Filters_H_thumbnail.png"
+        "thumbnail": "./image/HexBrowns.Filters_H_thumbnail.png"
       }
     ],
     "installer": {
@@ -50928,7 +50928,7 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.OpticalBokeh_thumbnail.png"
+        "thumbnail": "./image/HexBrowns.OpticalBokeh_thumbnail.png"
       }
     ],
     "installer": {
@@ -50999,9 +50999,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.DecoParticle_H_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.DecoParticle_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.DecoParticle_H_thumbnail.gif"
+          "./image/HexBrowns.DecoParticle_H_1.gif"
         ]
       }
     ],
@@ -51072,7 +51072,7 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.TestPattern_H_thumbnail.png"
+        "thumbnail": "./image/HexBrowns.TestPattern_H_thumbnail.png"
       }
     ],
     "installer": {
@@ -51142,7 +51142,7 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.VerticalText_thumbnail.png"
+        "thumbnail": "./image/HexBrowns.VerticalText_thumbnail.png"
       }
     ],
     "installer": {
@@ -51212,7 +51212,7 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.RangeWarning_H_thumbnail.png"
+        "thumbnail": "./image/HexBrowns.RangeWarning_H_thumbnail.png"
       }
     ],
     "installer": {
@@ -51282,7 +51282,7 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.AutoFitText_H_thumbnail.png"
+        "thumbnail": "./image/HexBrowns.AutoFitText_H_thumbnail.png"
       }
     ],
     "installer": {
@@ -51354,9 +51354,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.Grid_H_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.Grid_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.Grid_H_thumbnail.gif"
+          "./image/HexBrowns.Grid_H_1.gif"
         ]
       }
     ],
@@ -51427,9 +51427,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.HandheldCamera_H_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.HandheldCamera_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.HandheldCamera_H_thumbnail.gif"
+          "./image/HexBrowns.HandheldCamera_H_1.gif"
         ]
       }
     ],
@@ -51502,7 +51502,7 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.ProceduralPattern_H_thumbnail.png"
+        "thumbnail": "./image/HexBrowns.ProceduralPattern_H_thumbnail.png"
       }
     ],
     "installer": {
@@ -51775,9 +51775,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.Bubbles_H_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.Bubbles_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.Bubbles_H_thumbnail.gif"
+          "./image/HexBrowns.Bubbles_H_1.gif"
         ]
       }
     ],
@@ -51848,9 +51848,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.FineParticles_H_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.FineParticles_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.FineParticles_H_thumbnail.gif"
+          "./image/HexBrowns.FineParticles_H_1.gif"
         ]
       }
     ],
@@ -51921,9 +51921,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.Beam_H_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.Beam_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.Beam_H_thumbnail.gif"
+          "./image/HexBrowns.Beam_H_1.gif"
         ]
       }
     ],
@@ -51994,9 +51994,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.LightShaft_H_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.LightShaft_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.LightShaft_H_thumbnail.gif"
+          "./image/HexBrowns.LightShaft_H_1.gif"
         ]
       }
     ],
@@ -52068,7 +52068,7 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.Lowpoly_thumbnail.png"
+        "thumbnail": "./image/HexBrowns.Lowpoly_thumbnail.png"
       }
     ],
     "installer": {
@@ -52156,9 +52156,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.LightPath_H_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.LightPath_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.LightPath_H_thumbnail.gif"
+          "./image/HexBrowns.LightPath_H_1.gif"
         ]
       }
     ],
