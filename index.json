@@ -52312,5 +52312,84 @@
         ]
       }
     ]
+  },
+  {
+    "id": "HexBrowns.LoudnessNormalize_H",
+    "name": "ラウドネスノーマライズ_H",
+    "type": "フィルタプラグイン",
+    "summary": "EBU R128 に沿って音声の音量をそろえる",
+    "description": "https://raw.githubusercontent.com/HexBrowns/LoudnessNormalize_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/LoudnessNormalize_H",
+    "latest-version": "v2.0.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "音声"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "LoudnessNormalize_H",
+          "pattern": "^LoudnessNormalize_H_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/LoudnessNormalize_H/LoudnessNormalize_H.auf2",
+          "to": "{pluginsDir}/LoudnessNormalize_H"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.loudness_normalize_h.aul2",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/LoudnessNormalize_H/LoudnessNormalize_H.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.loudness_normalize_h.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v2.0.1",
+        "release_date": "2026-10-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/LoudnessNormalize_H/LoudnessNormalize_H.auf2",
+            "XXH3_128": "4537895f1614e031742afbbf967f4ffe"
+          }
+        ]
+      }
+    ]
   }
 ]
