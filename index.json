@@ -9817,11 +9817,11 @@
     "id": "azurite.GradientPlus",
     "name": "グラデーション+",
     "type": "スクリプト",
-    "summary": "sRGB以外の色空間でグラデーションさせるスクリプト",
-    "description": "./md/azurite.GradientPlus.md",
+    "summary": "sRGB以外の色空間でグラデーション加工するスクリプト",
+    "description": "https://raw.githubusercontent.com/azurite581/AviUtl2-GradientPlus/refs/heads/main/README.md",
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-GradientPlus",
-    "latest-version": "v1.1.1",
+    "latest-version": "v.1.1.2",
     "popularity": 1123,
     "trend": 22,
     "licenses": [
@@ -9836,13 +9836,17 @@
       "グラデーション"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/azurite.GradientPlus_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
           "owner": "azurite581",
           "repo": "AviUtl2-GradientPlus",
-          "pattern": "^GradientPlus_v[\\d.]+\\.zip$"
+          "pattern": "^GradientPlus.*\\.zip$"
         }
       },
       "install": [
@@ -9854,7 +9858,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/グラデーション+.anm2",
+          "from": "{tmp}/Script/グラデーション+.anm2",
           "to": "{scriptsDir}"
         }
       ],
@@ -9893,6 +9897,16 @@
           {
             "path": "{scriptsDir}/グラデーション+.anm2",
             "XXH3_128": "58aef1b8ad7102aaa6a263af3aca4373"
+          }
+        ]
+      },
+      {
+        "version": "v.1.1.2",
+        "release_date": "2026-10-04",
+        "file": [
+          {
+            "path": "{scriptsDir}/グラデーション+.anm2",
+            "XXH3_128": "21c7d4a0e7c2208ec03ced1b264e39de"
           }
         ]
       }
