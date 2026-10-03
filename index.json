@@ -50522,7 +50522,7 @@
       }
     ]
   },
-    {
+  {
     "id": "VRAMWIZ.SYNC_Graph",
     "name": "グラフ",
     "type": "フィルタプラグイン",
@@ -50588,6 +50588,79 @@
           {
             "path": "{pluginsDir}/SYNC_Graph/SYNC_Graph_Filter.auf2",
             "XXH3_128": "098175b93dde8039294fda39b80fafb3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.SceneTransitions",
+    "name": "SceneTransitions",
+    "type": "スクリプト",
+    "summary": "スマッシュカット・ズーム・パララックスのシーンチェンジ",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/SceneTransitions.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT No Attribution",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT No Attribution\n\nCopyright 2026 HexBrowns\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this\nsoftware and associated documentation files (the \"Software\"), to deal in the Software\nwithout restriction, including without limitation the rights to use, copy, modify,\nmerge, publish, distribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+      }
+    ],
+    "tags": [
+      "トランジション",
+      "シーンチェンジ"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.SceneTransitions_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.SceneTransitions_1.gif"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@SceneTransitions.scn2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@SceneTransitions.scn2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-10-03",
+        "file": [
+          {
+            "path": "{scriptsDir}/@SceneTransitions.scn2",
+            "XXH3_128": "a9e4ff4600a18aa8900b3d91058b77a2"
           }
         ]
       }
