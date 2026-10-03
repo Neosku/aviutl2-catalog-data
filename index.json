@@ -52543,9 +52543,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/LoudnessNormalize_H/main/images/LoudnessNormalize_H_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.LoudnessNormalize_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/LoudnessNormalize_H/main/images/LoudnessNormalize_H_screen.png"
+          "./image/HexBrowns.LoudnessNormalize_H_1.png"
         ]
       }
     ],
@@ -52701,9 +52701,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/FileFinder_H/main/images/FileFinder_H_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.FileFinder_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/FileFinder_H/main/images/FileFinder_H_screen.png"
+          "./image/HexBrowns.FileFinder_H_1.png"
         ]
       }
     ],
@@ -52779,7 +52779,7 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/svg_trace/main/images/svg_trace_thumbnail.png"
+        "thumbnail": "./image/HexBrowns.svg_trace_thumbnail.png"
       }
     ],
     "installer": {
@@ -52872,9 +52872,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/ColoredEchoImg/main/images/ColoredEchoImg_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.ColoredEchoImg_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/ColoredEchoImg/main/images/ColoredEchoImg_thumbnail.gif"
+          "./image/HexBrowns.ColoredEchoImg_1.png"
         ]
       }
     ],
