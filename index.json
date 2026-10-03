@@ -50619,9 +50619,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.SceneTransitions_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.SceneTransitions_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.SceneTransitions_thumbnail.gif"
+          "./image/HexBrowns.SceneTransitions_1.gif"
         ]
       }
     ],
