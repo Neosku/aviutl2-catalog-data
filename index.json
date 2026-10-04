@@ -50614,7 +50614,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_Graph/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/SYNC_Graph/",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 5,
     "trend": 9,
     "licenses": [
@@ -50672,6 +50672,16 @@
           {
             "path": "{pluginsDir}/SYNC_Graph/SYNC_Graph_Filter.auf2",
             "XXH3_128": "098175b93dde8039294fda39b80fafb3"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-10-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_Graph/SYNC_Graph_Filter.auf2",
+            "XXH3_128": "3139ac6b83fe8be5ddc0d7f7b176239a"
           }
         ]
       }
