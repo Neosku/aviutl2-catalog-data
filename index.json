@@ -12626,7 +12626,7 @@
     "description": "./md/Rhapthorne_0.radialShift.md",
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1975320165941129277",
-    "latest-version": "2026.04.27",
+    "latest-version": "2026.09.02",
     "popularity": 909,
     "trend": 38,
     "licenses": [
@@ -12696,6 +12696,16 @@
             "XXH3_128": "881f995dfc66954e77e3a46549a2cc3a"
           }
         ]
+      },
+      {
+        "version": "2026.09.02",
+        "release_date": "2026-09-02",
+        "file": [
+          {
+            "path": "{scriptsDir}/ラディアルシフト.anm2",
+            "XXH3_128": "174fbb79792862cc22858f6e3ffc56e6"
+          }
+        ]
       }
     ]
   },
@@ -12707,7 +12717,7 @@
     "description": "./md/Rhapthorne_0.basicDelay.md",
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1978378817640018296",
-    "latest-version": "2026.04.27",
+    "latest-version": "2026.09.02",
     "popularity": 1863,
     "trend": 111,
     "licenses": [
@@ -12776,6 +12786,16 @@
           {
             "path": "{scriptsDir}/基本効果(Delay).anm2",
             "XXH3_128": "9dca125064c8148bd7884423865dd34d"
+          }
+        ]
+      },
+      {
+        "version": "2026.09.02",
+        "release_date": "2026-09-02",
+        "file": [
+          {
+            "path": "{scriptsDir}/基本効果(Delay).anm2",
+            "XXH3_128": "4d7485c60eee0b66c91a08bc99b68440"
           }
         ]
       }
@@ -13395,7 +13415,7 @@
     "description": "./md/Rhapthorne_0.lineGlitch_Rh.md",
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/1992790280186011754",
-    "latest-version": "v1.0.1",
+    "latest-version": "2026.08.26",
     "popularity": 2692,
     "trend": 150,
     "licenses": [
@@ -13454,6 +13474,16 @@
           {
             "path": "{scriptsDir}/LineGlitch_Rh.anm2",
             "XXH3_128": "9c68eab4b6b7a512262d09a2d25bd8a1"
+          }
+        ]
+      },
+      {
+        "version": "2026.08.26",
+        "release_date": "2026-08-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/LineGlitch_Rh.anm2",
+            "XXH3_128": "58f5b5b6f0d516b1fb60f014e2c79131"
           }
         ]
       }
@@ -36890,7 +36920,7 @@
     "description": "./md/Rhapthorne_0.HueCycle_Rh.md",
     "author": "ラプソーン",
     "repoURL": "https://twitter.com/Rhapthorne_0/status/1985646515592061158",
-    "latest-version": "2026.04.27",
+    "latest-version": "2026.09.02",
     "popularity": 329,
     "trend": 34,
     "licenses": [
@@ -36938,6 +36968,16 @@
           {
             "path": "{scriptsDir}/彩cle_Rh.anm2",
             "XXH3_128": "2bd46635b50254d3e46ed88796ec7317"
+          }
+        ]
+      },
+      {
+        "version": "2026.09.02",
+        "release_date": "2026-09-02",
+        "file": [
+          {
+            "path": "{scriptsDir}/彩cle_Rh.anm2",
+            "XXH3_128": "4167c29beca8629be9b71634e2171d7b"
           }
         ]
       }
@@ -37072,7 +37112,7 @@
     "description": "./md/Rhapthorne_0.Strobe_Rh.md",
     "author": "ラプソーン",
     "repoURL": "https://twitter.com/Rhapthorne_0/status/1985646515592061158",
-    "latest-version": "2026.04.27",
+    "latest-version": "2026.09.02",
     "popularity": 435,
     "trend": 46,
     "licenses": [
@@ -37122,6 +37162,16 @@
             "XXH3_128": "b6b6a18996baf2dabcf2e21ae21d060c"
           }
         ]
+      },
+      {
+        "version": "2026.09.02",
+        "release_date": "2026-09-02",
+        "file": [
+          {
+            "path": "{scriptsDir}/ストロボ_Rh.anm2",
+            "XXH3_128": "7a3e49f5fb30d3c536b368e4d64f3b6d"
+          }
+        ]
       }
     ]
   },
@@ -37133,7 +37183,7 @@
     "description": "./md/Rhapthorne_0.ShowParameters_Rh.md",
     "author": "ラプソーン",
     "repoURL": "https://twitter.com/Rhapthorne_0/status/2040957660900544965",
-    "latest-version": "2026.04.05",
+    "latest-version": "2026.09.15",
     "popularity": 190,
     "trend": 10,
     "licenses": [
@@ -37181,6 +37231,16 @@
           {
             "path": "{scriptsDir}/パラメータ表示_Rh.anm2",
             "XXH3_128": "1ea461a788317f68366787261e003b78"
+          }
+        ]
+      },
+      {
+        "version": "2026.09.15",
+        "release_date": "2026-09-15",
+        "file": [
+          {
+            "path": "{scriptsDir}/パラメータ表示_Rh.anm2",
+            "XXH3_128": "4e82edee33b3573af50b95693945b930"
           }
         ]
       }
@@ -37388,7 +37448,7 @@
     "description": "./md/Rhapthorne_0.RepeatedDraw_Rh.md",
     "author": "ラプソーン",
     "repoURL": "https://twitter.com/Rhapthorne_0/status/2035884231889404163",
-    "latest-version": "2026.06.30",
+    "latest-version": "2026.09.02",
     "popularity": 294,
     "trend": 23,
     "licenses": [
@@ -37447,6 +37507,16 @@
             "XXH3_128": "03907c0f4bef0b401ce65b0d2f07b1c9"
           }
         ]
+      },
+      {
+        "version": "2026.09.02",
+        "release_date": "2026-09-02",
+        "file": [
+          {
+            "path": "{scriptsDir}/描画リピーター_Rh.anm2",
+            "XXH3_128": "7e04bbba0e2bf9dd2ce0a24213ac2c34"
+          }
+        ]
       }
     ]
   },
@@ -37458,7 +37528,7 @@
     "description": "./md/Rhapthorne_0.TimeDelay_Rh.md",
     "author": "ラプソーン",
     "repoURL": "https://twitter.com/Rhapthorne_0/status/2056177955601072592",
-    "latest-version": "2026.05.14",
+    "latest-version": "2026.09.02",
     "popularity": 242,
     "trend": 23,
     "licenses": [
@@ -37506,6 +37576,16 @@
           {
             "path": "{scriptsDir}/TimeDelay_Rh.anm2",
             "XXH3_128": "cef5a798744dba08168db2201ff743a7"
+          }
+        ]
+      },
+      {
+        "version": "2026.09.02",
+        "release_date": "2026-09-02",
+        "file": [
+          {
+            "path": "{scriptsDir}/TimeDelay_Rh.anm2",
+            "XXH3_128": "0125b5cce46e7146279a61598f8bc4f9"
           }
         ]
       }
@@ -40726,7 +40806,7 @@
     "description": "./md/Rhapthorne_0.Parallax_Rh.md",
     "author": "ラプソーン",
     "repoURL": "https://x.com/Rhapthorne_0/status/2078646007345136078",
-    "latest-version": "2026.07.19",
+    "latest-version": "2026.09.15",
     "popularity": 719,
     "trend": 83,
     "licenses": [
@@ -40779,6 +40859,16 @@
           {
             "path": "{scriptsDir}/パララックス_Rh.anm2",
             "XXH3_128": "b133cad1321a8449acd41d028b55312a"
+          }
+        ]
+      },
+      {
+        "version": "2026.09.15",
+        "release_date": "2026-09-15",
+        "file": [
+          {
+            "path": "{scriptsDir}/パララックス_Rh.anm2",
+            "XXH3_128": "c0a90c114a4b1236ce1336dac45f3c30"
           }
         ]
       }
