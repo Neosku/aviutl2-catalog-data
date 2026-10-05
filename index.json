@@ -45820,7 +45820,7 @@
     "description": "https://raw.githubusercontent.com/nctype/aviutl2_script_RainOnPane/main/README.md",
     "author": "nctype",
     "repoURL": "https://github.com/nctype/aviutl2_script_RainOnPane",
-    "latest-version": "v1.1.0",
+    "latest-version": "v1.1.1",
     "popularity": 778,
     "trend": 151,
     "licenses": [
@@ -45902,6 +45902,16 @@
           {
             "path": "{scriptsDir}/RainOnPane/RainOnPane.obj2",
             "XXH3_128": "33279ec1225f2e8d97dc9ca4205bde6f"
+          }
+        ]
+      },
+      {
+        "version": "v1.1.1",
+        "release_date": "2026-10-06",
+        "file": [
+          {
+            "path": "{scriptsDir}/RainOnPane/RainOnPane.obj2",
+            "XXH3_128": "fed11ef428c030216942cf9c599a8a25"
           }
         ]
       }
