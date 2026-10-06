@@ -53413,5 +53413,75 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sagami121.HEIF-HEIC-Input",
+    "name": "HEIF_HEIC Input Plugin",
+    "type": "入力プラグイン",
+    "summary": "HEIC/HEIFをAviutl2で読み込める入力プラグイン",
+    "description": "./md/sagami121.HEIF-HEIC-Input.md",
+    "author": "3aGaM1",
+    "repoURL": "https://github.com/sagami121/HEIF-HEIC-Input",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "3aGaM1"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "画像"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "sagami121",
+          "repo": "HEIF-HEIC-Input",
+          "pattern": "^HEIF-HEIC-Input.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/heif_heic_input.aui2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/heif_heic_input.aui2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-10-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/heif_heic_input.aui2",
+            "XXH3_128": "e5e2be3bed77c1f5bee0979982f11aaa"
+          }
+        ]
+      }
+    ]
   }
 ]
