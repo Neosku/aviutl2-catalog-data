@@ -12809,7 +12809,7 @@
     "description": "./md/teruyoshii.noiseGradation.md",
     "author": "てるよし",
     "repoURL": "https://x.com/teruyoshi_uec/status/1979927691215471002",
-    "latest-version": "v1.3",
+    "latest-version": "v1.4",
     "popularity": 3972,
     "trend": 119,
     "licenses": [
@@ -12865,6 +12865,16 @@
           {
             "path": "{scriptsDir}/ノイズグラデーション.anm2",
             "XXH3_128": "97c2333001facb6c275798923321434d"
+          }
+        ]
+      },
+      {
+        "version": "v1.4",
+        "release_date": "2026-10-07",
+        "file": [
+          {
+            "path": "{scriptsDir}/ノイズグラデーション.anm2",
+            "XXH3_128": "224357913e545b3a53b6e617152fd08b"
           }
         ]
       }
