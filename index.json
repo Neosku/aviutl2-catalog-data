@@ -24585,7 +24585,7 @@
     "description": "https://raw.githubusercontent.com/azurite581/AviUtl2-GradientEditor/main/README.md",
     "author": "azurite",
     "repoURL": "https://github.com/azurite581/AviUtl2-GradientEditor",
-    "latest-version": "v0.8.0",
+    "latest-version": "v0.9.0",
     "popularity": 4326,
     "trend": 645,
     "licenses": [
@@ -24899,6 +24899,16 @@
           {
             "path": "{pluginsDir}/GradientEditor.aux2",
             "XXH3_128": "6417f3ace33510c3c6099644a5717faf"
+          }
+        ]
+      },
+      {
+        "version": "v0.9.0",
+        "release_date": "2026-10-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/GradientEditor.aux2",
+            "XXH3_128": "9342796b942f29815e74039f6e379d7d"
           }
         ]
       }
