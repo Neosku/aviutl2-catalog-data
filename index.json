@@ -4572,11 +4572,21 @@
       },
       {
         "version": "r1285",
-        "release_date": "2026-10-04",
+        "release_date": "2026-10-03",
         "file": [
           {
             "path": "{pluginsDir}/lwinput.aui2",
             "XXH3_128": "3db1443ee481d3ce56b1d041f5ba20b5"
+          }
+        ]
+      },
+      {
+        "version": "r1285",
+        "release_date": "2026-10-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "827d362cb7cdebfb71042bdbf0b2211e"
           }
         ]
       }
