@@ -53497,7 +53497,7 @@
   {
     "id": "hinodeisuzu.sliceglitch",
     "name": "SliceGlitch",
-    "type": "フィルタプラグイン",
+    "type": "スクリプト",
     "summary": "簡単な操作でスライスグリッチを作成できるエフェクトです。",
     "description": "./md/hinodeisuzu.sliceglitch.md",
     "author": "暘 弥涼",
@@ -53540,6 +53540,11 @@
       "install": [
         {
           "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SliceGlitch.anm2",
+          "to": "{scriptsDir}"
         }
       ],
       "uninstall": [
