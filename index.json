@@ -21643,7 +21643,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_slimming/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_slimming",
-    "latest-version": "r4",
+    "latest-version": "r5",
     "popularity": 2347,
     "trend": 88,
     "licenses": [
@@ -21746,6 +21746,16 @@
           {
             "path": "{pluginsDir}/al2/al2_slimming.aui2",
             "XXH3_128": "db37a03d23361f17599b41fae2c0a57d"
+          }
+        ]
+      },
+      {
+        "version": "r5",
+        "release_date": "2026-10-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_slimming.aui2",
+            "XXH3_128": "c0524b2c3d2234f1481b477c567a6b6f"
           }
         ]
       }
@@ -23098,7 +23108,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_ui_dressing/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_ui_dressing",
-    "latest-version": "r10",
+    "latest-version": "r11",
     "popularity": 3715,
     "trend": 449,
     "licenses": [
@@ -23270,6 +23280,16 @@
           {
             "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
             "XXH3_128": "fc51f2c95d8170fe61c5ccbd9f975234"
+          }
+        ]
+      },
+      {
+        "version": "r11",
+        "release_date": "2026-10-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
+            "XXH3_128": "d5045ab1fcbcf54e50cdcc852a2e1a17"
           }
         ]
       }
