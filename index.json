@@ -1904,7 +1904,7 @@
     "description": "./md/rigaya.NVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/NVEnc",
-    "latest-version": "9.37",
+    "latest-version": "9.38",
     "popularity": 4526,
     "trend": 974,
     "licenses": [
@@ -2398,6 +2398,16 @@
           {
             "path": "{pluginsDir}/NVEnc.auo2",
             "XXH3_128": "ea53d2da30b5cf42c3110fe1a89bd8c9"
+          }
+        ]
+      },
+      {
+        "version": "9.38",
+        "release_date": "2026-10-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "6f93c4915fe47cf51290e4c37f023b2b"
           }
         ]
       }
