@@ -1695,7 +1695,11 @@
       "必須"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/rigaya.x265guiEx_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -1922,7 +1926,11 @@
     ],
     "tags": [],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/rigaya.NVEnc_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -3073,7 +3081,11 @@
     ],
     "tags": [],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/rigaya.VCEEnc_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
