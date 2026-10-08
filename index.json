@@ -1926,7 +1926,11 @@
     ],
     "tags": [],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/rigaya.NVEnc_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
