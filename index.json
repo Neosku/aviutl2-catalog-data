@@ -3077,7 +3077,11 @@
     ],
     "tags": [],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/rigaya.VCEEnc_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
