@@ -54211,7 +54211,7 @@
     ],
     "dependencies": [],
     "images": [
-       {
+      {
         "thumbnail": "./image/HexBrowns.ContentAwareFill_H_thumbnail.png"
       }
     ],
@@ -54763,6 +54763,142 @@
           {
             "path": "{scriptsDir}/電波_H.obj2",
             "XXH3_128": "8fe6ec0ad897169d048adb1353d85344"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nctype.FilmPrintLUT",
+    "name": "FilmPrintLUT",
+    "type": "スクリプト",
+    "summary": "LUTを読み込んで画面に適用するだけのスクリプトです",
+    "description": "https://raw.githubusercontent.com/nctype/aviutl2_script_FilmPrintLUT/refs/heads/main/README.md",
+    "author": "nctype",
+    "repoURL": "https://github.com/nctype/aviutl2_script_FilmPrintLUT",
+    "latest-version": "v1.2.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "nctype"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "色調整",
+      "LUT",
+      "ルックアップテーブル",
+      "画像処理",
+      "映像処理"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/nctype.FilmPrintLUT_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nctype",
+          "repo": "aviutl2_script_FilmPrintLUT",
+          "pattern": "^FilmPrintLUT_v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/FilmPrintLUT/FilmPrintLUT.anm2",
+          "to": "{scriptsDir}/FilmPrintLUT"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/FilmPrintLUT/FilmPrintLUTCube.mod2",
+          "to": "{scriptsDir}/FilmPrintLUT"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/FilmPrintLUT/LUTs/Film Cool.cube",
+          "to": "{scriptsDir}/FilmPrintLUT/LUTs"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/FilmPrintLUT/LUTs/Film Neutral.cube",
+          "to": "{scriptsDir}/FilmPrintLUT/LUTs"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/FilmPrintLUT/LUTs/Film Warm.cube",
+          "to": "{scriptsDir}/FilmPrintLUT/LUTs"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.FilmPrintLUT.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/简体中文.FilmPrintLUT.aul2",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/FilmPrintLUT/FilmPrintLUT.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/FilmPrintLUT/FilmPrintLUTCube.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/FilmPrintLUT/LUTs/Film Cool.cube"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/FilmPrintLUT/LUTs/Film Neutral.cube"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/FilmPrintLUT/LUTs/Film Warm.cube"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.FilmPrintLUT.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/简体中文.FilmPrintLUT.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.2.0",
+        "release_date": "2026-10-08",
+        "file": [
+          {
+            "path": "{scriptsDir}/FilmPrintLUT/FilmPrintLUT.anm2",
+            "XXH3_128": "7a41702f7ab3f203fcbd1e5ed998f571"
+          },
+          {
+            "path": "{scriptsDir}/FilmPrintLUT/FilmPrintLUTCube.mod2",
+            "XXH3_128": "eb9f1fdf9ece9f8db5a8995516cb3288"
           }
         ]
       }
