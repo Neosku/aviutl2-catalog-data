@@ -54038,5 +54038,78 @@
         ]
       }
     ]
+  },
+  {
+    "id": "momo_neeeko.RainbowGradationM",
+    "name": "虹色グラデーションM",
+    "type": "スクリプト",
+    "summary": "オブジェクトに虹色のグラデーションをかけます。",
+    "description": "./md/momo_neeeko.RainbowGradationM.md",
+    "author": "もも猫",
+    "repoURL": "https://x.com/momo_neeeko/status/2108488871327764937",
+    "latest-version": "ver1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "もも猫"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "グラデーション",
+      "色調整"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/momo_neeeko.RainbowGradationM_thumbnail.png",
+        "infoImg": [
+          "./image/momo_neeeko.RainbowGradationM_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1rvtNUFJkRk77LVm0bcc6KZOscKrEMQO3"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/虹色グラデーションM.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/虹色グラデーションM.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "ver1.0",
+        "release_date": "2026-10-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/虹色グラデーションM.anm2",
+            "XXH3_128": "2e4ebbe143916b4dfbef169404280160"
+          }
+        ]
+      }
+    ]
   }
 ]
