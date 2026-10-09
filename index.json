@@ -54038,5 +54038,78 @@
         ]
       }
     ]
+  },
+  {
+    "id": "HexBrowns.PlanarTracking_H",
+    "name": "平面トラッキング_H",
+    "type": "スクリプト",
+    "summary": "動画の中の平らな面を追い、別の画像を四隅に貼る",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E5%B9%B3%E9%9D%A2%E3%83%88%E3%83%A9%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0_H.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
+    "latest-version": "v1.4.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT No Attribution",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT No Attribution\n\nCopyright 2026 HexBrowns\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this\nsoftware and associated documentation files (the \"Software\"), to deal in the Software\nwithout restriction, including without limitation the rights to use, copy, modify,\nmerge, publish, distribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト",
+      "トラッキング"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.PlanarTracking_H_thumbnail.png",
+        "infoImg": [
+          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.PlanarTracking_H_thumbnail.gif"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/平面トラッキング_H.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/平面トラッキング_H.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.4.0",
+        "release_date": "2026-10-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/平面トラッキング_H.obj2",
+            "XXH3_128": "8cf7702ea04c3db2988c64765f61054c"
+          }
+        ]
+      }
+    ]
   }
 ]
