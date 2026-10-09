@@ -54065,9 +54065,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.PlanarTracking_H_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.PlanarTracking_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.PlanarTracking_H_thumbnail.gif"
+          "./image/HexBrowns.PlanarTracking_H_1.gif"
         ]
       }
     ],
@@ -54138,8 +54138,8 @@
     ],
     "dependencies": [],
     "images": [
-      {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.ContentAwareFill_H_thumbnail.png"
+       {
+        "thumbnail": "./image/HexBrowns.ContentAwareFill_H_thumbnail.png"
       }
     ],
     "installer": {
@@ -54209,9 +54209,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.Extrude_H_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.Extrude_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.Extrude_H_thumbnail.gif"
+          "./image/HexBrowns.Extrude_H_1.gif"
         ]
       }
     ],
@@ -54282,9 +54282,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.TimeWarp_H_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.TimeWarp_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.TimeWarp_H_thumbnail.gif"
+          "./image/HexBrowns.TimeWarp_H_1.gif"
         ]
       }
     ],
@@ -54356,9 +54356,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.BallAction_H_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.BallAction_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.BallAction_H_thumbnail.gif"
+          "./image/HexBrowns.BallAction_H_1.gif"
         ]
       }
     ],
@@ -54430,9 +54430,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.Caustics_H_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.Caustics_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.Caustics_H_thumbnail.gif"
+          "./image/HexBrowns.Caustics_H_1.gif"
         ]
       }
     ],
@@ -54504,9 +54504,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.CardDance_H_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.CardDance_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.CardDance_H_thumbnail.gif"
+          "./image/HexBrowns.CardDance_H_1.gif"
         ]
       }
     ],
@@ -54577,7 +54577,7 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.VectorBlur_H_thumbnail.png"
+        "thumbnail": "./image/HexBrowns.VectorBlur_H_thumbnail.png"
       }
     ],
     "installer": {
@@ -54648,9 +54648,9 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.RadioWaves_H_thumbnail.png",
+        "thumbnail": "./image/HexBrowns.RadioWaves_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.RadioWaves_H_thumbnail.gif"
+          "./image/HexBrowns.RadioWaves_H_1.gif"
         ]
       }
     ],
