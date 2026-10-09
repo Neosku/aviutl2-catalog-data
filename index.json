@@ -54405,9 +54405,8 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/MidpointTable_H/main/images/MidpointTable_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/MidpointTable_H/main/images/MidpointTable_H_screen.png"
+          "./image/HexBrowns.MidpointTable_H_1.png"
         ]
       }
     ],
@@ -54483,9 +54482,8 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/LayerSilenceCut_H/main/images/LayerSilenceCut_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/LayerSilenceCut_H/main/images/LayerSilenceCut_H_screen.png"
+          "./image/HexBrowns.LayerSilenceCut_H_1.png"
         ]
       }
     ],
@@ -54561,9 +54559,8 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/TextReplace_H/main/images/TextReplace_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/TextReplace_H/main/images/TextReplace_H_screen.png"
+          "./image/HexBrowns.TextReplace_H_1.png"
         ]
       }
     ],
