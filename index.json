@@ -54038,5 +54038,340 @@
         ]
       }
     ]
+  },
+  {
+    "id": "HexBrowns.AviUtl2Browser_H",
+    "name": "AviUtl2Browser_H",
+    "type": "スクリプトモジュール",
+    "summary": "HTML・CSS・JavaScript の表示をオブジェクトにする",
+    "description": "https://raw.githubusercontent.com/HexBrowns/AviUtl2Browser_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/AviUtl2Browser_H",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2021",
+            "holder": "oov"
+          },
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト",
+      "画像"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "AviUtl2Browser_H",
+          "pattern": "^HexBrowns\\.AviUtl2Browser_H-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/AviUtl2Browser_H.mod2",
+          "to": "{scriptsDir}/browser"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/browser.lua",
+          "to": "{scriptsDir}/browser"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/contents/README.txt",
+          "to": "{scriptsDir}/browser/contents"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/exe/aviutl_browser.exe",
+          "to": "{scriptsDir}/browser/exe"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/exe/chrome_100_percent.pak",
+          "to": "{scriptsDir}/browser/exe"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/exe/chrome_200_percent.pak",
+          "to": "{scriptsDir}/browser/exe"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/exe/chrome_elf.dll",
+          "to": "{scriptsDir}/browser/exe"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/exe/CREDITS.html",
+          "to": "{scriptsDir}/browser/exe"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/exe/d3dcompiler_47.dll",
+          "to": "{scriptsDir}/browser/exe"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/exe/dxcompiler.dll",
+          "to": "{scriptsDir}/browser/exe"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/exe/dxil.dll",
+          "to": "{scriptsDir}/browser/exe"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/exe/icudtl.dat",
+          "to": "{scriptsDir}/browser/exe"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/exe/libcef.dll",
+          "to": "{scriptsDir}/browser/exe"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/exe/locales/en-US.pak",
+          "to": "{scriptsDir}/browser/exe/locales"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/exe/locales/ja.pak",
+          "to": "{scriptsDir}/browser/exe/locales"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/exe/resources.pak",
+          "to": "{scriptsDir}/browser/exe"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/exe/v8_context_snapshot.bin",
+          "to": "{scriptsDir}/browser/exe"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/exe/vk_swiftshader.dll",
+          "to": "{scriptsDir}/browser/exe"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/exe/vk_swiftshader_icd.json",
+          "to": "{scriptsDir}/browser/exe"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/exe/vulkan-1.dll",
+          "to": "{scriptsDir}/browser/exe"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/ブラウザ表示.obj2",
+          "to": "{scriptsDir}/browser"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/ブラウザ表示.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/exe/vulkan-1.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/exe/vk_swiftshader_icd.json"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/exe/vk_swiftshader.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/exe/v8_context_snapshot.bin"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/exe/resources.pak"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/exe/locales/ja.pak"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/exe/locales/en-US.pak"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/exe/libcef.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/exe/icudtl.dat"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/exe/dxil.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/exe/dxcompiler.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/exe/d3dcompiler_47.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/exe/CREDITS.html"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/exe/chrome_elf.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/exe/chrome_200_percent.pak"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/exe/chrome_100_percent.pak"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/exe/aviutl_browser.exe"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/contents/README.txt"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/browser.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/AviUtl2Browser_H.mod2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-10-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/browser/AviUtl2Browser_H.mod2",
+            "XXH3_128": "d2dc954607f094d7cb728d06c039f2bc"
+          },
+          {
+            "path": "{scriptsDir}/browser/browser.lua",
+            "XXH3_128": "a9c07ef3e95305636f5af214fb17b646"
+          },
+          {
+            "path": "{scriptsDir}/browser/contents/README.txt",
+            "XXH3_128": "d5d57a384e1a24d1c6fc341c3c878be0"
+          },
+          {
+            "path": "{scriptsDir}/browser/exe/CREDITS.html",
+            "XXH3_128": "54aca69ed8973a53591cb323a09a5cf2"
+          },
+          {
+            "path": "{scriptsDir}/browser/exe/aviutl_browser.exe",
+            "XXH3_128": "030bd0764ae56750239766284d94f263"
+          },
+          {
+            "path": "{scriptsDir}/browser/exe/chrome_100_percent.pak",
+            "XXH3_128": "8d9db6f2a225637c5f5945ac20aa7972"
+          },
+          {
+            "path": "{scriptsDir}/browser/exe/chrome_200_percent.pak",
+            "XXH3_128": "c00af00c2f182ca02a90848a9ca98e5f"
+          },
+          {
+            "path": "{scriptsDir}/browser/exe/chrome_elf.dll",
+            "XXH3_128": "7ab8b5f54ab191a00cae01d8fe169e9f"
+          },
+          {
+            "path": "{scriptsDir}/browser/exe/d3dcompiler_47.dll",
+            "XXH3_128": "923e40458c0e7f673e4240d4258fb136"
+          },
+          {
+            "path": "{scriptsDir}/browser/exe/dxcompiler.dll",
+            "XXH3_128": "edf131e95ada34d5c31c0581ca509e30"
+          },
+          {
+            "path": "{scriptsDir}/browser/exe/dxil.dll",
+            "XXH3_128": "39605a2f0176214d5a77cc8841de73ce"
+          },
+          {
+            "path": "{scriptsDir}/browser/exe/icudtl.dat",
+            "XXH3_128": "f7a25751c8850e568d1c4e5502ba6782"
+          },
+          {
+            "path": "{scriptsDir}/browser/exe/libcef.dll",
+            "XXH3_128": "a79b6c57a559c413fafeb39b5a4af26d"
+          },
+          {
+            "path": "{scriptsDir}/browser/exe/locales/en-US.pak",
+            "XXH3_128": "160a22ceebbe0daa749952fcc554afaa"
+          },
+          {
+            "path": "{scriptsDir}/browser/exe/locales/ja.pak",
+            "XXH3_128": "9149cfd644cbb12a6909ba09e2e8d2e8"
+          },
+          {
+            "path": "{scriptsDir}/browser/exe/resources.pak",
+            "XXH3_128": "8e08b66f72b4e6d1c117061c5aee59ff"
+          },
+          {
+            "path": "{scriptsDir}/browser/exe/v8_context_snapshot.bin",
+            "XXH3_128": "f9042bdbf92930a39f7378c29d1f8527"
+          },
+          {
+            "path": "{scriptsDir}/browser/exe/vk_swiftshader.dll",
+            "XXH3_128": "a6747d87a367b8b02d5a661d13db1cd0"
+          },
+          {
+            "path": "{scriptsDir}/browser/exe/vk_swiftshader_icd.json",
+            "XXH3_128": "5248ad4f8ea217c484d49894652e65bb"
+          },
+          {
+            "path": "{scriptsDir}/browser/exe/vulkan-1.dll",
+            "XXH3_128": "b78e16da4710fe540b3c1876110ad04c"
+          },
+          {
+            "path": "{scriptsDir}/browser/ブラウザ表示.obj2",
+            "XXH3_128": "dcbc3c24b4c5b6b845c213d65644456b"
+          }
+        ]
+      }
+    ]
   }
 ]
