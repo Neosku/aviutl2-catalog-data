@@ -54038,5 +54038,587 @@
         ]
       }
     ]
+  },
+  {
+    "id": "HexBrowns.PlanarTracking_H",
+    "name": "平面トラッキング_H",
+    "type": "スクリプト",
+    "summary": "動画の中の平らな面を追い、別の画像を四隅に貼る",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E5%B9%B3%E9%9D%A2%E3%83%88%E3%83%A9%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0_H.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
+    "latest-version": "v1.4.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT No Attribution",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT No Attribution\n\nCopyright 2026 HexBrowns\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this\nsoftware and associated documentation files (the \"Software\"), to deal in the Software\nwithout restriction, including without limitation the rights to use, copy, modify,\nmerge, publish, distribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト",
+      "トラッキング"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.PlanarTracking_H_thumbnail.png",
+        "infoImg": [
+          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.PlanarTracking_H_thumbnail.gif"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/平面トラッキング_H.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/平面トラッキング_H.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.4.0",
+        "release_date": "2026-10-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/平面トラッキング_H.obj2",
+            "XXH3_128": "8cf7702ea04c3db2988c64765f61054c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.ContentAwareFill_H",
+    "name": "コンテンツに応じた塗りつぶし_H",
+    "type": "スクリプト",
+    "summary": "範囲の中を周りの絵で埋めて、写り込んだ物を消す",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%81%AB%E5%BF%9C%E3%81%98%E3%81%9F%E5%A1%97%E3%82%8A%E3%81%A4%E3%81%B6%E3%81%97_H.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
+    "latest-version": "v1.4.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT No Attribution",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT No Attribution\n\nCopyright 2026 HexBrowns\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this\nsoftware and associated documentation files (the \"Software\"), to deal in the Software\nwithout restriction, including without limitation the rights to use, copy, modify,\nmerge, publish, distribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "加工",
+      "塗りつぶし"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.ContentAwareFill_H_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/コンテンツに応じた塗りつぶし_H.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/コンテンツに応じた塗りつぶし_H.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.4.0",
+        "release_date": "2026-10-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/コンテンツに応じた塗りつぶし_H.anm2",
+            "XXH3_128": "4848e1204a0e28cd25f5a9a4f18b3330"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.Extrude_H",
+    "name": "押し出し_H",
+    "type": "スクリプト",
+    "summary": "形を奥行き方向に押し出し、縁に面取りか丸みを付ける",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E6%8A%BC%E3%81%97%E5%87%BA%E3%81%97_H.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
+    "latest-version": "v1.4.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT No Attribution",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT No Attribution\n\nCopyright 2026 HexBrowns\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this\nsoftware and associated documentation files (the \"Software\"), to deal in the Software\nwithout restriction, including without limitation the rights to use, copy, modify,\nmerge, publish, distribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "立体"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.Extrude_H_thumbnail.png",
+        "infoImg": [
+          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.Extrude_H_thumbnail.gif"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/押し出し_H.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/押し出し_H.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.4.0",
+        "release_date": "2026-10-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/押し出し_H.anm2",
+            "XXH3_128": "0e02050a9d18ecf3c3514c18ef493cde"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.TimeWarp_H",
+    "name": "タイムワープ_H",
+    "type": "スクリプト",
+    "summary": "動画のフレームの間を動きから補間してスロー再生する",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%AF%E3%83%BC%E3%83%97_H.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
+    "latest-version": "v1.4.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT No Attribution",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT No Attribution\n\nCopyright 2026 HexBrowns\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this\nsoftware and associated documentation files (the \"Software\"), to deal in the Software\nwithout restriction, including without limitation the rights to use, copy, modify,\nmerge, publish, distribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト",
+      "時間制御"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.TimeWarp_H_thumbnail.png",
+        "infoImg": [
+          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.TimeWarp_H_thumbnail.gif"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/タイムワープ_H.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/タイムワープ_H.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.4.0",
+        "release_date": "2026-10-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/タイムワープ_H.obj2",
+            "XXH3_128": "2bfa45652e0adfc5810606ce7b187b43"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.BallAction_H",
+    "name": "ボールアクション_H",
+    "type": "スクリプト",
+    "summary": "画像を光の当たったボールの集まりにして散らす",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3_H.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
+    "latest-version": "v1.4.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT No Attribution",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT No Attribution\n\nCopyright 2026 HexBrowns\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this\nsoftware and associated documentation files (the \"Software\"), to deal in the Software\nwithout restriction, including without limitation the rights to use, copy, modify,\nmerge, publish, distribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "変形",
+      "アニメーション"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.BallAction_H_thumbnail.png",
+        "infoImg": [
+          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.BallAction_H_thumbnail.gif"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/ボールアクション_H.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ボールアクション_H.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.4.0",
+        "release_date": "2026-10-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/ボールアクション_H.anm2",
+            "XXH3_128": "a75701b37a59b7544bfb7d02305acf0c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.Caustics_H",
+    "name": "コースティクス_H",
+    "type": "スクリプト",
+    "summary": "水面の揺れによる屈折と、底に映る光の網目を描く",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9_H.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
+    "latest-version": "v1.4.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT No Attribution",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT No Attribution\n\nCopyright 2026 HexBrowns\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this\nsoftware and associated documentation files (the \"Software\"), to deal in the Software\nwithout restriction, including without limitation the rights to use, copy, modify,\nmerge, publish, distribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "加工",
+      "ライティング"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.Caustics_H_thumbnail.png",
+        "infoImg": [
+          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.Caustics_H_thumbnail.gif"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/コースティクス_H.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/コースティクス_H.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.4.0",
+        "release_date": "2026-10-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/コースティクス_H.anm2",
+            "XXH3_128": "44915e90b53a960083448275d44e62b9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.CardDance_H",
+    "name": "カードダンス_H",
+    "type": "スクリプト",
+    "summary": "画像をカードに分けて、勾配の順に裏返す・飛ばす",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%83%B3%E3%82%B9_H.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
+    "latest-version": "v1.4.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT No Attribution",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT No Attribution\n\nCopyright 2026 HexBrowns\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this\nsoftware and associated documentation files (the \"Software\"), to deal in the Software\nwithout restriction, including without limitation the rights to use, copy, modify,\nmerge, publish, distribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "アニメーション",
+      "トランジション"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.CardDance_H_thumbnail.png",
+        "infoImg": [
+          "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.CardDance_H_thumbnail.gif"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/カードダンス_H.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/カードダンス_H.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.4.0",
+        "release_date": "2026-10-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/カードダンス_H.anm2",
+            "XXH3_128": "8122fdabebe4475c93cd021b66f70184"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.VectorBlur_H",
+    "name": "ベクトルブラー_H",
+    "type": "スクリプト",
+    "summary": "画像の明るさの流れに沿って、筆で流したようにぼかす",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%83%96%E3%83%A9%E3%83%BC_H.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
+    "latest-version": "v1.4.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT No Attribution",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT No Attribution\n\nCopyright 2026 HexBrowns\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this\nsoftware and associated documentation files (the \"Software\"), to deal in the Software\nwithout restriction, including without limitation the rights to use, copy, modify,\nmerge, publish, distribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "ぼかし"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/images/HexBrowns.VectorBlur_H_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/ベクトルブラー_H.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ベクトルブラー_H.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.4.0",
+        "release_date": "2026-10-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/ベクトルブラー_H.anm2",
+            "XXH3_128": "eb0ae7a54890bf44fba1da91fb4f4127"
+          }
+        ]
+      }
+    ]
   }
 ]
