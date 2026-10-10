@@ -53717,7 +53717,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/LoudnessNormalize_H/main/README.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/LoudnessNormalize_H",
-    "latest-version": "v2.0.2",
+    "latest-version": "v2.0.3",
     "popularity": 65,
     "trend": 65,
     "licenses": [
@@ -53800,6 +53800,16 @@
           {
             "path": "{pluginsDir}/LoudnessNormalize_H/LoudnessNormalize_H.auf2",
             "XXH3_128": "a631c06ffde7c51c10ae5c6fce73a374"
+          }
+        ]
+      },
+      {
+        "version": "v2.0.3",
+        "release_date": "2026-10-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/LoudnessNormalize_H/LoudnessNormalize_H.auf2",
+            "XXH3_128": "48b78f917704b5b82f56e0b938dc0588"
           }
         ]
       }
@@ -54002,7 +54012,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/svg_trace/main/README.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/svg_trace",
-    "latest-version": "v0.1.4",
+    "latest-version": "v0.2.0",
     "popularity": 45,
     "trend": 44,
     "licenses": [
@@ -54092,6 +54102,16 @@
           {
             "path": "{pluginsDir}/svg_trace/svg_trace.aux2",
             "XXH3_128": "ba622860e163b0672021d5d9dab003da"
+          }
+        ]
+      },
+      {
+        "version": "v0.2.0",
+        "release_date": "2026-10-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/svg_trace/svg_trace.aux2",
+            "XXH3_128": "a00276869ebd9f103529179835735114"
           }
         ]
       }
