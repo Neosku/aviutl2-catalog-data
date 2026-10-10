@@ -54047,7 +54047,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/BackupDiff_H/main/README.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/BackupDiff_H",
-    "latest-version": "v0.3.1",
+    "latest-version": "v0.3.2",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -54070,9 +54070,8 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/BackupDiff_H/main/images/BackupDiff_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/BackupDiff_H/main/images/BackupDiff_H_screen.png"
+          "./image/HexBrowns.BackupDiff_H_1.png"
         ]
       }
     ],
@@ -54112,6 +54111,16 @@
           {
             "path": "{pluginsDir}/BackupDiff_H/BackupDiff_H.aux2",
             "XXH3_128": "603b35f51e8829a2476bdd5b457f849c"
+          }
+        ]
+      },
+      {
+        "version": "v0.3.2",
+        "release_date": "2026-10-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/BackupDiff_H/BackupDiff_H.aux2",
+            "XXH3_128": "c8b225e2a809100796f26cc0debbbab7"
           }
         ]
       }
