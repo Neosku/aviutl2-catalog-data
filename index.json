@@ -53813,7 +53813,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/FullSizePreview_H/main/README.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/FullSizePreview_H",
-    "latest-version": "v0.6.0",
+    "latest-version": "v0.6.1",
     "popularity": 26,
     "trend": 27,
     "licenses": [
@@ -53881,6 +53881,16 @@
           {
             "path": "{pluginsDir}/FullSizePreview_H/FullSizePreview_H.aux2",
             "XXH3_128": "6bc560b490a6f3ed8c8a773cba4f827e"
+          }
+        ]
+      },
+      {
+        "version": "v0.6.1",
+        "release_date": "2026-10-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/FullSizePreview_H/FullSizePreview_H.aux2",
+            "XXH3_128": "d6e71bd06b93e809f073da72778f30d5"
           }
         ]
       }
