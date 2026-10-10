@@ -54211,7 +54211,7 @@
     ],
     "dependencies": [],
     "images": [
-       {
+      {
         "thumbnail": "./image/HexBrowns.ContentAwareFill_H_thumbnail.png"
       }
     ],
@@ -54763,6 +54763,98 @@
           {
             "path": "{scriptsDir}/電波_H.obj2",
             "XXH3_128": "8fe6ec0ad897169d048adb1353d85344"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.CurveEditor_H",
+    "name": "CurveEditor_H",
+    "type": "汎用プラグイン",
+    "summary": "ベジェ・ばね・Lua で描いたカーブをトラックバーの移動方法にする",
+    "description": "https://raw.githubusercontent.com/HexBrowns/CurveEditor_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/CurveEditor_H",
+    "latest-version": "v0.10.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "イージング",
+      "トラックバー",
+      "UI"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.CurveEditor_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.CurveEditor_H_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "CurveEditor_H",
+          "pattern": "^HexBrowns\\.CurveEditor_H-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/CurveEditor_H/CurveEditor_H.aux2",
+          "to": "{pluginsDir}/CurveEditor_H"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/CurveEditor_H/@カーブエディタ_H.tra2",
+          "to": "{scriptsDir}/CurveEditor_H"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CurveEditor_H/@カーブエディタ_H.tra2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/CurveEditor_H/CurveEditor_H.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.10.0",
+        "release_date": "2026-10-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/CurveEditor_H/CurveEditor_H.aux2",
+            "XXH3_128": "c560e7ede220358180b8946e9b82b033"
+          },
+          {
+            "path": "{scriptsDir}/CurveEditor_H/@カーブエディタ_H.tra2",
+            "XXH3_128": "ebdef5d256f6fba62da0f60f0436a5eb"
           }
         ]
       }
