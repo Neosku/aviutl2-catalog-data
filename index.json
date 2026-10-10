@@ -53690,7 +53690,7 @@
         "github": {
           "owner": "HexBrowns",
           "repo": "FullSizePreview_H",
-          "pattern": "^HexBrowns\\.FullSizePreview_H-v[\\d.]+\\.au2pkg\\.zip$"
+          "pattern": "^HexBrowns\\.FullSizePreview_H-v[^/]+\\.au2pkg\\.zip$"
         }
       },
       "install": [
