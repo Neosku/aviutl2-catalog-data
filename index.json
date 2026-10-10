@@ -53870,9 +53870,8 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "https://raw.githubusercontent.com/HexBrowns/EditScript_H/main/images/EditScript_H_thumbnail.png",
         "infoImg": [
-          "https://raw.githubusercontent.com/HexBrowns/EditScript_H/main/images/EditScript_H_screen.png"
+          "./image/HexBrowns.EditScript_H_1.png"
         ]
       }
     ],
@@ -53946,24 +53945,18 @@
         "release_date": "2026-10-08",
         "file": [
           {
-            "path": "{pluginsDir}/EditScript_H/API.md",
-            "XXH3_128": "050b77f3fd35d4b50cf60b568d22ed0a"
-          },
-          {
             "path": "{pluginsDir}/EditScript_H/EditScript_H.aux2",
             "XXH3_128": "db667946b477686c8d29d926a6fbe013"
-          },
+          }
+        ]
+      },
+      {
+        "version": "v0.2.1",
+        "release_date": "2026-10-10",
+        "file": [
           {
-            "path": "{pluginsDir}/EditScript_H/scripts/例_選択に単色化を足す.lua",
-            "XXH3_128": "2700fb1faa2371233b2caf3dc7ae9732"
-          },
-          {
-            "path": "{pluginsDir}/EditScript_H/scripts/例_選択の一覧.lua",
-            "XXH3_128": "1612bbddf06143e8f53884cf1b363275"
-          },
-          {
-            "path": "{pluginsDir}/EditScript_H/scripts/例_選択を等間隔にずらす.lua",
-            "XXH3_128": "416bc4ca01ca4a80a248b3f8483fc476"
+            "path": "{pluginsDir}/EditScript_H/EditScript_H.aux2",
+            "XXH3_128": "8fba6cda2ad6f48a808a951b81031d8d"
           }
         ]
       }
