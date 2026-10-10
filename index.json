@@ -54977,5 +54977,83 @@
         ]
       }
     ]
+  },
+  {
+    "id": "HexBrowns.VideoScope_H",
+    "name": "VideoScope_H",
+    "type": "汎用プラグイン",
+    "summary": "輝度の波形・RGB パレード・ベクトルスコープで色を測る",
+    "description": "https://raw.githubusercontent.com/HexBrowns/VideoScope_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/VideoScope_H",
+    "latest-version": "v0.2.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "UI",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.VideoScope_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.VideoScope_H_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "VideoScope_H",
+          "pattern": "^HexBrowns\\.VideoScope_H-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/VideoScope_H/VideoScope_H.aux2",
+          "to": "{pluginsDir}/VideoScope_H"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VideoScope_H/VideoScope_H.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.2.0",
+        "release_date": "2026-10-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/VideoScope_H/VideoScope_H.aux2",
+            "XXH3_128": "6b9b9bb1197c274d5edd83641a3f9427"
+          }
+        ]
+      }
+    ]
   }
 ]
