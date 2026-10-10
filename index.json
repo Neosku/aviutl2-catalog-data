@@ -54211,7 +54211,7 @@
     ],
     "dependencies": [],
     "images": [
-       {
+      {
         "thumbnail": "./image/HexBrowns.ContentAwareFill_H_thumbnail.png"
       }
     ],
@@ -54763,6 +54763,84 @@
           {
             "path": "{scriptsDir}/電波_H.obj2",
             "XXH3_128": "8fe6ec0ad897169d048adb1353d85344"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.ColorHistory_H",
+    "name": "ColorHistory_H",
+    "type": "汎用プラグイン",
+    "summary": "オブジェクトで使った色を記録し、コピー・適用・一括置換する",
+    "description": "https://raw.githubusercontent.com/HexBrowns/ColorHistory_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/ColorHistory_H",
+    "latest-version": "v0.2.3",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カラーパレット",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.ColorHistory_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.ColorHistory_H_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "ColorHistory_H",
+          "pattern": "^HexBrowns\\.ColorHistory_H-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/ColorHistory_H/ColorHistory_H.aux2",
+          "to": "{pluginsDir}/ColorHistory_H"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ColorHistory_H/ColorHistory_H.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.2.3",
+        "release_date": "2026-10-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/ColorHistory_H/ColorHistory_H.aux2",
+            "XXH3_128": "196100af320e32f71581874ad94d633d"
           }
         ]
       }
