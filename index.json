@@ -54211,7 +54211,7 @@
     ],
     "dependencies": [],
     "images": [
-       {
+      {
         "thumbnail": "./image/HexBrowns.ContentAwareFill_H_thumbnail.png"
       }
     ],
@@ -54763,6 +54763,176 @@
           {
             "path": "{scriptsDir}/電波_H.obj2",
             "XXH3_128": "8fe6ec0ad897169d048adb1353d85344"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.CurveEditor2",
+    "name": "CurveEditor2",
+    "type": "汎用プラグイン",
+    "summary": "ベジェ・ばね・Lua で描いたカーブをトラックバーの移動方法にする",
+    "description": "https://raw.githubusercontent.com/HexBrowns/CurveEditor2/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/CurveEditor2",
+    "latest-version": "v0.9.10",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "イージング",
+      "トラックバー",
+      "UI"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.CurveEditor2_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.CurveEditor2_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "CurveEditor2",
+          "pattern": "^HexBrowns\\.CurveEditor2-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/CurveEditor2/CurveEditor2.aux2",
+          "to": "{pluginsDir}/CurveEditor2"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/CurveEditor2/@カーブエディタ2.tra2",
+          "to": "{scriptsDir}/CurveEditor2"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CurveEditor2/@カーブエディタ2.tra2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/CurveEditor2/CurveEditor2.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.9.10",
+        "release_date": "2026-10-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/CurveEditor2/CurveEditor2.aux2",
+            "XXH3_128": "cd43935f0acad0ae14afed843b6a30f0"
+          },
+          {
+            "path": "{scriptsDir}/CurveEditor2/@カーブエディタ2.tra2",
+            "XXH3_128": "cd512835f3c653270c3428d88cc7b0f5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.ManuscriptPanel_H",
+    "name": "ManuscriptPanel_H",
+    "type": "汎用プラグイン",
+    "summary": "Markdown の原稿の行をクリックしてテロップを置く",
+    "description": "https://raw.githubusercontent.com/HexBrowns/ManuscriptPanel_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/ManuscriptPanel_H",
+    "latest-version": "v0.2.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "テキスト",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.ManuscriptPanel_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.ManuscriptPanel_H_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "ManuscriptPanel_H",
+          "pattern": "^HexBrowns\\.ManuscriptPanel_H-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/ManuscriptPanel_H/ManuscriptPanel_H.aux2",
+          "to": "{pluginsDir}/ManuscriptPanel_H"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ManuscriptPanel_H/ManuscriptPanel_H.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.2.1",
+        "release_date": "2026-10-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/ManuscriptPanel_H/ManuscriptPanel_H.aux2",
+            "XXH3_128": "79e91516d23fe459c1e6979111e89149"
           }
         ]
       }
