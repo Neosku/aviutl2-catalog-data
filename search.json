@@ -5479,7 +5479,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/LoudnessNormalize_H",
-      "regex": "^LoudnessNormalize_H_v[\\d.]+\\.zip$",
+      "regex": "^HexBrowns\\.LoudnessNormalize_H-v[\\d.]+\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -5499,7 +5499,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/FullSizePreview_H",
-      "regex": "^FullSizePreview_H_v[\\d.]+\\.zip$",
+      "regex": "^HexBrowns\\.FullSizePreview_H-v[\\d.]+\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -5519,7 +5519,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/FileFinder_H",
-      "regex": "^FileFinder_H_v[\\d.]+\\.zip$",
+      "regex": "^HexBrowns\\.FileFinder_H-v[\\d.]+\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -5539,7 +5539,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/svg_trace",
-      "regex": "^svg_trace_v[\\d.]+\\.zip$",
+      "regex": "^HexBrowns\\.svg_trace-v[\\d.]+\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -5588,6 +5588,206 @@
           ],
           "recordPaths": [
             "{scriptsDir}/@拡張パーティクル_H.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sagami121.HEIF-HEIC-Input",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sagami121/HEIF-HEIC-Input",
+      "regex": "^HEIF-HEIC-Input.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/heif_heic_input.aui2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/heif_heic_input.aui2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.PlanarTracking_H",
+    "latest-version": "v1.4.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/平面トラッキング_H.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/平面トラッキング_H.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.ContentAwareFill_H",
+    "latest-version": "v1.4.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/コンテンツに応じた塗りつぶし_H.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/コンテンツに応じた塗りつぶし_H.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.Extrude_H",
+    "latest-version": "v1.4.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/押し出し_H.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/押し出し_H.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.TimeWarp_H",
+    "latest-version": "v1.4.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/タイムワープ_H.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/タイムワープ_H.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.BallAction_H",
+    "latest-version": "v1.4.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/ボールアクション_H.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ボールアクション_H.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.Caustics_H",
+    "latest-version": "v1.4.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/コースティクス_H.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/コースティクス_H.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.CardDance_H",
+    "latest-version": "v1.4.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/カードダンス_H.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/カードダンス_H.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.VectorBlur_H",
+    "latest-version": "v1.4.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/ベクトルブラー_H.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ベクトルブラー_H.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.RadioWaves_H",
+    "latest-version": "v1.4.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/電波_H.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/電波_H.obj2"
           ]
         }
       ]
