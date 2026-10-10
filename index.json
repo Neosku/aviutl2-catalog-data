@@ -53600,7 +53600,7 @@
         "github": {
           "owner": "HexBrowns",
           "repo": "LoudnessNormalize_H",
-          "pattern": "^LoudnessNormalize_H_v[\\d.]+\\.zip$"
+          "pattern": "^HexBrowns\\.LoudnessNormalize_H-v[\\d.]+\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -53680,7 +53680,7 @@
         "github": {
           "owner": "HexBrowns",
           "repo": "FullSizePreview_H",
-          "pattern": "^FullSizePreview_H_v[\\d.]+\\.zip$"
+          "pattern": "^HexBrowns\\.FullSizePreview_H-v[\\d.]+\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -53758,7 +53758,7 @@
         "github": {
           "owner": "HexBrowns",
           "repo": "FileFinder_H",
-          "pattern": "^FileFinder_H_v[\\d.]+\\.zip$"
+          "pattern": "^HexBrowns\\.FileFinder_H-v[\\d.]+\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -53833,7 +53833,7 @@
         "github": {
           "owner": "HexBrowns",
           "repo": "svg_trace",
-          "pattern": "^svg_trace_v[\\d.]+\\.zip$"
+          "pattern": "^HexBrowns\\.svg_trace-v[\\d.]+\\.au2pkg\\.zip$"
         }
       },
       "install": [
