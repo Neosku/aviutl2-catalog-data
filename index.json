@@ -13672,7 +13672,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_visual_font/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_visual_font",
-    "latest-version": "r6",
+    "latest-version": "r7",
     "popularity": 17185,
     "trend": 1105,
     "licenses": [
@@ -13813,6 +13813,16 @@
           {
             "path": "{pluginsDir}/al2/al2_visual_font.aui2",
             "XXH3_128": "cbade3e6609d5cbd02465bb6daf77aeb"
+          }
+        ]
+      },
+      {
+        "version": "r7",
+        "release_date": "2026-10-11",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_visual_font.aui2",
+            "XXH3_128": "55262aedb70826bd56d60abee0f28817"
           }
         ]
       }
