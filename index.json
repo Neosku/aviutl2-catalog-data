@@ -57614,5 +57614,83 @@
         ]
       }
     ]
+  },
+  {
+    "id": "HexBrowns.ManuscriptPanel_H",
+    "name": "ManuscriptPanel_H",
+    "type": "汎用プラグイン",
+    "summary": "Markdown の原稿の行をクリックしてテロップを置く",
+    "description": "https://raw.githubusercontent.com/HexBrowns/ManuscriptPanel_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/ManuscriptPanel_H",
+    "latest-version": "v0.2.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "テキスト",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.ManuscriptPanel_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.ManuscriptPanel_H_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "ManuscriptPanel_H",
+          "pattern": "^HexBrowns\\.ManuscriptPanel_H-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/ManuscriptPanel_H/ManuscriptPanel_H.aux2",
+          "to": "{pluginsDir}/ManuscriptPanel_H"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ManuscriptPanel_H/ManuscriptPanel_H.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.2.1",
+        "release_date": "2026-10-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/ManuscriptPanel_H/ManuscriptPanel_H.aux2",
+            "XXH3_128": "79e91516d23fe459c1e6979111e89149"
+          }
+        ]
+      }
+    ]
   }
 ]
