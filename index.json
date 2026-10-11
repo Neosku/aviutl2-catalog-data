@@ -55897,5 +55897,128 @@
         ]
       }
     ]
+  },
+  {
+    "id": "HexBrowns.EditScript_H",
+    "name": "EditScript_H",
+    "type": "汎用プラグイン",
+    "summary": "Lua スクリプトでタイムラインの編集を自動化する",
+    "description": "https://raw.githubusercontent.com/HexBrowns/EditScript_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/EditScript_H",
+    "latest-version": "v0.2.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "便利ツール",
+      "AI"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "infoImg": [
+          "./image/HexBrowns.EditScript_H_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "EditScript_H",
+          "pattern": "^HexBrowns\\.EditScript_H-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/EditScript_H/API.md",
+          "to": "{pluginsDir}/EditScript_H"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/EditScript_H/EditScript_H.aux2",
+          "to": "{pluginsDir}/EditScript_H"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/EditScript_H/scripts/例_選択に単色化を足す.lua",
+          "to": "{pluginsDir}/EditScript_H/scripts"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/EditScript_H/scripts/例_選択の一覧.lua",
+          "to": "{pluginsDir}/EditScript_H/scripts"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/EditScript_H/scripts/例_選択を等間隔にずらす.lua",
+          "to": "{pluginsDir}/EditScript_H/scripts"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/EditScript_H/scripts/例_選択を等間隔にずらす.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/EditScript_H/scripts/例_選択の一覧.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/EditScript_H/scripts/例_選択に単色化を足す.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/EditScript_H/EditScript_H.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/EditScript_H/API.md"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.2.0",
+        "release_date": "2026-10-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/EditScript_H/EditScript_H.aux2",
+            "XXH3_128": "db667946b477686c8d29d926a6fbe013"
+          }
+        ]
+      },
+      {
+        "version": "v0.2.1",
+        "release_date": "2026-10-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/EditScript_H/EditScript_H.aux2",
+            "XXH3_128": "8fba6cda2ad6f48a808a951b81031d8d"
+          }
+        ]
+      }
+    ]
   }
 ]
