@@ -56192,5 +56192,351 @@
         ]
       }
     ]
+  },
+  {
+    "id": "HexBrowns.AviUtl2Browser_H",
+    "name": "AviUtl2Browser_H",
+    "type": "スクリプトモジュール",
+    "summary": "HTML・CSS・JavaScript の表示をオブジェクトにする",
+    "description": "https://raw.githubusercontent.com/HexBrowns/AviUtl2Browser_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/AviUtl2Browser_H",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2021",
+            "holder": "oov"
+          },
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト",
+      "画像"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "AviUtl2Browser_H",
+          "pattern": "^HexBrowns\\.AviUtl2Browser_H-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/AviUtl2Browser_H.mod2",
+          "to": "{scriptsDir}/browser"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/browser.lua",
+          "to": "{scriptsDir}/browser"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/contents/README.txt",
+          "to": "{scriptsDir}/browser/contents"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/exe",
+          "to": "{scriptsDir}/browser/exe"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/browser/ブラウザ表示.obj2",
+          "to": "{scriptsDir}/browser"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/ブラウザ表示.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/exe"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/contents/README.txt"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/browser.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/browser/AviUtl2Browser_H.mod2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-10-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/browser/AviUtl2Browser_H.mod2",
+            "XXH3_128": "d2dc954607f094d7cb728d06c039f2bc"
+          },
+          {
+            "path": "{scriptsDir}/browser/ブラウザ表示.obj2",
+            "XXH3_128": "dcbc3c24b4c5b6b845c213d65644456b"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.MidpointTable_H",
+    "name": "MidpointTable_H",
+    "type": "汎用プラグイン",
+    "summary": "中間点ごとの値を表で編集し、値をずらしながら周期的に複製する",
+    "description": "https://raw.githubusercontent.com/HexBrowns/MidpointTable_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/MidpointTable_H",
+    "latest-version": "v0.4.2",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "便利ツール",
+      "トラックバー"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "infoImg": [
+          "./image/HexBrowns.MidpointTable_H_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "MidpointTable_H",
+          "pattern": "^HexBrowns\\.MidpointTable_H-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/MidpointTable_H/MidpointTable_H.aux2",
+          "to": "{pluginsDir}/MidpointTable_H"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/MidpointTable_H/MidpointTable_H.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.4.2",
+        "release_date": "2026-10-09",
+        "file": [
+          {
+            "path": "{pluginsDir}/MidpointTable_H/MidpointTable_H.aux2",
+            "XXH3_128": "c9d9e014a7476d89d8f92f5cb1ef3b5f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.LayerSilenceCut_H",
+    "name": "レイヤー指定無音カット_H",
+    "type": "汎用プラグイン",
+    "summary": "指定レイヤーの無音を探し、指定レイヤーだけ切って詰める",
+    "description": "https://raw.githubusercontent.com/HexBrowns/LayerSilenceCut_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/LayerSilenceCut_H",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "音声",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "infoImg": [
+          "./image/HexBrowns.LayerSilenceCut_H_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "LayerSilenceCut_H",
+          "pattern": "^HexBrowns\\.LayerSilenceCut_H-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/LayerSilenceCut_H/LayerSilenceCut_H.aux2",
+          "to": "{pluginsDir}/LayerSilenceCut_H"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/LayerSilenceCut_H/LayerSilenceCut_H.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-10-09",
+        "file": [
+          {
+            "path": "{pluginsDir}/LayerSilenceCut_H/LayerSilenceCut_H.aux2",
+            "XXH3_128": "8bd18aa06a93a0efa63eb8710a57ae8b"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.TextReplace_H",
+    "name": "TextReplace_H",
+    "type": "汎用プラグイン",
+    "summary": "テキストの本文を一括で検索・置換し、文字数で改行する",
+    "description": "https://raw.githubusercontent.com/HexBrowns/TextReplace_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/TextReplace_H",
+    "latest-version": "v0.2.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "テキスト",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "infoImg": [
+          "./image/HexBrowns.TextReplace_H_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "TextReplace_H",
+          "pattern": "^HexBrowns\\.TextReplace_H-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/TextReplace_H/TextReplace_H.aux2",
+          "to": "{pluginsDir}/TextReplace_H"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/TextReplace_H/TextReplace_H.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.2.0",
+        "release_date": "2026-10-09",
+        "file": [
+          {
+            "path": "{pluginsDir}/TextReplace_H/TextReplace_H.aux2",
+            "XXH3_128": "d843000a38012419e9fd3e3f98082f81"
+          }
+        ]
+      }
+    ]
   }
 ]
