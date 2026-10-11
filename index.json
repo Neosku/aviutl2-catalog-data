@@ -54832,17 +54832,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Script/FilmPrintLUT/LUTs/Film Cool.cube",
-          "to": "{scriptsDir}/FilmPrintLUT/LUTs"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Script/FilmPrintLUT/LUTs/Film Neutral.cube",
-          "to": "{scriptsDir}/FilmPrintLUT/LUTs"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/Script/FilmPrintLUT/LUTs/Film Warm.cube",
+          "from": "{tmp}/Script/FilmPrintLUT/LUTs",
           "to": "{scriptsDir}/FilmPrintLUT/LUTs"
         },
         {
@@ -54867,15 +54857,7 @@
         },
         {
           "action": "delete",
-          "path": "{scriptsDir}/FilmPrintLUT/LUTs/Film Cool.cube"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/FilmPrintLUT/LUTs/Film Neutral.cube"
-        },
-        {
-          "action": "delete",
-          "path": "{scriptsDir}/FilmPrintLUT/LUTs/Film Warm.cube"
+          "path": "{scriptsDir}/FilmPrintLUT/LUTs"
         },
         {
           "action": "delete",
