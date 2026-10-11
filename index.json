@@ -56020,5 +56020,80 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Fuji.voice_valet",
+    "name": "Voice Valet",
+    "type": "汎用プラグイン",
+    "summary": "音声合成ソフト間でショートカットキーの統一化 & プリセット機能を提供",
+    "description": "https://raw.githubusercontent.com/Fuji07-2525/voice-valet/main/README.md",
+    "author": "Fuji",
+    "repoURL": "https://github.com/Fuji07-2525/voice-valet",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "Fuji"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/Fuji.voice_valet_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Fuji07-2525",
+          "repo": "voice-valet",
+          "pattern": "voice_valet.aux2"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/voice_valet.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/voice_valet.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/voice-valet-config.json"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-10-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/voice_valet.aux2",
+            "XXH3_128": "b8e53dd05a6ce6206eef9e1888c9ba95"
+          }
+        ]
+      }
+    ]
   }
 ]
