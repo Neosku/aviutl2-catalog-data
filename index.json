@@ -6101,7 +6101,9 @@
         "licenseBody": null
       }
     ],
-    "tags": [],
+    "tags": [
+      "LUT"
+    ],
     "dependencies": [],
     "images": [],
     "installer": {
@@ -54772,7 +54774,7 @@
     "id": "nctype.FilmPrintLUT",
     "name": "FilmPrintLUT",
     "type": "スクリプト",
-    "summary": "LUTを読み込んで画面に適用するだけのスクリプトです",
+    "summary": "LUTを読み込んで画面に適用するスクリプト",
     "description": "https://raw.githubusercontent.com/nctype/aviutl2_script_FilmPrintLUT/refs/heads/main/README.md",
     "author": "nctype",
     "repoURL": "https://github.com/nctype/aviutl2_script_FilmPrintLUT",
@@ -54795,9 +54797,7 @@
     "tags": [
       "色調整",
       "LUT",
-      "ルックアップテーブル",
-      "画像処理",
-      "映像処理"
+      "画像処理"
     ],
     "dependencies": [],
     "images": [
