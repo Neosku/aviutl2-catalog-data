@@ -58080,7 +58080,7 @@
     "author": "Garech",
     "originalAuthor": "σ軸",
     "repoURL": "https://github.com/Garech-mas/AviUtl2_toggle_layers",
-    "latest-version": "v2.3",
+    "latest-version": "v2.2",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -58163,16 +58163,6 @@
             "XXH3_128": "5225c0a132351021545889ff7b44c8ed"
           }
         ]
-      },
-      {
-        "version": "v2.3",
-        "release_date": "2026-10-12",
-        "file": [
-          {
-            "path": "{pluginsDir}/toggle_layers/toggle_layers.aux2",
-            "XXH3_128": "e0b5f3faac8bb0ad6911c75d28375c64"
-          }
-        ]
       }
     ]
   },
@@ -58231,6 +58221,81 @@
           {
             "path": "{scriptsDir}/区切り毎に個別化_Rh.anm2",
             "XXH3_128": "de00baa2536dbd9f4c92baef90c2633f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ar-ca-na.layer-pin",
+    "name": "レイヤー固定",
+    "type": "汎用プラグイン",
+    "summary": "レイヤーを一番上に固定して、スクロールしても見失わない",
+    "description": "https://raw.githubusercontent.com/ar-ca-na/aviutl2-layer-pin/refs/heads/main/README.md",
+    "author": "arcana",
+    "repoURL": "https://github.com/ar-ca-na/aviutl2-layer-pin",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "arcana"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "UI",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/ar-ca-na.layer-pin_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "ar-ca-na",
+          "repo": "aviutl2-layer-pin",
+          "pattern": "^aviutl2-layer-pin-v.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/layer_pin.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/layer_pin.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-10-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/layer_pin.aux2",
+            "XXH3_128": "353b386bf3913a8a5410e93707fafa92"
           }
         ]
       }
