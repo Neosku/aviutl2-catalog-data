@@ -41971,7 +41971,7 @@
     "description": "https://raw.githubusercontent.com/vandojapan/comfont/refs/heads/main/readme.md",
     "author": "4vando",
     "repoURL": "https://github.com/vandojapan/comfont",
-    "latest-version": "v0.2.0",
+    "latest-version": "v0.3.1",
     "popularity": 215,
     "trend": 18,
     "licenses": [
@@ -42020,13 +42020,17 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Alias/合成フォントテキスト.object",
+          "from": "{tmp}/Alias/合成フォント字幕.object",
           "to": "{dataDir}/Alias"
         },
         {
           "action": "copy",
-          "from": "{tmp}/Alias/合成フォント字幕.object",
-          "to": "{dataDir}/Alias"
+          "from": "{tmp}/Script/@comfont.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/合成フォントテキスト.object"
         }
       ],
       "uninstall": [
@@ -42041,6 +42045,10 @@
         {
           "action": "delete",
           "path": "{dataDir}/Alias/合成フォント字幕.object"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@comfont.anm2"
         }
       ]
     },
@@ -42078,6 +42086,20 @@
           {
             "path": "{pluginsDir}/comfont.aux2",
             "XXH3_128": "fdcdf6aee22c9812bb5c335161d70de9"
+          }
+        ]
+      },
+      {
+        "version": "v0.3.1",
+        "release_date": "2026-10-12",
+        "file": [
+          {
+            "path": "{dataDir}/Alias/合成フォント字幕.object",
+            "XXH3_128": "03ef7c1ba6c38f665347e59dfee185a8"
+          },
+          {
+            "path": "{pluginsDir}/comfont.aux2",
+            "XXH3_128": "4e545d75ead34e0c47331d78e0be9944"
           }
         ]
       }
