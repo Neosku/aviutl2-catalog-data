@@ -3542,7 +3542,7 @@
   },
   {
     "id": "vandojapan.comfont",
-    "latest-version": "v0.2.0",
+    "latest-version": "v0.3.1",
     "checkType": {
       "type": "GitHub",
       "repo": "vandojapan/comfont",
@@ -3551,12 +3551,10 @@
         {
           "extract": "zip",
           "paths": [
-            "Alias/合成フォントテキスト.object",
             "Alias/合成フォント字幕.object",
             "Plugin/comfont.aux2"
           ],
           "recordPaths": [
-            "{dataDir}/Alias/合成フォントテキスト.object",
             "{dataDir}/Alias/合成フォント字幕.object",
             "{pluginsDir}/comfont.aux2"
           ]
@@ -5499,7 +5497,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/FullSizePreview_H",
-      "regex": "^HexBrowns\\.FullSizePreview_H-v[\\d.]+\\.au2pkg\\.zip$",
+      "regex": "^HexBrowns\\.FullSizePreview_H-v[^/]+\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -5788,6 +5786,291 @@
           ],
           "recordPaths": [
             "{scriptsDir}/電波_H.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.EditScript_H",
+    "latest-version": "v0.2.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/EditScript_H",
+      "regex": "^HexBrowns\\.EditScript_H-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/EditScript_H/EditScript_H.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/EditScript_H/EditScript_H.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Fuji.voice_valet",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Fuji07-2525/voice-valet",
+      "regex": "voice_valet.aux2",
+      "hash-calc": [
+        {
+          "paths": [
+            "voice_valet.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/voice_valet.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.BackupDiff_H",
+    "latest-version": "v0.3.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/BackupDiff_H",
+      "regex": "^HexBrowns\\.BackupDiff_H-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/BackupDiff_H/BackupDiff_H.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/BackupDiff_H/BackupDiff_H.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.AviUtl2Browser_H",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/AviUtl2Browser_H",
+      "regex": "^HexBrowns\\.AviUtl2Browser_H-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/browser/AviUtl2Browser_H.mod2",
+            "Script/browser/ブラウザ表示.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/browser/AviUtl2Browser_H.mod2",
+            "{scriptsDir}/browser/ブラウザ表示.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.MidpointTable_H",
+    "latest-version": "v0.4.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/MidpointTable_H",
+      "regex": "^HexBrowns\\.MidpointTable_H-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/MidpointTable_H/MidpointTable_H.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/MidpointTable_H/MidpointTable_H.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.LayerSilenceCut_H",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/LayerSilenceCut_H",
+      "regex": "^HexBrowns\\.LayerSilenceCut_H-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/LayerSilenceCut_H/LayerSilenceCut_H.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/LayerSilenceCut_H/LayerSilenceCut_H.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.TextReplace_H",
+    "latest-version": "v0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/TextReplace_H",
+      "regex": "^HexBrowns\\.TextReplace_H-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/TextReplace_H/TextReplace_H.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/TextReplace_H/TextReplace_H.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "nctype.FilmPrintLUT",
+    "latest-version": "v1.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nctype/aviutl2_script_FilmPrintLUT",
+      "regex": "^FilmPrintLUT_v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/FilmPrintLUT/FilmPrintLUT.anm2",
+            "Script/FilmPrintLUT/FilmPrintLUTCube.mod2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/FilmPrintLUT/FilmPrintLUT.anm2",
+            "{scriptsDir}/FilmPrintLUT/FilmPrintLUTCube.mod2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.MediaProbe_H",
+    "latest-version": "v0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/MediaProbe_H",
+      "regex": "^HexBrowns\\.MediaProbe_H-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/MediaProbe_H/MediaProbe_H.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/MediaProbe_H/MediaProbe_H.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.ManuscriptPanel_H",
+    "latest-version": "v0.2.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/ManuscriptPanel_H",
+      "regex": "^HexBrowns\\.ManuscriptPanel_H-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/ManuscriptPanel_H/ManuscriptPanel_H.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/ManuscriptPanel_H/ManuscriptPanel_H.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.ColorHistory_H",
+    "latest-version": "v0.2.3",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/ColorHistory_H",
+      "regex": "^HexBrowns\\.ColorHistory_H-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/ColorHistory_H/ColorHistory_H.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/ColorHistory_H/ColorHistory_H.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.CurveEditor_H",
+    "latest-version": "v0.10.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/CurveEditor_H",
+      "regex": "^HexBrowns\\.CurveEditor_H-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/CurveEditor_H/CurveEditor_H.aux2",
+            "Script/CurveEditor_H/@カーブエディタ_H.tra2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/CurveEditor_H/CurveEditor_H.aux2",
+            "{scriptsDir}/CurveEditor_H/@カーブエディタ_H.tra2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.VideoScope_H",
+    "latest-version": "v0.2.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/VideoScope_H",
+      "regex": "^HexBrowns\\.VideoScope_H-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/VideoScope_H/VideoScope_H.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/VideoScope_H/VideoScope_H.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Garech.ToggleLayers",
+    "latest-version": "v2.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Garech-mas/AviUtl2_toggle_layers",
+      "regex": "^AviUtl2_toggle_layers_.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/toggle_layers/toggle_layers.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/toggle_layers/toggle_layers.aux2"
           ]
         }
       ]
