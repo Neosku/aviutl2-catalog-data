@@ -7050,7 +7050,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Path_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Path_S/",
-    "latest-version": "v2.40",
+    "latest-version": "v2.41",
     "popularity": 4847,
     "trend": 1015,
     "licenses": [
@@ -7275,6 +7275,16 @@
           {
             "path": "{scriptsDir}/@Path_S.anm2",
             "XXH3_128": "c2b10a309a276cc1d0cb199ef90886ee"
+          }
+        ]
+      },
+      {
+        "version": "v2.41",
+        "release_date": "2026-10-12",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Path_S.anm2",
+            "XXH3_128": "652b5136fd09309860718b8dbe2ee085"
           }
         ]
       }
@@ -33601,7 +33611,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_translations_sigma-axis/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_translations_sigma-axis",
-    "latest-version": "r56",
+    "latest-version": "r57",
     "popularity": 166,
     "trend": 67,
     "licenses": [
@@ -34049,6 +34059,16 @@
           {
             "path": "{dataDir}/Language/English.sigma-axis.aul2",
             "XXH3_128": "6cb135c6150c5b558de98b8786683c9c"
+          }
+        ]
+      },
+      {
+        "version": "r57",
+        "release_date": "2026-10-12",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.sigma-axis.aul2",
+            "XXH3_128": "e6f3e4fca62ee4a700f518c4f6d21d34"
           }
         ]
       }
