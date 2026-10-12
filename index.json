@@ -46820,7 +46820,7 @@
     "description": "./md/momo_neeeko.LocusMotion.md",
     "author": "もも猫",
     "repoURL": "https://github.com/momoneeeko/LocusMotion.aux2",
-    "latest-version": "beta4.0",
+    "latest-version": "beta5.1",
     "popularity": 200,
     "trend": 87,
     "licenses": [
@@ -46861,6 +46861,10 @@
       },
       "install": [
         {
+          "action": "delete",
+          "path": "{pluginsDir}/LocusMotion.aux2"
+        },
+        {
           "action": "download"
         },
         {
@@ -46868,8 +46872,8 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Plugin/LocusMotion.aux2",
-          "to": "{pluginsDir}"
+          "from": "{tmp}/Plugin/LocusMotion/LocusMotion.aux2",
+          "to": "{pluginsDir}/LocusMotion"
         },
         {
           "action": "copy",
@@ -46881,6 +46885,10 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/LocusMotion.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/LocusMotion/LocusMotion.aux2"
         },
         {
           "action": "delete",
@@ -46956,6 +46964,20 @@
           {
             "path": "{scriptsDir}/LocusMotion.tra2",
             "XXH3_128": "9df8c94eb9c3f1f77a79ba2130d2abd9"
+          }
+        ]
+      },
+      {
+        "version": "beta5.1",
+        "release_date": "2026-10-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/LocusMotion/LocusMotion.aux2",
+            "XXH3_128": "2296c42257600ad682ca0c783753c5e9"
+          },
+          {
+            "path": "{scriptsDir}/LocusMotion.tra2",
+            "XXH3_128": "a011990d2ef3a935ad768f14ff903696"
           }
         ]
       }
