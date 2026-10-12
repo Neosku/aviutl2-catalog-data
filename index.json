@@ -58080,7 +58080,7 @@
     "author": "Garech",
     "originalAuthor": "σ軸",
     "repoURL": "https://github.com/Garech-mas/AviUtl2_toggle_layers",
-    "latest-version": "v2.1",
+    "latest-version": "v2.2",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -58151,6 +58151,16 @@
           {
             "path": "{pluginsDir}/toggle_layers/toggle_layers.aux2",
             "XXH3_128": "6b5a75d821246c9bbb670332e047287b"
+          }
+        ]
+      },
+      {
+        "version": "v2.2",
+        "release_date": "2026-10-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/toggle_layers/toggle_layers.aux2",
+            "XXH3_128": "5225c0a132351021545889ff7b44c8ed"
           }
         ]
       }
