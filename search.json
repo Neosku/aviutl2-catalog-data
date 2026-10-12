@@ -4257,7 +4257,7 @@
   },
   {
     "id": "momo_neeeko.LocusMotion",
-    "latest-version": "beta4.0",
+    "latest-version": "beta5.1",
     "checkType": {
       "type": "GitHub",
       "repo": "momoneeeko/LocusMotion.aux2",
@@ -4266,11 +4266,11 @@
         {
           "extract": "zip",
           "paths": [
-            "Plugin/LocusMotion.aux2",
+            "Plugin/LocusMotion/LocusMotion.aux2",
             "Script/LocusMotion.tra2"
           ],
           "recordPaths": [
-            "{pluginsDir}/LocusMotion.aux2",
+            "{pluginsDir}/LocusMotion/LocusMotion.aux2",
             "{scriptsDir}/LocusMotion.tra2"
           ]
         }
