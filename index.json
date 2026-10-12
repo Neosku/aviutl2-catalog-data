@@ -57962,5 +57962,90 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Garech.ToggleLayers",
+    "name": "レイヤー一括切り替え",
+    "type": "汎用プラグイン",
+    "summary": "レイヤーの表示・ロック状態をドラッグで切り替えられるように",
+    "description": "https://raw.githubusercontent.com/Garech-mas/AviUtl2_toggle_layers/refs/heads/main/README.md",
+    "author": "Garech",
+    "originalAuthor": "σ軸",
+    "repoURL": "https://github.com/Garech-mas/AviUtl2_toggle_layers",
+    "latest-version": "v2.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "Garech"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "レイヤー",
+      "ショートカット",
+      "UI"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/Garech.ToggleLayers_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Garech-mas",
+          "repo": "AviUtl2_toggle_layers",
+          "pattern": "^AviUtl2_toggle_layers_.*\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/toggle_layers_exedit2.aux2"
+        },
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/toggle_layers/toggle_layers.aux2",
+          "to": "{pluginsDir}/toggle_layers"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/toggle_layers/toggle_layers.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/toggle_layers/toggle_layers.ini"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v2.1",
+        "release_date": "2026-10-11",
+        "file": [
+          {
+            "path": "{pluginsDir}/toggle_layers/toggle_layers.aux2",
+            "XXH3_128": "6b5a75d821246c9bbb670332e047287b"
+          }
+        ]
+      }
+    ]
   }
 ]
