@@ -30282,7 +30282,7 @@
     "description": "https://raw.githubusercontent.com/ar-ca-na/connection_line/refs/heads/main/readme.md",
     "author": "arcana",
     "repoURL": "https://github.com/ar-ca-na/connection_line",
-    "latest-version": "v1.1.0",
+    "latest-version": "v1.2.0",
     "popularity": 1186,
     "trend": 134,
     "licenses": [
@@ -30354,6 +30354,16 @@
           {
             "path": "{scriptsDir}/連結ライン.obj2",
             "XXH3_128": "1cfb375b9b67125e38f460005e0ab79a"
+          }
+        ]
+      },
+      {
+        "version": "v1.2.0",
+        "release_date": "2026-10-12",
+        "file": [
+          {
+            "path": "{scriptsDir}/連結ライン.obj2",
+            "XXH3_128": "78dd70e0ad9fc025ca76f38a716a7461"
           }
         ]
       }
