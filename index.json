@@ -41971,7 +41971,7 @@
     "description": "https://raw.githubusercontent.com/vandojapan/comfont/refs/heads/main/readme.md",
     "author": "4vando",
     "repoURL": "https://github.com/vandojapan/comfont",
-    "latest-version": "v0.2.0",
+    "latest-version": "v0.3.1",
     "popularity": 215,
     "trend": 18,
     "licenses": [
@@ -42020,13 +42020,17 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Alias/合成フォントテキスト.object",
+          "from": "{tmp}/Alias/合成フォント字幕.object",
           "to": "{dataDir}/Alias"
         },
         {
           "action": "copy",
-          "from": "{tmp}/Alias/合成フォント字幕.object",
-          "to": "{dataDir}/Alias"
+          "from": "{tmp}/Script/@comfont.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/合成フォントテキスト.object"
         }
       ],
       "uninstall": [
@@ -42041,6 +42045,10 @@
         {
           "action": "delete",
           "path": "{dataDir}/Alias/合成フォント字幕.object"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@comfont.anm2"
         }
       ]
     },
@@ -42078,6 +42086,20 @@
           {
             "path": "{pluginsDir}/comfont.aux2",
             "XXH3_128": "fdcdf6aee22c9812bb5c335161d70de9"
+          }
+        ]
+      },
+      {
+        "version": "v0.3.1",
+        "release_date": "2026-10-12",
+        "file": [
+          {
+            "path": "{dataDir}/Alias/合成フォント字幕.object",
+            "XXH3_128": "03ef7c1ba6c38f665347e59dfee185a8"
+          },
+          {
+            "path": "{pluginsDir}/comfont.aux2",
+            "XXH3_128": "4e545d75ead34e0c47331d78e0be9944"
           }
         ]
       }
@@ -57688,6 +57710,254 @@
           {
             "path": "{pluginsDir}/ManuscriptPanel_H/ManuscriptPanel_H.aux2",
             "XXH3_128": "79e91516d23fe459c1e6979111e89149"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.ColorHistory_H",
+    "name": "ColorHistory_H",
+    "type": "汎用プラグイン",
+    "summary": "オブジェクトで使った色を記録し、コピー・適用・一括置換する",
+    "description": "https://raw.githubusercontent.com/HexBrowns/ColorHistory_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/ColorHistory_H",
+    "latest-version": "v0.2.3",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カラーパレット",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.ColorHistory_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.ColorHistory_H_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "ColorHistory_H",
+          "pattern": "^HexBrowns\\.ColorHistory_H-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/ColorHistory_H/ColorHistory_H.aux2",
+          "to": "{pluginsDir}/ColorHistory_H"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ColorHistory_H/ColorHistory_H.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.2.3",
+        "release_date": "2026-10-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/ColorHistory_H/ColorHistory_H.aux2",
+            "XXH3_128": "196100af320e32f71581874ad94d633d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.CurveEditor_H",
+    "name": "CurveEditor_H",
+    "type": "汎用プラグイン",
+    "summary": "ベジェ・ばね・Lua で描いたカーブをトラックバーの移動方法にする",
+    "description": "https://raw.githubusercontent.com/HexBrowns/CurveEditor_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/CurveEditor_H",
+    "latest-version": "v0.10.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "イージング",
+      "トラックバー",
+      "UI"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.CurveEditor_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.CurveEditor_H_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "CurveEditor_H",
+          "pattern": "^HexBrowns\\.CurveEditor_H-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/CurveEditor_H/CurveEditor_H.aux2",
+          "to": "{pluginsDir}/CurveEditor_H"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/CurveEditor_H/@カーブエディタ_H.tra2",
+          "to": "{scriptsDir}/CurveEditor_H"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/CurveEditor_H/@カーブエディタ_H.tra2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/CurveEditor_H/CurveEditor_H.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.10.0",
+        "release_date": "2026-10-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/CurveEditor_H/CurveEditor_H.aux2",
+            "XXH3_128": "c560e7ede220358180b8946e9b82b033"
+          },
+          {
+            "path": "{scriptsDir}/CurveEditor_H/@カーブエディタ_H.tra2",
+            "XXH3_128": "ebdef5d256f6fba62da0f60f0436a5eb"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.VideoScope_H",
+    "name": "VideoScope_H",
+    "type": "汎用プラグイン",
+    "summary": "輝度の波形・RGB パレード・ベクトルスコープで色を測る",
+    "description": "https://raw.githubusercontent.com/HexBrowns/VideoScope_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/VideoScope_H",
+    "latest-version": "v0.2.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "UI",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.VideoScope_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.VideoScope_H_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "VideoScope_H",
+          "pattern": "^HexBrowns\\.VideoScope_H-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/VideoScope_H/VideoScope_H.aux2",
+          "to": "{pluginsDir}/VideoScope_H"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VideoScope_H/VideoScope_H.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.2.0",
+        "release_date": "2026-10-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/VideoScope_H/VideoScope_H.aux2",
+            "XXH3_128": "6b9b9bb1197c274d5edd83641a3f9427"
           }
         ]
       }
