@@ -59057,5 +59057,81 @@
         ]
       }
     ]
+  },
+  {
+    "id": "JobsJoestar.RippleDelete",
+    "name": "リップル削除",
+    "type": "汎用プラグイン",
+    "summary": "リップル削除汎用プラグイン",
+    "description": "./md/JobsJoestar.RippleDelete.md",
+    "author": "ジョブズジョースター",
+    "repoURL": "https://github.com/Joster777/RippleDelete_Aviutl2_Plugin",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [
+      "リップル削除",
+      "切り抜き",
+      "移動"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/JobsJoestar.RippleDelete_thumbnail.png",
+        "infoImg": [
+          "./image/JobsJoestar.RippleDelete_1.png",
+          "./image/JobsJoestar.RippleDelete_2.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Joster777",
+          "repo": "RippleDelete_Aviutl2_Plugin",
+          "pattern": "^RippleDelete\\.aux2$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/RippleDelete.aux2",
+          "to": "{pluginsDir}/"
+        },
+        {
+          "action": "delete",
+          "path": "{tmp}/RippleDelete.aux2"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/RippleDelete.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-10-09",
+        "file": [
+          {
+            "path": "{pluginsDir}/RippleDelete.aux2",
+            "XXH3_128": "bf73fc9d33372db05f9e9694be411381"
+          }
+        ]
+      }
+    ]
   }
 ]
