@@ -29157,7 +29157,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/modify_group_num_layers.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/modify_group_num_layers.aux2",
-    "latest-version": "0.2.1",
+    "latest-version": "0.2.2",
     "popularity": 505,
     "trend": 29,
     "licenses": [
@@ -29257,6 +29257,16 @@
           {
             "path": "{pluginsDir}/modify_group_num_layers.aux2",
             "XXH3_128": "3cc071a8c975bf035cee96dbdd07782d"
+          }
+        ]
+      },
+      {
+        "version": "0.2.2",
+        "release_date": "2026-10-14",
+        "file": [
+          {
+            "path": "{pluginsDir}/modify_group_num_layers.aux2",
+            "XXH3_128": "2eb403796ca592b3161fb023fe514272"
           }
         ]
       }
@@ -50949,7 +50959,7 @@
     "description": "./md/MIYA.Aup2GapFiller.md",
     "author": "みや",
     "repoURL": "https://github.com/miya999949/Aup2GapFiller",
-    "latest-version": "v0.6.0",
+    "latest-version": "v0.8.0",
     "popularity": 18,
     "trend": 18,
     "licenses": [
@@ -51010,6 +51020,16 @@
           {
             "path": "{pluginsDir}/Aup2GapFiller/Aup2GapFiller.aux2",
             "XXH3_128": "ae7d667643a7c9877bb38c9f852ef452"
+          }
+        ]
+      },
+      {
+        "version": "v0.8.0",
+        "release_date": "2026-10-14",
+        "file": [
+          {
+            "path": "{pluginsDir}/Aup2GapFiller/Aup2GapFiller.aux2",
+            "XXH3_128": "fd2c1a53bcd5790e87508aa21456fcc5"
           }
         ]
       }
