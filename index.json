@@ -58835,6 +58835,16 @@
             "XXH3_128": "5225c0a132351021545889ff7b44c8ed"
           }
         ]
+      },
+      {
+        "version": "v2.3",
+        "release_date": "2026-10-12",
+        "file": [
+          {
+            "path": "{pluginsDir}/toggle_layers/toggle_layers.aux2",
+            "XXH3_128": "e0b5f3faac8bb0ad6911c75d28375c64"
+          }
+        ]
       }
     ]
   },
