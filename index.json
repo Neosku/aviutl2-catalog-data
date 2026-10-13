@@ -58672,7 +58672,7 @@
       "uninstall": [
         {
           "action": "delete",
-          "path": "{pluginsDir}/al2/al2_timeline_object_arranger.aui2"
+          "path": "{pluginsDir}/al2/al2_timeline_object_arranger.aux2"
         },
         {
           "action": "delete",
@@ -58683,11 +58683,11 @@
     "version": [
       {
         "version": "r1",
-        "release_date": "2026-07-08",
+        "release_date": "2026-10-12",
         "file": [
           {
-            "path": "{pluginsDir}/al2/al2_dialog_resizer.aui2",
-            "XXH3_128": "47a0854ba5c5f9ea721ac34c7c0113b4"
+            "path": "{pluginsDir}/al2/al2_timeline_object_arranger.aux2",
+            "XXH3_128": "48e268a309de4ae6cd3b2e44a1dcc285"
           }
         ]
       }
