@@ -58911,7 +58911,7 @@
   {
     "id": "ar-ca-na.layer-pin",
     "name": "レイヤー固定",
-    "type": "汎用プラグイン",
+    "type": "MOD",
     "summary": "レイヤーを一番上に固定して、スクロールしても見失わない",
     "description": "https://raw.githubusercontent.com/ar-ca-na/aviutl2-layer-pin/refs/heads/main/README.md",
     "author": "arcana",
