@@ -5658,7 +5658,7 @@
   {
     "id": "reindex-ot.reindex_AviUtl2_Language",
     "name": "非公式言語ファイル(Japanese_Mod)",
-    "type": "その他",
+    "type": "言語ファイル",
     "summary": "修正した AviUtl2 の日本語の言語ファイル。",
     "description": "./md/reindex-ot.reindex_AviUtl2_Language.md",
     "author": "Re*Index. (ot_inc)",
@@ -9182,7 +9182,7 @@
   {
     "id": "oov.GCMZDrops2",
     "name": "GCMZDrops2",
-    "type": "汎用プラグイン",
+    "type": "MOD",
     "summary": "ファイルドロップを拡張するプラグイン（ごちゃまぜドロップス2）",
     "description": "./md/oov.GCMZDrops2.md",
     "author": "おおぶ",
@@ -24255,7 +24255,7 @@
   {
     "id": "zopty.OKLCHpalette",
     "name": "OKLCH パレット",
-    "type": "その他",
+    "type": "プリセット",
     "summary": "OKLCH に基づいて設計されたカラーパレット",
     "description": "https://gist.githubusercontent.com/zopty/46b16b7d5f90ec772274e67015117a91/raw/75195d968386793ecb99bc98d9d2db9ed8595644/README.md",
     "author": "zopty",
@@ -24467,7 +24467,7 @@
   {
     "id": "SotenTsumugu.BaseEase",
     "name": "キホンイーズ",
-    "type": "その他",
+    "type": "プリセット",
     "summary": "時間制御編集からイージングを設定できるプリセット",
     "description": "./md/SotenTsumugu.BaseEase.md",
     "author": "蒼天つむぐ",
@@ -26314,7 +26314,7 @@
   {
     "id": "V.Bernkastel.AviUtl2_Language_kr",
     "name": "Korean (한국어)",
-    "type": "その他",
+    "type": "言語ファイル",
     "summary": "AviUtl2 한국어 번역 파일 \n 韓国語言語ファイル",
     "description": "./md/AviUtl2_Language_kr.md",
     "author": "Victorique Bernkastel",
@@ -35672,7 +35672,7 @@
   {
     "id": "c30.midiinfoobject",
     "name": "[Beta] MIDI Info Object",
-    "type": "オブジェクト",
+    "type": "フィルタプラグイン",
     "summary": "MIDIの情報を動画に出すプラグイン",
     "description": "./md/c30.midiinfoobject.md",
     "author": "c30 (zel9278 / fuji_midi)",
@@ -36508,7 +36508,7 @@
   {
     "id": "airiah7.widget--speed-preview",
     "name": "倍速プレビュー",
-    "type": "汎用プラグイン",
+    "type": "MOD",
     "summary": "倍速プレビューできるようにするウィジェット",
     "description": "https://raw.githubusercontent.com/airiah7/airiah7--aviutl2--widget--speed-preview/refs/heads/main/README.md",
     "author": "あいりあなな(airiah7)",
@@ -40169,7 +40169,7 @@
   {
     "id": "Estelle.AviUtl2-LaTeX",
     "name": "AviUtl2-LaTeX",
-    "type": "汎用プラグイン",
+    "type": "フィルタプラグイン",
     "summary": "LaTeXの描画を行うメディアオブジェクトプラグインです。",
     "description": "https://raw.githubusercontent.com/Estellellet/AviUtl2-LaTeX/refs/heads/main/docs/CATALOG.md",
     "author": "Estelle",
@@ -46306,7 +46306,7 @@
   {
     "id": "routersys.DockLayout",
     "name": "DockLayout",
-    "type": "汎用プラグイン",
+    "type": "MOD",
     "summary": "ドラッグとドロップだけで配置できるようにするプラグイン",
     "description": "https://raw.githubusercontent.com/routersys/AUE2-DockLayout/refs/heads/main/README.md",
     "author": "routersys",
@@ -48382,7 +48382,7 @@
   {
     "id": "ar-ca-na.open-last-project",
     "name": "前回のプロジェクトを開く",
-    "type": "その他",
+    "type": "外部プログラム",
     "summary": "AviUtl2 起動時に前回のプロジェクトを自動で開く",
     "description": "https://raw.githubusercontent.com/ar-ca-na/aviutl2-open-last-project/refs/heads/main/README.md",
     "author": "arcana",
@@ -48475,7 +48475,7 @@
   {
     "id": "ar-ca-na.aup2-relink",
     "name": "aup2 リンク修復",
-    "type": "その他",
+    "type": "外部プログラム",
     "summary": "素材のリンク切れを、移動先フォルダから同名ファイルを探して直す",
     "description": "https://raw.githubusercontent.com/ar-ca-na/aviutl2-aup2-relink/refs/heads/main/README.md",
     "author": "arcana",
@@ -49568,7 +49568,7 @@
   {
     "id": "NeAc.MorphBridge",
     "name": "MorphBridge",
-    "type": "汎用プラグイン",
+    "type": "フィルタプラグイン",
     "summary": "前後オブジェクトのシルエットをモーフィングするメディアオブジェクト",
     "description": "https://raw.githubusercontent.com/nea-c/aviutl2_plugin_MorphBridge/refs/heads/master/README.md",
     "author": "猫愛",
@@ -59386,7 +59386,7 @@
   {
     "id": "Garech.ToggleLayers",
     "name": "レイヤー一括切り替え",
-    "type": "汎用プラグイン",
+    "type": "MOD",
     "summary": "レイヤーの表示・ロック状態をドラッグで切り替えられるように",
     "description": "https://raw.githubusercontent.com/Garech-mas/AviUtl2_toggle_layers/refs/heads/main/README.md",
     "author": "Garech",
