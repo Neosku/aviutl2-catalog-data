@@ -51936,7 +51936,7 @@
     "id": "HexBrowns.Filters_H",
     "name": "フィルム調フィルタ集_H",
     "type": "スクリプト",
-    "summary": "グリッチ・グレイン・ハレーションなどフィルム調の加工17種",
+    "summary": "グリッチ・グレイン・ハレーションなどフィルム調の加工29種",
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/Filters%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E4%BD%BF%E7%94%A8%E3%82%AC%E3%82%A4%E3%83%89.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
@@ -51995,8 +51995,18 @@
         },
         {
           "action": "copy",
+          "from": "{tmp}/Script/EffectUtils_Budget.lua",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
           "from": "{tmp}/Default/グレイン@Filters_H.effect",
           "to": "{dataDir}/Default"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/TimeDisplace_H",
+          "to": "{scriptsDir}/TimeDisplace_H"
         }
       ],
       "uninstall": [
@@ -52011,6 +52021,10 @@
         {
           "action": "delete",
           "path": "{dataDir}/Default/グレイン@Filters_H.effect"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/TimeDisplace_H"
         }
       ]
     },
