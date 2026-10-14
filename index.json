@@ -51715,7 +51715,7 @@
     "id": "HexBrowns.Keying_H",
     "name": "キーイング_H",
     "type": "スクリプト",
-    "summary": "マット調整・スピル除去・トラックマットの3種",
+    "summary": "マット調整・スピル除去・動体抽出・光の回り込みなど7種",
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
@@ -51759,12 +51759,26 @@
           "action": "copy",
           "from": "{tmp}/Script/@キーイング_H.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/EffectUtils_Budget.lua",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/SameShapeFill_H",
+          "to": "{scriptsDir}/SameShapeFill_H"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/@キーイング_H.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/SameShapeFill_H"
         }
       ]
     },
