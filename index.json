@@ -59094,11 +59094,7 @@
     ],
     "installer": {
       "source": {
-        "github": {
-          "owner": "Joster777",
-          "repo": "RippleDelete_Aviutl2_Plugin",
-          "pattern": "^RippleDelete\\.aux2$"
-        }
+        "direct": "https://github.com/Joster777/RippleDelete_Aviutl2_Plugin/raw/refs/tags/v1.0/RippleDelete.aux2"
       },
       "install": [
         {
