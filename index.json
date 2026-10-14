@@ -51496,7 +51496,11 @@
       "エフェクト"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.ShapeDistort_H_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -51963,7 +51967,11 @@
       "ノイズ"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.Filters_H_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -52227,7 +52235,11 @@
       "レンズ"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.OpticalBokeh_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -54976,7 +54988,14 @@
       "グロー"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.Beam_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.Beam_H_1.gif"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -55207,7 +55226,14 @@
       "グロー"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.LightShaft_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.LightShaft_H_1.gif"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
