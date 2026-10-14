@@ -51496,7 +51496,11 @@
       "エフェクト"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.ShapeDistort_H_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -51731,7 +51735,11 @@
       "色調整"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.Keying_H_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -51973,7 +51981,11 @@
       "ノイズ"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.Filters_H_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -52237,7 +52249,11 @@
       "レンズ"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.OpticalBokeh_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -54986,7 +55002,14 @@
       "グロー"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.Beam_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.Beam_H_1.gif"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -55217,7 +55240,14 @@
       "グロー"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.LightShaft_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.LightShaft_H_1.gif"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -55449,7 +55479,11 @@
       "カスタムオブジェクト"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.Lowpoly_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -56537,7 +56571,14 @@
       "アニメーション"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.ExtendedParticle_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.ExtendedParticle_H_1.gif"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -57186,7 +57227,11 @@
       "塗りつぶし"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.ContentAwareFill_H_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -57377,7 +57422,14 @@
       "立体"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.Extrude_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.Extrude_H_1.gif"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -57762,7 +57814,14 @@
       "アニメーション"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.BallAction_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.BallAction_H_1.gif"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -58341,7 +58400,11 @@
       "ぼかし"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.VectorBlur_H_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
