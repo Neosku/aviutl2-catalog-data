@@ -51476,7 +51476,7 @@
     "id": "HexBrowns.ShapeDistort_H",
     "name": "ShapeDistort_H",
     "type": "スクリプト",
-    "summary": "回転・放射・方向・ジグザグで画像をゆがませる4種",
+    "summary": "回転・放射・ジグザグ・無限ズーム・パペットなど6種",
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/ShapeDistort_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
@@ -51520,12 +51520,21 @@
           "action": "copy",
           "from": "{tmp}/Script/@ShapeDistort_H.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Puppet_H",
+          "to": "{scriptsDir}/Puppet_H"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/@ShapeDistort_H.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Puppet_H"
         }
       ]
     },
