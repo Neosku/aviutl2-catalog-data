@@ -52191,7 +52191,7 @@
     "id": "HexBrowns.OpticalBokeh",
     "name": "光学系ボケ",
     "type": "スクリプト",
-    "summary": "玉ボケ・レンズぼかし・チルトシフトなどレンズのボケ4種",
+    "summary": "玉ボケ・レンズぼかし・チルトシフトなどレンズのボケ5種",
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E5%85%89%E5%AD%A6%E7%B3%BB%E3%83%9C%E3%82%B1.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
@@ -52212,11 +52212,7 @@
       "レンズ"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.OpticalBokeh_thumbnail.png"
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
