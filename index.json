@@ -7050,7 +7050,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_script_Path_S/refs/heads/main/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_script_Path_S/",
-    "latest-version": "v2.41",
+    "latest-version": "v2.42",
     "popularity": 4873,
     "trend": 1003,
     "licenses": [
@@ -7285,6 +7285,16 @@
           {
             "path": "{scriptsDir}/@Path_S.anm2",
             "XXH3_128": "652b5136fd09309860718b8dbe2ee085"
+          }
+        ]
+      },
+      {
+        "version": "v2.42",
+        "release_date": "2026-10-14",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Path_S.anm2",
+            "XXH3_128": "d5aa24d9f67ba6fb9b8112434abddf5d"
           }
         ]
       }
