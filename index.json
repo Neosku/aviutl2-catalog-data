@@ -54135,6 +54135,11 @@
         },
         {
           "action": "copy",
+          "from": "{tmp}/Script/EffectUtils_ColorSpace.lua",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
           "from": "{tmp}/Preset/プロシージャル模様_H.オーバーレイ.ひび(乗算).preset",
           "to": "{dataDir}/Preset"
         },
