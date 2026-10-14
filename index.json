@@ -52212,7 +52212,11 @@
       "レンズ"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.OpticalBokeh_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
