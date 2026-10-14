@@ -2187,7 +2187,7 @@
   },
   {
     "id": "sevenc-nanashi.modify_group_num_layers-aux2",
-    "latest-version": "0.2.1",
+    "latest-version": "0.2.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/modify_group_num_layers.aux2",
@@ -4257,7 +4257,7 @@
   },
   {
     "id": "momo_neeeko.LocusMotion",
-    "latest-version": "beta5.1",
+    "latest-version": "beta5.2",
     "checkType": {
       "type": "GitHub",
       "repo": "momoneeeko/LocusMotion.aux2",
@@ -5013,7 +5013,7 @@
   },
   {
     "id": "MIYA.Aup2GapFiller",
-    "latest-version": "v0.6.0",
+    "latest-version": "v0.8.0",
     "checkType": {
       "type": "GitHub",
       "repo": "miya999949/Aup2GapFiller",
@@ -5073,7 +5073,7 @@
   },
   {
     "id": "HexBrowns.SceneTransitions",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5093,7 +5093,7 @@
   },
   {
     "id": "HexBrowns.ShapeDistort_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5113,7 +5113,7 @@
   },
   {
     "id": "HexBrowns.Keying_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5133,7 +5133,7 @@
   },
   {
     "id": "HexBrowns.Filters_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5153,7 +5153,7 @@
   },
   {
     "id": "HexBrowns.OpticalBokeh",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5173,7 +5173,7 @@
   },
   {
     "id": "HexBrowns.DecoParticle_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5193,7 +5193,7 @@
   },
   {
     "id": "HexBrowns.TestPattern_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5213,7 +5213,7 @@
   },
   {
     "id": "HexBrowns.VerticalText",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5233,7 +5233,7 @@
   },
   {
     "id": "HexBrowns.RangeWarning_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5253,7 +5253,7 @@
   },
   {
     "id": "HexBrowns.AutoFitText_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5273,7 +5273,7 @@
   },
   {
     "id": "HexBrowns.Grid_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5293,7 +5293,7 @@
   },
   {
     "id": "HexBrowns.HandheldCamera_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5313,7 +5313,7 @@
   },
   {
     "id": "HexBrowns.ProceduralPattern_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5333,7 +5333,7 @@
   },
   {
     "id": "HexBrowns.Bubbles_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5353,7 +5353,7 @@
   },
   {
     "id": "HexBrowns.FineParticles_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5373,7 +5373,7 @@
   },
   {
     "id": "HexBrowns.Beam_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5393,7 +5393,7 @@
   },
   {
     "id": "HexBrowns.LightShaft_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5413,7 +5413,7 @@
   },
   {
     "id": "HexBrowns.Lowpoly",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5433,7 +5433,7 @@
   },
   {
     "id": "HexBrowns.LightPath_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5573,7 +5573,7 @@
   },
   {
     "id": "HexBrowns.ExtendedParticle_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5613,7 +5613,7 @@
   },
   {
     "id": "HexBrowns.PlanarTracking_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5633,7 +5633,7 @@
   },
   {
     "id": "HexBrowns.ContentAwareFill_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5653,7 +5653,7 @@
   },
   {
     "id": "HexBrowns.Extrude_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5673,7 +5673,7 @@
   },
   {
     "id": "HexBrowns.TimeWarp_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5693,7 +5693,7 @@
   },
   {
     "id": "HexBrowns.BallAction_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5713,7 +5713,7 @@
   },
   {
     "id": "HexBrowns.Caustics_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5733,7 +5733,7 @@
   },
   {
     "id": "HexBrowns.CardDance_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5753,7 +5753,7 @@
   },
   {
     "id": "HexBrowns.VectorBlur_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5773,7 +5773,7 @@
   },
   {
     "id": "HexBrowns.RadioWaves_H",
-    "latest-version": "v1.11.0",
+    "latest-version": "v1.13.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/HexScript",
@@ -5832,7 +5832,7 @@
   },
   {
     "id": "HexBrowns.BackupDiff_H",
-    "latest-version": "v0.4.0",
+    "latest-version": "v0.4.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/BackupDiff_H",
@@ -5956,7 +5956,7 @@
   },
   {
     "id": "HexBrowns.MediaProbe_H",
-    "latest-version": "v0.3.0",
+    "latest-version": "v0.3.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/MediaProbe_H",
@@ -5996,7 +5996,7 @@
   },
   {
     "id": "HexBrowns.ColorHistory_H",
-    "latest-version": "v0.3.0",
+    "latest-version": "v0.3.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/ColorHistory_H",
@@ -6038,7 +6038,7 @@
   },
   {
     "id": "HexBrowns.VideoScope_H",
-    "latest-version": "v0.2.0",
+    "latest-version": "v0.2.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/VideoScope_H",
