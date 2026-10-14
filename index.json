@@ -52191,7 +52191,7 @@
     "id": "HexBrowns.OpticalBokeh",
     "name": "光学系ボケ",
     "type": "スクリプト",
-    "summary": "玉ボケ・レンズぼかし・チルトシフトなどレンズのボケ5種",
+    "summary": "玉ボケ・レンズぼかし・チルトシフトなどレンズのボケ4種",
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E5%85%89%E5%AD%A6%E7%B3%BB%E3%83%9C%E3%82%B1.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
@@ -52212,7 +52212,11 @@
       "レンズ"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.OpticalBokeh_thumbnail.png"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -54961,7 +54965,14 @@
       "グロー"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.Beam_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.Beam_H_1.gif"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
@@ -55192,7 +55203,14 @@
       "グロー"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.LightShaft_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.LightShaft_H_1.gif"
+        ]
+      }
+    ],
     "installer": {
       "source": {
         "github": {
