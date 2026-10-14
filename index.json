@@ -22329,7 +22329,7 @@
     "id": "Book-0225.EAP2",
     "name": "External Audio Processing 2 (EAP2)",
     "type": "フィルタプラグイン",
-    "summary": "VST 3 / CLAP を利用可能にするためのフィルタプラグイン",
+    "summary": "音声関連色々出来るプラグイン(VST3, ピッチ, 解析等)",
     "description": "https://raw.githubusercontent.com/Book-0225/aviutl2_External_Audio_Processing/refs/heads/master/README.md",
     "author": "Book0225",
     "repoURL": "https://github.com/Book-0225/aviutl2_External_Audio_Processing",
@@ -22385,6 +22385,11 @@
         },
         {
           "action": "copy",
+          "from": "{tmp}/Language/Default.External_Audio_Processing2.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
           "from": "{tmp}/Language/English.External_Audio_Processing2.aul2",
           "to": "{dataDir}/Language"
         }
@@ -22393,6 +22398,10 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/External_Audio_Processing2.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.External_Audio_Processing2.aul2"
         },
         {
           "action": "delete",
