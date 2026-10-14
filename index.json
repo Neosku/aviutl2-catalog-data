@@ -60535,5 +60535,88 @@
         ]
       }
     ]
+  },
+  {
+    "id": "HexBrowns.ColorSpaceBlend_H",
+    "name": "色空間合成_H",
+    "type": "スクリプト",
+    "summary": "色相・彩度などをOklchで、加算などをリニアで合成",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E8%89%B2%E7%A9%BA%E9%96%93%E5%90%88%E6%88%90_H.md",
+    "author": "HexBrowns",
+    "originalAuthor": "Nanashi.",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
+    "latest-version": "v1.14.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "Nanashi."
+          },
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "色調整",
+      "エフェクト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.ColorSpaceBlend_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.ColorSpaceBlend_H_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/色空間合成_H.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/色空間合成_H.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.14.0",
+        "release_date": "2026-10-14",
+        "file": [
+          {
+            "path": "{scriptsDir}/色空間合成_H.anm2",
+            "XXH3_128": "0229cd0b3ad55d67d1cf9db57a69ad8a"
+          }
+        ]
+      }
+    ]
   }
 ]
