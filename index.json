@@ -56481,7 +56481,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/ColoredEchoImg/main/README.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/ColoredEchoImg",
-    "latest-version": "v1.1.0",
+    "latest-version": "v1.3.1",
     "popularity": 156,
     "trend": 156,
     "licenses": [
@@ -56515,7 +56515,7 @@
         "github": {
           "owner": "HexBrowns",
           "repo": "ColoredEchoImg",
-          "pattern": "^ColoredEchoImg_v[\\d.]+\\.zip$"
+          "pattern": "^HexBrowns\\.ColoredEchoImg-v[\\d.]+\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -56555,6 +56555,16 @@
           {
             "path": "{scriptsDir}/ColoredEchoImg/colored_echo_img.mod2",
             "XXH3_128": "aaab2febce053e4c93ab8f3a55389cc9"
+          }
+        ]
+      },
+      {
+        "version": "v1.3.1",
+        "release_date": "2026-10-14",
+        "file": [
+          {
+            "path": "{scriptsDir}/ColoredEchoImg/colored_echo_img.mod2",
+            "XXH3_128": "f8b535c76ab27031611b654cd86d97d5"
           }
         ]
       }
