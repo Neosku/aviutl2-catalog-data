@@ -57826,6 +57826,11 @@
           "action": "copy",
           "from": "{tmp}/Script/ボールアクション_H.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/EffectUtils_Budget.lua",
+          "to": "{scriptsDir}"
         }
       ],
       "uninstall": [
