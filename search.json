@@ -5553,11 +5553,11 @@
   },
   {
     "id": "HexBrowns.ColoredEchoImg",
-    "latest-version": "v1.1.0",
+    "latest-version": "v1.3.1",
     "checkType": {
       "type": "GitHub",
       "repo": "HexBrowns/ColoredEchoImg",
-      "regex": "^ColoredEchoImg_v[\\d.]+\\.zip$",
+      "regex": "^HexBrowns\\.ColoredEchoImg-v[\\d.]+\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -6071,6 +6071,106 @@
           ],
           "recordPaths": [
             "{pluginsDir}/toggle_layers/toggle_layers.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "ar-ca-na.layer-pin",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "ar-ca-na/aviutl2-layer-pin",
+      "regex": "^aviutl2-layer-pin-v.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "layer_pin.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/layer_pin.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebiiro.al2_timeline_object_arranger",
+    "latest-version": "r1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_timeline_object_arranger",
+      "regex": "^al2_timeline_object_arranger.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/al2/al2_timeline_object_arranger.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_timeline_object_arranger.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.Lighting2D_H",
+    "latest-version": "v1.14.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@2Dライティング_H.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/@2Dライティング_H.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.ColorSpaceBlend_H",
+    "latest-version": "v1.14.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/HexScript",
+      "regex": "^HexScript_v[\\d.]+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/色空間合成_H.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/色空間合成_H.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.MediaCollect_H",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/MediaCollect_H",
+      "regex": "^HexBrowns\\.MediaCollect_H-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/MediaCollect_H/MediaCollect_H.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/MediaCollect_H/MediaCollect_H.aux2"
           ]
         }
       ]
