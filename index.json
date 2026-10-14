@@ -54992,6 +54992,11 @@
           "action": "copy",
           "from": "{tmp}/Script/ビーム化_H.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/EffectUtils_Budget.lua",
+          "to": "{scriptsDir}"
         }
       ],
       "uninstall": [
