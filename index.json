@@ -60262,7 +60262,7 @@
     "description": "https://raw.githubusercontent.com/ar-ca-na/aviutl2-layer-pin/refs/heads/main/README.md",
     "author": "arcana",
     "repoURL": "https://github.com/ar-ca-na/aviutl2-layer-pin",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.2",
     "popularity": 24,
     "trend": 32,
     "licenses": [
@@ -60326,6 +60326,16 @@
             "XXH3_128": "353b386bf3913a8a5410e93707fafa92"
           }
         ]
+      },
+      {
+        "version": "v1.0.2",
+        "release_date": "2026-10-15",
+        "file": [
+          {
+            "path": "{pluginsDir}/layer_pin.aux2",
+            "XXH3_128": "8b9630207463e27242f95c8114715721"
+          }
+        ]
       }
     ]
   },
@@ -60337,7 +60347,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_timeline_object_arranger/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_timeline_object_arranger",
-    "latest-version": "r1",
+    "latest-version": "r2",
     "popularity": 13,
     "trend": 15,
     "licenses": [
@@ -60399,6 +60409,16 @@
           {
             "path": "{pluginsDir}/al2/al2_timeline_object_arranger.aux2",
             "XXH3_128": "48e268a309de4ae6cd3b2e44a1dcc285"
+          }
+        ]
+      },
+      {
+        "version": "r2",
+        "release_date": "2026-10-15",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_timeline_object_arranger.aux2",
+            "XXH3_128": "94fb6daaaafec6d26a9d91edd5274c44"
           }
         ]
       }
