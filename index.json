@@ -55513,6 +55513,11 @@
           "action": "copy",
           "from": "{tmp}/Script/EffectUtils_Lowpoly.lua",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/EffectUtils_ColorSpace.lua",
+          "to": "{scriptsDir}"
         }
       ],
       "uninstall": [
