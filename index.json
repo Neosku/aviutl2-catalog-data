@@ -51476,7 +51476,7 @@
     "id": "HexBrowns.ShapeDistort_H",
     "name": "ShapeDistort_H",
     "type": "スクリプト",
-    "summary": "回転・放射・方向・ジグザグで画像をゆがませる4種",
+    "summary": "回転・放射・ジグザグ・無限ズーム・パペットなど6種",
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/ShapeDistort_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
@@ -51496,11 +51496,7 @@
       "エフェクト"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.ShapeDistort_H_thumbnail.png"
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -51520,12 +51516,21 @@
           "action": "copy",
           "from": "{tmp}/Script/@ShapeDistort_H.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/Puppet_H",
+          "to": "{scriptsDir}/Puppet_H"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/@ShapeDistort_H.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/Puppet_H"
         }
       ]
     },
@@ -51706,7 +51711,7 @@
     "id": "HexBrowns.Keying_H",
     "name": "キーイング_H",
     "type": "スクリプト",
-    "summary": "マット調整・スピル除去・トラックマットの3種",
+    "summary": "マット調整・スピル除去・動体抽出・光の回り込みなど7種",
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
@@ -51726,11 +51731,7 @@
       "色調整"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.Keying_H_thumbnail.png"
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -51750,12 +51751,26 @@
           "action": "copy",
           "from": "{tmp}/Script/@キーイング_H.anm2",
           "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/EffectUtils_Budget.lua",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/SameShapeFill_H",
+          "to": "{scriptsDir}/SameShapeFill_H"
         }
       ],
       "uninstall": [
         {
           "action": "delete",
           "path": "{scriptsDir}/@キーイング_H.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/SameShapeFill_H"
         }
       ]
     },
@@ -51936,7 +51951,7 @@
     "id": "HexBrowns.Filters_H",
     "name": "フィルム調フィルタ集_H",
     "type": "スクリプト",
-    "summary": "グリッチ・グレイン・ハレーションなどフィルム調の加工17種",
+    "summary": "グリッチ・グレイン・ハレーションなどフィルム調の加工29種",
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/Filters%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E4%BD%BF%E7%94%A8%E3%82%AC%E3%82%A4%E3%83%89.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
@@ -51958,11 +51973,7 @@
       "ノイズ"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.Filters_H_thumbnail.png"
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -51995,8 +52006,18 @@
         },
         {
           "action": "copy",
+          "from": "{tmp}/Script/EffectUtils_Budget.lua",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
           "from": "{tmp}/Default/グレイン@Filters_H.effect",
           "to": "{dataDir}/Default"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/TimeDisplace_H",
+          "to": "{scriptsDir}/TimeDisplace_H"
         }
       ],
       "uninstall": [
@@ -52011,6 +52032,10 @@
         {
           "action": "delete",
           "path": "{dataDir}/Default/グレイン@Filters_H.effect"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/TimeDisplace_H"
         }
       ]
     },
@@ -52191,7 +52216,7 @@
     "id": "HexBrowns.OpticalBokeh",
     "name": "光学系ボケ",
     "type": "スクリプト",
-    "summary": "玉ボケ・レンズぼかし・チルトシフトなどレンズのボケ4種",
+    "summary": "玉ボケ・レンズぼかし・チルトシフトなどレンズのボケ5種",
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E5%85%89%E5%AD%A6%E7%B3%BB%E3%83%9C%E3%82%B1.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
@@ -52212,11 +52237,7 @@
       "レンズ"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.OpticalBokeh_thumbnail.png"
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -54965,14 +54986,7 @@
       "グロー"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.Beam_H_thumbnail.png",
-        "infoImg": [
-          "./image/HexBrowns.Beam_H_1.gif"
-        ]
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -54991,6 +55005,11 @@
         {
           "action": "copy",
           "from": "{tmp}/Script/ビーム化_H.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/EffectUtils_Budget.lua",
           "to": "{scriptsDir}"
         }
       ],
@@ -55198,14 +55217,7 @@
       "グロー"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.LightShaft_H_thumbnail.png",
-        "infoImg": [
-          "./image/HexBrowns.LightShaft_H_1.gif"
-        ]
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -55224,6 +55236,11 @@
         {
           "action": "copy",
           "from": "{tmp}/Script/光束_H.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/EffectUtils_Budget.lua",
           "to": "{scriptsDir}"
         }
       ],
@@ -55432,11 +55449,7 @@
       "カスタムオブジェクト"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.Lowpoly_thumbnail.png"
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -55465,6 +55478,11 @@
         {
           "action": "copy",
           "from": "{tmp}/Script/EffectUtils_Lowpoly.lua",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/EffectUtils_ColorSpace.lua",
           "to": "{scriptsDir}"
         }
       ],
@@ -57360,14 +57378,7 @@
       "立体"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.Extrude_H_thumbnail.png",
-        "infoImg": [
-          "./image/HexBrowns.Extrude_H_1.gif"
-        ]
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -57386,6 +57397,11 @@
         {
           "action": "copy",
           "from": "{tmp}/Script/押し出し_H.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/EffectUtils_Budget.lua",
           "to": "{scriptsDir}"
         }
       ],
@@ -57747,14 +57763,7 @@
       "アニメーション"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.BallAction_H_thumbnail.png",
-        "infoImg": [
-          "./image/HexBrowns.BallAction_H_1.gif"
-        ]
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -57773,6 +57782,11 @@
         {
           "action": "copy",
           "from": "{tmp}/Script/ボールアクション_H.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/EffectUtils_Budget.lua",
           "to": "{scriptsDir}"
         }
       ],
@@ -58328,11 +58342,7 @@
       "ぼかし"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.VectorBlur_H_thumbnail.png"
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -58351,6 +58361,11 @@
         {
           "action": "copy",
           "from": "{tmp}/Script/ベクトルブラー_H.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/EffectUtils_Budget.lua",
           "to": "{scriptsDir}"
         }
       ],
