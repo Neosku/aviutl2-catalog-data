@@ -11596,7 +11596,7 @@
   {
     "id": "korarei.ColorLUT_K",
     "name": "ColorLUT_K",
-    "type": "汎用プラグイン",
+    "type": "フィルタプラグイン",
     "summary": "LUTファイルを扱えるようにするプラグイン",
     "description": "https://raw.githubusercontent.com/korarei/AviUtl2_ColorLUT_K_Plugin/main/README.md",
     "author": "Korarei",
@@ -42647,7 +42647,7 @@
   {
     "id": "VRAMWIZ.SYNC_PianoRoll",
     "name": "ピアノロール",
-    "type": "汎用プラグイン",
+    "type": "フィルタプラグイン",
     "summary": "音楽に同期した鍵盤とノートを表示",
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_PianoRoll/main/README.md",
     "author": "VRAMの魔術師",
@@ -47604,7 +47604,7 @@
   {
     "id": "VRAMWIZ.SYNC_ScreenLayout",
     "name": "画面レイアウト",
-    "type": "汎用プラグイン",
+    "type": "フィルタプラグイン",
     "summary": "画面レイアウトを作成・編集",
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_ScreenLayout/main/README.md",
     "author": "VRAMの魔術師",
