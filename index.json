@@ -60745,5 +60745,96 @@
         ]
       }
     ]
+  },
+  {
+    "id": "HexBrowns.PdfPage_H",
+    "name": "PdfPage_H",
+    "type": "汎用プラグイン",
+    "summary": "PDF のページを画像のオブジェクトとして置く",
+    "description": "https://raw.githubusercontent.com/HexBrowns/PdfPage_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/PdfPage_H",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト",
+      "画像"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.PdfPage_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.PdfPage_H_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "PdfPage_H",
+          "pattern": "^HexBrowns\\.PdfPage_H-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.pdf_page_h.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/PdfPage_H/PdfPage_H.aux2",
+          "to": "{pluginsDir}/PdfPage_H"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/PdfPage_H/PdfPage_H.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.pdf_page_h.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-10-11",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.pdf_page_h.aul2",
+            "XXH3_128": "1c53980d57a23412a475591e9641d0e4"
+          },
+          {
+            "path": "{pluginsDir}/PdfPage_H/PdfPage_H.aux2",
+            "XXH3_128": "72623d620441d3fffae637edaa76e5fe"
+          }
+        ]
+      }
+    ]
   }
 ]
