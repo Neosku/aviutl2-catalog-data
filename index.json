@@ -60572,7 +60572,7 @@
     "description": "https://raw.githubusercontent.com/ar-ca-na/aviutl2-layer-pin/refs/heads/main/README.md",
     "author": "arcana",
     "repoURL": "https://github.com/ar-ca-na/aviutl2-layer-pin",
-    "latest-version": "v1.0.3",
+    "latest-version": "v1.1.0",
     "popularity": 35,
     "trend": 52,
     "licenses": [
@@ -60654,6 +60654,16 @@
           {
             "path": "{pluginsDir}/layer_pin.aux2",
             "XXH3_128": "3877d769cb503476719bcda7d00bc7ce"
+          }
+        ]
+      },
+      {
+        "version": "v1.1.0",
+        "release_date": "2026-10-16",
+        "file": [
+          {
+            "path": "{pluginsDir}/layer_pin.aux2",
+            "XXH3_128": "e617c352f44890c1c274f77d84c2e5b0"
           }
         ]
       }
