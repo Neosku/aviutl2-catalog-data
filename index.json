@@ -60478,7 +60478,8 @@
       {
         "thumbnail": "./image/JobsJoestar.RippleDelete_thumbnail.png",
         "infoImg": [
-          "./image/JobsJoestar.RippleDelete_1.png"
+          "./image/JobsJoestar.RippleDelete_1.png",
+          "./image/JobsJoestar.RippleDelete_2.png"
         ]
       }
     ],
@@ -60516,7 +60517,7 @@
         "release_date": "2026-10-15",
         "file": [
           {
-            "path": "C:\\Users\\steve\\Downloads\\RippleDelete_v1.0\\Plugin\\RippleDelete.aux2",
+            "path": "{pluginsDir}/RippleDelete.aux2",
             "XXH3_128": "53dd1ce4eb39905e3e55655b58c4a1b9"
           }
         ]
