@@ -51555,11 +51555,7 @@
       "エフェクト"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.ShapeDistort_H_thumbnail.png"
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -51804,11 +51800,7 @@
       "色調整"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.Keying_H_thumbnail.png"
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -52060,11 +52052,7 @@
       "ノイズ"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.Filters_H_thumbnail.png"
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -52338,11 +52326,7 @@
       "レンズ"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.OpticalBokeh_thumbnail.png"
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -54272,11 +54256,7 @@
       "ノイズ"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.ProceduralPattern_H_thumbnail.png"
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -55206,14 +55186,7 @@
       "グロー"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.Beam_H_thumbnail.png",
-        "infoImg": [
-          "./image/HexBrowns.Beam_H_1.gif"
-        ]
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -55454,14 +55427,7 @@
       "グロー"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.LightShaft_H_thumbnail.png",
-        "infoImg": [
-          "./image/HexBrowns.LightShaft_H_1.gif"
-        ]
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -55703,11 +55669,7 @@
       "カスタムオブジェクト"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.Lowpoly_thumbnail.png"
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -56825,14 +56787,7 @@
       "アニメーション"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.ExtendedParticle_H_thumbnail.png",
-        "infoImg": [
-          "./image/HexBrowns.ExtendedParticle_H_1.gif"
-        ]
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -57501,11 +57456,7 @@
       "塗りつぶし"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.ContentAwareFill_H_thumbnail.png"
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -57706,14 +57657,7 @@
       "立体"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.Extrude_H_thumbnail.png",
-        "infoImg": [
-          "./image/HexBrowns.Extrude_H_1.gif"
-        ]
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -58118,14 +58062,7 @@
       "アニメーション"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.BallAction_H_thumbnail.png",
-        "infoImg": [
-          "./image/HexBrowns.BallAction_H_1.gif"
-        ]
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -58734,11 +58671,7 @@
       "ぼかし"
     ],
     "dependencies": [],
-    "images": [
-      {
-        "thumbnail": "./image/HexBrowns.VectorBlur_H_thumbnail.png"
-      }
-    ],
+    "images": [],
     "installer": {
       "source": {
         "github": {
@@ -61200,6 +61133,415 @@
           {
             "path": "{pluginsDir}/PdfPage_H/PdfPage_H.aux2",
             "XXH3_128": "72623d620441d3fffae637edaa76e5fe"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.Lighting2D_H",
+    "name": "2Dライティング_H",
+    "type": "スクリプト",
+    "summary": "光源の光を遮りながら広げる大域照明と、くぼみの陰の2種",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/2D%E3%83%A9%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0_H.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
+    "latest-version": "v1.14.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT No Attribution",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT No Attribution\n\nCopyright 2026 HexBrowns\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this\nsoftware and associated documentation files (the \"Software\"), to deal in the Software\nwithout restriction, including without limitation the rights to use, copy, modify,\nmerge, publish, distribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "ライティング",
+      "グロー"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.Lighting2D_H_thumbnail.gif",
+        "infoImg": [
+          "./image/HexBrowns.Lighting2D_H_1.gif"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@2Dライティング_H.anm2",
+          "to": "{scriptsDir}"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/EffectUtils_Budget.lua",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/@2Dライティング_H.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.14.0",
+        "release_date": "2026-10-14",
+        "file": [
+          {
+            "path": "{scriptsDir}/@2Dライティング_H.anm2",
+            "XXH3_128": "55302b56632a093a4e1738abb97b4060"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.ColorSpaceBlend_H",
+    "name": "色空間合成_H",
+    "type": "スクリプト",
+    "summary": "色相・彩度などをOklchで、加算などをリニアで合成",
+    "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E8%89%B2%E7%A9%BA%E9%96%93%E5%90%88%E6%88%90_H.md",
+    "author": "HexBrowns",
+    "originalAuthor": "Nanashi.",
+    "repoURL": "https://github.com/HexBrowns/HexScript",
+    "latest-version": "v1.14.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "Nanashi."
+          },
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "色調整",
+      "エフェクト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.ColorSpaceBlend_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.ColorSpaceBlend_H_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "HexScript",
+          "pattern": "^HexScript_v[\\d.]+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/色空間合成_H.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/色空間合成_H.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.14.0",
+        "release_date": "2026-10-14",
+        "file": [
+          {
+            "path": "{scriptsDir}/色空間合成_H.anm2",
+            "XXH3_128": "0229cd0b3ad55d67d1cf9db57a69ad8a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.MediaCollect_H",
+    "name": "MediaCollect_H",
+    "type": "汎用プラグイン",
+    "summary": "使っている素材を 1 つのフォルダに集め、プロジェクトを書き出す",
+    "description": "https://raw.githubusercontent.com/HexBrowns/MediaCollect_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/MediaCollect_H",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "素材",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.MediaCollect_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.MediaCollect_H_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "MediaCollect_H",
+          "pattern": "^HexBrowns\\.MediaCollect_H-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/MediaCollect_H/MediaCollect_H.aux2",
+          "to": "{pluginsDir}/MediaCollect_H"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/MediaCollect_H/MediaCollect_H.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-10-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/MediaCollect_H/MediaCollect_H.aux2",
+            "XXH3_128": "27df1750db0dd5444a75d2bd8192e2c0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.PdfPage_H",
+    "name": "PdfPage_H",
+    "type": "汎用プラグイン",
+    "summary": "PDF のページを画像のオブジェクトとして置く",
+    "description": "https://raw.githubusercontent.com/HexBrowns/PdfPage_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/PdfPage_H",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト",
+      "画像"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.PdfPage_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.PdfPage_H_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "PdfPage_H",
+          "pattern": "^HexBrowns\\.PdfPage_H-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.pdf_page_h.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/PdfPage_H/PdfPage_H.aux2",
+          "to": "{pluginsDir}/PdfPage_H"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/PdfPage_H/PdfPage_H.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.pdf_page_h.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-10-11",
+        "file": [
+          {
+            "path": "{dataDir}/Language/English.pdf_page_h.aul2",
+            "XXH3_128": "1c53980d57a23412a475591e9641d0e4"
+          },
+          {
+            "path": "{pluginsDir}/PdfPage_H/PdfPage_H.aux2",
+            "XXH3_128": "72623d620441d3fffae637edaa76e5fe"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexBrowns.SplitLayout_H",
+    "name": "SplitLayout_H",
+    "type": "汎用プラグイン",
+    "summary": "パネルを縦横に自由に分割した枠へドラッグで並べる",
+    "description": "https://raw.githubusercontent.com/HexBrowns/SplitLayout_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/SplitLayout_H",
+    "latest-version": "v0.3.5",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "UI",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.SplitLayout_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.SplitLayout_H_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "SplitLayout_H",
+          "pattern": "^HexBrowns\\.SplitLayout_H-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/SplitLayout_H/SplitLayout_H.aux2",
+          "to": "{pluginsDir}/SplitLayout_H"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SplitLayout_H/SplitLayout_H.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.3.5",
+        "release_date": "2026-10-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/SplitLayout_H/SplitLayout_H.aux2",
+            "XXH3_128": "6e9e16bed505e81082c9446cbb5aaa93"
           }
         ]
       }
