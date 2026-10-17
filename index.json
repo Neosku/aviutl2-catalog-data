@@ -60831,7 +60831,7 @@
         {
           "action": "copy",
           "from": "{tmp}\\Plugin\\RippleDelete.aux2",
-          "to": "{pluginsDir}\\RippleDelete.aux2"
+          "to": "{pluginsDir}"
         }
       ],
       "uninstall": [
