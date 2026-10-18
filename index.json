@@ -42260,7 +42260,7 @@
     "description": "https://raw.githubusercontent.com/vandojapan/comfont/refs/heads/main/readme.md",
     "author": "4vando",
     "repoURL": "https://github.com/vandojapan/comfont",
-    "latest-version": "v0.3.1",
+    "latest-version": "v.0.3.2",
     "popularity": 228,
     "trend": 80,
     "licenses": [
@@ -42389,6 +42389,20 @@
           {
             "path": "{pluginsDir}/comfont.aux2",
             "XXH3_128": "4e545d75ead34e0c47331d78e0be9944"
+          }
+        ]
+      },
+      {
+        "version": "v.0.3.2",
+        "release_date": "2026-10-19",
+        "file": [
+          {
+            "path": "{dataDir}/Alias/合成フォント字幕.object",
+            "XXH3_128": "69b6a113297fa1ff40c7ebcaff59d347"
+          },
+          {
+            "path": "{pluginsDir}/comfont.aux2",
+            "XXH3_128": "f036de97caff2378f09aa465554f10a9"
           }
         ]
       }
