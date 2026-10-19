@@ -47803,7 +47803,7 @@
     "description": "https://raw.githubusercontent.com/Amai-28ftb/AUL-Receptor/refs/heads/main/README.md",
     "author": "甘井ふたば",
     "repoURL": "https://tourmaline-rock-7c0.notion.site/AUL-Receptor-315bea655f6482cdb2020104ad22b068",
-    "latest-version": "Beta1.0.0",
+    "latest-version": "Beta1.0.1",
     "popularity": 71,
     "trend": 19,
     "licenses": [
@@ -47828,7 +47828,7 @@
         "github": {
           "owner": "Amai-28ftb",
           "repo": "AUL-Receptor",
-          "pattern": "^AULReceptor.*\\.au2pkg\\.zip$"
+          "pattern": "^AULReceptor.au2pkg.zip$"
         }
       },
       "install": [
@@ -47859,6 +47859,16 @@
           {
             "path": "{scriptsDir}/DTMerStarterKit/@AUL Receptor.obj2",
             "XXH3_128": "f510a636a843617aa2fad43c0ee942a3"
+          }
+        ]
+      },
+      {
+        "version": "Beta1.0.1",
+        "release_date": "2026-10-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/DTMerStarterKit/@AUL Receptor.obj2",
+            "XXH3_128": "7571fc7d2e6a8e0a09db99e55cd9492e"
           }
         ]
       }
