@@ -45380,7 +45380,7 @@
     "description": "https://raw.githubusercontent.com/Hallkun19/HL_FxWheel-for-aul2/refs/heads/main/README.md",
     "author": "はるくん / harukun19",
     "repoURL": "https://github.com/Hallkun19/HL_FxWheel-for-aul2",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 267,
     "trend": 19,
     "licenses": [
@@ -45442,6 +45442,16 @@
           {
             "path": "{pluginsDir}/HL_FxWheel.aux2",
             "XXH3_128": "c04d92fa8234cc9d0e44f8c6901e606f"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-10-20",
+        "file": [
+          {
+            "path": "{pluginsDir}/HL_FxWheel.aux2",
+            "XXH3_128": "d361830de5e4e332aea8743153d9e516"
           }
         ]
       }
