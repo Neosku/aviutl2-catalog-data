@@ -47005,7 +47005,7 @@
     "description": "https://raw.githubusercontent.com/IZUisMe/aviutl2-open-glow/refs/heads/main/README.md",
     "author": "絵に描いた虹",
     "repoURL": "https://github.com/IZUisMe/aviutl2-open-glow",
-    "latest-version": "r2",
+    "latest-version": "r3",
     "popularity": 1356,
     "trend": 213,
     "licenses": [
@@ -47100,6 +47100,16 @@
           {
             "path": "{scriptsDir}/OpenGlow.anm2",
             "XXH3_128": "3cbda896e5a772d21a30c630a634b44f"
+          }
+        ]
+      },
+      {
+        "version": "r3",
+        "release_date": "2026-10-20",
+        "file": [
+          {
+            "path": "{scriptsDir}/OpenGlow.anm2",
+            "XXH3_128": "44195e780e0694d0502332036469984b"
           }
         ]
       }
