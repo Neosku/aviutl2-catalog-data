@@ -47832,7 +47832,7 @@
     "id": "Amai_28ftb.AULReceptor",
     "name": "AUL Receptor",
     "type": "スクリプト",
-    "summary": "DTMer Starter Kit にイージングを適用させるもの",
+    "summary": "DTMerStarterKit&DTMerExtensionKit用",
     "description": "https://raw.githubusercontent.com/Amai-28ftb/AUL-Receptor/refs/heads/main/README.md",
     "author": "甘井ふたば",
     "repoURL": "https://tourmaline-rock-7c0.notion.site/AUL-Receptor-315bea655f6482cdb2020104ad22b068",
@@ -47850,7 +47850,8 @@
     "tags": [
       "MIDI",
       "イージング",
-      "カスタムオブジェクト"
+      "カスタムオブジェクト",
+      "音楽同期"
     ],
     "dependencies": [
       "Amai_28ftb.DTMerStarterKit"
@@ -62578,7 +62579,7 @@
     "id": "Amai_28ftb.DTMerExtensionKit",
     "name": "DTMer Extension Kit",
     "type": "スクリプト",
-    "summary": "音声・MIDIを視覚的に表示同期可能なScript群",
+    "summary": "Audio Visualizer Script群",
     "description": "https://raw.githubusercontent.com/Amai-28ftb/DTMer-Extension-Kit/refs/heads/main/README.md",
     "author": "甘井ふたば",
     "repoURL": "https://tourmaline-rock-7c0.notion.site/DTMerExtensionKit-Wiki-844bea655f648287b0d48185565f8dc8",
@@ -62605,7 +62606,11 @@
     "dependencies": [
       "Amai_28ftb.AULReceptor"
     ],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/Amai_28ftb.DTMerExtensionKit_thumbnail.webp"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
