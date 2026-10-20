@@ -44468,7 +44468,6 @@
     "niconiCommonsId": "nc495464",
     "tags": [
       "PSD",
-      "口パク",
       "音声"
     ],
     "dependencies": [
@@ -62682,6 +62681,132 @@
           {
             "path": "{scriptsDir}/DTMerStarterKit/DEK_module.mod2",
             "XXH3_128": "d9bbf2f0da320aab514589fb2f6960bd"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shidunami.3dcg_movie_animation",
+    "name": "3DCG Movie Animation",
+    "type": "MOD",
+    "summary": "AviUtl2に3DCG編集用のウィンドウと機能を追加する",
+    "description": "./md/shidunami.3dcg_movie_animation.md",
+    "author": "しづなみ",
+    "repoURL": "https://3dma.shidunami.com/",
+    "latest-version": "v0.1.0 Public Alpha",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "3DCG Movie Animation (3DMA) 利用規約\n====================================\n\nCopyright (c) 2026 しづなみ\n\nこの規約は、AviUtl ExEdit2 用プラグイン「3DCG Movie Animation (3DMA)」\n(以下「本プラグイン」) を使うときの決まりです。\n本プラグインを使った時点で、この規約に同意したものとします。\n\n\n1. してよいこと\n   ・本プラグインを、個人・法人を問わず、無料で使うこと。\n   ・本プラグインを使って作った動画・画像などの作品を、公開・配布・販売すること\n     (商用を含みます)。作品に本プラグインの名前を書く必要はありません。\n\n2. してはいけないこと\n   ・本プラグイン (3DMA.aux2 と、同梱のファイル一式) を、ほかの人へ配る・公開すること。\n     本プラグインを紹介するときは、配布元へのリンクを使ってください。\n   ・本プラグインを改変すること。改変したものを配ることも含みます。\n   ・本プラグインを販売すること、ほかの商品やサービスに含めて提供すること。\n   ・逆コンパイル・逆アセンブルなどで、本プラグインの仕組みを取り出すこと\n     (法律で認められている範囲を除きます)。\n   ・作者や本プラグインが関わっているかのように誤解させる使い方をすること。\n\n3. 保証しないこと\n   本プラグインは、そのままの状態で提供します。\n   動作・正確さ・目的への適合について、作者は何も保証しません。\n   本プラグインを使ったこと、または使えなかったことで起きた損害\n   (データの消失、作業の中断、AviUtl ExEdit2 の不具合などを含みます) について、\n   作者は責任を負いません。\n\n4. ほかの人のソフトウェア\n   本プラグインには、ほかの人のソフトウェア (Dear ImGui、Assimp など) が入っています。\n   それらにはそれぞれのライセンスが適用され、この規約の 2. の制限は掛かりません。\n   一覧と本文は THIRD-PARTY-NOTICES.txt にあります。\n\n5. 規約の変更\n   作者はこの規約を変えることがあります。変えたあとの規約は、\n   新しい版の本プラグインに同梱した時点から適用されます。"
+      }
+    ],
+    "tags": [
+      "MMD",
+      "VRM",
+      "3DCG",
+      "アニメーション",
+      "立体"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/shidunami.3dcg_movie_animation_thumbnail.png",
+        "infoImg": [
+          "./image/shidunami.3dcg_movie_animation_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://files.shidunami.com/files/3dcg_movie_animation/3DMA_v0.1.0%20Public%20Alpha.au2pkg.zip"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/3DMA/3DMA.aux2",
+          "to": "{pluginsDir}/3DMA"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/3DMA/Assimp64.dll",
+          "to": "{pluginsDir}/3DMA"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/3DMA/cimgui.dll",
+          "to": "{pluginsDir}/3DMA"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/3DMA/cimguizmo.dll",
+          "to": "{pluginsDir}/3DMA"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/3DMA/ImGuiImpl.dll",
+          "to": "{pluginsDir}/3DMA"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/3DMA/LICENSE.txt",
+          "to": "{pluginsDir}/3DMA"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/3DMA/THIRD-PARTY-NOTICES.txt",
+          "to": "{pluginsDir}/3DMA"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/3DMA/3DMA.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/3DMA/Assimp64.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/3DMA/cimgui.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/3DMA/cimguizmo.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/3DMA/ImGuiImpl.dll"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/3DMA/LICENSE.txt"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/3DMA/THIRD-PARTY-NOTICES.txt"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0 Public Alpha",
+        "release_date": "2026-10-20",
+        "file": [
+          {
+            "path": "{pluginsDir}/3DMA/3DMA.aux2",
+            "XXH3_128": "dd1ef8c0a31b538463c9c5c74b8a1539"
           }
         ]
       }
