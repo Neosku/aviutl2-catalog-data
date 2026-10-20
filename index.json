@@ -62496,5 +62496,83 @@
         ]
       }
     ]
+  },
+  {
+    "id": "HexBrowns.SplitLayout_H",
+    "name": "SplitLayout_H",
+    "type": "汎用プラグイン",
+    "summary": "パネルを縦横に自由に分割した枠へドラッグで並べる",
+    "description": "https://raw.githubusercontent.com/HexBrowns/SplitLayout_H/main/README.md",
+    "author": "HexBrowns",
+    "repoURL": "https://github.com/HexBrowns/SplitLayout_H",
+    "latest-version": "v0.3.5",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "HexBrowns"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "UI",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/HexBrowns.SplitLayout_H_thumbnail.png",
+        "infoImg": [
+          "./image/HexBrowns.SplitLayout_H_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "HexBrowns",
+          "repo": "SplitLayout_H",
+          "pattern": "^HexBrowns\\.SplitLayout_H-v[^/]+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/SplitLayout_H/SplitLayout_H.aux2",
+          "to": "{pluginsDir}/SplitLayout_H"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SplitLayout_H/SplitLayout_H.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.3.5",
+        "release_date": "2026-10-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/SplitLayout_H/SplitLayout_H.aux2",
+            "XXH3_128": "6e9e16bed505e81082c9446cbb5aaa93"
+          }
+        ]
+      }
+    ]
   }
 ]
