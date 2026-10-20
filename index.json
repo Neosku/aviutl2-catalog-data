@@ -47852,7 +47852,7 @@
         "github": {
           "owner": "Amai-28ftb",
           "repo": "AUL-Receptor",
-          "pattern": "^AULReceptor.*\\.au2pkg\\.zip$"
+          "pattern": "^AULReceptor.au2pkg.zip$"
         }
       },
       "install": [
