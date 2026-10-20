@@ -66,7 +66,7 @@ VHS風フィルタの開発中に偶然生まれた副産物で、該当機能�
 
 ## 対応環境
 
-- AviUtl ExEdit2 version 2.1.11
+- AviUtl ExEdit2 version 2.1.14
 
 ---
 
