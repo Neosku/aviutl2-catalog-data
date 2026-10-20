@@ -62578,7 +62578,7 @@
     "id": "Amai_28ftb.DTMerExtensionKit",
     "name": "DTMer Extension Kit",
     "type": "スクリプト",
-    "summary": "音声・MIDIを視覚的に表示同期可能なScript群",
+    "summary": "Audio Visualizer Script群",
     "description": "https://raw.githubusercontent.com/Amai-28ftb/DTMer-Extension-Kit/refs/heads/main/README.md",
     "author": "甘井ふたば",
     "repoURL": "https://tourmaline-rock-7c0.notion.site/DTMerExtensionKit-Wiki-844bea655f648287b0d48185565f8dc8",
@@ -62605,7 +62605,11 @@
     "dependencies": [
       "Amai_28ftb.AULReceptor"
     ],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/Amai_28ftb.DTMerExtensionKit_thumbnail.webp"
+      }
+    ],
     "installer": {
       "source": {
         "github": {
