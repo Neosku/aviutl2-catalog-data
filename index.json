@@ -62574,5 +62574,117 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Amai_28ftb.DTMerExtensionKit",
+    "name": "DTMer Extension Kit",
+    "type": "スクリプト",
+    "summary": "音声・MIDIを視覚的に表示同期可能なScript群",
+    "description": "https://raw.githubusercontent.com/Amai-28ftb/DTMer-Extension-Kit/refs/heads/main/README.md",
+    "author": "甘井ふたば",
+    "repoURL": "https://tourmaline-rock-7c0.notion.site/DTMerExtensionKit-Wiki-844bea655f648287b0d48185565f8dc8",
+    "latest-version": "Beta1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "## 規約的な何か\n- 感染性ライセンスが嫌いなので、特定のライセンスは設けていません。\n- Script使用した動画の親登録は任意です。親登録通知が来た動画は全て見に行ってますが、しなくてもOKです。\n- 私が配布先を全て削除し、失踪した場合は再配布を認めます。\n- フォーク版の作成を認めます。条件は以下の通りです。以下の条件が守られている場合、事前連絡は無くても構いません。\n  - ファイル名は元となった Script と被らない様にお願い致します。被らなければファイル名は自由です。もし名前を引き継ぐ場合は『@AUL Receptor_by〇〇フォーク版.obj2』の様に完全一致にならない様にしてください。\n  - 上書き保存で相互に動作保証される互換性があるならば同名でOKです"
+      }
+    ],
+    "niconiCommonsId": "sm45949170",
+    "tags": [
+      "カスタムオブジェクト",
+      "スペクトラム",
+      "トラックバー",
+      "音声",
+      "音楽",
+      "音楽同期"
+    ],
+    "dependencies": [
+      "Amai_28ftb.AULReceptor"
+    ],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Amai-28ftb",
+          "repo": "DTMer-Extension-Kit",
+          "pattern": "^DTMerExtensionKit.au2pkg.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@DTMer Extension Kit.obj2",
+          "to": "{scriptsDir}/DTMerStarterKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/@DTMer Extension Kit.tra2",
+          "to": "{scriptsDir}/DTMerStarterKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/audio_futabuffer.mod2",
+          "to": "{scriptsDir}/DTMerStarterKit"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/DEK_module.mod2",
+          "to": "{scriptsDir}/DTMerStarterKit"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/DTMerStarterKit/@DTMer Extension Kit.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/DTMerStarterKit/@DTMer Extension Kit.tra2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/DTMerStarterKit/audio_futabuffer.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/DTMerStarterKit/DEK_module.mod2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "Beta1.0.0",
+        "release_date": "2026-10-19",
+        "file": [
+          {
+            "path": "{scriptsDir}/DTMerStarterKit/@DTMer Extension Kit.obj2",
+            "XXH3_128": "d1abb215389927c16bfa73ebb138a7b9"
+          },
+          {
+            "path": "{scriptsDir}/DTMerStarterKit/@DTMer Extension Kit.tra2",
+            "XXH3_128": "c20d24ededd13025048a6446fc87f8d5"
+          },
+          {
+            "path": "{scriptsDir}/DTMerStarterKit/audio_futabuffer.mod2",
+            "XXH3_128": "0a573b2a0be380b456b14c01d29bb0b5"
+          },
+          {
+            "path": "{scriptsDir}/DTMerStarterKit/DEK_module.mod2",
+            "XXH3_128": "d9bbf2f0da320aab514589fb2f6960bd"
+          }
+        ]
+      }
+    ]
   }
 ]
