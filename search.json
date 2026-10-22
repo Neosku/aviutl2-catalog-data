@@ -4366,7 +4366,7 @@
     "checkType": {
       "type": "GitHub",
       "repo": "Amai-28ftb/AUL-Receptor",
-      "regex": "^AULReceptor.*\\.au2pkg\\.zip$",
+      "regex": "^AULReceptor.au2pkg.zip$",
       "hash-calc": [
         {
           "extract": "zip",
@@ -6171,6 +6171,94 @@
           ],
           "recordPaths": [
             "{pluginsDir}/MediaCollect_H/MediaCollect_H.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.PdfPage_H",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/PdfPage_H",
+      "regex": "^HexBrowns\\.PdfPage_H-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Language/English.pdf_page_h.aul2",
+            "Plugin/PdfPage_H/PdfPage_H.aux2"
+          ],
+          "recordPaths": [
+            "{dataDir}/Language/English.pdf_page_h.aul2",
+            "{pluginsDir}/PdfPage_H/PdfPage_H.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "HexBrowns.SplitLayout_H",
+    "latest-version": "v0.3.5",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "HexBrowns/SplitLayout_H",
+      "regex": "^HexBrowns\\.SplitLayout_H-v[^/]+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/SplitLayout_H/SplitLayout_H.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SplitLayout_H/SplitLayout_H.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Amai_28ftb.DTMerExtensionKit",
+    "latest-version": "Beta1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Amai-28ftb/DTMer-Extension-Kit",
+      "regex": "^DTMerExtensionKit.au2pkg.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/@DTMer Extension Kit.obj2",
+            "Script/@DTMer Extension Kit.tra2",
+            "Script/audio_futabuffer.mod2",
+            "Script/DEK_module.mod2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/DTMerStarterKit/@DTMer Extension Kit.obj2",
+            "{scriptsDir}/DTMerStarterKit/@DTMer Extension Kit.tra2",
+            "{scriptsDir}/DTMerStarterKit/audio_futabuffer.mod2",
+            "{scriptsDir}/DTMerStarterKit/DEK_module.mod2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "nctype.PuniCollision",
+    "latest-version": "v0.7.5",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nctype/aviutl2_script_PuniCollision",
+      "regex": "^PuniCollision_v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/PuniCollision/PuniCollision.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/PuniCollision/PuniCollision.anm2"
           ]
         }
       ]
