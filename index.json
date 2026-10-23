@@ -60507,7 +60507,7 @@
     "description": "https://raw.githubusercontent.com/Fuji07-2525/voice-valet/main/README.md",
     "author": "Fuji",
     "repoURL": "https://github.com/Fuji07-2525/voice-valet",
-    "latest-version": "v0.1.0",
+    "latest-version": "v0.1.1",
     "popularity": 24,
     "trend": 29,
     "licenses": [
@@ -60570,6 +60570,16 @@
           {
             "path": "{pluginsDir}/voice_valet.aux2",
             "XXH3_128": "b8e53dd05a6ce6206eef9e1888c9ba95"
+          }
+        ]
+      },
+      {
+        "version": "v0.1.1",
+        "release_date": "2026-10-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/voice_valet.aux2",
+            "XXH3_128": "3dc0d9050b3a57aa3b2c26d511dca1eb"
           }
         ]
       }
