@@ -47204,7 +47204,7 @@
     "description": "./md/momo_neeeko.LocusMotion.md",
     "author": "もも猫",
     "repoURL": "https://github.com/momoneeeko/LocusMotion.aux2",
-    "latest-version": "beta6.0",
+    "latest-version": "beta6.1",
     "popularity": 203,
     "trend": 108,
     "licenses": [
@@ -47390,6 +47390,20 @@
           {
             "path": "{scriptsDir}/LocusMotion.tra2",
             "XXH3_128": "9a6637dd9a043cd61b561d1dcebcea68"
+          }
+        ]
+      },
+      {
+        "version": "beta6.1",
+        "release_date": "2026-10-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/LocusMotion/LocusMotion.aux2",
+            "XXH3_128": "88c0df89e59e0d1db0ffc4615d52f160"
+          },
+          {
+            "path": "{scriptsDir}/LocusMotion.tra2",
+            "XXH3_128": "404fc1692e6e1279ec82e142947075bb"
           }
         ]
       }
