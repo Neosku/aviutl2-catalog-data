@@ -63381,5 +63381,85 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sinyaperu.rhythmical",
+    "name": "リズミカルP",
+    "type": "スクリプト",
+    "summary": "ことぶき様の「リズミカルイージング」が時間制御で使えます。",
+    "description": "./md/sinyaperu.rhythmical.md",
+    "author": "深夜ぺる",
+    "originalAuthor": "ことぶき",
+    "repoURL": "https://www.nicovideo.jp/watch/sm46966158",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "最終更新 : 2026/10/24\n\n# スクリプトについて\n\n作者 : 深夜ぺる (https://x.com/sinyaperu)  \n動作確認 : AviUtl本体:1.10 & 拡張編集:0.92 または AviUtl ExEdit2 2.1.15\n\n# 利用規約\n\nスクリプトをご利用の際は、以下の規約に同意したものとみなします。\n\n## 規約の変更について\n本利用規約の内容は、制作者（深夜ぺる）の判断により、事前の告知なしにいつでも自由に変更できるものとします。変更後の規約は、公開された時点からすべての利用者に適用されます。\n\n## 免責事項\nスクリプトの使用は自己責任です。使用したことによって生じた不利益、不具合、損害について、制作者（深夜ぺる）は一切の責任を負いません。\n\n## OKなこと\n- 無許可・無断での宣伝や紹介： 動画やSNSなどで本スクリプトを紹介・宣伝する行為は、事前の連絡なしに行っていただいて構いません。\n- スクリプトの改変： ご自身でのコードの書き換えや調整は自由です。\n- 改変したスクリプトの配布： 独自に手を加えたスクリプトを配布することは可能です。ただし、その際は必ず「元のスクリプト（深夜ぺる作）」である旨や、元URLなどのクレジットを記載してください。\n- 作成した動画の商用利用： 本スクリプトを使用して作成した映像作品等の公開や収益化等は自由です。ニコニコ動画で公開する際は親作品登録をお願いします。\n\n## NGなこと\n- 未改変のスクリプトの再配布： ダウンロードした状態のままのスクリプトを、他所で再配布する行為は禁止します。（※ただし、将来的に正規ルートでの入手が不可能になった場合を除きます）\n- 他者への迷惑行為： その他、誰かに迷惑がかかる行為や公序良俗に反する行為を禁止します。"
+      }
+    ],
+    "niconiCommonsId": "sm46966158",
+    "tags": [
+      "アニメーション",
+      "BPM",
+      "トラックバー"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1VZoudrnNTZZtHEbOO5Upi6KHUJ-NREOT"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@リズミカルP.tra2",
+          "to": "{scriptsDir}/深夜ぺる"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/@リズミカルP.lua",
+          "to": "{scriptsDir}/深夜ぺる"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/深夜ぺる/@リズミカルP.tra2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/深夜ぺる/@リズミカルP.lua"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-10-25",
+        "file": [
+          {
+            "path": "{scriptsDir}/深夜ぺる/@リズミカルP.tra2",
+            "XXH3_128": "b47e81747c7e1d8194838a19302da579"
+          },
+          {
+            "path": "{scriptsDir}/深夜ぺる/@リズミカルP.lua",
+            "XXH3_128": "9b0592cf06a6c05c021c33fa962b71d7"
+          }
+        ]
+      }
+    ]
   }
 ]
