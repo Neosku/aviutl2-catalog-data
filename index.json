@@ -63294,5 +63294,92 @@
         ]
       }
     ]
+  },
+    {
+    "id": "rigaya.VVenCguiEx",
+    "name": "VVenCguiEx",
+    "type": "出力プラグイン",
+    "summary": "VVenCを使用してエンコードを行うAviutlの出力プラグインです。",
+    "description": "https://raw.githubusercontent.com/rigaya/VVenCguiEx/refs/heads/master/readme.md",
+    "author": "rigaya",
+    "repoURL": "https://github.com/rigaya/VVenCguiEx",
+    "latest-version": "1.00",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2022",
+            "holder": "rigaya"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "rigaya",
+          "repo": "VVenCguiEx",
+          "pattern": "^Aviutl2_VVenCguiEx.*install\\.exe$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract_sfx"
+        },
+        {
+          "action": "run_auo_setup",
+          "path": "{tmp}/Plugin/exe_files/auo_setup2.exe"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VVenCguiEx.auo2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VVenCguiEx.conf"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VVenCguiEx.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VVenCguiEx.en.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VVenCguiEx.zh.ini"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/VVenCguiEx_stg/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "1.00",
+        "release_date": "2026-01-03",
+        "file": [
+          {
+            "path": "{pluginsDir}/VVenCguiEx.auo2",
+            "XXH3_128": "f6b68c3ebd7f068e5eb29b27ceb06d35"
+          }
+        ]
+      }
+    ]
   }
 ]
