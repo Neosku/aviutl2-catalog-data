@@ -62728,7 +62728,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/%E6%97%A7%E7%99%BA%E5%85%89/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E6%97%A7%E7%99%BA%E5%85%89",
-    "latest-version": "v1.0",
+    "latest-version": "v1.1",
     "popularity": 74,
     "trend": 75,
     "licenses": [
@@ -62806,6 +62806,24 @@
           {
             "path": "{scriptsDir}/旧発光.anm2",
             "XXH3_128": "977ad3f407dac771c1445dc523f8906b"
+          }
+        ]
+      },
+      {
+        "version": "v1.1",
+        "release_date": "2026-10-25",
+        "file": [
+          {
+            "path": "{dataDir}/Language/Default.legacy_glow-anm2.aul2",
+            "XXH3_128": "a73bbb665071b6e141ffdbbec2bcf0c2"
+          },
+          {
+            "path": "{dataDir}/Language/English.legacy_glow-anm2.aul2",
+            "XXH3_128": "383cf53a6b88eb8896d18c595b605d14"
+          },
+          {
+            "path": "{scriptsDir}/旧発光.anm2",
+            "XXH3_128": "57508ba7d3cbea60a47cab3bc496bc96"
           }
         ]
       }
