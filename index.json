@@ -63614,5 +63614,140 @@
         ]
       }
     ]
+  },
+  {
+    "id": "nctype.ParametricBG",
+    "name": "ParametricBG",
+    "type": "スクリプト",
+    "summary": "パラメトリックパターン背景を作るカスタムオブジェクトです",
+    "description": "https://raw.githubusercontent.com/nctype/aviutl2_script_ParametricBG/refs/heads/main/README.md",
+    "author": "nctype",
+    "repoURL": "https://github.com/nctype/aviutl2_script_ParametricBG",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "nctype"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト",
+      "背景",
+      "パラメトリックパターン",
+      "ハーフトーン",
+      "パターン"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/nctype.ParametricBG_thumbnail.gif",
+        "infoImg": [
+          "./image/nctype.ParametricBG_1.gif"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "nctype",
+          "repo": "aviutl2_script_ParametricBG",
+          "pattern": "^ParametricBG_v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/ParametricBG/ParametricBG - イメージ.obj2",
+          "to": "{scriptsDir}/ParametricBG"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/ParametricBG/ParametricBG - シェイプ.obj2",
+          "to": "{scriptsDir}/ParametricBG"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/ParametricBG/ParametricBG - リニア.obj2",
+          "to": "{scriptsDir}/ParametricBG"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/ParametricBG/ParametricBG_Common.obj2",
+          "to": "{scriptsDir}/ParametricBG"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/ParametricBG/ParametricBGCore.lua",
+          "to": "{scriptsDir}/ParametricBG"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.ParametricBG.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/简体中文.ParametricBG.aul2",
+          "to": "{dataDir}/Language"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ParametricBG/ParametricBG - イメージ.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ParametricBG/ParametricBG - シェイプ.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ParametricBG/ParametricBG - リニア.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ParametricBG/ParametricBG_Common.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ParametricBG/ParametricBGCore.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.ParametricBG.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/简体中文.ParametricBG.aul2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-10-30",
+        "file": [
+          {
+            "path": "{scriptsDir}/ParametricBG/ParametricBG_Common.obj2",
+            "XXH3_128": "d6349a97225d6d657f7de2f9d9cdfa56"
+          }
+        ]
+      }
+    ]
   }
 ]
