@@ -4196,26 +4196,6 @@
     }
   },
   {
-    "id": "routersys.DockLayout",
-    "latest-version": "v1.1.0",
-    "checkType": {
-      "type": "GitHub",
-      "repo": "routersys/AUE2-DockLayout",
-      "regex": "^DockLayout.*\\.au2pkg\\.zip$",
-      "hash-calc": [
-        {
-          "extract": "zip",
-          "paths": [
-            "Plugin/DockLayout.aux2"
-          ],
-          "recordPaths": [
-            "{pluginsDir}/DockLayout.aux2"
-          ]
-        }
-      ]
-    }
-  },
-  {
     "id": "kanade-ak.TextCharEditor",
     "latest-version": "v3.5",
     "checkType": {
