@@ -48119,7 +48119,7 @@
     "description": "https://raw.githubusercontent.com/yh2237/AviUtl2-MCP/refs/heads/main/docs/CATALOG.md",
     "author": "yh",
     "repoURL": "https://github.com/yh2237/AviUtl2-MCP",
-    "latest-version": "v0.0.4",
+    "latest-version": "v0.0.5",
     "popularity": 69,
     "trend": 22,
     "licenses": [
@@ -48204,6 +48204,20 @@
           {
             "path": "{pluginsDir}/AviUtl2-MCP/aviutl2-mcp.exe",
             "XXH3_128": "4ee8ab0f6cc50a0d844f002a8343146b"
+          }
+        ]
+      },
+      {
+        "version": "v0.0.5",
+        "release_date": "2026-11-05",
+        "file": [
+          {
+            "path": "{pluginsDir}/AviUtl2-MCP/aviutl2-mcp-bridge.aux2",
+            "XXH3_128": "5fb7c0f05d277639888d23179f711b95"
+          },
+          {
+            "path": "{pluginsDir}/AviUtl2-MCP/aviutl2-mcp.exe",
+            "XXH3_128": "5edd3df6b4f7f6344227656933b671b5"
           }
         ]
       }
