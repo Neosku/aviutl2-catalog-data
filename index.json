@@ -64067,5 +64067,98 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_RhythmShooter",
+    "name": "リズムシューティング",
+    "type": "フィルタプラグイン",
+    "summary": "曲に合わせてシューティングやアクション映像を自動生成",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_RhythmShooter/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_RhythmShooter/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "音楽",
+      "音ハメ",
+      "シューティング",
+      "アクション"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_RhythmShooter_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_RhythmShooter",
+          "pattern": "^SYNC_RhythmShooter\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_RhythmShooter",
+          "to": "{pluginsDir}/SYNC_RhythmShooter"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_RhythmShooter/SYNC_RhythmShooter.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_RhythmShooter/Assets"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_RhythmShooter/ThirdParty/FFmpeg"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_RhythmShooter/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_RhythmShooter/THIRD_PARTY_NOTICES.md"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_RhythmShooter/SYNC_RhythmShooter.auf2",
+            "XXH3_128": "aab71544f80531761748a4d3a4d72bc3"
+          }
+        ]
+      }
+    ]
   }
 ]
