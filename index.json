@@ -63386,12 +63386,12 @@
   {
     "id": "shidunami.3dcg_movie_animation",
     "name": "3DCG Movie Animation",
-    "type": "MOD",
+    "type": "汎用プラグイン",
     "summary": "AviUtl2に3DCG編集用のウィンドウと機能を追加する",
     "description": "./md/shidunami.3dcg_movie_animation.md",
     "author": "しづなみ",
     "repoURL": "https://3dma.shidunami.com/",
-    "latest-version": "v0.1.0 Public Alpha",
+    "latest-version": "v0.1.1 Public Alpha",
     "popularity": 81,
     "trend": 50,
     "licenses": [
@@ -63420,7 +63420,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://files.shidunami.com/files/3dcg_movie_animation/3DMA_v0.1.0%20Public%20Alpha.au2pkg.zip"
+        "direct": "https://files.shidunami.com/files/3dcg_movie_animation/3DMA_v0.1.1%20Public%20Alpha.au2pkg.zip"
       },
       "install": [
         {
@@ -63504,6 +63504,16 @@
           {
             "path": "{pluginsDir}/3DMA/3DMA.aux2",
             "XXH3_128": "dd1ef8c0a31b538463c9c5c74b8a1539"
+          }
+        ]
+      },
+      {
+        "version": "v0.1.1 Public Alpha",
+        "release_date": "2026-11-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/3DMA/3DMA.aux2",
+            "XXH3_128": "acccc105ef7478bffb0758c881d3a578"
           }
         ]
       }
