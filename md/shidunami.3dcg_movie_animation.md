@@ -12,7 +12,7 @@ AviUtl2に3DCG編集用のウィンドウと機能を追加します。
 
 最低要件
 - AviUtl2バージョン: v2.1.10
-- OS: Windows 10 / 11
+- OS: Windows 11
 - GPU: Direct3D 11
 
 依存プラグイン、追加のランタイムは不要です。
