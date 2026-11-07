@@ -1,7 +1,7 @@
 [
   {
     "id": "Kenkun.AviUtlExEdit2",
-    "latest-version": "v2.1.16",
+    "latest-version": "v2.1.17",
     "checkType": {
       "type": "URL",
       "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
@@ -1079,7 +1079,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_binaural",
-    "latest-version": "0.52.1",
+    "latest-version": "0.53.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1099,7 +1099,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_chiptune",
-    "latest-version": "0.52.1",
+    "latest-version": "0.53.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1119,7 +1119,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_equalizer",
-    "latest-version": "0.52.1",
+    "latest-version": "0.53.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1139,7 +1139,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_ffmpeg",
-    "latest-version": "0.52.1",
+    "latest-version": "0.53.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1159,7 +1159,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_input",
-    "latest-version": "0.52.1",
+    "latest-version": "0.53.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1179,7 +1179,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_output",
-    "latest-version": "0.52.1",
+    "latest-version": "0.53.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1199,7 +1199,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_local_alias_plugin",
-    "latest-version": "0.52.1",
+    "latest-version": "0.53.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1219,7 +1219,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_midi_player",
-    "latest-version": "0.52.1",
+    "latest-version": "0.53.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1239,7 +1239,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_pixelsort",
-    "latest-version": "0.52.1",
+    "latest-version": "0.53.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1259,7 +1259,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_random_color",
-    "latest-version": "0.52.1",
+    "latest-version": "0.53.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1279,7 +1279,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_scripts_search",
-    "latest-version": "0.52.1",
+    "latest-version": "0.53.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1299,7 +1299,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_srt_file",
-    "latest-version": "0.52.1",
+    "latest-version": "0.53.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1319,7 +1319,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_statistics",
-    "latest-version": "0.52.1",
+    "latest-version": "0.53.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1361,7 +1361,7 @@
   },
   {
     "id": "sevenc-nanashi.clipboard-aux2",
-    "latest-version": "0.3.1",
+    "latest-version": "0.3.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/clipboard.aux2",
@@ -1481,7 +1481,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_metronome_plugin",
-    "latest-version": "0.52.1",
+    "latest-version": "0.53.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -1907,7 +1907,7 @@
   },
   {
     "id": "sevenc-nanashi.open_project_directory-aux2",
-    "latest-version": "0.2.0",
+    "latest-version": "0.2.1",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/open_project_directory.aux2",
@@ -1946,7 +1946,7 @@
   },
   {
     "id": "sevenc-nanashi.filter_effect_toggle-aux2",
-    "latest-version": "0.2.0",
+    "latest-version": "0.2.1",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/filter_effect_toggle.aux2",
@@ -2047,7 +2047,7 @@
   },
   {
     "id": "sevenc-nanashi.insert-aux2",
-    "latest-version": "0.3.0",
+    "latest-version": "0.3.1",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/insert.aux2",
@@ -2067,7 +2067,7 @@
   },
   {
     "id": "sevenc-nanashi.quantizer-aux2",
-    "latest-version": "0.3.1",
+    "latest-version": "0.3.2",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/quantizer.aux2",
@@ -2147,7 +2147,7 @@
   },
   {
     "id": "sevenc-nanashi.aviutl2-rs.rusty_single_image_output",
-    "latest-version": "0.52.1",
+    "latest-version": "0.53.0",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/aviutl2-rs",
@@ -2167,7 +2167,7 @@
   },
   {
     "id": "sevenc-nanashi.discord_activity-aux2",
-    "latest-version": "0.2.0",
+    "latest-version": "0.2.1",
     "checkType": {
       "type": "GitHub",
       "repo": "sevenc-nanashi/discord_activity.aux2",
@@ -4196,26 +4196,6 @@
     }
   },
   {
-    "id": "routersys.DockLayout",
-    "latest-version": "v1.1.0",
-    "checkType": {
-      "type": "GitHub",
-      "repo": "routersys/AUE2-DockLayout",
-      "regex": "^DockLayout.*\\.au2pkg\\.zip$",
-      "hash-calc": [
-        {
-          "extract": "zip",
-          "paths": [
-            "Plugin/DockLayout.aux2"
-          ],
-          "recordPaths": [
-            "{pluginsDir}/DockLayout.aux2"
-          ]
-        }
-      ]
-    }
-  },
-  {
     "id": "kanade-ak.TextCharEditor",
     "latest-version": "v3.5",
     "checkType": {
@@ -4299,7 +4279,7 @@
   },
   {
     "id": "yh2237.AviUtl2-MCP",
-    "latest-version": "v0.0.4",
+    "latest-version": "v0.0.5",
     "checkType": {
       "type": "GitHub",
       "repo": "yh2237/AviUtl2-MCP",
