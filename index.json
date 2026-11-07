@@ -27529,7 +27529,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/filter_effect_toggle.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/filter_effect_toggle.aux2",
-    "latest-version": "0.2.0",
+    "latest-version": "0.2.1",
     "popularity": 379,
     "trend": 10,
     "licenses": [
@@ -27645,6 +27645,16 @@
           {
             "path": "{pluginsDir}/filter_effect_toggle.aux2",
             "XXH3_128": "a0c87aed3a8a2029c8bb915d2d9798d0"
+          }
+        ]
+      },
+      {
+        "version": "0.2.1",
+        "release_date": "2026-11-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/filter_effect_toggle.aux2",
+            "XXH3_128": "0290af80a1dd931f325081aef23921bf"
           }
         ]
       }
@@ -28768,7 +28778,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/insert.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/insert.aux2",
-    "latest-version": "0.3.0",
+    "latest-version": "0.3.1",
     "popularity": 584,
     "trend": 26,
     "licenses": [
@@ -28896,6 +28906,16 @@
             "XXH3_128": "9f931ccd1565174ac55df22957212d15"
           }
         ]
+      },
+      {
+        "version": "0.3.1",
+        "release_date": "2026-11-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/insert.aux2",
+            "XXH3_128": "774abf9ff9217c52eaa4126839d82322"
+          }
+        ]
       }
     ]
   },
@@ -28907,7 +28927,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/quantizer.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/quantizer.aux2",
-    "latest-version": "0.3.1",
+    "latest-version": "0.3.2",
     "popularity": 2895,
     "trend": 184,
     "licenses": [
@@ -29097,6 +29117,16 @@
           {
             "path": "{pluginsDir}/quantizer.aux2",
             "XXH3_128": "e194662a42fa67837ab94736716fe6a8"
+          }
+        ]
+      },
+      {
+        "version": "0.3.2",
+        "release_date": "2026-11-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/quantizer.aux2",
+            "XXH3_128": "eb40ed970dce37f13222e25bbf86ca47"
           }
         ]
       }
@@ -29911,7 +29941,7 @@
     "description": "https://raw.githubusercontent.com/sevenc-nanashi/discord_activity.aux2/main/README.md",
     "author": "Nanashi.",
     "repoURL": "https://github.com/sevenc-nanashi/discord_activity.aux2",
-    "latest-version": "0.2.0",
+    "latest-version": "0.2.1",
     "popularity": 293,
     "trend": 7,
     "licenses": [
@@ -30000,6 +30030,16 @@
           {
             "path": "{pluginsDir}/discord_activity_aux2.aux2",
             "XXH3_128": "97840b3b5e0d2637dc4a5094a66b91d0"
+          }
+        ]
+      },
+      {
+        "version": "0.2.1",
+        "release_date": "2026-11-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/discord_activity_aux2.aux2",
+            "XXH3_128": "7a2bd8c4bfc565827f25ab0f3f494db0"
           }
         ]
       }
