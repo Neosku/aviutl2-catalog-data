@@ -64094,9 +64094,7 @@
     ],
     "tags": [
       "音楽",
-      "音ハメ",
-      "シューティング",
-      "アクション"
+      "ゲーム"
     ],
     "dependencies": [],
     "images": [
@@ -64145,6 +64143,10 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/SYNC_RhythmShooter/THIRD_PARTY_NOTICES.md"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_RhythmShooter/LICENSE"
         }
       ]
     },
