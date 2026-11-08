@@ -64586,7 +64586,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_RhythmShooter/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/SYNC_RhythmShooter/",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.1.0",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -64604,7 +64604,9 @@
     ],
     "tags": [
       "音楽",
-      "ゲーム"
+      "音ハメ",
+      "シューティング",
+      "アクション"
     ],
     "dependencies": [],
     "images": [
@@ -64628,6 +64630,10 @@
           "action": "extract"
         },
         {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_RhythmShooter/ThirdParty"
+        },
+        {
           "action": "copy",
           "from": "{tmp}/SYNC_RhythmShooter",
           "to": "{pluginsDir}/SYNC_RhythmShooter"
@@ -64644,7 +64650,7 @@
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/SYNC_RhythmShooter/ThirdParty/FFmpeg"
+          "path": "{pluginsDir}/SYNC_RhythmShooter/ThirdParty"
         },
         {
           "action": "delete",
@@ -64652,11 +64658,11 @@
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/SYNC_RhythmShooter/THIRD_PARTY_NOTICES.md"
+          "path": "{pluginsDir}/SYNC_RhythmShooter/LICENSE"
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/SYNC_RhythmShooter/LICENSE"
+          "path": "{pluginsDir}/SYNC_RhythmShooter/THIRD_PARTY_NOTICES.md"
         }
       ]
     },
@@ -64668,6 +64674,26 @@
           {
             "path": "{pluginsDir}/SYNC_RhythmShooter/SYNC_RhythmShooter.auf2",
             "XXH3_128": "aab71544f80531761748a4d3a4d72bc3"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-11-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_RhythmShooter/SYNC_RhythmShooter.auf2",
+            "XXH3_128": "edd5362c171c02f3838c83fecded423a"
+          }
+        ]
+      },
+      {
+        "version": "v1.1.0",
+        "release_date": "2026-11-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_RhythmShooter/SYNC_RhythmShooter.auf2",
+            "XXH3_128": "d41e4daf45cb4d69256b6a7fc4e708e5"
           }
         ]
       }
