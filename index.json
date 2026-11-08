@@ -46741,7 +46741,7 @@
     "author": "夏猫",
     "originalAuthor": "oov",
     "repoURL": "https://github.com/natuneko722/TextBackgroundBalloonScript",
-    "latest-version": "v1.2.1",
+    "latest-version": "v1.3.0",
     "popularity": 887,
     "trend": 104,
     "licenses": [
@@ -46856,6 +46856,16 @@
           {
             "path": "{scriptsDir}/NatuNeko/吹き出し背景@テキスト.anm2",
             "XXH3_128": "e8b914279191e32db886c814df41053c"
+          }
+        ]
+      },
+      {
+        "version": "v1.3.0",
+        "release_date": "2026-11-09",
+        "file": [
+          {
+            "path": "{scriptsDir}/NatuNeko/吹き出し背景@テキスト.anm2",
+            "XXH3_128": "20d9106bd90e36e5acfbb415af0cc1dc"
           }
         ]
       }
