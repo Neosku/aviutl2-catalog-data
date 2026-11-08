@@ -64662,5 +64662,75 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Takonosunomono.Office-Style-RichText",
+    "name": "Office-Style RichText",
+    "type": "汎用プラグイン",
+    "summary": "テキストをOffice風に編集できるプラグインです。",
+    "description": "./md/Takonosunomono.Office-Style-RichText.md",
+    "author": "蛸之酢物",
+    "repoURL": "https://takonosunomono0101.wixsite.com/utau/office-style-richtext",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "1. 対象\n本ライセンスは、作者が作成した「Office-Style RichText」のプログラム、ソースコードおよび関連ファイル（以下「本プラグイン」）に適用されます。\n本プラグインに含まれる第三者の著作物には、それぞれの権利者が定めるライセンスが適用されます。AviUtl ExEdit2 Plugin SDK由来のファイルには、同梱されたSDKのMITライセンスが適用されます。\n\n2. 利用\n利用者は、本プラグインをダウンロード、インストールし、AviUtl ExEdit2で使用できます。利用者が本プラグインを使って作成した動画その他の成果物には、本ライセンスは適用されません。\n\n3. 再配布の禁止\n作者の事前の許可なく、本プラグインまたはその一部を第三者へ再配布することを禁止します。再配布には、本ソフトウェアをウェブサイト、ファイル共有サービス、雑誌、商品、その他の媒体で公開または配布すること、および他のソフトウェアや商品に同梱して配布することを含みます。\n\n4. 配布停止時の例外\n次の条件をすべて満たす場合に限り、作者の事前の許可なく、本ソフトウェアの公式配布ファイルを保全目的で再配布できます。\n1. 公式配布先から本プラグインをダウンロードできないこと。\n2. READMEに記載された作者の連絡先へ本プラグインの再配布について問い合わせていること。\n3. 問い合わせから1年間、作者から返答がないこと。\n4. 作者が作成した公式配布ファイルを改変せず、そのまま配布すること。\n5. 無償で配布し、販売、有料サービスへの同梱、その他の営利目的で配布しないこと。\n6. 本ライセンス、著作権表示および同梱文書を削除または変更せず、配布物に含めること。\nこの例外は、作者が作成した公式配布ファイルの再配布のみを許可します。改変版やソースコードの再配布を許可するものではありません。\n\n5. 権利の留保\n本ライセンスで明示的に許可した範囲を除き、本ソフトウェアに関する著作権その他の権利は作者または各権利者に留保されます。本ライセンスは、本ソフトウェアの著作権を利用者へ譲渡するものではありません。\n\n6. 保証の否認\n本プラグインは現状有姿で提供されます。作者は、本プラグインの完全性、正確性、特定目的への適合性、動作および利用者の環境との互換性について、明示または黙示を問わず保証しません。\n本プラグインの利用または利用不能により生じたいかなる損害についても、法令で認められる範囲において、作者は責任を負いません。"
+      }
+    ],
+    "tags": [
+      "テキスト",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/Takonosunomono.Office-Style-RichText_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "takonosunomono0101",
+          "repo": "Office-Style-RichText",
+          "pattern": "^Office-Style_RichText.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/Office-Style RichText/Office-Style RichText.aux2",
+          "to": "{pluginsDir}/Office-Style RichText"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Office-Style RichText/Office-Style RichText.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/Office-Style RichText/Office-Style RichText.aux2",
+            "XXH3_128": "9c12ae686e4ad35df5a3f39e35f63b97"
+          }
+        ]
+      }
+    ]
   }
 ]
