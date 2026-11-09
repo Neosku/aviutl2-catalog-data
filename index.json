@@ -64682,5 +64682,88 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Nicomea",
+    "name": "ニコメア",
+    "type": "フィルタプラグイン",
+    "summary": "ニコニコ動画の広告主・ギフト贈呈者へのお礼を表示",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_Nicomea/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_Nicomea/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "sm41065084",
+    "tags": [
+      "ニコニコ動画",
+      "ギフト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_Nicomea_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_Nicomea",
+          "pattern": "^SYNC_Nicomea\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_Nicomea",
+          "to": "{pluginsDir}/SYNC_Nicomea"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_Nicomea/SYNC_Nicomea.auf2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_Nicomea/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_Nicomea/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_Nicomea/THIRD_PARTY_NOTICES.md"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-06",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_Nicomea/SYNC_Nicomea.auf2",
+            "XXH3_128": "625060b53f06009af55bab5e9b64d2f3"
+          }
+        ]
+      }
+    ]
   }
 ]
