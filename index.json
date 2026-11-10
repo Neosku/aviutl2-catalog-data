@@ -64808,5 +64808,78 @@
         ]
       }
     ]
+  },
+  {
+    "id": "AlbireoGT.ImageDropAssist",
+    "name": "ImageDropAssist",
+    "type": "汎用プラグイン",
+    "summary": "画像ファイルを時間軸に置くと時間長・大きさ・位置を自動調整",
+    "description": "./md/AlbireoGT.ImageDropAssist.md",
+    "author": "AlbireoGT",
+    "repoURL": "https://aviutl2-image-drop-assist.pages.dev/",
+    "latest-version": "0.2.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "カスタムライセンス",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "ImageDropAssist 利用規約\n\nCopyright (c) 2026 AlbireoGT\n\n1. 本プラグインは無料で使用できます。個人・法人、営利・非営利を問わず使用できます。\n   本プラグインを使って作った動画などの公開・販売に制限はなく、クレジットの表記もいりません。\n\n2. 本プラグインの再配布を禁止します。\n   ファイルの転載、ほかの配布物（素材集・プラグイン集・本体のセットなど）への同梱、\n   改変したものの配布を含みます。\n   入手先は、次の公式ページと AviUtl2 カタログに限ります。\n   https://aviutl2-image-drop-assist.pages.dev/\n\n3. 本プラグインの改変、逆アセンブル、逆コンパイル、リバースエンジニアリングを禁止します。\n\n4. 本プラグインは無保証です。本プラグインの使用によって生じたいかなる損害についても、\n   作者は責任を負いません。\n\n5. 本規約は予告なく変更することがあります。\n\n\n--------------------------------------------------------------------------------\n本プラグインは、次のソフトウェアを使用しています。\n\nAviUtl ExEdit2 Plugin SDK\n\nThe MIT License\n\nCopyright (c) 2025 Kenkun\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+      }
+    ],
+    "tags": [
+      "画像",
+      "時間制御",
+      "リサイズ",
+      "配置",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/AlbireoGT.ImageDropAssist_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://aviutl2-image-drop-assist.pages.dev/download/ImageDropAssist_v0.2.0.au2pkg.zip"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/ImageDropAssist.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ImageDropAssist.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/ImageDropAssist.ini"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.2.0",
+        "release_date": "2026-11-10",
+        "file": [
+          {
+            "path": "{pluginsDir}/ImageDropAssist.aux2",
+            "XXH3_128": "a78897c42ee6cde6a657d58efdf6defe"
+          }
+        ]
+      }
+    ]
   }
 ]
