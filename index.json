@@ -65090,5 +65090,81 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_MINE",
+    "name": "MINE",
+    "type": "フィルタプラグイン",
+    "summary": "スマホ本体とLINE風の会話・写真メッセージを描画",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_MINE/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_MINE/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "スマホ",
+      "メッセージ",
+      "アニメーション"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_MINE_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_MINE",
+          "pattern": "^SYNC_MINE\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_MINE",
+          "to": "{pluginsDir}/SYNC_MINE"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_MINE"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_MINE/SYNC_MINE.auf2",
+            "XXH3_128": "be885349672f112569f21f09fba83909"
+          }
+        ]
+      }
+    ]
   }
 ]
