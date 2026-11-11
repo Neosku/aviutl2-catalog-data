@@ -65166,5 +65166,110 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sevenc-nanashi.aviutl2-scripts.niconico_comment-anm2",
+    "name": "自演コメント.anm2",
+    "type": "スクリプト",
+    "summary": "コメント自演スクリプト+使用例.aviutlの移植",
+    "description": "https://raw.githubusercontent.com/sevenc-nanashi/aviutl2-scripts/refs/heads/main/scripts/%E8%87%AA%E6%BC%94%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/README.md",
+    "author": "Nanashi.",
+    "originalAuthor": "gometh",
+    "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E8%87%AA%E6%BC%94%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88",
+    "latest-version": "v1.1",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "MIT License\n\nCopyright (c) 2025 Nanashi. <sevenc7c.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+      }
+    ],
+    "tags": [
+      "テキスト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/sevenc-nanashi.aviutl2-scripts.niconico_comment-anm2_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "direct": "https://aviutl2-scripts-download.sevenc7c.workers.dev/%E8%87%AA%E6%BC%94%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88.anm2?type=au2pkg&scriptIdOverride=sevenc-nanashi.aviutl2-scripts.niconico_comment-anm2"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Alias/カスタムオブジェクト/自演コメント.object",
+          "to": "{dataDir}/Alias/カスタムオブジェクト"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/Default.niconico_comment-anm2.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Language/English.niconico_comment-anm2.aul2",
+          "to": "{dataDir}/Language"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/自演コメント.anm2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/自演コメント.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/English.niconico_comment-anm2.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Language/Default.niconico_comment-anm2.aul2"
+        },
+        {
+          "action": "delete",
+          "path": "{dataDir}/Alias/カスタムオブジェクト/自演コメント.object"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.1",
+        "release_date": "2026-11-11",
+        "file": [
+          {
+            "path": "{dataDir}/Alias/カスタムオブジェクト/自演コメント.object",
+            "XXH3_128": "d7e6028d7ce352c561f61a90783efa7a"
+          },
+          {
+            "path": "{dataDir}/Language/Default.niconico_comment-anm2.aul2",
+            "XXH3_128": "b7d0b45427978cb12229667ddabea7c0"
+          },
+          {
+            "path": "{dataDir}/Language/English.niconico_comment-anm2.aul2",
+            "XXH3_128": "8ebf998065d6cd03ff6b1c67f422f15e"
+          },
+          {
+            "path": "{scriptsDir}/自演コメント.anm2",
+            "XXH3_128": "e4d946d0cc48b4fe1e29ca9858f76a10"
+          }
+        ]
+      }
+    ]
   }
 ]
