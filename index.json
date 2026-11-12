@@ -65176,7 +65176,7 @@
     "author": "Nanashi.",
     "originalAuthor": "gometh",
     "repoURL": "https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E8%87%AA%E6%BC%94%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88",
-    "latest-version": "v1.1",
+    "latest-version": "v1.2",
     "popularity": 0,
     "trend": 0,
     "licenses": [
@@ -65267,6 +65267,28 @@
           {
             "path": "{scriptsDir}/自演コメント.anm2",
             "XXH3_128": "e4d946d0cc48b4fe1e29ca9858f76a10"
+          }
+        ]
+      },
+      {
+        "version": "v1.2",
+        "release_date": "2026-11-12",
+        "file": [
+          {
+            "path": "{dataDir}/Alias/カスタムオブジェクト/自演コメント.object",
+            "XXH3_128": "d7e6028d7ce352c561f61a90783efa7a"
+          },
+          {
+            "path": "{dataDir}/Language/Default.niconico_comment-anm2.aul2",
+            "XXH3_128": "b7d0b45427978cb12229667ddabea7c0"
+          },
+          {
+            "path": "{dataDir}/Language/English.niconico_comment-anm2.aul2",
+            "XXH3_128": "8ebf998065d6cd03ff6b1c67f422f15e"
+          },
+          {
+            "path": "{scriptsDir}/自演コメント.anm2",
+            "XXH3_128": "bfa56935cfc6d1c51c2b5c599cf0cedd"
           }
         ]
       }
