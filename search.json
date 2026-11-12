@@ -4935,7 +4935,7 @@
             "放射クリッピング.anm2"
           ],
           "recordPaths": [
-            "{scriptsDir}/放射クリッピング.anm2"
+            "{scriptsDir}\\放射クリッピング.anm2"
           ]
         }
       ]
@@ -6239,6 +6239,268 @@
           ],
           "recordPaths": [
             "{scriptsDir}/PuniCollision/PuniCollision.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "JobsJoestar.RippleDelete",
+    "latest-version": "v1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Joster777/Aviutl2_Plugin_RippleDelete",
+      "regex": "^RippleDelete_.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/RippleDelete.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/RippleDelete.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "MonogoiNoobs.MFOutput",
+    "latest-version": "0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "MonogoiNoobs/aviutl2-media-foundation-output-plugin",
+      "regex": "^MFOutput.auo2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "MFOutput.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/MFOutput.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "rigaya.VVenCguiEx",
+    "latest-version": "1.00",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "rigaya/VVenCguiEx",
+      "regex": "^Aviutl2_VVenCguiEx.*install\\.exe$",
+      "hash-calc": [
+        {
+          "extract": "7zip",
+          "paths": [
+            "Plugin/VVenCguiEx.auo2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/VVenCguiEx.auo2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "nctype.ParametricBG",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "nctype/aviutl2_script_ParametricBG",
+      "regex": "^ParametricBG_v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Script/ParametricBG/ParametricBG_Common.obj2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/ParametricBG/ParametricBG_Common.obj2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "leolla-gz.texttemplate",
+    "latest-version": "v0.3.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Leolla-gz/TextTemplate",
+      "regex": "^TextTemplate_v.*\\.au2pkg\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/TextTemplate/TextTemplate.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/TextTemplate/TextTemplate.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Sagyou.Modulator",
+    "latest-version": "v1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "SagyouDarui900/Modulator",
+      "regex": "^Modulator.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Modulator.anm2",
+            "Modulator.mod2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/Modulator.anm2",
+            "{scriptsDir}/Modulator.mod2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Sagyou.BoundingBox",
+    "latest-version": "v1.1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "SagyouDarui900/BoundingBox",
+      "regex": "^BoundingBox.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "BoundingBox.anm2",
+            "BoundingBox.mod2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/BoundingBox.anm2",
+            "{scriptsDir}/BoundingBox.mod2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_RhythmShooter",
+    "latest-version": "v1.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_RhythmShooter",
+      "regex": "^SYNC_RhythmShooter\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_RhythmShooter/SYNC_RhythmShooter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_RhythmShooter/SYNC_RhythmShooter.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Nicomea",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_Nicomea",
+      "regex": "^SYNC_Nicomea\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_Nicomea/SYNC_Nicomea.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_Nicomea/SYNC_Nicomea.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Sagyou.kaimetsu",
+    "latest-version": "v1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "SagyouDarui900/kaimetsu.anm2",
+      "regex": "^kaimetsu.*\\.anm2$",
+      "hash-calc": [
+        {
+          "paths": [
+            "kaimetsu.anm2"
+          ],
+          "recordPaths": [
+            "{scriptsDir}/kaimetsu.anm2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Takonosunomono.Office-Style-RichText",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "takonosunomono0101/Office-Style-RichText",
+      "regex": "^Office-Style_RichText.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/Office-Style RichText/Office-Style RichText.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/Office-Style RichText/Office-Style RichText.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_MINE",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_MINE",
+      "regex": "^SYNC_MINE\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_MINE/SYNC_MINE.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_MINE/SYNC_MINE.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sigma-axis.InlineScene_S",
+    "latest-version": "v1.01",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "sigma-axis/aviutl2_InlineScene_S",
+      "regex": "^aviutl2_InlineScene_S.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/InlineScene_S/InlineScene_S.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/InlineScene_S/InlineScene_S.aux2"
           ]
         }
       ]
