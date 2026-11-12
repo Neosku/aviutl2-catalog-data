@@ -65271,5 +65271,702 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Rhapthorne.kadomaru",
+    "name": "角丸補正_Rh",
+    "type": "スクリプト",
+    "summary": "ぼかしを使って角を丸めます。",
+    "description": "./md/Rhapthorne.kadomaru.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1991423812328648848",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1Zv3EYS1_iSbI4DapWeOxzCxRmulE5kKO"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/角丸補正_Rh.anm2",
+          "to": "{scriptsDir}/ラプソーン"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ラプソーン/角丸補正_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-11-20",
+        "file": [
+          {
+            "path": "{scriptsDir}/ラプソーン/角丸補正_Rh.anm2",
+            "XXH3_128": "d75b9d2640f3d276835e9920b1d71660"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne..kobetsu_anchor",
+    "name": "個別アンカー操作_Rh",
+    "type": "スクリプト",
+    "summary": "アンカーで各文字の座標・回転・拡大率を操作します。",
+    "description": "./md/Rhapthorne..kobetsu_anchor.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1996544042973409715",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1Rm0L0W5Nm2gQXDZCZy-ypqTVPkx1-tqw"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/個別アンカー操作_Rh.anm2",
+          "to": "{scriptsDir}/ラプソーン"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ラプソーン/個別アンカー操作_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-12-04",
+        "file": [
+          {
+            "path": "{scriptsDir}/ラプソーン/個別アンカー操作_Rh.anm2",
+            "XXH3_128": "4ba72dc9ceb3fd17b23aa855dc468b1f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne.text_skin",
+    "name": "Textスキン",
+    "type": "スクリプト",
+    "summary": "テキストを図形/画像/動画に置き換えます。",
+    "description": "./md/Rhapthorne.text_skin.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1977356416747704461",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1SfqfsWrvtevmnqnq5xpiatlKneRj9BjM"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Textスキン.anm2",
+          "to": "{scriptsDir}/ラプソーン"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ラプソーン/Textスキン.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-10-12",
+        "file": [
+          {
+            "path": "{scriptsDir}/ラプソーン/Textスキン.anm2",
+            "XXH3_128": "535952b656b88e636445f581f69faeea"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne.line_glitch",
+    "name": "LineGlitch_Rh",
+    "type": "スクリプト",
+    "summary": "横方向(または縦)にずれるグリッチ",
+    "description": "./md/Rhapthorne.line_glitch.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1992790280186011754",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1d5pSbg5QgUa99ho40I1t4kzaD4FnVTA2"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/LineGlitch_Rh.anm2",
+          "to": "{scriptsDir}/ラプソーン"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ラプソーン/LineGlitch_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-11-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/ラプソーン/LineGlitch_Rh.anm2",
+            "XXH3_128": "58f5b5b6f0d516b1fb60f014e2c79131"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne.kobetsu",
+    "name": "基本効果(個別指定)",
+    "type": "スクリプト",
+    "summary": "指定した文字のみ操作します。",
+    "description": "./md/Rhapthorne.kobetsu.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1990342570116034832",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1atfFGLpDUuI1iIxRrJG_bLGbO-gnuFJM"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/基本効果(個別指定).anm2",
+          "to": "{scriptsDir}/ラプソーン"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ラプソーン/基本効果(個別指定).anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-11-17",
+        "file": [
+          {
+            "path": "{scriptsDir}/ラプソーン/基本効果(個別指定).anm2",
+            "XXH3_128": "d8be8c992e07674e9f15ddbf83c0c787"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne.text_itimaika",
+    "name": "テキスト一枚化っぽい",
+    "type": "スクリプト",
+    "summary": "rikky氏のテキスト一枚化をイメージしたスクリプト。",
+    "description": "./md/Rhapthorne.text_itimaika.md",
+    "author": "ラプソーン",
+    "originalAuthor": "rikky",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1968330680842297713",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1nCKqRzmP-d3padObGlogo83IrJciqmhM"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/テキスト一枚化っぽい.anm2",
+          "to": "{scriptsDir}/ラプソーン"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ラプソーン/テキスト一枚化っぽい.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-09-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/ラプソーン/テキスト一枚化っぽい.anm2",
+            "XXH3_128": "2f5859314588203e6fce91265dced451"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne.rotating_raster",
+    "name": "回転ラスター_Rh",
+    "type": "スクリプト",
+    "summary": "円状にラスター変形します。",
+    "description": "./md/Rhapthorne.rotating_raster.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1988879507135094998",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1I01ILTGE20xYeY2aK0YyWgNCsPguxveG"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/回転ラスター_Rh.anm2",
+          "to": "{scriptsDir}/ラプソーン"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ラプソーン/回転ラスター_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-11-13",
+        "file": [
+          {
+            "path": "{scriptsDir}/ラプソーン/回転ラスター_Rh.anm2",
+            "XXH3_128": "95ff1ce39ab3054bd274ad3c92532ed6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne.sai_cle",
+    "name": "彩cle_Rh",
+    "type": "スクリプト",
+    "summary": "イン/アウトで単色化し、滑らかに色を変化させます。",
+    "description": "./md/Rhapthorne.sai_cle.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1985646515592061158",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1i9pQmMb_fNYxsN08qiLAZQXYKGNNYhE3"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/彩cle_Rh.anm2",
+          "to": "{scriptsDir}/ラプソーン"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ラプソーン/彩cle_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-11-04",
+        "file": [
+          {
+            "path": "{scriptsDir}/ラプソーン/彩cle_Rh.anm2",
+            "XXH3_128": "4167c29beca8629be9b71634e2171d7b"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne.strobe",
+    "name": "ストロボ_Rh",
+    "type": "スクリプト",
+    "summary": "イン/アウトに点滅を適用します。",
+    "description": "./md/Rhapthorne.strobe.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1985646515592061158",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1-1-eknS0LOex0itEx0MTVq8GwpSqAyZn"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/ストロボ_Rh.anm2",
+          "to": "{scriptsDir}/ラプソーン"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ラプソーン/ストロボ_Rh.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-11-04",
+        "file": [
+          {
+            "path": "{scriptsDir}/ラプソーン/ストロボ_Rh.anm2",
+            "XXH3_128": "7a3e49f5fb30d3c536b368e4d64f3b6d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne.delay",
+    "name": "基本効果(Delay)",
+    "type": "スクリプト",
+    "summary": "個別オブジェクトにディレイを付けられる基本効果です。",
+    "description": "./md/Rhapthorne.delay.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1978378817640018296",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1gfxWKrin6RWXz8FRt1Pd8JVM74FtCfvo"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/基本効果(Delay).anm2",
+          "to": "{scriptsDir}/ラプソーン"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ラプソーン/基本効果(Delay).anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-10-15",
+        "file": [
+          {
+            "path": "{scriptsDir}/ラプソーン/基本効果(Delay).anm2",
+            "XXH3_128": "4d7485c60eee0b66c91a08bc99b68440"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne.radial_shift",
+    "name": "ラディアルシフト",
+    "type": "スクリプト",
+    "summary": "個別オブジェクトを指定した数ごとにN方向に移動します。",
+    "description": "./md/Rhapthorne.radial_shift.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1975320165941129277",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1bLlnpEFr4BVF_NzKOhvebx_Uis2UD8pH"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/ラディアルシフト.anm2",
+          "to": "{scriptsDir}/ラプソーン"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ラプソーン/ラディアルシフト.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-10-07",
+        "file": [
+          {
+            "path": "{scriptsDir}/ラプソーン/ラディアルシフト.anm2",
+            "XXH3_128": "174fbb79792862cc22858f6e3ffc56e6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rhapthorne.tanshoku_mosaic",
+    "name": "単色不透明化+モザイク",
+    "type": "スクリプト",
+    "summary": "指定した透明度のしきい値を超えた部分を指定色で塗りつぶします。",
+    "description": "./md/Rhapthorne.tanshoku_mosaic.md",
+    "author": "ラプソーン",
+    "repoURL": "https://x.com/Rhapthorne_0/status/1971988664227172734",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "不明",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": ""
+      }
+    ],
+    "tags": [],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "GoogleDrive": {
+          "id": "1csIQOG5px9maGEikEXi1qb95st4GlvXi"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/単色不透明化+モザイク.anm2",
+          "to": "{scriptsDir}/ラプソーン"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ラプソーン/単色不透明化+モザイク.anm2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2025-09-28",
+        "file": [
+          {
+            "path": "{scriptsDir}/ラプソーン/単色不透明化+モザイク.anm2",
+            "XXH3_128": "7e386213002827ba42095edc4c31049c"
+          }
+        ]
+      }
+    ]
   }
 ]
