@@ -24251,7 +24251,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_ui_dressing/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_ui_dressing",
-    "latest-version": "r11",
+    "latest-version": "r12",
     "popularity": 4108,
     "trend": 349,
     "licenses": [
@@ -24433,6 +24433,16 @@
           {
             "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
             "XXH3_128": "d5045ab1fcbcf54e50cdcc852a2e1a17"
+          }
+        ]
+      },
+      {
+        "version": "r12",
+        "release_date": "2026-11-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_ui_dressing.aui2",
+            "XXH3_128": "0b37c47f1fd2939262c827b70d3e9065"
           }
         ]
       }
@@ -62762,7 +62772,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_timeline_object_arranger/refs/heads/master/README.md",
     "author": "蛇色",
     "repoURL": "https://github.com/hebiiro/al2_timeline_object_arranger",
-    "latest-version": "r2",
+    "latest-version": "r3",
     "popularity": 97,
     "trend": 24,
     "licenses": [
@@ -62834,6 +62844,16 @@
           {
             "path": "{pluginsDir}/al2/al2_timeline_object_arranger.aux2",
             "XXH3_128": "94fb6daaaafec6d26a9d91edd5274c44"
+          }
+        ]
+      },
+      {
+        "version": "r3",
+        "release_date": "2026-11-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_timeline_object_arranger.aux2",
+            "XXH3_128": "7f2cd6a3861bfd51e8f0c48490bd67dc"
           }
         ]
       }
