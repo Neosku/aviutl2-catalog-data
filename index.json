@@ -65049,7 +65049,7 @@
     "description": "./md/Takonosunomono.Office-Style-RichText.md",
     "author": "蛸之酢物",
     "repoURL": "https://takonosunomono0101.wixsite.com/utau/office-style-richtext",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.1.0",
     "popularity": 15,
     "trend": 14,
     "licenses": [
@@ -65106,6 +65106,16 @@
           {
             "path": "{pluginsDir}/Office-Style RichText/Office-Style RichText.aux2",
             "XXH3_128": "9c12ae686e4ad35df5a3f39e35f63b97"
+          }
+        ]
+      },
+      {
+        "version": "v1.1.0",
+        "release_date": "2026-11-13",
+        "file": [
+          {
+            "path": "{pluginsDir}/Office-Style RichText/Office-Style RichText.aux2",
+            "XXH3_128": "b3167e54123c37b7709259c086727256"
           }
         ]
       }
