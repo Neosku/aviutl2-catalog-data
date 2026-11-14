@@ -43943,7 +43943,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/Aul2MIRAI/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/Aul2MIRAI/",
-    "latest-version": "v1.0.2",
+    "latest-version": "v1.1.0",
     "popularity": 176,
     "trend": 18,
     "licenses": [
@@ -44021,6 +44021,16 @@
           {
             "path": "{pluginsDir}/Aul2MIRAI/Aul2MIRAI.aux2",
             "XXH3_128": "65ff1ad13803a5af1cb7c0226d55b84a"
+          }
+        ]
+      },
+      {
+        "version": "v1.1.0",
+        "release_date": "2026-11-14",
+        "file": [
+          {
+            "path": "{pluginsDir}/Aul2MIRAI/Aul2MIRAI.aux2",
+            "XXH3_128": "c5a4bdb94a2152d123b530e48ec33e95"
           }
         ]
       }
