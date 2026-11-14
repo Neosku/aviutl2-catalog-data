@@ -3791,7 +3791,7 @@
     "description": "./md/Mr-Ojii.L-SMASH-Works.md",
     "author": "Mr-Ojii",
     "repoURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds",
-    "latest-version": "r1302-20261113-095111",
+    "latest-version": "r1302-20261114-073351",
     "popularity": 43548,
     "trend": 3537,
     "licenses": [
@@ -3815,7 +3815,7 @@
     "images": [],
     "installer": {
       "source": {
-        "direct": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2026-11-13-09-51-11/L-SMASH-Works_r1302_Mr-Ojii_Mr-Ojii.zip"
+        "direct": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-20261114-073351/L-SMASH-Works_r1302_Mr-Ojii_Mr-Ojii.zip"
       },
       "install": [
         {
@@ -4775,6 +4775,16 @@
           {
             "path": "{pluginsDir}/lwinput.aui2",
             "XXH3_128": "e722818152f8c2cbaa551ab5581a6a23"
+          }
+        ]
+      },
+      {
+        "version": "r1302-20261114-073351",
+        "release_date": "2026-11-14",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "802f6434f1b0a3e6c8767dae825b59e2"
           }
         ]
       }
