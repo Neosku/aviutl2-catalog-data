@@ -60565,7 +60565,8 @@
     "tags": [
       "エフェクト",
       "加工",
-      "ライティング"
+      "ライティング",
+      "水面"
     ],
     "dependencies": [],
     "images": [
@@ -65744,6 +65745,81 @@
           {
             "path": "{pluginsDir}/InlineScene_S/InlineScene_S.aux2",
             "XXH3_128": "9334ac333c2b0f352018130feaff9d4f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_AquaFX",
+    "name": "水面演出",
+    "type": "フィルタプラグイン",
+    "summary": "波・流れ・波紋のある水面や、液体の表面に浮く油膜を描くプラグイン",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_AquaFX/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_AquaFX/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "水面"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_AquaFX_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_AquaFX",
+          "pattern": "^SYNC_AquaFX\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_AquaFX",
+          "to": "{pluginsDir}/SYNC_AquaFX"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_AquaFX/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-15",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_AquaFX/SYNC_AquaFX.auf2",
+            "XXH3_128": "f452c856ef96343de19103bbb923b22a"
           }
         ]
       }
