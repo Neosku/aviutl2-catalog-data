@@ -1028,7 +1028,7 @@
     "type": "MOD",
     "summary": "AviUtl2を完全にダークモード化するプラグイン",
     "description": "./md/hebiiro.al2_jd.md",
-    "author": "蛇色",
+    "author": "蛇色(へびいろ)",
     "repoURL": "https://github.com/hebiiro/al2_jd/",
     "latest-version": "r31",
     "popularity": 1470,
@@ -1407,7 +1407,7 @@
     "type": "出力プラグイン",
     "summary": "WAVファイルを出力するプラグイン",
     "description": "./md/hebiiro.al2_wav_saver.md",
-    "author": "蛇色",
+    "author": "蛇色(へびいろ)",
     "repoURL": "https://github.com/hebiiro/al2_wav_saver/",
     "latest-version": "r3",
     "popularity": 8100,
@@ -6148,7 +6148,7 @@
     "type": "汎用プラグイン",
     "summary": "メモ帳代わりに使用できるウィンドウを追加するプラグイン",
     "description": "./md/hebiiro.al2_memo.md",
-    "author": "蛇色",
+    "author": "蛇色(へびいろ)",
     "repoURL": "https://github.com/hebiiro/al2_memo",
     "latest-version": "r1",
     "popularity": 1676,
@@ -13393,7 +13393,7 @@
     "type": "MOD",
     "summary": "一部のダイアログにプリセットを追加するプラグイン",
     "description": "https://raw.githubusercontent.com/hebiiro/al2_preset_adder/refs/heads/master/README.md",
-    "author": "蛇色",
+    "author": "蛇色(へびいろ)",
     "repoURL": "https://github.com/hebiiro/al2_preset_adder",
     "latest-version": "r8",
     "popularity": 1934,
@@ -13958,7 +13958,7 @@
     "type": "MOD",
     "summary": "フォントを選ぶ際にプレビューを表示するプラグイン",
     "description": "https://raw.githubusercontent.com/hebiiro/al2_visual_font/refs/heads/master/README.md",
-    "author": "蛇色",
+    "author": "蛇色(へびいろ)",
     "repoURL": "https://github.com/hebiiro/al2_visual_font",
     "latest-version": "r7",
     "popularity": 19446,
@@ -22901,7 +22901,7 @@
     "type": "MOD",
     "summary": "タイトルバーとメニューバーを一体化してスリム化するMOD",
     "description": "https://raw.githubusercontent.com/hebiiro/al2_slimming/refs/heads/master/README.md",
-    "author": "蛇色",
+    "author": "蛇色(へびいろ)",
     "repoURL": "https://github.com/hebiiro/al2_slimming",
     "latest-version": "r5",
     "popularity": 2573,
@@ -24495,7 +24495,7 @@
     "type": "MOD",
     "summary": "AviUtl2の見た目を統一するMOD",
     "description": "https://raw.githubusercontent.com/hebiiro/al2_ui_dressing/refs/heads/master/README.md",
-    "author": "蛇色",
+    "author": "蛇色(へびいろ)",
     "repoURL": "https://github.com/hebiiro/al2_ui_dressing",
     "latest-version": "r12",
     "popularity": 4156,
@@ -32551,7 +32551,7 @@
     "summary": "AviUtl(無印)用の「イージング簡単選択」の移植版",
     "description": "./md/Number-0621.SelectEasing.md",
     "author": "No.0",
-    "originalAuthor": "蛇色",
+    "originalAuthor": "蛇色(へびいろ)",
     "repoURL": "https://github.com/NumberZero-0621/AviUtl2-Plugin-SelectEasing",
     "latest-version": "1.1.0",
     "popularity": 5672,
@@ -41146,7 +41146,7 @@
     "type": "MOD",
     "summary": "AviUtl2のダイアログをリサイズ可能にするプラグイン",
     "description": "https://raw.githubusercontent.com/hebiiro/al2_dialog_resizer/refs/heads/master/README.md",
-    "author": "蛇色",
+    "author": "蛇色(へびいろ)",
     "repoURL": "https://github.com/hebiiro/al2_dialog_resizer",
     "latest-version": "r1",
     "popularity": 342,
@@ -63077,7 +63077,7 @@
     "type": "汎用プラグイン",
     "summary": "タイムラインオブジェクトを整列させるプラグイン",
     "description": "https://raw.githubusercontent.com/hebiiro/al2_timeline_object_arranger/refs/heads/master/README.md",
-    "author": "蛇色",
+    "author": "蛇色(へびいろ)",
     "repoURL": "https://github.com/hebiiro/al2_timeline_object_arranger",
     "latest-version": "r3",
     "popularity": 103,
@@ -65820,6 +65820,81 @@
           {
             "path": "{pluginsDir}/SYNC_AquaFX/SYNC_AquaFX.auf2",
             "XXH3_128": "f452c856ef96343de19103bbb923b22a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hebiiro.al2_timeline_object_lister",
+    "name": "リストアップ",
+    "type": "汎用プラグイン",
+    "summary": "タイムラインオブジェクトをリストアップするプラグイン",
+    "description": "https://raw.githubusercontent.com/hebiiro/al2_timeline_object_lister/refs/heads/master/README.md",
+    "author": "蛇色(へびいろ)",
+    "repoURL": "https://github.com/hebiiro/al2_timeline_object_lister",
+    "latest-version": "r2",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "BSL-1.0",
+        "isCustom": true,
+        "copyrights": [],
+        "licenseBody": "Copyright (c) 2026 hebiiro\n\nBoost Software License - Version 1.0 - August 17th, 2003\n\nPermission is hereby granted, free of charge, to any person or organization\nobtaining a copy of the software and accompanying documentation covered by\nthis license (the \"Software\") to use, reproduce, display, distribute,\nexecute, and transmit the Software, and to prepare derivative works of the\nSoftware, and to permit third-parties to whom the Software is furnished to\ndo so, all subject to the following:\n\nThe copyright notices in the Software and this entire statement, including\nthe above license grant, this restriction and the following disclaimer,\nmust be included in all copies of the Software, in whole or in part, and\nall derivative works of the Software, unless such copies or derivative\nworks are solely in the form of machine-executable object code generated by\na source language processor.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT\nSHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE\nFOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER\nDEALINGS IN THE SOFTWARE."
+      }
+    ],
+    "tags": [
+      "オブジェクト操作"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "infoImg": [
+          "./image/hebiiro.al2_timeline_object_lister_1.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "hebiiro",
+          "repo": "al2_timeline_object_lister",
+          "pattern": "^al2_timeline_object_lister.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/al2_timeline_object_lister.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/al2/al2_timeline_object_lister"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "r2",
+        "release_date": "2026-11-17",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_timeline_object_lister.aux2",
+            "XXH3_128": "84cd5a8fc93a23d93a4737dcfe5d7f31"
           }
         ]
       }
