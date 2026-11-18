@@ -66328,5 +66328,80 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_AutoWriting",
+    "name": "自動筆記",
+    "type": "フィルタプラグイン",
+    "summary": "入力した文章をペンや筆で書くようにアニメーション表示。学習保存に対応",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_AutoWriting/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_AutoWriting/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "文字",
+      "アニメーション"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_AutoWriting_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_AutoWriting",
+          "pattern": "^SYNC_AutoWriting\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_AutoWriting",
+          "to": "{pluginsDir}/SYNC_AutoWriting"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_AutoWriting/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-18",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_AutoWriting/SYNC_AutoWriting.auf2",
+            "XXH3_128": "f079ab96718cccce4bcbab49483465de"
+          }
+        ]
+      }
+    ]
   }
 ]
