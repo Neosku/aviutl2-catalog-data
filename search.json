@@ -1,7 +1,7 @@
 [
   {
     "id": "Kenkun.AviUtlExEdit2",
-    "latest-version": "v2.1.18a",
+    "latest-version": "v2.1.18b",
     "checkType": {
       "type": "URL",
       "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
@@ -3084,7 +3084,7 @@
   },
   {
     "id": "Fuji.voice_drop",
-    "latest-version": "v0.2.3",
+    "latest-version": "v0.2.4",
     "checkType": {
       "type": "GitHub",
       "repo": "Fuji07-2525/voice-drop",
@@ -6389,7 +6389,7 @@
   },
   {
     "id": "VRAMWIZ.SYNC_RhythmShooter",
-    "latest-version": "v1.1.0",
+    "latest-version": "v1.1.1",
     "checkType": {
       "type": "GitHub",
       "repo": "vramwiz/SYNC_RhythmShooter",
