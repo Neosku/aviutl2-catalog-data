@@ -66253,5 +66253,80 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_WeatherFX",
+    "name": "天気演出",
+    "type": "フィルタプラグイン",
+    "summary": "空・雲・太陽・月・虹・雨・雪・雷・霧・星、時刻と風で変化を演出",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_WeatherFX/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_WeatherFX/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "天気",
+      "空"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_WeatherFX_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_WeatherFX",
+          "pattern": "^SYNC_WeatherFX\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_WeatherFX",
+          "to": "{pluginsDir}/SYNC_WeatherFX"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_WeatherFX/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-18",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_WeatherFX/SYNC_WeatherFX.auf2",
+            "XXH3_128": "4ab1b3c1d16ab23a63ba5822475d3fae"
+          }
+        ]
+      }
+    ]
   }
 ]
