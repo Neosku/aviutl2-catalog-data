@@ -66051,5 +66051,141 @@
         ]
       }
     ]
+  },
+  {
+    "id": "p_cyclase.SRTrack",
+    "name": "SRTrack",
+    "type": "汎用プラグイン",
+    "summary": "SRTファイルの出力支援",
+    "description": "./md/p_cyclase.SRTrack.md",
+    "author": "たこつぼラボ",
+    "repoURL": "https://github.com/p-cyclase/SRTrack",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "p_cyclase"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "字幕",
+      "SRT"
+    ],
+    "dependencies": [],
+    "images": [],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "p-cyclase",
+          "repo": "SRTrack",
+          "pattern": "^SRTrack-v\\d+\\.\\d+\\.\\d+\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/SRTrack/SRTrack.aux2",
+          "to": "{pluginsDir}/SRTrack"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/SRTrack/SRTrack.lua",
+          "to": "{pluginsDir}/SRTrack"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/SRTrack/SRTrack.mod2",
+          "to": "{scriptsDir}/SRTrack"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/SRTrack/SRTrackObject.obj2",
+          "to": "{scriptsDir}/SRTrack"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/SRTrack/SRTrackObject(fix).obj2",
+          "to": "{scriptsDir}/SRTrack"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/SRTrack/SRTrackObject(txt).obj2",
+          "to": "{scriptsDir}/SRTrack"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SRTrack/SRTrack.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SRTrack/SRTrack.lua"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/SRTrack/SRTrack.mod2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/SRTrack/SRTrackObject.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/SRTrack/SRTrackObject(fix).obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/SRTrack/SRTrackObject(txt).obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-11-18",
+        "file": [
+          {
+            "path": "{pluginsDir}/SRTrack/SRTrack.aux2",
+            "XXH3_128": "d2cca1520be3a1a5c52cafc9effb0a39"
+          },
+          {
+            "path": "{pluginsDir}/SRTrack/SRTrack.lua",
+            "XXH3_128": "8e98847d206df20e77d0cd1c76002d38"
+          },
+          {
+            "path": "{scriptsDir}/SRTrack/SRTrack.mod2",
+            "XXH3_128": "26e42bc904444e668c435039ed7a3e57"
+          },
+          {
+            "path": "{scriptsDir}/SRTrack/SRTrackObject.obj2",
+            "XXH3_128": "238d3be11c7fa777e6779bdbd9728bae"
+          },
+          {
+            "path": "{scriptsDir}/SRTrack/SRTrackObject(fix).obj2",
+            "XXH3_128": "f5646fe0da5b7026a544537641b08d4e"
+          },
+          {
+            "path": "{scriptsDir}/SRTrack/SRTrackObject(txt).obj2",
+            "XXH3_128": "6993f8b199a0fc563b2bba255f27ba36"
+          }
+        ]
+      }
+    ]
   }
 ]
