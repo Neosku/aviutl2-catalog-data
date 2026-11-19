@@ -3,7 +3,7 @@
 
 ## スクリプトについて
 
-作者 : 深夜ぺる (https://x.com/sinyaperu)  
+作者 : 深夜ぺる (https://x.com/mnpale)  
 動作確認 : AviUtl ExEdit2 2.1.15
 
 ## 利用規約
