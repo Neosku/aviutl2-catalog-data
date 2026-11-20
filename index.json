@@ -66552,5 +66552,81 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_DrawMarker",
+    "name": "手描きマーカー",
+    "type": "フィルタプラグイン",
+    "summary": "映像に連続線や自由線を描きアニメーション表示。液晶タブレットにも対応",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_DrawMarker/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_DrawMarker/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "手描き",
+      "マーカー",
+      "アニメーション"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_DrawMarker_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_DrawMarker",
+          "pattern": "^SYNC_DrawMarker\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_DrawMarker",
+          "to": "{pluginsDir}/SYNC_DrawMarker"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_DrawMarker/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-20",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_DrawMarker/SYNC_DrawMarker.aux2",
+            "XXH3_128": "b9820aeb63e4cd7e76e418fa4446f640"
+          }
+        ]
+      }
+    ]
   }
 ]
