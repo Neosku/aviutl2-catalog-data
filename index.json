@@ -64960,7 +64960,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_RhythmShooter/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/SYNC_RhythmShooter/",
-    "latest-version": "v1.1.1",
+    "latest-version": "v1.2.0",
     "popularity": 33,
     "trend": 42,
     "licenses": [
@@ -65078,6 +65078,16 @@
           {
             "path": "{pluginsDir}/SYNC_RhythmShooter/SYNC_RhythmShooter.auf2",
             "XXH3_128": "26bfe3f5b9ed046bb802fa399044acd5"
+          }
+        ]
+      },
+      {
+        "version": "v1.2.0",
+        "release_date": "2026-11-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_RhythmShooter/SYNC_RhythmShooter.auf2",
+            "XXH3_128": "33423f52633d052c40deadbeda86b0ea"
           }
         ]
       }
