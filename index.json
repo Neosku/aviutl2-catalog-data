@@ -7,7 +7,7 @@
     "description": "./md/Kenkun.AviUtlExEdit2.md",
     "author": "ＫＥＮくん",
     "repoURL": "https://spring-fragrance.mints.ne.jp/aviutl/",
-    "latest-version": "v2.1.18b",
+    "latest-version": "v2.1.19",
     "popularity": 43779,
     "trend": 5312,
     "licenses": [
@@ -30,7 +30,7 @@
     ],
     "installer": {
       "source": {
-        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2_v2.1.18b_setup.exe"
+        "direct": "https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2_v2.1.19_setup.exe"
       },
       "install": [
         {
@@ -1017,6 +1017,16 @@
           {
             "path": "{appDir}/aviutl2.exe",
             "XXH3_128": "993aa4f1648db660abdc2354ee26cd48"
+          }
+        ]
+      },
+      {
+        "version": "v2.1.19",
+        "release_date": "2026-11-21",
+        "file": [
+          {
+            "path": "{appDir}/aviutl2.exe",
+            "XXH3_128": "884870b93e0366150fedfbb02eeb27f0"
           }
         ]
       }
@@ -3821,7 +3831,7 @@
     "description": "./md/Mr-Ojii.L-SMASH-Works.md",
     "author": "Mr-Ojii",
     "repoURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds",
-    "latest-version": "r1302-20261114-073351",
+    "latest-version": "r1302-20261121-030006",
     "popularity": 44392,
     "trend": 5013,
     "licenses": [
@@ -3845,7 +3855,7 @@
     "images": [],
     "installer": {
       "source": {
-        "direct": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-20261114-073351/L-SMASH-Works_r1302_Mr-Ojii_Mr-Ojii.zip"
+        "direct": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-20261121-030006/L-SMASH-Works_r1302_Mr-Ojii_Mr-Ojii.zip"
       },
       "install": [
         {
@@ -4815,6 +4825,16 @@
           {
             "path": "{pluginsDir}/lwinput.aui2",
             "XXH3_128": "802f6434f1b0a3e6c8767dae825b59e2"
+          }
+        ]
+      },
+      {
+        "version": "r1302-20261121-030006",
+        "release_date": "2026-11-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/lwinput.aui2",
+            "XXH3_128": "98b26138fd3dd64ecbdebc178f24aac6"
           }
         ]
       }
@@ -64950,7 +64970,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_RhythmShooter/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/SYNC_RhythmShooter/",
-    "latest-version": "v1.1.1",
+    "latest-version": "v1.2.0",
     "popularity": 33,
     "trend": 42,
     "licenses": [
@@ -65068,6 +65088,16 @@
           {
             "path": "{pluginsDir}/SYNC_RhythmShooter/SYNC_RhythmShooter.auf2",
             "XXH3_128": "26bfe3f5b9ed046bb802fa399044acd5"
+          }
+        ]
+      },
+      {
+        "version": "v1.2.0",
+        "release_date": "2026-11-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_RhythmShooter/SYNC_RhythmShooter.auf2",
+            "XXH3_128": "33423f52633d052c40deadbeda86b0ea"
           }
         ]
       }
