@@ -66837,5 +66837,165 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Suzuke.3DGS_Su",
+    "name": "3DGS_Su",
+    "type": "スクリプト",
+    "summary": "3DガウシアンスプラッティングのPLY/SOGファイルを表示",
+    "description": "https://raw.githubusercontent.com/Suzukeh/3DGS_Su/main/README.md",
+    "author": "Suzuke",
+    "repoURL": "https://github.com/Suzukeh/3DGS_Su",
+    "latest-version": "v0.5.2",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "Suzuke"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "3DGS",
+      "3DCG"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/Suzuke.3DGS_Su_thumbnail.webp",
+        "infoImg": [
+          "./image/Suzuke.3DGS_Su_1.webp"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Suzukeh",
+          "repo": "3DGS_Su",
+          "pattern": "^3DGS_Su-v.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/3DGS_Su.obj2",
+          "to": "{scriptsDir}/3DGS_Su"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/3DGS_Su_atlas.png",
+          "to": "{scriptsDir}/3DGS_Su"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/README.md",
+          "to": "{scriptsDir}/3DGS_Su"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/3DGSConverter_Su/three_dgs_converter_su.aux2",
+          "to": "{pluginsDir}/3DGSConverter_Su"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/3DGSConverter_Su/su3ds.exe",
+          "to": "{pluginsDir}/3DGSConverter_Su"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/3DGS_Su/3DGS_Su.obj2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/3DGS_Su/3DGS_Su_atlas.png"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/3DGS_Su/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/3DGSConverter_Su/three_dgs_converter_su.aux2"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/3DGSConverter_Su/su3ds.exe"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.4.0",
+        "release_date": "2026-11-04",
+        "file": [
+          {
+            "path": "{pluginsDir}/3DGSConverter_Su/three_dgs_converter_su.aux2",
+            "XXH3_128": "31770b04711968812a8bb37ee16bc6be"
+          },
+          {
+            "path": "{pluginsDir}/3DGSConverter_Su/su3ds.exe",
+            "XXH3_128": "84b1b5dffe40ec743352638f5483abc9"
+          }
+        ]
+      },
+      {
+        "version": "v0.5.0",
+        "release_date": "2026-11-07",
+        "file": [
+          {
+            "path": "{pluginsDir}/3DGSConverter_Su/three_dgs_converter_su.aux2",
+            "XXH3_128": "26b347e089d843d0df86df475941d121"
+          },
+          {
+            "path": "{pluginsDir}/3DGSConverter_Su/su3ds.exe",
+            "XXH3_128": "40e753aee82f2d0554f7c1b587f406d0"
+          }
+        ]
+      },
+      {
+        "version": "v0.5.1",
+        "release_date": "2026-11-08",
+        "file": [
+          {
+            "path": "{pluginsDir}/3DGSConverter_Su/three_dgs_converter_su.aux2",
+            "XXH3_128": "871855d17aec096b407a7dbd62f4b6aa"
+          },
+          {
+            "path": "{pluginsDir}/3DGSConverter_Su/su3ds.exe",
+            "XXH3_128": "5c0f3d329fcd1083f2eebe5ec8429d54"
+          }
+        ]
+      },
+      {
+        "version": "v0.5.2",
+        "release_date": "2026-11-14",
+        "file": [
+          {
+            "path": "{pluginsDir}/3DGSConverter_Su/three_dgs_converter_su.aux2",
+            "XXH3_128": "71b82781364b392bdc8ec18cba1775bb"
+          },
+          {
+            "path": "{pluginsDir}/3DGSConverter_Su/su3ds.exe",
+            "XXH3_128": "43562f866be38a579388e5a465846715"
+          }
+        ]
+      }
+    ]
   }
 ]
