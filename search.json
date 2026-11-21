@@ -6525,5 +6525,185 @@
         }
       ]
     }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_AquaFX",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_AquaFX",
+      "regex": "^SYNC_AquaFX\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_AquaFX/SYNC_AquaFX.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_AquaFX/SYNC_AquaFX.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebiiro.al2_timeline_object_lister",
+    "latest-version": "r2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_timeline_object_lister",
+      "regex": "^al2_timeline_object_lister.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/al2/al2_timeline_object_lister.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_timeline_object_lister.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebiiro.al2_ripple_cutter",
+    "latest-version": "r2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_ripple_cutter",
+      "regex": "^al2_ripple_cutter.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/al2/al2_ripple_cutter.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_ripple_cutter.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebiiro.al2_auto_ducker",
+    "latest-version": "r1",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "hebiiro/al2_auto_ducker",
+      "regex": "^al2_auto_ducker.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/al2/al2_auto_ducker.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/al2/al2_auto_ducker.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_ParticleFX",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_ParticleFX",
+      "regex": "^SYNC_ParticleFX\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_ParticleFX/SYNC_ParticleFX.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_ParticleFX/SYNC_ParticleFX.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "p_cyclase.SRTrack",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "p-cyclase/SRTrack",
+      "regex": "^SRTrack-v\\d+\\.\\d+\\.\\d+\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/SRTrack/SRTrack.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SRTrack/SRTrack.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_WeatherFX",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_WeatherFX",
+      "regex": "^SYNC_WeatherFX\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_WeatherFX/SYNC_WeatherFX.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_WeatherFX/SYNC_WeatherFX.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_AutoWriting",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_AutoWriting",
+      "regex": "^SYNC_AutoWriting\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_AutoWriting/SYNC_AutoWriting.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_AutoWriting/SYNC_AutoWriting.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Typewriter",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_Typewriter",
+      "regex": "^SYNC_Typewriter\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_Typewriter/SYNC_Typewriter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_Typewriter/SYNC_Typewriter.auf2"
+          ]
+        }
+      ]
+    }
   }
 ]
