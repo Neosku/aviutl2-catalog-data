@@ -66688,5 +66688,79 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Fuji.text_endroll",
+    "name": "テキストエンドロール",
+    "type": "汎用プラグイン",
+    "summary": "テキストエンドロール演出が簡単に実現できるプラグイン",
+    "description": "https://raw.githubusercontent.com/Fuji07-2525/text-endroll/main/README.md",
+    "author": "Fuji",
+    "repoURL": "https://github.com/Fuji07-2525/text-endroll",
+    "latest-version": "v0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "Fuji"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "sm47071097",
+    "tags": [
+      "移動",
+      "加工",
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/Fuji.text_endroll_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "Fuji07-2525",
+          "repo": "text-endroll",
+          "pattern": "text_endroll.aux2"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/text_endroll.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/text_endroll.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2026-11-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/text_endroll.aux2",
+            "XXH3_128": "bca848b227ae9f3dfb8fa98c5f5fa6dc"
+          }
+        ]
+      }
+    ]
   }
 ]
