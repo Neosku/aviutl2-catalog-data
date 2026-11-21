@@ -65948,7 +65948,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_ripple_cutter/refs/heads/master/README.md",
     "author": "蛇色(へびいろ)",
     "repoURL": "https://github.com/hebiiro/al2_ripple_cutter",
-    "latest-version": "r2",
+    "latest-version": "r3",
     "popularity": 11,
     "trend": 14,
     "licenses": [
@@ -66022,6 +66022,16 @@
           {
             "path": "{pluginsDir}/al2/al2_ripple_cutter.aux2",
             "XXH3_128": "8c5626053bc24055705fecfce28eb651"
+          }
+        ]
+      },
+      {
+        "version": "r3",
+        "release_date": "2026-11-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_ripple_cutter.aux2",
+            "XXH3_128": "776232f329bda8668d2825f2c575ac24"
           }
         ]
       }
@@ -66187,7 +66197,7 @@
     "description": "./md/p_cyclase.SRTrack.md",
     "author": "たこつぼラボ",
     "repoURL": "https://github.com/p-cyclase/SRTrack",
-    "latest-version": "v0.1.0",
+    "latest-version": "v0.1.1",
     "popularity": 5,
     "trend": 5,
     "licenses": [
@@ -66290,6 +66300,16 @@
           {
             "path": "{pluginsDir}/SRTrack/SRTrack.aux2",
             "XXH3_128": "d2cca1520be3a1a5c52cafc9effb0a39"
+          }
+        ]
+      },
+      {
+        "version": "v0.1.1",
+        "release_date": "2026-11-21",
+        "file": [
+          {
+            "path": "{pluginsDir}/SRTrack/SRTrack.aux2",
+            "XXH3_128": "56e84567873f0139a818a67dec154b1b"
           }
         ]
       }
