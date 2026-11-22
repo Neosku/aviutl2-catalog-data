@@ -67193,5 +67193,82 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_CarView",
+    "name": "車窓演出",
+    "type": "フィルタプラグイン",
+    "summary": "走行する車と車窓を描画するプラグイン。風景、構図、時間帯や天気に対応",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_CarView/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_CarView/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "車窓",
+      "車内",
+      "走行背景",
+      "映像演出"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_CarView_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_CarView",
+          "pattern": "^SYNC_CarView\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_CarView",
+          "to": "{pluginsDir}/SYNC_CarView"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_CarView/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_CarView/SYNC_CarView.auf2",
+            "XXH3_128": "5daf2968dc84e5f1e0b064e16cf69996"
+          }
+        ]
+      }
+    ]
   }
 ]
