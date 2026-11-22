@@ -65948,7 +65948,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_ripple_cutter/refs/heads/master/README.md",
     "author": "蛇色(へびいろ)",
     "repoURL": "https://github.com/hebiiro/al2_ripple_cutter",
-    "latest-version": "r3",
+    "latest-version": "r4",
     "popularity": 13,
     "trend": 16,
     "licenses": [
@@ -66032,6 +66032,16 @@
           {
             "path": "{pluginsDir}/al2/al2_ripple_cutter.aux2",
             "XXH3_128": "776232f329bda8668d2825f2c575ac24"
+          }
+        ]
+      },
+      {
+        "version": "r4",
+        "release_date": "2026-11-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_ripple_cutter.aux2",
+            "XXH3_128": "1ae612989ef95c982c57f6a83c54f976"
           }
         ]
       }
