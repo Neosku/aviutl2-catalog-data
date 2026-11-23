@@ -66347,7 +66347,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_ParticleFX/refs/heads/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/SYNC_ParticleFX/",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 55,
     "trend": 55,
     "licenses": [
@@ -66410,6 +66410,16 @@
           {
             "path": "{pluginsDir}/SYNC_ParticleFX/SYNC_ParticleFX.auf2",
             "XXH3_128": "8db6d345778000c328e48b7e305547e4"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-11-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_ParticleFX/SYNC_ParticleFX.auf2",
+            "XXH3_128": "d84d17b7a2e9fea89f82c560a27ad648"
           }
         ]
       }
