@@ -66144,7 +66144,7 @@
     "description": "https://raw.githubusercontent.com/hebiiro/al2_ripple_cutter/refs/heads/master/README.md",
     "author": "蛇色(へびいろ)",
     "repoURL": "https://github.com/hebiiro/al2_ripple_cutter",
-    "latest-version": "r5",
+    "latest-version": "r6",
     "popularity": 20,
     "trend": 23,
     "licenses": [
@@ -66250,6 +66250,16 @@
             "XXH3_128": "2733b8bcb32715dbb1c1e1c16e7d6788"
           }
         ]
+      },
+      {
+        "version": "r6",
+        "release_date": "2026-11-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/al2/al2_ripple_cutter.aux2",
+            "XXH3_128": "20ef5c71f2ed46955ac35cae8bd6433a"
+          }
+        ]
       }
     ]
   },
@@ -66337,7 +66347,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_ParticleFX/refs/heads/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/SYNC_ParticleFX/",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 55,
     "trend": 55,
     "licenses": [
@@ -66400,6 +66410,16 @@
           {
             "path": "{pluginsDir}/SYNC_ParticleFX/SYNC_ParticleFX.auf2",
             "XXH3_128": "8db6d345778000c328e48b7e305547e4"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-11-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_ParticleFX/SYNC_ParticleFX.auf2",
+            "XXH3_128": "d84d17b7a2e9fea89f82c560a27ad648"
           }
         ]
       }
@@ -66539,7 +66559,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_WeatherFX/refs/heads/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/SYNC_WeatherFX/",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 46,
     "trend": 45,
     "licenses": [
@@ -66601,6 +66621,16 @@
           {
             "path": "{pluginsDir}/SYNC_WeatherFX/SYNC_WeatherFX.auf2",
             "XXH3_128": "4ab1b3c1d16ab23a63ba5822475d3fae"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-11-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_WeatherFX/SYNC_WeatherFX.auf2",
+            "XXH3_128": "6f33ddf8313e55db886197cf7ae667d2"
           }
         ]
       }
@@ -67209,6 +67239,80 @@
           {
             "path": "{pluginsDir}/3DGSConverter_Su/su3ds.exe",
             "XXH3_128": "43562f866be38a579388e5a465846715"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_CarView",
+    "name": "車窓演出",
+    "type": "フィルタプラグイン",
+    "summary": "走行する車と車窓を描画するプラグイン。風景、構図、時間帯や天気に対応",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_CarView/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_CarView/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "車窓"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_CarView_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_CarView",
+          "pattern": "^SYNC_CarView\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_CarView",
+          "to": "{pluginsDir}/SYNC_CarView"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_CarView/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-22",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_CarView/SYNC_CarView.auf2",
+            "XXH3_128": "5daf2968dc84e5f1e0b064e16cf69996"
           }
         ]
       }
