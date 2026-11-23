@@ -67213,5 +67213,92 @@
         ]
       }
     ]
+  },
+  {
+    "id": "tebasaki.AviUtl2PuppetDeformation",
+    "name": "パペット変形",
+    "type": "汎用プラグイン",
+    "summary": "ピンとボーンで画像を人形のように動かすエフェクト",
+    "description": "./md/tebasaki.AviUtl2PuppetDeformation.md",
+    "author": "手羽先工房",
+    "repoURL": "https://github.com/tebasaki-bsg/AviUtl2PuppetDeformation",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "tebasaki"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "nc516642",
+    "tags": [
+      "必須",
+      "変形",
+      "画像処理"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/tebasaki.AviUtl2PuppetDeformation_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "tebasaki-bsg",
+          "repo": "AviUtl2PuppetDeformation",
+          "pattern": "^AviUtl2-PuppetDeformation-.*\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/PuppetDeformation_AviUtl2/PuppetDeformation.aux2",
+          "to": "{pluginsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/PuppetDeformation.aux2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.4.0",
+        "release_date": "2026-11-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/PuppetDeformation.aux2",
+            "XXH3_128": "017707917a2c103f5a9e1ece45473364"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-23",
+        "file": [
+          {
+            "path": "{pluginsDir}/PuppetDeformation.aux2",
+            "XXH3_128": "b89cc4056869ad411824184db91ee85e"
+          }
+        ]
+      }
+    ]
   }
 ]
