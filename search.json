@@ -6705,5 +6705,126 @@
         }
       ]
     }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Morphing",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_Morphing",
+      "regex": "^SYNC_Morphing\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_Morphing/SYNC_Morphing.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_Morphing/SYNC_Morphing.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Fuji.text_endroll",
+    "latest-version": "v0.1.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Fuji07-2525/text-endroll",
+      "regex": "text_endroll.aux2",
+      "hash-calc": [
+        {
+          "paths": [
+            "text_endroll.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/text_endroll.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_DrawMarker",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_DrawMarker",
+      "regex": "^SYNC_DrawMarker\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_DrawMarker/SYNC_DrawMarker.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_DrawMarker/SYNC_DrawMarker.aux2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Suzuke.3DGS_Su",
+    "latest-version": "v0.5.2",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "Suzukeh/3DGS_Su",
+      "regex": "^3DGS_Su-v.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "Plugin/3DGSConverter_Su/three_dgs_converter_su.aux2",
+            "Plugin/3DGSConverter_Su/su3ds.exe"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/3DGSConverter_Su/three_dgs_converter_su.aux2",
+            "{pluginsDir}/3DGSConverter_Su/su3ds.exe"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_CarView",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_CarView",
+      "regex": "^SYNC_CarView\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_CarView/SYNC_CarView.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_CarView/SYNC_CarView.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "tebasaki.AviUtl2PuppetDeformation",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "tebasaki-bsg/AviUtl2PuppetDeformation",
+      "regex": "^AviUtl2-PuppetDeformation-.*\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "PuppetDeformation_AviUtl2/PuppetDeformation.aux2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/PuppetDeformation.aux2"
+          ]
+        }
+      ]
+    }
   }
 ]
