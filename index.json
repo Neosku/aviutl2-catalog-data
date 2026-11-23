@@ -8834,7 +8834,7 @@
     "description": "https://raw.githubusercontent.com/Garech-mas/jp_akey.aul2/refs/heads/main/README.md",
     "author": "Garech",
     "repoURL": "https://github.com/Garech-mas/jp_akey.aul2",
-    "latest-version": "v1.5",
+    "latest-version": "v1.19",
     "popularity": 607,
     "trend": 14,
     "licenses": [
@@ -8955,6 +8955,16 @@
           {
             "path": "{dataDir}/Language/日本語(アクセスキー付き).aul2",
             "XXH3_128": "1b44dc2586c9c0de1b15d6728d4999c7"
+          }
+        ]
+      },
+      {
+        "version": "v1.19",
+        "release_date": "2026-11-23",
+        "file": [
+          {
+            "path": "{dataDir}/Language/日本語(アクセスキー付き).aul2",
+            "XXH3_128": "0faf010079877272bfd56fad4e33370c"
           }
         ]
       }
