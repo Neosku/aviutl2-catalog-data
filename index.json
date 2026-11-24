@@ -42538,27 +42538,32 @@
         {
           "action": "copy",
           "from": "{tmp}/Script/@DTMer Starter Kit.anm2",
-          "to": "{scriptsDir}/DTMerStarterKit"
+          "to": "{scriptsDir}/DTMerStarterKit/"
         },
         {
           "action": "copy",
           "from": "{tmp}/Script/@DTMer Starter Kit.obj2",
-          "to": "{scriptsDir}/DTMerStarterKit"
+          "to": "{scriptsDir}/DTMerStarterKit/"
         },
         {
           "action": "copy",
           "from": "{tmp}/Script/@DTMer Starter Kit.tra2",
-          "to": "{scriptsDir}/DTMerStarterKit"
+          "to": "{scriptsDir}/DTMerStarterKit/"
         },
         {
           "action": "copy",
           "from": "{tmp}/Script/chord_config.lua",
-          "to": "{scriptsDir}/DTMerStarterKit"
+          "to": "{scriptsDir}/DTMerStarterKit/"
         },
         {
           "action": "copy",
           "from": "{tmp}/Script/MIDI_for_AviUtl.lua",
-          "to": "{scriptsDir}/DTMerStarterKit"
+          "to": "{scriptsDir}/DTMerStarterKit/"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/MIDI_module.mod2",
+          "to": "{scriptsDir}/DTMerStarterKit/"
         }
       ],
       "uninstall": [
@@ -42584,7 +42589,7 @@
         },
         {
           "action": "delete",
-          "path": "{scriptsDir}/DTMerStarterKit"
+          "path": "{scriptsDir}/DTMerStarterKit/MIDI_module.mod2"
         }
       ]
     },
@@ -42664,6 +42669,10 @@
           {
             "path": "{scriptsDir}/DTMerStarterKit/MIDI_for_AviUtl.lua",
             "XXH3_128": "bad06dbb890e09db57fac5e29f2c3ba3"
+          },
+          {
+            "path": "{scriptsDir}/DTMerStarterKit/MIDI_module.mod2",
+            "XXH3_128": "121b3f5ce1a02b342c81cf04a53b4c4e"
           }
         ]
       }
