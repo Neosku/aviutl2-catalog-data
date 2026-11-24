@@ -34324,11 +34324,11 @@
     "name": "OpticsCompensation_s_for_AviUtl2",
     "type": "スクリプト",
     "summary": "レンズの収差（樽型/糸巻き型）をシミュレートするスクリプト。",
-    "description": "https://raw.githubusercontent.com/SagyouDarui900/OpticsCompensation_s_for_AviUtl2/refs/heads/main/README.md",
+    "description": "./md/Sagyou.OpticsCompensation_s_for_AviUtl2.md",
     "author": "サ行",
     "originalAuthor": "SEED264",
     "repoURL": "https://github.com/SagyouDarui900/OpticsCompensation_s_for_AviUtl2",
-    "latest-version": "v1.0",
+    "latest-version": "v1.1",
     "popularity": 523,
     "trend": 17,
     "licenses": [
@@ -34336,7 +34336,7 @@
         "type": "MIT",
         "isCustom": true,
         "copyrights": [],
-        "licenseBody": "The MIT License\n\nCopyright (c) 2020 SEED264\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+        "licenseBody": "MIT License\n\nCopyright (c) 2020 SEED264\nCopyright (c) 2026 🈂️行 \n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
       }
     ],
     "tags": [
@@ -34344,14 +34344,25 @@
       "レンズ補正"
     ],
     "dependencies": [],
-    "images": [],
+    "images": [
+      {
+        "thumbnail": "./image/Sagyou.OpticsCompensation_s_for_AviUtl2_thumbnail.webp"
+      }
+    ],
     "installer": {
       "source": {
-        "direct": "https://raw.githubusercontent.com/SagyouDarui900/OpticsCompensation_s_for_AviUtl2/refs/heads/main/OpticsCompensation_s.anm2"
+        "github": {
+          "owner": "SagyouDarui900",
+          "repo": "OpticsCompensation_s_for_AviUtl2",
+          "pattern": "^OpticsCompensation_s_for_AviUtl2.*\\.zip$"
+        }
       },
       "install": [
         {
           "action": "download"
+        },
+        {
+          "action": "extract"
         },
         {
           "action": "copy",
@@ -34374,6 +34385,16 @@
           {
             "path": "{scriptsDir}/OpticsCompensation_s.anm2",
             "XXH3_128": "ed8316048130c6802db9bedb69a1a1f5"
+          }
+        ]
+      },
+      {
+        "version": "v1.1",
+        "release_date": "2026-11-24",
+        "file": [
+          {
+            "path": "{scriptsDir}/OpticsCompensation_s.anm2",
+            "XXH3_128": "818c146612fb2b94838e13a60d4f6c03"
           }
         ]
       }
