@@ -3416,14 +3416,16 @@
             "Script/@DTMer Starter Kit.anm2",
             "Script/@DTMer Starter Kit.tra2",
             "Script/chord_config.lua",
-            "Script/MIDI_for_AviUtl.lua"
+            "Script/MIDI_for_AviUtl.lua",
+            "Script/MIDI_module.mod2"
           ],
           "recordPaths": [
             "{scriptsDir}/DTMerStarterKit/@DTMer Starter Kit.obj2",
             "{scriptsDir}/DTMerStarterKit/@DTMer Starter Kit.anm2",
             "{scriptsDir}/DTMerStarterKit/@DTMer Starter Kit.tra2",
             "{scriptsDir}/DTMerStarterKit/chord_config.lua",
-            "{scriptsDir}/DTMerStarterKit/MIDI_for_AviUtl.lua"
+            "{scriptsDir}/DTMerStarterKit/MIDI_for_AviUtl.lua",
+            "{scriptsDir}/DTMerStarterKit/MIDI_module.mod2"
           ]
         }
       ]
