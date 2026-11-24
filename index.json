@@ -67493,5 +67493,124 @@
         ]
       }
     ]
+  },
+  {
+    "id": "KuroNeko.UtauView",
+    "name": "UTAU画面表示 for AviUtl ExEdit2",
+    "type": "カスタムオブジェクト",
+    "summary": "UTAU または OpenUtau の編集画面 風の映像を表示する。",
+    "description": "./md/KuroNeko.UtauView.md",
+    "author": "黒猫大福",
+    "originalAuthor": "とりフラ",
+    "repoURL": "https://roku14live.booth.pm/items/8906486",
+    "latest-version": "0.1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "rokujyushi"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "音楽",
+      "音楽同期",
+      "UTAU"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/KuroNeko.UtauView_thumbnail.png",
+        "infoImg": [
+          "./image/KuroNeko.UtauView_1.png",
+          "./image/KuroNeko.UtauView_2.png",
+          "./image/KuroNeko.UtauView_3.png",
+          "./image/KuroNeko.UtauView_4.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/9756907?variation_id=14885262&_gl=1*1c95z2n*_ga*MTg4NTY4OTQ3MC4xNzQyODQzNzA0*_ga_RWT2QKJLDC*czE3OTU1MzQwMjMkbzckZzEkdDE3OTU1MzQzNDQkajYwJGwwJGgw"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/UtauView/LICENSE",
+          "to": "{pluginsDir}/UtauView"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/UtauView/phonemizer/UtauViewPhonemizer.exe",
+          "to": "{pluginsDir}/UtauView/phonemizer"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/UtauView/README.md",
+          "to": "{pluginsDir}/UtauView"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/UtauView/THIRD-PARTY-NOTICES.md",
+          "to": "{pluginsDir}/UtauView"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Plugin/UtauView/UtauView.auf2",
+          "to": "{pluginsDir}/UtauView"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/UtauView/LICENSE"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/UtauView/phonemizer/UtauViewPhonemizer.exe"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/UtauView/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/UtauView/THIRD-PARTY-NOTICES.md"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/UtauView/UtauView.auf2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "0.1.0",
+        "release_date": "2026-11-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/UtauView/UtauView.auf2",
+            "XXH3_128": "b502bc62bcb892c23be40a2fa413f7b2"
+          },
+          {
+            "path": "{pluginsDir}/UtauView/phonemizer/UtauViewPhonemizer.exe",
+            "XXH3_128": "f957da0e2c73e0fe2afb4f83b0efe4f8"
+          }
+        ]
+      }
+    ]
   }
 ]
