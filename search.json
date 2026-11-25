@@ -2678,19 +2678,19 @@
   },
   {
     "id": "beive60.aviutl2-audio-rec",
-    "latest-version": "v0.3.1",
+    "latest-version": "v0.4.0",
     "checkType": {
       "type": "GitHub",
       "repo": "beive60/aviutl2-audio-rec",
-      "regex": "^aviutl2-audio-rec-v(?<version>\\d\\.\\d\\.\\d)\\.zip$",
+      "regex": "^aviutl2-audio-rec-v(?<version>\\d\\.\\d\\.\\d)\\.au2pkg\\.zip$",
       "hash-calc": [
         {
           "extract": "zip",
           "paths": [
-            "aviutl2_audio_rec.aux2"
+            "Plugin/Beive60/aviutl2_audio_rec.aux2"
           ],
           "recordPaths": [
-            "{pluginsDir}/aviutl2_audio_rec.aux2"
+            "{pluginsDir}/Beive60/aviutl2_audio_rec.aux2"
           ]
         }
       ]
