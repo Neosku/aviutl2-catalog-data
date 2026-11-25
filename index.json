@@ -67517,5 +67517,172 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_TV",
+    "name": "テレビ演出",
+    "type": "フィルタプラグイン",
+    "summary": "ニュース・天気予報・スポーツ中継など11種類の架空のテレビ番組を生成",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_TV/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_TV/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      },
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Kenkun"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "映像演出",
+      "テレビ",
+      "チャンネル切替"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_TV_thumbnail.gif",
+        "infoImg": [
+          "https://raw.githubusercontent.com/vramwiz/SYNC_TV/main/Sample/TV_Programs.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_TV",
+          "pattern": "^SYNC_TV\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_TV",
+          "to": "{pluginsDir}/SYNC_TV"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_TV/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_TV/SYNC_TV.auf2",
+            "XXH3_128": "07d70e3ce972f191c608f9e38f0aa790"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Book",
+    "name": "本演出",
+    "type": "フィルタプラグイン",
+    "summary": "13種類の本を3Dで描画し、表紙の開閉や6種類のページめくりを演出。",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_Book/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_Book/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "本",
+      "ページめくり",
+      "3D",
+      "映像演出"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_Book_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_Book",
+          "pattern": "^SYNC_Book\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_Book",
+          "to": "{pluginsDir}/SYNC_Book"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_Book/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_Book/SYNC_Book.auf2",
+            "XXH3_128": "f7fe4ffff87128b83c052f13d225e506"
+          }
+        ]
+      }
+    ]
   }
 ]
