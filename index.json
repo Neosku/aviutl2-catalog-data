@@ -34971,7 +34971,7 @@
     "author": "Beive60",
     "originalAuthor": "Beive60",
     "repoURL": "https://github.com/beive60/aviutl2-audio-rec",
-    "latest-version": "v0.3.1",
+    "latest-version": "v0.4.0",
     "popularity": 214,
     "trend": 6,
     "licenses": [
@@ -35004,7 +35004,7 @@
         "github": {
           "owner": "beive60",
           "repo": "aviutl2-audio-rec",
-          "pattern": "^aviutl2-audio-rec-v(?<version>\\d\\.\\d\\.\\d)\\.zip$"
+          "pattern": "^aviutl2-audio-rec-v(?<version>\\d\\.\\d\\.\\d)\\.au2pkg\\.zip$"
         }
       },
       "install": [
@@ -35016,13 +35016,18 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/aviutl2_audio_rec.aux2",
-          "to": "{pluginsDir}"
+          "from": "{tmp}/Plugin/Beive60/aviutl2_audio_rec.aux2",
+          "to": "{pluginsDir}/Beive60/"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/README.md",
+          "to": "{pluginsDir}/Beive60/"
         },
         {
           "action": "copy",
           "from": "{tmp}/audio_rec_cli.exe",
-          "to": "{pluginsDir}"
+          "to": "{pluginsDir}/"
         }
       ],
       "uninstall": [
@@ -35033,6 +35038,14 @@
         {
           "action": "delete",
           "path": "{pluginsDir}/audio_rec_cli.exe"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Beive60/README.md"
+        },
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/Beive60/aviutl2_audio_rec.aux2"
         }
       ]
     },
@@ -35074,6 +35087,16 @@
           {
             "path": "{pluginsDir}/aviutl2_audio_rec.aux2",
             "XXH3_128": "bb382afe8656676d87766e022d1d18a8"
+          }
+        ]
+      },
+      {
+        "version": "v0.4.0",
+        "release_date": "2026-11-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/Beive60/aviutl2_audio_rec.aux2",
+            "XXH3_128": "0e7991cd257b63e7c79f0cfc68c0da81"
           }
         ]
       }
