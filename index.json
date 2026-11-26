@@ -66298,7 +66298,7 @@
     "description": "https://raw.githubusercontent.com/sigma-axis/aviutl2_InlineScene_S/refs/heads/master/README.md",
     "author": "σ軸",
     "repoURL": "https://github.com/sigma-axis/aviutl2_InlineScene_S",
-    "latest-version": "v1.10",
+    "latest-version": "v1.11",
     "popularity": 96,
     "trend": 95,
     "licenses": [
@@ -66394,6 +66394,16 @@
           {
             "path": "{pluginsDir}/InlineScene_S/InlineScene_S.aux2",
             "XXH3_128": "9334ac333c2b0f352018130feaff9d4f"
+          }
+        ]
+      },
+      {
+        "version": "v1.11",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{pluginsDir}/InlineScene_S/InlineScene_S.aux2",
+            "XXH3_128": "0153780626a1c57fcef485bc1c9e2307"
           }
         ]
       }
