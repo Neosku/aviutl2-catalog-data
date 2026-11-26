@@ -53086,7 +53086,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/SceneTransitions.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 155,
     "trend": 21,
     "licenses": [
@@ -53348,6 +53348,16 @@
             "XXH3_128": "a9e4ff4600a18aa8900b3d91058b77a2"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/@SceneTransitions.scn2",
+            "XXH3_128": "538810b0379011fc1f0a6bed5045a7f1"
+          }
+        ]
       }
     ]
   },
@@ -53359,7 +53369,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/ShapeDistort_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 227,
     "trend": 41,
     "licenses": [
@@ -53627,6 +53637,16 @@
             "XXH3_128": "5d39698fb06424076fd7804ab21b4020"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/@ShapeDistort_H.anm2",
+            "XXH3_128": "5d39698fb06424076fd7804ab21b4020"
+          }
+        ]
       }
     ]
   },
@@ -53638,7 +53658,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 103,
     "trend": 11,
     "licenses": [
@@ -53911,6 +53931,16 @@
             "XXH3_128": "a1eb6443841e3c8deb34529ef766f7f6"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/@キーイング_H.anm2",
+            "XXH3_128": "6693ee4fcf096dcef808e36a5dbc840e"
+          }
+        ]
       }
     ]
   },
@@ -53922,7 +53952,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/Filters%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E4%BD%BF%E7%94%A8%E3%82%AC%E3%82%A4%E3%83%89.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 430,
     "trend": 89,
     "licenses": [
@@ -54220,6 +54250,16 @@
             "XXH3_128": "76ff262648bcd48ad4a3b2d5748d5fa2"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/@Filters_H.anm2",
+            "XXH3_128": "fa2fb6490563b8f0c99a969a09b152df"
+          }
+        ]
       }
     ]
   },
@@ -54231,7 +54271,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E5%85%89%E5%AD%A6%E7%B3%BB%E3%83%9C%E3%82%B1.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 245,
     "trend": 41,
     "licenses": [
@@ -54491,6 +54531,16 @@
             "XXH3_128": "bacab5576619955facce082bd14171fa"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/@光学系ボケ.anm2",
+            "XXH3_128": "1ef79fd6b136a685cfe07345af27748d"
+          }
+        ]
       }
     ]
   },
@@ -54503,7 +54553,7 @@
     "author": "HexBrowns",
     "originalAuthor": "アス",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 190,
     "trend": 21,
     "licenses": [
@@ -54765,6 +54815,16 @@
             "XXH3_128": "365aba7fd5620c73068507bf37f0440a"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/装飾パーティクル_H.anm2",
+            "XXH3_128": "647864f5dd2add2ae1452f6f211dfc61"
+          }
+        ]
       }
     ]
   },
@@ -54776,7 +54836,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E6%A4%9C%E8%A8%BC%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 71,
     "trend": 5,
     "licenses": [
@@ -55035,6 +55095,16 @@
             "XXH3_128": "ada8aae7d791d6a895f7d97992991a2d"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/検証パターン_H.obj2",
+            "XXH3_128": "ada8aae7d791d6a895f7d97992991a2d"
+          }
+        ]
       }
     ]
   },
@@ -55046,7 +55116,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E7%B8%A6%E6%9B%B8%E3%81%8D%E5%8C%96.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 282,
     "trend": 39,
     "licenses": [
@@ -55305,6 +55375,16 @@
             "XXH3_128": "71e188b8b6fe76b21410f1acba5bbc2c"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/テキスト縦書き化.anm2",
+            "XXH3_128": "71e188b8b6fe76b21410f1acba5bbc2c"
+          }
+        ]
       }
     ]
   },
@@ -55316,7 +55396,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%83%AC%E3%83%B3%E3%82%B8%E8%AD%A6%E5%91%8A_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 70,
     "trend": 5,
     "licenses": [
@@ -55575,6 +55655,16 @@
             "XXH3_128": "68489923140a11547534890c69d1411f"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/レンジ警告_H.anm2",
+            "XXH3_128": "68489923140a11547534890c69d1411f"
+          }
+        ]
       }
     ]
   },
@@ -55586,7 +55676,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E6%9E%A0%E5%86%85%E8%87%AA%E5%8B%95%E3%83%95%E3%82%A3%E3%83%83%E3%83%88_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 165,
     "trend": 20,
     "licenses": [
@@ -55845,6 +55935,16 @@
             "XXH3_128": "6248857d48fec2f5f59bd44c9218e572"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/枠内自動フィット_H.obj2",
+            "XXH3_128": "6248857d48fec2f5f59bd44c9218e572"
+          }
+        ]
       }
     ]
   },
@@ -55856,7 +55956,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%82%B0%E3%83%AA%E3%83%83%E3%83%89_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 229,
     "trend": 25,
     "licenses": [
@@ -56120,6 +56220,16 @@
             "XXH3_128": "2f60e9a61ea5dce11cc801b575369e83"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/グリッド_H.obj2",
+            "XXH3_128": "2f60e9a61ea5dce11cc801b575369e83"
+          }
+        ]
       }
     ]
   },
@@ -56131,7 +56241,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E6%89%8B%E6%8C%81%E3%81%A1%E3%82%AB%E3%83%A1%E3%83%A9_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 279,
     "trend": 41,
     "licenses": [
@@ -56393,6 +56503,16 @@
             "XXH3_128": "87874e64d59ad0b269ac40a588b08c54"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/手持ちカメラ_H.cam2",
+            "XXH3_128": "87874e64d59ad0b269ac40a588b08c54"
+          }
+        ]
       }
     ]
   },
@@ -56404,7 +56524,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%83%97%E3%83%AD%E3%82%B7%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%AB%E6%A8%A1%E6%A7%98_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 172,
     "trend": 18,
     "licenses": [
@@ -56873,6 +56993,16 @@
             "XXH3_128": "ba9560f94791d86b31bcad890cba703e"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/プロシージャル模様_H.obj2",
+            "XXH3_128": "ba9560f94791d86b31bcad890cba703e"
+          }
+        ]
       }
     ]
   },
@@ -56884,7 +57014,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E6%B3%A1_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 247,
     "trend": 24,
     "licenses": [
@@ -57146,6 +57276,16 @@
             "XXH3_128": "8542192807790298495c58475b03e624"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/泡_H.obj2",
+            "XXH3_128": "8542192807790298495c58475b03e624"
+          }
+        ]
       }
     ]
   },
@@ -57157,7 +57297,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E5%BE%AE%E7%B2%92%E5%AD%90_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 343,
     "trend": 31,
     "licenses": [
@@ -57419,6 +57559,16 @@
             "XXH3_128": "549bc8d9a081430b9eead620a37b1bec"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/微粒子_H.obj2",
+            "XXH3_128": "549bc8d9a081430b9eead620a37b1bec"
+          }
+        ]
       }
     ]
   },
@@ -57430,7 +57580,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%83%93%E3%83%BC%E3%83%A0%E5%8C%96_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 254,
     "trend": 39,
     "licenses": [
@@ -57697,6 +57847,16 @@
             "XXH3_128": "470d5117c9e25a99511e6c7fd8d8404e"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/ビーム化_H.anm2",
+            "XXH3_128": "470d5117c9e25a99511e6c7fd8d8404e"
+          }
+        ]
       }
     ]
   },
@@ -57708,7 +57868,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E5%85%89%E6%9D%9F_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 207,
     "trend": 31,
     "licenses": [
@@ -57975,6 +58135,16 @@
             "XXH3_128": "8f1571ae545de179cc771b5e50b17fce"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/光束_H.anm2",
+            "XXH3_128": "8f1571ae545de179cc771b5e50b17fce"
+          }
+        ]
       }
     ]
   },
@@ -57986,7 +58156,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%83%AD%E3%83%BC%E3%83%9D%E3%83%AA.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 292,
     "trend": 35,
     "licenses": [
@@ -58269,6 +58439,16 @@
             "XXH3_128": "1f26cc615c4991bbd6313f10fabac561"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/@ローポリ化.anm2",
+            "XXH3_128": "fb6f9d7316f5b994af0b40c4c2bd219b"
+          }
+        ]
       }
     ]
   },
@@ -58280,7 +58460,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E5%85%89%E7%B7%9A%E7%B5%8C%E8%B7%AF_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 175,
     "trend": 12,
     "licenses": [
@@ -58536,6 +58716,16 @@
       {
         "version": "v1.16.0",
         "release_date": "2026-10-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/光線経路_H.obj2",
+            "XXH3_128": "524b3c3a4ed774074e78625857297431"
+          }
+        ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
         "file": [
           {
             "path": "{scriptsDir}/光線経路_H.obj2",
@@ -59179,7 +59369,7 @@
     "author": "HexBrowns",
     "originalAuthor": "rikky",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 357,
     "trend": 63,
     "licenses": [
@@ -59454,6 +59644,16 @@
             "XXH3_128": "3492de9135ad30b2d8c2b9e6fb3a83b4"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/@拡張パーティクル_H.anm2",
+            "XXH3_128": "c466fceae31ae38c9c3902e2737c4510"
+          }
+        ]
       }
     ]
   },
@@ -59681,7 +59881,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E5%B9%B3%E9%9D%A2%E3%83%88%E3%83%A9%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 73,
     "trend": 7,
     "licenses": [
@@ -59903,6 +60103,16 @@
             "XXH3_128": "8cf7702ea04c3db2988c64765f61054c"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/平面トラッキング_H.obj2",
+            "XXH3_128": "8cf7702ea04c3db2988c64765f61054c"
+          }
+        ]
       }
     ]
   },
@@ -59914,7 +60124,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%81%AB%E5%BF%9C%E3%81%98%E3%81%9F%E5%A1%97%E3%82%8A%E3%81%A4%E3%81%B6%E3%81%97_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 77,
     "trend": 10,
     "licenses": [
@@ -60139,6 +60349,16 @@
             "XXH3_128": "a0620a1e89bab66b39cf8dac988ef89f"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/コンテンツに応じた塗りつぶし_H.anm2",
+            "XXH3_128": "a0620a1e89bab66b39cf8dac988ef89f"
+          }
+        ]
       }
     ]
   },
@@ -60150,7 +60370,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E6%8A%BC%E3%81%97%E5%87%BA%E3%81%97_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 154,
     "trend": 26,
     "licenses": [
@@ -60377,6 +60597,16 @@
             "XXH3_128": "7dca4fe799e48fcdec1799ceeecb78d9"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/押し出し_H.anm2",
+            "XXH3_128": "7dca4fe799e48fcdec1799ceeecb78d9"
+          }
+        ]
       }
     ]
   },
@@ -60388,7 +60618,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%AF%E3%83%BC%E3%83%97_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 133,
     "trend": 20,
     "licenses": [
@@ -60610,6 +60840,16 @@
             "XXH3_128": "cc1e3252e52e5fdb593553dcbef12e5e"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/タイムワープ_H.obj2",
+            "XXH3_128": "cc1e3252e52e5fdb593553dcbef12e5e"
+          }
+        ]
       }
     ]
   },
@@ -60621,7 +60861,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 105,
     "trend": 8,
     "licenses": [
@@ -60849,6 +61089,16 @@
             "XXH3_128": "701a8a70e70ba2b126965d599d140c92"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/ボールアクション_H.anm2",
+            "XXH3_128": "701a8a70e70ba2b126965d599d140c92"
+          }
+        ]
       }
     ]
   },
@@ -60860,7 +61110,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 191,
     "trend": 21,
     "licenses": [
@@ -61084,6 +61334,16 @@
             "XXH3_128": "44915e90b53a960083448275d44e62b9"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/コースティクス_H.anm2",
+            "XXH3_128": "b0650ed9473282c7c6098c3293830540"
+          }
+        ]
       }
     ]
   },
@@ -61095,7 +61355,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%83%B3%E3%82%B9_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 150,
     "trend": 18,
     "licenses": [
@@ -61318,6 +61578,16 @@
             "XXH3_128": "2f1706029f05682ce6833ce60543b191"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/カードダンス_H.anm2",
+            "XXH3_128": "2f1706029f05682ce6833ce60543b191"
+          }
+        ]
       }
     ]
   },
@@ -61329,7 +61599,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%83%96%E3%83%A9%E3%83%BC_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 116,
     "trend": 12,
     "licenses": [
@@ -61553,6 +61823,16 @@
             "XXH3_128": "963ffaeb97d193f67994cfd085b6153e"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/ベクトルブラー_H.anm2",
+            "XXH3_128": "963ffaeb97d193f67994cfd085b6153e"
+          }
+        ]
       }
     ]
   },
@@ -61564,7 +61844,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/%E9%9B%BB%E6%B3%A2_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 201,
     "trend": 26,
     "licenses": [
@@ -61785,6 +62065,16 @@
           {
             "path": "{scriptsDir}/電波_H.obj2",
             "XXH3_128": "8fe6ec0ad897169d048adb1353d85344"
+          }
+        ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/電波_H.obj2",
+            "XXH3_128": "b64effb092ed5dd996a752e52e407c64"
           }
         ]
       }
@@ -63563,7 +63853,7 @@
     "description": "https://raw.githubusercontent.com/HexBrowns/HexScript/main/docs/2D%E3%83%A9%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0_H.md",
     "author": "HexBrowns",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 219,
     "trend": 33,
     "licenses": [
@@ -63671,6 +63961,16 @@
             "XXH3_128": "f0f0eaf33df64b948246c1cbb6d25ff9"
           }
         ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/@2Dライティング_H.anm2",
+            "XXH3_128": "f0f0eaf33df64b948246c1cbb6d25ff9"
+          }
+        ]
       }
     ]
   },
@@ -63683,7 +63983,7 @@
     "author": "HexBrowns",
     "originalAuthor": "Nanashi.",
     "repoURL": "https://github.com/HexBrowns/HexScript",
-    "latest-version": "v1.16.0",
+    "latest-version": "v1.17.0",
     "popularity": 61,
     "trend": 12,
     "licenses": [
@@ -63788,6 +64088,16 @@
       {
         "version": "v1.16.0",
         "release_date": "2026-10-18",
+        "file": [
+          {
+            "path": "{scriptsDir}/色空間合成_H.anm2",
+            "XXH3_128": "0229cd0b3ad55d67d1cf9db57a69ad8a"
+          }
+        ]
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2026-11-26",
         "file": [
           {
             "path": "{scriptsDir}/色空間合成_H.anm2",
