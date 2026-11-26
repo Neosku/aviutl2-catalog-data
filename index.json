@@ -67857,5 +67857,70 @@
         ]
       }
     ]
+  },
+  {
+    "id": "OverPulse.Measure_Tool",
+    "name": "ものさしスクリプト",
+    "type": "スクリプト",
+    "summary": "2点間の距離、XYの距離、角度を表示します",
+    "description": "./md/OverPulse.Measure_Tool.md",
+    "author": "OverPulse",
+    "repoURL": "https://overpulse.booth.pm/items/9227034",
+    "latest-version": "v1.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "Unlicense",
+        "isCustom": false,
+        "copyrights": [],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "便利ツール"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/OverPulse.Measure_Tool_thumbnail.png"
+      }
+    ],
+    "installer": {
+      "source": {
+        "booth": "https://booth.pm/downloadables/10307825"
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/ものさしスクリプトv1.0/ものさしスクリプト.obj2",
+          "to": "{scriptsDir}"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/ものさしスクリプト.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{scriptsDir}/ものさしスクリプト.obj2",
+            "XXH3_128": "b1fe27725f58db76b1e1fdfe7b90fc94"
+          }
+        ]
+      }
+    ]
   }
 ]
