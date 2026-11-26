@@ -67760,7 +67760,7 @@
     "description": "./md/tebasaki.AviUtl2PuppetDeformation.md",
     "author": "手羽先工房",
     "repoURL": "https://github.com/tebasaki-bsg/AviUtl2PuppetDeformation",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 82,
     "trend": 86,
     "licenses": [
@@ -67833,6 +67833,16 @@
           {
             "path": "{pluginsDir}/PuppetDeformation.aux2",
             "XXH3_128": "b89cc4056869ad411824184db91ee85e"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{pluginsDir}/PuppetDeformation.aux2",
+            "XXH3_128": "cba59effd792f230720d0ab4b5bb2acf"
           }
         ]
       }
