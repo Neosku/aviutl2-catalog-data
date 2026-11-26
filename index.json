@@ -29863,7 +29863,7 @@
     "description": "./md/naltutyo.sagyouroga-N.md",
     "author": "Nao",
     "repoURL": "https://nao-kid.booth.pm/items/8025601",
-    "latest-version": "v1.1",
+    "latest-version": "v1.2",
     "popularity": 309,
     "trend": 7,
     "licenses": [
@@ -29881,7 +29881,7 @@
     "images": [],
     "installer": {
       "source": {
-        "booth": "https://booth.pm/downloadables/8672555?_gl=1*v8nem2*_ga*MTEwNTQzOTk5MC4xNzY2NjgwNDI1*_ga_RWT2QKJLDC*czE3NzU3Mjc2MjAkbzQyJGcwJHQxNzc1NzI3NjIxJGo1OSRsMCRoMA.."
+        "booth": "https://booth.pm/downloadables/10303733?variation_id=13434378&_gl=1*1ncqmsh*_ga*MTA2ODcyMDk3Mi4xNzUyMDYxNzEy*_ga_RWT2QKJLDC*czE3OTU2NTI3MzckbzE3JGcxJHQxNzk1NjUzMDM2JGo1OSRsMCRoMA.."
       },
       "install": [
         {
@@ -29892,7 +29892,7 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/v1.1/作業ロガーN.aux2",
+          "from": "{tmp}/v1.2/作業ロガーN.aux2",
           "to": "{pluginsDir}"
         }
       ],
@@ -29921,6 +29921,16 @@
           {
             "path": "{pluginsDir}/作業ロガーN.aux2",
             "XXH3_128": "d2ce85c3d421f59b393b4a121e431a17"
+          }
+        ]
+      },
+      {
+        "version": "v1.2",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{pluginsDir}/作業ロガーN.aux2",
+            "XXH3_128": "d40ac602c53698a2ce9f74ab1432811b"
           }
         ]
       }
