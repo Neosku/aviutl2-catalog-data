@@ -2678,7 +2678,7 @@
   },
   {
     "id": "beive60.aviutl2-audio-rec",
-    "latest-version": "v0.4.2",
+    "latest-version": "v0.4.3",
     "checkType": {
       "type": "GitHub",
       "repo": "beive60/aviutl2-audio-rec",
@@ -2687,10 +2687,12 @@
         {
           "extract": "zip",
           "paths": [
-            "Plugin/Beive60/aviutl2_audio_rec.aux2"
+            "Plugin/aviutl2_audio_rec.aux2",
+            "Plugin/aviutl2-audio-rec/audio_rec_cli.exe"
           ],
           "recordPaths": [
-            "{pluginsDir}/Beive60/aviutl2_audio_rec.aux2"
+            "{pluginsDir}/aviutl2_audio_rec.aux2",
+            "{pluginsDir}/aviutl2-audio-rec/audio_rec_cli.exe"
           ]
         }
       ]
