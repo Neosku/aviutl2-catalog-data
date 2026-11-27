@@ -9,7 +9,7 @@ C:\ProgramData\aviutl2\Plugin
 に投げれば使用できます(zip版もPluginフォルダ)。
 
 ▼動作確認
-AviUtl2beta34_setup.exe
+AviUtl ExEdit2 v2.1.19a
 
 ▼機能と使用方法
 AviUtl2での作業時間を自動的に記録・集計するプラグインです。
@@ -37,3 +37,4 @@ AviUtl2での作業時間を自動的に記録・集計するプラグインで�
 ▼更新
 v1.0 公開
 v1.1 音声を鳴らす機能　discord機能を追加
+v1.2 クラッシュバグを修正
