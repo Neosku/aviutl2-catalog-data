@@ -34981,7 +34981,7 @@
     "author": "Beive60",
     "originalAuthor": "Beive60",
     "repoURL": "https://github.com/beive60/aviutl2-audio-rec",
-    "latest-version": "v0.4.2",
+    "latest-version": "v0.4.1",
     "popularity": 217,
     "trend": 16,
     "licenses": [
@@ -35117,16 +35117,6 @@
           {
             "path": "{pluginsDir}/Beive60/aviutl2_audio_rec.aux2",
             "XXH3_128": "b82b5350c139c1ff7499d4e4a21e7f43"
-          }
-        ]
-      },
-      {
-        "version": "v0.4.2",
-        "release_date": "2026-11-27",
-        "file": [
-          {
-            "path": "{pluginsDir}/Beive60/aviutl2_audio_rec.aux2",
-            "XXH3_128": "b3766891bdfccfeadca10bd51be8dfc0"
           }
         ]
       }
@@ -67938,6 +67928,230 @@
           {
             "path": "{scriptsDir}/ものさしスクリプト.obj2",
             "XXH3_128": "b1fe27725f58db76b1e1fdfe7b90fc94"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_TravelTrain",
+    "name": "旅行列車",
+    "type": "フィルタプラグイン",
+    "summary": "到着・乗車・走行・降車・発車の鉄道旅行を描く",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_TravelTrain/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_TravelTrain/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "車窓",
+      "アニメーション"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_TravelTrain_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_TravelTrain",
+          "pattern": "^SYNC_TravelTrain\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_TravelTrain",
+          "to": "{pluginsDir}/SYNC_TravelTrain"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_TravelTrain/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_TravelTrain/SYNC_TravelTrain.auf2",
+            "XXH3_128": "8cc10cea165dc9160e0ca0678055c20b"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Headline",
+    "name": "ヘッドライン演出",
+    "type": "汎用プラグイン",
+    "summary": "高速輪転機を背景に新聞の見出しを次々と表示",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_Headline/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_Headline/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "文字",
+      "アニメーション"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_Headline_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_Headline",
+          "pattern": "^SYNC_Headline\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_Headline",
+          "to": "{pluginsDir}/SYNC_Headline"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_Headline/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_Headline/SYNC_Headline.auf2",
+            "XXH3_128": "ae8f22a3287be7f1a0e287ee1574dffa"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_CoinInsert",
+    "name": "コイン投入演出",
+    "type": "汎用プラグイン",
+    "summary": "投入口に硬貨を入れる動きを生成",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_CoinInsert/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_CoinInsert/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "アニメーション"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_CoinInsert_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_CoinInsert",
+          "pattern": "^SYNC_CoinInsert\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_CoinInsert",
+          "to": "{pluginsDir}/SYNC_CoinInsert"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_CoinInsert/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_CoinInsert/SYNC_CoinInsert.auf2",
+            "XXH3_128": "ab4fd78fe31590d1845274a9d88c59f0"
           }
         ]
       }
