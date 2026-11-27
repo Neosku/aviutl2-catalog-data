@@ -6850,5 +6850,405 @@
         }
       ]
     }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_PhotoShot",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_PhotoShot",
+      "regex": "^SYNC_PhotoShot\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_PhotoShot/SYNC_PhotoShot.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_PhotoShot/SYNC_PhotoShot.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_TV",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_TV",
+      "regex": "^SYNC_TV\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_TV/SYNC_TV.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_TV/SYNC_TV.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Book",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_Book",
+      "regex": "^SYNC_Book\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_Book/SYNC_Book.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_Book/SYNC_Book.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_FireFX",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_FireFX",
+      "regex": "^SYNC_FireFX\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_FireFX/SYNC_FireFX.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_FireFX/SYNC_FireFX.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_SteamFX",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_SteamFX",
+      "regex": "^SYNC_SteamFX\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_SteamFX/SYNC_SteamFX.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_SteamFX/SYNC_SteamFX.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Clock",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_Clock",
+      "regex": "^SYNC_Clock\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_Clock/SYNC_Clock.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_Clock/SYNC_Clock.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_PHONEFX",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_PhoneFX",
+      "regex": "^SYNC_PhoneFX\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_PhoneFX/SYNC_PhoneFX.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_PhoneFX/SYNC_PhoneFX.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_PaperBreak",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_PaperBreak",
+      "regex": "^SYNC_PaperBreak\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_PaperBreak/SYNC_PaperBreak.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_PaperBreak/SYNC_PaperBreak.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_PaperOpen",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_PaperOpen",
+      "regex": "^SYNC_PaperOpen\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_PaperOpen/SYNC_PaperOpen.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_PaperOpen/SYNC_PaperOpen.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_GiftOpen",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_GiftOpen",
+      "regex": "^SYNC_GiftOpen\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_GiftOpen/SYNC_GiftOpen.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_GiftOpen/SYNC_GiftOpen.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Elevator",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_Elevator",
+      "regex": "^SYNC_Elevator\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_Elevator/SYNC_Elevator.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_Elevator/SYNC_Elevator.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Sanpai",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_Sanpai",
+      "regex": "^SYNC_Sanpai\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_Sanpai/SYNC_Sanpai.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_Sanpai/SYNC_Sanpai.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Meter",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_Meter",
+      "regex": "^SYNC_Meter\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_Meter/SYNC_Meter.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_Meter/SYNC_Meter.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Garapon",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_Garapon",
+      "regex": "^SYNC_Garapon\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_Garapon/SYNC_Garapon.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_Garapon/SYNC_Garapon.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_TravelTrain",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_TravelTrain",
+      "regex": "^SYNC_TravelTrain\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_TravelTrain/SYNC_TravelTrain.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_TravelTrain/SYNC_TravelTrain.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Headline",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_Headline",
+      "regex": "^SYNC_Headline\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_Headline/SYNC_Headline.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_Headline/SYNC_Headline.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_CoinInsert",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_CoinInsert",
+      "regex": "^SYNC_CoinInsert\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_CoinInsert/SYNC_CoinInsert.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_CoinInsert/SYNC_CoinInsert.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Calendar",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_Calendar",
+      "regex": "^SYNC_Calendar\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_Calendar/SYNC_Calendar.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_Calendar/SYNC_Calendar.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_SignalLight",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_SignalLight",
+      "regex": "^SYNC_SignalLight\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_SignalLight/SYNC_SignalLight.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_SignalLight/SYNC_SignalLight.auf2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VRAMWIZ.SYNC_StandFan",
+    "latest-version": "v1.0.0",
+    "checkType": {
+      "type": "GitHub",
+      "repo": "vramwiz/SYNC_StandFan",
+      "regex": "^SYNC_StandFan\\.zip$",
+      "hash-calc": [
+        {
+          "extract": "zip",
+          "paths": [
+            "SYNC_StandFan/SYNC_StandFan.auf2"
+          ],
+          "recordPaths": [
+            "{pluginsDir}/SYNC_StandFan/SYNC_StandFan.auf2"
+          ]
+        }
+      ]
+    }
   }
 ]
