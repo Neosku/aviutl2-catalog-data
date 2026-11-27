@@ -34981,7 +34981,7 @@
     "author": "Beive60",
     "originalAuthor": "Beive60",
     "repoURL": "https://github.com/beive60/aviutl2-audio-rec",
-    "latest-version": "v0.4.2",
+    "latest-version": "v0.4.1",
     "popularity": 217,
     "trend": 16,
     "licenses": [
@@ -35117,16 +35117,6 @@
           {
             "path": "{pluginsDir}/Beive60/aviutl2_audio_rec.aux2",
             "XXH3_128": "b82b5350c139c1ff7499d4e4a21e7f43"
-          }
-        ]
-      },
-      {
-        "version": "v0.4.2",
-        "release_date": "2026-11-27",
-        "file": [
-          {
-            "path": "{pluginsDir}/Beive60/aviutl2_audio_rec.aux2",
-            "XXH3_128": "b3766891bdfccfeadca10bd51be8dfc0"
           }
         ]
       }
@@ -67938,6 +67928,455 @@
           {
             "path": "{scriptsDir}/ものさしスクリプト.obj2",
             "XXH3_128": "b1fe27725f58db76b1e1fdfe7b90fc94"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_TravelTrain",
+    "name": "旅行列車",
+    "type": "フィルタプラグイン",
+    "summary": "到着・乗車・走行・降車・発車の鉄道旅行を描く",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_TravelTrain/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_TravelTrain/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "車窓",
+      "アニメーション"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_TravelTrain_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_TravelTrain",
+          "pattern": "^SYNC_TravelTrain\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_TravelTrain",
+          "to": "{pluginsDir}/SYNC_TravelTrain"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_TravelTrain/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_TravelTrain/SYNC_TravelTrain.auf2",
+            "XXH3_128": "8cc10cea165dc9160e0ca0678055c20b"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Headline",
+    "name": "ヘッドライン演出",
+    "type": "汎用プラグイン",
+    "summary": "高速輪転機を背景に新聞の見出しを次々と表示",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_Headline/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_Headline/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "文字",
+      "アニメーション"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_Headline_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_Headline",
+          "pattern": "^SYNC_Headline\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_Headline",
+          "to": "{pluginsDir}/SYNC_Headline"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_Headline/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_Headline/SYNC_Headline.auf2",
+            "XXH3_128": "ae8f22a3287be7f1a0e287ee1574dffa"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_CoinInsert",
+    "name": "コイン投入演出",
+    "type": "汎用プラグイン",
+    "summary": "投入口に硬貨を入れる動きを生成",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_CoinInsert/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_CoinInsert/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "アニメーション"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_CoinInsert_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_CoinInsert",
+          "pattern": "^SYNC_CoinInsert\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_CoinInsert",
+          "to": "{pluginsDir}/SYNC_CoinInsert"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_CoinInsert/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_CoinInsert/SYNC_CoinInsert.auf2",
+            "XXH3_128": "ab4fd78fe31590d1845274a9d88c59f0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Calendar",
+    "name": "カレンダー演出",
+    "type": "汎用プラグイン",
+    "summary": "月めくり・日めくりのカレンダーで時間の流れを演出",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_Calendar/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_Calendar/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "アニメーション"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_Calendar_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_Calendar",
+          "pattern": "^SYNC_Calendar\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_Calendar",
+          "to": "{pluginsDir}/SYNC_Calendar"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_Calendar"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_Calendar/SYNC_Calendar.auf2",
+            "XXH3_128": "c5d0f11cd4df2bc79cc612f8e4fb124c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_SignalLight",
+    "name": "交通信号",
+    "type": "フィルタプラグイン",
+    "summary": "車両用・歩行者用の信号機を描画し、点灯を切り替える",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_SignalLight/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_SignalLight/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "エフェクト",
+      "カスタムオブジェクト"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_SignalLight_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_SignalLight",
+          "pattern": "^SYNC_SignalLight\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_SignalLight",
+          "to": "{pluginsDir}/SYNC_SignalLight"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_SignalLight/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_SignalLight/SYNC_SignalLight.auf2",
+            "XXH3_128": "79aec228f8f62858c6334d12c52f876d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_StandFan",
+    "name": "扇風機",
+    "type": "汎用プラグイン",
+    "summary": "3D扇風機を描画し、回転や首振りを演出",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_StandFan/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_StandFan/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "カスタムオブジェクト",
+      "立体",
+      "アニメーション"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_StandFan_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_StandFan",
+          "pattern": "^SYNC_StandFan\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_StandFan",
+          "to": "{pluginsDir}/SYNC_StandFan"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_StandFan"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_StandFan/SYNC_StandFan.auf2",
+            "XXH3_128": "a2e1d67235d51482a510b550304ee957"
           }
         ]
       }
