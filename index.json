@@ -68163,5 +68163,769 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_TV",
+    "name": "テレビ演出",
+    "type": "フィルタプラグイン",
+    "summary": "ニュース・天気予報・スポーツ中継など11種類の架空のテレビ番組を生成",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_TV/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_TV/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      },
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2025",
+            "holder": "Kenkun"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "テレビ",
+      "チャンネル切替"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_TV_thumbnail.gif",
+        "infoImg": [
+          "https://raw.githubusercontent.com/vramwiz/SYNC_TV/main/Sample/TV_Programs.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_TV",
+          "pattern": "^SYNC_TV\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_TV",
+          "to": "{pluginsDir}/SYNC_TV"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_TV/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_TV/SYNC_TV.auf2",
+            "XXH3_128": "07d70e3ce972f191c608f9e38f0aa790"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Book",
+    "name": "本演出",
+    "type": "フィルタプラグイン",
+    "summary": "13種類の本を3Dで描画し、表紙の開閉や6種類のページめくりを演出。",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_Book/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_Book/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "本",
+      "ページめくり",
+      "3DCG"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_Book_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_Book",
+          "pattern": "^SYNC_Book\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_Book",
+          "to": "{pluginsDir}/SYNC_Book"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_Book/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_Book/SYNC_Book.auf2",
+            "XXH3_128": "f7fe4ffff87128b83c052f13d225e506"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_FireFX",
+    "name": "火演出",
+    "type": "フィルタプラグイン",
+    "summary": "12種類のプリセットで炎、煙、火の粉、赤熱を描画する",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_FireFX/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_FireFX/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "炎"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_FireFX_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_FireFX",
+          "pattern": "^SYNC_FireFX\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_FireFX",
+          "to": "{pluginsDir}/SYNC_FireFX"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_FireFX"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_FireFX/SYNC_FireFX.auf2",
+            "XXH3_128": "fc9da8f2f94e14b309e2b46f6e1bcae8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_SteamFX",
+    "name": "湯気演出",
+    "type": "フィルタプラグイン",
+    "summary": "料理、温泉、白い息、蒸気機関車などを演出する32種類の湯気プリセット",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_SteamFX/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_SteamFX/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "蒸気"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_SteamFX_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_SteamFX",
+          "pattern": "^SYNC_SteamFX\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_SteamFX",
+          "to": "{pluginsDir}/SYNC_SteamFX"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_SteamFX"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_SteamFX/SYNC_SteamFX.auf2",
+            "XXH3_128": "e6d5a337b60e659051e164481e678916"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Clock",
+    "name": "時計演出",
+    "type": "フィルタプラグイン",
+    "summary": "22種類の時計をタイムラインに合わせて描画",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_Clock/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_Clock/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "時計",
+      "タイマー"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_Clock_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_Clock",
+          "pattern": "^SYNC_Clock\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_Clock",
+          "to": "{pluginsDir}/SYNC_Clock"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_Clock"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-24",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_Clock/SYNC_Clock.auf2",
+            "XXH3_128": "489dfb113c410367f5218ab36e755c65"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_PHONEFX",
+    "name": "スマホ演出",
+    "type": "フィルタプラグイン",
+    "summary": "電話・通知・アプリ起動など23種類のスマホ画面と効果音",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_PhoneFX/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_PhoneFX/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "スマホ",
+      "通知",
+      "効果音",
+      "アニメーション"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_PHONEFX_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_PhoneFX",
+          "pattern": "^SYNC_PhoneFX\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_PhoneFX",
+          "to": "{pluginsDir}/SYNC_PhoneFX"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_PhoneFX/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_PhoneFX/SYNC_PhoneFX.auf2",
+            "XXH3_128": "43f88e5aee57c81454cf50702a6fc6d3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_PaperBreak",
+    "name": "紙消失",
+    "type": "フィルタプラグイン",
+    "summary": "画像を紙に見立て、破断・折りたたみ・燃焼など9種類の演出で消失させる",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_PaperBreak/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_PaperBreak/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "紙",
+      "トランジション"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_PaperBreak_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_PaperBreak",
+          "pattern": "^SYNC_PaperBreak\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_PaperBreak",
+          "to": "{pluginsDir}/SYNC_PaperBreak"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_PaperBreak/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_PaperBreak/SYNC_PaperBreak.auf2",
+            "XXH3_128": "2a9e28f196857e8d64dab65d96bf489e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_PaperOpen",
+    "name": "開封演出",
+    "type": "フィルタプラグイン",
+    "summary": "封筒から紙を取り出して展開する映像演出。画像を使った12種類",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_PaperOpen/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_PaperOpen/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "紙",
+      "封筒"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_PaperOpen_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_PaperOpen",
+          "pattern": "^SYNC_PaperOpen\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_PaperOpen",
+          "to": "{pluginsDir}/SYNC_PaperOpen"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_PaperOpen/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_PaperOpen/SYNC_PaperOpen.auf2",
+            "XXH3_128": "22ee3eb17d9631bd2634d5a563f84c22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_GiftOpen",
+    "name": "プレゼント開封",
+    "type": "フィルタプラグイン",
+    "summary": "14種類の立体包装から画像を取り出す演出。11種類の演出",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_GiftOpen/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_GiftOpen/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "プレゼント",
+      "3DCG"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_GiftOpen_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_GiftOpen",
+          "pattern": "^SYNC_GiftOpen\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_GiftOpen",
+          "to": "{pluginsDir}/SYNC_GiftOpen"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_GiftOpen/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_GiftOpen/SYNC_GiftOpen.auf2",
+            "XXH3_128": "1416f2b39090ef1aa45363d28775da14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Elevator",
+    "name": "エレベーター演出",
+    "type": "フィルタプラグイン",
+    "summary": "乗り場・かごの内側・かご正面の3場面でエレベーターの昇降と扉の開閉",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_Elevator/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_Elevator/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "エレベーター"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_Elevator_thumbnail.gif"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_Elevator",
+          "pattern": "^SYNC_Elevator\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_Elevator",
+          "to": "{pluginsDir}/SYNC_Elevator"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_Elevator/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-25",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_Elevator/SYNC_Elevator.auf2",
+            "XXH3_128": "bc29db26902dec4054d4a05918e1e35a"
+          }
+        ]
+      }
+    ]
   }
 ]
