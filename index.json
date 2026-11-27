@@ -34981,7 +34981,7 @@
     "author": "Beive60",
     "originalAuthor": "Beive60",
     "repoURL": "https://github.com/beive60/aviutl2-audio-rec",
-    "latest-version": "v0.4.2",
+    "latest-version": "v0.4.3",
     "popularity": 217,
     "trend": 23,
     "licenses": [
@@ -35003,9 +35003,12 @@
     "dependencies": [],
     "images": [
       {
-        "thumbnail": "./image/beive60.aviutl2-audio-rec_thumbnail.png",
+        "thumbnail": "./image/beive60.aviutl2-audio-rec_thumbnail.gif",
         "infoImg": [
-          "./image/beive60.aviutl2-audio-rec_1.png"
+          "./image/beive60.aviutl2-audio-rec_1.png",
+          "./image/beive60.aviutl2-audio-rec_2.gif",
+          "./image/beive60.aviutl2-audio-rec_3.png",
+          "./image/beive60.aviutl2-audio-rec_4.png"
         ]
       }
     ],
@@ -35026,18 +35029,13 @@
         },
         {
           "action": "copy",
-          "from": "{tmp}/Plugin/Beive60/aviutl2_audio_rec.aux2",
-          "to": "{pluginsDir}/Beive60/"
+          "from": "{tmp}/Plugin/aviutl2_audio_rec.aux2",
+          "to": "{pluginsDir}"
         },
         {
           "action": "copy",
-          "from": "{tmp}/README.md",
-          "to": "{pluginsDir}/Beive60/"
-        },
-        {
-          "action": "copy",
-          "from": "{tmp}/audio_rec_cli.exe",
-          "to": "{pluginsDir}/"
+          "from": "{tmp}/Plugin/aviutl2-audio-rec/audio_rec_cli.exe",
+          "to": "{pluginsDir}/aviutl2-audio-rec"
         }
       ],
       "uninstall": [
@@ -35047,15 +35045,7 @@
         },
         {
           "action": "delete",
-          "path": "{pluginsDir}/audio_rec_cli.exe"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/Beive60/README.md"
-        },
-        {
-          "action": "delete",
-          "path": "{pluginsDir}/Beive60/aviutl2_audio_rec.aux2"
+          "path": "{pluginsDir}/aviutl2-audio-rec/audio_rec_cli.exe"
         }
       ]
     },
@@ -35127,6 +35117,20 @@
           {
             "path": "{pluginsDir}/Beive60/aviutl2_audio_rec.aux2",
             "XXH3_128": "b3766891bdfccfeadca10bd51be8dfc0"
+          }
+        ]
+      },
+      {
+        "version": "v0.4.3",
+        "release_date": "2026-11-27",
+        "file": [
+          {
+            "path": "{pluginsDir}/aviutl2_audio_rec.aux2",
+            "XXH3_128": "c30eb6ba52d4f2f20bd2c0918d8b67c9"
+          },
+          {
+            "path": "{pluginsDir}/aviutl2-audio-rec/audio_rec_cli.exe",
+            "XXH3_128": "a17c2af889a4243b729d8931eedbbc76"
           }
         ]
       }
