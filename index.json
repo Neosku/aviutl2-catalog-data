@@ -67932,5 +67932,83 @@
         ]
       }
     ]
+  },
+  {
+    "id": "VRAMWIZ.SYNC_Sanpai",
+    "name": "参拝演出",
+    "type": "フィルタプラグイン",
+    "summary": "賽銭箱・鈴・おみくじを6つの無音シーンで描画",
+    "description": "https://raw.githubusercontent.com/vramwiz/SYNC_Sanpai/refs/heads/main/README.md",
+    "author": "VRAMの魔術師",
+    "repoURL": "https://github.com/vramwiz/SYNC_Sanpai/",
+    "latest-version": "v1.0.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "GPL-3.0",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "VRAMの魔術師"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "tags": [
+      "アニメーション",
+      "背景"
+    ],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/VRAMWIZ.SYNC_Sanpai_thumbnail.gif",
+        "infoImg": [
+          "https://raw.githubusercontent.com/vramwiz/SYNC_Sanpai/refs/tags/v1.0.0/Sample/scenes.png"
+        ]
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "vramwiz",
+          "repo": "SYNC_Sanpai",
+          "pattern": "^SYNC_Sanpai\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/SYNC_Sanpai",
+          "to": "{pluginsDir}/SYNC_Sanpai"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{pluginsDir}/SYNC_Sanpai/"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v1.0.0",
+        "release_date": "2026-11-26",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_Sanpai/SYNC_Sanpai.auf2",
+            "XXH3_128": "f17be42a95905d6cab97e089f11c3af2"
+          }
+        ]
+      }
+    ]
   }
 ]
