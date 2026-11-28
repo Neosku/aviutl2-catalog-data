@@ -105,7 +105,7 @@
   },
   {
     "id": "rigaya.NVEnc",
-    "latest-version": "9.41",
+    "latest-version": "9.42",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/NVEnc",
@@ -125,7 +125,7 @@
   },
   {
     "id": "rigaya.QSVEnc",
-    "latest-version": "8.38",
+    "latest-version": "8.39",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/QSVEnc",
@@ -165,7 +165,7 @@
   },
   {
     "id": "rigaya.VCEEnc",
-    "latest-version": "9.23",
+    "latest-version": "9.24",
     "checkType": {
       "type": "GitHub",
       "repo": "rigaya/VCEEnc",
@@ -6712,7 +6712,7 @@
   },
   {
     "id": "VRAMWIZ.SYNC_Typewriter",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "checkType": {
       "type": "GitHub",
       "repo": "vramwiz/SYNC_Typewriter",

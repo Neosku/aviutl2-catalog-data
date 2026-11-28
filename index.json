@@ -2008,7 +2008,7 @@
     "description": "./md/rigaya.NVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/NVEnc",
-    "latest-version": "9.41",
+    "latest-version": "9.42",
     "popularity": 5092,
     "trend": 1029,
     "licenses": [
@@ -2548,6 +2548,16 @@
             "XXH3_128": "21b641cd628285d2b95252e245ed9d13"
           }
         ]
+      },
+      {
+        "version": "9.42",
+        "release_date": "2026-11-28",
+        "file": [
+          {
+            "path": "{pluginsDir}/NVEnc.auo2",
+            "XXH3_128": "c063d2ff7e5a178a09779fe7cef9e3a2"
+          }
+        ]
       }
     ]
   },
@@ -2559,7 +2569,7 @@
     "description": "./md/rigaya.QSVEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/QSVEnc",
-    "latest-version": "8.38",
+    "latest-version": "8.39",
     "popularity": 948,
     "trend": 192,
     "licenses": [
@@ -3045,6 +3055,16 @@
             "XXH3_128": "89f76e73ccd108937efb18c790186918"
           }
         ]
+      },
+      {
+        "version": "8.39",
+        "release_date": "2026-11-28",
+        "file": [
+          {
+            "path": "{pluginsDir}/QSVEnc.auo2",
+            "XXH3_128": "8bd8e298e6a3741009d8c8c9988c1713"
+          }
+        ]
       }
     ]
   },
@@ -3243,7 +3263,7 @@
     "description": "./md/rigaya.VCEEnc.md",
     "author": "rigaya",
     "repoURL": "https://github.com/rigaya/VCEEnc",
-    "latest-version": "9.23",
+    "latest-version": "9.24",
     "popularity": 837,
     "trend": 189,
     "licenses": [
@@ -3571,6 +3591,16 @@
           {
             "path": "{pluginsDir}/VCEEnc.auo2",
             "XXH3_128": "5911155ee24090b3608f1179e1f63257"
+          }
+        ]
+      },
+      {
+        "version": "9.24",
+        "release_date": "2026-11-28",
+        "file": [
+          {
+            "path": "{pluginsDir}/VCEEnc.auo2",
+            "XXH3_128": "69cbfa131710889b572f598f2880775c"
           }
         ]
       }
@@ -67206,7 +67236,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_Typewriter/refs/heads/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/SYNC_Typewriter/",
-    "latest-version": "v1.0.0",
+    "latest-version": "v1.0.1",
     "popularity": 102,
     "trend": 99,
     "licenses": [
@@ -67269,6 +67299,16 @@
           {
             "path": "{pluginsDir}/SYNC_Typewriter/SYNC_Typewriter.auf2",
             "XXH3_128": "cf5fefa26231f82833b3a6968e093bd2"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2026-11-28",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_Typewriter/SYNC_Typewriter.auf2",
+            "XXH3_128": "8ee4c7722fa49debf6698296aa922626"
           }
         ]
       }
