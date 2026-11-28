@@ -66441,7 +66441,7 @@
     "description": "https://raw.githubusercontent.com/vramwiz/SYNC_AquaFX/refs/heads/main/README.md",
     "author": "VRAMの魔術師",
     "repoURL": "https://github.com/vramwiz/SYNC_AquaFX/",
-    "latest-version": "v1.0.1",
+    "latest-version": "v1.0.2",
     "popularity": 74,
     "trend": 74,
     "licenses": [
@@ -66513,6 +66513,16 @@
           {
             "path": "{pluginsDir}/SYNC_AquaFX/SYNC_AquaFX.auf2",
             "XXH3_128": "a8418f8200bbb48c42d350149185111b"
+          }
+        ]
+      },
+      {
+        "version": "v1.0.2",
+        "release_date": "2026-11-28",
+        "file": [
+          {
+            "path": "{pluginsDir}/SYNC_AquaFX/SYNC_AquaFX.auf2",
+            "XXH3_128": "31747bb4c925c5cbf0b03bfec3ac10dc"
           }
         ]
       }
