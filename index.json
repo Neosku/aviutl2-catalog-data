@@ -69679,5 +69679,169 @@
         ]
       }
     ]
+  },
+  {
+    "id": "osakanamaki.renban-matome",
+    "name": "連番まとめ",
+    "type": "スクリプト",
+    "summary": "複数の連番画像を1つにまとめ、値で一括して切り替える",
+    "description": "https://raw.githubusercontent.com/osakanamaki/renban-matome/main/README.md",
+    "author": "osakanamaki",
+    "repoURL": "https://github.com/osakanamaki/renban-matome",
+    "latest-version": "v0.3.0",
+    "popularity": 0,
+    "trend": 0,
+    "licenses": [
+      {
+        "type": "MIT",
+        "isCustom": false,
+        "copyrights": [
+          {
+            "years": "2026",
+            "holder": "osakanamaki"
+          }
+        ],
+        "licenseBody": null
+      }
+    ],
+    "niconiCommonsId": "nc516522",
+    "tags": [],
+    "dependencies": [],
+    "images": [
+      {
+        "thumbnail": "./image/osakanamaki.renban-matome_thumbnail.webp"
+      }
+    ],
+    "installer": {
+      "source": {
+        "github": {
+          "owner": "osakanamaki",
+          "repo": "renban-matome",
+          "pattern": "^renban-matome-v\\d+\\.\\d+\\.\\d+\\.au2pkg\\.zip$"
+        }
+      },
+      "install": [
+        {
+          "action": "download"
+        },
+        {
+          "action": "extract"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/連番まとめ/LICENSE.txt",
+          "to": "{scriptsDir}/連番まとめ"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/連番まとめ/テキスト数値スロット.anm2",
+          "to": "{scriptsDir}/連番まとめ"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/連番まとめ/静止画スロット.anm2",
+          "to": "{scriptsDir}/連番まとめ"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/連番まとめ/連番スロット.anm2",
+          "to": "{scriptsDir}/連番まとめ"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/連番まとめ/連番スロット（ゲージ）.anm2",
+          "to": "{scriptsDir}/連番まとめ"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/連番まとめ/連番スロット（計算式）.anm2",
+          "to": "{scriptsDir}/連番まとめ"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/連番まとめ/連番スロット（複製並べ）.anm2",
+          "to": "{scriptsDir}/連番まとめ"
+        },
+        {
+          "action": "copy",
+          "from": "{tmp}/Script/連番まとめ/連番まとめ（値）.obj2",
+          "to": "{scriptsDir}/連番まとめ"
+        }
+      ],
+      "uninstall": [
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/連番まとめ/LICENSE.txt"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/連番まとめ/テキスト数値スロット.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/連番まとめ/静止画スロット.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/連番まとめ/連番スロット.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/連番まとめ/連番スロット（ゲージ）.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/連番まとめ/連番スロット（計算式）.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/連番まとめ/連番スロット（複製並べ）.anm2"
+        },
+        {
+          "action": "delete",
+          "path": "{scriptsDir}/連番まとめ/連番まとめ（値）.obj2"
+        }
+      ]
+    },
+    "version": [
+      {
+        "version": "v0.3.0",
+        "release_date": "2026-11-28",
+        "file": [
+          {
+            "path": "{scriptsDir}/連番まとめ/LICENSE.txt",
+            "XXH3_128": "8e9b6e6d94c3b221894d0c07876df441"
+          },
+          {
+            "path": "{scriptsDir}/連番まとめ/テキスト数値スロット.anm2",
+            "XXH3_128": "18332e0aae00726723ac8eb14b6a298b"
+          },
+          {
+            "path": "{scriptsDir}/連番まとめ/静止画スロット.anm2",
+            "XXH3_128": "e7c03c4c523a7f4f6c3c6b1fcec5465d"
+          },
+          {
+            "path": "{scriptsDir}/連番まとめ/連番スロット（ゲージ）.anm2",
+            "XXH3_128": "b7a119f11a9b45ca59eace2826238a84"
+          },
+          {
+            "path": "{scriptsDir}/連番まとめ/連番スロット（計算式）.anm2",
+            "XXH3_128": "cf74d3dad74159dd32e8905be8fe735d"
+          },
+          {
+            "path": "{scriptsDir}/連番まとめ/連番スロット（複製並べ）.anm2",
+            "XXH3_128": "5de057b569729740669bdfb856f580cb"
+          },
+          {
+            "path": "{scriptsDir}/連番まとめ/連番スロット.anm2",
+            "XXH3_128": "8a9946a1f98ea262ba3ef8516674f7b8"
+          },
+          {
+            "path": "{scriptsDir}/連番まとめ/連番まとめ（値）.obj2",
+            "XXH3_128": "cda03a05d0a730a9367675a43be1ddec"
+          }
+        ]
+      }
+    ]
   }
 ]
